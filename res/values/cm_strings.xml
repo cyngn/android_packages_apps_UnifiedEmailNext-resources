@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+	<string name="mailbox_list_account_selector_combined_view">Combined</string>
+    <!-- Menu item: Select all conversations -->
+	<string name="menu_select_all">Select all</string>
+	<string name="menu_actiongrid">ActionGrid</string>
+    <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+	<string name="remove_account">Remove account</string>
+    <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+	<string name="support">Support</string>
+    <!-- Delete account -->
+	<string name="delete_account_title">Delete account</string>
+	<string name="delete_account_summary">Delete this account and all its settings and data</string>
+	<string name="delete_account_confirmation_msg">This will delete all the settings and the emails of the account <xliff:g id="account">%s</xliff:g>. This operation cannot be undone.\n\nContinue?</string>
+	<string name="deleting_account_msg">Deleting accountu2026</string>
+	<string name="delete_account_failed">Couldn\'t delete the account</string>
+    <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+	<string name="open_attachment">Open</string>
+    <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+	<string name="install_attachment">Install</string>
+    <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+	<string name="menu_photo_print">Print</string>
+    <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+	<string name="contextmenu_view_image">View image</string>
+    <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+    <plurals name="to_header">
+        <item quantity="one"> &amp; %d other</item>
+        <item quantity="other">&amp; %d others</item>
+    </plurals>
+    <plurals name="conversation_todo">
+        <!-- Displayed while setting one conversation to-do -->
+        <item quantity="one">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> marked as to-do.</item>
+        <!-- Displayed while archiving multiple conversations -->
+        <item quantity="other">&lt;b><xliff:g id="count">%1$d</xliff:g>&lt;/b> marked as to-do.</item>
+    </plurals>
+    <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+	<string name="reported_as_spam">Reported as spam</string>
+    <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+	<string name="new_incoming_messages_one">Show new message from <xliff:g id="sender">%s</xliff:g>.</string>
+    <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Show <xliff:g id="count">%1$d</xliff:g> new messages.</item>
+    </plurals>
+    <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+	<string name="edit">Edit</string>
+    <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+	<string name="folder_search_hint">Search</string>
+    <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+    <string-array name="moveto_folder_sections">
+        <item>Smart Folders</item>
+        <item>All Folders</item>
+    </string-array>
+    <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+    <string-array name="change_folders_sections">
+        <item>Smart Labels</item>
+        <item>All Labels</item>
+    </string-array>
+    <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+	<string name="boxes_heading">Boxes</string>
+    <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+	<string name="all_folders_heading">Folders</string>
+    <!-- String used in the FolderListFragment to mark the start of accounts -->
+	<string name="accounts_heading">Accounts</string>
+    <!-- Default email signature on vendor builds -->
+	<string name="vendor_signature">Sent using Cyanogen</string>
+    <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+	<string name="notification_action_mark_read">Mark read</string>
+    <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+    <plurals name="new_messages">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> new message</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> new messages</item>
+    </plurals>
+    <!--  Settings screen, Swipe actions preference title -->
+	<string name="preferences_swipe_actions_title">Swipe actions</string>
+    <!--  Settings screen, Swipe actions preference summary -->
+	<string name="preferences_swipe_actions_summary">Customize left and right swipe actions</string>
+    <!--  Settings screen, Swipe actions, Left short preference title -->
+	<string name="preferences_swipe_left_short_title">Left short swipe</string>
+    <!--  Settings screen, Swipe actions, Left long preference title -->
+	<string name="preferences_swipe_left_long_title">Left long swipe</string>
+    <!--  Settings screen, Swipe actions, Right short preference title -->
+	<string name="preferences_swipe_right_short_title">Right short swipe</string>
+    <!--  Settings screen, Swipe actions, Right long preference title -->
+	<string name="preferences_swipe_right_long_title">Right long swipe</string>
+    <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+	<string name="print">Print</string>
+    <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+    <plurals name="num_messages">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> message</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> messages</item>
+    </plurals>
+    <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+	<string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> at <xliff:g id="time">%2$s</xliff:g></string>
+    <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+	<string name="draft_to_heading">Draft To:u0020</string>
+    <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+	<string name="draft_heading">Draft</string>
+    <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+	<string name="quoted_text_hidden_print">Quoted text hidden</string>
+    <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+    <plurals name="num_attachments">
+        <item quantity="one"><xliff:g id="count">%1$d</xliff:g> attachment</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> attachments</item>
+    </plurals>
+    <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+	<string name="no_subject">(no subject)</string>
+
+	<string name="action_grid_select_quick_response">Select quick response</string>
+	<string name="action_grid_todo_dialog_title">Details</string>
+	<string name="action_grid_set_due_date">Set due date</string>
+	<string name="action_grid_due">Due: <xliff:g id="datestring">%s</xliff:g></string>
+	<string name="action_grid_add_priority">Add priority</string>
+	<string name="action_grid_priority">"Priority: "</string>
+	<string name="action_grid_add_assignee">Add assignee</string>
+	<string name="action_grid_assignee">"Assignee: "</string>
+	<string name="action_grid_due_date_dialog_title">Set due date</string>
+	<string name="action_grid_due_date_today">Today</string>
+	<string name="action_grid_due_date_tomorrow">Tomorrow</string>
+	<string name="action_grid_due_date_this_week">This week</string>
+	<string name="action_grid_due_date_next_week">Next week</string>
+	<string name="action_grid_due_date_specific_date">Specific date</string>
+	<string name="action_grid_calendar_picker_dialog_title">Set due date</string>
+	<string name="action_grid_priority_dialog_title">Add priority</string>
+	<string name="action_grid_priority_highest">Highest priority</string>
+	<string name="action_grid_priority_high">High priority</string>
+	<string name="action_grid_priority_normal">Normal priority</string>
+	<string name="action_grid_priority_low">Low priority</string>
+	<string name="action_grid_priority_lowest">Lowest priority</string>
+	<string name="action_grid_assignee_dialog_title">Add assignee</string>
+	<string name="action_grid_assignee_select_from_contacts">Select from contacts</string>
+	<string name="action_grid_assignee_search_for_contact">Search for contact</string>
+	<string name="action_grid_assignee_button_bar_clear">Clear</string>
+
+    <!-- Prompt used if you are trying to delete a message -->
+	<string name="action_message_header_delete">Delete this message?</string>
+
+    <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+	<string name="action_like">Like</string>
+	<string name="action_todo">To-do</string>
+	<string name="action_quick">Quick</string>
+	<string name="action_move">Move</string>
+	<string name="action_label">Label</string>
+	<string name="action_move_or_label">Move/Label</string>
+	<string name="action_archive">Archive</string>
+	<string name="action_delete">Delete</string>
+	<string name="action_spam">Spam</string>
+	<string name="action_evernote" translatable="false">Evernote</string>
+	<string name="action_flag">Flag</string>
+	<string name="action_clear_flag">Clear flag</string>
+	<string name="action_star">Star</string>
+	<string name="action_clear_star">Clear star</string>
+	<string name="action_star_or_flag">Star/Flag</string>
+	<string name="action_mark_unread">Mark unread</string>
+	<string name="action_mark_read">Mark read</string>
+	<string name="action_read_or_unread">Read/Unread</string>
+	<string name="action_actions">Actions</string>
+
+    <!-- These strings are shown in Toast messages when an Action above is selected -->
+	<string name="marked_evernote">Sent to Evernote</string>
+	<string name="marked_liked">Marked as liked</string>
+	<string name="marked_archived">Marked for archive</string>
+	<string name="marked_deleted">Marked for deletion</string>
+	<string name="marked_spam">Moved to spam</string>
+	<string name="marked_todo">Marked as to-do</string>
+	<string name="marked_done">Marked as done</string>
+
+    <plurals name="quick_response_sent">
+        <!-- Quick respond to 1 conversation -->
+        <item quantity="one">Response sent</item>
+        <!-- Quick respond to several conversations -->
+        <item quantity="other">Responses sent</item>
+    </plurals>
+    <plurals name="liked_message">
+        <!-- Like 1 conversation -->
+        <item quantity="one">Message liked</item>
+        <!-- Like several conversations -->
+        <item quantity="other">Messages liked</item>
+    </plurals>
+	<string name="invalid_selection">Invalid Selection</string>
+	<string name="file_action_more_than_one_account">You have selected conversations from more than one account. Try only selecting conversations from one account.</string>
+	<string name="evernote_action_more_than_one_conversation">The Evernote functionality only supports one conversation at a time. Try selecting only one conversation.</string>
+	<string name="not_installed">Not Installed</string>
+	<string name="evernote_not_installed">Evernote does not appear to be installed. Please install in order to use this functionality.</string>
+
+	<string name="custom_mailbox_button">Add custom box</string>
+	<string name="custom_mailbox_settings_label">Settings</string>
+	<string name="custom_mailbox_folder_name_hint">Custom box name</string>
+	<string name="custom_mailbox_background_sync_label">Background sync</string>
+	<string name="custom_mailbox_background_sync_switch_on">On</string>
+	<string name="custom_mailbox_background_sync_switch_off">Off</string>
+	<string name="custom_mailbox_delete_box">Delete box</string>
+	<string name="custom_mailbox_error_no_selected_folders">Please select at least one folder from the list below</string>
+    <!-- Title for confirm delete box dialog -->
+	<string name="custom_mailbox_delete_box_dialog_title">Warning</string>
+	<string name="custom_mailbox_delete_box_dialog_message">Are you sure you would like to delete this custom box?</string>
+	<string name="custom_mailbox_error_deleting_box">There was an error while deleting your custom mailbox</string>
+
+    <!-- Ratings Viral Prompt -->
+	<string name="viral_prompt_rate_app_title">Rate this app</string>
+	<string name="viral_prompt_rate_app_body">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+	<string name="viral_ratings_prompt_remind_me_later">Remind Me Later</string>
+	<string name="viral_ratings_prompt_no_thanks">No Thanks</string>
+	<string name="viral_ratings_prompt_rate_now">Rate Now</string>
+	<string name="promo_code_title_text">Don\'t fight your inbox alone</string>
+	<string name="promo_code_edittext_hint">Enter promo code</string>
+	<string name="promo_code_button_text">Submit</string>
+	<string name="promo_code_error_no_code_entered">Please enter a promo code before pressing submit</string>
+	<string name="promo_code_error_invalid_code">Invalid promo code</string>
+	<string name="promo_code_dialog_title">Features unlocked</string>
+	<string name="promo_code_dialog_message">You have successfully unlocked <xliff:g id="features">%s</xliff:g></string>
+	<string name="promo_code_dialog_generic_success_msg">Promo code successfully applied</string>
+	<string name="promo_code_progress_dialog_validating">Validating promo code</string>
+	<string name="rage_shake_title">Shake detected</string>
+	<string name="rage_shake_message">Would you like to crash the app to submit debugging information?</string>
+	<string name="actions_dialog_title">Customize</string>
+	<string name="actions_dialog_message">Do you use folders regularly? Often mark as Spam? Love to clip to Evernote?\n\nWith customized swipe actions you can set any of these gestures to fit your workflow.\n</string>
+	<string name="actions_dialog_positive_button_text">Customize swipes</string>
+	<string name="actions_dialog_negative_button_text">Close</string>
+</resources>
