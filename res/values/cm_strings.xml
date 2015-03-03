@@ -64,13 +64,13 @@
     <string name="folder_search_hint">Search</string>
     <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
     <string-array name="moveto_folder_sections">
-        <item>Smart Folders</item>
-        <item>All Folders</item>
+        <item>Smart folders</item>
+        <item>All folders</item>
     </string-array>
     <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
     <string-array name="change_folders_sections">
-        <item>Smart Labels</item>
-        <item>All Labels</item>
+        <item>Smart labels</item>
+        <item>All labels</item>
     </string-array>
     <!-- String used in the FolderListFragment to mark the start of "boxes" -->
     <string name="boxes_heading">Boxes</string>
@@ -109,7 +109,7 @@
     <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
     <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> at <xliff:g id="time">%2$s</xliff:g></string>
     <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
-    <string name="draft_to_heading">Draft To:u0020</string>
+    <string name="draft_to_heading">Draft to:\u0020</string>
     <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
     <string name="draft_heading">Draft</string>
     <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
@@ -127,9 +127,9 @@
     <string name="action_grid_set_due_date">Set due date</string>
     <string name="action_grid_due">Due: <xliff:g id="datestring">%s</xliff:g></string>
     <string name="action_grid_add_priority">Add priority</string>
-    <string name="action_grid_priority">"Priority: "</string>
+    <string name="action_grid_priority">Priority:\u0020</string>
     <string name="action_grid_add_assignee">Add assignee</string>
-    <string name="action_grid_assignee">"Assignee: "</string>
+    <string name="action_grid_assignee">Assignee:\u0020</string>
     <string name="action_grid_due_date_dialog_title">Set due date</string>
     <string name="action_grid_due_date_today">Today</string>
     <string name="action_grid_due_date_tomorrow">Tomorrow</string>
@@ -193,10 +193,10 @@
         <!-- Like several conversations -->
         <item quantity="other">Messages liked</item>
     </plurals>
-    <string name="invalid_selection">Invalid Selection</string>
+    <string name="invalid_selection">Invalid selection</string>
     <string name="file_action_more_than_one_account">You have selected conversations from more than one account. Try only selecting conversations from one account.</string>
     <string name="evernote_action_more_than_one_conversation">The Evernote functionality only supports one conversation at a time. Try selecting only one conversation.</string>
-    <string name="not_installed">Not Installed</string>
+    <string name="not_installed">Not installed</string>
     <string name="evernote_not_installed">Evernote does not appear to be installed. Please install in order to use this functionality.</string>
 
     <string name="custom_mailbox_button">Add custom box</string>
@@ -215,9 +215,9 @@
     <!-- Ratings Viral Prompt -->
     <string name="viral_prompt_rate_app_title">Rate this app</string>
     <string name="viral_prompt_rate_app_body">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
-    <string name="viral_ratings_prompt_remind_me_later">Remind Me Later</string>
-    <string name="viral_ratings_prompt_no_thanks">No Thanks</string>
-    <string name="viral_ratings_prompt_rate_now">Rate Now</string>
+    <string name="viral_ratings_prompt_remind_me_later">Remind me later</string>
+    <string name="viral_ratings_prompt_no_thanks">No thanks</string>
+    <string name="viral_ratings_prompt_rate_now">Rate now</string>
     <string name="promo_code_title_text">Don\'t fight your inbox alone</string>
     <string name="promo_code_edittext_hint">Enter promo code</string>
     <string name="promo_code_button_text">Submit</string>
