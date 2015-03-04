@@ -266,7 +266,7 @@
     <!-- Browse list item strings -->
     <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
-    <string name="num_selected"><xliff:g id="number" example="7">%d</xliff:g></string>
+    <string name="num_selected" translatable="false"><xliff:g id="number" example="7">%d</xliff:g></string>
     <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
     <plurals name="move_conversation">
         <!-- Move 1 conversation -->
@@ -558,7 +558,7 @@
     <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
     <string name="search_hint">Search mail</string>
     <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
-    <string name="search_results_loaded"><xliff:g id="searchCount">%1$d</xliff:g></string>
+    <string name="search_results_loaded" translatable="false"><xliff:g id="searchCount">%1$d</xliff:g></string>
 
     <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
     <string name="network_error">No connection</string>
@@ -568,7 +568,7 @@
     <string name="load_more">Load more</string>
 
     <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
-    <string name="load_attachment">@string/load_more</string>
+    <string name="load_attachment" translatable="false">@string/load_more</string>
 
     <!-- Shortcut strings -->
     <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
