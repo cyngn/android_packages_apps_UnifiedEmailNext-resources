@@ -79,7 +79,7 @@
     <!-- String used in the FolderListFragment to mark the start of accounts -->
     <string name="accounts_heading">Accounts</string>
     <!-- Default email signature on vendor builds -->
-    <string name="vendor_signature">Sent using Cyanogen</string>
+    <string name="vendor_signature">Sent from my Cyanogen phone</string>
     <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
     <string name="notification_action_mark_read">Mark read</string>
     <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
@@ -207,6 +207,7 @@
     <string name="custom_mailbox_background_sync_switch_off">Off</string>
     <string name="custom_mailbox_delete_box">Delete box</string>
     <string name="custom_mailbox_error_no_selected_folders">Please select at least one folder from the list below</string>
+
     <!-- Title for confirm delete box dialog -->
     <string name="custom_mailbox_delete_box_dialog_title">Warning</string>
     <string name="custom_mailbox_delete_box_dialog_message">Are you sure you would like to delete this custom box?</string>
@@ -233,4 +234,13 @@
     <string name="actions_dialog_message">Do you use folders regularly? Often mark as Spam? Love to clip to Evernote?\n\nWith customized swipe actions you can set any of these gestures to fit your workflow.\n</string>
     <string name="actions_dialog_positive_button_text">Customize swipes</string>
     <string name="actions_dialog_negative_button_text">Close</string>
+
+    <!-- Account Setup -->
+    <string name="account_setup_heading_email_instruction">Enter your email address to get started</string>
+    <string name="account_setup_heading_password_instruction">Enter your password</string>
+    <string name="account_setup_start_cm_email_hint" translatable="false">username@email.com</string>
+
+    <!-- Like Feature -->
+    <string name="like_action_dialog_tittle">What's Like?</string>
+    <string name="like_action_dialog_message">You found our favorite feature. When you \'Like\' a message, an email will be sent letting the sender and other recipients know you like it. It\'s the fastest way to respond to email yet.</string>
 </resources>
