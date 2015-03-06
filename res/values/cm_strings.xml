@@ -56,6 +56,7 @@
     <string name="new_incoming_messages_one">Show new message from <xliff:g id="sender">%s</xliff:g>.</string>
     <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
     <plurals name="new_incoming_messages_many">
+        <item quantity="one">Show <xliff:g id="count">%1$d</xliff:g> new message.</item>
         <item quantity="other">Show <xliff:g id="count">%1$d</xliff:g> new messages.</item>
     </plurals>
     <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
