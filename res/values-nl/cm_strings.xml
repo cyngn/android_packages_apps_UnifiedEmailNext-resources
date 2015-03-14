@@ -41,8 +41,8 @@
   <string name="reported_as_spam">Gemarkeerd als spam</string>
   <string name="new_incoming_messages_one">Nieuw bericht van <xliff:g id="SENDER">%s</xliff:g>. Tonen.</string>
   <plurals name="new_incoming_messages_many">
-    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> nieuwe berichten. Weergeven.</item>
-    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> nieuwe berichten. Weergeven.</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nieuw bericht. Weergeven.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nieuwe berichten. Weergeven.</item>
   </plurals>
   <string name="edit">Bewerken</string>
   <string name="folder_search_hint">Zoeken</string>

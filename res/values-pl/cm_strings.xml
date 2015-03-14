@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Połączony</string>
   <string name="menu_select_all">Wybierz wszystkie</string>
+  <string name="menu_actiongrid">Układ siatki</string>
   <string name="remove_account">Usuń konto</string>
   <string name="support">Wsparcie</string>
   <string name="delete_account_title">Usuń konto</string>
@@ -31,6 +32,11 @@
   <string name="contextmenu_view_image">Wyświetl obraz</string>
   <string name="reported_as_spam">Zgłoszone jako spam</string>
   <string name="new_incoming_messages_one">Pokaż nową wiadomość od <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Pokaż <xliff:g id="count">%1$d</xliff:g> nową wiadomość.</item>
+    <item quantity="few">Pokaż <xliff:g id="count">%1$d</xliff:g> nowe wiadomości.</item>
+    <item quantity="other">Pokaż <xliff:g id="count">%1$d</xliff:g> nowe wiadomości.</item>
+  </plurals>
   <string name="edit">Edytuj</string>
   <string name="folder_search_hint">Szukaj</string>
   <string-array name="moveto_folder_sections">
@@ -44,6 +50,7 @@
   <string name="boxes_heading">Skrzynki</string>
   <string name="all_folders_heading">Foldery</string>
   <string name="accounts_heading">Konta</string>
+  <string name="vendor_signature">Wysłane z mojego telefonu Cyanogen</string>
   <string name="notification_action_mark_read">Oznacz jako przeczytane</string>
   <string name="preferences_swipe_actions_title">Akcje przesunięcia</string>
   <string name="preferences_swipe_actions_summary">Modyfikowanie akcji przesunięcia palcem w lewo i w prawo</string>
@@ -53,30 +60,40 @@
   <string name="preferences_swipe_right_long_title">Długie przesunięcie w prawo</string>
   <string name="print">Drukuj</string>
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> w <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_heading">Wersja robocza</string>
   <string name="quoted_text_hidden_print">Cytowany tekst został ukryty</string>
   <string name="no_subject">(brak tematu)</string>
   <string name="action_grid_select_quick_response">Wybierz szybką odpowiedź</string>
   <string name="action_grid_todo_dialog_title">Szczegóły</string>
+  <string name="action_grid_set_due_date">Ustaw datę ważności</string>
+  <string name="action_grid_due">Data ważności: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Dodaj priorytet</string>
+  <string name="action_grid_priority">Priorytet:\u0020</string>
+  <string name="action_grid_assignee">Podpis:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Ustaw datę ważności</string>
   <string name="action_grid_due_date_today">Dziś</string>
   <string name="action_grid_due_date_tomorrow">Jutro</string>
   <string name="action_grid_due_date_this_week">W tym tygodniu</string>
   <string name="action_grid_due_date_next_week">W następnym tygodniu</string>
   <string name="action_grid_due_date_specific_date">Konkretna data</string>
+  <string name="action_grid_calendar_picker_dialog_title">Ustaw datę ważności</string>
   <string name="action_grid_priority_dialog_title">Dodaj priorytet</string>
   <string name="action_grid_priority_highest">Najwyższy priorytet</string>
   <string name="action_grid_priority_high">Wysoki priorytet</string>
   <string name="action_grid_priority_normal">Normalny priorytet</string>
   <string name="action_grid_priority_low">Niski priorytet</string>
   <string name="action_grid_priority_lowest">Najniższy priorytet</string>
+  <string name="action_grid_assignee_dialog_title">Dodaj podpis</string>
   <string name="action_grid_assignee_select_from_contacts">Wybierz z kontaktów</string>
   <string name="action_grid_assignee_search_for_contact">Wyszukaj kontakt</string>
   <string name="action_grid_assignee_button_bar_clear">Wyczyść</string>
   <string name="action_message_header_delete">Usunąć tę wiadomość?</string>
+  <string name="action_like">Lubię</string>
   <string name="action_todo">Do zrobienia</string>
   <string name="action_quick">Szybkie</string>
   <string name="action_move">Przenieś</string>
   <string name="action_label">Etykieta</string>
+  <string name="action_move_or_label">Przenieś/etykiety</string>
   <string name="action_archive">Archiwizuj</string>
   <string name="action_delete">Usuń</string>
   <string name="action_spam">Spam</string>
@@ -90,11 +107,25 @@
   <string name="action_read_or_unread">Przeczytany/Nieprzeczytany</string>
   <string name="action_actions">Akcje</string>
   <string name="marked_evernote">Wysłano do Evernote</string>
+  <string name="marked_liked">Oznaczone jako polubione</string>
   <string name="marked_archived">Oznaczone do archiwizacji</string>
   <string name="marked_deleted">Oznaczone do usunięcia</string>
   <string name="marked_spam">Przeniesione do spamu</string>
   <string name="marked_todo">Oznaczone jako do zrobienia</string>
+  <string name="marked_done">Oznaczono jako skończone</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Odpowiedź została wysłana</item>
+    <item quantity="few">Odpowiedzi zostały wysłane</item>
+    <item quantity="other">Odpowiedzi zostały wysłane</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Wiadomość została polubiona</item>
+    <item quantity="few">Wiadomości zostały polubione</item>
+    <item quantity="other">Wiadomości zostały polubione</item>
+  </plurals>
+  <string name="invalid_selection">Niepoprawny wybór</string>
   <string name="file_action_more_than_one_account">Wybrano konwersacje z więcej niż jednego konta. Spróbuj wybrać konwersacje z tylko jednego konta.</string>
+  <string name="evernote_action_more_than_one_conversation">Funkcja Evernote obsługuje tylko jedną konwersację na raz. Spróbuj wybrać tylko jedną konwersację.</string>
   <string name="not_installed">Nie zainstalowano</string>
   <string name="evernote_not_installed">Evernote nie jest zainstalowany. Proszę o instalację w celu użycia tej funkcji.</string>
   <string name="custom_mailbox_button">Dodaj niestandardową skrzynkę</string>
@@ -105,6 +136,7 @@
   <string name="custom_mailbox_background_sync_switch_off">Wyłączona</string>
   <string name="custom_mailbox_delete_box">Usuń skrzynkę</string>
   <string name="custom_mailbox_error_no_selected_folders">Proszę wybrać przynajmniej jeden folder z poniższej listy</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Ostrzeżenie</string>
   <string name="custom_mailbox_delete_box_dialog_message">Czy na pewno chcesz usunąć tę niestandardową skrzynkę?</string>
   <string name="custom_mailbox_error_deleting_box">Wystąpił błąd podczas usuwania niestandardowej skrzynki</string>
   <string name="viral_prompt_rate_app_title">Oceń tę aplikację</string>
@@ -112,15 +144,23 @@
   <string name="viral_ratings_prompt_remind_me_later">Przypomnij mi później</string>
   <string name="viral_ratings_prompt_no_thanks">Nie, dzięki</string>
   <string name="viral_ratings_prompt_rate_now">Oceń teraz</string>
+  <string name="promo_code_title_text">Nie walcz sam ze swoją skrzynką odbiorczą</string>
   <string name="promo_code_edittext_hint">Wprowadź kod promocyjny</string>
   <string name="promo_code_button_text">Wyślij</string>
   <string name="promo_code_error_no_code_entered">Proszę wprowadzić kod promocyjny przed wciśnięciem wyślij</string>
   <string name="promo_code_error_invalid_code">Nieprawidłowy kod promocyjny</string>
   <string name="promo_code_dialog_title">Funkcje zostały odblokowane</string>
   <string name="promo_code_dialog_message">Pomyślnie zostały odblokowane <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Kod promocyjny został zastosowany z powodzeniem</string>
   <string name="promo_code_progress_dialog_validating">Sprawdzanie poprawności kodu promocyjnego</string>
   <string name="rage_shake_title">Wstrząśnięcie zostało wykryte</string>
+  <string name="rage_shake_message">Czy chcesz doprowadzić do awarii aplikacji, aby wysłać informacje o debugowaniu?</string>
   <string name="actions_dialog_title">Dostosuj</string>
+  <string name="actions_dialog_message">Często używasz folderów? Często oznaczasz wiadomości jako Spam? Lubisz Evernote?\n\nDzięki modyfikacji akcji przesunięcia możesz ustawić każdy z tych gestów tak, aby odpowiadał jak najbardziej twojej pracy.\n</string>
   <string name="actions_dialog_positive_button_text">Dostosuj akcje przesunięcia</string>
   <string name="actions_dialog_negative_button_text">Zamknij</string>
+  <string name="account_setup_heading_email_instruction">Wpisz swój adres e-mail, aby zacząć</string>
+  <string name="account_setup_heading_password_instruction">Wpisz swoje hasło</string>
+  <string name="like_action_dialog_tittle">Co Lubisz ?</string>
+  <string name="like_action_dialog_message">Udało ci się znaleźć naszą ulubioną funkcję. Kiedy \"Lubisz\" wiadomość, wysłany e-mail pokaże innym odbiorcom, że ją lubisz. Obecnie jest to najszybsza możliwość odpowiedzi na e-mail.</string>
 </resources>

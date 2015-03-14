@@ -30,11 +30,20 @@
   <string name="install_attachment">Installa</string>
   <string name="menu_photo_print">Stampa</string>
   <string name="contextmenu_view_image">Visualizza immagine</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d altro</item>
+    <item quantity="other">&amp; %d altri</item>
+  </plurals>
   <plurals name="conversation_todo">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; segnato come da fare.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; segnato come da fare.</item>
   </plurals>
   <string name="reported_as_spam">Segnalato come spam</string>
+  <string name="new_incoming_messages_one">Mostra nuovo messaggio da <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Mostra <xliff:g id="count">%1$d</xliff:g> nuovo messaggio.</item>
+    <item quantity="other">Mostra <xliff:g id="count">%1$d</xliff:g> nuovi messaggi.</item>
+  </plurals>
   <string name="edit">Modifica</string>
   <string name="folder_search_hint">Cerca</string>
   <string-array name="moveto_folder_sections">
@@ -48,6 +57,7 @@
   <string name="boxes_heading">Caselle</string>
   <string name="all_folders_heading">Cartelle</string>
   <string name="accounts_heading">Accounts</string>
+  <string name="vendor_signature">Inviato dal mio telefono Cyanogenmod</string>
   <string name="notification_action_mark_read">Segna come letto</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuovo messaggio</item>
@@ -75,6 +85,13 @@
   <string name="no_subject">(senza oggetto)</string>
   <string name="action_grid_select_quick_response">Seleziona risposta rapida</string>
   <string name="action_grid_todo_dialog_title">Dettagli</string>
+  <string name="action_grid_set_due_date">Imposta data di scadenza</string>
+  <string name="action_grid_due">Scadenza: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Aggiungi priorità</string>
+  <string name="action_grid_priority">Priorità:\u0020</string>
+  <string name="action_grid_add_assignee">Aggiungi assegnatario</string>
+  <string name="action_grid_assignee">Assignatario:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Imposta data di scadenza</string>
   <string name="action_grid_due_date_today">Oggi</string>
   <string name="action_grid_due_date_tomorrow">Domani</string>
   <string name="action_grid_due_date_this_week">Questa settimana</string>
@@ -82,11 +99,30 @@
   <string name="action_grid_due_date_specific_date">Data specifica</string>
   <string name="action_grid_calendar_picker_dialog_title">Imposta data di scadenza</string>
   <string name="action_grid_priority_dialog_title">Aggiungi priorità</string>
+  <string name="action_grid_priority_highest">Priorità massima</string>
+  <string name="action_grid_priority_high">Priorità alta</string>
+  <string name="action_grid_priority_normal">Priorità normale</string>
+  <string name="action_grid_priority_low">Bassa priorità</string>
+  <string name="action_grid_priority_lowest">Priorità minore</string>
+  <string name="action_grid_assignee_dialog_title">Aggiungi assegnatario</string>
+  <string name="action_grid_assignee_select_from_contacts">Seleziona dai contatti</string>
+  <string name="action_grid_assignee_search_for_contact">Ricerca per contatto</string>
+  <string name="action_grid_assignee_button_bar_clear">Annulla</string>
   <string name="action_message_header_delete">Eliminare questo messaggio?</string>
+  <string name="action_like">Like</string>
+  <string name="action_todo">Da fare</string>
   <string name="action_quick">Veloce</string>
+  <string name="action_move">Muovi</string>
   <string name="action_label">Etichetta</string>
+  <string name="action_move_or_label">Muovi/Etichetta</string>
   <string name="action_archive">Archivia</string>
   <string name="action_delete">Elimina</string>
+  <string name="action_spam">Posta indesiderata</string>
+  <string name="action_flag">Segnaposto</string>
+  <string name="action_clear_flag">Annulla segnaposto</string>
+  <string name="action_star">Stella</string>
+  <string name="action_clear_star">Annulla stella</string>
+  <string name="action_star_or_flag">Stella/Segnaposto</string>
   <string name="action_mark_unread">Segna come da leggere</string>
   <string name="action_mark_read">Segna come già letto</string>
   <string name="action_read_or_unread">Già letto/da leggere</string>
@@ -123,16 +159,27 @@
   <string name="custom_mailbox_delete_box_dialog_message">Sei sicuro di voler eliminare questa casella personalizzata?</string>
   <string name="custom_mailbox_error_deleting_box">Si è verificato un errore durante l\'eliminazione la tua casella di posta personalizzata</string>
   <string name="viral_prompt_rate_app_title">Vota questa app</string>
+  <string name="viral_prompt_rate_app_body">Se ti piace usare quest\'app, potresti prendere un momento per votarla? Non ci vorrà più di un minuto. Grazie per il sostegno!</string>
   <string name="viral_ratings_prompt_remind_me_later">Ricordamelo più tardi</string>
   <string name="viral_ratings_prompt_no_thanks">No grazie</string>
   <string name="viral_ratings_prompt_rate_now">Vota ora</string>
+  <string name="promo_code_title_text">Non combattere la tua casella di posta da solo</string>
   <string name="promo_code_edittext_hint">Inserisci il codice promozionale</string>
   <string name="promo_code_button_text">Invia</string>
+  <string name="promo_code_error_no_code_entered">Inserisci un codice promozionale prima di premere invia</string>
   <string name="promo_code_error_invalid_code">Codice promozionale non valido</string>
   <string name="promo_code_dialog_title">Funzionalità sbloccate</string>
+  <string name="promo_code_dialog_message">Hai sbloccato con successo <xliff:g id="features">%s</xliff:g></string>
   <string name="promo_code_dialog_generic_success_msg">Codice promozionale applicato con successo</string>
   <string name="promo_code_progress_dialog_validating">Validazione codice promozionale</string>
   <string name="rage_shake_title">Scuotimento rilevato</string>
+  <string name="rage_shake_message">Vuoi chiudere l\'app per inviare le informazioni di debug?</string>
   <string name="actions_dialog_title">Personalizza</string>
+  <string name="actions_dialog_message">Usi regolarmente le cartelle? Contrassegni spesso i messaggi come indesiderati? Ti piace aggiungere su Evernote?\n\nCon le azioni di scorrimento personalizzate puoi impostare uno qualsiasi di questi gesti per rispecchiare il tuo modo di lavorare.\n</string>
+  <string name="actions_dialog_positive_button_text">Personalizza scorrimenti</string>
   <string name="actions_dialog_negative_button_text">Chiudi</string>
+  <string name="account_setup_heading_email_instruction">Inserisci il tuo indirizzo email per iniziare</string>
+  <string name="account_setup_heading_password_instruction">Inserisci la tua password</string>
+  <string name="like_action_dialog_tittle">Che cos\'è Like?</string>
+  <string name="like_action_dialog_message">Hai trovato la nostra funzione preferita. Quando metti \"Like\" ad un messaggio, verrà inviata una e-mail facendo in modo che il mittente e altri destinatari sappiano che ti piace. È ancora il modo più veloce per rispondere alle e-mail.</string>
 </resources>

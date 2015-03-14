@@ -16,12 +16,14 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Combinée</string>
   <string name="menu_select_all">Tout sélectionner</string>
   <string name="menu_actiongrid">Grille d\'action</string>
-  <string name="remove_account">Effacer le compte</string>
+  <string name="remove_account">Supprimer le compte</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Effacer le compte</string>
-  <string name="delete_account_confirmation_msg">Ceci effacera tous les réglages et courriels du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer?</string>
+  <string name="delete_account_summary">Supprimer ce compte avec tous ses paramètres et données</string>
+  <string name="delete_account_confirmation_msg">Ceci effacera tous les réglages et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
   <string name="deleting_account_msg">Suppression du compte\u2026</string>
   <string name="delete_account_failed">Impossible de supprimer le compte</string>
   <string name="open_attachment">Ouvrir</string>
@@ -29,9 +31,21 @@
   <string name="menu_photo_print">Imprimer</string>
   <string name="contextmenu_view_image">Afficher image</string>
   <plurals name="to_header">
-    <item quantity="one"> &amp; %d autre</item>
-    <item quantity="other">&amp; %d autres</item>
+    <item quantity="one"> et %d autre</item>
+    <item quantity="other">et %d autres</item>
   </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; conversation marquée comme à faire.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; conversations marquées comme à faire.</item>
+  </plurals>
+  <string name="reported_as_spam">Signaler comme spam</string>
+  <string name="new_incoming_messages_one">Afficher le nouveau message de <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Afficher <xliff:g id="count">%1$d</xliff:g> nouveau message.</item>
+    <item quantity="other">Afficher <xliff:g id="count">%1$d</xliff:g> nouveaux messages.</item>
+  </plurals>
+  <string name="edit">Modifier</string>
+  <string name="folder_search_hint">Rechercher</string>
   <string-array name="moveto_folder_sections">
     <item>Dossiers pensants</item>
     <item>Tous les dossiers</item>
@@ -41,23 +55,61 @@
     <item>Toutes les étiquettes</item>
   </string-array>
   <string name="boxes_heading">Boîtes</string>
+  <string name="all_folders_heading">Dossiers</string>
   <string name="accounts_heading">Comptes</string>
-  <string name="preferences_swipe_actions_title">Gestes de glisse</string>
-  <string name="preferences_swipe_actions_summary">Personnaliser les gestes de glisse vers la droite/gauche</string>
+  <string name="vendor_signature">Envoyé depuis mon téléphone Cyanogen</string>
+  <string name="notification_action_mark_read">Marquer comme lu</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nouveau message</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nouveaux messages</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Balayage</string>
+  <string name="preferences_swipe_actions_summary">Personnaliser les balayages à gauche et à droite</string>
+  <string name="preferences_swipe_left_short_title">Balayage court à gauche</string>
+  <string name="preferences_swipe_left_long_title">Balayage long à gauche</string>
+  <string name="preferences_swipe_right_short_title">Balayage court à droite</string>
+  <string name="preferences_swipe_right_long_title">Balayage long à droite</string>
+  <string name="print">Imprimer</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> message</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> messages</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> à <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Brouillon à :\u0020</string>
   <string name="draft_heading">Brouillon</string>
   <string name="quoted_text_hidden_print">Texte cité masqué</string>
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pièce jointe</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pièces jointes</item>
   </plurals>
+  <string name="no_subject">(sans objet)</string>
   <string name="action_grid_select_quick_response">Choisir réponse rapide</string>
+  <string name="action_grid_todo_dialog_title">Détails</string>
+  <string name="action_grid_set_due_date">Définir la date d\'échéance</string>
+  <string name="action_grid_due">Échéance : <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Ajouter priorité</string>
   <string name="action_grid_priority">Priorité: </string>
+  <string name="action_grid_add_assignee">Ajouter propriétaire</string>
+  <string name="action_grid_assignee">Propriétaire : \u0020</string>
+  <string name="action_grid_due_date_dialog_title">Définir la date d\'échéance</string>
+  <string name="action_grid_due_date_today">Aujourd\'hui</string>
+  <string name="action_grid_due_date_tomorrow">Demain</string>
+  <string name="action_grid_due_date_this_week">Cette semaine</string>
+  <string name="action_grid_due_date_next_week">Semaine prochaine</string>
+  <string name="action_grid_due_date_specific_date">Date précise</string>
+  <string name="action_grid_calendar_picker_dialog_title">Définir la date d\'échéance</string>
+  <string name="action_grid_priority_dialog_title">Ajouter une priorité</string>
   <string name="action_grid_priority_highest">Plus haute priorité</string>
   <string name="action_grid_priority_high">Haute priorité</string>
   <string name="action_grid_priority_normal">Priorité normale</string>
   <string name="action_grid_priority_low">Faible priorité</string>
   <string name="action_grid_priority_lowest">Plus faible priorité</string>
+  <string name="action_grid_assignee_dialog_title">Ajouter propriétaire</string>
+  <string name="action_grid_assignee_select_from_contacts">Sélectionner parmi les contacts</string>
+  <string name="action_grid_assignee_search_for_contact">Rechercher un contact</string>
+  <string name="action_grid_assignee_button_bar_clear">Effacer</string>
+  <string name="action_message_header_delete">Supprimer ce message ?</string>
+  <string name="action_like">Aimer</string>
   <string name="action_todo">À faire</string>
   <string name="action_quick">Rapide</string>
   <string name="action_move">Déplacer</string>
@@ -65,26 +117,69 @@
   <string name="action_move_or_label">Déplacer/Étiquetter</string>
   <string name="action_archive">Archiver</string>
   <string name="action_delete">Supprimer</string>
+  <string name="action_spam">Spam</string>
   <string name="action_flag">Baliser</string>
   <string name="action_clear_flag">Enlever balise</string>
   <string name="action_star">Étoiler</string>
   <string name="action_clear_star">Enlever étoile</string>
   <string name="action_star_or_flag">Étoiler/Baliser</string>
+  <string name="action_mark_unread">Marquer comme non lu</string>
+  <string name="action_mark_read">Marquer comme lu</string>
   <string name="action_read_or_unread">Lu / Non lu</string>
+  <string name="action_actions">Actions</string>
+  <string name="marked_evernote">Envoyé à Evernote</string>
+  <string name="marked_liked">Marqué comme aimé</string>
+  <string name="marked_archived">Marqué pour l\'archivage</string>
+  <string name="marked_deleted">Marqué pour la suppression</string>
+  <string name="marked_spam">Déplacé vers les spams</string>
+  <string name="marked_todo">Marqué comme à faire</string>
+  <string name="marked_done">Marqué comme effectué</string>
   <plurals name="quick_response_sent">
     <item quantity="one">Réponse envoyée</item>
     <item quantity="other">Réponses envoyées</item>
   </plurals>
-  <string name="invalid_selection">Sélection non valide</string>
+  <plurals name="liked_message">
+    <item quantity="one">Message aimé</item>
+    <item quantity="other">Messages aimés</item>
+  </plurals>
+  <string name="invalid_selection">Sélection incorrecte</string>
   <string name="file_action_more_than_one_account">Vous avez sélectionné des conversation de plus d\'un compte. Essayez de ne sélectionner que les conversations d\'un seul compte.</string>
+  <string name="evernote_action_more_than_one_conversation">La fonctionnalité d\'Evernote prend uniquement en charge une conversation à la fois. Essayez de sélectionner qu\'une seule conversation.</string>
   <string name="not_installed">Non installé</string>
+  <string name="evernote_not_installed">Evernote ne semble pas être installé. Veuillez l\'installer pour pouvoir utiliser cette fonctionnalité.</string>
   <string name="custom_mailbox_button">Ajouter boîte personnalisée</string>
   <string name="custom_mailbox_settings_label">Réglages</string>
+  <string name="custom_mailbox_folder_name_hint">Nom de la boîte e-mail</string>
   <string name="custom_mailbox_background_sync_label">Concordance en arrière-plan</string>
+  <string name="custom_mailbox_background_sync_switch_on">Activer</string>
+  <string name="custom_mailbox_background_sync_switch_off">Désactiver</string>
+  <string name="custom_mailbox_delete_box">Supprimer la boîte e-mail</string>
   <string name="custom_mailbox_error_no_selected_folders">Veuillez choisir au moins un dossier de la liste ci-dessous</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertissement</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Êtes-vous sûr de vouloir supprimer cette boîte e-mail ?</string>
+  <string name="custom_mailbox_error_deleting_box">Il y a eu une erreur lors de la suppression de votre boîte e-mail</string>
+  <string name="viral_prompt_rate_app_title">Noter cette application</string>
+  <string name="viral_prompt_rate_app_body">Si vous aimez cette application, pourriez-vous prendre un moment pour la noter ? Ça ne prendra pas plus d\'une minute. Merci pour votre soutien !</string>
   <string name="viral_ratings_prompt_remind_me_later">Me rappeler plus tard</string>
   <string name="viral_ratings_prompt_no_thanks">Non merci</string>
-  <string name="viral_ratings_prompt_rate_now">Évaluer maintenant</string>
+  <string name="viral_ratings_prompt_rate_now">Noter maintenant</string>
+  <string name="promo_code_title_text">Ne luttez pas seul contre votre boîte de réception</string>
+  <string name="promo_code_edittext_hint">Entrez le code promo</string>
   <string name="promo_code_button_text">Soumettre</string>
+  <string name="promo_code_error_no_code_entered">Veuillez entrer un code promo avant d\'appuyer sur soumettre</string>
+  <string name="promo_code_error_invalid_code">Code promo incorrect</string>
+  <string name="promo_code_dialog_title">Fonctionnalités déverrouillées</string>
+  <string name="promo_code_dialog_message">Vous avez déverrouillé <xliff:g id="features">%s</xliff:g> avec succès</string>
+  <string name="promo_code_dialog_generic_success_msg">Code promo appliqué avec succès</string>
+  <string name="promo_code_progress_dialog_validating">Validation du code promo</string>
+  <string name="rage_shake_title">Secousse détectée</string>
+  <string name="rage_shake_message">Souhaitez-vous forcer la fermeture de l\'application pour envoyer des informations de débogage ?</string>
+  <string name="actions_dialog_title">Personnaliser</string>
+  <string name="actions_dialog_message">Utilisez-vous régulièrement des dossiers ? Marquez-vous souvent comme Spam ? Vous aimez envoyer à Evernote ?\n\nAvec les balayages personnalisées, vous pouvez définir tous ces gestes pour s\'adapter à votre méthode de travail.\n</string>
+  <string name="actions_dialog_positive_button_text">Personnaliser les balayages</string>
+  <string name="actions_dialog_negative_button_text">Fermer</string>
+  <string name="account_setup_heading_email_instruction">Entrez votre adresse e-mail pour commencer</string>
+  <string name="account_setup_heading_password_instruction">Entrez votre mot de passe</string>
+  <string name="like_action_dialog_tittle">Qu\'est ce que la fonction « Aimer » ?</string>
+  <string name="like_action_dialog_message">Vous avez trouvé notre fonction préférée. Lorsque vous « aimez » un message, un e-mail faisant savoir que vous aimez ce message sera envoyé à l\'expéditeur et aux autres destinataires. C\'est le moyen le plus rapide de répondre à un e-mail.</string>
 </resources>

@@ -33,7 +33,15 @@
     <item quantity="one"> &amp; %d anderer</item>
     <item quantity="other">&amp; %d andere</item>
   </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als zu erledigen markiert.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als zu erledigen markiert.</item>
+  </plurals>
   <string name="reported_as_spam">Als Spam gemeldet</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachricht.</item>
+    <item quantity="other">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachrichten.</item>
+  </plurals>
   <string name="edit">Bearbeiten</string>
   <string name="folder_search_hint">Suchen</string>
   <string-array name="moveto_folder_sections">
@@ -47,7 +55,13 @@
   <string name="boxes_heading">Boxen</string>
   <string name="all_folders_heading">Ordner</string>
   <string name="accounts_heading">Konten</string>
+  <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
   <string name="notification_action_mark_read">Als gelesen markieren</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neue Nachricht</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Wischaktionen</string>
   <string name="print">Drucken</string>
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Nachricht</item>
@@ -62,8 +76,12 @@
   <string name="no_subject">(Kein Betreff)</string>
   <string name="action_grid_select_quick_response">Schnelle Antwort auswählen</string>
   <string name="action_grid_todo_dialog_title">Details</string>
+  <string name="action_grid_set_due_date">Fälligkeitsdatum setzen</string>
+  <string name="action_grid_due">Fällig am: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Priorität hinzufügen</string>
   <string name="action_grid_priority">Priorität: </string>
+  <string name="action_grid_add_assignee">Bevollmächtigten hinzufügen</string>
+  <string name="action_grid_assignee">Bevollmächtigter:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Verfallsdatum setzen</string>
   <string name="action_grid_due_date_today">Heute</string>
   <string name="action_grid_due_date_tomorrow">Morgen</string>
@@ -77,6 +95,8 @@
   <string name="action_grid_priority_normal">Wichtig</string>
   <string name="action_grid_priority_low">Unwichtig</string>
   <string name="action_grid_priority_lowest">Sehr unwichtig</string>
+  <string name="action_grid_assignee_dialog_title">Bevollmächtigten hinzufügen</string>
+  <string name="action_grid_assignee_select_from_contacts">Aus Kontakten auswählen</string>
   <string name="action_grid_assignee_search_for_contact">Kontakt suchen</string>
   <string name="action_grid_assignee_button_bar_clear">Löschen</string>
   <string name="action_message_header_delete">Soll diese Nachricht gelöscht werden?</string>
@@ -99,16 +119,25 @@
   <string name="marked_archived">Zum Archivieren markiert</string>
   <string name="marked_deleted">Zum Löschen markiert</string>
   <string name="marked_spam">Als Spam markiert</string>
+  <string name="marked_todo">Als zu erledigen markiert</string>
   <string name="marked_done">Als erledigt markieren</string>
   <plurals name="quick_response_sent">
-    <item quantity="one">Antwort senden</item>
-    <item quantity="other">Antwort senden</item>
+    <item quantity="one">Antwort gesendet</item>
+    <item quantity="other">Antworten gesendet</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Nachricht gefällt mir</item>
+    <item quantity="other">Nachrichten gefallen mir</item>
   </plurals>
   <string name="invalid_selection">Ungültige Auswahl</string>
+  <string name="file_action_more_than_one_account">Sie haben Konversationen aus mehreren Konten ausgewählt. Versuchen Sie nur Konversationen von einem Konto auszuwählen.</string>
   <string name="not_installed">Nicht installiert</string>
+  <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
+  <string name="custom_mailbox_folder_name_hint">Benutzerdefinierter Feldname</string>
   <string name="custom_mailbox_background_sync_switch_on">An</string>
   <string name="custom_mailbox_background_sync_switch_off">Aus</string>
+  <string name="custom_mailbox_delete_box">Feld löschen</string>
   <string name="custom_mailbox_error_no_selected_folders">Bitte wähle mindestens einen Ornder aus der Liste (unten)</string>
   <string name="custom_mailbox_delete_box_dialog_title">Warnung</string>
   <string name="custom_mailbox_delete_box_dialog_message">Bist du dir sicher, dass du dieses Feld löschen willst?</string>
@@ -126,5 +155,12 @@
   <string name="promo_code_dialog_message">Du hast erfolgreich <xliff:g id="features">%s</xliff:g> freigeschaltet</string>
   <string name="promo_code_dialog_generic_success_msg">Promo-Code erfolgreich angewendet</string>
   <string name="promo_code_progress_dialog_validating">Üperprüfung läuft...</string>
+  <string name="rage_shake_title">Schütteln erkannt</string>
+  <string name="rage_shake_message">Möchten Sie, wenn die App abstürzt, Debuginformationen übermitteln?</string>
+  <string name="actions_dialog_title">Anpassen</string>
+  <string name="actions_dialog_positive_button_text">Wischaktionen anpassen</string>
   <string name="actions_dialog_negative_button_text">Schließen</string>
+  <string name="account_setup_heading_password_instruction">Geben Sie Ihr Kennwort ein</string>
+  <string name="like_action_dialog_tittle">Was bedeutet \"gefällt mir\"?</string>
+  <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie eine Nachricht \"liken\", wird eine E-Mail an den Absender und andere Empfänger gesendet, sodass jeder weiß, dass sie Ihnen gefällt. Es ist die schnellste Art auf eine E-Mail zu antworten.</string>
 </resources>

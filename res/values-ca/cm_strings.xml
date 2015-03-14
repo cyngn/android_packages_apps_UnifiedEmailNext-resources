@@ -57,6 +57,7 @@
   <string name="boxes_heading">Caixes</string>
   <string name="all_folders_heading">Carpetes</string>
   <string name="accounts_heading">Comptes</string>
+  <string name="vendor_signature">Enviat des del meu telèfon Cyanogen</string>
   <string name="notification_action_mark_read">Marca com a llegit</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> missatge nou</item>
@@ -177,4 +178,8 @@
   <string name="actions_dialog_message">Vols utilitzar carpetes amb regularitat? Sovint marques correus com a correu brossa? T\'agrada penjar coses a Evernote? \n\nAmb les accions de lliscament personalitzades pots establir qualsevol d\'aquests gestos per ajustar-se amb el teu ritme de treball.\n</string>
   <string name="actions_dialog_positive_button_text">Personalitza gestos de lliscament</string>
   <string name="actions_dialog_negative_button_text">Tanca</string>
+  <string name="account_setup_heading_email_instruction">Introdueix la teva adreça de correu electrònic per a començar</string>
+  <string name="account_setup_heading_password_instruction">Introdueix la teva contrasenya</string>
+  <string name="like_action_dialog_tittle">Què és M\'agrada?</string>
+  <string name="like_action_dialog_message">Has trobat la nostra funció preferida. Quan marquis \"M\'agrada\" en un missatge, s\'enviarà un correu electrònic permetent que l\'emissor i altres destinataris sàpiguen que t\'agrada. És la manera més ràpida de respondre a un correu electrònic.</string>
 </resources>

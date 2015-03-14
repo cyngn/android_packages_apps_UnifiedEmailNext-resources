@@ -40,6 +40,11 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; помечены как задачи.</item>
   </plurals>
   <string name="reported_as_spam">Помечено как спам</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Показать <xliff:g id="count">%1$d</xliff:g> новое сообщение.</item>
+    <item quantity="few">Показать <xliff:g id="count">%1$d</xliff:g> новых сообщения.</item>
+    <item quantity="other">Показать <xliff:g id="count">%1$d</xliff:g> новых сообщений.</item>
+  </plurals>
   <string name="edit">Редактировать</string>
   <string name="folder_search_hint">Поиск</string>
   <string-array name="moveto_folder_sections">
@@ -51,8 +56,14 @@
     <item>Все метки</item>
   </string-array>
   <string name="boxes_heading">Ящики</string>
+  <string name="all_folders_heading">Папки</string>
   <string name="accounts_heading">Аккаунты</string>
   <string name="notification_action_mark_read">Отметить как прочитанное</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> новое сообщение</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> новых сообщения</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> новых сообщений</item>
+  </plurals>
   <string name="preferences_swipe_actions_title">Действия на свайпы</string>
   <string name="preferences_swipe_actions_summary">Настройка действий на левый и правый свайпы</string>
   <string name="preferences_swipe_left_short_title">Короткий свайп влево</string>
