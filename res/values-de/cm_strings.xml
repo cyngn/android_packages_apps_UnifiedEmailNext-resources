@@ -62,6 +62,11 @@
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
   </plurals>
   <string name="preferences_swipe_actions_title">Wischaktionen</string>
+  <string name="preferences_swipe_actions_summary">Aktion für Wisch nach links und rechts anpassen</string>
+  <string name="preferences_swipe_left_short_title">Kurzer Wisch nach links</string>
+  <string name="preferences_swipe_left_long_title">Langer Wisch nach rechts</string>
+  <string name="preferences_swipe_right_short_title">Kurzer Wisch nach rechts</string>
+  <string name="preferences_swipe_right_long_title">Langer Wisch nach rechts</string>
   <string name="print">Drucken</string>
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Nachricht</item>

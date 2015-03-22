@@ -115,7 +115,7 @@
   <string name="choosertitle_sharevia">Jaa sovelluksessa</string>
   <string name="contextmenu_openlink">Avaa selaimessa</string>
   <string name="contextmenu_copy">Kopioi</string>
-  <string name="contextmenu_copylink">Kopioi linkin URL-osoite</string>
+  <string name="contextmenu_copylink">Kopioi linkin osoite</string>
   <string name="contextmenu_dial_dot">Soita...</string>
   <string name="contextmenu_sms_dot">Tekstiviesti...</string>
   <string name="contextmenu_add_contact">Lisää kontakti</string>

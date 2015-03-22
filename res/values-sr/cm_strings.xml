@@ -101,6 +101,9 @@
   <string name="action_grid_due">Приспели: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Постави приоритет</string>
   <string name="action_grid_priority">Приоритет:\u0020</string>
+  <string name="action_grid_add_assignee">Додај представника</string>
+  <string name="action_grid_assignee">Представник:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Намести доспели датум</string>
   <string name="action_grid_due_date_today">Данас</string>
   <string name="action_grid_due_date_tomorrow">Сутра</string>
   <string name="action_grid_due_date_this_week">Ове недеље</string>
@@ -118,7 +121,7 @@
   <string name="action_grid_assignee_search_for_contact">Претражи контакте</string>
   <string name="action_grid_assignee_button_bar_clear">Очисти</string>
   <string name="action_message_header_delete">Обриши ову поруку?</string>
-  <string name="action_like">Допадање</string>
+  <string name="action_like">Like</string>
   <string name="action_todo">За урадити</string>
   <string name="action_quick">Брзо</string>
   <string name="action_move">Премести</string>
@@ -129,6 +132,33 @@
   <string name="action_spam">Спам</string>
   <string name="action_flag">Ознака</string>
   <string name="action_clear_flag">Очисти ознаку</string>
+  <string name="action_star">Звезда</string>
+  <string name="action_clear_star">Очисти звезду</string>
+  <string name="action_star_or_flag">Звезда/Ознака</string>
+  <string name="action_mark_unread">Означи као непрочитано</string>
+  <string name="action_mark_read">Означи као прочитано</string>
+  <string name="action_read_or_unread">Прочитано/Непрочитано</string>
+  <string name="action_actions">Акције</string>
+  <string name="marked_evernote">Пошаљи у Evernote</string>
+  <string name="marked_liked">Означи сa like</string>
+  <string name="marked_archived">Означено за архиву</string>
+  <string name="marked_deleted">Означено за брисање</string>
+  <string name="marked_spam">Премештено у спам</string>
+  <string name="marked_todo">Означено за урадити</string>
+  <string name="marked_done">Означено као урађено</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Одговор послат</item>
+    <item quantity="few">Одговори послати</item>
+    <item quantity="many">Одговори послати</item>
+    <item quantity="other">Одговори послати</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Порука Liked</item>
+    <item quantity="few">Порукe Liked</item>
+    <item quantity="many">Порукe Liked</item>
+    <item quantity="other">Порукe Liked</item>
+  </plurals>
+  <string name="invalid_selection">Неважећи избор</string>
   <string name="file_action_more_than_one_account">Изабрао си конверзацију са више од једног налога. Покушај изабрати конверзацију само са једним налогом.</string>
   <string name="evernote_action_more_than_one_conversation">Evernote функционисање подржава само једну по једну конверзацију. Покушај изабрати само једну конверзацију.</string>
   <string name="not_installed">Није инсталирано</string>
@@ -166,6 +196,6 @@
   <string name="actions_dialog_negative_button_text">Затвори</string>
   <string name="account_setup_heading_email_instruction">Унеси адресу своје Е-поште да почнеш</string>
   <string name="account_setup_heading_password_instruction">Унеси лозинку</string>
-  <string name="like_action_dialog_tittle">Да ли ти се допада?</string>
+  <string name="like_action_dialog_tittle">Шта је Like?</string>
   <string name="like_action_dialog_message">Пронашао си нашу омиљену могућност. Када ти се допада порука Е-пошта ће бити послата пошиљаоцу и осталим примаоцима обавештавајући да ти се допада. Ово је до сада најбржи одговор на Е-пошту.</string>
 </resources>

@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Kombinált</string>
   <string name="menu_select_all">Összes kijelölés</string>
   <string name="menu_actiongrid">MűveletiRács</string>
   <string name="remove_account">Fiók törlése</string>
@@ -38,6 +39,11 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; feladatnak jelölve.</item>
   </plurals>
   <string name="reported_as_spam">Jelentés spamként</string>
+  <string name="new_incoming_messages_one">Új üzenet megjelenítése innen: <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> új üzenet megjelenítése.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> új üzenet megjelenítése.</item>
+  </plurals>
   <string name="edit">Szerkesztés</string>
   <string name="folder_search_hint">Keresés</string>
   <string-array name="moveto_folder_sections">
@@ -49,8 +55,14 @@
     <item>Összes címke</item>
   </string-array>
   <string name="boxes_heading">Mappák</string>
+  <string name="all_folders_heading">Mappák</string>
   <string name="accounts_heading">Fiókok</string>
+  <string name="vendor_signature">Cyanogen készülékemről küldve</string>
   <string name="notification_action_mark_read">Megjelölés olvasottként</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> új üzenet</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> új üzenet</item>
+  </plurals>
   <string name="preferences_swipe_actions_title">Húzás műveletek</string>
   <string name="preferences_swipe_actions_summary">Balra és jobbra húzás műveletek testreszabása</string>
   <string name="preferences_swipe_left_short_title">Rövid húzás balra</string>
@@ -122,6 +134,14 @@
   <string name="marked_spam">Áthelyez levélszemétbe</string>
   <string name="marked_todo">Feladatnak jelöl</string>
   <string name="marked_done">Késznek jelöl</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Válasz elküldve</item>
+    <item quantity="other">Válaszok elküldve</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Üzenet tetszett</item>
+    <item quantity="other">Üzenetek tetszettek</item>
+  </plurals>
   <string name="invalid_selection">Érvénytelen választás</string>
   <string name="file_action_more_than_one_account">Egynél több fiókból jelöltél ki beszélgetéseket. Egy fiókból válassz csak beszélgetéseket.</string>
   <string name="evernote_action_more_than_one_conversation">Az Evernote funkció egyszerre csak egy beszélgetést támogat. Válassz csak egy beszélgetés.</string>
@@ -131,14 +151,19 @@
   <string name="custom_mailbox_settings_label">Beállítások</string>
   <string name="custom_mailbox_folder_name_hint">Egyéni mappa neve</string>
   <string name="custom_mailbox_background_sync_label">Szinkronizálás a háttérben</string>
+  <string name="custom_mailbox_background_sync_switch_on">Be</string>
+  <string name="custom_mailbox_background_sync_switch_off">Ki</string>
   <string name="custom_mailbox_delete_box">Mappa törlése</string>
   <string name="custom_mailbox_error_no_selected_folders">Legalább egy mappát ki kell jelölni az alábbi listából</string>
   <string name="custom_mailbox_delete_box_dialog_title">Figyelmeztetés</string>
   <string name="custom_mailbox_delete_box_dialog_message">Biztosan törölni szeretnéd ezt az egyedi mappát?</string>
   <string name="custom_mailbox_error_deleting_box">Hiba történt az egyedi postafiók törlése közben</string>
+  <string name="viral_prompt_rate_app_title">Értékelje az alkalmazást</string>
+  <string name="viral_prompt_rate_app_body">Ha tetszik Önnek ez az alkalmazás, szánna esetleg egy pillanatot az értékelésére? Nem tart tovább egy percnél. Köszönjük a támogatást!</string>
   <string name="viral_ratings_prompt_remind_me_later">Emlékeztessen később</string>
   <string name="viral_ratings_prompt_no_thanks">Köszönöm, nem</string>
   <string name="viral_ratings_prompt_rate_now">Értékelés most</string>
+  <string name="promo_code_title_text">Ne harcoljon egyedül a bejövőkkel</string>
   <string name="promo_code_edittext_hint">Add meg a promóciós kódot</string>
   <string name="promo_code_button_text">Beküld</string>
   <string name="promo_code_error_no_code_entered">Kérjük, írja be a promóciós kódot a küldés megnyomása előtt</string>
@@ -149,4 +174,12 @@
   <string name="promo_code_progress_dialog_validating">Ajándék kupon ellenörzése</string>
   <string name="rage_shake_title">Rázás észlelve</string>
   <string name="rage_shake_message">Szeretnéd összeomlasztani a programot, hogy beküldhesd a hibakeresési információkat?</string>
+  <string name="actions_dialog_title">Testreszabás</string>
+  <string name="actions_dialog_message">Rendszeresen használ mappákat? Gyakran jelöl meg levélszemetet? Szeret Evernotehoz csatolni?\n\nA testreszabott csúsztatási műveletekkel bármelyik előbbi gesztust beállíthatja, hogy illeszkedjen a munkamenetéhez.\n</string>
+  <string name="actions_dialog_positive_button_text">Csúsztatások testreszabása</string>
+  <string name="actions_dialog_negative_button_text">Bezárás</string>
+  <string name="account_setup_heading_email_instruction">Adja meg az e-mail címét a kezdéshez</string>
+  <string name="account_setup_heading_password_instruction">Adja meg jelszavát</string>
+  <string name="like_action_dialog_tittle">Mit jelent a Tetszik?</string>
+  <string name="like_action_dialog_message">Rátalált kedvenc funkciónkra. Amikor egy üzenetet \"Tetszik\" jelöléssel lát el, a feladó és a többi címzett e-mailben értesül, hogy Ön kedveli azt. Ez az e-mailre adott válasz eddigi leggyorsabb módja.</string>
 </resources>
