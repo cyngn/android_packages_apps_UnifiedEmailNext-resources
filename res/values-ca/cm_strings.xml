@@ -180,6 +180,13 @@
   <string name="actions_dialog_negative_button_text">Tanca</string>
   <string name="account_setup_heading_email_instruction">Introdueix la teva adreça de correu electrònic per a començar</string>
   <string name="account_setup_heading_password_instruction">Introdueix la teva contrasenya</string>
-  <string name="like_action_dialog_tittle">Què és M\'agrada?</string>
+  <string name="like_action_dialog_tittle">Com és?</string>
   <string name="like_action_dialog_message">Has trobat la nostra funció preferida. Quan marquis \"M\'agrada\" en un missatge, s\'enviarà un correu electrònic permetent que l\'emissor i altres destinataris sàpiguen que t\'agrada. És la manera més ràpida de respondre a un correu electrònic.</string>
+  <string name="new_button">Nou</string>
+  <string name="folder_name_hint">Nom de la carpeta</string>
+  <string name="create_folder_progess">S\'està creant la carpeta\u2026</string>
+  <string name="duplicate_folder_title">Nom duplicat</string>
+  <string name="duplicate_folder_message">El nom de la carpeta que has introduït ja existeix.</string>
+  <string name="error">Error</string>
+  <string name="error_creating_folder_message">No s\'ha pogut crear la carpeta.</string>
 </resources>

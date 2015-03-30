@@ -180,6 +180,13 @@
   <string name="actions_dialog_negative_button_text">Kapat</string>
   <string name="account_setup_heading_email_instruction">Başlamak için e-posta adresinizi giriniz</string>
   <string name="account_setup_heading_password_instruction">Şifrenizi giriniz</string>
-  <string name="like_action_dialog_tittle">Beğeni nedir?</string>
+  <string name="like_action_dialog_tittle">Beğenme nedir?</string>
   <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten  bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
+  <string name="new_button">Yeni</string>
+  <string name="folder_name_hint">Klasör adı</string>
+  <string name="create_folder_progess">Klasör oluşturuluyor\u2026</string>
+  <string name="duplicate_folder_title">Yinelenen ad</string>
+  <string name="duplicate_folder_message">Girdiğiniz ad zaten mevcut.</string>
+  <string name="error">Hata</string>
+  <string name="error_creating_folder_message">Klasör oluşturulamadı.</string>
 </resources>

@@ -174,4 +174,11 @@
   <string name="account_setup_heading_password_instruction">输入您的密码</string>
   <string name="like_action_dialog_tittle">什么是“赞”？</string>
   <string name="like_action_dialog_message">您找到了我们最喜欢的功能。当您“赞”一条信息，一封电子邮件将会发送给其他回复人告诉他们您喜欢它。这是目前最快速的电子邮件回复方式。</string>
+  <string name="new_button">新的</string>
+  <string name="folder_name_hint">文件夹名称</string>
+  <string name="create_folder_progess">正在创建文件夹\u2026</string>
+  <string name="duplicate_folder_title">重复的名称</string>
+  <string name="duplicate_folder_message">您已经输入的文件夹名称存在。</string>
+  <string name="error">错误</string>
+  <string name="error_creating_folder_message">无法创建该文件夹。</string>
 </resources>

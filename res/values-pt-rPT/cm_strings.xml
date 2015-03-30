@@ -163,6 +163,7 @@
   <string name="viral_ratings_prompt_remind_me_later">Lembrar-me mais tarde</string>
   <string name="viral_ratings_prompt_no_thanks">Não, obrigado</string>
   <string name="viral_ratings_prompt_rate_now">Classificar agora</string>
+  <string name="promo_code_title_text">Não lute contra a sua caixa de entrada sozinho</string>
   <string name="promo_code_edittext_hint">Insira o código promocional</string>
   <string name="promo_code_button_text">Submeter</string>
   <string name="promo_code_error_no_code_entered">Por favor, insira um código promocional antes de tocar em submeter</string>
@@ -179,6 +180,13 @@
   <string name="actions_dialog_negative_button_text">Fechar</string>
   <string name="account_setup_heading_email_instruction">Insira o seu endereço de e-mail para começar</string>
   <string name="account_setup_heading_password_instruction">Digite a sua palavra-passe</string>
-  <string name="like_action_dialog_tittle">O que é \"gosto\"?</string>
+  <string name="like_action_dialog_tittle">O que é Gostar?</string>
   <string name="like_action_dialog_message">Tu encontraste a nossa função favorita. Quando colocas \'Gostar\' numa mensagem, um e-mail será enviado ao remetente e outros destinatários dando a conhecer que tu gostaste. É a maneira mais rápida para responder a um e-mail.</string>
+  <string name="new_button">Novo</string>
+  <string name="folder_name_hint">Nome da pasta</string>
+  <string name="create_folder_progess">A criar pasta\u2026</string>
+  <string name="duplicate_folder_title">Nome duplicado</string>
+  <string name="duplicate_folder_message">O nome da pasta que inseriu já existe.</string>
+  <string name="error">Erro</string>
+  <string name="error_creating_folder_message">A pasta não pôde ser criada.</string>
 </resources>

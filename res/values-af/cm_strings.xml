@@ -180,6 +180,5 @@
   <string name="actions_dialog_negative_button_text">Maak toe</string>
   <string name="account_setup_heading_email_instruction">Tik jou epos adres om te begin</string>
   <string name="account_setup_heading_password_instruction">Tik jou wagwoord</string>
-  <string name="like_action_dialog_tittle">Wat is Hou van?</string>
   <string name="like_action_dialog_message">Jy het ons gunsteling funksie gevind. Wanneer jy \'n boodskap \'Hou van\', sal \'n e-pos gestuur word om die stuurder en ander ontvangers te laat weet jou hou daarvan. Dit is die vinnigste manier om te reageer nog op e-pos.</string>
 </resources>

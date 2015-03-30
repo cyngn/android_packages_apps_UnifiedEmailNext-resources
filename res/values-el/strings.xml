@@ -37,7 +37,7 @@
   <string name="forward_attribution_no_headers">---------- Προωθημένο μήνυμα ----------</string>
   <string name="cc_attribution">Κοιν.: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
   <string name="select_attachment_type">Επιλογή τύπου συνημμένου</string>
-  <string name="too_large_to_attach_single">Δεν είναι δυνατή η επισύναψη του αρχείου που υπερβαίνει το όριο <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_single">Δεν είναι δυνατή η επισύναψη αρχείων πάνω από <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
   <string name="too_large_to_attach_multiple">Δεν έγινε επισύναψη ενός ή περισσότερων αρχείων. Όριο <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
   <string name="too_large_to_attach_additional">Δεν έγινε επισύναψη του αρχείου. Το όριο <xliff:g id="MAXSIZE">%1$s</xliff:g> εξαντλήθηκε.</string>
   <string name="generic_attachment_problem">Δεν ήταν δυνατή η επισύναψη του αρχείου.</string>
@@ -58,13 +58,13 @@
   <string name="remove_folder">Κατάργηση από το <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="archive">Αρχειοθέτηση</string>
   <string name="report_spam">Αναφορά ως ανεπιθύμητης</string>
-  <string name="mark_not_spam">Αναφορά μη ανεπιθύμητου</string>
+  <string name="mark_not_spam">Αναφορά μη ανεπιθύμητης</string>
   <string name="report_phishing">Αναφορά ηλεκτρονικού ψαρέματος</string>
   <string name="delete">Διαγραφή</string>
   <string name="discard_drafts">Απόρριψη πρόχειρων</string>
   <string name="refresh">Ανανέωση</string>
   <string name="reply">Απάντηση</string>
-  <string name="reply_all">Απάν. σε όλ.</string>
+  <string name="reply_all">Απάντ. σε όλους</string>
   <string name="resume_draft">Επεξεργασία</string>
   <string name="forward">Προώθηση</string>
   <string name="menu_compose">Σύνταξη</string>
@@ -73,13 +73,13 @@
   <string name="menu_move_to_inbox">Μεταφορά στα Εισερχόμενα</string>
   <string name="menu_manage_folders">Ρυθμίσεις φακέλων</string>
   <string name="menu_show_original">Επαναφορά αυτόμ. μεγέθους</string>
-  <string name="menu_folder_options">Ρυθμίσεις φακέλου...</string>
+  <string name="menu_folder_options">Ρυθμίσεις φακέλου</string>
   <string name="menu_settings">Ρυθμίσεις</string>
   <string name="menu_search">Αναζήτηση</string>
-  <string name="mark_important">Επισήμανση ως σημαντικής</string>
-  <string name="mark_not_important">Επισήμανση ως μη σημαντικής</string>
-  <string name="add_cc_label">Προσθήκη Κοιν./Κρ.κοιν.</string>
-  <string name="add_bcc_label">Προσθ. κρυφής κοιν.</string>
+  <string name="mark_important">Επισήμανση ως σημαντικό</string>
+  <string name="mark_not_important">Επισήμανση ως μη σημαντικό</string>
+  <string name="add_cc_label">Προσθήκη Κοιν./Κρ. κοιν.</string>
+  <string name="add_bcc_label">Προσθήκη Κρ. κοιν.</string>
   <string name="feedback">Αποστολή σχολίων</string>
   <string name="help_and_info">Βοήθεια</string>
   <string name="quoted_text">Συμπερίληψη του αναφερόμενου κειμένου</string>
@@ -97,20 +97,20 @@
   <string name="attachment_application_vnd_ms_excel">Υπολογιστικό φύλλο</string>
   <string name="attachment_application_pdf">PDF</string>
   <string name="attachment_unknown">Αρχείο <xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g></string>
-  <string name="preview_attachment">Προεπισκ.</string>
+  <string name="preview_attachment">Προεπισκόπηση</string>
   <string name="save_attachment">Αποθήκευση</string>
   <string name="cancel_attachment">Ακύρωση</string>
   <string name="download_again">Λήψη ξανά</string>
   <string name="more_info_attachment">Πληροφορίες</string>
   <string name="no_application_found">Δεν υπάρχει εφαρμογή για το άνοιγμα αυτού του συνημμένου για προβολή.</string>
-  <string name="fetching_attachment">Ανάκτηση συνημμένου</string>
+  <string name="fetching_attachment">Λήψη συνημμένου</string>
   <string name="please_wait">Παρακαλώ περιμένετε…</string>
   <string name="saved">Αποθηκεύτηκε, <xliff:g id="SIZE">%s</xliff:g></string>
-  <string name="download_failed">Λήψη απέτυχε.Πατήστε ξανά</string>
+  <string name="download_failed">Η λήψη απέτυχε. Αγγίξτε για προσπάθεια ξανά.</string>
   <string name="attachments_header">Συνημμένα</string>
-  <string name="menu_photo_save_all">Αποθ. όλων</string>
+  <string name="menu_photo_save_all">Αποθήκευση όλων</string>
   <string name="menu_photo_share">Κοινή χρήση</string>
-  <string name="menu_photo_share_all">Κ.χρ. όλων</string>
+  <string name="menu_photo_share_all">Κοιν χρήση όλων</string>
   <string name="saving">Αποθήκευση&#8230;</string>
   <string name="choosertitle_sharevia">Κοινή χρήση μέσω</string>
   <string name="contextmenu_openlink">Άνοιγμα στο πρόγραμμα περιήγησης</string>
@@ -139,7 +139,7 @@
     <item quantity="other">Πρόχειρα</item>
   </plurals>
   <string name="sending">Γίνεται αποστολή…</string>
-  <string name="send_failed">Μήνυμα δεν εστάλη.</string>
+  <string name="send_failed">Το μήνυμα δεν εστάλη.</string>
   <string name="me_object_pronun">εγώ</string>
   <string name="me_subject_pronun">εγώ</string>
   <string name="inbox_folders_heading">Εισερχόμενα</string>
@@ -172,31 +172,31 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφέρθηκαν ως ανεπιθύμητες.</item>
   </plurals>
   <plurals name="conversation_not_spam">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ως μη ανεπιθύμητες.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορά ως μη ανεπιθύμητη.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ως μη ανεπιθύμητες.</item>
   </plurals>
   <plurals name="conversation_not_important">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκαν ως μη σημαντικές.</item>
-    <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκε ως μη σημαντική.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκε ως μη σημαντική.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκαν ως μη σημαντικές.</item>
   </plurals>
   <plurals name="conversation_phished">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ηλεκτρονικού ψαρέματος.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορά ηλεκτρονικού ψαρέματος.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ηλεκτρονικού ψαρέματος.</item>
   </plurals>
   <plurals name="conversation_archived">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αρχειοθετήθηκαν.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αρχειοθετήθηκε.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αρχειοθετήθηκαν.</item>
   </plurals>
   <plurals name="conversation_deleted">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; διαγράφηκαν.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; διαγράφηκε.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; διαγράφηκαν.</item>
   </plurals>
   <string name="deleted">Διαγράφηκε</string>
   <string name="archived">Αρχειοθετήθηκε</string>
   <string name="folder_removed">Καταργήθηκε από το <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <plurals name="conversation_folder_changed">
-    <item quantity="one">Αλλαγή φακέλου.</item>
-    <item quantity="other">Αλλαγή φακέλων.</item>
+    <item quantity="one">Έγινε αλλαγή φακέλου.</item>
+    <item quantity="other">Έγινε αλλαγή φακέλων.</item>
   </plurals>
   <string name="conversation_folder_moved">Μεταφέρθηκε στο φάκελο <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Αποτελέσματα</string>
@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Σύμπτυξη στοιχείων παραλήπτη</string>
   <string name="contact_info_string">Εμφάνιση στοιχείων επικοινωνίας για τον χρήστη <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Εμφάνιση στοιχείων επικοινωνίας</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> παλαιότερα μηνύματα</item>
+    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> παλαιότερα μηνύματα</item>
+  </plurals>
   <string name="from_heading">Από: </string>
   <string name="replyto_heading">Απάντ. σε: </string>
   <string name="to_heading">Προς: </string>
@@ -215,7 +219,7 @@
   <string name="date_heading">Ημερομηνία: </string>
   <string name="show_images">Εμφάνιση εικόνων</string>
   <string name="always_show_images">Πάντα εμφ. εικ. από αυτόν τον αποστολέα</string>
-  <string name="always_show_images_toast">Αυτ. εμφ. εικ. από αυτόν τον αποστολέα.</string>
+  <string name="always_show_images_toast">Εικόνες από αυτόν τον αποστολέα θα εμφανίζονται αυτόματα.</string>
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
   <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> μέσω <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
   <string name="message_saved">Το μήνυμα αποθηκεύτηκε ως πρόχειρο.</string>
@@ -245,9 +249,13 @@
     <item>Εσωτερικό σφάλμα</item>
   </string-array>
   <string name="tap_to_configure">Αγγίξτε για ρύθμιση</string>
-  <string name="non_synced_folder_description">Συγχρ. τον φάκελο για προβ. συνομ.</string>
+  <string name="non_synced_folder_description">Για προβολή των συνομιλιών, συγχρονίστε αυτόν το φάκελο.</string>
   <string name="tap_to_configure_folder_sync">Συγχρονισμός φακέλου</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> μη αναγνωσμένο</item>
+    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> μη αναγνωσμένα</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ μη αναγνωσμένα</string>
   <string name="view_more_conversations">Προβολή περισσότερων συνομιλιών</string>
   <string name="activity_mailbox_selection">Επιλογή λογαριασμού</string>
@@ -263,13 +271,13 @@
   <string name="wait_for_sync_title">Αναμονή για συγχρονισμό</string>
   <string name="wait_for_sync_body">Η αλληλογραφία θα εμφανιστεί σύντομα.</string>
   <string name="not_synced_title">Ο λογαριασμός δεν συγχρονίστηκε</string>
-  <string name="wait_for_manual_sync_body">Ο λογαριασμός αυτός δεν έχει ρυθμιστεί για αυτόματο συγχρονισμό.\nΑγγίξτε \"<b>"Συγχρ. τώρα"</b>\" για συγχρονισμό της αλληλογραφίας μία φορά ή \"<b>"Αλλαγή ρυθμίσεων συγχρονισμού"</b>\" για να ρυθμίσετε το λογαριασμό για αυτόματο συγχρονισμό της αλληλογραφίας.</string>
+  <string name="wait_for_manual_sync_body">Ο λογαριασμός αυτός δεν έχει ρυθμιστεί για αυτόματο συγχρονισμό.\nΑγγίξτε <b>Συγχρ. τώρα</b> για συγχρονισμό της αλληλογραφίας μία φορά ή <b>Αλλαγή ρυθμίσεων συγχρονισμού</b> για να ρυθμίσετε το λογαριασμό για αυτόματο συγχρονισμό της αλληλογραφίας.</string>
   <string name="manual_sync">Συγχρ. τώρα</string>
   <string name="change_sync_settings">Αλλαγή ρυθμίσεων συγχρονισμού</string>
   <string name="photo_load_failed">Αδύνατη η φόρτωση της εικόνας</string>
   <string name="cant_move_or_change_labels">Δεν είναι δυνατή η μετακίνηση επειδή η επιλογή περιλαμβάνει πολλούς λογαριασμούς.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
-  <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
+  <string name="multiple_new_message_notification_item"><b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Παράβλεψη, αξιόπιστο μήνυμα</string>
   <string name="via_domain">μέσω <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
   <string name="signin">Σύνδεση</string>
@@ -343,7 +351,7 @@
   <string name="drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
   <string name="drawer_close">Κλείσιμο συρταριού πλοήγησης</string>
   <string name="conversation_photo_welcome_text">Αγγίξτε την εικόνα ενός αποστολέα για να επιλέξετε αυτήν τη συνομιλία.</string>
-  <string name="long_press_to_select_tip">Αγγίξτε παρατεταμένα για να επιλέξετε μια συνομιλία και, στη συνέχεια αγγίξτε για να επιλέξετε περισσότερες.</string>
+  <string name="long_press_to_select_tip">Αγγίξτε παρατεταμένα για να επιλέξετε μια συνομιλία και στη συνέχεια αγγίξτε για να επιλέξετε περισσότερες.</string>
   <string name="folder_icon_desc">Εικονίδιο φακέλου</string>
   <string name="add_account">Προσθήκη λογαριασμού</string>
   <string name="attached_message">Συνημμένο μήνυμα</string>

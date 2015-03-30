@@ -180,6 +180,13 @@
   <string name="actions_dialog_negative_button_text">Sluiten</string>
   <string name="account_setup_heading_email_instruction">E-mailadres invoeren om te beginnen</string>
   <string name="account_setup_heading_password_instruction">Wachtwoord invoeren</string>
-  <string name="like_action_dialog_tittle">Wat is \'leuk vinden\'?</string>
+  <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>
   <string name="like_action_dialog_message">U heeft onze favoriete functie gevonden. Wanneer u een bericht \'leuk vindt\', ontvangen de verzender en andere ontvangers hier een e-mail van. Het is een snelle manier om op e-mails te reageren.</string>
+  <string name="new_button">Nieuw</string>
+  <string name="folder_name_hint">Mapnaam</string>
+  <string name="create_folder_progess">Map aanmaken\u2026</string>
+  <string name="duplicate_folder_title">Bestaande map</string>
+  <string name="duplicate_folder_message">De mapnaam die u heeft ingevoerd bestaat al.</string>
+  <string name="error">Fout</string>
+  <string name="error_creating_folder_message">De map kon niet worden aangemaakt.</string>
 </resources>

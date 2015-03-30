@@ -104,7 +104,7 @@
   <string name="more_info_attachment">Info</string>
   <string name="no_application_found">Er is geen app die deze bijlage kan openen voor weergave.</string>
   <string name="fetching_attachment">Bijlage ophalen</string>
-  <string name="please_wait">Even geduld…</string>
+  <string name="please_wait">Even geduld\u2026</string>
   <string name="saved">Opgeslagen, <xliff:g id="SIZE">%s</xliff:g></string>
   <string name="download_failed">Kan niet downloaden. Raak aan om het opnieuw te proberen.</string>
   <string name="attachments_header">Bijlagen</string>
@@ -209,7 +209,7 @@
   <string name="contact_info_string_default">Contactgegevens weergeven</string>
   <string name="from_heading">Van: </string>
   <string name="replyto_heading">Antwoord: </string>
-  <string name="to_heading">Aan: </string>
+  <string name="to_heading">Aan:\u0020</string>
   <string name="cc_heading">Cc: </string>
   <string name="bcc_heading">Bcc: </string>
   <string name="date_heading">Datum: </string>

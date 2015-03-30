@@ -196,6 +196,5 @@
   <string name="actions_dialog_negative_button_text">Затвори</string>
   <string name="account_setup_heading_email_instruction">Унеси адресу своје Е-поште да почнеш</string>
   <string name="account_setup_heading_password_instruction">Унеси лозинку</string>
-  <string name="like_action_dialog_tittle">Шта је Like?</string>
   <string name="like_action_dialog_message">Пронашао си нашу омиљену могућност. Када ти се допада порука Е-пошта ће бити послата пошиљаоцу и осталим примаоцима обавештавајући да ти се допада. Ово је до сада најбржи одговор на Е-пошту.</string>
 </resources>

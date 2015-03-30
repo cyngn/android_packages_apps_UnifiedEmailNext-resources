@@ -180,6 +180,5 @@
   <string name="actions_dialog_negative_button_text">Close</string>
   <string name="account_setup_heading_email_instruction">Enter your email address to get started</string>
   <string name="account_setup_heading_password_instruction">Enter your password</string>
-  <string name="like_action_dialog_tittle">What\'s Like?</string>
   <string name="like_action_dialog_message">You found our favorite feature. When you \'Like\' a message, an email will be sent letting the sender and other recipients know you like it. It\'s the fastest way to respond to email yet.</string>
 </resources>

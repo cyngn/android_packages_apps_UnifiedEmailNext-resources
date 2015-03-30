@@ -180,6 +180,13 @@
   <string name="actions_dialog_negative_button_text">Fechar</string>
   <string name="account_setup_heading_email_instruction">Digite seu endereço de e-mail para começar</string>
   <string name="account_setup_heading_password_instruction">Digite sua senha</string>
-  <string name="like_action_dialog_tittle">Você curtiu?</string>
+  <string name="like_action_dialog_tittle">Como é?</string>
   <string name="like_action_dialog_message">Você encontrou nosso recurso favorito. Quando você \'Curte\' uma mensagem, um e-mail será enviado mostrando ao remetente e outros destinatários informando que você curtiu. É a maneira mais rápida para responder a um e-mail.</string>
+  <string name="new_button">Novo</string>
+  <string name="folder_name_hint">Nome da pasta</string>
+  <string name="create_folder_progess">Criando pasta\u2026</string>
+  <string name="duplicate_folder_title">Nome duplicado</string>
+  <string name="duplicate_folder_message">Nome da pasta que você inseriu já existe.</string>
+  <string name="error">Erro</string>
+  <string name="error_creating_folder_message">A pasta não pôde ser criada.</string>
 </resources>

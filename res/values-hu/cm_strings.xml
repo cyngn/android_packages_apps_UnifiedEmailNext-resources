@@ -180,6 +180,5 @@
   <string name="actions_dialog_negative_button_text">Bezárás</string>
   <string name="account_setup_heading_email_instruction">Adja meg az e-mail címét a kezdéshez</string>
   <string name="account_setup_heading_password_instruction">Adja meg jelszavát</string>
-  <string name="like_action_dialog_tittle">Mit jelent a Tetszik?</string>
   <string name="like_action_dialog_message">Rátalált kedvenc funkciónkra. Amikor egy üzenetet \"Tetszik\" jelöléssel lát el, a feladó és a többi címzett e-mailben értesül, hogy Ön kedveli azt. Ez az e-mailre adott válasz eddigi leggyorsabb módja.</string>
 </resources>

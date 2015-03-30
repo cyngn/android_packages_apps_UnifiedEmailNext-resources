@@ -174,4 +174,11 @@
   <string name="account_setup_heading_password_instruction">パスワードを入力してください</string>
   <string name="like_action_dialog_tittle">いいねとは？</string>
   <string name="like_action_dialog_message">お気に入りの機能を見つけましたね。メッセージを「いいね」すると、送信者や他の受信者にいいねしたことを知らせるメールが送信されます。今のところ、最速の返信方法です。</string>
+  <string name="new_button">新規</string>
+  <string name="folder_name_hint">フォルダ名</string>
+  <string name="create_folder_progess">フォルダを作成中\u2026</string>
+  <string name="duplicate_folder_title">名前が重複しています</string>
+  <string name="duplicate_folder_message">入力したフォルダ名は既に存在しています。</string>
+  <string name="error">エラー</string>
+  <string name="error_creating_folder_message">フォルダを作成できませんでした。</string>
 </resources>

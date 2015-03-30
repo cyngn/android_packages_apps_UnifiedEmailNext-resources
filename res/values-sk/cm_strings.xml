@@ -188,6 +188,13 @@
   <string name="actions_dialog_negative_button_text">Zavrieť</string>
   <string name="account_setup_heading_email_instruction">Zadajte vašu emailovú adresu pre začatie</string>
   <string name="account_setup_heading_password_instruction">Zadajte vaše heslo</string>
-  <string name="like_action_dialog_tittle">Čo sa mi páči?</string>
+  <string name="like_action_dialog_tittle">Čo znamená páči sa mi?</string>
   <string name="like_action_dialog_message">Našli ste našu obľúbenú funkciu. Keď označíte správu ako ako \'Páči sa mi\', e-mail sa odošle odosielateľovi a ostatným príjemcom, čím im dáte vedieť, že sa vám správa páčila. Je to zatiaľ najrýchlejší spôsob, ako reagovať na e-mail.</string>
+  <string name="new_button">Nové</string>
+  <string name="folder_name_hint">Názov priečinka</string>
+  <string name="create_folder_progess">Vytváranie priečinka\u2026</string>
+  <string name="duplicate_folder_title">Duplicitný názov</string>
+  <string name="duplicate_folder_message">Vami zadaný názov priečinka už existuje.</string>
+  <string name="error">Chyba</string>
+  <string name="error_creating_folder_message">Priečinok nebolo možné vytvoriť.</string>
 </resources>

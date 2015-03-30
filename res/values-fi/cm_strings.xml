@@ -182,4 +182,11 @@
   <string name="account_setup_heading_password_instruction">Kirjoita salasanasi</string>
   <string name="like_action_dialog_tittle">Mikä on \"Tykkää\"?</string>
   <string name="like_action_dialog_message">Löysit suosikkiominaisuutemme. Kun \"Tykkäät\" viestistä, lähettäjälle ja muille vastaanottajille lähetetään tieto että pidät viestistä. Se on nopein tapa vastata sähköpostiin.</string>
+  <string name="new_button">Uusi</string>
+  <string name="folder_name_hint">Kansion nimi</string>
+  <string name="create_folder_progess">Luodaan kansiota\u2026</string>
+  <string name="duplicate_folder_title">Nimi on jo käytössä</string>
+  <string name="duplicate_folder_message">Syöttämäsi kansion nimi on jo käytössä.</string>
+  <string name="error">Virhe</string>
+  <string name="error_creating_folder_message">Kansiota ei voitu luoda.</string>
 </resources>
