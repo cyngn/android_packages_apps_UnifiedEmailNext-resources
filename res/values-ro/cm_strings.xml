@@ -18,17 +18,29 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="support">Suport</string>
   <string name="menu_photo_print">Imprimare</string>
+  <string name="edit">Editare</string>
   <string name="folder_search_hint">Căutare</string>
+  <string-array name="change_folders_sections">
+    <item>Etichete inteligente</item>
+    <item>All labels</item>
+  </string-array>
   <string name="accounts_heading">Conturi</string>
   <string name="print">Imprimare</string>
   <string name="draft_heading">Ciornă</string>
+  <string name="no_subject">(fără subiect)</string>
   <string name="action_grid_due_date_today">Astăzi</string>
   <string name="action_grid_due_date_tomorrow">Mâine</string>
   <string name="action_grid_due_date_this_week">Săptămâna aceasta</string>
   <string name="action_grid_due_date_next_week">Săptămâna viitoare</string>
   <string name="action_grid_priority_low">Prioritate scăzută</string>
+  <string name="action_move_or_label">Mutare/Etichetă</string>
+  <string name="action_spam">Spam</string>
+  <string name="action_actions">Acţiuni</string>
   <string name="custom_mailbox_settings_label">Setări</string>
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
+  <string name="viral_ratings_prompt_no_thanks">Nu, mulțumesc</string>
+  <string name="actions_dialog_title">Personalizare</string>
+  <string name="error">Eroare</string>
 </resources>

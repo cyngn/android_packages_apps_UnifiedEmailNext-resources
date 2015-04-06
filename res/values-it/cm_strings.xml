@@ -180,5 +180,13 @@
   <string name="actions_dialog_negative_button_text">Chiudi</string>
   <string name="account_setup_heading_email_instruction">Inserisci il tuo indirizzo email per iniziare</string>
   <string name="account_setup_heading_password_instruction">Inserisci la tua password</string>
+  <string name="like_action_dialog_tittle">Come è?</string>
   <string name="like_action_dialog_message">Hai trovato la nostra funzione preferita. Quando metti \"Like\" ad un messaggio, verrà inviata una e-mail facendo in modo che il mittente e altri destinatari sappiano che ti piace. È ancora il modo più veloce per rispondere alle e-mail.</string>
+  <string name="new_button">Nuovo</string>
+  <string name="folder_name_hint">Nome cartella</string>
+  <string name="create_folder_progess">Creazione cartella\u2026</string>
+  <string name="duplicate_folder_title">Nome già esistente</string>
+  <string name="duplicate_folder_message">Il nome della cartella è gia esistente.</string>
+  <string name="error">Errore</string>
+  <string name="error_creating_folder_message">La cartella non può essere creata.</string>
 </resources>

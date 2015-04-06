@@ -188,5 +188,13 @@
   <string name="actions_dialog_negative_button_text">Zavřít</string>
   <string name="account_setup_heading_email_instruction">Nejprve zadejte vaši e-mailovou adresu</string>
   <string name="account_setup_heading_password_instruction">Zadejte své heslo</string>
+  <string name="like_action_dialog_tittle">Co je to „Like“?</string>
   <string name="like_action_dialog_message">Našli jste naši oblíbenou funkci. Když dáte zprávě „Like“, odesílatel a ostatní příjemci budou vědět, že se vám líbí. Je to nejrychlejší způsob, jak odpovědět na email.</string>
+  <string name="new_button">Nový</string>
+  <string name="folder_name_hint">Název složky</string>
+  <string name="create_folder_progess">Vytváření složky\u2026</string>
+  <string name="duplicate_folder_title">Duplicitní název</string>
+  <string name="duplicate_folder_message">Název složky, který jste zadali, již existuje.</string>
+  <string name="error">Chyba</string>
+  <string name="error_creating_folder_message">Složku nelze vytvořit.</string>
 </resources>

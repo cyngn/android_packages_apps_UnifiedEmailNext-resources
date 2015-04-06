@@ -70,6 +70,7 @@
   <string name="action_grid_due">Data ważności: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Dodaj priorytet</string>
   <string name="action_grid_priority">Priorytet:\u0020</string>
+  <string name="action_grid_add_assignee">Dodaj pełnomocnika</string>
   <string name="action_grid_assignee">Podpis:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Ustaw datę ważności</string>
   <string name="action_grid_due_date_today">Dziś</string>

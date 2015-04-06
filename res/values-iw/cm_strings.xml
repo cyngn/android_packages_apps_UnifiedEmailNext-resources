@@ -16,5 +16,177 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">משולב</string>
+  <string name="menu_select_all">בחר הכל</string>
+  <string name="menu_actiongrid">מרכז פעולות</string>
+  <string name="remove_account">הסר חשבון</string>
+  <string name="support">תמיכה</string>
+  <string name="delete_account_title">מחק חשבון</string>
+  <string name="delete_account_summary">מחק חשבון זה ואת כל ההגדרות והנתונים שלו</string>
+  <string name="delete_account_confirmation_msg">פעולה זאת תמחק את כל ההגדרות וההודעות של החשבון \"<xliff:g id="account">%s</xliff:g>\". פעולה זו אינה ניתנת לשחזור.\n\nלהמשיך?</string>
+  <string name="deleting_account_msg">מוחק חשבון\u2026</string>
+  <string name="delete_account_failed">לא הצליח למחוק את החשבון</string>
+  <string name="open_attachment">פתח</string>
+  <string name="install_attachment">התקן</string>
+  <string name="menu_photo_print">הדפס</string>
+  <string name="contextmenu_view_image">הצג תמונה</string>
+  <plurals name="to_header">
+    <item quantity="one"> ו-%d נוסף</item>
+    <item quantity="other">ו-%d נוספים</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנת לביצוע.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
+  </plurals>
+  <string name="reported_as_spam">דווח כדואר זבל</string>
+  <string name="new_incoming_messages_one">הראה הודעה חדשה מ-<xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">הראה הודעה <xliff:g id="count">%1$d</xliff:g> חדשה.</item>
+    <item quantity="other">הראה <xliff:g id="count">%1$d</xliff:g> הודעות חדשות.</item>
+  </plurals>
+  <string name="edit">ערוך</string>
+  <string name="folder_search_hint">חיפוש</string>
+  <string-array name="moveto_folder_sections">
+    <item>תיקיות חכמות</item>
+    <item>כל התיקיות</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>תוויות חכמות</item>
+    <item>כל התוויות</item>
+  </string-array>
+  <string name="boxes_heading">תיבות</string>
+  <string name="all_folders_heading">תיקיות</string>
+  <string name="accounts_heading">חשבונות</string>
+  <string name="vendor_signature">נשלח ממכשיר ה-Cyanogen שלי</string>
   <string name="notification_action_mark_read">סמן כנקראה</string>
+  <plurals name="new_messages">
+    <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g> חדשה</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">פעולות החלקה</string>
+  <string name="preferences_swipe_actions_summary">התאם אישית פעולות החלקה ימינה ושמאלה</string>
+  <string name="preferences_swipe_left_short_title">החלקה קצרה שמאלה</string>
+  <string name="preferences_swipe_left_long_title">החלקה ארוכה שמאלה</string>
+  <string name="preferences_swipe_right_short_title">החלקה קצרה ימינה</string>
+  <string name="preferences_swipe_right_long_title">החלקה ארוכה ימינה</string>
+  <string name="print">הדפס</string>
+  <plurals name="num_messages">
+    <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> ב-<xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">טיוטה ל:\u0020</string>
+  <string name="draft_heading">טיוטה</string>
+  <string name="quoted_text_hidden_print">טקסט מצוטט מוסתר</string>
+  <plurals name="num_attachments">
+    <item quantity="one">קובץ מצורף <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> קבצים מצורפים</item>
+  </plurals>
+  <string name="no_subject">(ללא נושא)</string>
+  <string name="action_grid_select_quick_response">בחר תגובה מהירה</string>
+  <string name="action_grid_todo_dialog_title">פרטים</string>
+  <string name="action_grid_set_due_date">הגדר תאריך יעד</string>
+  <string name="action_grid_due">יעד: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">הוסף עדיפות</string>
+  <string name="action_grid_priority">עדיפות: \u0020</string>
+  <string name="action_grid_add_assignee">הוסף מקבל הקצאה</string>
+  <string name="action_grid_assignee">מקבל הקצאה:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">הגדר תאריך יעד</string>
+  <string name="action_grid_due_date_today">היום</string>
+  <string name="action_grid_due_date_tomorrow">מחר</string>
+  <string name="action_grid_due_date_this_week">השבוע</string>
+  <string name="action_grid_due_date_next_week">שבוע הבא</string>
+  <string name="action_grid_due_date_specific_date">תאריך מסוים</string>
+  <string name="action_grid_calendar_picker_dialog_title">הגדר תאריך יעד</string>
+  <string name="action_grid_priority_dialog_title">הוסף עדיפות</string>
+  <string name="action_grid_priority_highest">העדיפות הגבוהה ביותר</string>
+  <string name="action_grid_priority_high">עדיפות גבוהה</string>
+  <string name="action_grid_priority_normal">עדיפות רגילה</string>
+  <string name="action_grid_priority_low">עדיפות נמוכה</string>
+  <string name="action_grid_priority_lowest">העדיפות הנמוכה ביותר</string>
+  <string name="action_grid_assignee_dialog_title">הוסף מקבל הקצאה</string>
+  <string name="action_grid_assignee_select_from_contacts">בחר מאנשי הקשר</string>
+  <string name="action_grid_assignee_search_for_contact">חפש איש קשר</string>
+  <string name="action_grid_assignee_button_bar_clear">הסר</string>
+  <string name="action_message_header_delete">האם למחוק הודעה זו?</string>
+  <string name="action_like">אהבתי</string>
+  <string name="action_todo">לביצוע</string>
+  <string name="action_quick">מהיר</string>
+  <string name="action_move">העבר</string>
+  <string name="action_label">תווית</string>
+  <string name="action_move_or_label">העבר/תווית</string>
+  <string name="action_archive">העבר לארכיון</string>
+  <string name="action_delete">מחק</string>
+  <string name="action_spam">דואר זבל</string>
+  <string name="action_flag">דגל</string>
+  <string name="action_clear_flag">הסר דגל</string>
+  <string name="action_star">כוכב</string>
+  <string name="action_clear_star">הסר כוכב</string>
+  <string name="action_star_or_flag">כוכב/דגל</string>
+  <string name="action_mark_unread">סמן כלא נקראה</string>
+  <string name="action_mark_read">סמן כנקראה</string>
+  <string name="action_read_or_unread">נקראה/לא נקראה</string>
+  <string name="action_actions">פעולות</string>
+  <string name="marked_evernote">נשלח ל-Evernote</string>
+  <string name="marked_liked">סומן כ\"אהבתי\"</string>
+  <string name="marked_archived">מסומן להעברה לארכיון</string>
+  <string name="marked_deleted">מסומן למחיקה</string>
+  <string name="marked_spam">הועבר לדואר זבל</string>
+  <string name="marked_todo">מסומן לביצוע</string>
+  <string name="marked_done">מסומן כבוצע</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">התגובה נשלחה</item>
+    <item quantity="other">התגובות נשלחו</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">אהבתי את ההודעה</item>
+    <item quantity="other">אהבתי את ההודעות</item>
+  </plurals>
+  <string name="invalid_selection">בחירה לא חוקית</string>
+  <string name="file_action_more_than_one_account">בחרת שיחות מיותר מחשבון אחד. נסה לבחור שיחות מחשבון אחד בלבד.</string>
+  <string name="evernote_action_more_than_one_conversation">הפונקציונליות של Evernote תומכת רק בשיחה אחת בכל פעם. נסה לבחור שיחה אחת בלבד.</string>
+  <string name="not_installed">לא מותקן</string>
+  <string name="evernote_not_installed">לא נראה ש-Evernote מותקן על המכשיר. אנא התקן את היישום על מנת להשתמש באפשרות זו.</string>
+  <string name="custom_mailbox_button">הוסף תיבה מותאמת אישית</string>
+  <string name="custom_mailbox_settings_label">הגדרות</string>
+  <string name="custom_mailbox_folder_name_hint">שם תיבה מותאמת אישית</string>
+  <string name="custom_mailbox_background_sync_label">סנכרון ברקע</string>
+  <string name="custom_mailbox_background_sync_switch_on">פעיל</string>
+  <string name="custom_mailbox_background_sync_switch_off">כבוי</string>
+  <string name="custom_mailbox_delete_box">מחק תיבה</string>
+  <string name="custom_mailbox_error_no_selected_folders">אנא בחר תיקייה אחת לפחות מרשימה זו</string>
+  <string name="custom_mailbox_delete_box_dialog_title">אזהרה</string>
+  <string name="custom_mailbox_delete_box_dialog_message">האם אתה בטוח שברצונך למחוק תיבה מותאמת אישית זו?</string>
+  <string name="custom_mailbox_error_deleting_box">אירעה שגיאה בעת מחיקת התיבה המותאמת אישית שלך</string>
+  <string name="viral_prompt_rate_app_title">דרג יישום זה</string>
+  <string name="viral_prompt_rate_app_body">אם אתה נהנה מיישום זה, האם תוכל לקחת רגע ולדרג אותו? זה לא ייקח יותר מדקה. תודה רבה על תמיכתך!</string>
+  <string name="viral_ratings_prompt_remind_me_later">הזכר לי מאוחר יותר</string>
+  <string name="viral_ratings_prompt_no_thanks">לא תודה</string>
+  <string name="viral_ratings_prompt_rate_now">דרג עכשיו</string>
+  <string name="promo_code_title_text">אל תילחם בדואר הנכנס שלך לבד</string>
+  <string name="promo_code_edittext_hint">הכנס קוד קידום</string>
+  <string name="promo_code_button_text">שלח</string>
+  <string name="promo_code_error_no_code_entered">אנא הכנס קוד קידום לפני לחיצה על \"שלח\"</string>
+  <string name="promo_code_error_invalid_code">קוד קידום לא חוקי</string>
+  <string name="promo_code_dialog_title">תכונות נפתחו</string>
+  <string name="promo_code_dialog_message">פתחת בהצלחה את <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">קוד קידום הוחל בהצלחה</string>
+  <string name="promo_code_progress_dialog_validating">מאמת קוד קידום</string>
+  <string name="rage_shake_title">ניעור זוהה</string>
+  <string name="rage_shake_message">האם ברצונך לעצור את היישום על מנת לשלוח מידע איתור באגים?</string>
+  <string name="actions_dialog_title">התאם אישית</string>
+  <string name="actions_dialog_message">האם אתה משתמש בתיקיות באופן קבוע? מסמן כדואר זבל בלי הפסקה? אוהב להשתמש ב-Evernote?\n\nעם פעולות החלקה מותאמות אישית, אתה יכול להתאים כל אחת מפעולות אלו לרצף העבודה שלך.\n</string>
+  <string name="actions_dialog_positive_button_text">התאם אישית החלקות</string>
+  <string name="actions_dialog_negative_button_text">סגור</string>
+  <string name="account_setup_heading_email_instruction">הכנס את כתובת הדוא\"ל שלך כדי להתחיל</string>
+  <string name="account_setup_heading_password_instruction">הכנס את הסיסמה שלך</string>
+  <string name="like_action_dialog_tittle">מה זה \"אהבתי\"?</string>
+  <string name="like_action_dialog_message">מצאת את התכונה החביבה עלינו. כשאתה מסמן הודעה כ\"אהבתי\", דוא\"ל יישלח לשולח ולנמענים נוספים על מנת שידעו שאהבת את זה. זו הדרך המהירה ביותר להגיב לדוא\"ל כיום.</string>
+  <string name="new_button">חדש</string>
+  <string name="folder_name_hint">שם התיקייה</string>
+  <string name="create_folder_progess">יוצר תיקייה\u2026</string>
+  <string name="duplicate_folder_title">שם כפול</string>
+  <string name="duplicate_folder_message">שם התיקייה שהכנסת כבר קיים.</string>
+  <string name="error">שגיאה</string>
+  <string name="error_creating_folder_message">לא ניתן היה ליצור את התיקייה.</string>
 </resources>

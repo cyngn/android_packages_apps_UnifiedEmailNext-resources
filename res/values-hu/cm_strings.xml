@@ -180,5 +180,13 @@
   <string name="actions_dialog_negative_button_text">Bezárás</string>
   <string name="account_setup_heading_email_instruction">Adja meg az e-mail címét a kezdéshez</string>
   <string name="account_setup_heading_password_instruction">Adja meg jelszavát</string>
+  <string name="like_action_dialog_tittle">Mi a Like?</string>
   <string name="like_action_dialog_message">Rátalált kedvenc funkciónkra. Amikor egy üzenetet \"Tetszik\" jelöléssel lát el, a feladó és a többi címzett e-mailben értesül, hogy Ön kedveli azt. Ez az e-mailre adott válasz eddigi leggyorsabb módja.</string>
+  <string name="new_button">Új</string>
+  <string name="folder_name_hint">Mappa neve</string>
+  <string name="create_folder_progess">Mappa létrehozása\u2026</string>
+  <string name="duplicate_folder_title">Azonos név</string>
+  <string name="duplicate_folder_message">A megadott néven már létezik mappa.</string>
+  <string name="error">Hiba</string>
+  <string name="error_creating_folder_message">A mappa nem hozható létre.</string>
 </resources>

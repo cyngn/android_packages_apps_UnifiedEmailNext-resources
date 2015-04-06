@@ -25,7 +25,7 @@
   <string name="add_file_attachment">צרף קובץ</string>
   <string name="add_photo_attachment">צרף תמונה</string>
   <string name="save_draft">שמור טיוטה</string>
-  <string name="discard">מחק</string>
+  <string name="discard">ביטול</string>
   <string name="compose">כתוב</string>
   <string-array name="compose_modes">
     <item>השב</item>
@@ -57,9 +57,9 @@
   <string name="remove_star">הסר כוכב</string>
   <string name="remove_folder">הסר מ-<xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="archive">העבר לארכיון</string>
-  <string name="report_spam">דווח על ספאם</string>
+  <string name="report_spam">דווח על דואר זבל</string>
   <string name="mark_not_spam">דווח שפריט זה אינו דואר זבל</string>
-  <string name="report_phishing">דווח על דיוג</string>
+  <string name="report_phishing">דווח על דיוג (פישינג)</string>
   <string name="delete">מחק</string>
   <string name="discard_drafts">מחק טיוטות</string>
   <string name="refresh">רענן</string>
@@ -89,8 +89,8 @@
   <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> KB</string>
   <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
   <string name="attachment_image">תמונה</string>
-  <string name="attachment_video">סרטון</string>
-  <string name="attachment_audio">אודיו</string>
+  <string name="attachment_video">וידאו</string>
+  <string name="attachment_audio">שמע</string>
   <string name="attachment_text">טקסט</string>
   <string name="attachment_application_msword">מסמך</string>
   <string name="attachment_application_vnd_ms_powerpoint">מצגת</string>

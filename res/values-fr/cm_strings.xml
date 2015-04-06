@@ -181,7 +181,10 @@
   <string name="account_setup_heading_email_instruction">Entrez votre adresse e-mail pour commencer</string>
   <string name="account_setup_heading_password_instruction">Entrez votre mot de passe</string>
   <string name="like_action_dialog_message">Vous avez trouvé notre fonction préférée. Lorsque vous « aimez » un message, un e-mail faisant savoir que vous aimez ce message sera envoyé à l\'expéditeur et aux autres destinataires. C\'est le moyen le plus rapide de répondre à un e-mail.</string>
+  <string name="new_button">Nouveau</string>
+  <string name="folder_name_hint">Nom du dossier</string>
   <string name="duplicate_folder_title">Nom dupliqué</string>
   <string name="duplicate_folder_message">Le nom de dossier existe déjà.</string>
   <string name="error">Erreur</string>
+  <string name="error_creating_folder_message">Le dossier n\'a pas pu être créé.</string>
 </resources>

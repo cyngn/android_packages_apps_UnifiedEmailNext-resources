@@ -38,6 +38,7 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als zu erledigen markiert.</item>
   </plurals>
   <string name="reported_as_spam">Als Spam gemeldet</string>
+  <string name="new_incoming_messages_one">Neue Nachricht von <xliff:g id="sender">%s</xliff:g> anzeigen.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachricht.</item>
     <item quantity="other">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachrichten.</item>
@@ -73,7 +74,9 @@
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Nachrichten</item>
   </plurals>
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> um <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Entwurf an:\u0020</string>
   <string name="draft_heading">Entwurf</string>
+  <string name="quoted_text_hidden_print">Zitierter Text verborgen</string>
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Anhang</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Anhänge</item>
@@ -165,6 +168,14 @@
   <string name="actions_dialog_title">Anpassen</string>
   <string name="actions_dialog_positive_button_text">Wischaktionen anpassen</string>
   <string name="actions_dialog_negative_button_text">Schließen</string>
+  <string name="account_setup_heading_email_instruction">Geben Sie Ihre E-Mail-Adresse ein, um loszulegen</string>
   <string name="account_setup_heading_password_instruction">Geben Sie Ihr Kennwort ein</string>
   <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie eine Nachricht \"liken\", wird eine E-Mail an den Absender und andere Empfänger gesendet, sodass jeder weiß, dass sie Ihnen gefällt. Es ist die schnellste Art auf eine E-Mail zu antworten.</string>
+  <string name="new_button">Neu</string>
+  <string name="folder_name_hint">Ordnername</string>
+  <string name="create_folder_progess">Erstelle Ordner\u2026</string>
+  <string name="duplicate_folder_title">Doppelter Name</string>
+  <string name="duplicate_folder_message">Der eigegebene Ordnername ist bereits vorhanden.</string>
+  <string name="error">Fehler</string>
+  <string name="error_creating_folder_message">Der Ordner konnte nicht erstellt werden.</string>
 </resources>
