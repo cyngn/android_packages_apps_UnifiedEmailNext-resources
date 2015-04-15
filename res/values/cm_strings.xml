@@ -20,7 +20,7 @@
     <string name="mailbox_list_account_selector_combined_view">Combined</string>
     <!-- Menu item: Select all conversations -->
     <string name="menu_select_all">Select all</string>
-    <string name="menu_actiongrid">ActionGrid</string>
+    <string name="menu_actiongrid">Action grid</string>
     <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
     <string name="remove_account">Remove account</string>
     <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
