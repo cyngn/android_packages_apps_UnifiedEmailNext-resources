@@ -56,7 +56,7 @@
         <!-- Forward -->
         <item>Forward</item>
     </string-array>
-        <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
+    <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
     <string name="formatted_subject" translatable="false"><xliff:g id="prefix">%1$s</xliff:g> <xliff:g id="subject">%2$s</xliff:g></string>
     <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
     <string name="reply_subject_label" translatable="false">Re:</string>
@@ -141,14 +141,6 @@
     <string name="menu_move_to_inbox">Move to Inbox</string>
     <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
     <string name="menu_manage_folders">Folder settings</string>
-    <!-- Menu item: report an email was not readable or poorly rendered -->
-    <string name="report_rendering_problem" translatable="false">Looks bad</string>
-    <!-- Menu item: report an email's readability has improved -->
-    <string name="report_rendering_improvement" translatable="false">Looks good</string>
-    <!-- Temporary text used for reporting rendering issues Googlers see in testing -->
-    <string name="report_rendering_problem_desc" translatable="false">This message looks bad.</string>
-    <!-- Temporary text used for reporting rendering improvements Googlers see in testing -->
-    <string name="report_rendering_improvement_desc" translatable="false">This message looks good.</string>
     <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
     <string name="menu_show_original">Revert auto-sizing</string>
     <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
@@ -278,7 +270,7 @@
     <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> about <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> on <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
     <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
     <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> about <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> at <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
-     <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+    <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
     <string name="read_string">conversation read</string>
     <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
     <string name="unread_string">conversation unread</string>
@@ -334,8 +326,6 @@
     <!-- Conversation list shared between the Activity and Widget -->
     <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
     <string name="loading_conversations">Loading\u2026</string>
-    <!-- Displayed in the middle of the screen when the inbox is empty [CHAR LIMIT 100]-->
-    <string name="no_conversations">No conversations.</string>
 
     <!-- Undo bar strings -->
     <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
@@ -636,8 +626,6 @@
     <!-- Token used to space out message count, draft text, and senders -->
     <string translatable="false" name="message_count_spacer">\u00A0\u00A0</string>
 
-    <string translatable="false" name="quote_begin">&lt;div class=\"quote\"&gt;</string>
-
     <!-- String used in the FolderListFragment to mark the start of recent folders -->
     <string name="recent_folders_heading">Recent folders</string>
 
@@ -712,17 +700,12 @@
     <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
     <string name="preferences_signature_summary_not_set">Not set</string>
 
-    <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
-    <string name="notification_action_reply">Reply</string>
     <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
     <string name="notification_action_reply_all">Reply all</string>
     <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
     <string name="notification_action_archive">Archive</string>
     <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
     <string name="notification_action_remove_label">Remove label</string>
-    <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
-    <string name="notification_action_delete">Delete</string>
-
     <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
     <string name="notification_action_undo_archive">Archived</string>
     <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->

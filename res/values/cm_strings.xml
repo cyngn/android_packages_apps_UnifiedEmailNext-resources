@@ -82,7 +82,12 @@
     <!-- Default email signature on vendor builds -->
     <string name="vendor_signature">Sent from my Cyanogen phone</string>
     <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
-    <string name="notification_action_mark_read">Mark read</string>
+    <string name="notification_action_mark_read">READ</string>
+    <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+    <string name="notification_action_reply">REPLY</string>
+    <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+    <string name="notification_action_delete">DEL</string>
+
     <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
     <plurals name="new_messages">
         <item quantity="one"><xliff:g id="count">%1$d</xliff:g> new message</item>
@@ -259,4 +264,17 @@
     <string name="error">Error</string>
     <!-- Error message displayed when a folder fails to be created on the server. -->
     <string name="error_creating_folder_message">The folder could not be created.</string>
+
+    <!-- Menu item: report an email was not readable or poorly rendered -->
+    <string name="report_rendering_problem">Report</string>
+
+    <!-- Conversation list shared between the Activity and Widget -->
+    <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+    <string name="no_conversation_needs_sync">There is no mail here.\nPull down from the top to refresh</string>
+    <string name="getting_messages">Getting your messages</string>
+    <string name="empty_folder">There is no mail here.</string>
+    <string name="empty_inbox">You\'re all done! Please enjoy your day.</string>
+    <string name="empty_search">Whoops! We didn\'t find anything for "<xliff:g id="search_query">%1$s</xliff:g>".</string>
+    <string name="empty_spam_folder">Hooray, no spam here!</string>
+    <string name="empty_trash_folder">No trash here. Thanks for recycling!</string>
 </resources>
