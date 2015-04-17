@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Doručená pošta</string>
   <string name="confirm_discard_text">Zahodit tuto zprávu?</string>
   <string name="loading_conversations">Načítání…</string>
-  <string name="no_conversations">Žádné konverzace</string>
   <string name="undo">Vrátit zpět</string>
   <string name="deleted">Smazáno</string>
   <string name="archived">Archivováno</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Podpis</string>
   <string name="preferences_signature_dialog_title">Podpis</string>
   <string name="preferences_signature_summary_not_set">Nenastaveno</string>
-  <string name="notification_action_reply">Odpovědět</string>
   <string name="notification_action_reply_all">Odpovědět všem</string>
   <string name="notification_action_archive">Archivovat</string>
   <string name="notification_action_remove_label">Odebrat štítek</string>
-  <string name="notification_action_delete">Smazat</string>
   <string name="notification_action_undo_archive">Archivováno</string>
   <string name="notification_action_undo_remove_label">Štítek odstraněn</string>
   <string name="notification_action_undo_delete">Smazáno</string>

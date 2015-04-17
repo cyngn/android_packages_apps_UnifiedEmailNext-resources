@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">Hủy tin nhắn này?</string>
   <string name="loading_conversations">Đang tải…</string>
-  <string name="no_conversations">Không có cuộc hội thoại nào.</string>
   <string name="undo">Hoàn tác</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">Bỏ gắn dấu sao <xliff:g id="COUNT">%1$d</xliff:g> cuộc hội thoại.</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">Chữ ký</string>
   <string name="preferences_signature_dialog_title">Chữ ký</string>
   <string name="preferences_signature_summary_not_set">Chưa cài đặt</string>
-  <string name="notification_action_reply">Trả lời</string>
   <string name="notification_action_reply_all">Trả lời tất cả</string>
   <string name="notification_action_archive">Lưu trữ</string>
   <string name="notification_action_remove_label">Xóa nhãn</string>
-  <string name="notification_action_delete">Xóa</string>
   <string name="notification_action_undo_archive">Đã lưu trữ</string>
   <string name="notification_action_undo_remove_label">Đã xóa nhãn</string>
   <string name="notification_action_undo_delete">Đã xóa</string>

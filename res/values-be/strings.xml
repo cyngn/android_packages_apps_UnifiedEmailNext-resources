@@ -134,7 +134,6 @@
   <string name="inbox_folders_heading">Уваходныя</string>
   <string name="confirm_discard_text">Скасаваць гэта паведамленне?</string>
   <string name="loading_conversations">Загрузка…</string>
-  <string name="no_conversations">Няма размоў.</string>
   <string name="undo">Адмянiць</string>
   <string name="deleted">Выдалена</string>
   <string name="archived">Заархiвавана</string>
@@ -232,11 +231,9 @@
   <string name="clear_display_images_whitelist_dialog_title">Выдаліць дазволы па выявах?</string>
   <string name="clear_display_images_whitelist_dialog_message">Спыненне адлюстравання убудаваных выяў ад адпраўнікоў, якое раней было дазволена.</string>
   <string name="sender_whitelist_cleared">Выявы не будуць адлюстроўвацца аўтаматычна</string>
-  <string name="notification_action_reply">Адказаць</string>
   <string name="notification_action_reply_all">Адказаць усім</string>
   <string name="notification_action_archive">Архіваваць</string>
   <string name="notification_action_remove_label">Выдаліць цэтлік</string>
-  <string name="notification_action_delete">Выдаліць</string>
   <string name="notification_action_undo_archive">Заархiвавана</string>
   <string name="notification_action_undo_remove_label">Цэтлiк выдалены</string>
   <string name="notification_action_undo_delete">Выдалены</string>

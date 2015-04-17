@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Вхідні</string>
   <string name="confirm_discard_text">Відхилити це повідомлення?</string>
   <string name="loading_conversations">Завантаження…</string>
-  <string name="no_conversations">Немає бесід.</string>
   <string name="undo">Відмінити</string>
   <string name="deleted">Видалено</string>
   <string name="archived">Заархівовано</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Підпис</string>
   <string name="preferences_signature_dialog_title">Підпис</string>
   <string name="preferences_signature_summary_not_set">Не встановлено</string>
-  <string name="notification_action_reply">Відповісти</string>
   <string name="notification_action_reply_all">Відповісти всім</string>
   <string name="notification_action_archive">Архівувати</string>
   <string name="notification_action_remove_label">Вилучити мітку</string>
-  <string name="notification_action_delete">Видалити</string>
   <string name="notification_action_undo_archive">Архів</string>
   <string name="notification_action_undo_remove_label">Мітку вилучено</string>
   <string name="notification_action_undo_delete">Видалено</string>

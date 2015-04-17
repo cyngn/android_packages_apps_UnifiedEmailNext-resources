@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">البريد الوارد</string>
   <string name="confirm_discard_text">هل تريد إلغاء هذه الرسالة؟</string>
   <string name="loading_conversations">جارٍ التحميل…</string>
-  <string name="no_conversations">لا تتوفر محادثات.</string>
   <string name="undo">تراجع</string>
   <string name="deleted">تم الحذف</string>
   <string name="archived">تم الوضع في الأرشيف</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">التوقيع</string>
   <string name="preferences_signature_dialog_title">التوقيع</string>
   <string name="preferences_signature_summary_not_set">لم يتم الضبط</string>
-  <string name="notification_action_reply">رد</string>
   <string name="notification_action_reply_all">الرد على الكل</string>
   <string name="notification_action_archive">وضع في الأرشيف</string>
   <string name="notification_action_remove_label">إزالة التصنيف</string>
-  <string name="notification_action_delete">حذف</string>
   <string name="notification_action_undo_archive">تمت الأرشفة</string>
   <string name="notification_action_undo_remove_label">تمت إزالة التصنيف</string>
   <string name="notification_action_undo_delete">تم الحذف</string>

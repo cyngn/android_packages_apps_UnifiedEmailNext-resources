@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">ይሄ መልዕክት ይወገድ?</string>
   <string name="loading_conversations">በመጫን ላይ…</string>
-  <string name="no_conversations">ምንም ውይይቶች የሉም።</string>
   <string name="undo">ቀልብስ</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">የ<xliff:g id="COUNT">%1$d</xliff:g> ውይይት ኮከብ በማንሳት ላይ።</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">ፊርማ</string>
   <string name="preferences_signature_dialog_title">ፊርማ</string>
   <string name="preferences_signature_summary_not_set">አልተዘጋጀም</string>
-  <string name="notification_action_reply">ምላሽ ይስጡ</string>
   <string name="notification_action_reply_all">ለሁሉም ምላሽ ይስጡ</string>
   <string name="notification_action_archive">በማህደር ያስቀምጡ</string>
   <string name="notification_action_remove_label">መለያ ስም ያስወግዱ</string>
-  <string name="notification_action_delete">ይሰርዙ</string>
   <string name="notification_action_undo_archive">በማህደር የተቀመጠ</string>
   <string name="notification_action_undo_remove_label">መለያ ስም ተወግዷል</string>
   <string name="notification_action_undo_delete">ተሰርዟል</string>

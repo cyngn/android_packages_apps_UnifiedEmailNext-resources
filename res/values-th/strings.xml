@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">ยกเลิกข้อความนี้หรือไม่</string>
   <string name="loading_conversations">กำลังโหลด…</string>
-  <string name="no_conversations">ไม่มีการสนทนา</string>
   <string name="undo">เลิกทำ</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">กำลังยกเลิกการติดดาวการสนทนา <xliff:g id="COUNT">%1$d</xliff:g> รายการ</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">ลายเซ็น</string>
   <string name="preferences_signature_dialog_title">ลายเซ็น</string>
   <string name="preferences_signature_summary_not_set">ไม่ได้ตั้งค่า</string>
-  <string name="notification_action_reply">ตอบ</string>
   <string name="notification_action_reply_all">ตอบทั้งหมด</string>
   <string name="notification_action_archive">เก็บถาวร</string>
   <string name="notification_action_remove_label">ลบป้ายกำกับ</string>
-  <string name="notification_action_delete">ลบ</string>
   <string name="notification_action_undo_archive">เก็บถาวรแล้ว</string>
   <string name="notification_action_undo_remove_label">ลบป้ายกำกับแล้ว</string>
   <string name="notification_action_undo_delete">ลบแล้ว</string>

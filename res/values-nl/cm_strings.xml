@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Mappen</string>
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Verzonden vanaf mijn Cyanogen-telefoon</string>
-  <string name="notification_action_mark_read">Gelezen</string>
+  <string name="notification_action_mark_read">Lees</string>
+  <string name="notification_action_reply">Antw</string>
+  <string name="notification_action_delete">Wis</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nieuw bericht</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nieuwe berichten</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">De mapnaam die u heeft ingevoerd bestaat al.</string>
   <string name="error">Fout</string>
   <string name="error_creating_folder_message">De map kon niet worden aangemaakt.</string>
+  <string name="report_rendering_problem">Rapporteren</string>
+  <string name="no_conversation_needs_sync">Deze map bevat geen e-mail.\nVeeg omlaag om te vernieuwen.</string>
+  <string name="getting_messages">Uw berichten ophalen</string>
+  <string name="empty_folder">Deze map bevat geen e-mail.</string>
+  <string name="empty_inbox">U bent klaar. Nog een fijne dag gewenst.</string>
+  <string name="empty_search">Oeps! We hebben geen resultaten gevonden voor \'<xliff:g id="search_query">%1$s</xliff:g>\'.</string>
+  <string name="empty_spam_folder">Hoera, geen spam te zien!</string>
+  <string name="empty_trash_folder">De prullenbak is leeg. Hartelijk dank voor het recyclen.</string>
 </resources>

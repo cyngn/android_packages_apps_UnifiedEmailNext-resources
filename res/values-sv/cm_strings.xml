@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_select_all">Markera alla</string>
-  <string name="menu_actiongrid">ActionGrid</string>
   <string name="remove_account">Ta bort konto</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Radera konto</string>
@@ -50,7 +49,6 @@
   </string-array>
   <string name="boxes_heading">Fält</string>
   <string name="accounts_heading">Konton</string>
-  <string name="notification_action_mark_read">Markera som läst</string>
   <string name="preferences_swipe_actions_title">Svep åtgärder</string>
   <string name="preferences_swipe_actions_summary">Anpassa vänster och höger svep-åtgärder</string>
   <string name="preferences_swipe_left_short_title">Vänster kort svepning</string>

@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Pastas</string>
   <string name="accounts_heading">Contas</string>
   <string name="vendor_signature">Enviado do meu telefone com Cyanogen</string>
-  <string name="notification_action_mark_read">Marcar como lida</string>
+  <string name="notification_action_mark_read">LER</string>
+  <string name="notification_action_reply">RESPONDER</string>
+  <string name="notification_action_delete">ELIMINAR</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensagem nova</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mensagens novas</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">O nome da pasta que inseriu já existe.</string>
   <string name="error">Erro</string>
   <string name="error_creating_folder_message">A pasta não pôde ser criada.</string>
+  <string name="report_rendering_problem">Comunicar problema</string>
+  <string name="no_conversation_needs_sync">Não há nenhum correio aqui.\nPuxe para baixo na parte superior para atualizar</string>
+  <string name="getting_messages">A obter as suas mensagens</string>
+  <string name="empty_folder">Não há nenhum correio aqui.</string>
+  <string name="empty_inbox">Está feito! Por favor, aproveite o seu dia.</string>
+  <string name="empty_search">Opa! Não encontramos nada para \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Viva, não há spam aqui!</string>
+  <string name="empty_trash_folder">Não há lixo aqui. Obrigado por reciclar!</string>
 </resources>

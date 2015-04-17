@@ -57,7 +57,6 @@
   <string name="all_folders_heading">Ordner</string>
   <string name="accounts_heading">Konten</string>
   <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
-  <string name="notification_action_mark_read">Als gelesen markieren</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neue Nachricht</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
@@ -65,7 +64,7 @@
   <string name="preferences_swipe_actions_title">Wischaktionen</string>
   <string name="preferences_swipe_actions_summary">Aktion für Wisch nach links und rechts anpassen</string>
   <string name="preferences_swipe_left_short_title">Kurzer Wisch nach links</string>
-  <string name="preferences_swipe_left_long_title">Langer Wisch nach rechts</string>
+  <string name="preferences_swipe_left_long_title">Langer Wisch nach links</string>
   <string name="preferences_swipe_right_short_title">Kurzer Wisch nach rechts</string>
   <string name="preferences_swipe_right_long_title">Langer Wisch nach rechts</string>
   <string name="print">Drucken</string>
@@ -143,6 +142,7 @@
   <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_folder_name_hint">Benutzerdefinierter Feldname</string>
+  <string name="custom_mailbox_background_sync_label">Hintergrund-Synchronisation</string>
   <string name="custom_mailbox_background_sync_switch_on">An</string>
   <string name="custom_mailbox_background_sync_switch_off">Aus</string>
   <string name="custom_mailbox_delete_box">Feld löschen</string>
@@ -170,6 +170,7 @@
   <string name="actions_dialog_negative_button_text">Schließen</string>
   <string name="account_setup_heading_email_instruction">Geben Sie Ihre E-Mail-Adresse ein, um loszulegen</string>
   <string name="account_setup_heading_password_instruction">Geben Sie Ihr Kennwort ein</string>
+  <string name="like_action_dialog_tittle">Was ist \"gefällt mir\"?</string>
   <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie eine Nachricht \"liken\", wird eine E-Mail an den Absender und andere Empfänger gesendet, sodass jeder weiß, dass sie Ihnen gefällt. Es ist die schnellste Art auf eine E-Mail zu antworten.</string>
   <string name="new_button">Neu</string>
   <string name="folder_name_hint">Ordnername</string>

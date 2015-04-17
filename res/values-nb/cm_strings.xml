@@ -40,7 +40,6 @@
   <string name="all_folders_heading">Mapper</string>
   <string name="accounts_heading">Kontoer</string>
   <string name="vendor_signature">Sendt fra min Cyanogen telefon</string>
-  <string name="notification_action_mark_read">Merk som lest</string>
   <string name="print">Skriv ut</string>
   <string name="draft_heading">Utkast</string>
   <string name="action_grid_todo_dialog_title">Detaljer</string>

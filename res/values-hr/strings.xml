@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Pristigla pošta</string>
   <string name="confirm_discard_text">Odbaciti ovu poruku?</string>
   <string name="loading_conversations">Učitavanje…</string>
-  <string name="no_conversations">Nema razgovora.</string>
   <string name="undo">Poništi</string>
   <string name="deleted">Izbrisano</string>
   <string name="archived">Arhivirano</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Potpis</string>
   <string name="preferences_signature_dialog_title">Potpis</string>
   <string name="preferences_signature_summary_not_set">Nije postavljeno</string>
-  <string name="notification_action_reply">Odgovori</string>
   <string name="notification_action_reply_all">Odgovori svima</string>
   <string name="notification_action_archive">Arhiva</string>
   <string name="notification_action_remove_label">Ukloni oznaku</string>
-  <string name="notification_action_delete">Izbriši</string>
   <string name="notification_action_undo_archive">Arhivirano</string>
   <string name="notification_action_undo_remove_label">Oznaka je uklonjena</string>
   <string name="notification_action_undo_delete">Izbrisano</string>

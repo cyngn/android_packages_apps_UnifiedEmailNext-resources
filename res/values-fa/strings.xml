@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">از این پیام صرفنظر شود؟</string>
   <string name="loading_conversations">در حال بارگیری…</string>
-  <string name="no_conversations">مکالمه‌ای موجود نیست.</string>
   <string name="undo">لغو</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">در حال حذف ستاره <xliff:g id="COUNT">%1$d</xliff:g> مکالمه.</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">امضا</string>
   <string name="preferences_signature_dialog_title">امضا</string>
   <string name="preferences_signature_summary_not_set">تنظیم نشده است</string>
-  <string name="notification_action_reply">پاسخ</string>
   <string name="notification_action_reply_all">پاسخ به همه</string>
   <string name="notification_action_archive">آرشیو</string>
   <string name="notification_action_remove_label">حذف برچسب</string>
-  <string name="notification_action_delete">حذف</string>
   <string name="notification_action_undo_archive">بایگانی شد</string>
   <string name="notification_action_undo_remove_label">برچسب حذف شد</string>
   <string name="notification_action_undo_delete">حذف شده</string>

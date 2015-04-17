@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">האם למחוק הודעה זו?</string>
   <string name="loading_conversations">טוען…</string>
-  <string name="no_conversations">אין שיחות.</string>
   <string name="undo">בטל</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">מסיר כוכב משיחה <xliff:g id="COUNT">%1$d</xliff:g>.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">חתימה</string>
   <string name="preferences_signature_dialog_title">חתימה</string>
   <string name="preferences_signature_summary_not_set">לא מוגדר</string>
-  <string name="notification_action_reply">השב</string>
   <string name="notification_action_reply_all">השב לכולם</string>
   <string name="notification_action_archive">שלח לארכיון</string>
   <string name="notification_action_remove_label">הסר תווית</string>
-  <string name="notification_action_delete">מחק</string>
   <string name="notification_action_undo_archive">הועברה לארכיון</string>
   <string name="notification_action_undo_remove_label">התווית הוסרה</string>
   <string name="notification_action_undo_delete">נמחקה</string>

@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Входящие</string>
   <string name="confirm_discard_text">Удалить это сообщение?</string>
   <string name="loading_conversations">Загрузка…</string>
-  <string name="no_conversations">Пока ничего нет</string>
   <string name="undo">Отмена</string>
   <string name="deleted">Удалено</string>
   <string name="archived">Отправлено в архив</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Подпись</string>
   <string name="preferences_signature_dialog_title">Подпись</string>
   <string name="preferences_signature_summary_not_set">Не настроена</string>
-  <string name="notification_action_reply">Ответить</string>
   <string name="notification_action_reply_all">Ответить всем</string>
   <string name="notification_action_archive">Архивировать</string>
   <string name="notification_action_remove_label">Удалить ярлык</string>
-  <string name="notification_action_delete">Удалить</string>
   <string name="notification_action_undo_archive">Отправлено в архив</string>
   <string name="notification_action_undo_remove_label">Ярлык удален</string>
   <string name="notification_action_undo_delete">Удалено</string>

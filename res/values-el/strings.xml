@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Να απορριφθεί αυτό το μήνυμα;</string>
   <string name="loading_conversations">Γίνεται φόρτωση…</string>
-  <string name="no_conversations">Δεν υπάρχουν συνομιλίες.</string>
   <string name="undo">Αναίρεση</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Κατάργηση αστεριού για <xliff:g id="COUNT">%1$d</xliff:g> συνομιλία.</item>
@@ -310,11 +309,9 @@
   <string name="preferences_signature_title">Υπογραφή</string>
   <string name="preferences_signature_dialog_title">Υπογραφή</string>
   <string name="preferences_signature_summary_not_set">Δεν ορίστηκε</string>
-  <string name="notification_action_reply">Απάντηση</string>
   <string name="notification_action_reply_all">Απάντηση σε όλους</string>
   <string name="notification_action_archive">Αρχειοθέτηση</string>
   <string name="notification_action_remove_label">Κατάργηση ετικέτας</string>
-  <string name="notification_action_delete">Διαγραφή</string>
   <string name="notification_action_undo_archive">Αρχειοθετημένο</string>
   <string name="notification_action_undo_remove_label">Η ετικέτα καταργήθηκε</string>
   <string name="notification_action_undo_delete">Διαγραμμένο</string>

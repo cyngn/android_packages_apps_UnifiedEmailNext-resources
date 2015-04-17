@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Да се отхвърли ли това съобщение?</string>
   <string name="loading_conversations">Зарежда се…</string>
-  <string name="no_conversations">Няма кореспонденции.</string>
   <string name="undo">Отмяна</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Звездата се премахва от <xliff:g id="COUNT">%1$d</xliff:g> кореспонденция.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Подпис</string>
   <string name="preferences_signature_dialog_title">Подпис</string>
   <string name="preferences_signature_summary_not_set">Не е зададен</string>
-  <string name="notification_action_reply">Отговор</string>
   <string name="notification_action_reply_all">Отговор до всички</string>
   <string name="notification_action_archive">Архивиране</string>
   <string name="notification_action_remove_label">Етикет: Премахване</string>
-  <string name="notification_action_delete">Изтриване</string>
   <string name="notification_action_undo_archive">Архивирано</string>
   <string name="notification_action_undo_remove_label">Етикетът е премахнат</string>
   <string name="notification_action_undo_delete">Изтрито</string>

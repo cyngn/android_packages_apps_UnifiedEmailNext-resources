@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Vill du slänga meddelandet?</string>
   <string name="loading_conversations">Läser in …</string>
-  <string name="no_conversations">Inga konversationer.</string>
   <string name="undo">Ångra</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Tar bort stjärnmärkning från <xliff:g id="COUNT">%1$d</xliff:g> konversation.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signatur</string>
   <string name="preferences_signature_dialog_title">Signatur</string>
   <string name="preferences_signature_summary_not_set">Inte angiven</string>
-  <string name="notification_action_reply">Svara</string>
   <string name="notification_action_reply_all">Svara alla</string>
   <string name="notification_action_archive">Arkivera</string>
   <string name="notification_action_remove_label">Ta bort etikett</string>
-  <string name="notification_action_delete">Ta bort</string>
   <string name="notification_action_undo_archive">Arkiverat</string>
   <string name="notification_action_undo_remove_label">Etiketten har tagits bort</string>
   <string name="notification_action_undo_delete">Borttaget</string>

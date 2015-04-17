@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Bu ileti silinsin mi?</string>
   <string name="loading_conversations">Yükleniyor…</string>
-  <string name="no_conversations">Hiçbir ileti dizisi yok.</string>
   <string name="undo">Geri Al</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ileti dizisinin yıldızı kaldırılıyor.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">İmza</string>
   <string name="preferences_signature_dialog_title">İmza</string>
   <string name="preferences_signature_summary_not_set">Ayarlanmadı</string>
-  <string name="notification_action_reply">Yanıtla</string>
   <string name="notification_action_reply_all">Tümünü yanıtla</string>
   <string name="notification_action_archive">Arşivle</string>
   <string name="notification_action_remove_label">Etiketi kaldır</string>
-  <string name="notification_action_delete">Sil</string>
   <string name="notification_action_undo_archive">Arşivlendi</string>
   <string name="notification_action_undo_remove_label">Etiket Kaldırıldı</string>
   <string name="notification_action_undo_delete">Silindi</string>

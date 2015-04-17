@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">I-discard ang mensaheng ito?</string>
   <string name="loading_conversations">Naglo-load…</string>
-  <string name="no_conversations">Walang mga pag-uusap.</string>
   <string name="undo">I-undo</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Inaalisan ng star ang <xliff:g id="COUNT">%1$d</xliff:g> (na) pag-uusap.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signature</string>
   <string name="preferences_signature_dialog_title">Signature</string>
   <string name="preferences_signature_summary_not_set">Hindi nakatakda</string>
-  <string name="notification_action_reply">Tumugon</string>
   <string name="notification_action_reply_all">Tumugon sa lahat</string>
   <string name="notification_action_archive">I-archive</string>
   <string name="notification_action_remove_label">Alisin ang label</string>
-  <string name="notification_action_delete">Tanggalin</string>
   <string name="notification_action_undo_archive">Na-archive</string>
   <string name="notification_action_undo_remove_label">Inalis ang Label</string>
   <string name="notification_action_undo_delete">Tinanggal</string>

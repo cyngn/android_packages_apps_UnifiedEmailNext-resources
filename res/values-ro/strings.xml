@@ -137,11 +137,15 @@
   <string name="inbox_folders_heading">Mesaje primite</string>
   <string name="confirm_discard_text">Renunţaţi la acest mesaj?</string>
   <string name="loading_conversations">Se încarcă…</string>
-  <string name="no_conversations">Nicio conversaţie.</string>
   <string name="undo">Anulaţi</string>
   <string name="deleted">Ștearsă</string>
   <string name="archived">Arhivată</string>
   <string name="folder_removed">Eliminat din <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Dosar modificat.</item>
+    <item quantity="few">Dosare modificate.</item>
+    <item quantity="other">Dosare modificate.</item>
+  </plurals>
   <string name="conversation_folder_moved">Mutată în <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Rezultate</string>
   <string name="search_unsupported">Căutarea nu este acceptată pentru acest cont.</string>
@@ -246,11 +250,9 @@
   <string name="preferences_signature_title">Semnătură</string>
   <string name="preferences_signature_dialog_title">Semnătură</string>
   <string name="preferences_signature_summary_not_set">Nesetată</string>
-  <string name="notification_action_reply">Răspundeți</string>
   <string name="notification_action_reply_all">Răspundeți tuturor</string>
   <string name="notification_action_archive">Arhivați</string>
   <string name="notification_action_remove_label">Eliminați eticheta</string>
-  <string name="notification_action_delete">Ștergeți</string>
   <string name="notification_action_undo_archive">Arhivat</string>
   <string name="notification_action_undo_remove_label">Eticheta a fost eliminată</string>
   <string name="notification_action_undo_delete">Șters</string>

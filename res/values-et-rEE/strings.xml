@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Kas soovite sellest sõnumist loobuda?</string>
   <string name="loading_conversations">Laadimine …</string>
-  <string name="no_conversations">Meilivestlusi pole.</string>
   <string name="undo">Võta tagasi</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Tärnid eemaldatakse <xliff:g id="COUNT">%1$d</xliff:g> meilivestluselt.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Allkiri</string>
   <string name="preferences_signature_dialog_title">Allkiri</string>
   <string name="preferences_signature_summary_not_set">Määramata</string>
-  <string name="notification_action_reply">Vasta</string>
   <string name="notification_action_reply_all">Vasta kõigile</string>
   <string name="notification_action_archive">Arhiveeri</string>
   <string name="notification_action_remove_label">Eemalda silt</string>
-  <string name="notification_action_delete">Kustuta</string>
   <string name="notification_action_undo_archive">Arhiveeritud</string>
   <string name="notification_action_undo_remove_label">Silt on eemaldatud</string>
   <string name="notification_action_undo_delete">Kustutatud</string>

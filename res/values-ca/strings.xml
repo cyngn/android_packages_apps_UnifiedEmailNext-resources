@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Vols descartar aquest missatge?</string>
   <string name="loading_conversations">S\'està carregant…</string>
-  <string name="no_conversations">No hi ha cap conversa.</string>
   <string name="undo">Desfés</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">S\'està anul·lant <xliff:g id="COUNT">%1$d</xliff:g> conversa destacada.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signatura</string>
   <string name="preferences_signature_dialog_title">Signatura</string>
   <string name="preferences_signature_summary_not_set">No definit</string>
-  <string name="notification_action_reply">Respon</string>
   <string name="notification_action_reply_all">Respon a tots</string>
   <string name="notification_action_archive">Arxiva</string>
   <string name="notification_action_remove_label">Elimina l\'etiqueta</string>
-  <string name="notification_action_delete">Suprimeix</string>
   <string name="notification_action_undo_archive">Arxivat</string>
   <string name="notification_action_undo_remove_label">Etiqueta eliminada</string>
   <string name="notification_action_undo_delete">Suprimit</string>

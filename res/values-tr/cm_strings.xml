@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Birleşik</string>
   <string name="menu_select_all">Tümünü seç</string>
-  <string name="menu_actiongrid">Eylemler</string>
+  <string name="menu_actiongrid">İşlem paneli</string>
   <string name="remove_account">Hesabı kaldır</string>
   <string name="support">Destek</string>
   <string name="delete_account_title">Hesabı sil</string>
@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Klasörler</string>
   <string name="accounts_heading">Hesaplar</string>
   <string name="vendor_signature">Cyanogen telefonumdan gönderildi</string>
-  <string name="notification_action_mark_read">Okundu olarak işaretle</string>
+  <string name="notification_action_mark_read">OKU</string>
+  <string name="notification_action_reply">YANITLA</string>
+  <string name="notification_action_delete">SİL</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">Girdiğiniz ad zaten mevcut.</string>
   <string name="error">Hata</string>
   <string name="error_creating_folder_message">Klasör oluşturulamadı.</string>
+  <string name="report_rendering_problem">Bildir</string>
+  <string name="no_conversation_needs_sync">Burada hiç posta yok.\nYenilemek için yukarıdan aşağıya çekin</string>
+  <string name="getting_messages">Mesajlarınız alınıyor</string>
+  <string name="empty_folder">Burada hiç posta yok.</string>
+  <string name="empty_inbox">Hepsi bu kadar! Lütfen günün tadını çıkarın.</string>
+  <string name="empty_search">Hoppala! Biz \"<xliff:g id="search_query">%1$s</xliff:g>\" için bir şey bulamadık.</string>
+  <string name="empty_spam_folder">Yaşasın, burada hiç spam yok!</string>
+  <string name="empty_trash_folder">Burada hiç çöp yok. Geri dönüşüm için teşekkürler!</string>
 </resources>

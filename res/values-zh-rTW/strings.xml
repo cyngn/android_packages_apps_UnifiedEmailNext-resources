@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">要捨棄這封郵件嗎？</string>
   <string name="loading_conversations">載入中...</string>
-  <string name="no_conversations">無會話群組。</string>
   <string name="undo">復原</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">正在移除 <xliff:g id="COUNT">%1$d</xliff:g> 個會話群組的星號。</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">簽名檔</string>
   <string name="preferences_signature_dialog_title">簽名檔</string>
   <string name="preferences_signature_summary_not_set">未設定</string>
-  <string name="notification_action_reply">回覆</string>
   <string name="notification_action_reply_all">回覆所有人</string>
   <string name="notification_action_archive">封存</string>
   <string name="notification_action_remove_label">移除標籤</string>
-  <string name="notification_action_delete">刪除</string>
   <string name="notification_action_undo_archive">已封存</string>
   <string name="notification_action_undo_remove_label">已移除標籤</string>
   <string name="notification_action_undo_delete">已刪除</string>

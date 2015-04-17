@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Lahla lo mlayezo?</string>
   <string name="loading_conversations">Iyalayisha…</string>
-  <string name="no_conversations">Azikho izingxoxo.</string>
   <string name="undo">Hlehlisa</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Isusa izinkanyezi engxoxweni engu-<xliff:g id="COUNT">%1$d</xliff:g>.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Isiginesha</string>
   <string name="preferences_signature_dialog_title">Isiginesha</string>
   <string name="preferences_signature_summary_not_set">Ayisethiwe</string>
-  <string name="notification_action_reply">Phendula</string>
   <string name="notification_action_reply_all">Phendula konke</string>
   <string name="notification_action_archive">Faka kungobo yomlando</string>
   <string name="notification_action_remove_label">Khipha ilebula</string>
-  <string name="notification_action_delete">Susa</string>
   <string name="notification_action_undo_archive">Okufakwe kungobo yomlando</string>
   <string name="notification_action_undo_remove_label">Ilebula isusiwe</string>
   <string name="notification_action_undo_delete">Kususiwe</string>

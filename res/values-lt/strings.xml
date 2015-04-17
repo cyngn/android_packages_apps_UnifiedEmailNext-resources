@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Gautieji</string>
   <string name="confirm_discard_text">Atmesti šį pranešimą?</string>
   <string name="loading_conversations">Įkeliama…</string>
-  <string name="no_conversations">Nėra pokalbių.</string>
   <string name="undo">Anuliuoti</string>
   <string name="deleted">Ištrinta</string>
   <string name="archived">Archyvuota</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Parašas</string>
   <string name="preferences_signature_dialog_title">Parašas</string>
   <string name="preferences_signature_summary_not_set">Nenustatyta</string>
-  <string name="notification_action_reply">Atsakyti</string>
   <string name="notification_action_reply_all">Atsakyti visiems</string>
   <string name="notification_action_archive">Archyvuoti</string>
   <string name="notification_action_remove_label">Pašalinti etiketę</string>
-  <string name="notification_action_delete">Ištrinti</string>
   <string name="notification_action_undo_archive">Suarchyvuota</string>
   <string name="notification_action_undo_remove_label">Etiketė pašalinta</string>
   <string name="notification_action_undo_delete">Ištrinta</string>

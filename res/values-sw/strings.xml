@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Ujumbe huu utupwe?</string>
   <string name="loading_conversations">Inapakia…</string>
-  <string name="no_conversations">Hakuna mazungumzo.</string>
   <string name="undo">Tendua</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Inaondoa nyota kwenye mazungumzo <xliff:g id="COUNT">%1$d</xliff:g>.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Sahihi</string>
   <string name="preferences_signature_dialog_title">Sahihi</string>
   <string name="preferences_signature_summary_not_set">Haijawekwa</string>
-  <string name="notification_action_reply">Jibu</string>
   <string name="notification_action_reply_all">Jibu wote</string>
   <string name="notification_action_archive">Kumbukumbu</string>
   <string name="notification_action_remove_label">Ondoa lebo</string>
-  <string name="notification_action_delete">Futa</string>
   <string name="notification_action_undo_archive">Imewekwa kwenye kumbukumbu</string>
   <string name="notification_action_undo_remove_label">Lebo Imeondolewa</string>
   <string name="notification_action_undo_delete">Imefutwa</string>

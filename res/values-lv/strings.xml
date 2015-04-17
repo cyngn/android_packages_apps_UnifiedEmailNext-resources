@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Iesūtne</string>
   <string name="confirm_discard_text">Vai atmest šo ziņojumu?</string>
   <string name="loading_conversations">Notiek ielāde…</string>
-  <string name="no_conversations">Nav nevienas sarunas.</string>
   <string name="undo">Atsaukt</string>
   <string name="deleted">Dzēsta</string>
   <string name="archived">Arhivēta</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Paraksts</string>
   <string name="preferences_signature_dialog_title">Paraksts</string>
   <string name="preferences_signature_summary_not_set">Nav iestatīts</string>
-  <string name="notification_action_reply">Atbildēt</string>
   <string name="notification_action_reply_all">Atbildēt visiem</string>
   <string name="notification_action_archive">Arhivēt</string>
   <string name="notification_action_remove_label">Noņemt iezīmi</string>
-  <string name="notification_action_delete">Dzēst</string>
   <string name="notification_action_undo_archive">Arhivēts</string>
   <string name="notification_action_undo_remove_label">Iezīme noņemta</string>
   <string name="notification_action_undo_delete">Dzēsts</string>

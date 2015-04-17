@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Kansiot</string>
   <string name="accounts_heading">Tilit</string>
   <string name="vendor_signature">Lähetetty Cyanogen-puhelimesta</string>
-  <string name="notification_action_mark_read">Merkitse luetuksi</string>
+  <string name="notification_action_mark_read">LUE</string>
+  <string name="notification_action_reply">VASTAA</string>
+  <string name="notification_action_delete">POISTA</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> uusi viesti</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> uutta viestiä</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">Syöttämäsi kansion nimi on jo käytössä.</string>
   <string name="error">Virhe</string>
   <string name="error_creating_folder_message">Kansiota ei voitu luoda.</string>
+  <string name="report_rendering_problem">Raportoi ongelmasta</string>
+  <string name="no_conversation_needs_sync">Täällä ei ole postia.\nVedä ylhäältä alas päivittääksesi</string>
+  <string name="getting_messages">Haetaan viestejäsi</string>
+  <string name="empty_folder">Täällä ei ole postia.</string>
+  <string name="empty_inbox">Olet valmis! Hyvää päivänjatkoa.</string>
+  <string name="empty_search">Hups! Emme löytäneet mitään hakusanalla \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Jipii, ei roskapostia!</string>
+  <string name="empty_trash_folder">Täällä ei ole roskia. Kiitos että kierrätät!</string>
 </resources>

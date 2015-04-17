@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">Մերժե՞լ այս հաղորդագրությունը</string>
   <string name="loading_conversations">Բեռնում...</string>
-  <string name="no_conversations">Հաղորդագրություններ չկան:</string>
   <string name="undo">Հետարկել</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">Ապաաստղանշվում է <xliff:g id="COUNT">%1$d</xliff:g> զրույց:</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">Ստորագրություն</string>
   <string name="preferences_signature_dialog_title">Ստորագրություն</string>
   <string name="preferences_signature_summary_not_set">Սահմանված չէ</string>
-  <string name="notification_action_reply">Պատասխանել</string>
   <string name="notification_action_reply_all">Պատասխանել բոլորին</string>
   <string name="notification_action_archive">Պահոց</string>
   <string name="notification_action_remove_label">Հեռացնել պիտակը</string>
-  <string name="notification_action_delete">Ջնջել</string>
   <string name="notification_action_undo_archive">Արխիվացված</string>
   <string name="notification_action_undo_remove_label">Պիտակը հեռացված է</string>
   <string name="notification_action_undo_delete">Ջնջված է</string>

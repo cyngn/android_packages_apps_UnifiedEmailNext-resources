@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Carpetes</string>
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Enviat des del meu telèfon Cyanogen</string>
-  <string name="notification_action_mark_read">Marca com a llegit</string>
+  <string name="notification_action_mark_read">LLEGIR</string>
+  <string name="notification_action_reply">RESPONDRE</string>
+  <string name="notification_action_delete">ESBORRAR</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> missatge nou</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> missatges nous</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">El nom de la carpeta que has introduït ja existeix.</string>
   <string name="error">Error</string>
   <string name="error_creating_folder_message">No s\'ha pogut crear la carpeta.</string>
+  <string name="report_rendering_problem">Informa</string>
+  <string name="no_conversation_needs_sync">Aquí no hi ha cap correu. \nArrossega cap avall des de dalt per actualitzar</string>
+  <string name="getting_messages">Recollint els teus missatges</string>
+  <string name="empty_folder">Aquí no hi ha cap correu.</string>
+  <string name="empty_inbox">Ja està! Si us plau, gaudeix del teu dia.</string>
+  <string name="empty_search">Whoops! No s\'ha trobat res per \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
+  <string name="empty_spam_folder">Bravo, aquí no hi ha spam!</string>
+  <string name="empty_trash_folder">Aquí no hi ha deixalles. Gràcies per reciclar!</string>
 </resources>

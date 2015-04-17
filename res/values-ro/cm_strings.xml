@@ -17,17 +17,33 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="support">Suport</string>
+  <string name="deleting_account_msg">Se șterge contul\u2026</string>
   <string name="menu_photo_print">Imprimare</string>
   <string name="edit">Editare</string>
   <string name="folder_search_hint">Căutare</string>
+  <string-array name="moveto_folder_sections">
+    <item>Smart folders</item>
+    <item>Toate dosarele</item>
+  </string-array>
   <string-array name="change_folders_sections">
     <item>Etichete inteligente</item>
     <item>All labels</item>
   </string-array>
+  <string name="all_folders_heading">Dosare</string>
   <string name="accounts_heading">Conturi</string>
+  <string name="notification_action_mark_read">CITIT</string>
+  <string name="notification_action_reply">RĂSPUNS</string>
+  <string name="notification_action_delete">ȘTERGE</string>
+  <string name="preferences_swipe_actions_title">Acţiuni de glisare</string>
+  <string name="preferences_swipe_left_short_title">Glisare la stânga scurtă</string>
+  <string name="preferences_swipe_left_long_title">Glisare la stânga lungă</string>
+  <string name="preferences_swipe_right_short_title">Glisare la dreapta scurtă</string>
+  <string name="preferences_swipe_right_long_title">Glisare la dreapta lungă</string>
   <string name="print">Imprimare</string>
   <string name="draft_heading">Ciornă</string>
   <string name="no_subject">(fără subiect)</string>
+  <string name="action_grid_add_priority">Adaugă prioritate</string>
+  <string name="action_grid_priority">Prioritate: \u0020</string>
   <string name="action_grid_due_date_today">Astăzi</string>
   <string name="action_grid_due_date_tomorrow">Mâine</string>
   <string name="action_grid_due_date_this_week">Săptămâna aceasta</string>
@@ -40,7 +56,9 @@
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
+  <string name="viral_ratings_prompt_remind_me_later">Aminteşte-mi mai târziu</string>
   <string name="viral_ratings_prompt_no_thanks">Nu, mulțumesc</string>
   <string name="actions_dialog_title">Personalizare</string>
+  <string name="new_button">Nou</string>
   <string name="error">Eroare</string>
 </resources>

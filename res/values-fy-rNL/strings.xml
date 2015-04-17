@@ -17,7 +17,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="delete">நீக்கு</string>
-  <string name="cancel_attachment">ரத்து</string>
-  <string name="cancel">ரத்து</string>
+  <string name="menu_settings">Ynstellingen</string>
+  <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> kB</string>
+  <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
+  <string name="save_attachment">Bewarje</string>
+  <string name="cancel_attachment">Annulearje</string>
+  <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <string name="cancel">Annulearje</string>
+  <string name="date_message_received_yesterday">Juster, <xliff:g id="TIME">%1$s</xliff:g></string>
 </resources>

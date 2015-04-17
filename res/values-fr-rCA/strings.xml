@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Supprimer ce message ?</string>
   <string name="loading_conversations">Chargement en cours…</string>
-  <string name="no_conversations">Aucune conversation</string>
   <string name="undo">Annuler</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Désactivation du suivi de <xliff:g id="COUNT">%1$d</xliff:g> conversation en cours…</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signature</string>
   <string name="preferences_signature_dialog_title">Signature</string>
   <string name="preferences_signature_summary_not_set">Non définie</string>
-  <string name="notification_action_reply">Répondre</string>
   <string name="notification_action_reply_all">Répondre à tous</string>
   <string name="notification_action_archive">Archiver</string>
   <string name="notification_action_remove_label">Supprimer le libellé</string>
-  <string name="notification_action_delete">suppr</string>
   <string name="notification_action_undo_archive">Archivée</string>
   <string name="notification_action_undo_remove_label">Libellé supprimé.</string>
   <string name="notification_action_undo_delete">Message supprimé.</string>

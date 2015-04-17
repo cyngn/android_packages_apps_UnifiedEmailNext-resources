@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Энэ зурвасыг устгах уу?</string>
   <string name="loading_conversations">Ачаалж байна...</string>
-  <string name="no_conversations">Харилцаа алга байна.</string>
   <string name="undo">Буцаах</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> харилцааны одыг арилгаж байна.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Гарын үсэг</string>
   <string name="preferences_signature_dialog_title">Гарын үсэг</string>
   <string name="preferences_signature_summary_not_set">Тохируулаагүй</string>
-  <string name="notification_action_reply">Хариулах</string>
   <string name="notification_action_reply_all">Бүгдэд хариу илгээх</string>
   <string name="notification_action_archive">Архивлах</string>
   <string name="notification_action_remove_label">Шошгыг арилгах</string>
-  <string name="notification_action_delete">Устгах</string>
   <string name="notification_action_undo_archive">Архивлагдсан</string>
   <string name="notification_action_undo_remove_label">Шошгыг арилгасан</string>
   <string name="notification_action_undo_delete">Устгасан</string>

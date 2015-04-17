@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">Buang mesej ini?</string>
   <string name="loading_conversations">Memuatkan...</string>
-  <string name="no_conversations">Tiada perbualan.</string>
   <string name="undo">Buat asal</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">Membuang bintang <xliff:g id="COUNT">%1$d</xliff:g> perbualan.</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">Tandatangan</string>
   <string name="preferences_signature_dialog_title">Tandatangan</string>
   <string name="preferences_signature_summary_not_set">Tidak ditetapkan</string>
-  <string name="notification_action_reply">Balas</string>
   <string name="notification_action_reply_all">Balas kepada semua</string>
   <string name="notification_action_archive">Arkib</string>
   <string name="notification_action_remove_label">Alih keluar label</string>
-  <string name="notification_action_delete">Padam</string>
   <string name="notification_action_undo_archive">Diarkibkan</string>
   <string name="notification_action_undo_remove_label">Label Dialih Keluar</string>
   <string name="notification_action_undo_delete">Dipadamkan</string>

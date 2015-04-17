@@ -18,7 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Połączony</string>
   <string name="menu_select_all">Wybierz wszystkie</string>
-  <string name="menu_actiongrid">Układ siatki</string>
   <string name="remove_account">Usuń konto</string>
   <string name="support">Wsparcie</string>
   <string name="delete_account_title">Usuń konto</string>
@@ -30,6 +29,16 @@
   <string name="install_attachment">Instaluj</string>
   <string name="menu_photo_print">Drukuj</string>
   <string name="contextmenu_view_image">Wyświetl obraz</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d inny</item>
+    <item quantity="few">&amp; %d inne</item>
+    <item quantity="other">&amp; %d innych</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; oznaczony jako do zrobienia.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; oznaczono jako do zrobienia.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; oznaczono jako do zrobienia.</item>
+  </plurals>
   <string name="reported_as_spam">Zgłoszone jako spam</string>
   <string name="new_incoming_messages_one">Pokaż nową wiadomość od <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
@@ -51,7 +60,14 @@
   <string name="all_folders_heading">Foldery</string>
   <string name="accounts_heading">Konta</string>
   <string name="vendor_signature">Wysłane z mojego telefonu Cyanogen</string>
-  <string name="notification_action_mark_read">Oznacz jako przeczytane</string>
+  <string name="notification_action_mark_read">PRZECZYTAJ</string>
+  <string name="notification_action_reply">ODPOWIEDZ</string>
+  <string name="notification_action_delete">USUŃ</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nowa wiadomość</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nowe wiadomości</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nowych wiadomości</item>
+  </plurals>
   <string name="preferences_swipe_actions_title">Akcje przesunięcia</string>
   <string name="preferences_swipe_actions_summary">Modyfikowanie akcji przesunięcia palcem w lewo i w prawo</string>
   <string name="preferences_swipe_left_short_title">Krótkie przesunięcie w lewo</string>
@@ -59,10 +75,20 @@
   <string name="preferences_swipe_right_short_title">Krótkie przesunięcie w prawo</string>
   <string name="preferences_swipe_right_long_title">Długie przesunięcie w prawo</string>
   <string name="print">Drukuj</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> wiadomość</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> wiadomości</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> wiadomości</item>
+  </plurals>
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> w <xliff:g id="time">%2$s</xliff:g></string>
   <string name="draft_to_heading">Szkic do: \u0020</string>
   <string name="draft_heading">Wersja robocza</string>
   <string name="quoted_text_hidden_print">Cytowany tekst został ukryty</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> załącznik</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> załączniki</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> załączników</item>
+  </plurals>
   <string name="no_subject">(brak tematu)</string>
   <string name="action_grid_select_quick_response">Wybierz szybką odpowiedź</string>
   <string name="action_grid_todo_dialog_title">Szczegóły</string>
@@ -123,7 +149,7 @@
   <plurals name="liked_message">
     <item quantity="one">Wiadomość została polubiona</item>
     <item quantity="few">Wiadomości zostały polubione</item>
-    <item quantity="other">Wiadomości zostały polubione</item>
+    <item quantity="other">Wiadomości zostało polubione</item>
   </plurals>
   <string name="invalid_selection">Niepoprawny wybór</string>
   <string name="file_action_more_than_one_account">Wybrano konwersacje z więcej niż jednego konta. Spróbuj wybrać konwersacje z tylko jednego konta.</string>
@@ -164,4 +190,19 @@
   <string name="account_setup_heading_email_instruction">Wpisz swój adres e-mail, aby zacząć</string>
   <string name="account_setup_heading_password_instruction">Wpisz swoje hasło</string>
   <string name="like_action_dialog_message">Udało ci się znaleźć naszą ulubioną funkcję. Kiedy \"Lubisz\" wiadomość, wysłany e-mail pokaże innym odbiorcom, że ją lubisz. Obecnie jest to najszybsza możliwość odpowiedzi na e-mail.</string>
+  <string name="new_button">Nowy</string>
+  <string name="folder_name_hint">Nazwa folderu</string>
+  <string name="create_folder_progess">Tworzenie folderu\u2026</string>
+  <string name="duplicate_folder_title">Zduplikowana nazwa</string>
+  <string name="duplicate_folder_message">Wprowadzona nazwa folderu już istnieje.</string>
+  <string name="error">Błąd</string>
+  <string name="error_creating_folder_message">Nie można utworzyć folderu.</string>
+  <string name="report_rendering_problem">Zgłoś</string>
+  <string name="no_conversation_needs_sync">Brak wiadomości e-mail.\nPrzeciągnij palcem od góry do dołu, aby odświeżyć</string>
+  <string name="getting_messages">Pobieranie wiadomości</string>
+  <string name="empty_folder">Brak wiadomości e-mail.</string>
+  <string name="empty_inbox">Wszystko skończone! Ciesz się dniem.</string>
+  <string name="empty_search">Ups! Nie znaleźliśmy niczego dla \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hura, nie ma spamu!</string>
+  <string name="empty_trash_folder">Brak śmieci. Dzięki za recykling!</string>
 </resources>

@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Dit bericht weggooien?</string>
   <string name="loading_conversations">Laden…</string>
-  <string name="no_conversations">Geen conversaties.</string>
   <string name="undo">Ongedaan maken</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Ster verwijderen uit <xliff:g id="COUNT">%1$d</xliff:g> conversatie.</item>
@@ -209,7 +208,7 @@
   <string name="contact_info_string_default">Contactgegevens weergeven</string>
   <string name="from_heading">Van: </string>
   <string name="replyto_heading">Antwoord: </string>
-  <string name="to_heading">Aan:\u0020</string>
+  <string name="to_heading">Aan: </string>
   <string name="cc_heading">Cc: </string>
   <string name="bcc_heading">Bcc: </string>
   <string name="date_heading">Datum: </string>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Handtekening</string>
   <string name="preferences_signature_dialog_title">Handtekening</string>
   <string name="preferences_signature_summary_not_set">Niet ingesteld</string>
-  <string name="notification_action_reply">Beantwoorden</string>
   <string name="notification_action_reply_all">Allen beantwoorden</string>
   <string name="notification_action_archive">Archiveren</string>
   <string name="notification_action_remove_label">Label verwijderen</string>
-  <string name="notification_action_delete">Verwijderen</string>
   <string name="notification_action_undo_archive">Gearchiveerd</string>
   <string name="notification_action_undo_remove_label">Label verwijderd</string>
   <string name="notification_action_undo_delete">Verwijderd</string>

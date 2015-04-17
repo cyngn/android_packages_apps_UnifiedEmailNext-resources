@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Vil du forkaste denne e-posten?</string>
   <string name="loading_conversations">Laster inn ...</string>
-  <string name="no_conversations">Ingen samtaler.</string>
   <string name="undo">Angre</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Fjerner stjernemerking for <xliff:g id="COUNT">%1$d</xliff:g> samtale.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signatur</string>
   <string name="preferences_signature_dialog_title">Signatur</string>
   <string name="preferences_signature_summary_not_set">Ikke angitt</string>
-  <string name="notification_action_reply">Svar</string>
   <string name="notification_action_reply_all">Svar alle</string>
   <string name="notification_action_archive">Arkivér</string>
   <string name="notification_action_remove_label">Fjern etikett</string>
-  <string name="notification_action_delete">Slett</string>
   <string name="notification_action_undo_archive">Arkivert</string>
   <string name="notification_action_undo_remove_label">Etiketten er fjernet</string>
   <string name="notification_action_undo_delete">Slettet</string>

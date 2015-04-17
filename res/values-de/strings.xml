@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Nachricht löschen?</string>
   <string name="loading_conversations">Wird geladen…</string>
-  <string name="no_conversations">Keine Konversationen</string>
   <string name="undo">Rückgängig</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Markierung von <xliff:g id="COUNT">%1$d</xliff:g> Konversation wird aufgehoben...</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Signatur</string>
   <string name="preferences_signature_dialog_title">Signatur</string>
   <string name="preferences_signature_summary_not_set">Nicht festgelegt</string>
-  <string name="notification_action_reply">Antworten</string>
   <string name="notification_action_reply_all">Allen antworten</string>
   <string name="notification_action_archive">Archivieren</string>
   <string name="notification_action_remove_label">Label entfernen</string>
-  <string name="notification_action_delete">Löschen</string>
   <string name="notification_action_undo_archive">Archiviert</string>
   <string name="notification_action_undo_remove_label">Label entfernt</string>
   <string name="notification_action_undo_delete">Gelöscht</string>

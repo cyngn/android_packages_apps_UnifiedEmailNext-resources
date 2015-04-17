@@ -16,8 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Все аккаунты</string>
   <string name="menu_select_all">Выбрать все</string>
-  <string name="menu_actiongrid">Действия</string>
+  <string name="menu_actiongrid">Сетка действий</string>
   <string name="remove_account">Удалить аккаунт</string>
   <string name="support">Поддержка</string>
   <string name="delete_account_title">Удалить аккаунт</string>
@@ -58,7 +59,9 @@
   <string name="boxes_heading">Ящики</string>
   <string name="all_folders_heading">Папки</string>
   <string name="accounts_heading">Аккаунты</string>
-  <string name="notification_action_mark_read">Отметить как прочитанное</string>
+  <string name="notification_action_mark_read">ПРОЧИТАНО</string>
+  <string name="notification_action_reply">ОТВЕТИТЬ</string>
+  <string name="notification_action_delete">УДАЛИТЬ</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> новое сообщение</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> новых сообщения</item>
@@ -174,4 +177,21 @@
   <string name="promo_code_progress_dialog_validating">Проверка промо-кода</string>
   <string name="rage_shake_title">Распознано встряхивание</string>
   <string name="rage_shake_message">Вы хотите вызвать сбой в приложении, чтобы отправить отладочную информацию?</string>
+  <string name="actions_dialog_positive_button_text">Настройка жестов</string>
+  <string name="actions_dialog_negative_button_text">Закрыть</string>
+  <string name="account_setup_heading_email_instruction">Введите адрес электронной почты, чтобы начать работу</string>
+  <string name="like_action_dialog_tittle">Кнопка «Мне нравится»</string>
+  <string name="like_action_dialog_message">Это наша любимая функция. Когда вы ставите отметку «нравится» у сообщения, отправляется e-mail, который уведомит об этом отправителя и других получателей. Пока что это самый быстрый способ отвечать на письма.</string>
+  <string name="new_button">Создать</string>
+  <string name="folder_name_hint">Имя папки</string>
+  <string name="create_folder_progess">Создание папки\u2026</string>
+  <string name="duplicate_folder_title">Повторяющееся имя</string>
+  <string name="duplicate_folder_message">Папка с таким названием уже существует.</string>
+  <string name="error">Ошибка</string>
+  <string name="error_creating_folder_message">Не удалось создать папку.</string>
+  <string name="no_conversation_needs_sync">Здесь ничего нет.\nПроведите сверху вниз для обновления списка писем</string>
+  <string name="getting_messages">Получение сообщений</string>
+  <string name="empty_folder">Здесь ничего нет.</string>
+  <string name="empty_spam_folder">Спама нет, отлично!</string>
+  <string name="empty_trash_folder">В корзине пусто. Спасибо, что выбрасываете мусор!</string>
 </resources>

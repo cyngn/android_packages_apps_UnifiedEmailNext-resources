@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Gooi hierdie boodskap weg?</string>
   <string name="loading_conversations">Laai tans…</string>
-  <string name="no_conversations">Geen gesprekke nie.</string>
   <string name="undo">Ontdoen</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Ontster <xliff:g id="COUNT">%1$d</xliff:g> gesprek.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Handtekening</string>
   <string name="preferences_signature_dialog_title">Handtekening</string>
   <string name="preferences_signature_summary_not_set">Nie gestel nie</string>
-  <string name="notification_action_reply">Antwoord</string>
   <string name="notification_action_reply_all">Antwoord almal</string>
   <string name="notification_action_archive">Argiveer</string>
   <string name="notification_action_remove_label">Verwyder etiket</string>
-  <string name="notification_action_delete">Vee uit</string>
   <string name="notification_action_undo_archive">Geargiveer</string>
   <string name="notification_action_undo_remove_label">Etiket verwyder</string>
   <string name="notification_action_undo_delete">Uitgevee</string>

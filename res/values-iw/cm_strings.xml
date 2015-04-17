@@ -58,7 +58,9 @@
   <string name="all_folders_heading">תיקיות</string>
   <string name="accounts_heading">חשבונות</string>
   <string name="vendor_signature">נשלח ממכשיר ה-Cyanogen שלי</string>
-  <string name="notification_action_mark_read">סמן כנקראה</string>
+  <string name="notification_action_mark_read">קרא</string>
+  <string name="notification_action_reply">השב</string>
+  <string name="notification_action_delete">מחק</string>
   <plurals name="new_messages">
     <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g> חדשה</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
@@ -189,4 +191,12 @@
   <string name="duplicate_folder_message">שם התיקייה שהכנסת כבר קיים.</string>
   <string name="error">שגיאה</string>
   <string name="error_creating_folder_message">לא ניתן היה ליצור את התיקייה.</string>
+  <string name="report_rendering_problem">דווח</string>
+  <string name="no_conversation_needs_sync">אין כאן דואר.\nמשוך למטה מהקצה העליון של המסך בשביל לרענן</string>
+  <string name="getting_messages">מקבל את ההודעות שלך</string>
+  <string name="empty_folder">אין כאן דואר.</string>
+  <string name="empty_inbox">סיימת הכל! שיהיה לך יום נהדר!</string>
+  <string name="empty_search">אופס! לא מצאנו דבר בשביל \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">הידד, אין כאן דואר זבל!</string>
+  <string name="empty_trash_folder">אין זבל כאן! תודה שמיחזרת!</string>
 </resources>

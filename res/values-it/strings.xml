@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Eliminare questo messaggio?</string>
   <string name="loading_conversations">Caricamento…</string>
-  <string name="no_conversations">Nessuna conversazione.</string>
   <string name="undo">Annulla</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Rimozione di <xliff:g id="COUNT">%1$d</xliff:g> conversazione da Speciali.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Firma</string>
   <string name="preferences_signature_dialog_title">Firma</string>
   <string name="preferences_signature_summary_not_set">Non impostata</string>
-  <string name="notification_action_reply">Rispondi</string>
   <string name="notification_action_reply_all">Rispondi a tutti</string>
   <string name="notification_action_archive">Archivia</string>
   <string name="notification_action_remove_label">Rimuovi etichetta</string>
-  <string name="notification_action_delete">Elimina</string>
   <string name="notification_action_undo_archive">Archiviato</string>
   <string name="notification_action_undo_remove_label">Etichetta rimossa</string>
   <string name="notification_action_undo_delete">Eliminato</string>

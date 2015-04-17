@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Rejeitar esta mensagem?</string>
   <string name="loading_conversations">A carregar…</string>
-  <string name="no_conversations">Sem conversas.</string>
   <string name="undo">Anular</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">A remover a estrela de <xliff:g id="COUNT">%1$d</xliff:g> conversa.</item>
@@ -310,11 +309,9 @@
   <string name="preferences_signature_title">Assinatura</string>
   <string name="preferences_signature_dialog_title">Assinatura</string>
   <string name="preferences_signature_summary_not_set">Não definida</string>
-  <string name="notification_action_reply">Responder</string>
   <string name="notification_action_reply_all">Responder a todos</string>
   <string name="notification_action_archive">Arquivo</string>
   <string name="notification_action_remove_label">Remover marcador</string>
-  <string name="notification_action_delete">Eliminar</string>
   <string name="notification_action_undo_archive">Arquivada</string>
   <string name="notification_action_undo_remove_label">Marcador Removido</string>
   <string name="notification_action_undo_delete">Eliminado</string>

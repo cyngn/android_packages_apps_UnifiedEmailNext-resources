@@ -49,7 +49,6 @@
   </string-array>
   <string name="boxes_heading">Кутии</string>
   <string name="accounts_heading">Акаунти</string>
-  <string name="notification_action_mark_read">Маркирай като прочетено</string>
   <string name="print">Принтирай</string>
   <string name="action_grid_todo_dialog_title">Подробности</string>
   <string name="action_grid_set_due_date">Задайте крайната дата</string>

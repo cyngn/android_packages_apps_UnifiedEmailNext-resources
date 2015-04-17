@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Combinado</string>
   <string name="menu_select_all">Marcar todo</string>
-  <string name="menu_actiongrid">ActionGrid</string>
+  <string name="menu_actiongrid">Panel de acción</string>
   <string name="remove_account">Eliminar cuenta</string>
   <string name="support">Soporte</string>
   <string name="delete_account_title">Eliminar cuenta</string>
@@ -38,7 +38,7 @@
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcado como pendiente.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcados como pendientes.</item>
   </plurals>
-  <string name="reported_as_spam">Reportado como spam</string>
+  <string name="reported_as_spam">Reportado como correo no deseado</string>
   <string name="new_incoming_messages_one">Mostrar mensaje nuevo de <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Mostrar <xliff:g id="count">%1$d</xliff:g> nuevo mensaje.</item>
@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Carpetas</string>
   <string name="accounts_heading">Cuentas</string>
   <string name="vendor_signature">Enviado desde mi teléfono con Cyanogen</string>
-  <string name="notification_action_mark_read">Marcar como leído</string>
+  <string name="notification_action_mark_read">LEER</string>
+  <string name="notification_action_reply">RESPONDER</string>
+  <string name="notification_action_delete">ELIMINAR</string>
   <plurals name="new_messages">
     <item quantity="one">nuevo mensaje  <xliff:g id="count">%1$d </xliff:g></item>
     <item quantity="other">nuevos mensajes <xliff:g id="count">%1$d </xliff:g></item>
@@ -117,7 +119,7 @@
   <string name="action_move_or_label">Mover/Etiquetar</string>
   <string name="action_archive">Archivar</string>
   <string name="action_delete">Eliminar</string>
-  <string name="action_spam">Spam</string>
+  <string name="action_spam">Correo no deseado</string>
   <string name="action_flag">Marcar</string>
   <string name="action_clear_flag">Quitar marca</string>
   <string name="action_star">Estrella</string>
@@ -131,7 +133,7 @@
   <string name="marked_liked">Marcar como me gusta</string>
   <string name="marked_archived">Marcado para archivar</string>
   <string name="marked_deleted">Marcado para eliminación</string>
-  <string name="marked_spam">Movido a spam</string>
+  <string name="marked_spam">Movido a correo no deseado</string>
   <string name="marked_todo">Marcado como pendiente</string>
   <string name="marked_done">Marcado como terminado</string>
   <plurals name="quick_response_sent">
@@ -175,12 +177,26 @@
   <string name="rage_shake_title">Agitar detectado</string>
   <string name="rage_shake_message">¿Te gustaría colgar la aplicación para enviar información de depuración?</string>
   <string name="actions_dialog_title">Personalizar</string>
-  <string name="actions_dialog_message">¿Utilizas carpetas habitualmente? ¿A menudo marcas como Spam? ¿Tienes cariño al clip de Evernote? \n\nCon acciones de deslizar personalizadas puedes configurar cualquiera de estos gestos para adaptarse a tu flujo de trabajo. \n</string>
+  <string name="actions_dialog_message">¿Utilizas carpetas habitualmente? ¿A menudo marcas como correo no deseado? ¿Tienes cariño al clip de Evernote?\n\nCon acciones de deslizar personalizadas puedes configurar cualquiera de estos gestos para adaptarse a tu flujo de trabajo.\n</string>
   <string name="actions_dialog_positive_button_text">Personalizar las acciones de deslizar</string>
   <string name="actions_dialog_negative_button_text">Cerrar</string>
   <string name="account_setup_heading_email_instruction">Introduce tu dirección de correo electrónico para comenzar</string>
   <string name="account_setup_heading_password_instruction">Introduce tu contraseña</string>
+  <string name="like_action_dialog_tittle">¿Qué es \u00ABme gusta\u00BB?</string>
   <string name="like_action_dialog_message">Has encontrado nuestra característica favorita. Cuando te \u00ABgusta\u00BB un mensaje, se enviará un correo electrónico al remitente y el resto de destinatarios para que sepan que te gusta. Es la manera más rápida para contestar un correo electrónico.</string>
   <string name="new_button">Nuevo</string>
+  <string name="folder_name_hint">Nombre de la carpeta</string>
+  <string name="create_folder_progess">Creando carpeta\u2026</string>
+  <string name="duplicate_folder_title">Nombre duplicado</string>
+  <string name="duplicate_folder_message">El nombre de la carpeta ya existe.</string>
   <string name="error">Error</string>
+  <string name="error_creating_folder_message">No se pudo crear la carpeta.</string>
+  <string name="report_rendering_problem">Informar</string>
+  <string name="no_conversation_needs_sync">No hay correo aquí.\nDesliza hacia abajo para refrescar</string>
+  <string name="getting_messages">Obteniendo mensajes</string>
+  <string name="empty_folder">No hay correo aquí.</string>
+  <string name="empty_inbox">¡Todo listo! Disfruta del día.</string>
+  <string name="empty_search">¡Vaya! No se ha encontrado nada para \u00AB<xliff:g id="search_query">%1$s</xliff:g>\u00BB.</string>
+  <string name="empty_spam_folder">¡Bien! No hay correo no deseado aquí.</string>
+  <string name="empty_trash_folder">No hay nada aquí. ¡Gracias por reciclar!</string>
 </resources>

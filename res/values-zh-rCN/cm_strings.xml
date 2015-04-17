@@ -55,7 +55,9 @@
   <string name="all_folders_heading">文件夹</string>
   <string name="accounts_heading">账户</string>
   <string name="vendor_signature">发送自我的 Cyanogen 手机</string>
-  <string name="notification_action_mark_read">标记为已读</string>
+  <string name="notification_action_mark_read">阅读</string>
+  <string name="notification_action_reply">回复</string>
+  <string name="notification_action_delete">删除</string>
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 条新信息</item>
   </plurals>
@@ -181,4 +183,12 @@
   <string name="duplicate_folder_message">您已经输入的文件夹名称存在。</string>
   <string name="error">错误</string>
   <string name="error_creating_folder_message">无法创建该文件夹。</string>
+  <string name="report_rendering_problem">提交反馈</string>
+  <string name="no_conversation_needs_sync">这里没有邮件。\n从顶部往下拉以刷新</string>
+  <string name="getting_messages">正在获取您的消息</string>
+  <string name="empty_folder">这里没有邮件。</string>
+  <string name="empty_inbox">您大功告成了！请享受您美好的一天。</string>
+  <string name="empty_search">糟糕！我们没有找到关于\"<xliff:g id="search_query">%1$s</xliff:g>\"的邮件。</string>
+  <string name="empty_spam_folder">万岁，没有垃圾邮件！</string>
+  <string name="empty_trash_folder">这里没有垃圾，感谢您的回收！</string>
 </resources>

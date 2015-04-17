@@ -145,7 +145,6 @@
   </plurals>
   <string name="confirm_discard_text">وازهێنان له‌م نامه‌یه‌؟</string>
   <string name="loading_conversations">بارکردن\u2026</string>
-  <string name="no_conversations">هیچ وتووێژەک نییە.</string>
   <string name="undo">پاشگەزبوونەوە</string>
   <plurals name="conversation_not_spam">
     <item quantity="one">وlt;bوgt;<xliff:g id="count">%1$d</xliff:g>وlt;/bوgt; وەک زبڵ پەرچدرایەوە.</item>
@@ -264,11 +263,9 @@
   <string name="preferences_signature_title">ئیمزا</string>
   <string name="preferences_signature_dialog_title">واژۆ</string>
   <string name="preferences_signature_summary_not_set">دانەنراوە</string>
-  <string name="notification_action_reply">وەڵامدانەوە</string>
   <string name="notification_action_reply_all">وەڵامدانەوەی هەموو</string>
   <string name="notification_action_archive">ئەرشیڤ</string>
   <string name="notification_action_remove_label">سڕینه‌وه‌ی ته‌خت</string>
-  <string name="notification_action_delete">سڕینه‌وه‌</string>
   <string name="notification_action_undo_archive">ئه‌رشیف کرا</string>
   <string name="notification_action_undo_remove_label">ته‌خت سڕدرایه‌وه‌</string>
   <string name="notification_action_undo_delete">سڕایەوە</string>

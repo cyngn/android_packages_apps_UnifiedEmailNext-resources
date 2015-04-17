@@ -18,7 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">통합</string>
   <string name="menu_select_all">모두 선택</string>
-  <string name="menu_actiongrid">액션그리드</string>
   <string name="remove_account">계정 삭제</string>
   <string name="support">지원</string>
   <string name="delete_account_title">계정 삭제</string>
@@ -39,7 +38,7 @@
   <string name="reported_as_spam">스팸으로 보고됨</string>
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s </xliff:g>에서의 새 메시지를 표시합니다.</string>
   <plurals name="new_incoming_messages_many">
-    <item quantity="other">Show <xliff:g id="count">%1$d</xliff:g>의 새 메시지 표시.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g>개의 새 메시지 표시.</item>
   </plurals>
   <string name="edit">편집</string>
   <string name="folder_search_hint">검색</string>
@@ -55,7 +54,6 @@
   <string name="all_folders_heading">폴더</string>
   <string name="accounts_heading">계정</string>
   <string name="vendor_signature">내 Cyanogen 휴대전화에서 보냈음</string>
-  <string name="notification_action_mark_read">읽음으로 표시</string>
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 새 메시지</item>
   </plurals>
@@ -132,7 +130,7 @@
     <item quantity="other">답장 보냄</item>
   </plurals>
   <plurals name="liked_message">
-    <item quantity="other">좋아요! 표시 메시지</item>
+    <item quantity="other">좋아요 표시 메시지</item>
   </plurals>
   <string name="invalid_selection">잘못 된 선택</string>
   <string name="file_action_more_than_one_account">하나 이상의 계정으로부터 대화를 선택하였습니다. 하나의 계정으로부터 대화를 선택하십시오.</string>
@@ -172,5 +170,13 @@
   <string name="actions_dialog_negative_button_text">닫기</string>
   <string name="account_setup_heading_email_instruction">이메일주소를 입력하여 시작하십시오.</string>
   <string name="account_setup_heading_password_instruction">비밀번호를 입력하십시오.</string>
+  <string name="like_action_dialog_tittle">어떤가요?</string>
   <string name="like_action_dialog_message">우리가 좋아하는 기능입니다. 메시지에 \'좋아요!\'를 하면 보낸 사람이나 다른 받은 사람들에게 당신이 좋아하는 것을 알리는 메일이 보내집니다. 아직은 이메일에 응답하는 가장 빠른 방법입니다.</string>
+  <string name="new_button">새로운</string>
+  <string name="folder_name_hint">폴더 이름</string>
+  <string name="create_folder_progess">폴더 생성 중\u2026</string>
+  <string name="duplicate_folder_title">이름 복사</string>
+  <string name="duplicate_folder_message">입력한 폴더 이름은 이미 존재합니다.</string>
+  <string name="error">오류</string>
+  <string name="error_creating_folder_message">폴더를 생성할 수 없습니다.</string>
 </resources>

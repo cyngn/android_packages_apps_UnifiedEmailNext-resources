@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">¿Quies descartar esti mensaxe?</string>
   <string name="loading_conversations">Cargando…</string>
-  <string name="no_conversations">Nun hai conversaciones.</string>
   <string name="undo">Desfacer</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Anulando <xliff:g id="COUNT">%1$d</xliff:g> conversación destacada</item>
@@ -310,11 +309,9 @@
   <string name="preferences_signature_title">Robla</string>
   <string name="preferences_signature_dialog_title">Robla</string>
   <string name="preferences_signature_summary_not_set">Ensin configurar</string>
-  <string name="notification_action_reply">Responder</string>
   <string name="notification_action_reply_all">Responder a toos</string>
   <string name="notification_action_archive">Archivar</string>
   <string name="notification_action_remove_label">Desaniciar etiqueta</string>
-  <string name="notification_action_delete">Desaniciar</string>
   <string name="notification_action_undo_archive">Archivóse</string>
   <string name="notification_action_undo_remove_label">Etiqueta desaniciada</string>
   <string name="notification_action_undo_delete">Desanicióse</string>

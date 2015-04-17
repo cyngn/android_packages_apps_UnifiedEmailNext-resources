@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Odebrane</string>
   <string name="confirm_discard_text">Odrzucić tę wiadomość?</string>
   <string name="loading_conversations">Wczytuję…</string>
-  <string name="no_conversations">Brak wątków.</string>
   <string name="undo">Cofnij</string>
   <string name="deleted">Usunięty</string>
   <string name="archived">Zarchiwizowany</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Podpis</string>
   <string name="preferences_signature_dialog_title">Podpis</string>
   <string name="preferences_signature_summary_not_set">Nie ustawiono</string>
-  <string name="notification_action_reply">Odpowiedz</string>
   <string name="notification_action_reply_all">Odpowiedz wszystkim</string>
   <string name="notification_action_archive">Archiwizuj</string>
   <string name="notification_action_remove_label">Usuń etykietę</string>
-  <string name="notification_action_delete">Usuń</string>
   <string name="notification_action_undo_archive">Zarchiwizowano</string>
   <string name="notification_action_undo_remove_label">Etykieta usunięta</string>
   <string name="notification_action_undo_delete">Usunięto</string>

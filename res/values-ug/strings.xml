@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">بۇ ئۇچۇرنى تاشلىۋېتەمدۇ؟</string>
   <string name="loading_conversations">يۈكلەۋاتىدۇ…</string>
-  <string name="no_conversations">سۆزلىشىش يوق</string>
   <string name="undo">يېنىۋال</string>
   <plurals name="conversation_unstarred">
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> سۆزلىشىشنىڭ يۇلتۇزىنى بىكار قىلىۋاتىدۇ.</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">ئىمزا</string>
   <string name="preferences_signature_dialog_title">ئىمزا</string>
   <string name="preferences_signature_summary_not_set">تەڭشەلمىگەن</string>
-  <string name="notification_action_reply">جاۋاب قايتۇر</string>
   <string name="notification_action_reply_all">ھەممىگە جاۋاپ</string>
   <string name="notification_action_archive">ئارخىپ</string>
   <string name="notification_action_remove_label">بەلگىنى چىقىرىۋەت</string>
-  <string name="notification_action_delete">ئۆچۈر</string>
   <string name="notification_action_undo_archive">ئارخىپلاندى</string>
   <string name="notification_action_undo_remove_label">بەلگە چىقىرىۋېتىلدى</string>
   <string name="notification_action_undo_delete">ئۆچۈرۈلدى</string>

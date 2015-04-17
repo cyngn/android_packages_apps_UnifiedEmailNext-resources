@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Hylätäänkö tämä viesti?</string>
   <string name="loading_conversations">Ladataan…</string>
-  <string name="no_conversations">Keskusteluita ei ole.</string>
   <string name="undo">Kumoa</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Poistetaan tähti <xliff:g id="COUNT">%1$d</xliff:g> keskustelusta.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Allekirjoitus</string>
   <string name="preferences_signature_dialog_title">Allekirjoitus</string>
   <string name="preferences_signature_summary_not_set">Ei asetettu</string>
-  <string name="notification_action_reply">Vastaa</string>
   <string name="notification_action_reply_all">Vastaa kaikille</string>
   <string name="notification_action_archive">Arkistoi</string>
   <string name="notification_action_remove_label">Poista tunniste</string>
-  <string name="notification_action_delete">Poista</string>
   <string name="notification_action_undo_archive">Arkistoitu</string>
   <string name="notification_action_undo_remove_label">Tunniste on poistettu</string>
   <string name="notification_action_undo_delete">Poistettu</string>

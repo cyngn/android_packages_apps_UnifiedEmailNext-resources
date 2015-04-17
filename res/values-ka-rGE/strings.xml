@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">გაუქმდეს ეს შეტყობინება?</string>
   <string name="loading_conversations">იტვირთება...</string>
-  <string name="no_conversations">მიმოწერები არ არის.</string>
   <string name="undo">დაბრუნება</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> მიმოწერას მოეხსნება ვარსკვლავით მონიშვნა.</item>
@@ -310,11 +309,9 @@
   <string name="preferences_signature_title">ხელმოწერა</string>
   <string name="preferences_signature_dialog_title">ხელმოწერა</string>
   <string name="preferences_signature_summary_not_set">არ არის დაყენებული</string>
-  <string name="notification_action_reply">პასუხი</string>
   <string name="notification_action_reply_all">პასუხი ყველას</string>
   <string name="notification_action_archive">დაარქივება</string>
   <string name="notification_action_remove_label">ლეიბლის მოშორება</string>
-  <string name="notification_action_delete">წაშლა</string>
   <string name="notification_action_undo_archive">დაარქივებული</string>
   <string name="notification_action_undo_remove_label">ლეიბლი წაშლილია</string>
   <string name="notification_action_undo_delete">წაშლილი</string>

@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">ປິດການຂຽນອິເມວນີ້ບໍ່?</string>
   <string name="loading_conversations">ກຳລັງໂຫລດ...</string>
-  <string name="no_conversations">ບໍ່ມີບົດສົນທະນາ.</string>
   <string name="undo">ແກ້ໄຂຄືນ</string>
   <plurals name="conversation_unstarred">
     <item quantity="other">ກຳລັງຖອນດາວໃນການສົນທະນາ <xliff:g id="COUNT">%1$d</xliff:g> ອັນ.</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">ລາຍເຊັນ</string>
   <string name="preferences_signature_dialog_title">ລາຍເຊັນ</string>
   <string name="preferences_signature_summary_not_set">ຍັງບໍ່ໄດ້ຕັ້ງ</string>
-  <string name="notification_action_reply">ຕອບກັບ</string>
   <string name="notification_action_reply_all">ຕອບກັບທັງຫມົດ</string>
   <string name="notification_action_archive">ຈັດເກັບ</string>
   <string name="notification_action_remove_label">ລຶບປ້າຍກຳກັບ</string>
-  <string name="notification_action_delete">ລຶບ</string>
   <string name="notification_action_undo_archive">ຈັດເກັບແລ້ວ</string>
   <string name="notification_action_undo_remove_label">ປ້າຍຊື່ຖືກລຶບແລ້ວ</string>
   <string name="notification_action_undo_delete">ລຶບແລ້ວ</string>

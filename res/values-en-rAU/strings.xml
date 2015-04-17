@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Discard this message?</string>
   <string name="loading_conversations">Loading\u2026</string>
-  <string name="no_conversations">No conversations.</string>
   <string name="undo">Undo</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Unstarring <xliff:g id="count">%1$d</xliff:g> conversation.</item>
@@ -311,11 +310,9 @@
   <string name="preferences_signature_title">Signature</string>
   <string name="preferences_signature_dialog_title">Signature</string>
   <string name="preferences_signature_summary_not_set">Not set</string>
-  <string name="notification_action_reply">Reply</string>
   <string name="notification_action_reply_all">Reply all</string>
   <string name="notification_action_archive">Archive</string>
   <string name="notification_action_remove_label">Remove label</string>
-  <string name="notification_action_delete">Delete</string>
   <string name="notification_action_undo_archive">Archived</string>
   <string name="notification_action_undo_remove_label">Label Removed</string>
   <string name="notification_action_undo_delete">Deleted</string>

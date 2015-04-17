@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Gekombineerd</string>
   <string name="menu_select_all">Kies alles</string>
-  <string name="menu_actiongrid">AksieRooster</string>
+  <string name="menu_actiongrid">Aksie rooster</string>
   <string name="remove_account">Verwyder rekening</string>
   <string name="support">Ondersteuning</string>
   <string name="delete_account_title">Verwyder rekening</string>
@@ -58,7 +58,9 @@
   <string name="all_folders_heading">Vouers</string>
   <string name="accounts_heading">Rekeninge</string>
   <string name="vendor_signature">Gestuur van my foon</string>
-  <string name="notification_action_mark_read">Merk as gelees</string>
+  <string name="notification_action_mark_read">GELEES</string>
+  <string name="notification_action_reply">ANTWOORD</string>
+  <string name="notification_action_delete">VERW</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuwe boodskap</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nuwe boodskappe</item>
@@ -180,5 +182,21 @@
   <string name="actions_dialog_negative_button_text">Maak toe</string>
   <string name="account_setup_heading_email_instruction">Tik jou epos adres om te begin</string>
   <string name="account_setup_heading_password_instruction">Tik jou wagwoord</string>
+  <string name="like_action_dialog_tittle">Wat is soos?</string>
   <string name="like_action_dialog_message">Jy het ons gunsteling funksie gevind. Wanneer jy \'n boodskap \'Hou van\', sal \'n e-pos gestuur word om die stuurder en ander ontvangers te laat weet jou hou daarvan. Dit is die vinnigste manier om te reageer nog op e-pos.</string>
+  <string name="new_button">Nuut</string>
+  <string name="folder_name_hint">Gids naam</string>
+  <string name="create_folder_progess">Skep gids\u2026</string>
+  <string name="duplicate_folder_title">Dubbele naam</string>
+  <string name="duplicate_folder_message">Die gids se naam bestaan alreeds.</string>
+  <string name="error">Fout</string>
+  <string name="error_creating_folder_message">Die gids kon nie geskep word nie.</string>
+  <string name="report_rendering_problem">Gee aan</string>
+  <string name="no_conversation_needs_sync">Geen e-pos hier.\nTrek af van bo om te verfris</string>
+  <string name="getting_messages">Besig om jou boodskappe te kry</string>
+  <string name="empty_folder">Daar is geen e-pos hier nie.</string>
+  <string name="empty_inbox">Jy is klaar! Lekker dag.</string>
+  <string name="empty_search">O gats! Ons kon nie enigiets vind vir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Lekker man, geen strooipos hier!</string>
+  <string name="empty_trash_folder">Geen vullis hier. Dankie dat jy herwinning doen!</string>
 </resources>

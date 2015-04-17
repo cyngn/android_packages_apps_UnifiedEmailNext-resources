@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Prejeto</string>
   <string name="confirm_discard_text">Želite zavreči sporočilo?</string>
   <string name="loading_conversations">Nalaganje …</string>
-  <string name="no_conversations">Ni pogovorov.</string>
   <string name="undo">Razveljavi</string>
   <string name="deleted">Izbrisan</string>
   <string name="archived">Arhiviran</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Podpis</string>
   <string name="preferences_signature_dialog_title">Podpis</string>
   <string name="preferences_signature_summary_not_set">Ni nastavljen</string>
-  <string name="notification_action_reply">Odgovori</string>
   <string name="notification_action_reply_all">Odgovori vsem</string>
   <string name="notification_action_archive">Arhiviraj</string>
   <string name="notification_action_remove_label">Odstrani oznako</string>
-  <string name="notification_action_delete">Izbriši</string>
   <string name="notification_action_undo_archive">Arhivirano</string>
   <string name="notification_action_undo_remove_label">Oznaka odstranjena</string>
   <string name="notification_action_undo_delete">Izbrisano</string>

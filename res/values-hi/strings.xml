@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">यह संदेश छोड़ें?</string>
   <string name="loading_conversations">लोड हो रहा है…</string>
-  <string name="no_conversations">कोई बातचीत नहीं.</string>
   <string name="undo">पूर्ववत करें</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> बातचीत के तारांकन हटाए जा रहे हैं.</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">हस्ताक्षर</string>
   <string name="preferences_signature_dialog_title">हस्ताक्षर</string>
   <string name="preferences_signature_summary_not_set">सेट नहीं है</string>
-  <string name="notification_action_reply">जवाब दें</string>
   <string name="notification_action_reply_all">सभी को जवाब दें</string>
   <string name="notification_action_archive">संग्रहीत करें</string>
   <string name="notification_action_remove_label">लेबल निकालें</string>
-  <string name="notification_action_delete">हटाएं</string>
   <string name="notification_action_undo_archive">संग्रहीत</string>
   <string name="notification_action_undo_remove_label">लेबल निकाल दिया गया</string>
   <string name="notification_action_undo_delete">हटा दिया गया</string>

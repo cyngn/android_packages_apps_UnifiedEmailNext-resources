@@ -18,7 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombinované</string>
   <string name="menu_select_all">Vybrať všetky</string>
-  <string name="menu_actiongrid">Mriežka akcií</string>
   <string name="remove_account">Odstrániť účet</string>
   <string name="support">Podpora</string>
   <string name="delete_account_title">Vymazať účet</string>
@@ -61,7 +60,6 @@
   <string name="all_folders_heading">Priečinky</string>
   <string name="accounts_heading">Účty</string>
   <string name="vendor_signature">Odoslané z môjho Cyanogen telefónu</string>
-  <string name="notification_action_mark_read">Označiť ako prečítané</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nová správa</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nové správy</item>

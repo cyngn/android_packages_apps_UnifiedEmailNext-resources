@@ -152,7 +152,6 @@
   </plurals>
   <string name="confirm_discard_text">このメールを破棄しますか？</string>
   <string name="loading_conversations">読み込んでいます…</string>
-  <string name="no_conversations">スレッドがありません。</string>
   <string name="undo">元に戻す</string>
   <plurals name="conversation_unstarred">
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g>件のスレッドからスターを外しています。</item>
@@ -294,11 +293,9 @@
   <string name="preferences_signature_title">署名</string>
   <string name="preferences_signature_dialog_title">署名</string>
   <string name="preferences_signature_summary_not_set">未設定</string>
-  <string name="notification_action_reply">返信</string>
   <string name="notification_action_reply_all">全員に返信</string>
   <string name="notification_action_archive">アーカイブ</string>
   <string name="notification_action_remove_label">ラベルを削除</string>
-  <string name="notification_action_delete">削除</string>
   <string name="notification_action_undo_archive">アーカイブ済み</string>
   <string name="notification_action_undo_remove_label">ラベル削除済み</string>
   <string name="notification_action_undo_delete">削除済み</string>

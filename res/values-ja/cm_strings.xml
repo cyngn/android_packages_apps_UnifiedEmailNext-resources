@@ -55,7 +55,9 @@
   <string name="all_folders_heading">フォルダ</string>
   <string name="accounts_heading">アカウント</string>
   <string name="vendor_signature">Cyanogenの携帯電話から送信</string>
-  <string name="notification_action_mark_read">既読にする</string>
+  <string name="notification_action_mark_read">読む</string>
+  <string name="notification_action_reply">返信</string>
+  <string name="notification_action_delete">削除</string>
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>通の新しいメッセージ</item>
   </plurals>
@@ -181,4 +183,12 @@
   <string name="duplicate_folder_message">入力したフォルダ名は既に存在しています。</string>
   <string name="error">エラー</string>
   <string name="error_creating_folder_message">フォルダを作成できませんでした。</string>
+  <string name="report_rendering_problem">報告</string>
+  <string name="no_conversation_needs_sync">メールがありません。\n上からプルダウンして更新します</string>
+  <string name="getting_messages">メッセージを取得中</string>
+  <string name="empty_folder">メールがありません。</string>
+  <string name="empty_inbox">すべて完了しました！今日一日を楽しんでください。</string>
+  <string name="empty_search">残念！「<xliff:g id="search_query">%1$s</xliff:g>」では何も見つかりませんでした。</string>
+  <string name="empty_spam_folder">バンザイ！スパムはありません。</string>
+  <string name="empty_trash_folder">ゴミ箱には何もありません。リサイクルへの協力感謝します！</string>
 </resources>

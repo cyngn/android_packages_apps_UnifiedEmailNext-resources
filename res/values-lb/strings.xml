@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Dëse Message verwerfen?</string>
   <string name="loading_conversations">Gëtt gelueden\u2026</string>
-  <string name="no_conversations">Keng Konversatiounen.</string>
   <string name="undo">Réckgängeg maachen</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Stär bei <xliff:g id="count">%1$d</xliff:g> Konversatioun ewechgeholl.</item>
@@ -310,11 +309,9 @@
   <string name="preferences_signature_title">Ënnerschrëft</string>
   <string name="preferences_signature_dialog_title">Ënnerschrëft</string>
   <string name="preferences_signature_summary_not_set">Net gesat</string>
-  <string name="notification_action_reply">Äntweren</string>
   <string name="notification_action_reply_all">Allen Äntwerten</string>
   <string name="notification_action_archive">Archiv</string>
   <string name="notification_action_remove_label">Etikett läschen</string>
-  <string name="notification_action_delete">Läschen</string>
   <string name="notification_action_undo_archive">Archivéiert</string>
   <string name="notification_action_undo_remove_label">Etikett geläscht</string>
   <string name="notification_action_undo_delete">Geläscht</string>

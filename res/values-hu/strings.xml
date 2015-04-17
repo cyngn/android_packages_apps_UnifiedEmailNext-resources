@@ -157,7 +157,6 @@
   </plurals>
   <string name="confirm_discard_text">Elveti ezt az üzenetet?</string>
   <string name="loading_conversations">Betöltés…</string>
-  <string name="no_conversations">Nincsenek beszélgetések.</string>
   <string name="undo">Visszavonás</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> beszélgetés csillagozásának megszüntetése</item>
@@ -302,11 +301,9 @@
   <string name="preferences_signature_title">Aláírás</string>
   <string name="preferences_signature_dialog_title">Aláírás</string>
   <string name="preferences_signature_summary_not_set">Nincs beállítva</string>
-  <string name="notification_action_reply">Válasz</string>
   <string name="notification_action_reply_all">Válasz mindenkinek</string>
   <string name="notification_action_archive">Archiválás</string>
   <string name="notification_action_remove_label">Címke eltávolítása</string>
-  <string name="notification_action_delete">Törlés</string>
   <string name="notification_action_undo_archive">Archiválva</string>
   <string name="notification_action_undo_remove_label">Címke eltávolítva</string>
   <string name="notification_action_undo_delete">Törölve</string>

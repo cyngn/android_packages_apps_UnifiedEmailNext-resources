@@ -137,7 +137,6 @@
   <string name="inbox_folders_heading">Примљене</string>
   <string name="confirm_discard_text">Желите ли да одбаците ову поруку?</string>
   <string name="loading_conversations">Учитавање…</string>
-  <string name="no_conversations">Нема преписки.</string>
   <string name="undo">Опозови</string>
   <string name="deleted">Избрисано</string>
   <string name="archived">Архивирано</string>
@@ -246,11 +245,9 @@
   <string name="preferences_signature_title">Потпис</string>
   <string name="preferences_signature_dialog_title">Потпис</string>
   <string name="preferences_signature_summary_not_set">Није подешено</string>
-  <string name="notification_action_reply">Одговори</string>
   <string name="notification_action_reply_all">Одговори свима</string>
   <string name="notification_action_archive">Архивирај</string>
   <string name="notification_action_remove_label">Уклони ознаку</string>
-  <string name="notification_action_delete">Избриши</string>
   <string name="notification_action_undo_archive">Архивирано</string>
   <string name="notification_action_undo_remove_label">Ознака је уклоњена</string>
   <string name="notification_action_undo_delete">Избрисано</string>

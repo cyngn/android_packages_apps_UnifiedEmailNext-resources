@@ -17,7 +17,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_select_all">تحديد الكل</string>
-  <string name="menu_actiongrid">شبكة العمليات</string>
   <string name="remove_account">إزالة الحساب</string>
   <string name="support">الدعم</string>
   <string name="delete_account_title">حذف الحساب</string>
@@ -59,7 +58,6 @@
   </string-array>
   <string name="boxes_heading">الصناديق</string>
   <string name="accounts_heading">الحسابات</string>
-  <string name="notification_action_mark_read">وضع علامة كـ مقروء</string>
   <string name="preferences_swipe_actions_title">اجراءات التمرير</string>
   <string name="preferences_swipe_actions_summary">تخصيص اجراءات التمرير لليمين واليسار</string>
   <string name="preferences_swipe_left_short_title">تمرير قصيرة لليسار</string>
