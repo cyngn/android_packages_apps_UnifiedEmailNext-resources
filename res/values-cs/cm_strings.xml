@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombinovaný</string>
   <string name="menu_select_all">Vybrat vše</string>
+  <string name="menu_actiongrid">Mřížka akcí</string>
   <string name="remove_account">Odebrat účet</string>
   <string name="support">Podpora</string>
   <string name="delete_account_title">Smazat účet</string>
@@ -60,6 +61,9 @@
   <string name="all_folders_heading">Složky</string>
   <string name="accounts_heading">Účty</string>
   <string name="vendor_signature">Odesláno z mého Cyanogen telefonu</string>
+  <string name="notification_action_mark_read">ČÍST</string>
+  <string name="notification_action_reply">ODPOVĚDĚT</string>
+  <string name="notification_action_delete">SMAZAT</string>
   <plurals name="new_messages">
     <item quantity="one">Zobrazit <xliff:g id="count">%1$d</xliff:g> nová zpráva</item>
     <item quantity="few">Zobrazit <xliff:g id="count">%1$d</xliff:g> nové zprávy</item>
@@ -195,4 +199,12 @@
   <string name="duplicate_folder_message">Název složky, který jste zadali, již existuje.</string>
   <string name="error">Chyba</string>
   <string name="error_creating_folder_message">Složku nelze vytvořit.</string>
+  <string name="report_rendering_problem">Nahlásit</string>
+  <string name="no_conversation_needs_sync">Není zde žádná zpráva.\nAktualizujte je tahem odshora dolů</string>
+  <string name="getting_messages">Stahování zpráv</string>
+  <string name="empty_folder">Není tu žádná pošta.</string>
+  <string name="empty_inbox">Vše hotovo! Užijte si den.</string>
+  <string name="empty_search">Pro zadaný text „<xliff:g id="search_query">%1$s</xliff:g>“ nebylo nic nalezeno.</string>
+  <string name="empty_spam_folder">Hurá, žádný spam!</string>
+  <string name="empty_trash_folder">Prázdný koš. Díky za recyklaci!</string>
 </resources>

@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombinált</string>
   <string name="menu_select_all">Összes kijelölés</string>
+  <string name="menu_actiongrid">Rács nézet</string>
   <string name="remove_account">Fiók törlése</string>
   <string name="support">Támogatás</string>
   <string name="delete_account_title">Fiók törlése</string>
@@ -57,6 +58,9 @@
   <string name="all_folders_heading">Mappák</string>
   <string name="accounts_heading">Fiókok</string>
   <string name="vendor_signature">Cyanogen készülékemről küldve</string>
+  <string name="notification_action_mark_read">OLVAS</string>
+  <string name="notification_action_reply">VÁLASZ</string>
+  <string name="notification_action_delete">TÖRÖL</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> új üzenet</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> új üzenet</item>
@@ -187,4 +191,12 @@
   <string name="duplicate_folder_message">A megadott néven már létezik mappa.</string>
   <string name="error">Hiba</string>
   <string name="error_creating_folder_message">A mappa nem hozható létre.</string>
+  <string name="report_rendering_problem">Visszajelzés</string>
+  <string name="no_conversation_needs_sync">Nincsenek levelek.\nFrissítéshez húzza lefelé az ujját</string>
+  <string name="getting_messages">Üzenetek lekérése</string>
+  <string name="empty_folder">Nincsenek levelek.</string>
+  <string name="empty_inbox">Minden kész! Élvezze a napot.</string>
+  <string name="empty_search">Hoppá! Nem találtunk semmit erre: \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hurrá, itt nincs spam!</string>
+  <string name="empty_trash_folder">Nincs szemét. Köszönjük, hogy újrahasznosít!</string>
 </resources>

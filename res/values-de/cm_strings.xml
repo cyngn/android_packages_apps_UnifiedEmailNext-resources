@@ -57,6 +57,9 @@
   <string name="all_folders_heading">Ordner</string>
   <string name="accounts_heading">Konten</string>
   <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
+  <string name="notification_action_mark_read">LESEN</string>
+  <string name="notification_action_reply">ANTWORT</string>
+  <string name="notification_action_delete">LÖSCHEN</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neue Nachricht</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
@@ -138,6 +141,7 @@
   </plurals>
   <string name="invalid_selection">Ungültige Auswahl</string>
   <string name="file_action_more_than_one_account">Sie haben Konversationen aus mehreren Konten ausgewählt. Versuchen Sie nur Konversationen von einem Konto auszuwählen.</string>
+  <string name="evernote_action_more_than_one_conversation">Die Evernote-Funktion unterstützt nur eine Konversation gleichzeitig. Versuchen Sie nur eine Konversation auszuwählen.</string>
   <string name="not_installed">Nicht installiert</string>
   <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>

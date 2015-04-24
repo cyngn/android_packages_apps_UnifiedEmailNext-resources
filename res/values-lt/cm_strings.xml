@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombinuotas</string>
   <string name="menu_select_all">Pasirinkti visus</string>
+  <string name="menu_actiongrid">Veiksmo tinklelis</string>
   <string name="remove_account">Pašalinti paskyrą</string>
   <string name="support">Pagalba</string>
   <string name="delete_account_title">Ištrinti paskyrą</string>
@@ -60,6 +61,9 @@
   <string name="all_folders_heading">Aplankai</string>
   <string name="accounts_heading">Paskyros</string>
   <string name="vendor_signature">Išsiųsta iš mano „Cyanogen“ telefono</string>
+  <string name="notification_action_mark_read">SKAITYTI</string>
+  <string name="notification_action_reply">ATSAKYTI</string>
+  <string name="notification_action_delete">IŠTRINTI</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> naujas pranešimas</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nauji pranešimai</item>
@@ -89,4 +93,6 @@
   <string name="no_subject">(be temos)</string>
   <string name="action_grid_select_quick_response">Pasirinkti greitą atsakymą</string>
   <string name="action_grid_todo_dialog_title">Informacija</string>
+  <string name="action_grid_add_priority">Pridėti prioritetą</string>
+  <string name="marked_deleted">Pažymėta trynimui</string>
 </resources>

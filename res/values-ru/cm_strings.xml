@@ -41,6 +41,7 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; помечены как задачи.</item>
   </plurals>
   <string name="reported_as_spam">Помечено как спам</string>
+  <string name="new_incoming_messages_one">Показать новое сообщение от <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Показать <xliff:g id="count">%1$d</xliff:g> новое сообщение.</item>
     <item quantity="few">Показать <xliff:g id="count">%1$d</xliff:g> новых сообщения.</item>
@@ -159,11 +160,14 @@
   <string name="custom_mailbox_settings_label">Настройки</string>
   <string name="custom_mailbox_folder_name_hint">Имя своего ящика</string>
   <string name="custom_mailbox_background_sync_label">Фоновая синхронизация</string>
+  <string name="custom_mailbox_background_sync_switch_on">Включить</string>
+  <string name="custom_mailbox_background_sync_switch_off">Выключить</string>
   <string name="custom_mailbox_delete_box">Удалить ящик</string>
   <string name="custom_mailbox_error_no_selected_folders">Пожалуйста, выберите по крайней мере одну папку из списка ниже</string>
   <string name="custom_mailbox_delete_box_dialog_title">Предупреждение</string>
   <string name="custom_mailbox_delete_box_dialog_message">Вы уверены, что хотите удалить этот ящик?</string>
   <string name="custom_mailbox_error_deleting_box">Произошла ошибка при удалении вашего почтового ящика</string>
+  <string name="viral_prompt_rate_app_title">Оценить это приложение</string>
   <string name="viral_ratings_prompt_remind_me_later">Напомнить позже</string>
   <string name="viral_ratings_prompt_no_thanks">Нет, спасибо</string>
   <string name="viral_ratings_prompt_rate_now">Оценить сейчас</string>

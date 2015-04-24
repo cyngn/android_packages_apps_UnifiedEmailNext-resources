@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombinované</string>
   <string name="menu_select_all">Vybrať všetky</string>
+  <string name="menu_actiongrid">Mriežka akcií</string>
   <string name="remove_account">Odstrániť účet</string>
   <string name="support">Podpora</string>
   <string name="delete_account_title">Vymazať účet</string>
@@ -60,6 +61,9 @@
   <string name="all_folders_heading">Priečinky</string>
   <string name="accounts_heading">Účty</string>
   <string name="vendor_signature">Odoslané z môjho Cyanogen telefónu</string>
+  <string name="notification_action_mark_read">PREČÍTAŤ</string>
+  <string name="notification_action_reply">ODPOVEDAŤ</string>
+  <string name="notification_action_delete">VYMAZAŤ</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nová správa</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nové správy</item>
@@ -195,4 +199,12 @@
   <string name="duplicate_folder_message">Vami zadaný názov priečinka už existuje.</string>
   <string name="error">Chyba</string>
   <string name="error_creating_folder_message">Priečinok nebolo možné vytvoriť.</string>
+  <string name="report_rendering_problem">Nahlásiť</string>
+  <string name="no_conversation_needs_sync">Nie je tu žiadna pošta.\n.Potiahnite zhora nadol pre obnovenie</string>
+  <string name="getting_messages">Získanie vašich správ</string>
+  <string name="empty_folder">Nie je tu žiadna pošta.</string>
+  <string name="empty_inbox">Všetko je hotové! Vychutnajte si deň.</string>
+  <string name="empty_search">Ups! Nenašli sme nič pre \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
+  <string name="empty_spam_folder">Hurá, žiadna nevyžiadaná pošta!</string>
+  <string name="empty_trash_folder">Prázdny kôš. Ďakujeme za recykláciu!</string>
 </resources>

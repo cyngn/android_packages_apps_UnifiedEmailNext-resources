@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Combinata</string>
   <string name="menu_select_all">Seleziona tutto</string>
+  <string name="menu_actiongrid">Griglia di azione</string>
   <string name="remove_account">Elimina account</string>
   <string name="support">Supporto</string>
   <string name="delete_account_title">Cancella account</string>
@@ -57,6 +58,9 @@
   <string name="all_folders_heading">Cartelle</string>
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Inviato dal mio telefono Cyanogenmod</string>
+  <string name="notification_action_mark_read">LEGGI</string>
+  <string name="notification_action_reply">RISPONDI</string>
+  <string name="notification_action_delete">ELIMINA</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuovo messaggio</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nuovi messaggi</item>
@@ -187,4 +191,12 @@
   <string name="duplicate_folder_message">Il nome della cartella è gia esistente.</string>
   <string name="error">Errore</string>
   <string name="error_creating_folder_message">La cartella non può essere creata.</string>
+  <string name="report_rendering_problem">Segnala</string>
+  <string name="no_conversation_needs_sync">Non c\'è nessuna mail qui.\nTrascina dall\'alto verso il basso per aggiornare</string>
+  <string name="getting_messages">Ottenendo i tuoi messaggi</string>
+  <string name="empty_folder">Non c\'è nessuna mail qui.</string>
+  <string name="empty_inbox">Hai finito tutto! Goditi la giornata.</string>
+  <string name="empty_search">Ops! Non abbiamo trovato nulla per \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Evviva, nessuno spam qui!</string>
+  <string name="empty_trash_folder">Niente nel cestino. Grazie per aver cancellato tutto!</string>
 </resources>
