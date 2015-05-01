@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Комбінований</string>
   <string name="menu_select_all">Вибрати все</string>
+  <string name="menu_actiongrid">Таблиця дій</string>
   <string name="remove_account">Видалити обліковий запис</string>
   <string name="support">Підтримка</string>
   <string name="delete_account_title">Видалити обліковий запис</string>
@@ -40,6 +41,7 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; позначено як завдання.</item>
   </plurals>
   <string name="reported_as_spam">Відмічено як спам</string>
+  <string name="new_incoming_messages_one">Показати нові повідомлення від <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Показати <xliff:g id="count">%1$d</xliff:g> нове повідомлення.</item>
     <item quantity="few">Показати <xliff:g id="count">%1$d</xliff:g> нових повідомлення.</item>
@@ -47,4 +49,162 @@
   </plurals>
   <string name="edit">Змінити</string>
   <string name="folder_search_hint">Пошук</string>
+  <string-array name="moveto_folder_sections">
+    <item>Розумні папки</item>
+    <item>Всі папки</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>Розумні етикетки</item>
+    <item>Усі мітки</item>
+  </string-array>
+  <string name="boxes_heading">Скриньки</string>
+  <string name="all_folders_heading">Папки</string>
+  <string name="accounts_heading">Облікові записи</string>
+  <string name="vendor_signature">Відпрвлено з мого телефону Cyanogen</string>
+  <string name="notification_action_mark_read">Читати</string>
+  <string name="notification_action_reply">Відповісти</string>
+  <string name="notification_action_delete">Видалити</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> нове повідомлення</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> нових повідомлення</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> нових повідомлень</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Дії при перетягуванні</string>
+  <string name="preferences_swipe_actions_summary">Налаштування дій при перетягуванні вправо і вліво</string>
+  <string name="preferences_swipe_left_short_title">Коротке перетягування вліво</string>
+  <string name="preferences_swipe_left_long_title">Довге перетягування вліво</string>
+  <string name="preferences_swipe_right_short_title">Коротке перетягування вправо</string>
+  <string name="preferences_swipe_right_long_title">Довге перетягування вправо</string>
+  <string name="print">Друк</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> повідомлення</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> повідомлення</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> повідомлень</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> о <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Чернетка для:\u0020</string>
+  <string name="draft_heading">Чернетка</string>
+  <string name="quoted_text_hidden_print">Цитований текст приховано</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> доданий файл</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> доданих файли</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> доданих файлів</item>
+  </plurals>
+  <string name="no_subject">(без теми)</string>
+  <string name="action_grid_select_quick_response">Оберіть швидку відповідь</string>
+  <string name="action_grid_todo_dialog_title">Подробиці</string>
+  <string name="action_grid_set_due_date">Визначити строк</string>
+  <string name="action_grid_due">До: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Додати пріоритет</string>
+  <string name="action_grid_priority">Пріоритет: \u0020</string>
+  <string name="action_grid_add_assignee">Додати представника</string>
+  <string name="action_grid_assignee">Представник:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Визначити строк</string>
+  <string name="action_grid_due_date_today">Сьогодні</string>
+  <string name="action_grid_due_date_tomorrow">Завтра</string>
+  <string name="action_grid_due_date_this_week">Цього тижня</string>
+  <string name="action_grid_due_date_next_week">Наступного тижня</string>
+  <string name="action_grid_due_date_specific_date">Конкретна дата</string>
+  <string name="action_grid_calendar_picker_dialog_title">Визначити строк</string>
+  <string name="action_grid_priority_dialog_title">Додати пріоритет</string>
+  <string name="action_grid_priority_highest">Найвищий пріоритет</string>
+  <string name="action_grid_priority_high">Високий пріоритет</string>
+  <string name="action_grid_priority_normal">Звичайний пріоритет</string>
+  <string name="action_grid_priority_low">Низький пріоритет</string>
+  <string name="action_grid_priority_lowest">Найнижчий пріоритет</string>
+  <string name="action_grid_assignee_dialog_title">Додати представника</string>
+  <string name="action_grid_assignee_select_from_contacts">Вибрати з контактів</string>
+  <string name="action_grid_assignee_search_for_contact">Пошук контакту</string>
+  <string name="action_grid_assignee_button_bar_clear">Очистити</string>
+  <string name="action_message_header_delete">Видалити це повідомлення?</string>
+  <string name="action_like">Подобається</string>
+  <string name="action_todo">Завдання</string>
+  <string name="action_quick">Швидко</string>
+  <string name="action_move">Перемістити</string>
+  <string name="action_label">Мітка</string>
+  <string name="action_move_or_label">Перемістити/мітка</string>
+  <string name="action_archive">Додати до архіву</string>
+  <string name="action_delete">Видалити</string>
+  <string name="action_spam">Спам</string>
+  <string name="action_flag">Мітка</string>
+  <string name="action_clear_flag">Зняти мітку</string>
+  <string name="action_star">Обране</string>
+  <string name="action_clear_star">Видалити з обраного</string>
+  <string name="action_star_or_flag">Помітити</string>
+  <string name="action_mark_unread">Позначити як непрочитане</string>
+  <string name="action_mark_read">Позначити як прочитане</string>
+  <string name="action_read_or_unread">Прочитані/Непрочитані</string>
+  <string name="action_actions">Дії</string>
+  <string name="marked_evernote">Відправлено до  Evernote</string>
+  <string name="marked_liked">Відмічено як \"Подобається\"</string>
+  <string name="marked_archived">Відмічено для архіву</string>
+  <string name="marked_deleted">На видалення</string>
+  <string name="marked_spam">Перенесено до спаму</string>
+  <string name="marked_todo">Позначено як завдання</string>
+  <string name="marked_done">Позначено як виконане</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Відповідь надіслано</item>
+    <item quantity="few">Відповіді надіслано</item>
+    <item quantity="other">Відповідей надіслано</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Повідомлення сподобалось</item>
+    <item quantity="few">Повідомлення сподобалось</item>
+    <item quantity="other">Повідомлень сподобалось</item>
+  </plurals>
+  <string name="invalid_selection">Неприпустимий вибір</string>
+  <string name="file_action_more_than_one_account">Ви обрали повідомлення із декількох облікових записів. Спробуйте вибрати тільки з одного.</string>
+  <string name="evernote_action_more_than_one_conversation">Функціональність Evernote підтримує тільки один ланцюг розмов водночас. Спробуйте вибрати тільки одну розмову.</string>
+  <string name="not_installed">Не встановлено</string>
+  <string name="evernote_not_installed">Мабуть, Evernote не встановлений. Будь ласка, встановіть Evernote, щоб використовувати ці функії.</string>
+  <string name="custom_mailbox_button">Додати свою скриньку</string>
+  <string name="custom_mailbox_settings_label">Налаштування</string>
+  <string name="custom_mailbox_folder_name_hint">Ім`я скриньки</string>
+  <string name="custom_mailbox_background_sync_label">Фонова синхронізація</string>
+  <string name="custom_mailbox_background_sync_switch_on">Увімкнути</string>
+  <string name="custom_mailbox_background_sync_switch_off">Вимкнути</string>
+  <string name="custom_mailbox_delete_box">Видалити скриньку</string>
+  <string name="custom_mailbox_error_no_selected_folders">Будь ласка, оберіть принаймні одну папку із нижченаведеного списку</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Попередження</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Ви впевнені, що бажаєте видалити цю скриньку?</string>
+  <string name="custom_mailbox_error_deleting_box">Помилка під час видалення скриньки</string>
+  <string name="viral_prompt_rate_app_title">Оцінити цю програму</string>
+  <string name="viral_prompt_rate_app_body">Якщо Вам подобається програма, витратіть час на її оцінку. Для цього знадобиться не більше хвилини. Дякуємо за підтримку!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Нагадайте мені пізніше</string>
+  <string name="viral_ratings_prompt_no_thanks">Ні, дякую</string>
+  <string name="viral_ratings_prompt_rate_now">Оцінити зараз</string>
+  <string name="promo_code_title_text">Не залишайтесь наодинці зі своїми справами</string>
+  <string name="promo_code_edittext_hint">Введіть промо-код</string>
+  <string name="promo_code_button_text">Надіслати</string>
+  <string name="promo_code_error_no_code_entered">Будь ласка, введіть промо-код, перш ніж натиснути \"Відправити\"</string>
+  <string name="promo_code_error_invalid_code">Невірний промо-код</string>
+  <string name="promo_code_dialog_title">Функції розблоковані</string>
+  <string name="promo_code_dialog_message">Ви успішно розблокувати <xliff:g id="features">%s </xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Промо-код, успішно застосований</string>
+  <string name="promo_code_progress_dialog_validating">Перевірка промо-кода</string>
+  <string name="rage_shake_title">Виявлено струс</string>
+  <string name="rage_shake_message">Бажаєте завершити програму аварійно і відправити повідомлення про помилку?</string>
+  <string name="actions_dialog_title">Налаштувати</string>
+  <string name="actions_dialog_message">Часто використовуєте папки? Часто помічаєте листи як спам? Використовуєте Evernote?\n\nНалаштувавши жести, Ви зможете значно покращити робочий процес.\n</string>
+  <string name="actions_dialog_positive_button_text">Налаштувати жести</string>
+  <string name="actions_dialog_negative_button_text">Закрити</string>
+  <string name="account_setup_heading_email_instruction">Введіть адресу електронної пошти, щоб почати</string>
+  <string name="account_setup_heading_password_instruction">Введіть свій пароль</string>
+  <string name="like_action_dialog_tittle">Подобається?</string>
+  <string name="like_action_dialog_message">Ви знайшли нашу улюблену функцію. Коли ви позначите повідомлення як \"Подобається\", буде надіслано е-mail, котрий повідомить відправника та інших отримувачів, що ви оцінили цей лист. Це найшвидший спосіб відповідати на електронну пошту.</string>
+  <string name="new_button">Нова</string>
+  <string name="folder_name_hint">Назва папки</string>
+  <string name="create_folder_progess">Створення папки\u2026</string>
+  <string name="duplicate_folder_title">Ім\'я повторюється</string>
+  <string name="duplicate_folder_message">Папка з такою назвою вже існує.</string>
+  <string name="error">Помилка</string>
+  <string name="error_creating_folder_message">Не вдалося створити папку.</string>
+  <string name="report_rendering_problem">Повідомити</string>
+  <string name="no_conversation_needs_sync">Пошти немає. \nПотягніть зверху-вниз для оновлення</string>
+  <string name="getting_messages">Завантаження пошти</string>
+  <string name="empty_folder">Тут немає пошти.</string>
+  <string name="empty_inbox">Справи закінчено! Гарного Вам дня.</string>
+  <string name="empty_search">Хммм… Ми не знайшли нічого схожого на \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Ура, спаму немає!</string>
+  <string name="empty_trash_folder">Сміття немає. Дякуємо за переробку!</string>
 </resources>

@@ -20,6 +20,7 @@
   <string name="menu_select_all">Tout sélectionner</string>
   <string name="remove_account">Supprimer le compte</string>
   <string name="support">Support</string>
+  <string name="delete_account_title">Supprimer le compte</string>
   <string name="delete_account_summary">Supprimer ce compte avec tous ses paramètres et données</string>
   <string name="delete_account_confirmation_msg">Ceci effacera tous les réglages et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
   <string name="deleting_account_msg">Suppression du compte\u2026</string>
@@ -56,6 +57,9 @@
   <string name="all_folders_heading">Dossiers</string>
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Envoyé depuis mon téléphone Cyanogen</string>
+  <string name="notification_action_mark_read">LIRE</string>
+  <string name="notification_action_reply">RÉPONDRE</string>
+  <string name="notification_action_delete">SUPPRIMER</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nouveau message</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nouveaux messages</item>
@@ -177,6 +181,7 @@
   <string name="actions_dialog_negative_button_text">Fermer</string>
   <string name="account_setup_heading_email_instruction">Entrez votre adresse e-mail pour commencer</string>
   <string name="account_setup_heading_password_instruction">Entrez votre mot de passe</string>
+  <string name="like_action_dialog_tittle">Qu\'est ce que Like ?</string>
   <string name="like_action_dialog_message">Vous avez trouvé notre fonction préférée. Lorsque vous « aimez » un message, un e-mail faisant savoir que vous aimez ce message sera envoyé à l\'expéditeur et aux autres destinataires. C\'est le moyen le plus rapide de répondre à un e-mail.</string>
   <string name="new_button">Nouveau</string>
   <string name="folder_name_hint">Nom du dossier</string>
