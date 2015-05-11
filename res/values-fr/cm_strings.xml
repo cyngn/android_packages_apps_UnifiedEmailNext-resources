@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Combinée</string>
   <string name="menu_select_all">Tout sélectionner</string>
+  <string name="menu_actiongrid">Grille d\'action</string>
   <string name="remove_account">Supprimer le compte</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Supprimer le compte</string>
@@ -46,12 +47,12 @@
   <string name="edit">Modifier</string>
   <string name="folder_search_hint">Rechercher</string>
   <string-array name="moveto_folder_sections">
-    <item>Dossiers pensants</item>
+    <item>Dossiers intelligents</item>
     <item>Tous les dossiers</item>
   </string-array>
   <string-array name="change_folders_sections">
-    <item>Étiquettes pensantes</item>
-    <item>Toutes les étiquettes</item>
+    <item>Libellés intelligents</item>
+    <item>Tous les libellés</item>
   </string-array>
   <string name="boxes_heading">Boîtes</string>
   <string name="all_folders_heading">Dossiers</string>
@@ -185,8 +186,17 @@
   <string name="like_action_dialog_message">Vous avez trouvé notre fonction préférée. Lorsque vous « aimez » un message, un e-mail faisant savoir que vous aimez ce message sera envoyé à l\'expéditeur et aux autres destinataires. C\'est le moyen le plus rapide de répondre à un e-mail.</string>
   <string name="new_button">Nouveau</string>
   <string name="folder_name_hint">Nom du dossier</string>
+  <string name="create_folder_progess">Création du dossier\u2026</string>
   <string name="duplicate_folder_title">Nom dupliqué</string>
   <string name="duplicate_folder_message">Le nom de dossier existe déjà.</string>
   <string name="error">Erreur</string>
   <string name="error_creating_folder_message">Le dossier n\'a pas pu être créé.</string>
+  <string name="report_rendering_problem">Signaler</string>
+  <string name="no_conversation_needs_sync">Il n\'y a aucun e-mail ici.\nTirez depuis le haut pour actualiser</string>
+  <string name="getting_messages">Obtenir vos messages</string>
+  <string name="empty_folder">Il n\'y a aucun e-mail ici.</string>
+  <string name="empty_inbox">Vous avez fini ! Profitez bien de votre journée.</string>
+  <string name="empty_search">Oups ! Nous n\'avons rien trouvé pour \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hourra, aucun spam ici !</string>
+  <string name="empty_trash_folder">Aucun message dans la corbeille. Merci pour le recyclage !</string>
 </resources>
