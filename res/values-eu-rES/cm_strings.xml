@@ -16,21 +16,187 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Bateratua</string>
+  <string name="menu_select_all">Hautatu guztiak</string>
+  <string name="menu_actiongrid">Ekintza sareta</string>
   <string name="remove_account">Ezabatu kontua</string>
+  <string name="support">Euskarria</string>
   <string name="delete_account_title">Ezabatu kontua</string>
   <string name="delete_account_summary">Ezabatu kontu hau eta bere ezarpen eta datu guztiak</string>
   <string name="delete_account_confirmation_msg">Honek <xliff:g id="account">%s</xliff:g> kontuko ezarpen eta mezu guztiak ezabatuko ditu. Eragiketa hau ezin da desegin.\n\nJarraitu?</string>
+  <string name="deleting_account_msg">Kontua ezabatzen\u2026</string>
   <string name="delete_account_failed">Ezin izan da kontua ezabatu</string>
+  <string name="open_attachment">Ireki</string>
+  <string name="install_attachment">Instalatu</string>
+  <string name="menu_photo_print">Inprimatu</string>
+  <string name="contextmenu_view_image">Ikusi irudia</string>
+  <plurals name="to_header">
+    <item quantity="one"> eta beste %d</item>
+    <item quantity="other">eta beste %d</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zeregin gisa markatu da.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zeregin gisa markatu dira.</item>
+  </plurals>
+  <string name="reported_as_spam">Zabor posta gisa salatua</string>
+  <string name="new_incoming_messages_one">Bistaratu <xliff:g id="sender">%s</xliff:g>(r)en mezu berria.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Bistaratu mezu berri <xliff:g id="count">%1$d</xliff:g>.</item>
+    <item quantity="other">Bistaratu <xliff:g id="count">%1$d</xliff:g> mezu berri .</item>
+  </plurals>
+  <string name="edit">Editatu</string>
+  <string name="folder_search_hint">Bilatu</string>
   <string-array name="moveto_folder_sections">
     <item>Karpeta adimentsuak</item>
     <item>Karpeta guztiak</item>
   </string-array>
+  <string-array name="change_folders_sections">
+    <item>Etiketa adimentsuak</item>
+    <item>Etiketa guztiak</item>
+  </string-array>
+  <string name="boxes_heading">Kutxak</string>
+  <string name="all_folders_heading">Karpetak</string>
+  <string name="accounts_heading">Kontuak</string>
+  <string name="vendor_signature">Nire Cyanogen telefonotik bidalita</string>
+  <string name="notification_action_mark_read">IRAKURRI</string>
+  <string name="notification_action_reply">ERANTZUN</string>
+  <string name="notification_action_delete">EZABATU</string>
+  <plurals name="new_messages">
+    <item quantity="one">mezu berri <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu berri</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Hatza pasatze ekintzak</string>
+  <string name="preferences_swipe_actions_summary">Pertsonalizatu hatza ezkerrera edo eskuinera pasatzearen ekintzak</string>
+  <string name="preferences_swipe_left_short_title">Hatza ezkerrera labur pasatzea</string>
+  <string name="preferences_swipe_left_long_title">Hatza ezkerrera luze pasatzea</string>
+  <string name="preferences_swipe_right_short_title">Hatza eskumara labur pasatzea</string>
+  <string name="preferences_swipe_right_long_title">Hatza eskumara luze pasatzea</string>
+  <string name="print">Inprimatu</string>
+  <plurals name="num_messages">
+    <item quantity="one">mezu <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g>(e)n</string>
+  <string name="draft_to_heading">Zirriborroa hona:\u0020</string>
+  <string name="draft_heading">Zirriborroa</string>
+  <string name="quoted_text_hidden_print">Aipatutako testua ezkutuan</string>
+  <plurals name="num_attachments">
+    <item quantity="one">Eranskin <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> eranskin</item>
+  </plurals>
+  <string name="no_subject">(gairik gabe)</string>
+  <string name="action_grid_select_quick_response">Hautatu erantzun azkarra</string>
+  <string name="action_grid_todo_dialog_title">Xehetasunak</string>
+  <string name="action_grid_set_due_date">Ezarri epemuga</string>
+  <string name="action_grid_due">Epemuga: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Gehitu lehentasuna</string>
+  <string name="action_grid_priority">Lehentasuna:\u0020</string>
+  <string name="action_grid_add_assignee">Gehitu arduraduna</string>
+  <string name="action_grid_assignee">Arduraduna:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Ezarri epemuga</string>
+  <string name="action_grid_due_date_today">Gaur</string>
+  <string name="action_grid_due_date_tomorrow">Bihar</string>
+  <string name="action_grid_due_date_this_week">Aste hau</string>
+  <string name="action_grid_due_date_next_week">Hurrengo astea</string>
+  <string name="action_grid_due_date_specific_date">Data zehatz bat</string>
+  <string name="action_grid_calendar_picker_dialog_title">Ezarri epemuga</string>
+  <string name="action_grid_priority_dialog_title">Gehitu lehentasuna</string>
+  <string name="action_grid_priority_highest">Lehentasun handiena</string>
+  <string name="action_grid_priority_high">Lehentasun handia</string>
+  <string name="action_grid_priority_normal">Lehentasun arrunta</string>
+  <string name="action_grid_priority_low">Lehentasun txikia</string>
+  <string name="action_grid_priority_lowest">Lehentasun txikiena</string>
+  <string name="action_grid_assignee_dialog_title">Gehitu arduraduna</string>
+  <string name="action_grid_assignee_select_from_contacts">Hautatu kontaktuetatik</string>
+  <string name="action_grid_assignee_search_for_contact">Bilatu kontaktua</string>
+  <string name="action_grid_assignee_button_bar_clear">Garbitu</string>
   <string name="action_message_header_delete">Ezabatu mezu hau?</string>
+  <string name="action_like">Gogoko</string>
+  <string name="action_todo">Zeregina</string>
+  <string name="action_quick">Azkarra</string>
   <string name="action_move">Mugitu</string>
+  <string name="action_label">Etiketa</string>
   <string name="action_move_or_label">Mugitu/Etiketatu</string>
+  <string name="action_archive">Artxiboa</string>
   <string name="action_delete">Ezabatu</string>
+  <string name="action_spam">Zabor posta</string>
+  <string name="action_flag">Bandera</string>
+  <string name="action_clear_flag">Garbitu bandera</string>
+  <string name="action_star">Izarra</string>
+  <string name="action_clear_star">Garbitu izarra</string>
+  <string name="action_star_or_flag">Izarra/bandera</string>
+  <string name="action_mark_unread">Markatu ez irakurrita gisa</string>
+  <string name="action_mark_read">Markatu irakurrita gisa</string>
+  <string name="action_read_or_unread">Irakurrita/Ez irakurrita</string>
+  <string name="action_actions">Ekintzak</string>
+  <string name="marked_evernote">Evernote-ra bidali da</string>
+  <string name="marked_liked">Gogoko gisa markatu da</string>
+  <string name="marked_archived">Artxibatzeko markatu da</string>
+  <string name="marked_deleted">Ezabatzeko markatu da</string>
+  <string name="marked_spam">Zabor postara mugituta</string>
+  <string name="marked_todo">Zeregin gisa markatu da</string>
+  <string name="marked_done">Eginda gisa markatu da</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Erantzuna bidali da</item>
+    <item quantity="other">Erantzunak bidali dira</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Mezua gogoko</item>
+    <item quantity="other">Mezuak gogoko</item>
+  </plurals>
+  <string name="invalid_selection">Hautapen baliogabea</string>
+  <string name="file_action_more_than_one_account">Hainbat kontuetako elkarrizketak hautatu dituzu. Hautatu kontu bereko elkarrizketak.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote funtzionaltasunak aldi bakoitzeko elkarrizketa bakarra onartzen du. Hautatu elkarrizketa bakarra.</string>
+  <string name="not_installed">Instalatu gabe</string>
+  <string name="evernote_not_installed">Ez dirudi Evernote instalatuta dagoenik. Instalatu ezazu funtzionalitate hau erabiltzeko.</string>
+  <string name="custom_mailbox_button">Gehitu postontzi pertsonalizatua</string>
+  <string name="custom_mailbox_settings_label">Ezarpenak</string>
+  <string name="custom_mailbox_folder_name_hint">Postontzi pertsonalizatuaren izena</string>
+  <string name="custom_mailbox_background_sync_label">Atzeko planoko sinkronizazioa</string>
+  <string name="custom_mailbox_background_sync_switch_on">Bai</string>
+  <string name="custom_mailbox_background_sync_switch_off">Ez</string>
   <string name="custom_mailbox_delete_box">Ezabatu kutxa</string>
+  <string name="custom_mailbox_error_no_selected_folders">Hautatu gutxienez karpeta bat beheko zerrendatik</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Kontuz</string>
   <string name="custom_mailbox_delete_box_dialog_message">Ziur postontzi pertsonalizatu hau ezabatu nahi duzula?</string>
+  <string name="custom_mailbox_error_deleting_box">Errore bat gertatu da zure postontzi pertsonalizatua ezabatzerakoan</string>
+  <string name="viral_prompt_rate_app_title">Baloratu aplikazio hau</string>
+  <string name="viral_prompt_rate_app_body">Aplikazio hau erabiltzea gustuko baduzu axola zaizu baloratzen unetxo bat ematea? Minutu bat ere ez dizu hartuko. Eskerrik asko zure laguntzagatik!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Gogoratu geroago</string>
+  <string name="viral_ratings_prompt_no_thanks">Ez, eskerrik asko</string>
+  <string name="viral_ratings_prompt_rate_now">Baloratu orain</string>
+  <string name="promo_code_title_text">Ez borrokatu zure sarrera ontziarekin laguntza gabe</string>
+  <string name="promo_code_edittext_hint">Sartu promozio kodea</string>
+  <string name="promo_code_button_text">Bidali</string>
+  <string name="promo_code_error_no_code_entered">Sartu promozio kode bat bidali sakatu aurretik</string>
+  <string name="promo_code_error_invalid_code">Promozio kode baliogabea</string>
+  <string name="promo_code_dialog_title">Ezaugarriak desblokeatu dira</string>
+  <string name="promo_code_dialog_message"><xliff:g id="features">%s</xliff:g> ondo desblokeatu duzu</string>
+  <string name="promo_code_dialog_generic_success_msg">Promozio kodea ondo aplikatu da</string>
+  <string name="promo_code_progress_dialog_validating">Promozio kodea egiaztatzen</string>
+  <string name="rage_shake_title">Astinaldia antzeman da</string>
+  <string name="rage_shake_message">Aplikazioa kraskatu nahi duzu arazte informazioa bidaltzeko?</string>
+  <string name="actions_dialog_title">Pertsonalizatu</string>
+  <string name="actions_dialog_message">Karpetak maiz erabiltzen dituzu? Maiz zabor posta gisa markatu? Evernotera gauzak erantsi?\n\nPertsonalizatutako hatza pasatze ekintzekin edozein keinu zure lan erara moldatu dezakezu.\n</string>
+  <string name="actions_dialog_positive_button_text">Pertsonalizatu hatza pasatzeak</string>
+  <string name="actions_dialog_negative_button_text">Itxi</string>
+  <string name="account_setup_heading_email_instruction">Sartu zure posta helbidea hasteko</string>
+  <string name="account_setup_heading_password_instruction">Sartu zure pasahitza</string>
+  <string name="like_action_dialog_tittle">Zer da gogokoa?</string>
+  <string name="like_action_dialog_message">Gure ezaugarririk kuttunena aurkitu duzu. Mezu bat \'Gustukoa\' duzunean, mezu bat bidaliko zaie igorleari eta besteei gustukoa duzula jakinarazteko. Mezu bati erantzuteko modurik azkarrena da.</string>
+  <string name="new_button">Berria</string>
   <string name="folder_name_hint">Karpeta izena</string>
   <string name="create_folder_progess">Karpeta sortzen\u2026</string>
+  <string name="duplicate_folder_title">Izen bikoiztua</string>
+  <string name="duplicate_folder_message">Sartu duzun karpeta izena badago aurretik.</string>
+  <string name="error">Errorea</string>
+  <string name="error_creating_folder_message">Karpeta ezin izan da sortu.</string>
+  <string name="report_rendering_problem">Jakitera eman</string>
+  <string name="no_conversation_needs_sync">Ez dago mezurik hemen.\npasatu hatza beherantz berrizteko</string>
+  <string name="getting_messages">Zure mezuak jasotzen</string>
+  <string name="empty_folder">Ez dago mezurik hemen.</string>
+  <string name="empty_inbox">Bukatu duzu! Gozatu eguna.</string>
+  <string name="empty_search">Ene! Ez dugu ezer aurkitu \"<xliff:g id="search_query">%1$s</xliff:g>\" bilatzean.</string>
+  <string name="empty_spam_folder">Zoragarri. Ez dago spam mezurik hemen!</string>
+  <string name="empty_trash_folder">Ez dago zaborrik hemen. Eskerrik asko birziklatzeagatik!</string>
 </resources>

@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">통합</string>
   <string name="menu_select_all">모두 선택</string>
+  <string name="menu_actiongrid">액션 그리드</string>
   <string name="remove_account">계정 삭제</string>
   <string name="support">지원</string>
   <string name="delete_account_title">계정 삭제</string>
@@ -54,6 +55,9 @@
   <string name="all_folders_heading">폴더</string>
   <string name="accounts_heading">계정</string>
   <string name="vendor_signature">내 Cyanogen 휴대전화에서 보냈음</string>
+  <string name="notification_action_mark_read">읽기</string>
+  <string name="notification_action_reply">답장</string>
+  <string name="notification_action_delete">삭제</string>
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 새 메시지</item>
   </plurals>
@@ -179,4 +183,12 @@
   <string name="duplicate_folder_message">입력한 폴더 이름은 이미 존재합니다.</string>
   <string name="error">오류</string>
   <string name="error_creating_folder_message">폴더를 생성할 수 없습니다.</string>
+  <string name="report_rendering_problem">오류 보고</string>
+  <string name="no_conversation_needs_sync">메일이 없습니다.\n아래로 당겨서 새로 고침하세요</string>
+  <string name="getting_messages">메시지 수신중</string>
+  <string name="empty_folder">메일이 없습니다.</string>
+  <string name="empty_inbox">모두 완료하였습니다!</string>
+  <string name="empty_search">이런! \"<xliff:g id="search_query">%1$s</xliff:g>\"에 대한 것을 찾지 못했습니다.</string>
+  <string name="empty_spam_folder">스팸 메일이 없습니다!</string>
+  <string name="empty_trash_folder">휴지통이 비어있습니다!</string>
 </resources>

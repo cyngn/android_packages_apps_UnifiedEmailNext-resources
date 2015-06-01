@@ -37,6 +37,10 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; markerats som att göra.</item>
   </plurals>
   <string name="reported_as_spam">Rapporterat som skräppost</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Visa <xliff:g id="count">%1$d</xliff:g> nytt meddelande.</item>
+    <item quantity="other">Visa <xliff:g id="count">%1$d</xliff:g> nya meddelanden.</item>
+  </plurals>
   <string name="edit">Redigera</string>
   <string name="folder_search_hint">Sök</string>
   <string-array name="moveto_folder_sections">
@@ -48,7 +52,16 @@
     <item>Alla etiketter</item>
   </string-array>
   <string name="boxes_heading">Fält</string>
+  <string name="all_folders_heading">Mappar</string>
   <string name="accounts_heading">Konton</string>
+  <string name="vendor_signature">Skickat från min Cyanogen telefon</string>
+  <string name="notification_action_mark_read">LÄS</string>
+  <string name="notification_action_reply">SVARA</string>
+  <string name="notification_action_delete">RADERA</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nytt meddelande</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nya meddelanden</item>
+  </plurals>
   <string name="preferences_swipe_actions_title">Svep åtgärder</string>
   <string name="preferences_swipe_actions_summary">Anpassa vänster och höger svep-åtgärder</string>
   <string name="preferences_swipe_left_short_title">Vänster kort svepning</string>
@@ -137,6 +150,7 @@
   <string name="custom_mailbox_settings_label">Inställningar</string>
   <string name="custom_mailbox_folder_name_hint">Anpassat fältnamn</string>
   <string name="custom_mailbox_background_sync_label">Bakgrundssynkronisering</string>
+  <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <string name="custom_mailbox_delete_box">Ta bort fält</string>
   <string name="custom_mailbox_error_no_selected_folders">Välj minst en mapp från listan nedan</string>
   <string name="custom_mailbox_delete_box_dialog_title">Varning</string>
@@ -155,4 +169,15 @@
   <string name="promo_code_progress_dialog_validating">Validerar kampanjkoden</string>
   <string name="rage_shake_title">Skakning upptäcktes</string>
   <string name="rage_shake_message">Skulle du vilja krascha appen för att skicka felsökningsinformation?</string>
+  <string name="actions_dialog_title">Anpassa</string>
+  <string name="actions_dialog_negative_button_text">Stäng</string>
+  <string name="folder_name_hint">Mappnamn</string>
+  <string name="create_folder_progess">Skapar mapp\u2026</string>
+  <string name="error">Fel</string>
+  <string name="error_creating_folder_message">Mappen kunde inte skapas.</string>
+  <string name="report_rendering_problem">Rapportera</string>
+  <string name="empty_inbox">Du är klar! Njut av dagen.</string>
+  <string name="empty_search">Hoppsan! Vi hittade ingenting med \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hurra, ingen spam här!</string>
+  <string name="empty_trash_folder">Inget skräp här. Tack för att du återvinner!</string>
 </resources>

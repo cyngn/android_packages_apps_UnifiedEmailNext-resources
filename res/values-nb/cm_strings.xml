@@ -16,65 +16,187 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Kombinert</string>
   <string name="menu_select_all">Velg alle</string>
+  <string name="menu_actiongrid">Handlingsrutenett</string>
+  <string name="remove_account">Fjern konto</string>
   <string name="support">Hjelp</string>
   <string name="delete_account_title">Slett konto</string>
   <string name="delete_account_summary">Slette kontoen, alle innstillinger og data</string>
+  <string name="delete_account_confirmation_msg">Dette vil slette alle innstillingene og e-post for kontoen <xliff:g id="account">%s</xliff:g>. Denne operasjonen kan ikke være omgjøres.\n\nVil du fortsette?</string>
   <string name="deleting_account_msg">Sletter konto\u2026</string>
   <string name="delete_account_failed">Kunne ikke slette kontoen</string>
   <string name="open_attachment">Åpne</string>
   <string name="install_attachment">Installer</string>
   <string name="menu_photo_print">Skriv ut</string>
   <string name="contextmenu_view_image">Vis bilde</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d andre</item>
+    <item quantity="other">&amp; %d andre</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; merket som gjøremål.</item>
+    <item quantity="other">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; merket som gjøremål.</item>
+  </plurals>
   <string name="reported_as_spam">Rapportert som spam</string>
+  <string name="new_incoming_messages_one">Vise nye meldinger fra <xliff:g id="sender">%s </xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding.</item>
+    <item quantity="other">Vis <xliff:g id="count">%1$d </xliff:g> nye meldinger.</item>
+  </plurals>
   <string name="edit">Endre</string>
   <string name="folder_search_hint">Søk</string>
   <string-array name="moveto_folder_sections">
-    <item>Smart folders</item>
+    <item>Smarte mapper</item>
     <item>Alle mapper</item>
   </string-array>
   <string-array name="change_folders_sections">
-    <item>Smart labels</item>
+    <item>Smarte etiketter</item>
     <item>Alle etiketter</item>
   </string-array>
+  <string name="boxes_heading">Bokser</string>
   <string name="all_folders_heading">Mapper</string>
   <string name="accounts_heading">Kontoer</string>
   <string name="vendor_signature">Sendt fra min Cyanogen telefon</string>
+  <string name="notification_action_mark_read">LES</string>
+  <string name="notification_action_reply">SVAR</string>
+  <string name="notification_action_delete">DEL</string>
+  <plurals name="new_messages">
+    <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding</item>
+    <item quantity="other">Vis <xliff:g id="count">%1$d </xliff:g> nye meldinger</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Dra handlinger</string>
+  <string name="preferences_swipe_actions_summary">Tilpasse venstre og høyre dra handlinger</string>
+  <string name="preferences_swipe_left_short_title">Venstre kort swipe</string>
+  <string name="preferences_swipe_left_long_title">Venstre lange sveip</string>
+  <string name="preferences_swipe_right_short_title">Rett kort sveip</string>
+  <string name="preferences_swipe_right_long_title">Høyre lang sveip</string>
   <string name="print">Skriv ut</string>
+  <plurals name="num_messages">
+    <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> meldinger</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s </xliff:g> på <xliff:g id="time">%2$s </xliff:g></string>
+  <string name="draft_to_heading">Utkast til: \u0020</string>
   <string name="draft_heading">Utkast</string>
+  <string name="quoted_text_hidden_print">Sitert tekst skjult</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> vedlegg</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> vedlegg</item>
+  </plurals>
+  <string name="no_subject">(uten emne)</string>
+  <string name="action_grid_select_quick_response">Velg hurtigsvar</string>
   <string name="action_grid_todo_dialog_title">Detaljer</string>
+  <string name="action_grid_set_due_date">Angi grunn dato</string>
+  <string name="action_grid_due">Grunn: <xliff:g id="datestring">%s </xliff:g></string>
+  <string name="action_grid_add_priority">Legge til prioritet</string>
+  <string name="action_grid_priority">Prioritert: \u0020</string>
+  <string name="action_grid_add_assignee">Legge til mottager</string>
+  <string name="action_grid_assignee">Mottager: \u0020</string>
+  <string name="action_grid_due_date_dialog_title">Angi grunn dato</string>
   <string name="action_grid_due_date_today">I dag</string>
   <string name="action_grid_due_date_tomorrow">I morgen</string>
   <string name="action_grid_due_date_this_week">Denne uken</string>
   <string name="action_grid_due_date_next_week">Neste uke</string>
   <string name="action_grid_due_date_specific_date">Spesifikk dato</string>
+  <string name="action_grid_calendar_picker_dialog_title">Angi grunn dato</string>
+  <string name="action_grid_priority_dialog_title">Legge til prioritet</string>
   <string name="action_grid_priority_highest">Høyest prioritet</string>
   <string name="action_grid_priority_high">Høy prioritet</string>
   <string name="action_grid_priority_normal">Normal prioritet</string>
   <string name="action_grid_priority_low">Lav prioritet</string>
   <string name="action_grid_priority_lowest">Laveste prioritet</string>
+  <string name="action_grid_assignee_dialog_title">Legge til mottager</string>
   <string name="action_grid_assignee_select_from_contacts">Velg fra kontakter</string>
   <string name="action_grid_assignee_search_for_contact">Søk etter kontakter</string>
+  <string name="action_grid_assignee_button_bar_clear">Fjern</string>
   <string name="action_message_header_delete">Slette denne meldingen?</string>
+  <string name="action_like">Lik</string>
   <string name="action_todo">Å gjøre</string>
   <string name="action_quick">Rask</string>
   <string name="action_move">Flytt</string>
   <string name="action_label">Etikett</string>
+  <string name="action_move_or_label">Flytt/etikett</string>
   <string name="action_archive">Arkivér</string>
   <string name="action_delete">Slett</string>
+  <string name="action_spam">Spam</string>
   <string name="action_flag">Flagg</string>
   <string name="action_clear_flag">Fjern flagg</string>
+  <string name="action_star">Stjerne</string>
+  <string name="action_clear_star">Fjern stjerne</string>
+  <string name="action_star_or_flag">Stjerne/Flagg</string>
   <string name="action_mark_unread">Merk som ulest</string>
   <string name="action_mark_read">Merk som lest</string>
+  <string name="action_read_or_unread">Lest/ulest</string>
   <string name="action_actions">Handlinger</string>
   <string name="marked_evernote">Sendt til Evernote</string>
+  <string name="marked_liked">Merket som likt</string>
+  <string name="marked_archived">Merket for arkiv</string>
+  <string name="marked_deleted">Merket for sletting</string>
+  <string name="marked_spam">Flyttet til spam</string>
+  <string name="marked_todo">Merket som gjøremål</string>
+  <string name="marked_done">Merket som ferdig</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Svar sendt</item>
+    <item quantity="other">Svar sendt</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Melding likt</item>
+    <item quantity="other">Meldinger likt</item>
+  </plurals>
+  <string name="invalid_selection">Ugyldig valg</string>
+  <string name="file_action_more_than_one_account">Du har valgt samtaler fra mer enn én konto. Prøv bare å velge samtaler fra én konto.</string>
+  <string name="evernote_action_more_than_one_conversation">Funksjonen Evernote støtter bare én samtale om gangen. Prøv å velge bare én samtale.</string>
   <string name="not_installed">Ikke installert</string>
+  <string name="evernote_not_installed">Evernote er ikke installert. Installer for å bruke denne funksjonaliteten.</string>
+  <string name="custom_mailbox_button">Legge til egendefinert boks</string>
   <string name="custom_mailbox_settings_label">Innstillinger</string>
+  <string name="custom_mailbox_folder_name_hint">Egendefinert navn</string>
+  <string name="custom_mailbox_background_sync_label">Bakgrunn-synkronisering</string>
   <string name="custom_mailbox_background_sync_switch_on">På</string>
   <string name="custom_mailbox_background_sync_switch_off">Av</string>
+  <string name="custom_mailbox_delete_box">Slette boks</string>
+  <string name="custom_mailbox_error_no_selected_folders">Velg minst én mappe fra listen nedenfor</string>
   <string name="custom_mailbox_delete_box_dialog_title">Advarsel</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Er du sikker på at du vil slette denne egendefinerte boksen?</string>
+  <string name="custom_mailbox_error_deleting_box">Det oppstod en feil under sletting av postboksen</string>
+  <string name="viral_prompt_rate_app_title">Rangere denne appen</string>
+  <string name="viral_prompt_rate_app_body">Hvis du liker å bruke denne appen, ville du tatt et øyeblikk å vurdert den? Det tar ikke mer enn et minutt. Takk for din støtte!</string>
   <string name="viral_ratings_prompt_remind_me_later">Påminn meg senere</string>
   <string name="viral_ratings_prompt_no_thanks">Nei takk</string>
+  <string name="viral_ratings_prompt_rate_now">Ranger nå</string>
+  <string name="promo_code_title_text">Ikke kjemp innboksen alene</string>
+  <string name="promo_code_edittext_hint">Skriv inn promo koden</string>
   <string name="promo_code_button_text">Send inn</string>
+  <string name="promo_code_error_no_code_entered">Angi en promo-kode før du trykker Send</string>
+  <string name="promo_code_error_invalid_code">Ugyldig promo kode</string>
+  <string name="promo_code_dialog_title">Funksjoner opplåst</string>
+  <string name="promo_code_dialog_message">Du har fullført opplåst <xliff:g id="features">%s </xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Markedsføringskode aktivert</string>
+  <string name="promo_code_progress_dialog_validating">Validerer markedsføringskode</string>
+  <string name="rage_shake_title">Rist oppdaget</string>
+  <string name="rage_shake_message">Ønsker du å sende krasjlogger for debuginformasjon?</string>
+  <string name="actions_dialog_title">Tilpass</string>
+  <string name="actions_dialog_message">Bruker du mapper regelmessig? Ofte merke som Spam? Liker du å klippe til Evernote? \n\nMed tilpassede sveipe handlinger du kan sette noen av disse gesteme til å passe din arbeidsflyt.\n</string>
+  <string name="actions_dialog_positive_button_text">Tilpasse sveip</string>
   <string name="actions_dialog_negative_button_text">Lukk</string>
+  <string name="account_setup_heading_email_instruction">Skriv inn epostadressen din å komme i gang</string>
+  <string name="account_setup_heading_password_instruction">Angi passordet</string>
+  <string name="like_action_dialog_tittle">Hva er like?</string>
+  <string name="like_action_dialog_message">Du har funnet vår favoritt funksjon. Når du \"Liker\" en melding, vil en epost bli sendt for å la avsendere og andre få beskjed om at du liker eposten. Det er den raskeste metoden å svare på eposter.</string>
+  <string name="new_button">Ny</string>
+  <string name="folder_name_hint">Mappenavn</string>
+  <string name="create_folder_progess">Oppretter mappe\u2026</string>
+  <string name="duplicate_folder_title">Duplisert navn</string>
+  <string name="duplicate_folder_message">Mappenavnet du skrev inn finnes allerede.</string>
+  <string name="error">Feil</string>
+  <string name="error_creating_folder_message">Mappen kan ikke opprettes.</string>
+  <string name="report_rendering_problem">Rapportér</string>
+  <string name="no_conversation_needs_sync">Det er ingen post her. \nDra ned fra toppen for å oppdatere</string>
+  <string name="getting_messages">Henter inn meldingene dine</string>
+  <string name="empty_folder">Det er ingen mail her.</string>
+  <string name="empty_inbox">Du er ferdig! Nå kan du nyte dagen.</string>
+  <string name="empty_search">Whoops! Vi fant ikke noe for \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
+  <string name="empty_spam_folder">Hurra, ikke spam her!</string>
+  <string name="empty_trash_folder">Søppel her. Takk for resirkulering!</string>
 </resources>

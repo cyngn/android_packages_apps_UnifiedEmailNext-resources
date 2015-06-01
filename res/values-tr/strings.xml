@@ -206,6 +206,10 @@
   <string name="collapse_recipient_details">Alıcı ayrıntılarını daralt</string>
   <string name="contact_info_string"><xliff:g id="NAME">%1$s</xliff:g> iletişim bilgilerini göster</string>
   <string name="contact_info_string_default">İletişim bilgilerini göster</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> eski ileti</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> eski ileti</item>
+  </plurals>
   <string name="from_heading">Gönderen: </string>
   <string name="replyto_heading">Yanıt adresi: </string>
   <string name="to_heading">Alıcı: </string>
@@ -247,6 +251,10 @@
   <string name="non_synced_folder_description">İleti dizilerini görüntülemek için bu klasörü senk edin.</string>
   <string name="tap_to_configure_folder_sync">Klasörü Senkronize Et</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> okunmamış</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> okunmamış</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ tane okunmadı</string>
   <string name="view_more_conversations">Diğer ileti dizilerini görüntüle</string>
   <string name="activity_mailbox_selection">Hesap seç</string>

@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Комбинован</string>
   <string name="menu_select_all">Изабери све</string>
+  <string name="menu_actiongrid">Акција мреже</string>
   <string name="remove_account">Уклони налог</string>
   <string name="support">Подршка</string>
   <string name="delete_account_title">Избриши налог</string>
@@ -63,6 +64,9 @@
   <string name="all_folders_heading">Фолдери</string>
   <string name="accounts_heading">Налози</string>
   <string name="vendor_signature">Послато са мог Cyanogen телефона</string>
+  <string name="notification_action_mark_read">ПРОЧИТАНО</string>
+  <string name="notification_action_reply">ОДГОВОРИ</string>
+  <string name="notification_action_delete">ОБРИШИ</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> нова порука</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
@@ -203,4 +207,12 @@
   <string name="duplicate_folder_message">Име које сте унели за фолдер већ постоји.</string>
   <string name="error">Грешка</string>
   <string name="error_creating_folder_message">Фолдер не може бити креиран.</string>
+  <string name="report_rendering_problem">Направи извештај</string>
+  <string name="no_conversation_needs_sync">Нема поште.\nПовуци на доле врх да освежиш</string>
+  <string name="getting_messages">Добијање твојих порука</string>
+  <string name="empty_folder">Нема поште овде.</string>
+  <string name="empty_inbox">Завршио си! Уживај у свом дану.</string>
+  <string name="empty_search">Опа! Нисмо нашли ништа за \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Ура, нема спама овде!</string>
+  <string name="empty_trash_folder">Нема ђубрета овде. Хвала за рециклажу!</string>
 </resources>

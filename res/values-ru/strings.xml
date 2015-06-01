@@ -277,6 +277,11 @@
   <string name="empty_spam">Удалить спам</string>
   <string name="empty_trash_dialog_title">Очистить корзину?</string>
   <string name="empty_spam_dialog_title">Удалить спам?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> сообщение будет удалено без возможности восстановления.</item>
+    <item quantity="few"><xliff:g id="COUNT">%1$d</xliff:g> сообщения будут удалены без возможности восстановления.</item>
+    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> сообщений будут удалены без возможности восстановления.</item>
+  </plurals>
   <string name="drawer_open">Открыть панель навигации</string>
   <string name="drawer_close">Закрыть панель навигации</string>
   <string name="conversation_photo_welcome_text">Чтобы открыть цепочку писем, нажмите на фото отправителя.</string>

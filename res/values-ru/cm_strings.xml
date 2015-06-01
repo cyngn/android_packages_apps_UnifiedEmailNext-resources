@@ -60,6 +60,7 @@
   <string name="boxes_heading">Ящики</string>
   <string name="all_folders_heading">Папки</string>
   <string name="accounts_heading">Аккаунты</string>
+  <string name="vendor_signature">Отправлено с моего телефона Cyanogen</string>
   <string name="notification_action_mark_read">ПРОЧИТАНО</string>
   <string name="notification_action_reply">ОТВЕТИТЬ</string>
   <string name="notification_action_delete">УДАЛИТЬ</string>
@@ -168,9 +169,11 @@
   <string name="custom_mailbox_delete_box_dialog_message">Вы уверены, что хотите удалить этот ящик?</string>
   <string name="custom_mailbox_error_deleting_box">Произошла ошибка при удалении вашего почтового ящика</string>
   <string name="viral_prompt_rate_app_title">Оценить это приложение</string>
+  <string name="viral_prompt_rate_app_body">Если Вам нравится приложение, не могли бы вы уделить немного времени для его оценки? Спасибо за вашу помощь!</string>
   <string name="viral_ratings_prompt_remind_me_later">Напомнить позже</string>
   <string name="viral_ratings_prompt_no_thanks">Нет, спасибо</string>
   <string name="viral_ratings_prompt_rate_now">Оценить сейчас</string>
+  <string name="promo_code_title_text">Не боритесь с вашим почтовым ящиком в одиночку</string>
   <string name="promo_code_edittext_hint">Введите промо-код</string>
   <string name="promo_code_button_text">Отправить</string>
   <string name="promo_code_error_no_code_entered">Пожалуйста, введите промо-код перед нажатием \"Отправить\"</string>
@@ -181,9 +184,12 @@
   <string name="promo_code_progress_dialog_validating">Проверка промо-кода</string>
   <string name="rage_shake_title">Распознано встряхивание</string>
   <string name="rage_shake_message">Вы хотите вызвать сбой в приложении, чтобы отправить отладочную информацию?</string>
+  <string name="actions_dialog_title">Настройка</string>
+  <string name="actions_dialog_message">Вы регулярно используете папки? Часто помечаете письма как спам? Любите закладки в Evernote?\n\n\С настройками действий жестов, Вы сможете установить любой жест, для любого действия.\n</string>
   <string name="actions_dialog_positive_button_text">Настройка жестов</string>
   <string name="actions_dialog_negative_button_text">Закрыть</string>
   <string name="account_setup_heading_email_instruction">Введите адрес электронной почты, чтобы начать работу</string>
+  <string name="account_setup_heading_password_instruction">Введите ваш пароль</string>
   <string name="like_action_dialog_tittle">Кнопка «Мне нравится»</string>
   <string name="like_action_dialog_message">Это наша любимая функция. Когда вы ставите отметку «нравится» у сообщения, отправляется e-mail, который уведомит об этом отправителя и других получателей. Пока что это самый быстрый способ отвечать на письма.</string>
   <string name="new_button">Создать</string>
@@ -193,9 +199,12 @@
   <string name="duplicate_folder_message">Папка с таким названием уже существует.</string>
   <string name="error">Ошибка</string>
   <string name="error_creating_folder_message">Не удалось создать папку.</string>
+  <string name="report_rendering_problem">Пожаловаться</string>
   <string name="no_conversation_needs_sync">Здесь ничего нет.\nПроведите сверху вниз для обновления списка писем</string>
   <string name="getting_messages">Получение сообщений</string>
   <string name="empty_folder">Здесь ничего нет.</string>
+  <string name="empty_inbox">Сообщений нет.</string>
+  <string name="empty_search">По запросу «<xliff:g id="search_query">%1$s</xliff:g>» ничего не найдено.</string>
   <string name="empty_spam_folder">Спама нет, отлично!</string>
-  <string name="empty_trash_folder">В корзине пусто. Спасибо, что выбрасываете мусор!</string>
+  <string name="empty_trash_folder">В корзине пусто. Спасибо, что выносите мусор!</string>
 </resources>

@@ -17,33 +17,280 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="to">Nori</string>
+  <string name="cc">Cc</string>
+  <string name="bcc">Bcc</string>
+  <string name="subject_hint">Gaia</string>
+  <string name="body_hint">Idatzi posta</string>
+  <string name="add_file_attachment">Erantsi fitxategia</string>
+  <string name="add_photo_attachment">Erantsi irudia</string>
+  <string name="save_draft">Gorde zirriborroa</string>
+  <string name="discard">Baztertu</string>
+  <string name="compose">Idatzi</string>
+  <string-array name="compose_modes">
+    <item>Erantzun</item>
+    <item>Erantzun guztiei</item>
+    <item>Birbidali</item>
+  </string-array>
+  <string name="reply_attribution"><xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g>ean idatzi zuen:</string>
+  <string name="forward_attribution">---------- Birbidalitako mezua ----------&lt;br&gt;Nork: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Data: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Gaia: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Nori: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
+  <string name="forward_attribution_no_headers">---------- Birbidalitako mezua ----------</string>
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
+  <string name="select_attachment_type">Hautatu eranskin mota</string>
+  <string name="too_large_to_attach_single">Ezin da erantsi <xliff:g id="maxSize">%1$s</xliff:g> baino gehiagoko fitxategi bat.</string>
+  <string name="too_large_to_attach_multiple">Gutxienez fitxategi bat ez da erantsi. Muga <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">Fitxategia ez da erantsi. <xliff:g id="maxSize">%1$s</xliff:g>(e)ko muga gainditu da.</string>
+  <string name="generic_attachment_problem">Ezin izan da fitxategia erantsi.</string>
+  <string name="recipient_needed">Gehitu hartzaile bat gutxienez.</string>
+  <string name="recipient_error_dialog_title">Hartzaile errorea</string>
+  <string name="confirm_send_title">Bidali mezua?</string>
+  <string name="confirm_send_message_with_no_subject">Ez dago testurik mezuaren gaian.</string>
+  <string name="confirm_send_message_with_no_body">Ez dago testurik mezuaren gorputzean.</string>
+  <string name="confirm_send_message">Bidali mezu hau?</string>
+  <string name="message_discarded">Mezua baztertu da.</string>
+  <string name="custom_from_account_label">Bidali mezua kontu honetatik:</string>
+  <string name="send">Bidali</string>
+  <string name="mark_read">Markatu irakurrita gisa</string>
+  <string name="mark_unread">Markatu ez irakurrita gisa</string>
+  <string name="mute">Mututu</string>
+  <string name="add_star">Gehitu izarra</string>
   <string name="remove_star">Kendu izarra</string>
   <string name="remove_folder">Kendu <xliff:g id="folderName">%1$s</xliff:g>tik</string>
+  <string name="archive">Artxiboa</string>
+  <string name="report_spam">Salatu zabor posta</string>
+  <string name="mark_not_spam">Markatu ez zabor posta gisa</string>
+  <string name="report_phishing">Salatu iruzurra</string>
   <string name="delete">Ezabatu</string>
+  <string name="discard_drafts">Ezabatu zirriborroak</string>
+  <string name="refresh">Berritu</string>
+  <string name="reply">Erantzun</string>
+  <string name="reply_all">Erantzun guztiei</string>
+  <string name="resume_draft">Editatu</string>
+  <string name="forward">Birbidali</string>
+  <string name="menu_compose">Idatzi</string>
+  <string name="menu_change_folders">Aldatu karpetak</string>
   <string name="menu_move_to">Mugitu hona</string>
   <string name="menu_move_to_inbox">Eraman sarrera ontzira</string>
+  <string name="menu_manage_folders">Karpeta ezarpenak</string>
+  <string name="menu_show_original">Desegin tamaina aldaketa automatikoa</string>
+  <string name="menu_folder_options">Karpeta ezarpenak</string>
+  <string name="menu_settings">Ezarpenak</string>
+  <string name="menu_search">Bilatu</string>
   <string name="mark_important">Markatu garrantzitsu gisa</string>
   <string name="mark_not_important">Markatu ez garrantzitsu gisa</string>
+  <string name="add_cc_label">Gehitu Cc/Bcc</string>
+  <string name="add_bcc_label">Gehitu Bcc</string>
+  <string name="feedback">Bidali iruzkina</string>
+  <string name="help_and_info">Laguntza</string>
+  <string name="quoted_text">Txertatu aipatutako testua</string>
+  <string name="quoted_text_label">Aipatu testua</string>
+  <string name="respond_inline">Mezuan bertan erantzun</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
+  <string name="attachment_image">Irudia</string>
+  <string name="attachment_video">Bideoa</string>
+  <string name="attachment_audio">Audioa</string>
+  <string name="attachment_text">Testua</string>
+  <string name="attachment_application_msword">Dokumentua</string>
+  <string name="attachment_application_vnd_ms_powerpoint">Aurkezpena</string>
+  <string name="attachment_application_vnd_ms_excel">Kalkulu-orria</string>
+  <string name="attachment_application_pdf">PDF</string>
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g> fitxategia</string>
+  <string name="preview_attachment">Aurrebista</string>
+  <string name="save_attachment">Gorde</string>
+  <string name="cancel_attachment">Utzi</string>
+  <string name="download_again">Deskargatu berriro</string>
+  <string name="more_info_attachment">Informazioa</string>
+  <string name="no_application_found">Ez dago eranskina bistaratzeko ireki dezakeen aplikaziorik.</string>
+  <string name="fetching_attachment">Eranskinak eskuratzen</string>
+  <string name="please_wait">Itxaron, mesedez\u2026</string>
+  <string name="saved">Gordeta, <xliff:g id="size">%s</xliff:g></string>
+  <string name="download_failed">Ezin izan da deskargatu. Ukitu berriro saiatzeko.</string>
+  <string name="attachments_header">Eranskinak</string>
+  <string name="menu_photo_save_all">Gorde guztiak</string>
+  <string name="menu_photo_share">Partekatu</string>
+  <string name="menu_photo_share_all">Partekatu guztiak</string>
+  <string name="saving">Gordetzen&#8230;</string>
+  <string name="choosertitle_sharevia">Partekatu honen bitartez:</string>
+  <string name="contextmenu_openlink">Ireki nabigatzailean</string>
+  <string name="contextmenu_copy">Kopiatu</string>
+  <string name="contextmenu_copylink">Kopiatu estekaren URLa</string>
+  <string name="contextmenu_dial_dot">Markatu\u2026</string>
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
+  <string name="contextmenu_add_contact">Gehitu kontaktua</string>
+  <string name="contextmenu_send_mail">Bidali mezua</string>
+  <string name="contextmenu_map">Mapa</string>
+  <string name="contextmenu_sharelink">Partekatu esteka</string>
+  <string name="contextmenu_help">Laguntza</string>
+  <string name="contextmenu_feedback">Bidali iruzkina</string>
   <plurals name="move_conversation">
     <item quantity="one">Mugitu elkarrizketa</item>
     <item quantity="other">Mugitu <xliff:g>%1$d</xliff:g> elkarrizketa</item>
   </plurals>
+  <string name="content_description">nork: <xliff:g id="sender">%1$s</xliff:g>, gaia: <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g>, noiz:<xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <string name="content_description_today">nork: <xliff:g id="sender">%1$s</xliff:g>, gaia: <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g>, noiz:<xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <string name="read_string">elkarrizketa irakurrita</string>
+  <string name="unread_string">elkarrizketa ez irakurrita</string>
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="subject_and_snippet"><xliff:g>%s</xliff:g> \u2014 <xliff:g>%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Zirriborroa</item>
+    <item quantity="other">Zirriborroak</item>
+  </plurals>
+  <string name="sending">Bidaltzen\u2026</string>
+  <string name="send_failed">Mezua ez da bidali.</string>
+  <string name="me_object_pronun">ni</string>
+  <string name="me_subject_pronun">ni</string>
+  <string name="inbox_folders_heading">Sarrera ontzia</string>
   <plurals name="confirm_delete_conversation">
     <item quantity="one">Ezabatu elkarrizketa hau?</item>
     <item quantity="other">Ezabatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauek?</item>
   </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Artxibatu elkarrizketa hau?</item>
+    <item quantity="other">Artxibatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauek?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Ezabatu elkarrizketa honetako zirriborroak?</item>
+    <item quantity="other">Ezabatu <xliff:g id="count">%1$d</xliff:g> elkarrizketa hauetako zirriborroak?</item>
+  </plurals>
+  <string name="confirm_discard_text">Baztertu mezu hau?</string>
   <string name="loading_conversations">Kargatzen\u2026</string>
+  <string name="undo">Desegin</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Elkarrizketa <xliff:g id="count">%1$d</xliff:g>i izarra kentzen.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> elkarrizketei izarra kentzen.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; mutututa.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; mutututa.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zabor posta gisa salatua.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zabor posta gisa salatuak.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez zabor posta gisa markatua.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez zabor posta gisa markatuak.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez garrantzitsu gisa markatu da.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ez garrantzitsu gisa markatu dira.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; iruzur gisa salatu da.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; iruzur gisa salatu dira.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; artxibatu da.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; artxibatu dira.</item>
+  </plurals>
   <plurals name="conversation_deleted">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ezabatu da.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ezabatu dira.</item>
   </plurals>
   <string name="deleted">Ezabatuta</string>
+  <string name="archived">Artxibatuta</string>
   <string name="folder_removed"><xliff:g id="folderName">%1$s</xliff:g>tik kenduta</string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Karpeta aldatuta.</item>
+    <item quantity="other">Karpetak aldatuta.</item>
+  </plurals>
   <string name="conversation_folder_moved"><xliff:g id="folderName">%1$s</xliff:g>ra mugituta</string>
+  <string name="search_results_header">Emaitzak</string>
+  <string name="search_unsupported">Kontu honek ez du bilaketa onartzen.</string>
+  <string name="search_results_searching_header">Bilatzen\u2026</string>
+  <string name="add_label">Gehitu karpeta</string>
+  <string name="expand_recipient_details">Zabaldu hartzailearen xehetasunak</string>
+  <string name="collapse_recipient_details">Itxi hartzailearen xehetasunak</string>
+  <string name="contact_info_string">Bistaratu <xliff:g id="name">%1$s</xliff:g>(r)en kontaktu informazioa</string>
+  <string name="contact_info_string_default">Erakutsi kontaktu informazioa</string>
+  <plurals name="show_messages_read">
+    <item quantity="one">aurreko mezu <xliff:g id="count" example="4">%1$d</xliff:g></item>
+    <item quantity="other">aurreko <xliff:g id="count" example="4">%1$d</xliff:g> mezu</item>
+  </plurals>
+  <string name="from_heading">Nork:\u0020</string>
+  <string name="replyto_heading">Erantzun honi:\u0020</string>
+  <string name="to_heading">Nori:\u0020</string>
+  <string name="cc_heading">Cc:\u0020</string>
+  <string name="bcc_heading">Bcc:\u0020</string>
+  <string name="date_heading">Data:\u0020</string>
+  <string name="show_images">Bistaratu irudiak</string>
+  <string name="always_show_images">Beti bistaratu igorle honen irudiak</string>
+  <string name="always_show_images_toast">Igorle honen irudiak automatikoki bistaratuko dira.</string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g>, <xliff:g id="via_domain">%3$s</xliff:g> bidez</string>
+  <string name="message_saved">Mezua zirriborro gisa gorde da.</string>
+  <string name="sending_message">Mezua bidaltzen\u2026</string>
+  <string name="invalid_recipient"><xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> helbidea baliogabea da.</string>
+  <string name="show_elided">\u25B6 Bistaratu aipatutako testua</string>
+  <string name="hide_elided">\u25BC Ezkutatu aipatutako testua</string>
+  <string name="message_invite_title">Egutegi gonbitea</string>
+  <string name="message_invite_calendar_view">Ikusi egutegian</string>
+  <string name="message_invite_label_attending">Bazoaz?</string>
+  <string name="message_invite_accept">Bai</string>
+  <string name="message_invite_tentative">Agian</string>
+  <string name="message_invite_decline">Ez</string>
+  <string name="enumeration_comma">,\u0020</string>
+  <string name="yes">Bai</string>
+  <string name="no">Ez</string>
+  <string name="ok">Ados</string>
+  <string name="done">Eginda</string>
+  <string name="cancel">Utzi</string>
+  <string name="clear">Garbitu</string>
+  <string-array name="sync_status">
+    <item>Arrakasta</item>
+    <item>Konexiorik gabe.</item>
+    <item>Ezin izan da saioa hasi.</item>
+    <item>Segurtasun errorea.</item>
+    <item>Ezin izan da sinkronizatu.</item>
+    <item>Barne errorea</item>
+  </string-array>
+  <string name="tap_to_configure">Sakatu ezartzeko</string>
+  <string name="non_synced_folder_description">Elkarrizketak ikusteko, sinkronizatu karpeta hau.</string>
+  <string name="tap_to_configure_folder_sync">Sinkronizatu karpeta</string>
+  <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> irakurri gabe</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> irakurri gabe</item>
+  </plurals>
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ irakurri gabe</string>
+  <string name="view_more_conversations">Ikusi elkarrizketa gehiago</string>
+  <string name="activity_mailbox_selection">Hautatu kontua</string>
+  <string name="activity_folder_selection">Hautatu karpeta</string>
+  <string name="folder_shortcut_widget_label">Posta karpeta</string>
+  <string name="change_folders_selection_dialog_title">Aldatu karpetak</string>
   <string name="move_to_selection_dialog_title">Mugitu hona</string>
-  <string name="cant_move_or_change_labels">Ezin da mugitu aukeraketak hainbat kontu dituelako.</string>
+  <string name="search_hint">Bilatu posta</string>
+  <string name="network_error">Konexiorik gabe</string>
+  <string name="retry">Berriro saiatu</string>
+  <string name="load_more">Kargatu gehiago</string>
+  <string name="shortcut_name_title">Izendatu karpeta lasterbidea</string>
+  <string name="wait_for_sync_title">Sinkronizazioaren zai</string>
+  <string name="wait_for_sync_body">Zure mezua laster agertuko da.</string>
+  <string name="not_synced_title">Sinkronizatu gabeko kontua</string>
+  <string name="wait_for_manual_sync_body">Kontu honetan ez da ezarri sinkronizazio automatikoa.\nSakatu <b>Sinkronizatu orain</b> posta behin sinkronizatzeko, edo <b>Aldatu sinkronizazio ezarpenak</b> kontu hau automatikoki sinkronizatu dadin ezartzeko.</string>
+  <string name="manual_sync">Sinkronizatu orain</string>
+  <string name="change_sync_settings">Aldatu sinkronizazio ezarpenak</string>
+  <string name="photo_load_failed">Ezin izan da irudia kargatu</string>
+  <string name="cant_move_or_change_labels">Ezin da mugitu hautapenak hainbat kontu dituelako.</string>
+  <string name="multiple_new_message_notification_item"><b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+  <string name="ignore_spam_warning">Lasai, mezu hau konfiantzazkoa da</string>
+  <string name="via_domain"><xliff:g id="viaDomain">%1$s</xliff:g> bidez</string>
+  <string name="signin">Hasi saioa</string>
+  <string name="info">Informazioa</string>
+  <string name="report">Salatu</string>
+  <string name="sync_error">Ezin izan da sinkronizatu.</string>
+  <string name="sync_error_message">Zure gailuak ez du biltegiratze leku nahikorik sinkronizaziorako.</string>
+  <string name="storage">Biltegiratzea</string>
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
+  <string name="recent_folders_heading">Azken karpetak</string>
+  <string name="message_details_title">Mezuaren xehetasunak</string>
   <string name="auto_advance_label">Automatikoki aurreratu</string>
-  <string name="auto_advance_summary">Aukeratu bistaratuko den pantaila 
+  <string name="auto_advance_summary">Hautatu bistaratuko den pantaila 
         mezu bat ezabatu eta gero</string>
   <string name="auto_advance_help_title">Ezarri aurreratze automatikoaren hobespena\n(ezabatu eta gero, eta abar)</string>
   <string-array name="prefEntries_autoAdvance">
@@ -56,9 +303,23 @@
     <item>Bistaratu aurreko elkarrizketa ezabatu eta gero</item>
     <item>Bistaratu elkarrizketa zerrenda ezabatu eta gero</item>
   </string-array>
+  <string name="clear_display_images_whitelist_title">Garbitu irudi onarpenak</string>
+  <string name="clear_display_images_whitelist_dialog_title">Garbitu irudi onarpenak?</string>
+  <string name="clear_display_images_whitelist_dialog_message">Utzi aurretik baimendutako igorleen mezuetako irudiak bistaratzeari.</string>
+  <string name="sender_whitelist_cleared">Irudiak ez dira automatikoki erakutsiko.</string>
+  <string name="preferences_signature_title">Sinadura</string>
+  <string name="preferences_signature_dialog_title">Sinadura</string>
+  <string name="preferences_signature_summary_not_set">Ezarri gabea</string>
   <string name="notification_action_reply_all">Erantzun guztiei</string>
+  <string name="notification_action_archive">Artxiboa</string>
   <string name="notification_action_remove_label">Kendu etiketa</string>
+  <string name="notification_action_undo_archive">Artxibatuta</string>
   <string name="notification_action_undo_remove_label">Etiketa kendu da</string>
+  <string name="notification_action_undo_delete">Ezabatuta</string>
+  <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="silent_ringtone">Isilik</string>
+  <string name="preference_removal_action_title">Artxibatu eta ezabatu ekintzak</string>
   <string-array name="prefEntries_removal_action">
     <item>Bistaratu artxibatu soilik</item>
     <item>Bistaratu ezabatu soilik</item>
@@ -70,4 +331,41 @@
     <item>Bistaratu artxibatu eta ezabatu</item>
   </string-array>
   <string name="prefDialogTitle_removal_action">Artxibatu eta ezabatu ekintzak</string>
+  <string name="preferences_default_reply_all_title">Erantzun guztiei</string>
+  <string name="preferences_default_reply_all_summary">Mezuak erantzuteko erabili besterik adierazi ezean</string>
+  <string name="preference_swipe_title_archive">Pasatu hatza artxibatzeko</string>
+  <string name="preference_swipe_title_delete">Pasatu hatza ezabatzeko</string>
+  <string name="preference_swipe_description">Elkarrizketa zerrendan</string>
+  <string name="swipe_down_to_refresh">Pasatu hatza behera berristeko</string>
+  <string name="checking_for_mail">Posta egiaztatzen</string>
+  <string name="empty_trash">Hustu paperontzia</string>
+  <string name="empty_spam">Hustu zabor posta</string>
+  <string name="empty_trash_dialog_title">Hustu paperontzia?</string>
+  <string name="empty_spam_dialog_title">Hustu zabor posta?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one">mezu <xliff:g id="count">%1$d</xliff:g> behin betiko ezabatuko da.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu behin betiko ezabatuko dira.</item>
+  </plurals>
+  <string name="drawer_open">Ireki nabigazio tiradera</string>
+  <string name="drawer_close">Itxi nabigazio tiradera</string>
+  <string name="conversation_photo_welcome_text">Sakatu igorlearen irudia elkarrizketa hautatzeko.</string>
+  <string name="long_press_to_select_tip">Sakatu eta mantendu elkarrizketa bat hautatzeko, orduan sakatu besteren bat hautatzeko.</string>
+  <string name="folder_icon_desc">Karpeta ikonoa</string>
+  <string name="add_account">Gehitu kontua</string>
+  <string name="attached_message">Erantsitako mezua</string>
+  <string name="date_message_received_yesterday">Atzo, <xliff:g id="datetime">%1$s</xliff:g></string>
+  <string name="dismiss_tip_hover_text">Baztertu aholkua</string>
+  <string name="auto_sync_off">Sinkronizazio automatikoa itzalita dago.</string>
+  <string name="tap_to_enable_sync">Sakatu pizteko.</string>
+  <string name="account_sync_off">Kontuaren sinkronizazioa itzalita dago.</string>
+  <string name="enable_sync_in_account_settings">Piztu hemen: <xliff:g id="account_settings">%1$s</xliff:g>.</string>
+  <string name="account_settings_param">Kontuaren ezarpenak</string>
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> bidali gabe <xliff:g id="outbox">%2$s</xliff:g>n</string>
+  <string name="turn_auto_sync_on_dialog_title">Piztu sinkronizazio automatikoa?</string>
+  <string name="turn_auto_sync_on_dialog_body">Aplikazio eta kontu guztiei egindako aldaketak, ez soilik Gmail, webgunea zure beste gailuak eta zure <xliff:g id="phone_or_tablet">%1$s</xliff:g>aren artean sinkronizatuko dira.</string>
+  <string name="phone">telefonoa</string>
+  <string name="tablet">tableta</string>
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Piztu</string>
+  <string name="show_n_more_folders">Bistaratu <xliff:g id="number">%1$s</xliff:g> karpeta gehiago</string>
+  <string name="hide_folders">Ezkutatu karpetak</string>
 </resources>
