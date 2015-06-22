@@ -354,9 +354,9 @@
   <string name="swipe_down_to_refresh">Potiahnutím nadol obnovte</string>
   <string name="checking_for_mail">Kontrola pošty</string>
   <string name="empty_trash">Vyprázdniť kôš</string>
-  <string name="empty_spam">Vyprázdniť priečinok s nevyžiadanou poštou</string>
+  <string name="empty_spam">Vyprázdniť spam</string>
   <string name="empty_trash_dialog_title">Vyprázdniť kôš</string>
-  <string name="empty_spam_dialog_title">Vyprázdniť priečinok s nevyžiadanou poštou?</string>
+  <string name="empty_spam_dialog_title">Vyprázdniť spam?</string>
   <plurals name="empty_folder_dialog_message">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> správa sa natrvalo odstráni.</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> správy sa natrvalo odstránia.</item>

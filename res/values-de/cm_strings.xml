@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombiniert</string>
   <string name="menu_select_all">Alles auswählen</string>
+  <string name="menu_actiongrid">Aktionsraster</string>
   <string name="remove_account">Konto löschen</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Konto löschen</string>
@@ -115,11 +116,14 @@
   <string name="action_quick">schnell</string>
   <string name="action_move">Verschieben</string>
   <string name="action_label">Beschriftung</string>
+  <string name="action_move_or_label">Verschieben/Kennzeichnen</string>
   <string name="action_archive">Archiv</string>
   <string name="action_delete">Löschen</string>
   <string name="action_spam">Spam</string>
   <string name="action_flag">Markierung</string>
   <string name="action_clear_flag">Markierung aufheben</string>
+  <string name="action_star">Stern</string>
+  <string name="action_clear_star">Stern entfernen</string>
   <string name="action_mark_unread">Als ungelesen markieren</string>
   <string name="action_mark_read">Als gelesen markiert</string>
   <string name="action_read_or_unread">Gelesen/Ungelesen</string>
@@ -159,6 +163,7 @@
   <string name="viral_ratings_prompt_remind_me_later">Später erinnern</string>
   <string name="viral_ratings_prompt_no_thanks">Nein, danke</string>
   <string name="viral_ratings_prompt_rate_now">Jetzt bewerten</string>
+  <string name="promo_code_title_text">Kämpfen Sie nicht alleine gegen Ihren Posteingang</string>
   <string name="promo_code_edittext_hint">Promo-Code eingeben</string>
   <string name="promo_code_button_text">Absenden</string>
   <string name="promo_code_error_no_code_entered">Bitte gebe einen Promocode ein, bevor du auf Absenden drückst</string>
@@ -183,4 +188,7 @@
   <string name="duplicate_folder_message">Der eigegebene Ordnername ist bereits vorhanden.</string>
   <string name="error">Fehler</string>
   <string name="error_creating_folder_message">Der Ordner konnte nicht erstellt werden.</string>
+  <string name="report_rendering_problem">Feedback</string>
+  <string name="empty_spam_folder">Hurra, keine Spam-Mails!</string>
+  <string name="empty_trash_folder">Papierkorb leer. Danke fürs Aufräumen!</string>
 </resources>

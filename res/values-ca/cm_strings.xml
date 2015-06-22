@@ -160,8 +160,8 @@
   <string name="custom_mailbox_delete_box_dialog_title">Avís</string>
   <string name="custom_mailbox_delete_box_dialog_message">Estàs segur que vols esborrar aquesta bústia personalitzada?</string>
   <string name="custom_mailbox_error_deleting_box">Hi ha hagut un error mentre s\'esborrava la teva bústia de correu personalitzada</string>
-  <string name="viral_prompt_rate_app_title">Valora aquesta app</string>
-  <string name="viral_prompt_rate_app_body">Si t\'agrada utilitzar aquesta app, et faria res prendre un moment per valorar-la? No et prendrà més d\'un minut. Gràcies pel teu suport!</string>
+  <string name="viral_prompt_rate_app_title">Valora aquesta aplicació</string>
+  <string name="viral_prompt_rate_app_body">Si t\'agrada utilitzar aquesta aplicació, et faria res prendre un moment per valorar-la? No et prendrà més d\'un minut. Gràcies pel teu suport!</string>
   <string name="viral_ratings_prompt_remind_me_later">Recorda-m\'ho més tard</string>
   <string name="viral_ratings_prompt_no_thanks">No, gràcies</string>
   <string name="viral_ratings_prompt_rate_now">Valora ara</string>

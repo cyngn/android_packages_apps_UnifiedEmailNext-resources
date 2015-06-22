@@ -100,7 +100,7 @@
   <string name="preview_attachment">پیش‌نمایش</string>
   <string name="save_attachment">ذخیره</string>
   <string name="cancel_attachment">لغو</string>
-  <string name="download_again">دانلود دوباره</string>
+  <string name="download_again">دریافت دوباره</string>
   <string name="more_info_attachment">اطلاعات</string>
   <string name="no_application_found">هیچ برنامه‌ای نمی‌تواند این پیوست را جهت مشاهده باز کند.</string>
   <string name="fetching_attachment">واکشی پیوست</string>
@@ -111,7 +111,7 @@
   <string name="menu_photo_save_all">ذخیره همه</string>
   <string name="menu_photo_share">اشتراک‌گذاری</string>
   <string name="menu_photo_share_all">اشتراک‌گذاری همه</string>
-  <string name="saving">در حال ذخیره&#8230;</string>
+  <string name="saving">ذخیره‌سازی&#8230;</string>
   <string name="choosertitle_sharevia">اشتراک‌گذاری از طریق</string>
   <string name="contextmenu_openlink">بازکردن در مرورگر</string>
   <string name="contextmenu_copy">کپی</string>
@@ -206,7 +206,7 @@
   <string name="always_show_images_toast">تصاویر از طرف این فرستنده به طور خودکار نشان داده خواهد شد.</string>
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
   <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> از طریق <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
-  <string name="message_saved">پیام به‌عنوان پیش‌نویس ذخیره شد.</string>
+  <string name="message_saved">پیام به عنوان پیش‌نویس ذخیره شد.</string>
   <string name="sending_message">در حال ارسال پیام...</string>
   <string name="invalid_recipient">آدرس <xliff:g id="WRONGEMAIL">%s</xliff:g> معتبر نیست.</string>
   <string name="show_elided">▶ نمایش نوشتار نقل قول شده</string>

@@ -206,6 +206,10 @@
   <string name="collapse_recipient_details">Vou ontvanger se details in</string>
   <string name="contact_info_string">Wys kontakinligting vir <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Wys kontakinligting</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ouer boodskappe</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ouer boodskappe</item>
+  </plurals>
   <string name="from_heading">Van: </string>
   <string name="replyto_heading">Antwoord aan: </string>
   <string name="to_heading">Aan: </string>
@@ -247,6 +251,10 @@
   <string name="non_synced_folder_description">Om gesprekke te sien, sinkroniseer hierdie vouer.</string>
   <string name="tap_to_configure_folder_sync">Sinkroniseer vouer</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ongelees</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ongelees</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ ongelees</string>
   <string name="view_more_conversations">Sien nog gesprekke</string>
   <string name="activity_mailbox_selection">Kies rekening</string>
