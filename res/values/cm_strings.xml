@@ -81,6 +81,7 @@
     <string name="accounts_heading">Accounts</string>
     <!-- Default email signature on vendor builds -->
     <string name="vendor_signature">Sent from my Cyanogen phone</string>
+    <string name="vendor_signature_fmt">Sent from <xliff:g id="brand" example="samsung">%s</xliff:g></string>
     <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
     <string name="notification_action_mark_read">READ</string>
     <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
@@ -242,9 +243,10 @@
     <string name="actions_dialog_negative_button_text">Close</string>
 
     <!-- Account Setup -->
+    <string name="account_setup_start_company_slogan_text">Welcome to a better inbox</string>
+    <string name="account_setup_vendor_heading">Welcome to email</string>
     <string name="account_setup_heading_email_instruction">Enter your email address to get started</string>
     <string name="account_setup_heading_password_instruction">Enter your password</string>
-    <string name="account_setup_start_cm_email_hint" translatable="false">username@email.com</string>
 
     <!-- Like Feature -->
     <string name="like_action_dialog_tittle">What is Like?</string>
@@ -267,6 +269,8 @@
 
     <!-- Menu item: report an email was not readable or poorly rendered -->
     <string name="report_rendering_problem">Report</string>
+    <!-- Toast message for above action -->
+    <string name="message_reported">Message reported</string>
 
     <!-- Conversation list shared between the Activity and Widget -->
     <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
@@ -277,4 +281,25 @@
     <string name="empty_search">Whoops! We didn\'t find anything for "<xliff:g id="search_query">%1$s</xliff:g>".</string>
     <string name="empty_spam_folder">Hooray, no spam here!</string>
     <string name="empty_trash_folder">No trash here. Thanks for recycling!</string>
+
+    <!-- Calendar invite hero card -->
+    <!-- Link for opening an invite's event in the calendar app. -->
+    <string name="view_on_calendar">View on calendar</string>
+    <!-- Response action buttons. -->
+    <string name="accept">Accept</string>
+    <string name="maybe">Maybe</string>
+    <string name="decline">Decline</string>
+    <string name="remove_from_cal">Remove from calendar</string>
+    <string name="remove_series_from_cal">Remove series from calendar</string>
+    <!-- Attendee text when user is the only attendee. -->
+    <string name="calendar_attendees_me_only">Me</string>
+    <!-- Attendee text when there are additional attendees. -->
+    <plurals name="calendar_attendees">
+        <item quantity="one">Me &amp; %d other</item>
+        <item quantity="other">Me &amp; %d others</item>
+    </plurals>
+    <!-- Accompanies the date/time for all day events. -->
+    <string name="all_day">All day</string>
+    <!-- Status for canceled events. -->
+    <string name="canceled">Canceled</string>
 </resources>
