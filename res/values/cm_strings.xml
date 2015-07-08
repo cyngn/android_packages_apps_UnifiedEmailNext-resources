@@ -302,4 +302,12 @@
     <string name="all_day">All day</string>
     <!-- Status for canceled events. -->
     <string name="canceled">Canceled</string>
+
+    <!-- Send availability strings -->
+    <string name="times_that_work_for_me">Times that work for me:</string>
+    <string name="availability_by">Availability by</string>
+    <string name="remove_availability">Remove availability</string>
+
+    <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> liked your message with Boxer on Cyanogen OS</string>
+
 </resources>
