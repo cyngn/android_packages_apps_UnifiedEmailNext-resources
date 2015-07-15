@@ -267,7 +267,6 @@
   <string name="change_sync_settings">Badilisha mipangilio ya usawazishaji</string>
   <string name="photo_load_failed">Haikuweza kupakia picha</string>
   <string name="cant_move_or_change_labels">Huwezi kusonaga kwa sababu chaguo lina akaunti nyingi.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Puuza, nina amini ujumbe huu</string>
   <string name="via_domain">kupitia <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>

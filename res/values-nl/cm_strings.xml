@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Mappen</string>
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Verzonden vanaf mijn Cyanogen-telefoon</string>
+  <string name="vendor_signature_fmt">Verzonden met <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">Lees</string>
   <string name="notification_action_reply">Antw</string>
   <string name="notification_action_delete">Wis</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Gebruikt u vaak mappen? Markeert u vaak berichten als ongewenst? Werkt u graag met Evernote?\n\nMet aangepaste veegacties kunt u gebaren koppelen aan een actie naar keuze.\n</string>
   <string name="actions_dialog_positive_button_text">Veegacties aanpassen</string>
   <string name="actions_dialog_negative_button_text">Sluiten</string>
+  <string name="account_setup_start_company_slogan_text">Welkom bij een verbeterde inbox</string>
+  <string name="account_setup_vendor_heading">Welkom bij e-mail</string>
   <string name="account_setup_heading_email_instruction">E-mailadres invoeren om te beginnen</string>
   <string name="account_setup_heading_password_instruction">Wachtwoord invoeren</string>
   <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>
@@ -192,6 +195,7 @@
   <string name="error">Fout</string>
   <string name="error_creating_folder_message">De map kon niet worden aangemaakt.</string>
   <string name="report_rendering_problem">Rapporteren</string>
+  <string name="message_reported">Bericht gerapporteerd</string>
   <string name="no_conversation_needs_sync">Deze map bevat geen e-mail.\nVeeg omlaag om te vernieuwen.</string>
   <string name="getting_messages">Uw berichten ophalen</string>
   <string name="empty_folder">Deze map bevat geen e-mail.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">Oeps! We hebben geen resultaten gevonden voor \'<xliff:g id="search_query">%1$s</xliff:g>\'.</string>
   <string name="empty_spam_folder">Hoera, geen spam te zien!</string>
   <string name="empty_trash_folder">De prullenbak is leeg.\nHartelijk dank voor het recyclen.</string>
+  <string name="view_on_calendar">Bekijken in agenda</string>
+  <string name="accept">Accepteren</string>
+  <string name="maybe">Misschien</string>
+  <string name="decline">Afwijzen</string>
+  <string name="remove_from_cal">Verwijderen uit agenda</string>
+  <string name="remove_series_from_cal">Reeks verwijderen uit agenda</string>
+  <string name="calendar_attendees_me_only">Ik</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ik &amp; %d andere</item>
+    <item quantity="other">Ik &amp; %d anderen</item>
+  </plurals>
+  <string name="all_day">Hele dag</string>
+  <string name="canceled">Geannuleerd</string>
+  <string name="times_that_work_for_me">Tijden die mij uitkomen:</string>
+  <string name="availability_by">Beschikbaarheid via</string>
+  <string name="remove_availability">Beschikbaarheid verwijderen</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> vindt uw bericht leuk met Boxer op Cyanogen OS</string>
 </resources>

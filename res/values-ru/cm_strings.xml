@@ -61,6 +61,7 @@
   <string name="all_folders_heading">Папки</string>
   <string name="accounts_heading">Аккаунты</string>
   <string name="vendor_signature">Отправлено с моего телефона Cyanogen</string>
+  <string name="vendor_signature_fmt">Отправлено с <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">ПРОЧИТАНО</string>
   <string name="notification_action_reply">ОТВЕТИТЬ</string>
   <string name="notification_action_delete">УДАЛИТЬ</string>
@@ -188,6 +189,8 @@
   <string name="actions_dialog_message">Вы регулярно используете папки? Часто помечаете письма как спам? Любите закладки в Evernote?\n\n\С настройками действий жестов, Вы сможете установить любой жест, для любого действия.\n</string>
   <string name="actions_dialog_positive_button_text">Настройка жестов</string>
   <string name="actions_dialog_negative_button_text">Закрыть</string>
+  <string name="account_setup_start_company_slogan_text">Добро пожаловать в лучший почтовый ящик</string>
+  <string name="account_setup_vendor_heading">Добро пожаловать в Email</string>
   <string name="account_setup_heading_email_instruction">Введите адрес электронной почты, чтобы начать работу</string>
   <string name="account_setup_heading_password_instruction">Введите ваш пароль</string>
   <string name="like_action_dialog_tittle">Кнопка «Мне нравится»</string>
@@ -200,6 +203,7 @@
   <string name="error">Ошибка</string>
   <string name="error_creating_folder_message">Не удалось создать папку.</string>
   <string name="report_rendering_problem">Пожаловаться</string>
+  <string name="message_reported">Сообщение отправлено</string>
   <string name="no_conversation_needs_sync">Здесь ничего нет.\nПроведите сверху вниз для обновления списка писем</string>
   <string name="getting_messages">Получение сообщений</string>
   <string name="empty_folder">Здесь ничего нет.</string>
@@ -207,4 +211,21 @@
   <string name="empty_search">По запросу «<xliff:g id="search_query">%1$s</xliff:g>» ничего не найдено.</string>
   <string name="empty_spam_folder">Спама нет, отлично!</string>
   <string name="empty_trash_folder">В корзине пусто. Спасибо, что выносите мусор!</string>
+  <string name="view_on_calendar">Посмотреть календарь</string>
+  <string name="accept">Принять</string>
+  <string name="maybe">Возможно</string>
+  <string name="decline">Отклонить</string>
+  <string name="remove_from_cal">Удалить из календаря</string>
+  <string name="remove_series_from_cal">Удалить серию событий из календаря</string>
+  <string name="calendar_attendees_me_only">Мое</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Я и ещё %d</item>
+    <item quantity="few">Я и ещё %d</item>
+    <item quantity="other">Я и ещё %d</item>
+  </plurals>
+  <string name="all_day">На весь день</string>
+  <string name="canceled">Отменено</string>
+  <string name="times_that_work_for_me">Подходящее время:</string>
+  <string name="remove_availability">Удалить информацию о доступности</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> понравилось ваше сообщение, отправленное с помощью Boxer для Cyanogen OS</string>
 </resources>

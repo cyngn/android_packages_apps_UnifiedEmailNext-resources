@@ -173,7 +173,7 @@
   <string name="hide_elided">▼ Ascundeţi textul citat</string>
   <string name="message_invite_title">Invitaţie la Calendar</string>
   <string name="message_invite_calendar_view">Afişaţi în Calendar</string>
-  <string name="message_invite_label_attending">Participaţi?</string>
+  <string name="message_invite_label_attending">Participați?</string>
   <string name="message_invite_accept">Da</string>
   <string name="message_invite_tentative">Poate</string>
   <string name="message_invite_decline">Nu</string>
@@ -216,7 +216,6 @@
   <string name="change_sync_settings">Modificaţi setări sincronizare</string>
   <string name="photo_load_failed">Imaginea nu s-a putut încărca</string>
   <string name="cant_move_or_change_labels">Nu se poate muta, deoarece selecţia conţine mai multe conturi.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Ignor, am încredere în mesaj</string>
   <string name="via_domain">prin <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>

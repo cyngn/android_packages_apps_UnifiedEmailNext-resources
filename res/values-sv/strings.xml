@@ -206,6 +206,10 @@
   <string name="collapse_recipient_details">Komprimera mottagardetaljer</string>
   <string name="contact_info_string">Visa kontaktuppgifter för <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Visa kontaktuppgifter</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> äldre meddelanden</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> äldre meddelanden</item>
+  </plurals>
   <string name="from_heading">Från: </string>
   <string name="replyto_heading">Svara till: </string>
   <string name="to_heading">Till: </string>
@@ -247,6 +251,10 @@
   <string name="non_synced_folder_description">Synka för att visa konversationer.</string>
   <string name="tap_to_configure_folder_sync">Synkronisera mappen</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> olästa</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> olästa</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Mer än <xliff:g id="COUNT">%1$d</xliff:g> olästa</string>
   <string name="view_more_conversations">Visa fler konversationer</string>
   <string name="activity_mailbox_selection">Välj konto</string>
@@ -267,7 +275,6 @@
   <string name="change_sync_settings">Ändra synkroniseringsinställn.</string>
   <string name="photo_load_failed">Bilden gick inte att läsa in</string>
   <string name="cant_move_or_change_labels">Det går inte att flytta meddelandena. De markerade objekten kommer från flera olika konton.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Ignorera varningen</string>
   <string name="via_domain">via <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>

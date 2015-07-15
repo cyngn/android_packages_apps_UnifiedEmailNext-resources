@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Cartelle</string>
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Inviato dal mio telefono Cyanogenmod</string>
+  <string name="vendor_signature_fmt">Inviato da <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">LEGGI</string>
   <string name="notification_action_reply">RISPONDI</string>
   <string name="notification_action_delete">ELIMINA</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Usi regolarmente le cartelle? Contrassegni spesso i messaggi come indesiderati? Ti piace aggiungere su Evernote?\n\nCon le azioni di scorrimento personalizzate puoi impostare uno qualsiasi di questi gesti per rispecchiare il tuo modo di lavorare.\n</string>
   <string name="actions_dialog_positive_button_text">Personalizza scorrimenti</string>
   <string name="actions_dialog_negative_button_text">Chiudi</string>
+  <string name="account_setup_start_company_slogan_text">Benvenuti in una posta elettronica migliore</string>
+  <string name="account_setup_vendor_heading">Benvenuto in EMail</string>
   <string name="account_setup_heading_email_instruction">Inserisci il tuo indirizzo email per iniziare</string>
   <string name="account_setup_heading_password_instruction">Inserisci la tua password</string>
   <string name="like_action_dialog_tittle">Come è?</string>
@@ -192,6 +195,7 @@
   <string name="error">Errore</string>
   <string name="error_creating_folder_message">La cartella non può essere creata.</string>
   <string name="report_rendering_problem">Segnala</string>
+  <string name="message_reported">Messaggio segnalato</string>
   <string name="no_conversation_needs_sync">Non c\'è nessuna mail qui.\nTrascina dall\'alto verso il basso per aggiornare</string>
   <string name="getting_messages">Ottenendo i tuoi messaggi</string>
   <string name="empty_folder">Non c\'è nessuna mail qui.</string>
@@ -199,4 +203,20 @@
   <string name="empty_search">Ops! Non abbiamo trovato nulla per \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Evviva, nessuno spam qui!</string>
   <string name="empty_trash_folder">Niente nel cestino. Grazie per aver cancellato tutto!</string>
+  <string name="view_on_calendar">Mostra su calendario</string>
+  <string name="accept">Accetta</string>
+  <string name="maybe">Forse</string>
+  <string name="decline">Declina</string>
+  <string name="remove_from_cal">Rimuovi dal calendario</string>
+  <string name="remove_series_from_cal">Rimuovere la serie dal calendario</string>
+  <string name="calendar_attendees_me_only">Me</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Me &amp; %d altro</item>
+    <item quantity="other">Me &amp; %d altri</item>
+  </plurals>
+  <string name="all_day">Tutto il giorno</string>
+  <string name="canceled">Annullata</string>
+  <string name="times_that_work_for_me">Volte che funziona per me:</string>
+  <string name="remove_availability">Rimuovi disponibilità</string>
+  <string name="action_liked_message_cm">A <xliff:g id="display_name" example="John Doe">%s</xliff:g> è piaciuto il tuo messaggio con Boxer su Cyanogen OS</string>
 </resources>

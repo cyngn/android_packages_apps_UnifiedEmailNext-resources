@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Carpetes</string>
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Enviat des del meu telèfon Cyanogen</string>
+  <string name="vendor_signature_fmt">Enviat des de <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">LLEGIR</string>
   <string name="notification_action_reply">RESPONDRE</string>
   <string name="notification_action_delete">ESBORRAR</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Vols utilitzar carpetes amb regularitat? Sovint marques correus com a correu brossa? T\'agrada penjar coses a Evernote? \n\nAmb les accions de lliscament personalitzades pots establir qualsevol d\'aquests gestos per ajustar-se amb el teu ritme de treball.\n</string>
   <string name="actions_dialog_positive_button_text">Personalitza gestos de lliscament</string>
   <string name="actions_dialog_negative_button_text">Tanca</string>
+  <string name="account_setup_start_company_slogan_text">Benvingut a una safata d\'entrada millor</string>
+  <string name="account_setup_vendor_heading">Benvingut al correu electrònic</string>
   <string name="account_setup_heading_email_instruction">Introdueix la teva adreça de correu electrònic per a començar</string>
   <string name="account_setup_heading_password_instruction">Introdueix la teva contrasenya</string>
   <string name="like_action_dialog_tittle">Com és?</string>
@@ -192,6 +195,7 @@
   <string name="error">Error</string>
   <string name="error_creating_folder_message">No s\'ha pogut crear la carpeta.</string>
   <string name="report_rendering_problem">Informa</string>
+  <string name="message_reported">Missatge denunciat</string>
   <string name="no_conversation_needs_sync">Aquí no hi ha cap correu. \nArrossega cap avall des de dalt per actualitzar</string>
   <string name="getting_messages">Recollint els teus missatges</string>
   <string name="empty_folder">Aquí no hi ha cap correu.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">Whoops! No s\'ha trobat res per \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">Bravo, aquí no hi ha spam!</string>
   <string name="empty_trash_folder">Aquí no hi ha deixalles. Gràcies per reciclar!</string>
+  <string name="view_on_calendar">Veure al calendari</string>
+  <string name="accept">Accepta</string>
+  <string name="maybe">Potser</string>
+  <string name="decline">Declina</string>
+  <string name="remove_from_cal">Treu del calendari</string>
+  <string name="remove_series_from_cal">Treu les sèries del calendari</string>
+  <string name="calendar_attendees_me_only">Jo</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Jo &amp; %d altre</item>
+    <item quantity="other">Jo &amp; %d altres</item>
+  </plurals>
+  <string name="all_day">Tot el dia</string>
+  <string name="canceled">Cancel·lat</string>
+  <string name="times_that_work_for_me">Hores que em van bé a mi:</string>
+  <string name="availability_by">Disponibilitat per</string>
+  <string name="remove_availability">Treu la disponibilitat</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> li ha agradat el teu missatge amb Boxer a Cianogen OS</string>
 </resources>

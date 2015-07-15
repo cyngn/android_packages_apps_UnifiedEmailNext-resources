@@ -267,7 +267,6 @@
   <string name="change_sync_settings">Szinkr. beállítások módosítása</string>
   <string name="photo_load_failed">A kép betöltése sikertelen.</string>
   <string name="cant_move_or_change_labels">Nem lehet áthelyezni, mert a kijelölés több fiókból származik.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Megbízom ebben az üzenetben.</string>
   <string name="via_domain">-- <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>

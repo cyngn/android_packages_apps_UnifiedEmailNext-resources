@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Ordner</string>
   <string name="accounts_heading">Konten</string>
   <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
+  <string name="vendor_signature_fmt">Von <xliff:g id="brand" example="samsung">%s</xliff:g> gesendet</string>
   <string name="notification_action_mark_read">LESEN</string>
   <string name="notification_action_reply">ANTWORT</string>
   <string name="notification_action_delete">LÖSCHEN</string>
@@ -124,6 +125,7 @@
   <string name="action_clear_flag">Markierung aufheben</string>
   <string name="action_star">Stern</string>
   <string name="action_clear_star">Stern entfernen</string>
+  <string name="action_star_or_flag">Favorisieren/Markieren</string>
   <string name="action_mark_unread">Als ungelesen markieren</string>
   <string name="action_mark_read">Als gelesen markiert</string>
   <string name="action_read_or_unread">Gelesen/Ungelesen</string>
@@ -148,6 +150,7 @@
   <string name="evernote_action_more_than_one_conversation">Die Evernote-Funktion unterstützt nur eine Konversation gleichzeitig. Versuchen Sie nur eine Konversation auszuwählen.</string>
   <string name="not_installed">Nicht installiert</string>
   <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
+  <string name="custom_mailbox_button">Benutzerdefiniertes Feld hinzufügen</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_folder_name_hint">Benutzerdefinierter Feldname</string>
   <string name="custom_mailbox_background_sync_label">Hintergrund-Synchronisation</string>
@@ -175,8 +178,11 @@
   <string name="rage_shake_title">Schütteln erkannt</string>
   <string name="rage_shake_message">Möchten Sie, wenn die App abstürzt, Debuginformationen übermitteln?</string>
   <string name="actions_dialog_title">Anpassen</string>
+  <string name="actions_dialog_message">Sie verwenden oft Ordner, markieren Spam oder lieben das Festhalten von Notizen duch Evernote?\n\nMit von Ihnen angepassten Wisch-Aktionen können Sie die Gesten Ihrem Arbeitsablauf anpassen.\n</string>
   <string name="actions_dialog_positive_button_text">Wischaktionen anpassen</string>
   <string name="actions_dialog_negative_button_text">Schließen</string>
+  <string name="account_setup_start_company_slogan_text">Willkommen zu einem besserem Posteingang</string>
+  <string name="account_setup_vendor_heading">Willkommen bei E-Mail</string>
   <string name="account_setup_heading_email_instruction">Geben Sie Ihre E-Mail-Adresse ein, um loszulegen</string>
   <string name="account_setup_heading_password_instruction">Geben Sie Ihr Kennwort ein</string>
   <string name="like_action_dialog_tittle">Was ist \"gefällt mir\"?</string>
@@ -189,6 +195,26 @@
   <string name="error">Fehler</string>
   <string name="error_creating_folder_message">Der Ordner konnte nicht erstellt werden.</string>
   <string name="report_rendering_problem">Feedback</string>
+  <string name="message_reported">Nachricht gemeldet</string>
+  <string name="no_conversation_needs_sync">Keine E-Mails vorhanden.\nHerunterziehen zum Aktualisieren</string>
+  <string name="getting_messages">Nachrichten empfangen</string>
+  <string name="empty_folder">Keine E-Mails vorhanden.</string>
+  <string name="empty_inbox">Alles erledigt! Genießen Sie Ihren Tag.</string>
+  <string name="empty_search">Hoppla! Wir haben nichts für \"<xliff:g id="search_query">%1$s</xliff:g>\" gefunden.</string>
   <string name="empty_spam_folder">Hurra, keine Spam-Mails!</string>
   <string name="empty_trash_folder">Papierkorb leer. Danke fürs Aufräumen!</string>
+  <string name="view_on_calendar">Im Kalender Anzeigen</string>
+  <string name="accept">Akzeptieren</string>
+  <string name="maybe">Vielleicht</string>
+  <string name="decline">Ablehnen</string>
+  <string name="remove_from_cal">Aus dem Kalender entfernen</string>
+  <string name="remove_series_from_cal">Serientermine aus dem Kalender entfernen</string>
+  <string name="calendar_attendees_me_only">Ich</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ich &amp; %d andere</item>
+    <item quantity="other">Ich &amp; %d andere</item>
+  </plurals>
+  <string name="all_day">Ganztägig</string>
+  <string name="canceled">Abgebrochen</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hat Ihre Nachricht mit Boxer auf Cyanogen OS geliked</string>
 </resources>

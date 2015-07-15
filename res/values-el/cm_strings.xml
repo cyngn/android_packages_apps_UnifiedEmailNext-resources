@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Φάκελοι</string>
   <string name="accounts_heading">Λογαριασμοί</string>
   <string name="vendor_signature">Στάλθηκε από το Cyanogen τηλέφωνό μου</string>
+  <string name="vendor_signature_fmt">Στάλθηκε από <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">ΑΝΑΓΝ</string>
   <string name="notification_action_reply">ΑΠΑΝΤ</string>
   <string name="notification_action_delete">ΔΙΑΓΡ</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Χρησιμοποιήσετε τους φακέλους τακτικά; Επισημαίνετε συχνά ως Spam; Σας αρέσει το Evernote;\n\nΜε τις προσαρμοσμένες ενέργειες συρσίματος μπορείτε να ορίσετε οποιαδήποτε από αυτές τις χειρονομίες ώστε να ταιριάζει στη ροή εργασίας σας.\n</string>
   <string name="actions_dialog_positive_button_text">Προσαρμογή συρσίματος</string>
   <string name="actions_dialog_negative_button_text">Κλείσιμο</string>
+  <string name="account_setup_start_company_slogan_text">Καλώς ήλθατε σε έναν καλύτερο φάκελο εισερχομένων</string>
+  <string name="account_setup_vendor_heading">Καλώς ήλθατε στο ηλεκτρονικό ταχυδρομείο</string>
   <string name="account_setup_heading_email_instruction">Εισάγετε το email σας για να ξεκινήσετε</string>
   <string name="account_setup_heading_password_instruction">Εισάγετε τον κωδικό πρόσβασής σας</string>
   <string name="like_action_dialog_tittle">Τι είναι το Μου αρέσει;</string>
@@ -192,6 +195,7 @@
   <string name="error">Σφάλμα</string>
   <string name="error_creating_folder_message">Δεν ήταν δυνατή η δημιουργία του φακέλου.</string>
   <string name="report_rendering_problem">Αναφορά</string>
+  <string name="message_reported">Το μήνυμα αναφέρθηκε</string>
   <string name="no_conversation_needs_sync">Δεν υπάρχει κανένα μήνυμα εδώ.\nΤραβήξτε προς τα κάτω από την κορυφή για ανανέωση</string>
   <string name="getting_messages">Λήψη των μηνυμάτων σας</string>
   <string name="empty_folder">Δεν υπάρχει κανένα μήνυμα εδώ.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">Ουπς! Δεν βρέθηκε αποτέλεσμα για \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">Ζήτω, δεν υπάρχει spam εδώ!</string>
   <string name="empty_trash_folder">Δεν υπάρχουν σκουπίδια εδώ. Ευχαριστούμε για την ανακύκλωση!</string>
+  <string name="view_on_calendar">Προβολή στο ημερολόγιο</string>
+  <string name="accept">Αποδοχή</string>
+  <string name="maybe">Ίσως</string>
+  <string name="decline">Άρνηση</string>
+  <string name="remove_from_cal">Αφαίρεση από το ημερολόγιο</string>
+  <string name="remove_series_from_cal">Αφαίρεση σειράς από το ημερολόγιο</string>
+  <string name="calendar_attendees_me_only">Εγώ</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Εγώ &amp; %d άλλος</item>
+    <item quantity="other">Εγώ &amp; %d άλλοι</item>
+  </plurals>
+  <string name="all_day">Ολοήμερο</string>
+  <string name="canceled">Ακυρώθηκε</string>
+  <string name="times_that_work_for_me">Ώρες που με βολεύουν:</string>
+  <string name="availability_by">Διαθεσιμότητα από</string>
+  <string name="remove_availability">Αφαίρεση διαθεσιμότητας</string>
+  <string name="action_liked_message_cm">Το μήνυμά σας άρεσε σε \"<xliff:g id="display_name" example="John Doe">%s</xliff:g>\" με Boxer σε Cyanogen OS</string>
 </resources>

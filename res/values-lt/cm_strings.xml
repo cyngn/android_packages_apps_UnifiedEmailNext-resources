@@ -173,6 +173,7 @@
   <string name="viral_ratings_prompt_remind_me_later">Priminti man vėliau</string>
   <string name="viral_ratings_prompt_no_thanks">Ne, ačiū</string>
   <string name="viral_ratings_prompt_rate_now">Įvertinti dabar</string>
+  <string name="promo_code_title_text">Nekovok su pašto dėžute vienas</string>
   <string name="promo_code_edittext_hint">Įveskite reklaminį kodą</string>
   <string name="promo_code_button_text">Pateikti</string>
   <string name="promo_code_error_no_code_entered">Prašome įvesti reklaminį kodą prieš paspaudžiant pateikti</string>

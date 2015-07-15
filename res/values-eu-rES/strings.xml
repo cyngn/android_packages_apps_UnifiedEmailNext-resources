@@ -21,7 +21,7 @@
   <string name="cc">Cc</string>
   <string name="bcc">Bcc</string>
   <string name="subject_hint">Gaia</string>
-  <string name="body_hint">Idatzi posta</string>
+  <string name="body_hint">Idatzi eposta</string>
   <string name="add_file_attachment">Erantsi fitxategia</string>
   <string name="add_photo_attachment">Erantsi irudia</string>
   <string name="save_draft">Gorde zirriborroa</string>
@@ -119,7 +119,7 @@
   <string name="contextmenu_dial_dot">Markatu\u2026</string>
   <string name="contextmenu_sms_dot">SMS\u2026</string>
   <string name="contextmenu_add_contact">Gehitu kontaktua</string>
-  <string name="contextmenu_send_mail">Bidali mezua</string>
+  <string name="contextmenu_send_mail">Bidali eposta</string>
   <string name="contextmenu_map">Mapa</string>
   <string name="contextmenu_sharelink">Partekatu esteka</string>
   <string name="contextmenu_help">Laguntza</string>
@@ -259,7 +259,7 @@
   <string name="view_more_conversations">Ikusi elkarrizketa gehiago</string>
   <string name="activity_mailbox_selection">Hautatu kontua</string>
   <string name="activity_folder_selection">Hautatu karpeta</string>
-  <string name="folder_shortcut_widget_label">Posta karpeta</string>
+  <string name="folder_shortcut_widget_label">Eposta karpeta</string>
   <string name="change_folders_selection_dialog_title">Aldatu karpetak</string>
   <string name="move_to_selection_dialog_title">Mugitu hona</string>
   <string name="search_hint">Bilatu posta</string>
@@ -268,14 +268,13 @@
   <string name="load_more">Kargatu gehiago</string>
   <string name="shortcut_name_title">Izendatu karpeta lasterbidea</string>
   <string name="wait_for_sync_title">Sinkronizazioaren zai</string>
-  <string name="wait_for_sync_body">Zure mezua laster agertuko da.</string>
+  <string name="wait_for_sync_body">Zure eposta laster agertuko da.</string>
   <string name="not_synced_title">Sinkronizatu gabeko kontua</string>
   <string name="wait_for_manual_sync_body">Kontu honetan ez da ezarri sinkronizazio automatikoa.\nSakatu <b>Sinkronizatu orain</b> posta behin sinkronizatzeko, edo <b>Aldatu sinkronizazio ezarpenak</b> kontu hau automatikoki sinkronizatu dadin ezartzeko.</string>
   <string name="manual_sync">Sinkronizatu orain</string>
   <string name="change_sync_settings">Aldatu sinkronizazio ezarpenak</string>
   <string name="photo_load_failed">Ezin izan da irudia kargatu</string>
   <string name="cant_move_or_change_labels">Ezin da mugitu hautapenak hainbat kontu dituelako.</string>
-  <string name="multiple_new_message_notification_item"><b><xliff:g id="sender">%1$s</xliff:g></b>\u0020\u0020\u0020<xliff:g id="subject">%2$s</xliff:g></string>
   <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Lasai, mezu hau konfiantzazkoa da</string>
   <string name="via_domain"><xliff:g id="viaDomain">%1$s</xliff:g> bidez</string>
@@ -336,7 +335,7 @@
   <string name="preference_swipe_title_archive">Pasatu hatza artxibatzeko</string>
   <string name="preference_swipe_title_delete">Pasatu hatza ezabatzeko</string>
   <string name="preference_swipe_description">Elkarrizketa zerrendan</string>
-  <string name="swipe_down_to_refresh">Pasatu hatza behera berristeko</string>
+  <string name="swipe_down_to_refresh">Pasatu hatza behera berritzeko</string>
   <string name="checking_for_mail">Posta egiaztatzen</string>
   <string name="empty_trash">Hustu paperontzia</string>
   <string name="empty_spam">Hustu zabor posta</string>

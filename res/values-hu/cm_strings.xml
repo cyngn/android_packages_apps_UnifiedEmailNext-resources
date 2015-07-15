@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Mappák</string>
   <string name="accounts_heading">Fiókok</string>
   <string name="vendor_signature">Cyanogen készülékemről küldve</string>
+  <string name="vendor_signature_fmt">Következővel küldve: <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">OLVAS</string>
   <string name="notification_action_reply">VÁLASZ</string>
   <string name="notification_action_delete">TÖRÖL</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Rendszeresen használ mappákat? Gyakran jelöl meg levélszemetet? Szeret Evernotehoz csatolni?\n\nA testreszabott csúsztatási műveletekkel bármelyik előbbi gesztust beállíthatja, hogy illeszkedjen a munkamenetéhez.\n</string>
   <string name="actions_dialog_positive_button_text">Csúsztatások testreszabása</string>
   <string name="actions_dialog_negative_button_text">Bezárás</string>
+  <string name="account_setup_start_company_slogan_text">Üdvözlünk egy jobb postafiókban</string>
+  <string name="account_setup_vendor_heading">Üdvözöljük az e-mailben</string>
   <string name="account_setup_heading_email_instruction">Adja meg az e-mail címét a kezdéshez</string>
   <string name="account_setup_heading_password_instruction">Adja meg jelszavát</string>
   <string name="like_action_dialog_tittle">Mi a Like?</string>
@@ -192,6 +195,7 @@
   <string name="error">Hiba</string>
   <string name="error_creating_folder_message">A mappa nem hozható létre.</string>
   <string name="report_rendering_problem">Visszajelzés</string>
+  <string name="message_reported">Üzenetet jelezve</string>
   <string name="no_conversation_needs_sync">Nincsenek levelek.\nFrissítéshez húzza lefelé az ujját</string>
   <string name="getting_messages">Üzenetek lekérése</string>
   <string name="empty_folder">Nincsenek levelek.</string>
@@ -199,4 +203,17 @@
   <string name="empty_search">Hoppá! Nem találtunk semmit erre: \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurrá, itt nincs spam!</string>
   <string name="empty_trash_folder">Nincs szemét. Köszönjük, hogy újrahasznosít!</string>
+  <string name="view_on_calendar">Megtekintés a naptárban</string>
+  <string name="accept">Elfogadás</string>
+  <string name="maybe">Talán</string>
+  <string name="decline">Elutasít</string>
+  <string name="remove_from_cal">Eltávolítás a naptárból</string>
+  <string name="remove_series_from_cal">Sorozat eltávolítása a naptárból</string>
+  <string name="calendar_attendees_me_only">Én</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Én &amp; %d másik</item>
+    <item quantity="other">Én &amp; %d másik</item>
+  </plurals>
+  <string name="all_day">Egész nap</string>
+  <string name="canceled">Törölve</string>
 </resources>

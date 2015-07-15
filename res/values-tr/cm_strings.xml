@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Klasörler</string>
   <string name="accounts_heading">Hesaplar</string>
   <string name="vendor_signature">Cyanogen telefonumdan gönderildi</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ile gönderildi</string>
   <string name="notification_action_mark_read">OKU</string>
   <string name="notification_action_reply">YANITLA</string>
   <string name="notification_action_delete">SİL</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Klasörleri sık sık kullanıyor musunuz? E-postaları spam olarak işaretliyor musunuz? Evernote\'a kaydetmeyi seviyor musunuz?\n\nÖzelleştirilebilen kaydırma eylemleri ile bu hareketleri kendi kullanımınıza göre ayarlayabilirsiniz.\n</string>
   <string name="actions_dialog_positive_button_text">Kaydırmaları özelleştir</string>
   <string name="actions_dialog_negative_button_text">Kapat</string>
+  <string name="account_setup_start_company_slogan_text">Daha iyi bir gelen kutusuna hoş geldiniz</string>
+  <string name="account_setup_vendor_heading">E-postaya hoş geldiniz</string>
   <string name="account_setup_heading_email_instruction">Başlamak için e-posta adresinizi giriniz</string>
   <string name="account_setup_heading_password_instruction">Şifrenizi giriniz</string>
   <string name="like_action_dialog_tittle">Beğenme nedir?</string>
@@ -192,6 +195,7 @@
   <string name="error">Hata</string>
   <string name="error_creating_folder_message">Klasör oluşturulamadı.</string>
   <string name="report_rendering_problem">Bildir</string>
+  <string name="message_reported">Mesaj bildirildi</string>
   <string name="no_conversation_needs_sync">Burada hiç posta yok.\nYenilemek için yukarıdan aşağıya çekin</string>
   <string name="getting_messages">Mesajlarınız alınıyor</string>
   <string name="empty_folder">Burada hiç posta yok.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">Hoppala! Biz \"<xliff:g id="search_query">%1$s</xliff:g>\" için bir şey bulamadık.</string>
   <string name="empty_spam_folder">Yaşasın, burada hiç spam yok!</string>
   <string name="empty_trash_folder">Burada hiç çöp yok. Geri dönüşüm için teşekkürler!</string>
+  <string name="view_on_calendar">Takvimde görüntüle</string>
+  <string name="accept">Kabul et</string>
+  <string name="maybe">Belki</string>
+  <string name="decline">Reddet</string>
+  <string name="remove_from_cal">Takvimden kaldır</string>
+  <string name="remove_series_from_cal">Diziyi takvimden kaldır</string>
+  <string name="calendar_attendees_me_only">Ben</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ben &amp; %d diğeri</item>
+    <item quantity="other">Ben &amp; %d diğerleri</item>
+  </plurals>
+  <string name="all_day">Tüm gün</string>
+  <string name="canceled">İptal edildi</string>
+  <string name="times_that_work_for_me">Bana uygun zamanlar:</string>
+  <string name="availability_by">Kullanılabilirlik ></string>
+  <string name="remove_availability">Kullanılabilirliği kaldır</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> Cyanogen İS\'de Boxer\'la mesajını beğendi</string>
 </resources>

@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Karpetak</string>
   <string name="accounts_heading">Kontuak</string>
   <string name="vendor_signature">Nire Cyanogen telefonotik bidalita</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>tik bidalita</string>
   <string name="notification_action_mark_read">IRAKURRI</string>
   <string name="notification_action_reply">ERANTZUN</string>
   <string name="notification_action_delete">EZABATU</string>
@@ -180,7 +181,9 @@
   <string name="actions_dialog_message">Karpetak maiz erabiltzen dituzu? Maiz zabor posta gisa markatu? Evernotera gauzak erantsi?\n\nPertsonalizatutako hatza pasatze ekintzekin edozein keinu zure lan erara moldatu dezakezu.\n</string>
   <string name="actions_dialog_positive_button_text">Pertsonalizatu hatza pasatzeak</string>
   <string name="actions_dialog_negative_button_text">Itxi</string>
-  <string name="account_setup_heading_email_instruction">Sartu zure posta helbidea hasteko</string>
+  <string name="account_setup_start_company_slogan_text">Ongi etorri sarrera ontzi hobe batetara</string>
+  <string name="account_setup_vendor_heading">Ongi etorri epostara</string>
+  <string name="account_setup_heading_email_instruction">Sartu zure eposta helbidea hasteko</string>
   <string name="account_setup_heading_password_instruction">Sartu zure pasahitza</string>
   <string name="like_action_dialog_tittle">Zer da gogokoa?</string>
   <string name="like_action_dialog_message">Gure ezaugarririk kuttunena aurkitu duzu. Mezu bat \'Gustukoa\' duzunean, mezu bat bidaliko zaie igorleari eta besteei gustukoa duzula jakinarazteko. Mezu bati erantzuteko modurik azkarrena da.</string>
@@ -192,6 +195,7 @@
   <string name="error">Errorea</string>
   <string name="error_creating_folder_message">Karpeta ezin izan da sortu.</string>
   <string name="report_rendering_problem">Jakitera eman</string>
+  <string name="message_reported">Mezuaren berri eman da</string>
   <string name="no_conversation_needs_sync">Ez dago mezurik hemen.\npasatu hatza beherantz berrizteko</string>
   <string name="getting_messages">Zure mezuak jasotzen</string>
   <string name="empty_folder">Ez dago mezurik hemen.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">Ene! Ez dugu ezer aurkitu \"<xliff:g id="search_query">%1$s</xliff:g>\" bilatzean.</string>
   <string name="empty_spam_folder">Zoragarri. Ez dago spam mezurik hemen!</string>
   <string name="empty_trash_folder">Ez dago zaborrik hemen. Eskerrik asko birziklatzeagatik!</string>
+  <string name="view_on_calendar">Ikusi egutegian</string>
+  <string name="accept">Onartu</string>
+  <string name="maybe">Agian</string>
+  <string name="decline">Ezetsi</string>
+  <string name="remove_from_cal">Kendu egutegitik</string>
+  <string name="remove_series_from_cal">Kendu serieak egutegitik</string>
+  <string name="calendar_attendees_me_only">Ni</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ni eta beste %d</item>
+    <item quantity="other"> Ni eta beste %d</item>
+  </plurals>
+  <string name="all_day">Egun osoan</string>
+  <string name="canceled">Bertan behera utzita</string>
+  <string name="times_that_work_for_me">Ondo datozkidan orduak:</string>
+  <string name="availability_by">Eskuragarritasuna hemen</string>
+  <string name="remove_availability">Ezabatu eskuragarritasuna</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>(e)k zure mezua gustuko markatu du Boxer erabiliz Cyanogen OSn</string>
 </resources>

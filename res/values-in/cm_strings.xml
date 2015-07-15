@@ -55,6 +55,7 @@
   <string name="all_folders_heading">Folder</string>
   <string name="accounts_heading">Akun</string>
   <string name="vendor_signature">Dikirim dari ponsel Cyanogen</string>
+  <string name="vendor_signature_fmt">Dikirim dari <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">DIBACA</string>
   <string name="notification_action_reply">BALAS</string>
   <string name="notification_action_delete">HAPUS</string>
@@ -172,6 +173,8 @@
   <string name="actions_dialog_message">Apakah anda menggunakan folder secara teratur? Sering menandai sebagai Spam? Suka untuk menklip ke Evernote? \n\nDengan aksi geser yang disesuaikan anda dapat mengatur salah satu gerakan ini agar sesuai dengan alur kerja anda.\n</string>
   <string name="actions_dialog_positive_button_text">Menyesuaikan geseran</string>
   <string name="actions_dialog_negative_button_text">Tutup</string>
+  <string name="account_setup_start_company_slogan_text">Selamat datang di kotak masuk yang lebih baik</string>
+  <string name="account_setup_vendor_heading">Selamat datang di email</string>
   <string name="account_setup_heading_email_instruction">Masukkan alamat email anda untuk memulai</string>
   <string name="account_setup_heading_password_instruction">Masukkan sandi</string>
   <string name="like_action_dialog_tittle">Apa itu Suka?</string>
@@ -184,6 +187,7 @@
   <string name="error">Kesalahan</string>
   <string name="error_creating_folder_message">Folder tidak dapat dibuat.</string>
   <string name="report_rendering_problem">Lapor</string>
+  <string name="message_reported">Pesan dilaporkan</string>
   <string name="no_conversation_needs_sync">Tiada surel di sini.\nTarik turun dari atas untuk menyegarkan</string>
   <string name="getting_messages">Mengambil pesan Anda</string>
   <string name="empty_folder">Tiada surel di sini.</string>
@@ -191,4 +195,16 @@
   <string name="empty_search">Ups! Kami tidak menemukan apa-apa untuk \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hore, tiada spam di sini!</string>
   <string name="empty_trash_folder">Tiada sampah di sini. Terima kasih telah mendaur ulang!</string>
+  <string name="view_on_calendar">Lihat di kalender</string>
+  <string name="accept">Setuju</string>
+  <string name="maybe">Mungkin</string>
+  <string name="decline">Tidak setuju</string>
+  <string name="remove_from_cal">Hapus dari kalender</string>
+  <string name="remove_series_from_cal">Hapus seri dari kalender</string>
+  <string name="calendar_attendees_me_only">Saya</string>
+  <plurals name="calendar_attendees">
+    <item quantity="other">Saya &amp;%d yang lain</item>
+  </plurals>
+  <string name="all_day">Seharian</string>
+  <string name="canceled">Dibatalkan</string>
 </resources>

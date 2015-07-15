@@ -228,7 +228,6 @@
   <string name="photo_load_failed">نه‌توانرا وێنه‌ بکرێته‌وه‌</string>
   <string name="cant_move_or_change_labels">ناتوانێت بگوازێتەوە لەبەر ئەوەی کە چەندا هەکمار
         لەخۆ دەگرێت.</string>
-  <string name="multiple_new_message_notification_item"><b><xliff:g id="sender">%١$s</xliff:g></b>\u٠٠٢٠\u٠٠٢٠\u٠٠٢٠<xliff:g id="subject">%٢$s</xliff:g></string>
   <string name="single_new_message_notification_big_text"><xliff:g id="subject">%١$s</xliff:g>\n<xliff:g id="snippet">%٢$s</xliff:g></string>
   <string name="ignore_spam_warning">پشتگوێخستن، بڕوا به‌م نامه‌یه‌ ده‌که‌م</string>
   <string name="via_domain">له‌لایه‌ن <xliff:g id="viaDomain">%1$s</xliff:g></string>

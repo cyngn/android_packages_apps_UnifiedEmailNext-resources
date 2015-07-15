@@ -61,6 +61,7 @@
   <string name="all_folders_heading">Foldery</string>
   <string name="accounts_heading">Konta</string>
   <string name="vendor_signature">Wysłane z mojego telefonu Cyanogen</string>
+  <string name="vendor_signature_fmt">Wysłano z <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">PRZECZYTAJ</string>
   <string name="notification_action_reply">ODPOWIEDZ</string>
   <string name="notification_action_delete">USUŃ</string>
@@ -188,6 +189,8 @@
   <string name="actions_dialog_message">Często używasz folderów? Często oznaczasz wiadomości jako Spam? Lubisz Evernote?\n\nDzięki modyfikacji akcji przesunięcia możesz ustawić każdy z tych gestów tak, aby odpowiadał jak najbardziej twojej pracy.\n</string>
   <string name="actions_dialog_positive_button_text">Dostosuj akcje przesunięcia</string>
   <string name="actions_dialog_negative_button_text">Zamknij</string>
+  <string name="account_setup_start_company_slogan_text">Witaj w lepszej skrzynce odbiorczej</string>
+  <string name="account_setup_vendor_heading">Witamy w e-mail</string>
   <string name="account_setup_heading_email_instruction">Wpisz swój adres e-mail, aby zacząć</string>
   <string name="account_setup_heading_password_instruction">Wpisz swoje hasło</string>
   <string name="like_action_dialog_tittle">Jak działa funkcja Lubię?</string>
@@ -200,6 +203,7 @@
   <string name="error">Błąd</string>
   <string name="error_creating_folder_message">Nie można utworzyć folderu.</string>
   <string name="report_rendering_problem">Zgłoś</string>
+  <string name="message_reported">Wiadomość zgłoszona</string>
   <string name="no_conversation_needs_sync">Brak wiadomości e-mail.\nPrzeciągnij palcem od góry do dołu, aby odświeżyć</string>
   <string name="getting_messages">Pobieranie wiadomości</string>
   <string name="empty_folder">Brak wiadomości e-mail.</string>
@@ -207,4 +211,18 @@
   <string name="empty_search">Ups! Nie znaleźliśmy niczego dla \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hura, nie ma spamu!</string>
   <string name="empty_trash_folder">Brak śmieci. Dzięki za recykling!</string>
+  <string name="view_on_calendar">Pokaż w kalendarzu</string>
+  <string name="accept">Akceptuj</string>
+  <string name="maybe">Może</string>
+  <string name="decline">Odrzuć</string>
+  <string name="remove_from_cal">Usuń z kalendarza</string>
+  <string name="remove_series_from_cal">Usuń serię z kalendarza</string>
+  <string name="calendar_attendees_me_only">Ja</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ja &amp; %d inny</item>
+    <item quantity="few">Ja &amp; %d inne</item>
+    <item quantity="other">Ja &amp; %d innych</item>
+  </plurals>
+  <string name="all_day">Cały dzień</string>
+  <string name="canceled">Anulowane</string>
 </resources>

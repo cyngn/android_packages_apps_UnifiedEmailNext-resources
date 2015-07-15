@@ -16,7 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Kombinerat</string>
   <string name="menu_select_all">Markera alla</string>
+  <string name="menu_actiongrid">Åtgärdsmatris</string>
   <string name="remove_account">Ta bort konto</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Radera konto</string>
@@ -37,6 +39,7 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; markerats som att göra.</item>
   </plurals>
   <string name="reported_as_spam">Rapporterat som skräppost</string>
+  <string name="new_incoming_messages_one">Visa nytt meddelande från <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Visa <xliff:g id="count">%1$d</xliff:g> nytt meddelande.</item>
     <item quantity="other">Visa <xliff:g id="count">%1$d</xliff:g> nya meddelanden.</item>
@@ -150,12 +153,14 @@
   <string name="custom_mailbox_settings_label">Inställningar</string>
   <string name="custom_mailbox_folder_name_hint">Anpassat fältnamn</string>
   <string name="custom_mailbox_background_sync_label">Bakgrundssynkronisering</string>
+  <string name="custom_mailbox_background_sync_switch_on">På</string>
   <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <string name="custom_mailbox_delete_box">Ta bort fält</string>
   <string name="custom_mailbox_error_no_selected_folders">Välj minst en mapp från listan nedan</string>
   <string name="custom_mailbox_delete_box_dialog_title">Varning</string>
   <string name="custom_mailbox_delete_box_dialog_message">Är du säker på att du vill ta bort detta anpassade fält?</string>
   <string name="custom_mailbox_error_deleting_box">Ett fel uppstod när ditt anpassade e-postfält togs bort</string>
+  <string name="viral_prompt_rate_app_title">Betygsätt denna app</string>
   <string name="viral_ratings_prompt_remind_me_later">Påminn mig senare</string>
   <string name="viral_ratings_prompt_no_thanks">Nej tack</string>
   <string name="viral_ratings_prompt_rate_now">Betygsätt nu</string>
@@ -170,12 +175,21 @@
   <string name="rage_shake_title">Skakning upptäcktes</string>
   <string name="rage_shake_message">Skulle du vilja krascha appen för att skicka felsökningsinformation?</string>
   <string name="actions_dialog_title">Anpassa</string>
+  <string name="actions_dialog_message">Använder du mappar regelbundet? Markerar ofta Spam? Älskar att kopiera klipp till Evernote?\n\nMed anpassade svepåtgärder kan du välja valfri gest att passa ditt arbetsflöde.\n</string>
+  <string name="actions_dialog_positive_button_text">Anpassa svep</string>
   <string name="actions_dialog_negative_button_text">Stäng</string>
+  <string name="account_setup_heading_email_instruction">Ange din e-postadress för att komma igång</string>
+  <string name="account_setup_heading_password_instruction">Ange ditt lösenord</string>
+  <string name="like_action_dialog_tittle">Vad är Gilla?</string>
+  <string name="new_button">Ny</string>
   <string name="folder_name_hint">Mappnamn</string>
   <string name="create_folder_progess">Skapar mapp\u2026</string>
+  <string name="duplicate_folder_message">Mappnamnet du angav finns redan.</string>
   <string name="error">Fel</string>
   <string name="error_creating_folder_message">Mappen kunde inte skapas.</string>
   <string name="report_rendering_problem">Rapportera</string>
+  <string name="getting_messages">Hämtar dina meddelanden</string>
+  <string name="empty_folder">Det finns ingen e-post här.</string>
   <string name="empty_inbox">Du är klar! Njut av dagen.</string>
   <string name="empty_search">Hoppsan! Vi hittade ingenting med \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, ingen spam här!</string>

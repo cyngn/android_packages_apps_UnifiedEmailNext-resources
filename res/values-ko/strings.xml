@@ -259,7 +259,6 @@
   <string name="change_sync_settings">동기화 설정 변경</string>
   <string name="photo_load_failed">이미지를 로드할 수 없음</string>
   <string name="cant_move_or_change_labels">선택하신 메일에 여러 계정이 포함되어 있어 이동할 수 없습니다.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">신뢰할 수 있는 메일입니다.</string>
   <string name="via_domain"><xliff:g id="VIADOMAIN">%1$s</xliff:g> 경유</string>

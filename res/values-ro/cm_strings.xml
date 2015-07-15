@@ -40,6 +40,11 @@
   <string name="preferences_swipe_right_short_title">Glisare la dreapta scurtă</string>
   <string name="preferences_swipe_right_long_title">Glisare la dreapta lungă</string>
   <string name="print">Imprimare</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
+  </plurals>
   <string name="draft_heading">Ciornă</string>
   <string name="no_subject">(fără subiect)</string>
   <string name="action_grid_add_priority">Adaugă prioritate</string>
@@ -49,10 +54,13 @@
   <string name="action_grid_due_date_this_week">Săptămâna aceasta</string>
   <string name="action_grid_due_date_next_week">Săptămâna viitoare</string>
   <string name="action_grid_priority_low">Prioritate scăzută</string>
+  <string name="action_label">Etichetă</string>
   <string name="action_move_or_label">Mutare/Etichetă</string>
   <string name="action_spam">Spam</string>
+  <string name="action_star">Stea</string>
   <string name="action_actions">Acţiuni</string>
   <string name="custom_mailbox_settings_label">Setări</string>
+  <string name="custom_mailbox_background_sync_label">Sincronizare în fundal</string>
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
@@ -61,4 +69,8 @@
   <string name="actions_dialog_title">Personalizare</string>
   <string name="new_button">Nou</string>
   <string name="error">Eroare</string>
+  <string name="no_conversation_needs_sync">Nu există niciun mail aici.\nTrageți în jos din partea de sus pentru a împrospăta</string>
+  <string name="empty_folder">Nu există niciun mail aici.</string>
+  <string name="maybe">Poate</string>
+  <string name="all_day">Toată ziua</string>
 </resources>

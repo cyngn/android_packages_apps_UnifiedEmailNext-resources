@@ -34,8 +34,8 @@
     <item quantity="other">&amp; %d anerer</item>
   </plurals>
   <plurals name="conversation_todo">
-    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedegen markéiert.</item>
-    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedegen markéiert.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedege markéiert.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedege markéiert.</item>
   </plurals>
   <string name="reported_as_spam">Als Spam gemellt</string>
   <string name="new_incoming_messages_one">Nei Messagë vum <xliff:g id="sender">%s</xliff:g> uweisen.</string>

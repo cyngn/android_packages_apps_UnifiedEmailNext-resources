@@ -259,7 +259,6 @@
   <string name="change_sync_settings">ປ່ຽນການຕັ້ງຄ່າການຊິ້ງຂໍ້ມູນ</string>
   <string name="photo_load_failed">ບໍ່ສາມາດໂຫຼດຮູບໄດ້</string>
   <string name="cant_move_or_change_labels">ບໍ່ສາມາດຍ້າຍໄດ້. ລາຍການທີ່ໄດ້ເລືອກແມ່ນມາຈາກຫຼາຍບັນຊີ.</string>
-  <string name="multiple_new_message_notification_item"><b>"<xliff:g id="SENDER">%1$s</xliff:g>"</b>\"   <xliff:g id="SUBJECT">%2$s</xliff:g>\"</string>
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">ບໍ່ສົນ, ຂ້ອຍເຊື່ອຖືໃນຂໍ້ຄວາມນີ້</string>
   <string name="via_domain">ຜ່ານ <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
