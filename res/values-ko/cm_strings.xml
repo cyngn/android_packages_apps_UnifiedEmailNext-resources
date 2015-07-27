@@ -55,6 +55,7 @@
   <string name="all_folders_heading">폴더</string>
   <string name="accounts_heading">계정</string>
   <string name="vendor_signature">내 Cyanogen 휴대전화에서 보냈음</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>에서 보냄</string>
   <string name="notification_action_mark_read">읽기</string>
   <string name="notification_action_reply">답장</string>
   <string name="notification_action_delete">삭제</string>
@@ -172,6 +173,8 @@
   <string name="actions_dialog_message">정기적으로 폴더를 사용하십니까? 자주 스팸으로 표시하십니까? Evernote에 클리핑하는 것을 사랑하십니까? \n\n자주 쓰는 작업에 맞춰 이 밀어내기 동작을 새로 설정할 수 있습니다. \n</string>
   <string name="actions_dialog_positive_button_text">밀어내기 사용자 정의</string>
   <string name="actions_dialog_negative_button_text">닫기</string>
+  <string name="account_setup_start_company_slogan_text">더 나은 편지함에 오신 걸 환영합니다.</string>
+  <string name="account_setup_vendor_heading">이메일에 오신 것을 환영합니다</string>
   <string name="account_setup_heading_email_instruction">이메일주소를 입력하여 시작하십시오.</string>
   <string name="account_setup_heading_password_instruction">비밀번호를 입력하십시오.</string>
   <string name="like_action_dialog_tittle">어떤가요?</string>
@@ -184,6 +187,7 @@
   <string name="error">오류</string>
   <string name="error_creating_folder_message">폴더를 생성할 수 없습니다.</string>
   <string name="report_rendering_problem">오류 보고</string>
+  <string name="message_reported">메시지 신고됨</string>
   <string name="no_conversation_needs_sync">메일이 없습니다.\n아래로 당겨서 새로 고침하세요</string>
   <string name="getting_messages">메시지 수신중</string>
   <string name="empty_folder">메일이 없습니다.</string>
@@ -191,4 +195,20 @@
   <string name="empty_search">이런! \"<xliff:g id="search_query">%1$s</xliff:g>\"에 대한 것을 찾지 못했습니다.</string>
   <string name="empty_spam_folder">스팸 메일이 없습니다!</string>
   <string name="empty_trash_folder">휴지통이 비어있습니다!</string>
+  <string name="view_on_calendar">일정에서 보기</string>
+  <string name="accept">확인</string>
+  <string name="maybe">미정</string>
+  <string name="decline">거절</string>
+  <string name="remove_from_cal">일정에서 제거</string>
+  <string name="remove_series_from_cal">달력에서 연속된 일정을 제거</string>
+  <string name="calendar_attendees_me_only">나</string>
+  <plurals name="calendar_attendees">
+    <item quantity="other">나와 %d명의 사람</item>
+  </plurals>
+  <string name="all_day">종일</string>
+  <string name="canceled">취소됨</string>
+  <string name="times_that_work_for_me">나한테 적합한 시간:</string>
+  <string name="availability_by">제공자: </string>
+  <string name="remove_availability">제공자 제거</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>이(가) Cyanogen OS의 Boxer를 통해 당신의 메시지를 좋아합니다</string>
 </resources>

@@ -55,6 +55,7 @@
   <string name="all_folders_heading">フォルダ</string>
   <string name="accounts_heading">アカウント</string>
   <string name="vendor_signature">Cyanogenの携帯電話から送信</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>から送信</string>
   <string name="notification_action_mark_read">読む</string>
   <string name="notification_action_reply">返信</string>
   <string name="notification_action_delete">削除</string>
@@ -172,6 +173,8 @@
   <string name="actions_dialog_message">フォルダをよく使いますか？迷惑メールをよく振り分けますか？Evernoteにクリップしたいですか？\n\nスワイプ操作をカスタマイズすればワークフローに合わせてジェスチャーを設定できます。\n</string>
   <string name="actions_dialog_positive_button_text">スワイプをカスタマイズ</string>
   <string name="actions_dialog_negative_button_text">閉じる</string>
+  <string name="account_setup_start_company_slogan_text">改良された受信トレイへようこそ</string>
+  <string name="account_setup_vendor_heading">メールへようこそ</string>
   <string name="account_setup_heading_email_instruction">開始するにはメールアドレスを入力してください</string>
   <string name="account_setup_heading_password_instruction">パスワードを入力してください</string>
   <string name="like_action_dialog_tittle">いいねとは？</string>
@@ -184,6 +187,7 @@
   <string name="error">エラー</string>
   <string name="error_creating_folder_message">フォルダを作成できませんでした。</string>
   <string name="report_rendering_problem">報告</string>
+  <string name="message_reported">メッセージは報告されました</string>
   <string name="no_conversation_needs_sync">メールがありません。\n上からプルダウンして更新します</string>
   <string name="getting_messages">メッセージを取得中</string>
   <string name="empty_folder">メールがありません。</string>
@@ -191,4 +195,20 @@
   <string name="empty_search">残念！「<xliff:g id="search_query">%1$s</xliff:g>」では何も見つかりませんでした。</string>
   <string name="empty_spam_folder">バンザイ！スパムはありません。</string>
   <string name="empty_trash_folder">ゴミ箱には何もありません。リサイクルへの協力感謝します！</string>
+  <string name="view_on_calendar">カレンダーで表示</string>
+  <string name="accept">承諾</string>
+  <string name="maybe">多分</string>
+  <string name="decline">拒否</string>
+  <string name="remove_from_cal">カレンダーから削除</string>
+  <string name="remove_series_from_cal">一連の予定をカレンダーから削除</string>
+  <string name="calendar_attendees_me_only">自分</string>
+  <plurals name="calendar_attendees">
+    <item quantity="other">自分と他%d人</item>
+  </plurals>
+  <string name="all_day">終日</string>
+  <string name="canceled">キャンセル済み</string>
+  <string name="times_that_work_for_me">都合の良い時間:</string>
+  <string name="availability_by">予定提供: </string>
+  <string name="remove_availability">予定を削除</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>がCyanogen OSのBoxerであなたのメッセージをいいねしました。</string>
 </resources>

@@ -211,21 +211,22 @@
   <string name="empty_search">По запросу «<xliff:g id="search_query">%1$s</xliff:g>» ничего не найдено.</string>
   <string name="empty_spam_folder">Спама нет, отлично!</string>
   <string name="empty_trash_folder">В корзине пусто. Спасибо, что выносите мусор!</string>
-  <string name="view_on_calendar">Посмотреть календарь</string>
-  <string name="accept">Принять</string>
+  <string name="view_on_calendar">Посмотреть в Календаре</string>
+  <string name="accept">Согласиться</string>
   <string name="maybe">Возможно</string>
-  <string name="decline">Отклонить</string>
+  <string name="decline">Отказаться</string>
   <string name="remove_from_cal">Удалить из календаря</string>
   <string name="remove_series_from_cal">Удалить серию событий из календаря</string>
-  <string name="calendar_attendees_me_only">Мое</string>
+  <string name="calendar_attendees_me_only">Я</string>
   <plurals name="calendar_attendees">
-    <item quantity="one">Я и ещё %d</item>
-    <item quantity="few">Я и ещё %d</item>
-    <item quantity="other">Я и ещё %d</item>
+    <item quantity="one">Я и ещё %d человек</item>
+    <item quantity="few">Я и ещё %d человека</item>
+    <item quantity="other">Я и ещё %d человек</item>
   </plurals>
   <string name="all_day">На весь день</string>
   <string name="canceled">Отменено</string>
   <string name="times_that_work_for_me">Подходящее время:</string>
+  <string name="availability_by">Доступно в</string>
   <string name="remove_availability">Удалить информацию о доступности</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> понравилось ваше сообщение, отправленное с помощью Boxer для Cyanogen OS</string>
 </resources>

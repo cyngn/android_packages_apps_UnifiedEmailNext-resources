@@ -217,4 +217,7 @@
   <string name="all_day">כל היום</string>
   <string name="canceled">בוטל</string>
   <string name="times_that_work_for_me">זמנים שמתאימים לי:</string>
+  <string name="availability_by">זמין דרך</string>
+  <string name="remove_availability">הסר זמינות</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב את ההודעה שלך דרך Boxer המותקן על מערכת Cyanogen</string>
 </resources>

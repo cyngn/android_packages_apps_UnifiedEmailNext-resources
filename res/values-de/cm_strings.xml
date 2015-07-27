@@ -216,5 +216,8 @@
   </plurals>
   <string name="all_day">Ganztägig</string>
   <string name="canceled">Abgebrochen</string>
+  <string name="times_that_work_for_me">Zeiten, die für mich passen würden:</string>
+  <string name="availability_by">Verfügbarkeit über</string>
+  <string name="remove_availability">Verfügbarkeit entfernen</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hat Ihre Nachricht mit Boxer auf Cyanogen OS geliked</string>
 </resources>

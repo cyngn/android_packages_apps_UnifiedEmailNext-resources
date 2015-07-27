@@ -182,7 +182,7 @@
   <string name="actions_dialog_positive_button_text">Veegacties aanpassen</string>
   <string name="actions_dialog_negative_button_text">Sluiten</string>
   <string name="account_setup_start_company_slogan_text">Welkom bij een verbeterde inbox</string>
-  <string name="account_setup_vendor_heading">Welkom bij e-mail</string>
+  <string name="account_setup_vendor_heading">Welkom bij E-mail</string>
   <string name="account_setup_heading_email_instruction">E-mailadres invoeren om te beginnen</string>
   <string name="account_setup_heading_password_instruction">Wachtwoord invoeren</string>
   <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>

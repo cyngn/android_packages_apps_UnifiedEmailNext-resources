@@ -251,6 +251,10 @@
   <string name="non_synced_folder_description">Pour afficher les conversations, synchronisez ce dossier.</string>
   <string name="tap_to_configure_folder_sync">Synchroniser le dossier</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> non lu</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> non lus</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Plus de <xliff:g id="COUNT">%1$d</xliff:g> non lus</string>
   <string name="view_more_conversations">Afficher plus de conversations</string>
   <string name="activity_mailbox_selection">Sélectionner un compte</string>

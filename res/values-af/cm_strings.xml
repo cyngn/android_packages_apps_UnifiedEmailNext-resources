@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Vouers</string>
   <string name="accounts_heading">Rekeninge</string>
   <string name="vendor_signature">Gestuur van my foon</string>
+  <string name="vendor_signature_fmt">Gestuur vanaf my <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">GELEES</string>
   <string name="notification_action_reply">ANTWOORD</string>
   <string name="notification_action_delete">VERW</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">Gebruik jy gereeld vouers? Dikwels gemerk as strooipos? Hou daarvan om te clip aan Evernote\n\nMet persoonlike vee aksies kan jy enige van hierdie gebare stel om jou werkvloei aan te pas.\n</string>
   <string name="actions_dialog_positive_button_text">Pasmaak vee\'s</string>
   <string name="actions_dialog_negative_button_text">Maak toe</string>
+  <string name="account_setup_start_company_slogan_text">Welkom by \'n beter inkassie</string>
+  <string name="account_setup_vendor_heading">Welkom by epos</string>
   <string name="account_setup_heading_email_instruction">Tik jou epos adres om te begin</string>
   <string name="account_setup_heading_password_instruction">Tik jou wagwoord</string>
   <string name="like_action_dialog_tittle">Wat is soos?</string>
@@ -192,6 +195,7 @@
   <string name="error">Fout</string>
   <string name="error_creating_folder_message">Die gids kon nie geskep word nie.</string>
   <string name="report_rendering_problem">Gee aan</string>
+  <string name="message_reported">Boodskap gerapporteer</string>
   <string name="no_conversation_needs_sync">Geen e-pos hier.\nTrek af van bo om te verfris</string>
   <string name="getting_messages">Besig om jou boodskappe te kry</string>
   <string name="empty_folder">Daar is geen e-pos hier nie.</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">O gats! Ons kon nie enigiets vind vir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Lekker man, geen strooipos hier!</string>
   <string name="empty_trash_folder">Geen vullis hier. Dankie dat jy herwinning doen!</string>
+  <string name="view_on_calendar">Kyk binne kalender</string>
+  <string name="accept">Aanvaar</string>
+  <string name="maybe">Miskien</string>
+  <string name="decline">Weier</string>
+  <string name="remove_from_cal">Verwyder van kalender</string>
+  <string name="remove_series_from_cal">Verwyder reeks van kalender</string>
+  <string name="calendar_attendees_me_only">Ekke</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ekke &amp; %d ander</item>
+    <item quantity="other">Ekke &amp; %d ander</item>
+  </plurals>
+  <string name="all_day">Heeldag</string>
+  <string name="canceled">Gekanselleer</string>
+  <string name="times_that_work_for_me">Tye wat vir my sal werk:</string>
+  <string name="availability_by">Beskikbaarheid teen</string>
+  <string name="remove_availability">Verwyder beskikbaarheid</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hou van jou boodskap met Boxer op Cyanogen</string>
 </resources>

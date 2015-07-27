@@ -217,6 +217,7 @@
   <string name="all_day">Tutto il giorno</string>
   <string name="canceled">Annullata</string>
   <string name="times_that_work_for_me">Volte che funziona per me:</string>
+  <string name="availability_by">Disponibilità di %s</string>
   <string name="remove_availability">Rimuovi disponibilità</string>
   <string name="action_liked_message_cm">A <xliff:g id="display_name" example="John Doe">%s</xliff:g> è piaciuto il tuo messaggio con Boxer su Cyanogen OS</string>
 </resources>

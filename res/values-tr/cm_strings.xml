@@ -217,7 +217,7 @@
   <string name="all_day">Tüm gün</string>
   <string name="canceled">İptal edildi</string>
   <string name="times_that_work_for_me">Bana uygun zamanlar:</string>
-  <string name="availability_by">Kullanılabilirlik ></string>
-  <string name="remove_availability">Kullanılabilirliği kaldır</string>
+  <string name="availability_by">Uygunluk ></string>
+  <string name="remove_availability">Uygunluğu kaldır</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> Cyanogen İS\'de Boxer\'la mesajını beğendi</string>
 </resources>

@@ -58,6 +58,7 @@
   <string name="all_folders_heading">फ़ोल्डर</string>
   <string name="accounts_heading">खाते</string>
   <string name="vendor_signature">मेरे सियानोजेन फ़ोन से भेजा गया</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> से भेजा गया</string>
   <string name="notification_action_mark_read">पढ़ें</string>
   <string name="notification_action_reply">उत्तर दें</string>
   <string name="notification_action_delete">हटाएँ</string>
@@ -180,6 +181,8 @@
   <string name="actions_dialog_message">क्या आप अक्सर फ़ोल्डरों का उपयोग करते हैं? क्या आप अक्सर स्पैम के रूप में चिह्नित करते हैं? एवरनोट में क्लिप करना पसंद करते हैं?\n\nमनपसंद स्वाइप कार्यों से आप अपने कार्य प्रवाह में इनमें से किसी गेश्चर को सेट कर सकते हैं।\n</string>
   <string name="actions_dialog_positive_button_text">स्वाइपों को मनपसंद बनाएँ</string>
   <string name="actions_dialog_negative_button_text">बंद करें</string>
+  <string name="account_setup_start_company_slogan_text">बेहतर इनबॉक्स में आपका स्वागत है</string>
+  <string name="account_setup_vendor_heading">ईमेल में आपका स्वागत है</string>
   <string name="account_setup_heading_email_instruction">शुरू करने के लिए अपना ईमेल पता दर्ज करें</string>
   <string name="account_setup_heading_password_instruction">अपना पासवर्ड दर्ज करें</string>
   <string name="like_action_dialog_tittle">पसंद करें क्या है?</string>
@@ -192,6 +195,7 @@
   <string name="error">त्रुटि</string>
   <string name="error_creating_folder_message">फ़ोल्डर निर्मित नहीं किया जा सका।</string>
   <string name="report_rendering_problem">रिपोर्ट करें</string>
+  <string name="message_reported">संदेश को रिपोर्ट किया गया</string>
   <string name="no_conversation_needs_sync">यहाँ कोई डाक नहीं है।\nताज़ा करने के लिए ऊपर से नीचे की ओर खींचें</string>
   <string name="getting_messages">आपके संदेश ला रहे हैं</string>
   <string name="empty_folder">यहाँ कोई डाक नहीं है।</string>
@@ -199,4 +203,21 @@
   <string name="empty_search">ओ-ओ! हमें \"<xliff:g id="search_query">%1$s</xliff:g>\" के लिए कुछ भी नहीं मिला।</string>
   <string name="empty_spam_folder">खुशियाँ मनाएँ, यहाँ कोई स्पैम नहीं है।</string>
   <string name="empty_trash_folder">यहाँ कोई कचरा नहीं है। कचरा खाली करने के लिए धन्यवदा।</string>
+  <string name="view_on_calendar">कैलेंडर पर देखें</string>
+  <string name="accept">स्वीकार करें</string>
+  <string name="maybe">शायद</string>
+  <string name="decline">मना करें</string>
+  <string name="remove_from_cal">कैलेंडर से हटाएँ</string>
+  <string name="remove_series_from_cal">श्रेणी को कैलेंडर से हटाएँ</string>
+  <string name="calendar_attendees_me_only">मैं</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">मैं और %d अन्य</item>
+    <item quantity="other">मैं और %d अन्य</item>
+  </plurals>
+  <string name="all_day">दिन भर</string>
+  <string name="canceled">रद्द</string>
+  <string name="times_that_work_for_me">मेरे लिए सुविधाजनक समय:</string>
+  <string name="availability_by">इसके क्रम से उपलब्धता</string>
+  <string name="remove_availability">उपलब्धता हटाएँ</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> ने सियानोजेन ओएस पर बॉक्सर से आपके संदेश को पसंद किया है</string>
 </resources>

@@ -285,7 +285,7 @@
   <string name="recent_folders_heading">Recente mappen</string>
   <string name="message_details_title">Berichtdetails</string>
   <string name="auto_advance_label">Automatisch doorgaan</string>
-  <string name="auto_advance_summary">Het scherm selecteren dat wordt getoond na het verw. van bericht</string>
+  <string name="auto_advance_summary">Het scherm selecteren dat wordt getoond na het verwijderen van een bericht</string>
   <string name="auto_advance_help_title">Voorkeur voor automatisch doorgaan instellen\n(na verwijderen, enzovoort)</string>
   <string-array name="prefEntries_autoAdvance">
     <item>Nieuwer</item>

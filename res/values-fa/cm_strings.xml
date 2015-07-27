@@ -16,7 +16,199 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">مرکب</string>
+  <string name="menu_select_all">انتخاب همه</string>
+  <string name="menu_actiongrid">شبکه عملیات</string>
+  <string name="remove_account">حذف حساب</string>
+  <string name="support">پشتیبانی</string>
+  <string name="delete_account_title">حذف حساب</string>
+  <string name="delete_account_summary">حذف این حساب کاربری و تمام داده‌ها و تنظیمات آن</string>
+  <string name="delete_account_confirmation_msg">این کار تمام تنظیمات و ایمیل‌های حساب کاربری <xliff:g id="account">%s</xliff:g> را حذف خواهد کرد. این کار غیرقابل بازگشت است.\n\nادامه می‌دهید؟</string>
+  <string name="deleting_account_msg">در حال حذف حساب\u2026</string>
+  <string name="delete_account_failed">حساب کاربری حذف نشد</string>
+  <string name="open_attachment">بازکردن</string>
+  <string name="install_attachment">نصب</string>
+  <string name="menu_photo_print">چاپ</string>
   <string name="contextmenu_view_image">مشاهده تصویر</string>
+  <plurals name="to_header">
+    <item quantity="other">&amp; %d سایر</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; به عنوان برای انجام علامت‌گذاری شد.</item>
+  </plurals>
+  <string name="reported_as_spam">گزارش به عنوان اسپم</string>
+  <string name="new_incoming_messages_one">نمایش پیام جدید از طرف <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="other">نمایش <xliff:g id="count">%1$d</xliff:g> پیام جدید.</item>
+  </plurals>
+  <string name="edit">ویرایش</string>
+  <string name="folder_search_hint">جستجو</string>
+  <string-array name="moveto_folder_sections">
+    <item>پوشه‌های هوشمند</item>
+    <item>تمام پوشه‌ها</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>برچسب‌های هوشمند</item>
+    <item>تمام برچسب‌ها</item>
+  </string-array>
+  <string name="boxes_heading">صندوق‌ها</string>
+  <string name="all_folders_heading">پوشه‌ها</string>
+  <string name="accounts_heading">حساب‌های کاربری</string>
+  <string name="vendor_signature">ارسال شده از تلفن همراه سیانوژن من</string>
+  <string name="vendor_signature_fmt">ارسال شده از <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="notification_action_mark_read">خوانده شده</string>
+  <string name="notification_action_reply">پاسخ</string>
+  <string name="notification_action_delete">حذف</string>
+  <plurals name="new_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پیام جدید</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">عملیات لغزش</string>
+  <string name="preferences_swipe_actions_summary">سفارشی‌سازی عملیات‌های لغزش به چپ و راست</string>
+  <string name="preferences_swipe_left_short_title">لغزش کوتاه به چپ</string>
+  <string name="preferences_swipe_left_long_title">لغزش بلند به چپ</string>
+  <string name="preferences_swipe_right_short_title">لغزش کوتاه به راست</string>
+  <string name="preferences_swipe_right_long_title">لغزش بلند به راست</string>
+  <string name="print">چاپ</string>
+  <plurals name="num_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پیام</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> در <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">پیش‌نویس به:\u0020</string>
+  <string name="draft_heading">پیش‌نویس</string>
+  <string name="quoted_text_hidden_print">پنهان‌کردن متن نقل‌وقل</string>
+  <plurals name="num_attachments">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ضمیمه</item>
+  </plurals>
+  <string name="no_subject">(بدون موضوع)</string>
+  <string name="action_grid_select_quick_response">انتخاب پاسخ سریع</string>
+  <string name="action_grid_todo_dialog_title">جزئيات</string>
+  <string name="action_grid_set_due_date">تنظیم تاریخ تحویل</string>
+  <string name="action_grid_due">تحویل: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">افزودن اولویت</string>
+  <string name="action_grid_priority">اولویت:\u0020</string>
+  <string name="action_grid_add_assignee">افزودن گیرنده</string>
+  <string name="action_grid_assignee">گیرنده:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">تنظیم تاریخ تحویل</string>
+  <string name="action_grid_due_date_today">امروز</string>
+  <string name="action_grid_due_date_tomorrow">فردا</string>
+  <string name="action_grid_due_date_this_week">این هفته</string>
+  <string name="action_grid_due_date_next_week">هفته بعد</string>
+  <string name="action_grid_due_date_specific_date">تاريخ مشخص</string>
+  <string name="action_grid_calendar_picker_dialog_title">تنظیم تاریخ تحویل</string>
+  <string name="action_grid_priority_dialog_title">افزودن اولویت</string>
+  <string name="action_grid_priority_highest">بالاترین اولویت</string>
+  <string name="action_grid_priority_high">اولویت بالا</string>
   <string name="action_grid_priority_normal">اولویت عادی</string>
+  <string name="action_grid_priority_low">اولویت پایین</string>
+  <string name="action_grid_priority_lowest">پایین‌ترین اولویت</string>
+  <string name="action_grid_assignee_dialog_title">افزودن گیرنده</string>
+  <string name="action_grid_assignee_select_from_contacts">انتخاب از بین مخاطبین</string>
+  <string name="action_grid_assignee_search_for_contact">جستجوی مخاطب</string>
+  <string name="action_grid_assignee_button_bar_clear">پاک‌کردن</string>
+  <string name="action_message_header_delete">این پیام حذف شود؟</string>
+  <string name="action_like">پسندیدن</string>
+  <string name="action_todo">برای انجام</string>
+  <string name="action_quick">سریع</string>
+  <string name="action_move">حرکت</string>
+  <string name="action_label">برچسب</string>
+  <string name="action_move_or_label">حرکت/برچسب</string>
+  <string name="action_archive">بایگانی</string>
   <string name="action_delete">حذف</string>
+  <string name="action_spam">اسپم</string>
+  <string name="action_flag">پرچم</string>
+  <string name="action_clear_flag">پاک‌کردن پرچم</string>
+  <string name="action_star">ستاره</string>
+  <string name="action_clear_star">پاک‌کردن ستاره</string>
+  <string name="action_star_or_flag">ستاره/پرچم</string>
+  <string name="action_mark_unread">علامت‌گذاری به‌عنوان خوانده‌نشده</string>
+  <string name="action_mark_read">علامت‌گذاری به‌عنوان خوانده‌شده</string>
+  <string name="action_read_or_unread">خوانده‌شده/خوانده‌نشده</string>
+  <string name="action_actions">عملیات‌ها</string>
+  <string name="marked_evernote">ارسال به Evernote</string>
+  <string name="marked_liked">علامت‌گذاری‌شده به‌عنوان پسندیده‌شده</string>
+  <string name="marked_archived">علامت‌گذاری‌شده برای آرشیو</string>
+  <string name="marked_deleted">علامت‌گذاری‌شده برای حذف</string>
+  <string name="marked_spam">انتقال‌داده‌شده به اسپم</string>
+  <string name="marked_todo">علامت‌گذاری‌شده به‌عنوان برای انجام</string>
+  <string name="marked_done">علامت‌گذاری‌شده به‌عنوان انجام‌شده</string>
+  <plurals name="quick_response_sent">
+    <item quantity="other">پاسخ ارسال شد</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="other">پیام‌های پسندیده‌شده</item>
+  </plurals>
+  <string name="invalid_selection">انتخاب نامعتبر</string>
+  <string name="file_action_more_than_one_account">شما گفتگوهای بیش از یک حساب کاربری را انتخاب کردید. لطفاً گفتگوهای یک حساب کاربری را انتخاب کنید.</string>
+  <string name="evernote_action_more_than_one_conversation">عملکرد Evernote تنها از یک گفتگو پشتیبانی می‌کند. لطفاً تنها یک گفتگو انتخاب کنید.</string>
+  <string name="not_installed">نصب نشده</string>
+  <string name="evernote_not_installed">به نظر می‌رسد Evernote نصب نشده است. لطفاً برای استفاده از این قابلیت، آن را نصب کنید.</string>
+  <string name="custom_mailbox_button">افزودن صندوق سفارشی</string>
+  <string name="custom_mailbox_settings_label">تنظیمات</string>
+  <string name="custom_mailbox_folder_name_hint">نام صندوق سفارشی</string>
+  <string name="custom_mailbox_background_sync_label">همگام‌سازی در پس‌زمینه</string>
+  <string name="custom_mailbox_background_sync_switch_on">روشن</string>
+  <string name="custom_mailbox_background_sync_switch_off">خاموش</string>
+  <string name="custom_mailbox_delete_box">حذف صندوق</string>
+  <string name="custom_mailbox_error_no_selected_folders">لطفاً حداقل یک پوشه از لیست زیر انتخاب کنید</string>
+  <string name="custom_mailbox_delete_box_dialog_title">هشدار</string>
+  <string name="custom_mailbox_delete_box_dialog_message">آیا از حذف این صندوق سفارشی اطمینان دارید؟</string>
+  <string name="custom_mailbox_error_deleting_box">خطایی در حذف صندوق پستی سفارشی شما رخ داد</string>
+  <string name="viral_prompt_rate_app_title">امتیاز به این برنامه</string>
+  <string name="viral_prompt_rate_app_body">اگر از این برنامه لذت می‌برید، ممکن است چند لحظه وقت بگذارید و به آن امتیاز دهید؟ بیش از یک دقیقه زمان نمی‌برد. از پشتیبانی شما سپاسگزاریم!</string>
+  <string name="viral_ratings_prompt_remind_me_later">بعداً یادآوری کن</string>
+  <string name="viral_ratings_prompt_no_thanks">نه، ممنون</string>
+  <string name="viral_ratings_prompt_rate_now">الان امتیاز داده شود</string>
+  <string name="promo_code_title_text">به‌تنهایی با صندوق ورودی خود نجنگید</string>
+  <string name="promo_code_edittext_hint">کد تخفیف را وارد کنید</string>
+  <string name="promo_code_button_text">ارسال</string>
+  <string name="promo_code_error_no_code_entered">لطفاً قبل از ارسال، یک کد تخفیف وارد کنید</string>
+  <string name="promo_code_error_invalid_code">کد تخفیف نامعتبر</string>
+  <string name="promo_code_dialog_title">قابلیت‌ها آزاد شدند</string>
+  <string name="promo_code_dialog_message">شما باموفقیت <xliff:g id="features">%s</xliff:g> را آزاد کردید</string>
+  <string name="promo_code_dialog_generic_success_msg">کد تخفیف باموفقیت اعمال شد</string>
+  <string name="promo_code_progress_dialog_validating">در حال تأیید کد تخفیف</string>
+  <string name="rage_shake_title">لرزش شناسایی شد</string>
+  <string name="rage_shake_message">آیا می‌خواهید برای ارسال اطلاعات اشکال‌زدایی، برنامه را متوقف کنید؟</string>
+  <string name="actions_dialog_title">سفارشی‌سازی</string>
+  <string name="actions_dialog_message">آیا همیشه از پوشه‌ها استفاده می‌کنید؟ همیشه به عنوان اسپم علامت‌گذاری می‌کنید؟ عاشق کوچک‌کردن آنها در Evernote هستید؟\n\nبا عملیات‌های لغزش سفارشی شده می‌توانید هرکدام از این حرکات که مناسب کار شماست را تنظیم کنید.\n</string>
+  <string name="actions_dialog_positive_button_text">سفارشی‌سازی لغزش‌ها</string>
+  <string name="actions_dialog_negative_button_text">بستن</string>
+  <string name="account_setup_start_company_slogan_text">به یک صندوق ورودی بهتر خوش آمدید</string>
+  <string name="account_setup_vendor_heading">به ایمیل خوش آمدید</string>
+  <string name="account_setup_heading_email_instruction">برای شروع، آدرس ایمیل خود را وارد کنید</string>
+  <string name="account_setup_heading_password_instruction">رمز عبور خود را وارد کنید</string>
+  <string name="like_action_dialog_tittle">چگونه است؟</string>
+  <string name="like_action_dialog_message">شما قابلیت مورد علاقه ما را پیدا کردید. هنگامی که یک پیام را پیام را «می‌پسندید»، یک ایمیل به ارسال‌کننده و دیگر شرکت‌کنندگان ارسال می‌شود تا به آنها اطلاع دهید که آن را پسندیدید. این سریع‌ترین روش برای پاسخ به ایمیل است.</string>
+  <string name="new_button">جدید</string>
+  <string name="folder_name_hint">نام پوشه</string>
+  <string name="create_folder_progess">در حال ایجاد پوشه\u2026</string>
+  <string name="duplicate_folder_title">نام تکراری</string>
+  <string name="duplicate_folder_message">نام پوشه وارد شده از قبل وجود دارد.</string>
+  <string name="error">خطا</string>
+  <string name="error_creating_folder_message">پوشه ایجاد نمی‌شود.</string>
+  <string name="report_rendering_problem">گزارش</string>
+  <string name="message_reported">پیام گزارش شد</string>
+  <string name="no_conversation_needs_sync">هیچ ایمیلی در اینجا وجود ندارد.\nبرای تازه‌سازی، از بالا به پایین بکشید</string>
+  <string name="getting_messages">در حال دریافت پیام‌های شما</string>
+  <string name="empty_folder">هیچ ایمیلی در اینجا وجود ندارد.</string>
+  <string name="empty_inbox">همه چیز انجام شد! روز خوبی داشته باشید.</string>
+  <string name="empty_search">ای وای! چیزی در «<xliff:g id="search_query">%1$s</xliff:g>» پیدا نکردیم.</string>
+  <string name="empty_spam_folder">هورا، هیچ اسپمی اینجا وجود ندارد!</string>
+  <string name="empty_trash_folder">زباله‌ای اینجا نیست. از اینکه بازیابی کردید ممنونیم!</string>
+  <string name="view_on_calendar">مشاهده در تقویم</string>
+  <string name="accept">پذیرش</string>
+  <string name="maybe">شاید</string>
+  <string name="decline">رد کردن</string>
+  <string name="remove_from_cal">حذف از تقویم</string>
+  <string name="remove_series_from_cal">حذف سری از تقویم</string>
+  <string name="calendar_attendees_me_only">من</string>
+  <plurals name="calendar_attendees">
+    <item quantity="other">من و دیگران</item>
+  </plurals>
+  <string name="all_day">همه روز</string>
+  <string name="canceled">لغو شد</string>
+  <string name="times_that_work_for_me">زمان‌هایی که برای من مناسب است:</string>
+  <string name="availability_by">در دسترس بودن به وسیله</string>
+  <string name="remove_availability">حذف در دسترس بودن</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> پیام شما با Boxer در سیستم عامل سیانوژن را پسندید</string>
 </resources>

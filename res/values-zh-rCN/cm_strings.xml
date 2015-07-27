@@ -208,7 +208,7 @@
   <string name="all_day">全天</string>
   <string name="canceled">已取消</string>
   <string name="times_that_work_for_me">合适的时间：</string>
-  <string name="availability_by">可用性：</string>
+  <string name="availability_by">提供：</string>
   <string name="remove_availability">移除可用性</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> 通过基于 Cyanogen OS 的 Boxer 赞了你的消息。</string>
 </resources>

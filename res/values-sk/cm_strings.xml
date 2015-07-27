@@ -225,4 +225,7 @@
   </plurals>
   <string name="all_day">Celý deň</string>
   <string name="canceled">Zrušené</string>
+  <string name="availability_by">Dostupnosť od</string>
+  <string name="remove_availability">Odstrániť dostupnosť</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> sa páči vaša správa s aplikáciou Boxer na Cyanogen OS</string>
 </resources>

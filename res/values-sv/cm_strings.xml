@@ -58,6 +58,7 @@
   <string name="all_folders_heading">Mappar</string>
   <string name="accounts_heading">Konton</string>
   <string name="vendor_signature">Skickat från min Cyanogen telefon</string>
+  <string name="vendor_signature_fmt">Välj från <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">LÄS</string>
   <string name="notification_action_reply">SVARA</string>
   <string name="notification_action_delete">RADERA</string>
@@ -161,9 +162,11 @@
   <string name="custom_mailbox_delete_box_dialog_message">Är du säker på att du vill ta bort detta anpassade fält?</string>
   <string name="custom_mailbox_error_deleting_box">Ett fel uppstod när ditt anpassade e-postfält togs bort</string>
   <string name="viral_prompt_rate_app_title">Betygsätt denna app</string>
+  <string name="viral_prompt_rate_app_body">Om du gillar att använda denna app, skulle du kunna ta dig tid att betygsätta den? Det kommer inte ta mer än en minut. Tack för ditt stöd!</string>
   <string name="viral_ratings_prompt_remind_me_later">Påminn mig senare</string>
   <string name="viral_ratings_prompt_no_thanks">Nej tack</string>
   <string name="viral_ratings_prompt_rate_now">Betygsätt nu</string>
+  <string name="promo_code_title_text">Kämpa inte mot Inkorgen ensam</string>
   <string name="promo_code_edittext_hint">Skriv in kampanjkod</string>
   <string name="promo_code_button_text">Skicka</string>
   <string name="promo_code_error_no_code_entered">Ange en kampanjkod innan du trycker på Skicka</string>
@@ -178,20 +181,43 @@
   <string name="actions_dialog_message">Använder du mappar regelbundet? Markerar ofta Spam? Älskar att kopiera klipp till Evernote?\n\nMed anpassade svepåtgärder kan du välja valfri gest att passa ditt arbetsflöde.\n</string>
   <string name="actions_dialog_positive_button_text">Anpassa svep</string>
   <string name="actions_dialog_negative_button_text">Stäng</string>
+  <string name="account_setup_start_company_slogan_text">Välkommen till en bättre inkorg</string>
+  <string name="account_setup_vendor_heading">Välkommen till e-post</string>
   <string name="account_setup_heading_email_instruction">Ange din e-postadress för att komma igång</string>
   <string name="account_setup_heading_password_instruction">Ange ditt lösenord</string>
   <string name="like_action_dialog_tittle">Vad är Gilla?</string>
+  <string name="like_action_dialog_message">Du har hittat vår favoritfunktion. När du \'Gillar\' ett meddelande, kommer ett e-postmeddelande att skickas för att låta avsändaren och andra mottagare veta att du gillar det. Det är det snabbaste sättet att svara på e-postmeddelande.</string>
   <string name="new_button">Ny</string>
   <string name="folder_name_hint">Mappnamn</string>
   <string name="create_folder_progess">Skapar mapp\u2026</string>
+  <string name="duplicate_folder_title">Dubblettnamn</string>
   <string name="duplicate_folder_message">Mappnamnet du angav finns redan.</string>
   <string name="error">Fel</string>
   <string name="error_creating_folder_message">Mappen kunde inte skapas.</string>
   <string name="report_rendering_problem">Rapportera</string>
+  <string name="message_reported">Meddelande rapporterades</string>
+  <string name="no_conversation_needs_sync">Det finns ingen e-post här.\nDra ner från toppen för att uppdatera</string>
   <string name="getting_messages">Hämtar dina meddelanden</string>
   <string name="empty_folder">Det finns ingen e-post här.</string>
   <string name="empty_inbox">Du är klar! Njut av dagen.</string>
   <string name="empty_search">Hoppsan! Vi hittade ingenting med \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, ingen spam här!</string>
   <string name="empty_trash_folder">Inget skräp här. Tack för att du återvinner!</string>
+  <string name="view_on_calendar">Visa i kalender</string>
+  <string name="accept">Acceptera</string>
+  <string name="maybe">Kanske</string>
+  <string name="decline">Avböj</string>
+  <string name="remove_from_cal">Ta bort från kalender</string>
+  <string name="remove_series_from_cal">Ta bort serie från kalender</string>
+  <string name="calendar_attendees_me_only">Mig</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Mig &amp; %d annan</item>
+    <item quantity="other">Mig &amp; %d andra</item>
+  </plurals>
+  <string name="all_day">Hela dagen</string>
+  <string name="canceled">Avbrutna</string>
+  <string name="times_that_work_for_me">Tider som fungerar för mig:</string>
+  <string name="availability_by">Tillgänglig via</string>
+  <string name="remove_availability">Ta bort tillgänghet</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> gillade ditt meddelande med Boxer på Cyanogen OS</string>
 </resources>
