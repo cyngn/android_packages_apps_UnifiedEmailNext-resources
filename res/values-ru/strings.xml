@@ -247,7 +247,7 @@
   <string name="notification_action_reply_all">Ответить всем</string>
   <string name="notification_action_archive">Архивировать</string>
   <string name="notification_action_remove_label">Удалить ярлык</string>
-  <string name="notification_action_undo_archive">Отправлено в архив</string>
+  <string name="notification_action_undo_archive">архивировано</string>
   <string name="notification_action_undo_remove_label">Ярлык удален</string>
   <string name="notification_action_undo_delete">Удалено</string>
   <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>

@@ -17,4 +17,225 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Poenotene</string>
+  <string name="menu_select_all">Izberi vse</string>
+  <string name="menu_actiongrid">Mreža dejanj</string>
+  <string name="remove_account">Odstrani račun</string>
+  <string name="support">Podpora</string>
+  <string name="delete_account_title">Izbriši račun</string>
+  <string name="delete_account_summary">Izbriši ta račun in vse nastavitve ter podatke</string>
+  <string name="delete_account_confirmation_msg">To bo izbrisalo vse nastavitve in e-pošto računa <xliff:g id="account">%s</xliff:g>. Tega opravila ni mogoče razveljaviti.\n\nNadaljuj?</string>
+  <string name="deleting_account_msg">Brisanje računa \u2026</string>
+  <string name="delete_account_failed">Računa ni bilo mogoče izbrisati</string>
+  <string name="open_attachment">Odpri</string>
+  <string name="install_attachment">Namesti</string>
+  <string name="menu_photo_print">Natisni</string>
+  <string name="contextmenu_view_image">Pokaži sliko</string>
+  <plurals name="to_header">
+    <item quantity="one">in še %d drugi</item>
+    <item quantity="two">in še %d druga</item>
+    <item quantity="few">in še %d drugi</item>
+    <item quantity="other">in še %d drugih</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen za storiti.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena za storiti.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeni za storiti.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označenih za storiti.</item>
+  </plurals>
+  <string name="reported_as_spam">Prijavi kot neželeno</string>
+  <string name="new_incoming_messages_one">Prikaži novo sporočilo od <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Prikaži <xliff:g id="count">%1$d</xliff:g> novo sporočilo.</item>
+    <item quantity="two">Prikaži <xliff:g id="count">%1$d</xliff:g> nova sporočila.</item>
+    <item quantity="few">Prikaži <xliff:g id="count">%1$d</xliff:g> nova sporočila.</item>
+    <item quantity="other">Prikaži <xliff:g id="count">%1$d</xliff:g> novih sporočil.</item>
+  </plurals>
+  <string name="edit">Uredi</string>
+  <string name="folder_search_hint">Iskanje</string>
+  <string-array name="moveto_folder_sections">
+    <item>Pametne mape</item>
+    <item>Vse mape</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>Pametne oznake</item>
+    <item>Vse oznake</item>
+  </string-array>
+  <string name="boxes_heading">Polja</string>
+  <string name="all_folders_heading">Mape</string>
+  <string name="accounts_heading">Računi</string>
+  <string name="vendor_signature">Poslano iz mojega telefona Cyanogen</string>
+  <string name="vendor_signature_fmt">Poslano iz <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <string name="notification_action_mark_read">PREBRANO</string>
+  <string name="notification_action_reply">ODGOVORI</string>
+  <string name="notification_action_delete">IZBRIŠI</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> novo sporočilo</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> novi sporočili</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nova sporočila</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novih sporočil</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Dejanja potegov</string>
+  <string name="preferences_swipe_actions_summary">Prilagodite dejanji levega in desnega potega</string>
+  <string name="preferences_swipe_left_short_title">Levi kratki poteg</string>
+  <string name="preferences_swipe_left_long_title">Levi dolgi poteg</string>
+  <string name="preferences_swipe_right_short_title">Desni kratki poteg</string>
+  <string name="preferences_swipe_right_long_title">Desni dolgi poteg</string>
+  <string name="print">Natisni</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> sporočilo</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> sporočili</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> sporočila</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> sporočil</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> ob <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Osnutek za:\u0020</string>
+  <string name="draft_heading">Osnutek</string>
+  <string name="quoted_text_hidden_print">Navedeno besedilo skrito</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> priponka</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> priponki</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> priponke</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> priponk</item>
+  </plurals>
+  <string name="no_subject">(brez zadeve)</string>
+  <string name="action_grid_select_quick_response">Izberite hiter odziv</string>
+  <string name="action_grid_todo_dialog_title">Podrobnosti</string>
+  <string name="action_grid_set_due_date">Nastavi datum zapadlosti</string>
+  <string name="action_grid_due">Zapade: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Dodaj prednost</string>
+  <string name="action_grid_priority">Prednost: \u0020</string>
+  <string name="action_grid_add_assignee">Dodaj pooblaščenca</string>
+  <string name="action_grid_assignee">Pooblaščenec:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Nastavi datum zapadlosti</string>
+  <string name="action_grid_due_date_today">Danes</string>
+  <string name="action_grid_due_date_tomorrow">Jutri</string>
+  <string name="action_grid_due_date_this_week">Ta teden</string>
+  <string name="action_grid_due_date_next_week">Naslednji teden</string>
+  <string name="action_grid_due_date_specific_date">Določen datum</string>
+  <string name="action_grid_calendar_picker_dialog_title">Nastavi datum zapadlosti</string>
+  <string name="action_grid_priority_dialog_title">Dodaj prednost</string>
+  <string name="action_grid_priority_highest">Najvišja prednost</string>
+  <string name="action_grid_priority_high">Visoka prednost</string>
+  <string name="action_grid_priority_normal">Običajna prednost</string>
+  <string name="action_grid_priority_low">Nizka prednost</string>
+  <string name="action_grid_priority_lowest">Najnižja prednost</string>
+  <string name="action_grid_assignee_dialog_title">Dodaj pooblaščenca</string>
+  <string name="action_grid_assignee_select_from_contacts">Izberi iz stikov</string>
+  <string name="action_grid_assignee_search_for_contact">Iskanje stika</string>
+  <string name="action_grid_assignee_button_bar_clear">Počisti</string>
+  <string name="action_message_header_delete">Izbriši to sporočilo?</string>
+  <string name="action_like">Všeč mi je</string>
+  <string name="action_todo">Za storiti</string>
+  <string name="action_quick">Hitro</string>
+  <string name="action_move">Premakni</string>
+  <string name="action_label">Označi</string>
+  <string name="action_move_or_label">Premakni/Označi</string>
+  <string name="action_archive">Arhiviraj</string>
+  <string name="action_delete">Izbriši</string>
+  <string name="action_spam">Neželeno</string>
+  <string name="action_flag">Označi z zastavico</string>
+  <string name="action_clear_flag">Počisti zastavico</string>
+  <string name="action_star">Označi z zvezdico</string>
+  <string name="action_clear_star">Počisti zvezdico</string>
+  <string name="action_star_or_flag">Označi z zvezdico/zastavico</string>
+  <string name="action_mark_unread">Označi kot neprebrano</string>
+  <string name="action_mark_read">Označi kot prebrano</string>
+  <string name="action_read_or_unread">Označi kot prebrano/neprebrano</string>
+  <string name="action_actions">Dejanja</string>
+  <string name="marked_evernote">Pošlji na Evernote</string>
+  <string name="marked_liked">Označeno z \'Všeč mi je\'</string>
+  <string name="marked_archived">Označeno kot arhivirano</string>
+  <string name="marked_deleted">Označeno za izbris</string>
+  <string name="marked_spam">Premaknjeno v Neželeno</string>
+  <string name="marked_todo">Označeno za storiti</string>
+  <string name="marked_done">Označeno kot končano</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Odziv poslan</item>
+    <item quantity="two">Odziva poslana</item>
+    <item quantity="few">Odzivi poslani</item>
+    <item quantity="other">Odzivi poslani</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Sporočilo označeno z \'Všeč mi je\'</item>
+    <item quantity="two">Sporočili označeni z \'Všeč mi je\'</item>
+    <item quantity="few">Sporočila označena z \'Všeč mi je\'</item>
+    <item quantity="other">Sporočila označena z \'Všeč mi je\'</item>
+  </plurals>
+  <string name="invalid_selection">Neveljavna izbira</string>
+  <string name="file_action_more_than_one_account">Izbrali ste pogovore za več kot en račun. Poskusite izbrati samo pogovore iz enega računa.</string>
+  <string name="evernote_action_more_than_one_conversation">Funkcionalnost Evernote podpira samo en pogovor na enkrat. Poskusite izbrati samo en pogovor.</string>
+  <string name="not_installed">Ni nameščeno</string>
+  <string name="evernote_not_installed">Ni videti, da je Evernote nameščen. Namestite ga, da uporabite to funkcionalnost.</string>
+  <string name="custom_mailbox_button">Dodaj polje po meri</string>
+  <string name="custom_mailbox_settings_label">Nastavitve</string>
+  <string name="custom_mailbox_folder_name_hint">Ime polja po meri</string>
+  <string name="custom_mailbox_background_sync_label">Sinhronizacija v ozadju</string>
+  <string name="custom_mailbox_background_sync_switch_on">Vkl.</string>
+  <string name="custom_mailbox_background_sync_switch_off">Izk.</string>
+  <string name="custom_mailbox_delete_box">Izbriši polje</string>
+  <string name="custom_mailbox_error_no_selected_folders">Iz spodnjega seznama izberite vsaj eno mapo</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Opozorilo</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Ali res želite izbrisati to polje po meri?</string>
+  <string name="custom_mailbox_error_deleting_box">Pri brisanju nabiralnika po meri se je pojavila napaka</string>
+  <string name="viral_prompt_rate_app_title">Oceni ta program</string>
+  <string name="viral_prompt_rate_app_body">Če vam je ta program všeč, si vzemite trenutek, da jo ocenite. Ne bo trajalo več kot minuto. Hvala za vašo podporo!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Opomni me kasneje</string>
+  <string name="viral_ratings_prompt_no_thanks">Ne, hvala</string>
+  <string name="viral_ratings_prompt_rate_now">Oceni zdaj</string>
+  <string name="promo_code_title_text">Ne spopadajte se s svojim nabiralnikom sami</string>
+  <string name="promo_code_edittext_hint">Vnesite promocijsko kodo</string>
+  <string name="promo_code_button_text">Pošlji</string>
+  <string name="promo_code_error_no_code_entered">Pred pošiljanjem vnesite promocijsko kodo</string>
+  <string name="promo_code_error_invalid_code">Neveljavna promocijska koda</string>
+  <string name="promo_code_dialog_title">Funkcije odklenjene</string>
+  <string name="promo_code_dialog_message">Uspešno ste odklenili <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Promocijska koda uspešno uveljavljena</string>
+  <string name="promo_code_progress_dialog_validating">Preverjanje veljavnosti promocijske kode</string>
+  <string name="rage_shake_title">Zaznano tresenje</string>
+  <string name="rage_shake_message">Ali bi radi sesuli program, da pošljete podatke o hrošču?</string>
+  <string name="actions_dialog_title">Prilagodi</string>
+  <string name="actions_dialog_message">Ali redno uporabljate mape? Sporočila pogosto označite kot neželena? Vam je všeč pošiljanje odrezkov na Evernote?\n\nS prilagojenimi dejanji potegov lahko te poteze nastavite, da ustrezajo vašemu poteku dela.\n</string>
+  <string name="actions_dialog_positive_button_text">Prilagodi potege</string>
+  <string name="actions_dialog_negative_button_text">Zapri</string>
+  <string name="account_setup_start_company_slogan_text">Dobrodošli v boljšo mapo Prejeto</string>
+  <string name="account_setup_vendor_heading">Dobrodošli v e-pošto</string>
+  <string name="account_setup_heading_email_instruction">Vnesite svoj e-poštni naslov, da začnete</string>
+  <string name="account_setup_heading_password_instruction">Vnesite svoje geslo</string>
+  <string name="like_action_dialog_tittle">Kaj je \'Všeč mi je\'?</string>
+  <string name="like_action_dialog_message">Našli ste naši priljubljeno funkcijo. Ko sporočilo označite z \'Všeč mi je\', bo pošiljatelju in drugim prejemnikom poslana e-pošta, da vam je všeč. To je doslej najhitrejši način, da odgovorite na e-pošto.</string>
+  <string name="new_button">Novo</string>
+  <string name="folder_name_hint">Ime mape</string>
+  <string name="create_folder_progess">Ustvarjanje mape \u2026</string>
+  <string name="duplicate_folder_title">Podvojeno ime</string>
+  <string name="duplicate_folder_message">Ime mape, ki ste ga vnesli, že obstaja.</string>
+  <string name="error">Napaka</string>
+  <string name="error_creating_folder_message">Mape ni mogoče ustvariti.</string>
+  <string name="report_rendering_problem">Prijavi</string>
+  <string name="message_reported">Sporočilo prijavljeno</string>
+  <string name="no_conversation_needs_sync">Tu ni pošte.\nPovlecite z vrha, da osvežite</string>
+  <string name="getting_messages">Pridobivanje vaših sporočil</string>
+  <string name="empty_folder">Tu ni pošte.</string>
+  <string name="empty_inbox">Končali ste! Uživajte v svojem dnevu.</string>
+  <string name="empty_search">Ups! Za <xliff:g id="search_query">%1$s</xliff:g> nismo našli ničesar.</string>
+  <string name="empty_spam_folder">Hura, tu ni neželene pošte!</string>
+  <string name="empty_trash_folder">Tu ni smeti. Hvala, da ste reciklirali!</string>
+  <string name="view_on_calendar">Pokaži na koledarju</string>
+  <string name="accept">Sprejmi</string>
+  <string name="maybe">Morda</string>
+  <string name="decline">Odkloni</string>
+  <string name="remove_from_cal">Odstrani iz koledarja</string>
+  <string name="remove_series_from_cal">Odstrani niz iz koledarja</string>
+  <string name="calendar_attendees_me_only">Jaz</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Jaz in še %d drugi</item>
+    <item quantity="two">Jaz in še %d druga</item>
+    <item quantity="few">Jaz in še %d drugi</item>
+    <item quantity="other">Jaz in še %d drugih</item>
+  </plurals>
+  <string name="all_day">Ves dan</string>
+  <string name="canceled">Preklicano</string>
+  <string name="times_that_work_for_me">Termini, na katere sem prost:</string>
+  <string name="availability_by">Razpoložljivost po</string>
+  <string name="remove_availability">Odstrani razpoložljivost</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo všeč z Boxerjem na OS-u Cyanogen</string>
 </resources>

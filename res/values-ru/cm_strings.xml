@@ -119,11 +119,11 @@
   <string name="action_grid_assignee_button_bar_clear">Очистить</string>
   <string name="action_message_header_delete">Удалить это сообщение?</string>
   <string name="action_like">Нравится</string>
-  <string name="action_todo">Список задач</string>
-  <string name="action_quick">Быстро</string>
+  <string name="action_todo">Задачи</string>
+  <string name="action_quick">Быстрый ответ</string>
   <string name="action_move">Переместить</string>
   <string name="action_label">Метка</string>
-  <string name="action_move_or_label">Переместить/Метка</string>
+  <string name="action_move_or_label">Переместить/метка</string>
   <string name="action_archive">Архивировать</string>
   <string name="action_delete">Удалить</string>
   <string name="action_spam">Спам</string>
@@ -134,7 +134,7 @@
   <string name="action_star_or_flag">Избранное/Флаг</string>
   <string name="action_mark_unread">Отметить как непрочитанное</string>
   <string name="action_mark_read">Отметить как прочитанное</string>
-  <string name="action_read_or_unread">Прочитано/непрочитано</string>
+  <string name="action_read_or_unread">Прочитанное/непрочитанное</string>
   <string name="action_actions">Действия</string>
   <string name="marked_evernote">Отправлено в Evernote</string>
   <string name="marked_liked">Помечено как понравившееся</string>
@@ -185,8 +185,8 @@
   <string name="promo_code_progress_dialog_validating">Проверка промо-кода</string>
   <string name="rage_shake_title">Распознано встряхивание</string>
   <string name="rage_shake_message">Вы хотите вызвать сбой в приложении, чтобы отправить отладочную информацию?</string>
-  <string name="actions_dialog_title">Настройка</string>
-  <string name="actions_dialog_message">Вы регулярно используете папки? Часто помечаете письма как спам? Любите закладки в Evernote?\n\n\С настройками действий жестов, Вы сможете установить любой жест, для любого действия.\n</string>
+  <string name="actions_dialog_title">Персональная настройка</string>
+  <string name="actions_dialog_message">Часто пользуетесь папками? Или отмечаете письма как спам? Отправляете заметки в Evernote?\n\n\Вы можете установить индивидуальные действия на различные жесты для максимально удобной работы.\n</string>
   <string name="actions_dialog_positive_button_text">Настройка жестов</string>
   <string name="actions_dialog_negative_button_text">Закрыть</string>
   <string name="account_setup_start_company_slogan_text">Добро пожаловать в лучший почтовый ящик</string>

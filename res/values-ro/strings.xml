@@ -22,9 +22,9 @@
   <string name="bcc">Bcc</string>
   <string name="subject_hint">Subiect</string>
   <string name="body_hint">Scrieţi un e-mail</string>
-  <string name="add_file_attachment">Ataşaţi un fişier</string>
+  <string name="add_file_attachment">Atașați un fișier</string>
   <string name="add_photo_attachment">Ataşaţi o fotografie</string>
-  <string name="save_draft">Salvaţi mesajul nefinal.</string>
+  <string name="save_draft">Salvare schiță</string>
   <string name="discard">Renunţaţi</string>
   <string name="compose">Scrieţi</string>
   <string-array name="compose_modes">
@@ -38,30 +38,30 @@
   <string name="cc_attribution">Cc: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
   <string name="select_attachment_type">Alegeți tipul de atașament</string>
   <string name="too_large_to_attach_single">Nu puteți atașa fișiere ce depășesc <xliff:g id="maxSize">%1$s</xliff:g>.</string>
-  <string name="too_large_to_attach_multiple">Unul sau mai multe fişiere nu au fost ataşate. Limita maximă este de <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
-  <string name="too_large_to_attach_additional">Fişierul nu a fost ataşat. A fost atinsă limita maximă de <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
-  <string name="generic_attachment_problem">Nu s-a putut ataşa fişierul.</string>
-  <string name="recipient_needed">Adăugaţi cel puţin un destinatar.</string>
+  <string name="too_large_to_attach_multiple">Unul sau mai multe fișiere nu au fost atașate. Limita maximă este <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">Fișierul nu a fost atașat. A fost atinsă limita maximă de <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="generic_attachment_problem">Nu s-a putut atașa fișierul.</string>
+  <string name="recipient_needed">Adăugați cel puțin un destinatar.</string>
   <string name="recipient_error_dialog_title">Eroare destinatar</string>
   <string name="confirm_send_title">Trimiteţi mesajul?</string>
   <string name="confirm_send_message_with_no_subject">Nu există text în subiectul mesajului.</string>
   <string name="confirm_send_message_with_no_body">Nu există text în corpul mesajului.</string>
-  <string name="confirm_send_message">Trimiteţi acest mesaj?</string>
+  <string name="confirm_send_message">Trimiteți acest mesaj?</string>
   <string name="message_discarded">Mesaj refuzat.</string>
   <string name="custom_from_account_label">Trim. ca de la:</string>
   <string name="send">Trimiteţi</string>
   <string name="mark_read">Marcaţi drept citită</string>
   <string name="mark_unread">Marcaţi drept necitită</string>
-  <string name="mute">Suprimaţi</string>
-  <string name="add_star">Marcaţi cu stea</string>
-  <string name="remove_star">Eliminaţi steaua</string>
+  <string name="mute">Mut</string>
+  <string name="add_star">Marcați cu stea</string>
+  <string name="remove_star">Eliminați steaua</string>
   <string name="remove_folder">Eliminaţi din <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="archive">Arhivaţi</string>
-  <string name="report_spam">Raportaţi ca spam</string>
+  <string name="report_spam">Raportați ca spam</string>
   <string name="mark_not_spam">Nu este spam</string>
-  <string name="report_phishing">Raportaţi phishing</string>
-  <string name="delete">Ștergeţi</string>
-  <string name="discard_drafts">Ștergeţi mesajele nefinalizate</string>
+  <string name="report_phishing">Raportați phishing</string>
+  <string name="delete">Ștergeți</string>
+  <string name="discard_drafts">Ștergeți mesajele nefinalizate</string>
   <string name="refresh">Actualizaţi</string>
   <string name="reply">Răspundeţi</string>
   <string name="reply_all">Răs. tuturor</string>
@@ -76,8 +76,8 @@
   <string name="menu_folder_options">Setări pentru dosar</string>
   <string name="menu_settings">Setări</string>
   <string name="menu_search">Căutaţi</string>
-  <string name="mark_important">Marcaţi ca importantă</string>
-  <string name="mark_not_important">Marcaţi ca neimportantă</string>
+  <string name="mark_important">Marcați ca importantă</string>
+  <string name="mark_not_important">Marcați ca neimportantă</string>
   <string name="add_cc_label">Adăugaţi cc/bcc</string>
   <string name="add_bcc_label">Adăugaţi bcc</string>
   <string name="feedback">Trimiteţi feedback</string>
@@ -96,7 +96,7 @@
   <string name="attachment_application_vnd_ms_powerpoint">Prezentare</string>
   <string name="attachment_application_vnd_ms_excel">Foaie de calcul</string>
   <string name="attachment_application_pdf">PDF</string>
-  <string name="attachment_unknown">Fişier <xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g></string>
+  <string name="attachment_unknown">Fișier <xliff:g id="attachmentExtension">%s</xliff:g></string>
   <string name="preview_attachment">Previzual.</string>
   <string name="save_attachment">Salvaţi</string>
   <string name="cancel_attachment">Anulaţi</string>
@@ -104,7 +104,7 @@
   <string name="more_info_attachment">Informaţii</string>
   <string name="no_application_found">Nu există o aplicaţie care să poată deschide acest ataşament pentru vizualizare.</string>
   <string name="fetching_attachment">Se preia ataşamentul</string>
-  <string name="please_wait">Aşteptaţi…</string>
+  <string name="please_wait">Așteptați\u2026</string>
   <string name="saved">Salvat, <xliff:g id="SIZE">%s</xliff:g></string>
   <string name="download_failed">Nu s-a descărcat. Reîncercați.</string>
   <string name="attachments_header">Ataşări</string>
@@ -114,11 +114,11 @@
   <string name="saving">Se salvează&#8230;</string>
   <string name="choosertitle_sharevia">Distribuiţi prin</string>
   <string name="contextmenu_openlink">Deschideţi în browser</string>
-  <string name="contextmenu_copy">Copiaţi</string>
-  <string name="contextmenu_copylink">Copiaţi adresa URL a linkului</string>
+  <string name="contextmenu_copy">Copiați</string>
+  <string name="contextmenu_copylink">Copiați adresa URL a linkului</string>
   <string name="contextmenu_dial_dot">Apelaţi...</string>
   <string name="contextmenu_sms_dot">SMS...</string>
-  <string name="contextmenu_add_contact">Adăugaţi o persoană de contact</string>
+  <string name="contextmenu_add_contact">Adăugare contact</string>
   <string name="contextmenu_send_mail">Trimiteţi e-mail</string>
   <string name="contextmenu_map">Hartă</string>
   <string name="contextmenu_sharelink">Distribuiţi linkul</string>
@@ -135,7 +135,17 @@
   <string name="me_object_pronun">eu</string>
   <string name="me_subject_pronun">eu</string>
   <string name="inbox_folders_heading">Mesaje primite</string>
-  <string name="confirm_discard_text">Renunţaţi la acest mesaj?</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Ștergeți această conversație?</item>
+    <item quantity="few">Ștergeți aceste <xliff:g id="count">%1$d</xliff:g> (de) conversații?</item>
+    <item quantity="other">Ștergeți aceste <xliff:g id="count">%1$d</xliff:g> conversații?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Arhivați această conversație?</item>
+    <item quantity="few">Arhivați aceste <xliff:g id="count">%1$d</xliff:g> (de) conversații?</item>
+    <item quantity="other">Arhivați aceste <xliff:g id="count">%1$d</xliff:g> (de) conversații?</item>
+  </plurals>
+  <string name="confirm_discard_text">Renunțați la acest mesaj?</string>
   <string name="loading_conversations">Se încarcă…</string>
   <string name="undo">Anulaţi</string>
   <string name="deleted">Ștearsă</string>
@@ -151,17 +161,17 @@
   <string name="search_unsupported">Căutarea nu este acceptată pentru acest cont.</string>
   <string name="search_results_searching_header">Se caută...</string>
   <string name="add_label">Adăugați un dosar</string>
-  <string name="expand_recipient_details">Extindeţi detaliile destinatarului</string>
+  <string name="expand_recipient_details">Extindeți detaliile destinatarului</string>
   <string name="collapse_recipient_details">Restrângeţi detaliile destinatarului</string>
   <string name="contact_info_string">Afişaţi informaţiile de contact pentru <xliff:g id="NAME">%1$s</xliff:g></string>
-  <string name="contact_info_string_default">Afişaţi informaţiile de contact</string>
+  <string name="contact_info_string_default">Afișați informațiile de contact</string>
   <string name="from_heading">De la: </string>
   <string name="replyto_heading">Răspundeți la: </string>
   <string name="to_heading">Către: </string>
   <string name="cc_heading">Cc: </string>
   <string name="bcc_heading">Bcc: </string>
   <string name="date_heading">Data: </string>
-  <string name="show_images">Afişaţi fotografiile</string>
+  <string name="show_images">Afișare imagini</string>
   <string name="always_show_images">Afişaţi întot. imag. de la acest exped.</string>
   <string name="always_show_images_toast">Imaginile de la acest expeditor vor fi afişate în mod automat.</string>
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
@@ -171,7 +181,7 @@
   <string name="invalid_recipient">Adresa <xliff:g id="WRONGEMAIL">%s</xliff:g> este nevalidă.</string>
   <string name="show_elided">▶ Afişaţi textul citat</string>
   <string name="hide_elided">▼ Ascundeţi textul citat</string>
-  <string name="message_invite_title">Invitaţie la Calendar</string>
+  <string name="message_invite_title">Invitație la Calendar</string>
   <string name="message_invite_calendar_view">Afişaţi în Calendar</string>
   <string name="message_invite_label_attending">Participați?</string>
   <string name="message_invite_accept">Da</string>
@@ -189,16 +199,16 @@
     <item>Nicio conexiune.</item>
     <item>Conectarea a eșuat.</item>
     <item>Eroare de securitate.</item>
-    <item>Sincronizarea a eşuat.</item>
+    <item>Sincronizarea a eșuat.</item>
     <item>Eroare internă</item>
   </string-array>
-  <string name="tap_to_configure">Atingeţi pentru a configura</string>
-  <string name="non_synced_folder_description">Pentru a afişa conversaţiile, sincronizaţi acest dosar.</string>
+  <string name="tap_to_configure">Atingeți pentru a configura</string>
+  <string name="non_synced_folder_description">Pentru a afișa conversațiile, sincronizați acest dosar.</string>
   <string name="tap_to_configure_folder_sync">Sincronizaţi dosarul</string>
   <string name="widget_large_unread_count">%d+</string>
   <string name="actionbar_large_unread_count">Peste <xliff:g id="COUNT">%1$d</xliff:g> necitite</string>
-  <string name="view_more_conversations">Afişaţi mai multe conversaţii</string>
-  <string name="activity_mailbox_selection">Alegeţi un cont</string>
+  <string name="view_more_conversations">Afișați mai multe conversații</string>
+  <string name="activity_mailbox_selection">Alegeți un cont</string>
   <string name="activity_folder_selection">Alegeţi un dosar</string>
   <string name="folder_shortcut_widget_label">Dosar de e-mail</string>
   <string name="change_folders_selection_dialog_title">Schimbați dosarele</string>
@@ -221,9 +231,9 @@
   <string name="via_domain">prin <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
   <string name="signin">Conectaţi-vă</string>
   <string name="info">Informaţii</string>
-  <string name="report">Raportaţi</string>
+  <string name="report">Raportați</string>
   <string name="sync_error">Sincronizarea a eșuat.</string>
-  <string name="sync_error_message">Dispozitivul dvs. nu are suficient spaţiu de stocare pentru a se efectua sincronizarea.</string>
+  <string name="sync_error_message">Dispozitivul dvs. nu are suficient spațiu de stocare pentru a se efectua sincronizarea.</string>
   <string name="storage">Stocare</string>
   <string name="senders_split_token">, </string>
   <string name="draft_count_format"> (<xliff:g id="COUNT">%1$s</xliff:g>)</string>

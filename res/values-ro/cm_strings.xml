@@ -17,9 +17,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Combinate</string>
+  <string name="menu_actiongrid">Grila de acțiune</string>
+  <string name="remove_account">Elimină cont</string>
   <string name="support">Suport</string>
+  <string name="delete_account_summary">Șterge acest cont și toate setările și datele sale</string>
+  <string name="delete_account_confirmation_msg">Se vor șterge toate setările și email-urile contului <xliff:g id="account">%s</xliff:g>. Această operație nu poate fi anulată.\n\nContinuați?</string>
   <string name="deleting_account_msg">Se șterge contul\u2026</string>
+  <string name="delete_account_failed">Contul nu a putut fi șters</string>
+  <string name="open_attachment">Deschidere</string>
+  <string name="install_attachment">Instalați</string>
   <string name="menu_photo_print">Imprimare</string>
+  <string name="reported_as_spam">Raportat ca spam</string>
+  <string name="new_incoming_messages_one">Arată mesaj nou de la <xliff:g id="sender">%s</xliff:g>.</string>
   <string name="edit">Editare</string>
   <string name="folder_search_hint">Căutare</string>
   <string-array name="moveto_folder_sections">
@@ -28,14 +37,16 @@
   </string-array>
   <string-array name="change_folders_sections">
     <item>Etichete inteligente</item>
-    <item>All labels</item>
+    <item>Toate etichetele</item>
   </string-array>
   <string name="all_folders_heading">Dosare</string>
   <string name="accounts_heading">Conturi</string>
+  <string name="vendor_signature">Trimis de pe telefon meu Cyanogen</string>
   <string name="notification_action_mark_read">CITIT</string>
   <string name="notification_action_reply">RĂSPUNS</string>
   <string name="notification_action_delete">ȘTERGE</string>
-  <string name="preferences_swipe_actions_title">Acţiuni de glisare</string>
+  <string name="preferences_swipe_actions_title">Acțiuni de glisare</string>
+  <string name="preferences_swipe_actions_summary">Personalizează acțiunile de glisare la stânga și dreapta</string>
   <string name="preferences_swipe_left_short_title">Glisare la stânga scurtă</string>
   <string name="preferences_swipe_left_long_title">Glisare la stânga lungă</string>
   <string name="preferences_swipe_right_short_title">Glisare la dreapta scurtă</string>
@@ -46,33 +57,94 @@
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
   </plurals>
+  <string name="draft_to_heading">Ciornă către: \u0020</string>
   <string name="draft_heading">Ciornă</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> atașament</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> atașamente</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> atașamente</item>
+  </plurals>
   <string name="no_subject">(fără subiect)</string>
+  <string name="action_grid_select_quick_response">Selectați răspuns rapid</string>
+  <string name="action_grid_todo_dialog_title">Detaliat</string>
+  <string name="action_grid_set_due_date">Setați data scadenței</string>
   <string name="action_grid_add_priority">Adaugă prioritate</string>
   <string name="action_grid_priority">Prioritate: \u0020</string>
+  <string name="action_grid_due_date_dialog_title">Setați data scadenței</string>
   <string name="action_grid_due_date_today">Astăzi</string>
   <string name="action_grid_due_date_tomorrow">Mâine</string>
   <string name="action_grid_due_date_this_week">Săptămâna aceasta</string>
   <string name="action_grid_due_date_next_week">Săptămâna viitoare</string>
+  <string name="action_grid_calendar_picker_dialog_title">Setați data scadenței</string>
+  <string name="action_grid_priority_dialog_title">Adaugă prioritate</string>
+  <string name="action_grid_priority_highest">Cea mai mare prioritate</string>
+  <string name="action_grid_priority_high">Prioritate mare</string>
+  <string name="action_grid_priority_normal">Prioritate normală</string>
   <string name="action_grid_priority_low">Prioritate scăzută</string>
+  <string name="action_grid_priority_lowest">Cea mai mică prioritate</string>
+  <string name="action_grid_assignee_select_from_contacts">Selectați din contacte</string>
+  <string name="action_grid_assignee_button_bar_clear">Curăță</string>
+  <string name="action_message_header_delete">Ștergeți acest mesaj?</string>
+  <string name="action_todo">De făcut</string>
+  <string name="action_quick">Rapid</string>
   <string name="action_label">Etichetă</string>
   <string name="action_move_or_label">Mutare/Etichetă</string>
   <string name="action_spam">Spam</string>
+  <string name="action_flag">Fanion</string>
+  <string name="action_clear_flag">Golire fanion</string>
   <string name="action_star">Stea</string>
-  <string name="action_actions">Acţiuni</string>
+  <string name="action_clear_star">Golire stea</string>
+  <string name="action_read_or_unread">Citit/Necitit</string>
+  <string name="action_actions">Acțiuni</string>
+  <string name="marked_evernote">Trimis la Evernote</string>
+  <string name="marked_liked">Marcat ca plăcut</string>
+  <string name="marked_archived">Marcat pentru arhivare</string>
+  <string name="marked_deleted">Marcat pentru ștergere</string>
+  <string name="marked_todo">Marcat ca de făcut</string>
+  <string name="marked_done">Marcat ca făcut</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Răspuns trimis</item>
+    <item quantity="few">Răspunsuri trimise</item>
+    <item quantity="other">Răspunsuri trimise</item>
+  </plurals>
+  <string name="invalid_selection">Selecție invalidă</string>
+  <string name="file_action_more_than_one_account">Ați selectat conversații din mai mult de un cont. Încercați să selectați numai conversații dintr-un cont.</string>
+  <string name="evernote_action_more_than_one_conversation">Funcționalitatea Evernote acceptă numai o conversație la un moment dat. Încercați să selectați doar o conversație.</string>
   <string name="custom_mailbox_settings_label">Setări</string>
   <string name="custom_mailbox_background_sync_label">Sincronizare în fundal</string>
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
+  <string name="custom_mailbox_error_no_selected_folders">Vă rugăm să selectați cel puțin un dosar din lista de mai jos</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
   <string name="viral_ratings_prompt_remind_me_later">Aminteşte-mi mai târziu</string>
   <string name="viral_ratings_prompt_no_thanks">Nu, mulțumesc</string>
+  <string name="viral_ratings_prompt_rate_now">Evaluează acum</string>
+  <string name="promo_code_edittext_hint">Introduceți codul de promoție</string>
+  <string name="promo_code_error_no_code_entered">Vă rugăm să introduceți un cod promoțional înainte de a apăsa trimite</string>
+  <string name="promo_code_error_invalid_code">Cod promoție incorect</string>
+  <string name="promo_code_dialog_title">Caracteristici deblocate</string>
+  <string name="promo_code_dialog_message">Ați deblocat cu succes <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Cod promoțional aplicat cu succes</string>
+  <string name="promo_code_progress_dialog_validating">Validare cod promoțional</string>
+  <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
+  <string name="account_setup_heading_email_instruction">Introduceți adresa de e-mail pentru a începe</string>
+  <string name="account_setup_heading_password_instruction">Introduceți parola</string>
   <string name="new_button">Nou</string>
   <string name="duplicate_folder_title">Nume duplicat</string>
+  <string name="duplicate_folder_message">Numele de dosar pe care l-ați introdus există deja.</string>
   <string name="error">Eroare</string>
+  <string name="error_creating_folder_message">Dosarul nu a putut fi creat.</string>
+  <string name="report_rendering_problem">Raportați</string>
+  <string name="message_reported">Mesaj raportat</string>
   <string name="no_conversation_needs_sync">Nu există niciun mail aici.\nTrageți în jos din partea de sus pentru a împrospăta</string>
   <string name="empty_folder">Nu există niciun mail aici.</string>
+  <string name="empty_trash_folder">Nu există gunoi aici. Mulțumim pentru reciclare!</string>
+  <string name="accept">Accept</string>
   <string name="maybe">Poate</string>
+  <string name="decline">Declin</string>
+  <string name="remove_from_cal">Elimină din calendar</string>
+  <string name="remove_series_from_cal">Elimină serie din calendar</string>
   <string name="all_day">Toată ziua</string>
+  <string name="canceled">Anulat</string>
 </resources>
