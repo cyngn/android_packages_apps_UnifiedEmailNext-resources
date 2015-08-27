@@ -308,6 +308,29 @@
     <string name="availability_by">Availability by</string>
     <string name="remove_availability">Remove availability</string>
 
+    <string name="event_over">Event over</string>
+    <string name="busy">Busy</string>
+    <string name="available">Available</string>
+    <plurals name="other_conflicts">
+        <item quantity="one">%d other conflict</item>
+        <item quantity="other">%d other conflicts</item>
+    </plurals>
+    <string name="meeting_invitation">Meeting invitation:</string>
+    <string name="remove_invite">Remove invite</string>
+
     <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> liked your message with Boxer on Cyanogen OS</string>
 
+    <string name="error_no_app_store">No suitable app store was found</string>
+
+    <string name="calendar_feature_dialog_title">Download Boxer Calendar</string>
+    <string name="calendar_feature_dialog_msg">Boxer provides calendar features that work exclusively with Boxer Calendar. To enable this feature, download the latest version of Boxer Calendar today (FREE)</string>
+    <string name="calendar_feature_dialog_positive_btn">INSTALL</string>
+    <string name="calendar_feature_dialog_negative_btn">NOT NOW</string>
+
+    <string-array name="compose_add_attachment" translatable="false">
+        <item>@string/add_file_attachment</item>
+        <item>@string/add_photo_attachment</item>
+    </string-array>
+    <!-- String shown in the TO field when it is blank -->
+    <string name="undisclosed_recipients">Undisclosed Recipients</string>
 </resources>
