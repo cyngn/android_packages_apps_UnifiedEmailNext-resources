@@ -225,7 +225,24 @@
   </plurals>
   <string name="all_day">Celý deň</string>
   <string name="canceled">Zrušené</string>
+  <string name="times_that_work_for_me">Vhodné časy pre mňa:</string>
   <string name="availability_by">Dostupnosť od</string>
   <string name="remove_availability">Odstrániť dostupnosť</string>
+  <string name="event_over">Udalosť cez</string>
+  <string name="busy">Zaneprázdnený</string>
+  <string name="available">Dostupný</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d iný konflikt</item>
+    <item quantity="few">%d iné konflikty</item>
+    <item quantity="other">%d iných konfliktov</item>
+  </plurals>
+  <string name="meeting_invitation">Pozvánka na stretnutie:</string>
+  <string name="remove_invite">Odstrániť pozvánku</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> sa páči vaša správa s aplikáciou Boxer na Cyanogen OS</string>
+  <string name="error_no_app_store">Nenašiel sa žiadny vhodný obchod s aplikáciami</string>
+  <string name="calendar_feature_dialog_title">Stiahnuť Boxer Kalendár</string>
+  <string name="calendar_feature_dialog_msg">Boxer poskytuje funkcie kalendára, ktoré pracujú výhradne s Boxer Kalendárom. Ak chcete povoliť túto funkciu, stiahnite si najnovšiu verziu Boxer Kalendára už dnes (zadarmo)</string>
+  <string name="calendar_feature_dialog_positive_btn">INŠTALOVAŤ</string>
+  <string name="calendar_feature_dialog_negative_btn">TERAZ NIE</string>
+  <string name="undisclosed_recipients">Nezverejnení príjemcovia</string>
 </resources>

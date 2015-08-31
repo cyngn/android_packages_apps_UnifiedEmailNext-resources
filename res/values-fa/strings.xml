@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">از</string>
   <string name="to">گیرنده</string>
   <string name="cc">گیرندهٔ کپی</string>
   <string name="bcc">گیرندهٔ کپی مخفی</string>
@@ -220,7 +221,7 @@
   <string name="enumeration_comma">، </string>
   <string name="yes">بله</string>
   <string name="no">خیر</string>
-  <string name="ok">تأیید</string>
+  <string name="ok">بسیارخب</string>
   <string name="done">انجام شد</string>
   <string name="cancel">لغو</string>
   <string name="clear">پاک کردن</string>
@@ -300,7 +301,7 @@
   <string name="notification_action_undo_delete">حذف شده</string>
   <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
-  <string name="silent_ringtone">بیصدا</string>
+  <string name="silent_ringtone">بی‌صدا</string>
   <string name="preference_removal_action_title">عملکردهای بایگانی و حذف</string>
   <string-array name="prefEntries_removal_action">
     <item>فقط نمایش بایگانی</item>
@@ -330,7 +331,7 @@
   <string name="drawer_open">باز کردن کشوی پیمایش</string>
   <string name="drawer_close">بستن کشوی پیمایش</string>
   <string name="conversation_photo_welcome_text">برای انتخاب مکالمه، تصویر فرستنده را لمس کنید.</string>
-  <string name="long_press_to_select_tip">برای انتخاب یک مکالمه لمس کرده، نگه دارید، سپس برای انتخاب موارد بیشتر لمس کنید.</string>
+  <string name="long_press_to_select_tip">برای انتخاب یک مکالمه لمس کرده و نگه دارید، سپس برای انتخاب موارد بیشتر لمس کنید.</string>
   <string name="folder_icon_desc">نماد پوشه</string>
   <string name="add_account">افزودن حساب</string>
   <string name="attached_message">پیام پیوست شده</string>
@@ -344,7 +345,7 @@
   <string name="unsent_messages_in_outbox"><xliff:g id="NUMBER">%1$s</xliff:g> پیام ارسال نشده در <xliff:g id="OUTBOX">%2$s</xliff:g></string>
   <string name="turn_auto_sync_on_dialog_title">همگام‌سازی خودکار روشن شود؟</string>
   <string name="turn_auto_sync_on_dialog_body">‏تغییراتی که در تمام برنامه‌ها و حساب‌ها ایجاد می‌کنید نه فقط Gmail، بین وب، سایر دستگاه‌هایتان و <xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g> شما همگام‌سازی می‌شود.</string>
-  <string name="phone">تلفن</string>
+  <string name="phone">گوشی</string>
   <string name="tablet">رایانه لوحی</string>
   <string name="turn_auto_sync_on_dialog_confirm_btn">روشن کردن</string>
   <string name="show_n_more_folders">نمایش <xliff:g id="NUMBER">%1$s</xliff:g> پوشه بیشتر</string>

@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Combinate</string>
+  <string name="menu_select_all">Selectare totală</string>
   <string name="menu_actiongrid">Grila de acțiune</string>
   <string name="remove_account">Elimină cont</string>
   <string name="support">Suport</string>
@@ -42,9 +43,15 @@
   <string name="all_folders_heading">Dosare</string>
   <string name="accounts_heading">Conturi</string>
   <string name="vendor_signature">Trimis de pe telefon meu Cyanogen</string>
+  <string name="vendor_signature_fmt">Trimis de la <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="notification_action_mark_read">CITIT</string>
   <string name="notification_action_reply">RĂSPUNS</string>
   <string name="notification_action_delete">ȘTERGE</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> mesaj nou</item>
+    <item quantity="few"><xliff:g id="count">%1$d </xliff:g> mesaje noi</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> mesaje noi</item>
+  </plurals>
   <string name="preferences_swipe_actions_title">Acțiuni de glisare</string>
   <string name="preferences_swipe_actions_summary">Personalizează acțiunile de glisare la stânga și dreapta</string>
   <string name="preferences_swipe_left_short_title">Glisare la stânga scurtă</string>
@@ -68,6 +75,7 @@
   <string name="action_grid_select_quick_response">Selectați răspuns rapid</string>
   <string name="action_grid_todo_dialog_title">Detaliat</string>
   <string name="action_grid_set_due_date">Setați data scadenței</string>
+  <string name="action_grid_due">Scadență: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Adaugă prioritate</string>
   <string name="action_grid_priority">Prioritate: \u0020</string>
   <string name="action_grid_due_date_dialog_title">Setați data scadenței</string>
@@ -85,15 +93,18 @@
   <string name="action_grid_assignee_select_from_contacts">Selectați din contacte</string>
   <string name="action_grid_assignee_button_bar_clear">Curăță</string>
   <string name="action_message_header_delete">Ștergeți acest mesaj?</string>
+  <string name="action_like">Apreciere</string>
   <string name="action_todo">De făcut</string>
   <string name="action_quick">Rapid</string>
   <string name="action_label">Etichetă</string>
   <string name="action_move_or_label">Mutare/Etichetă</string>
+  <string name="action_delete">Ștergeți</string>
   <string name="action_spam">Spam</string>
   <string name="action_flag">Fanion</string>
   <string name="action_clear_flag">Golire fanion</string>
   <string name="action_star">Stea</string>
   <string name="action_clear_star">Golire stea</string>
+  <string name="action_star_or_flag">Stea/Fanion</string>
   <string name="action_read_or_unread">Citit/Necitit</string>
   <string name="action_actions">Acțiuni</string>
   <string name="marked_evernote">Trimis la Evernote</string>
@@ -107,15 +118,18 @@
     <item quantity="few">Răspunsuri trimise</item>
     <item quantity="other">Răspunsuri trimise</item>
   </plurals>
-  <string name="invalid_selection">Selecție invalidă</string>
+  <string name="invalid_selection">Selecție incorectă</string>
   <string name="file_action_more_than_one_account">Ați selectat conversații din mai mult de un cont. Încercați să selectați numai conversații dintr-un cont.</string>
   <string name="evernote_action_more_than_one_conversation">Funcționalitatea Evernote acceptă numai o conversație la un moment dat. Încercați să selectați doar o conversație.</string>
   <string name="custom_mailbox_settings_label">Setări</string>
+  <string name="custom_mailbox_folder_name_hint">Nume căsuță personalizată</string>
   <string name="custom_mailbox_background_sync_label">Sincronizare în fundal</string>
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
   <string name="custom_mailbox_error_no_selected_folders">Vă rugăm să selectați cel puțin un dosar din lista de mai jos</string>
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Sunteți sigur că doriți să ștergeți această casetă personalizată?</string>
+  <string name="custom_mailbox_error_deleting_box">A existat o eroare în timpul ștergerii cutiei poștale particularizate</string>
   <string name="viral_ratings_prompt_remind_me_later">Aminteşte-mi mai târziu</string>
   <string name="viral_ratings_prompt_no_thanks">Nu, mulțumesc</string>
   <string name="viral_ratings_prompt_rate_now">Evaluează acum</string>
@@ -131,6 +145,7 @@
   <string name="account_setup_heading_email_instruction">Introduceți adresa de e-mail pentru a începe</string>
   <string name="account_setup_heading_password_instruction">Introduceți parola</string>
   <string name="new_button">Nou</string>
+  <string name="folder_name_hint">Numele de dosar</string>
   <string name="duplicate_folder_title">Nume duplicat</string>
   <string name="duplicate_folder_message">Numele de dosar pe care l-ați introdus există deja.</string>
   <string name="error">Eroare</string>
@@ -147,4 +162,9 @@
   <string name="remove_series_from_cal">Elimină serie din calendar</string>
   <string name="all_day">Toată ziua</string>
   <string name="canceled">Anulat</string>
+  <string name="remove_availability">Elimină disponibilitatea</string>
+  <string name="busy">Ocupat</string>
+  <string name="available">Disponibil</string>
+  <string name="meeting_invitation">Invitație de întâlnire:</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALAȚI</string>
 </resources>

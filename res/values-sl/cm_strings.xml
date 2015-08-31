@@ -187,7 +187,7 @@
   <string name="promo_code_button_text">Pošlji</string>
   <string name="promo_code_error_no_code_entered">Pred pošiljanjem vnesite promocijsko kodo</string>
   <string name="promo_code_error_invalid_code">Neveljavna promocijska koda</string>
-  <string name="promo_code_dialog_title">Funkcije odklenjene</string>
+  <string name="promo_code_dialog_title">Značilnosti odklenjene</string>
   <string name="promo_code_dialog_message">Uspešno ste odklenili <xliff:g id="features">%s</xliff:g></string>
   <string name="promo_code_dialog_generic_success_msg">Promocijska koda uspešno uveljavljena</string>
   <string name="promo_code_progress_dialog_validating">Preverjanje veljavnosti promocijske kode</string>
@@ -202,7 +202,7 @@
   <string name="account_setup_heading_email_instruction">Vnesite svoj e-poštni naslov, da začnete</string>
   <string name="account_setup_heading_password_instruction">Vnesite svoje geslo</string>
   <string name="like_action_dialog_tittle">Kaj je \'Všeč mi je\'?</string>
-  <string name="like_action_dialog_message">Našli ste naši priljubljeno funkcijo. Ko sporočilo označite z \'Všeč mi je\', bo pošiljatelju in drugim prejemnikom poslana e-pošta, da vam je všeč. To je doslej najhitrejši način, da odgovorite na e-pošto.</string>
+  <string name="like_action_dialog_message">Našli ste našo priljubljeno značilnost. Ko sporočilo označite z \'Všeč mi je\', bo pošiljatelju in drugim prejemnikom poslana e-pošta, da vam je všeč. To je doslej najhitrejši način, da odgovorite na e-pošto.</string>
   <string name="new_button">Novo</string>
   <string name="folder_name_hint">Ime mape</string>
   <string name="create_folder_progess">Ustvarjanje mape \u2026</string>
@@ -237,5 +237,22 @@
   <string name="times_that_work_for_me">Termini, na katere sem prost:</string>
   <string name="availability_by">Razpoložljivost po</string>
   <string name="remove_availability">Odstrani razpoložljivost</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo všeč z Boxerjem na OS-u Cyanogen</string>
+  <string name="event_over">Dogodek končan</string>
+  <string name="busy">Zaseden</string>
+  <string name="available">Na voljo</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">in še %d drug spor</item>
+    <item quantity="two">in še %d druga spora</item>
+    <item quantity="few">in še %d drugi spori</item>
+    <item quantity="other">in še %d drugih sporov</item>
+  </plurals>
+  <string name="meeting_invitation">Povabilo na srečanje:</string>
+  <string name="remove_invite">Odstrani povabilo</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo z Boxerjem na OS-u Cyanogen všeč</string>
+  <string name="error_no_app_store">Nobene primerne trgovine programov ni bilo najdene</string>
+  <string name="calendar_feature_dialog_title">Prejmi Koledar Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer ponuja značilnosti koledarja, ki delujejo izključno s Koledarjem Boxer. Da to značilnost omogočite, prejmite najnovejšo različico Koledarja Boxer še danes (BREZPLAČNO)</string>
+  <string name="calendar_feature_dialog_positive_btn">NAMESTI</string>
+  <string name="calendar_feature_dialog_negative_btn">NE ZDAJ</string>
+  <string name="undisclosed_recipients">Nerazkriti prejemniki</string>
 </resources>

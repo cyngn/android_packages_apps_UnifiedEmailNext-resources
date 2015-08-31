@@ -219,5 +219,20 @@
   <string name="times_that_work_for_me">זמנים שמתאימים לי:</string>
   <string name="availability_by">זמין דרך</string>
   <string name="remove_availability">הסר זמינות</string>
+  <string name="event_over">אירוע הסתיים</string>
+  <string name="busy">עסוק</string>
+  <string name="available">זמין</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">התנגשות אחרת %d</item>
+    <item quantity="other">%d התנגשויות אחרות</item>
+  </plurals>
+  <string name="meeting_invitation">הזמנה לפגישה:</string>
+  <string name="remove_invite">הסר הזמנה</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב את ההודעה שלך דרך Boxer המותקן על מערכת Cyanogen</string>
+  <string name="error_no_app_store">לא נמצא יישום מתאים בחנות</string>
+  <string name="calendar_feature_dialog_title">הורד את Boxer Calendar</string>
+  <string name="calendar_feature_dialog_msg">Boxer מספק תכונות ללוח שנה העובדות רק עם יישום Boxer Calendar. כדי להפעיל תכונה זו, הורד היום את הגרסה העדכנית של Boxer Calendar (בחינם)</string>
+  <string name="calendar_feature_dialog_positive_btn">התקנה</string>
+  <string name="calendar_feature_dialog_negative_btn">לא כרגע</string>
+  <string name="undisclosed_recipients">נמענים לא ידועים</string>
 </resources>

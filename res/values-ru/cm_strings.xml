@@ -131,7 +131,7 @@
   <string name="action_clear_flag">Удалить флаг</string>
   <string name="action_star">Избранное</string>
   <string name="action_clear_star">Удалить из избранного</string>
-  <string name="action_star_or_flag">Избранное/Флаг</string>
+  <string name="action_star_or_flag">В избранное</string>
   <string name="action_mark_unread">Отметить как непрочитанное</string>
   <string name="action_mark_read">Отметить как прочитанное</string>
   <string name="action_read_or_unread">Прочитанное/непрочитанное</string>

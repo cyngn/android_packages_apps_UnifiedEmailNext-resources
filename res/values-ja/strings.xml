@@ -17,9 +17,10 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">From</string>
   <string name="to">To</string>
-  <string name="cc">Cc</string>
-  <string name="bcc">Bcc</string>
+  <string name="cc">CC</string>
+  <string name="bcc">BCC</string>
   <string name="subject_hint">件名</string>
   <string name="body_hint">メールを作成します</string>
   <string name="add_file_attachment">ファイルを添付</string>

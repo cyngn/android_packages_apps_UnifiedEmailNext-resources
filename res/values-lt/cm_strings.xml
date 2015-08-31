@@ -207,4 +207,9 @@
   <string name="empty_search">Oi! nieko neradome „<xliff:g id="search_query">%1$s</xliff:g>“.</string>
   <string name="empty_spam_folder">Valio, nėra jokio šlamšto!</string>
   <string name="empty_trash_folder">Šiukšlių nėra. Ačiū už perdirbimą!</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Aš &amp; %d kitas</item>
+    <item quantity="few">Aš &amp; %d kiti</item>
+    <item quantity="other">Aš &amp; %d kiti</item>
+  </plurals>
 </resources>

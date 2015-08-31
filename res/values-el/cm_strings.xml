@@ -219,5 +219,13 @@
   <string name="times_that_work_for_me">Ώρες που με βολεύουν:</string>
   <string name="availability_by">Διαθεσιμότητα από</string>
   <string name="remove_availability">Αφαίρεση διαθεσιμότητας</string>
+  <string name="event_over">Το συμβάν τελείωσε</string>
+  <string name="busy">Απασχολημένος</string>
+  <string name="available">Διαθέσιμος</string>
+  <string name="meeting_invitation">Πρόσκληση συνάντησης:</string>
+  <string name="remove_invite">Αφαίρεση πρόσκλησης</string>
   <string name="action_liked_message_cm">Το μήνυμά σας άρεσε σε \"<xliff:g id="display_name" example="John Doe">%s</xliff:g>\" με Boxer σε Cyanogen OS</string>
+  <string name="error_no_app_store">Δε βρέθηκε καμία κατάλληλη εφαρμογή</string>
+  <string name="calendar_feature_dialog_positive_btn">ΕΓΚΑΤΑΣΤΑΣΗ</string>
+  <string name="calendar_feature_dialog_negative_btn">ΟΧΙ ΤΩΡΑ</string>
 </resources>

@@ -228,5 +228,21 @@
   <string name="times_that_work_for_me">Mé časy:</string>
   <string name="availability_by">K dispozici dle</string>
   <string name="remove_availability">Odebrat dostupnost</string>
+  <string name="event_over">Událost skončila</string>
+  <string name="busy">Zaneprázdněn</string>
+  <string name="available">K dispozici</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d další konflikt</item>
+    <item quantity="few">%d další konfliky</item>
+    <item quantity="other">%d další konfliků</item>
+  </plurals>
+  <string name="meeting_invitation">Pozvánka na schůzku:</string>
+  <string name="remove_invite">Odebrat pozvánku</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> se líbí vaše zpráva s aplikací Boxer na Cyanogen OS</string>
+  <string name="error_no_app_store">Nenalezen žádný vhodný obchod s aplikacemi</string>
+  <string name="calendar_feature_dialog_title">Stáhnout kalendář Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer poskytuje funkce kalendáře, které spolupracují výhradně s Boxer kalendářem. Chcete-li tuto funkci povolit, stáhněte nejnovější verzi Boxer kalendáře (ZDARMA)</string>
+  <string name="calendar_feature_dialog_positive_btn">NAINSTALOVAT</string>
+  <string name="calendar_feature_dialog_negative_btn">TEĎ NE</string>
+  <string name="undisclosed_recipients">Neznámí příjemci</string>
 </resources>

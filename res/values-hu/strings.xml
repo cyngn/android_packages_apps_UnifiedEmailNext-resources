@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">Feladó</string>
   <string name="to">Címzett</string>
   <string name="cc">Másolatot kap</string>
   <string name="bcc">Titkos másolat</string>

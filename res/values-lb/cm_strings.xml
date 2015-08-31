@@ -170,4 +170,8 @@
   <string name="empty_search">Upps! Mir hunn näischt fonnt fir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, kee Spam do!</string>
   <string name="empty_trash_folder">Keen Offall hei. Merci fir d\'recycléieren!</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ech an %d aneren</item>
+    <item quantity="other">Ech a(n) %d aner</item>
+  </plurals>
 </resources>

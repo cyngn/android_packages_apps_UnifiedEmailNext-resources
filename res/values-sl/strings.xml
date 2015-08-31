@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">Od</string>
   <string name="to">Za</string>
   <string name="cc">Kp</string>
   <string name="bcc">Skp</string>

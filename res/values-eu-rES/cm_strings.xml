@@ -219,5 +219,20 @@
   <string name="times_that_work_for_me">Ondo datozkidan orduak:</string>
   <string name="availability_by">Eskuragarritasuna hemen</string>
   <string name="remove_availability">Ezabatu eskuragarritasuna</string>
+  <string name="event_over">Gertaeraren bukaera</string>
+  <string name="busy">Lanpetuta</string>
+  <string name="available">Eskuragarri</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">beste gatazka %d</item>
+    <item quantity="other">beste %d gatazka</item>
+  </plurals>
+  <string name="meeting_invitation">Biltzeko gonbidapena:</string>
+  <string name="remove_invite">Ezabatu gonbidapena</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>(e)k zure mezua gustuko markatu du Boxer erabiliz Cyanogen OSn</string>
+  <string name="error_no_app_store">Ez da aplikazio denda egokirik aurkitu</string>
+  <string name="calendar_feature_dialog_title">Deskargatu Boxer egutegia</string>
+  <string name="calendar_feature_dialog_msg">Boxerrek baditu soilik Boxer egutegiarekin dabiltzan egutegi ezaugarriak. Ezaugarri hau gaitzeko, deskargatu Boxer egutegia orain (doan)</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALATU</string>
+  <string name="calendar_feature_dialog_negative_btn">ORAIN EZ</string>
+  <string name="undisclosed_recipients">Jasotzaile ezkutuak</string>
 </resources>
