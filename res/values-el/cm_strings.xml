@@ -222,10 +222,17 @@
   <string name="event_over">Το συμβάν τελείωσε</string>
   <string name="busy">Απασχολημένος</string>
   <string name="available">Διαθέσιμος</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d ακόμη σύγκρουση</item>
+    <item quantity="other">%d ακόμη σύγκρουσεις</item>
+  </plurals>
   <string name="meeting_invitation">Πρόσκληση συνάντησης:</string>
   <string name="remove_invite">Αφαίρεση πρόσκλησης</string>
   <string name="action_liked_message_cm">Το μήνυμά σας άρεσε σε \"<xliff:g id="display_name" example="John Doe">%s</xliff:g>\" με Boxer σε Cyanogen OS</string>
   <string name="error_no_app_store">Δε βρέθηκε καμία κατάλληλη εφαρμογή</string>
+  <string name="calendar_feature_dialog_title">Λήψη Ημερολογίου Boxer</string>
+  <string name="calendar_feature_dialog_msg">Η Boxer παρέχει δυνατότητες ημερολογίου που λειτουργούν αποκλειστικά με το Ημερολόγιο Boxer. Για να ενεργοποιήσετε αυτό το χαρακτηριστικό, κατεβάστε την τελευταία έκδοση του Ημερολογίου Boxer σήμερα (δωρεάν)</string>
   <string name="calendar_feature_dialog_positive_btn">ΕΓΚΑΤΑΣΤΑΣΗ</string>
   <string name="calendar_feature_dialog_negative_btn">ΟΧΙ ΤΩΡΑ</string>
+  <string name="undisclosed_recipients">Κανένας παραλήπτης</string>
 </resources>

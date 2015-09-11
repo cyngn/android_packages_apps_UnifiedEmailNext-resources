@@ -183,7 +183,7 @@
   <string-array name="sync_status">
     <item>Uspešno</item>
     <item>Ni povezave.</item>
-    <item>Prijava ni mogoča.</item>
+    <item>Vpis ni bil mogoč.</item>
     <item>Varnostna napaka.</item>
     <item>Sinhroniziranje ni mogoče.</item>
     <item>Notranja napaka</item>
@@ -215,7 +215,7 @@
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
   <string name="ignore_spam_warning">Prezri, temu sporočilu zaupam</string>
   <string name="via_domain">prek <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
-  <string name="signin">Prijava</string>
+  <string name="signin">Vpis</string>
   <string name="info">Informacije</string>
   <string name="report">Obvestite nas</string>
   <string name="sync_error">Sinhroniziranje ni mogoče.</string>

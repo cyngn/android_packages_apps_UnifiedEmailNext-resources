@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">ಇಂದ</string>
   <string name="to">ಗೆ</string>
   <string name="cc">ಸಿಸಿ</string>
   <string name="bcc">ಬಿಸಿಸಿ</string>

@@ -219,5 +219,20 @@
   <string name="times_that_work_for_me">Hores que em van bé a mi:</string>
   <string name="availability_by">Disponibilitat per</string>
   <string name="remove_availability">Treu la disponibilitat</string>
+  <string name="event_over">Esdeveniment acabat</string>
+  <string name="busy">Ocupat</string>
+  <string name="available">Disponible</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d conflicte més</item>
+    <item quantity="other">%d conflictes més</item>
+  </plurals>
+  <string name="meeting_invitation">Invitació a una reunió:</string>
+  <string name="remove_invite">Treu l\'invitació</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> li ha agradat el teu missatge amb Boxer a Cianogen OS</string>
+  <string name="error_no_app_store">No s\'ha trobat cap botiga d\'aplicacions adequada</string>
+  <string name="calendar_feature_dialog_title">Descarrega el Calendari Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer proporciona característiques de calendari que funcionen exclusivament amb el calendari Boxer. Per habilitar aquesta funció, descarrega l\'última versió del Calendari Boxer avui (Gratuït)</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTAL·LA</string>
+  <string name="calendar_feature_dialog_negative_btn">ARA NO</string>
+  <string name="undisclosed_recipients">Destinataris no revelats</string>
 </resources>

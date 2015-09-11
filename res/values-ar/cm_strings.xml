@@ -209,7 +209,7 @@
   <string name="promo_code_dialog_generic_success_msg">تم تطبيق الرمز الترويجي بنجاح</string>
   <string name="promo_code_progress_dialog_validating">جاري التحقق من صحة الرمز الترويجي</string>
   <string name="rage_shake_title">تم الكشف عن اهتزاز</string>
-  <string name="rage_shake_message">هل تريد أن تعطل التطبيق لإرسال معلومات تصحيح الأخطاء؟</string>
+  <string name="rage_shake_message">هل تريد أن تُدمِّر التطبيق لإرسال معلومات تنقيح الأخطاء؟</string>
   <string name="actions_dialog_title">تخصيص</string>
   <string name="actions_dialog_message">هل تستخدم المجلدات بشكل منتظم؟ وكثيراً ما تضع علامة البريد المزعج؟ وتحب إرفاق القصاصات إلى ايفرنوت؟ \n\n مع التمريرات المخصصة، يمكنك تعيين أي من هذه الإيماءات لتتناسب مع سير عملك. \n</string>
   <string name="actions_dialog_positive_button_text">التمريرات المخصصة</string>

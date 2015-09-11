@@ -219,5 +219,20 @@
   <string name="times_that_work_for_me">Volte che funziona per me:</string>
   <string name="availability_by">Disponibilità di %s</string>
   <string name="remove_availability">Rimuovi disponibilità</string>
+  <string name="event_over">Evento su</string>
+  <string name="busy">Occupato</string>
+  <string name="available">Disponibile</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d altro conflitto</item>
+    <item quantity="other">%d altri conflitti</item>
+  </plurals>
+  <string name="meeting_invitation">Invito a riunione:</string>
+  <string name="remove_invite">Rimuovi invito</string>
   <string name="action_liked_message_cm">A <xliff:g id="display_name" example="John Doe">%s</xliff:g> è piaciuto il tuo messaggio con Boxer su Cyanogen OS</string>
+  <string name="error_no_app_store">Nessun app store adatto è stato trovato</string>
+  <string name="calendar_feature_dialog_title">Scarica Calendario Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer fornisce un funzioni calendario che funzionano esclusivamente con Calendario Boxer. Per attivare questa funzione, scarica l\'ultima versione del Calendario Boxer ora (gratis)</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALLA</string>
+  <string name="calendar_feature_dialog_negative_btn">NON ORA</string>
+  <string name="undisclosed_recipients">Destinatari nascosti</string>
 </resources>

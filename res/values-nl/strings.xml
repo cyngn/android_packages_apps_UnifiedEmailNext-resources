@@ -263,7 +263,7 @@
   <string name="network_error">Geen verbinding</string>
   <string name="retry">Opnieuw proberen</string>
   <string name="load_more">Meer laden</string>
-  <string name="shortcut_name_title">Snelkoppeling naar map een naam geven</string>
+  <string name="shortcut_name_title">Snelkoppeling een naam geven</string>
   <string name="wait_for_sync_title">Wachten op synchronisatie</string>
   <string name="wait_for_sync_body">Uw e-mail wordt zo weergegeven.</string>
   <string name="not_synced_title">Account niet gesynchroniseerd</string>

@@ -228,5 +228,16 @@
   <string name="times_that_work_for_me">Час що мене влаштовує:</string>
   <string name="availability_by">Доступність за</string>
   <string name="remove_availability">Видалити доступність</string>
+  <string name="event_over">Подія відбулась</string>
+  <string name="busy">Зайнятий</string>
+  <string name="available">Доступний</string>
+  <string name="meeting_invitation">Запрошення на зустріч:</string>
+  <string name="remove_invite">Видалити запрошення</string>
   <string name="action_liked_message_cm">Ваше повідомлення сподобалось <xliff:g id="display_name" example="John Doe">%s</xliff:g> за допомогою Boxer на Cyanogen OS</string>
+  <string name="error_no_app_store">Магазину додатків не знайдено</string>
+  <string name="calendar_feature_dialog_title">Завантажити календар Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer підтримує функціїї календаря, які працюють виключно з Календарем Boxer. Щоб скористатись цими функціями, завантажте останню версію безкоштовного додатку «Календар Boxer»</string>
+  <string name="calendar_feature_dialog_positive_btn">ВСТАНОВИТИ</string>
+  <string name="calendar_feature_dialog_negative_btn">ПІЗНІШЕ</string>
+  <string name="undisclosed_recipients">Отримувача не вказано</string>
 </resources>

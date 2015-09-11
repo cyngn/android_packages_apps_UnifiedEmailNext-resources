@@ -228,5 +228,17 @@
   <string name="times_that_work_for_me">Czasy, które mi odpowiadają:</string>
   <string name="availability_by">Dostępność przez</string>
   <string name="remove_availability">Usuń dostępność</string>
+  <string name="busy">Zajęty</string>
+  <string name="available">Dostępny</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d inny konflikt</item>
+    <item quantity="few">%d inne konflikty</item>
+    <item quantity="other">%d innych konfliktów</item>
+  </plurals>
+  <string name="meeting_invitation">Zaproszenie na spotkanie:</string>
+  <string name="remove_invite">Usuń zaproszenie</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> polubił twoją wiadomość przez Boxer na Cyanogen OS</string>
+  <string name="error_no_app_store">Nie znaleziono pasującej aplikacji</string>
+  <string name="calendar_feature_dialog_positive_btn">ZAINSTALUJ</string>
+  <string name="calendar_feature_dialog_negative_btn">NIE TERAZ</string>
 </resources>

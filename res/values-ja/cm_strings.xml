@@ -210,5 +210,19 @@
   <string name="times_that_work_for_me">都合の良い時間:</string>
   <string name="availability_by">予定提供: </string>
   <string name="remove_availability">予定を削除</string>
+  <string name="event_over">予定終了</string>
+  <string name="busy">忙しい</string>
+  <string name="available">利用可能</string>
+  <plurals name="other_conflicts">
+    <item quantity="other">%d件の競争</item>
+  </plurals>
+  <string name="meeting_invitation">会議への招待状:</string>
+  <string name="remove_invite">招待状を削除</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>がCyanogen OSのBoxerであなたのメッセージをいいねしました。</string>
+  <string name="error_no_app_store">適切なアプリストアが見つかりませんでした</string>
+  <string name="calendar_feature_dialog_title">Boxer Calendarをダウンロード</string>
+  <string name="calendar_feature_dialog_msg">BoxerはBoxer Calendarとのみ動作するカレンダー機能を提供します。この機能を有効にするには、最新バージョンのBoxer Calendar today（無料）をダウンロードしてください。</string>
+  <string name="calendar_feature_dialog_positive_btn">インストール</string>
+  <string name="calendar_feature_dialog_negative_btn">後で</string>
+  <string name="undisclosed_recipients">未公開の受信者</string>
 </resources>

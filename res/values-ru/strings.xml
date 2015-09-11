@@ -192,7 +192,7 @@
   <string name="non_synced_folder_description">Для просмотра цепочек писем синхронизируйте эту папку.</string>
   <string name="tap_to_configure_folder_sync">Синхронизировать папку</string>
   <string name="widget_large_unread_count">%d+</string>
-  <string name="actionbar_large_unread_count">Новых: <xliff:g id="COUNT">%1$d</xliff:g>+</string>
+  <string name="actionbar_large_unread_count">Новых: <xliff:g id="count">%1$d</xliff:g>+</string>
   <string name="view_more_conversations">Другие цепочки писем</string>
   <string name="activity_mailbox_selection">Выбрать аккаунт</string>
   <string name="activity_folder_selection">Выбрать папку</string>

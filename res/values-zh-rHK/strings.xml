@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">來自</string>
   <string name="to">收件者</string>
   <string name="cc">副本抄送</string>
   <string name="bcc">密件副本</string>

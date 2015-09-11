@@ -219,5 +219,20 @@
   <string name="times_that_work_for_me">ನನಗೆ ಅನುಕೂಲವಾಗುವ ಸಮಯ:</string>
   <string name="availability_by">ಇದರಿಂದ ಲಭ್ಯತೆ</string>
   <string name="remove_availability">ಲಭ್ಯತೆ ತೆಗೆ</string>
+  <string name="event_over">ಘಟನೆ ಮುಗಿದಿದೆ</string>
+  <string name="busy">ಕಾರ್ಯನಿರತ</string>
+  <string name="available">ಲಭ್ಯ</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d ಇತರೆ ಘರ್ಷಣೆ</item>
+    <item quantity="other">%d ಇತರೆ ಘರ್ಷಣೆಗಳು</item>
+  </plurals>
+  <string name="meeting_invitation">ಸಭೆ ಆಮಂತ್ರಣ:</string>
+  <string name="remove_invite">ಆಮಂತ್ರಣ ತೆಗೆ</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> ಅವರು ನಿಮ್ಮ ಸಂದೇಶವನ್ನು Cyanogen OSನಲ್ಲಿ ಬಾಕ್ಸರ್‍ನಿಂದ ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ</string>
+  <string name="error_no_app_store">ಯಾವುದೇ ಸೂಕ್ತ ಆಪ್ ಸ್ಟೋರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
+  <string name="calendar_feature_dialog_title">ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ</string>
+  <string name="calendar_feature_dialog_msg">ಬಾಕ್ಸರ್ ಹಲವು ಕ್ಯಾಲೆಂಡರ್ ವೈಶಿಶಷ್ಟ್ಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ ಅದು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಜೊತೆ ಮಾತ್ರ ಕೆಲಸಮಾಡುತ್ತದೆ. ಈ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್‍ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಇಂದೇ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ (ಉಚಿತ)</string>
+  <string name="calendar_feature_dialog_positive_btn">ಸ್ಥಾಪಿಸಿ</string>
+  <string name="calendar_feature_dialog_negative_btn">ಈಗ ಬೇಡ</string>
+  <string name="undisclosed_recipients">ತಿಳಿಯಪಡಿಸದ ಕಳಿಹಿಸುವವರು</string>
 </resources>
