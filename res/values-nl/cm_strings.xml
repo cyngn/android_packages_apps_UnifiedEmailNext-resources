@@ -203,7 +203,7 @@
   <string name="empty_search">Oeps! We hebben geen resultaten gevonden voor \'<xliff:g id="search_query">%1$s</xliff:g>\'.</string>
   <string name="empty_spam_folder">Hoera, geen spam te zien!</string>
   <string name="empty_trash_folder">De prullenbak is leeg.\nHartelijk dank voor het recyclen.</string>
-  <string name="view_on_calendar">Bekijken in agenda</string>
+  <string name="view_on_calendar">Weergeven in agenda</string>
   <string name="accept">Accepteren</string>
   <string name="maybe">Misschien</string>
   <string name="decline">Afwijzen</string>

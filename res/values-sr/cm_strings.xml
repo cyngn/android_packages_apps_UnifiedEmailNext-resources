@@ -237,5 +237,22 @@
   <string name="times_that_work_for_me">Време које траје за мене:</string>
   <string name="availability_by">Расположиво од</string>
   <string name="remove_availability">Уклони расположивост</string>
+  <string name="event_over">Догађај завршен</string>
+  <string name="busy">Заузет</string>
+  <string name="available">Доступан</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d други конфликт</item>
+    <item quantity="few">%d друга конфликта</item>
+    <item quantity="many">%d друга конфликта</item>
+    <item quantity="other">%d друга конфликта</item>
+  </plurals>
+  <string name="meeting_invitation">Позивница за састанак:</string>
+  <string name="remove_invite">Уклони позивницу</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> лајковао твоју поруку са Boxer-ом на Cyanogen OS-у</string>
+  <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
+  <string name="calendar_feature_dialog_title">Преузми Boxer календар</string>
+  <string name="calendar_feature_dialog_msg">Boxer омогућава карактеристике које раде само на Boxer календару. Да омогућиш те карактеристике преузми последњу верзију Boxer календара данас (БЕСПЛАТНО)</string>
+  <string name="calendar_feature_dialog_positive_btn">ИНСТАЛИРАЈ</string>
+  <string name="calendar_feature_dialog_negative_btn">НЕ САДА</string>
+  <string name="undisclosed_recipients">Неоткривени примаоци</string>
 </resources>

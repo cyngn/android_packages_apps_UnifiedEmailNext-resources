@@ -47,11 +47,11 @@
   <string name="edit">Modifica</string>
   <string name="folder_search_hint">Cerca</string>
   <string-array name="moveto_folder_sections">
-    <item>Cartelle Smart</item>
+    <item>Cartelle intelligenti</item>
     <item>Tutte le cartelle</item>
   </string-array>
   <string-array name="change_folders_sections">
-    <item>Etichette Intelligenti</item>
+    <item>Etichette intelligenti</item>
     <item>Tutte le etichette</item>
   </string-array>
   <string name="boxes_heading">Caselle</string>

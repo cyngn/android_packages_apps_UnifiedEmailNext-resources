@@ -81,7 +81,7 @@
   <string name="mark_not_important">Označi kot nepomemben</string>
   <string name="add_cc_label">Dodaj Kp/Skp</string>
   <string name="add_bcc_label">Dodaj Skp</string>
-  <string name="feedback">Pošljite povratne informacije</string>
+  <string name="feedback">Pošlji povratne informacije</string>
   <string name="help_and_info">Pomoč</string>
   <string name="quoted_text">Vključi citirano besedilo</string>
   <string name="quoted_text_label">Citirano besedilo</string>
@@ -124,7 +124,13 @@
   <string name="contextmenu_map">Zemljevid</string>
   <string name="contextmenu_sharelink">Deli povezavo z drugimi</string>
   <string name="contextmenu_help">Pomoč</string>
-  <string name="contextmenu_feedback">Pošljite povratne informacije</string>
+  <string name="contextmenu_feedback">Pošlji povratne informacije</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Premakni pogovor</item>
+    <item quantity="two">Premakni <xliff:g>%1$d</xliff:g> pogovora</item>
+    <item quantity="few">Premakni <xliff:g>%1$d</xliff:g> pogovore</item>
+    <item quantity="other">Premakni <xliff:g>%1$d</xliff:g> pogovorov</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> o zadevi <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> dne <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> o zadevi <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> ob <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">pogovor je bil prebran</string>
@@ -136,9 +142,69 @@
   <string name="me_object_pronun">jaz</string>
   <string name="me_subject_pronun">jaz</string>
   <string name="inbox_folders_heading">Prejeto</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Izbriši ta pogovor?</item>
+    <item quantity="two">Izbriši ta <xliff:g id="count">%1$d</xliff:g> pogovora?</item>
+    <item quantity="few">Izbriši te <xliff:g id="count">%1$d</xliff:g> pogovore?</item>
+    <item quantity="other">Izbriši teh <xliff:g id="count">%1$d</xliff:g> pogovorov?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Arhiviraj ta pogovor?</item>
+    <item quantity="two">Arhiviraj ta <xliff:g id="count">%1$d</xliff:g> pogovora?</item>
+    <item quantity="few">Arhiviraj te <xliff:g id="count">%1$d</xliff:g> pogovore?</item>
+    <item quantity="other">Arhiviraj teh <xliff:g id="count">%1$d</xliff:g> pogovorov?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Zavrzi osnutke iz tega pogovora?</item>
+    <item quantity="two">Zavrzi osnutke iz teh <xliff:g id="count">%1$d-h</xliff:g> pogovorov?</item>
+    <item quantity="few">Zavrzi osnutke iz teh <xliff:g id="count">%1$d-h</xliff:g> pogovorov?</item>
+    <item quantity="other">Zavrzi osnutke iz teh <xliff:g id="count">%1$d-h</xliff:g> pogovorov?</item>
+  </plurals>
   <string name="confirm_discard_text">Želite zavreči sporočilo?</string>
   <string name="loading_conversations">Nalaganje …</string>
   <string name="undo">Razveljavi</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Odznačevanje <xliff:g id="count">%1$d-ega</xliff:g> pogovora z zvezdico.</item>
+    <item quantity="two">Odznačevanje <xliff:g id="count">%1$d-h</xliff:g> pogovorov z zvezdico.</item>
+    <item quantity="few">Odznačevanje <xliff:g id="count">%1$d-h</xliff:g> pogovorov z zvezdico.</item>
+    <item quantity="other">Odznačevanje <xliff:g id="count">%1$d-h</xliff:g> pogovorov z zvezdico.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor utišan.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora utišana.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori utišani.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov utišanih.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor prijavljen kot neželen.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora prijavljena kot neželena.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori prijavljeni kot neželeni.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov prijavljenih kot neželenih.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor prijavljen kot želen.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora prijavljena kot želena.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori prijavljeni kot želeni.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov prijavljenih kot želenih.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor prijavljen kot zvabljanje.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora prijavljena kot zvabljanje.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori prijavljeni kot zvabljanje.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov prijavljenih kot zvabljanje.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor arhiviran.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora arhivirana.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori arhivirani.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov arhiviranih.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor izbrisan.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora izbrisana.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori izbrisani.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov izbrisanih.</item>
+  </plurals>
   <string name="deleted">Izbrisan</string>
   <string name="archived">Arhiviran</string>
   <string name="folder_removed">Odstranjeno iz <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
@@ -251,7 +317,7 @@
   <string name="notification_action_undo_archive">Arhivirano</string>
   <string name="notification_action_undo_remove_label">Oznaka odstranjena</string>
   <string name="notification_action_undo_delete">Izbrisano</string>
-  <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
+  <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="silent_ringtone">Tiho</string>
   <string name="preference_removal_action_title">Dejanji arhiviranja in brisanja</string>

@@ -219,6 +219,7 @@
   <string name="times_that_work_for_me">Zeiten, die für mich passen würden:</string>
   <string name="availability_by">Verfügbarkeit über</string>
   <string name="remove_availability">Verfügbarkeit entfernen</string>
+  <string name="event_over">Termin abgelaufen</string>
   <string name="busy">Beschäftigt</string>
   <string name="available">Verfügbar</string>
   <plurals name="other_conflicts">
@@ -230,6 +231,7 @@
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hat Ihre Nachricht mit Boxer auf Cyanogen OS geliked</string>
   <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
   <string name="calendar_feature_dialog_title">Boxer-Kalender herunterladen</string>
+  <string name="calendar_feature_dialog_msg">Boxer bietet Ihnen Features, die exklusiv mit Boxer Kalender funktionieren. Um diese Features zu erhalten, laden Sie noch heute die aktuelle Version von Boxer Kalender herunter (KOSTENLOS)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLIEREN</string>
   <string name="calendar_feature_dialog_negative_btn">NICHT JETZT</string>
   <string name="undisclosed_recipients">Unbekannte Empfänger</string>

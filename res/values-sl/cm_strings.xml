@@ -37,10 +37,10 @@
     <item quantity="other">in še %d drugih</item>
   </plurals>
   <plurals name="conversation_todo">
-    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen za storiti.</item>
-    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena za storiti.</item>
-    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeni za storiti.</item>
-    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označenih za storiti.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor označen za storiti.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora označena za storiti.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori označeni za storiti.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov označenih za storiti.</item>
   </plurals>
   <string name="reported_as_spam">Prijavi kot neželeno</string>
   <string name="new_incoming_messages_one">Prikaži novo sporočilo od <xliff:g id="sender">%s</xliff:g>.</string>

@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">Од</string>
   <string name="to">Коме</string>
   <string name="cc">Копија</string>
   <string name="bcc">Скривена копија</string>
