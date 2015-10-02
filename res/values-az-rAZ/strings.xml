@@ -17,12 +17,341 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">Kimdən</string>
+  <string name="to">Alan:</string>
+  <string name="cc">Cc</string>
+  <string name="bcc">Bcc</string>
+  <string name="subject_hint">Mövzu</string>
+  <string name="body_hint">E-poçt yazın</string>
+  <string name="add_file_attachment">Fayl əlavə edin</string>
+  <string name="add_photo_attachment">Şəkil əlavə edin</string>
+  <string name="save_draft">Qaralamanı saxla</string>
+  <string name="discard">Sil</string>
+  <string name="compose">Yaz</string>
+  <string-array name="compose_modes">
+    <item>Cavabla</item>
+    <item>Hamısını cavabla</item>
+    <item>Yönləndir</item>
+  </string-array>
+  <string name="reply_attribution"><xliff:g id="date">%s</xliff:g> tarixində <xliff:g id="person">%s</xliff:g> yazdı:</string>
+  <string name="forward_attribution">---------- Yönləndirilmiş mesaj ----------&lt;br&gt;Göndərən: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Tarix: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Mövzu: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;Alan: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
+  <string name="forward_attribution_no_headers">---------- Yönləndirilmiş mesaj ----------</string>
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <string name="select_attachment_type">Qoşma növünü seçin</string>
+  <string name="too_large_to_attach_single"><xliff:g id="maxSize">%1$s</xliff:g> ölçüsündən çox olan fayl əlavə edilə bilməz.</string>
+  <string name="too_large_to_attach_multiple">Bir və ya daha çox fayl əlavə edilmədi. Limit: <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">Fayl əlavə edilmədi. <xliff:g id="maxSize">%1$s</xliff:g> limitinə çatdınız.</string>
+  <string name="generic_attachment_problem">Fayl əlavə edilə bilmədi.</string>
+  <string name="recipient_needed">Ən az 1 alıcı əlavə edin.</string>
+  <string name="recipient_error_dialog_title">Alıcı xətası</string>
+  <string name="confirm_send_title">Mesaj göndərilsin?</string>
+  <string name="confirm_send_message_with_no_subject">Mesajın mövzusunda mətn yoxdur.</string>
+  <string name="confirm_send_message_with_no_body">Mesaj gövdəsində mətn yoxdur.</string>
+  <string name="confirm_send_message">Bu mesaj göndərilsin?</string>
+  <string name="message_discarded">Mesaj silindi.</string>
+  <string name="custom_from_account_label">Poçtu bu ünvandan göndər:</string>
+  <string name="send">Göndər</string>
+  <string name="mark_read">Oxunmuş kimi işarələ</string>
+  <string name="mark_unread">Oxunmamış kimi işarələ</string>
+  <string name="mute">Səssiz</string>
+  <string name="add_star">Ulduz əlavə et</string>
+  <string name="remove_star">Ulduzu çıxart</string>
+  <string name="remove_folder"><xliff:g id="folderName">%1$s</xliff:g> qovluğundan çıxart</string>
+  <string name="archive">Arxiv</string>
+  <string name="report_spam">Spam bildir</string>
+  <string name="mark_not_spam">Spam olmadığını bildir</string>
+  <string name="report_phishing">Kimlik ovu kimi bildir</string>
+  <string name="delete">Sil</string>
+  <string name="discard_drafts">Qaralamaları sil</string>
+  <string name="refresh">Yenilə</string>
+  <string name="reply">Cavabla</string>
+  <string name="reply_all">Hamısını cavabla</string>
+  <string name="resume_draft">Düzəliş et</string>
+  <string name="forward">Yönləndir</string>
+  <string name="menu_compose">Yaz</string>
+  <string name="menu_change_folders">Qovluqları dəyişdir</string>
+  <string name="menu_move_to">Köçür</string>
+  <string name="menu_move_to_inbox">Gələnlərə köçür</string>
+  <string name="menu_manage_folders">Qovluq tənzimləmələri</string>
+  <string name="menu_show_original">Avtomatik ölçüləndirməyə geri qayıt</string>
+  <string name="menu_folder_options">Qovluq tənzimləmələri</string>
+  <string name="menu_settings">Tənzimləmələr</string>
+  <string name="menu_search">Axtar</string>
+  <string name="mark_important">Önəmli olaraq işərələ</string>
+  <string name="mark_not_important">Önəmsiz olaraq işarələ</string>
+  <string name="add_cc_label">Cc/Bcc əlavə et</string>
+  <string name="add_bcc_label">Bcc əlavə et</string>
+  <string name="feedback">Geri bildiriş göndər</string>
+  <string name="help_and_info">Yardım</string>
+  <string name="quoted_text">Sitat mətni daxil et</string>
+  <string name="quoted_text_label">Sitat mətni</string>
+  <string name="respond_inline">Sətirdə cavabla</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
+  <string name="attachment_image">Təsvir</string>
+  <string name="attachment_video">Video</string>
+  <string name="attachment_audio">Səs</string>
+  <string name="attachment_text">Mətn</string>
+  <string name="attachment_application_msword">Sənəd</string>
+  <string name="attachment_application_vnd_ms_powerpoint">Təqdimat</string>
+  <string name="attachment_application_vnd_ms_excel">E-cədvəl</string>
+  <string name="attachment_application_pdf">PDF</string>
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g> Faylı</string>
+  <string name="preview_attachment">İlkin baxış</string>
+  <string name="save_attachment">Saxla</string>
+  <string name="cancel_attachment">İmtina</string>
+  <string name="download_again">Təkrar endir</string>
+  <string name="more_info_attachment">Məlumat</string>
   <string name="no_application_found">Bu qoşmanı göstərmək üçün heç bir tətbiqetmə yoxdur.</string>
   <string name="fetching_attachment">Qoşmalar alınır</string>
+  <string name="please_wait">Zəhmət olmasa gözləyin...</string>
   <string name="saved">Saxlanıldı, <xliff:g id="size">%s</xliff:g></string>
+  <string name="download_failed">Endirilə bilmədi. Toxunaraq yenidən cəhd edin.</string>
   <string name="attachments_header">Qoşmalar</string>
+  <string name="menu_photo_save_all">Hamısını saxla</string>
+  <string name="menu_photo_share">Paylaş</string>
+  <string name="menu_photo_share_all">Hamısını paylaş</string>
+  <string name="saving">Saxlanılır&#8230;</string>
+  <string name="choosertitle_sharevia">Paylaşma</string>
+  <string name="contextmenu_openlink">Səyyahda aç</string>
+  <string name="contextmenu_copy">Kopyala</string>
+  <string name="contextmenu_copylink">Bağlantı URL\'sini kopyala</string>
+  <string name="contextmenu_dial_dot">Yığ...</string>
+  <string name="contextmenu_sms_dot">SMS...</string>
+  <string name="contextmenu_add_contact">Şəxs əlavə et</string>
+  <string name="contextmenu_send_mail">E-poçt göndər</string>
+  <string name="contextmenu_map">Xəritə</string>
+  <string name="contextmenu_sharelink">Bağlantını paylaş</string>
+  <string name="contextmenu_help">Yardım</string>
+  <string name="contextmenu_feedback">Çətinlik bildir</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Danışığı köçür</item>
+    <item quantity="other"><xliff:g>%1$d</xliff:g> danışığı köçür</item>
+  </plurals>
+  <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> mövzu: <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> tarix: <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> mövzu: <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> vaxt: <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <string name="read_string">danışıq oxunub</string>
+  <string name="unread_string">danışıq oxunmayıb</string>
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Qaralama</item>
+    <item quantity="other">Qaralamalar</item>
+  </plurals>
+  <string name="sending">Göndərilir...</string>
+  <string name="send_failed">Mesaj göndərilmədi.</string>
+  <string name="me_object_pronun">mən</string>
+  <string name="me_subject_pronun">mən</string>
+  <string name="inbox_folders_heading">Gələnlər</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Bu danışıq silinsin?</item>
+    <item quantity="other">Bu <xliff:g id="count">%1$d</xliff:g> danışıq silinsin?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Bu danışıq arxivlənsin?</item>
+    <item quantity="other">Bu <xliff:g id="count">%1$d</xliff:g> danışıq arxivlənsin?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Qaralamalar bu danışıqdan silinsin?</item>
+    <item quantity="other">Qaralamalar bu <xliff:g id="count">%1$d</xliff:g> danışıqdan silinsin?</item>
+  </plurals>
+  <string name="confirm_discard_text">Bu mesaj silinsin?</string>
+  <string name="loading_conversations">Yüklənir...</string>
+  <string name="undo">Geri qaytar</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> danışığın ulduzu çıxarılır.</item>
+    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> danışığın ulduzu çıxarılır.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq səssizə alındı.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq səssizə alındı.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq spam olaraq bildirildi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq spam olaraq bildirildi.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışığın spam olmadığı bildirildi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışığın spam olmadığı bildirildi.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq əhəmiyyətsiz olaraq işarələndi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq əhəmiyyətsiz olaraq işarələndi.</item>
+  </plurals>
+  <string name="deleted">Silindi</string>
+  <string name="archived">Arxivləndi</string>
+  <string name="folder_removed"><xliff:g id="folderName">%1$s</xliff:g> adlı qovluqdan çıxarıldı</string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Qovluq dəyişdi.</item>
+    <item quantity="other">Qovluqlar dəyişdi.</item>
+  </plurals>
+  <string name="conversation_folder_moved"><xliff:g id="folderName">%1$s</xliff:g> qovluğuna köçürüldü</string>
+  <string name="search_results_header">Nəticələr</string>
+  <string name="search_unsupported">Bu hesabda axtarış dəstəklənmir.</string>
+  <string name="search_results_searching_header">Axtarılır\u2026</string>
+  <string name="add_label">Qovluq əlavə et</string>
+  <string name="expand_recipient_details">Alıcı təfsilatlarını genişləndir</string>
+  <string name="collapse_recipient_details">Alıcı təfsilatlarını yığcamlaşdır</string>
+  <string name="contact_info_string"><xliff:g id="name">%1$s</xliff:g> əlaqə məlumatını göstər</string>
+  <string name="contact_info_string_default">Əlaqə məlumatını göstər</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> köhnə mesaj</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> köhnə mesaj</item>
+  </plurals>
+  <string name="from_heading">Göndərən:</string>
+  <string name="replyto_heading">Cavablama ünvanı:</string>
+  <string name="to_heading">Alan:</string>
+  <string name="cc_heading">Cc:</string>
+  <string name="bcc_heading">Bcc:</string>
+  <string name="date_heading">Tarix: </string>
+  <string name="show_images">Şəkilləri göstər</string>
+  <string name="always_show_images">Bu göndərəndən gələn şəkilləri həmişə göstər</string>
+  <string name="always_show_images_toast">Bu göndərəndən gələn şəkillər avtomatik olaraq göstəriləcək.</string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> (<xliff:g id="VIA_DOMAIN">%3$s</xliff:g> ilə)</string>
+  <string name="message_saved">Mesaj qaralama olaraq saxlanıldı.</string>
+  <string name="sending_message">Mesaj göndərilir...</string>
+  <string name="invalid_recipient"><xliff:g id="WRONGEMAIL">%s</xliff:g> ünvanı etibarsızdır.</string>
+  <string name="show_elided">▶ Sitat mətnini göstər</string>
+  <string name="hide_elided">▼ Sitat mətnini gizlət</string>
+  <string name="message_invite_title">Təqvim dəvəti</string>
+  <string name="message_invite_calendar_view">Təqvimdə göstər</string>
+  <string name="message_invite_label_attending">Gedirsiniz?</string>
+  <string name="message_invite_accept">Bəli</string>
+  <string name="message_invite_tentative">Bəlkə</string>
+  <string name="message_invite_decline">Xeyr</string>
+  <string name="enumeration_comma">, </string>
+  <string name="yes">Bəli</string>
+  <string name="no">Xeyr</string>
+  <string name="ok">Oldu</string>
+  <string name="done">Bitdi</string>
+  <string name="cancel">İmtina</string>
+  <string name="clear">Təmizlə</string>
+  <string-array name="sync_status">
+    <item>Uğurlu</item>
+    <item>Bağlantı yoxdur.</item>
+    <item>Giriş edilə bilmədi.</item>
+    <item>Təhlükəsizlik xətası.</item>
+    <item>Sinxron edilə bilmədi.</item>
+    <item>Daxili Xəta</item>
+  </string-array>
+  <string name="tap_to_configure">Quraşdırmaq üçün toxunun</string>
+  <string name="non_synced_folder_description">Danışıqları göstərmək üçün bu qovluğu sinxron edin.</string>
+  <string name="tap_to_configure_folder_sync">Sinxron Qovluğu</string>
+  <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> oxunmamış</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> oxunmamış</item>
+  </plurals>
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ oxunulmayıb</string>
+  <string name="view_more_conversations">Daha çox danışıq göstər</string>
+  <string name="activity_mailbox_selection">Hesab seçin</string>
+  <string name="activity_folder_selection">Qovluq seçin</string>
+  <string name="folder_shortcut_widget_label">E-poçt qovluğu</string>
+  <string name="change_folders_selection_dialog_title">Qovluqları dəyişdir</string>
+  <string name="move_to_selection_dialog_title">Köçür</string>
+  <string name="search_hint">Poçtda axtar</string>
+  <string name="network_error">Bağlantı yoxdur</string>
+  <string name="retry">Yenidən yoxla</string>
+  <string name="load_more">Daha çox yüklə</string>
+  <string name="shortcut_name_title">Ad qovluğu qısayolu</string>
+  <string name="wait_for_sync_title">Sinxron etmək üçün gözlənilir</string>
+  <string name="wait_for_sync_body">E-poçtunuz birazdan göstəriləcək.</string>
+  <string name="not_synced_title">Hesab sinxron deyil</string>
+  <string name="manual_sync">İndi sinxron et</string>
+  <string name="change_sync_settings">Sinxronizasiya tənzimləmələri</string>
+  <string name="photo_load_failed">Təsvir yüklənə bilmədi</string>
+  <string name="cant_move_or_change_labels">Seçim çoxlu hesabı ehtiva etdiyinə görə köçürülə bilmir.</string>
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+  <string name="ignore_spam_warning">Əhəmiyyətsiz say, bu mesaja etibar etmirəm</string>
+  <string name="via_domain"><xliff:g id="viaDomain">%1$s</xliff:g> vasitəsilə</string>
+  <string name="signin">Giriş et</string>
+  <string name="info">Məlumat</string>
+  <string name="report">Hesabat</string>
+  <string name="sync_error">Sinxron edilə bilmədi.</string>
+  <string name="sync_error_message">Cihazınızda sinxronizasiya üçün kifayət qədər yer yoxdur.</string>
+  <string name="storage">Saxlama</string>
+  <string name="senders_split_token">, </string>
+  <string name="recent_folders_heading">Son qovluqlar</string>
+  <string name="message_details_title">Mesaj təfsilatı</string>
+  <string name="auto_advance_label">Avtomatik ilərilə</string>
+  <string name="auto_advance_summary">Bu mesajı sildikdən sonra göstəriləcək
+         ekranı seçin</string>
+  <string name="auto_advance_help_title">Avtomatik iləriləmə üstünlüyünü tənzimlə\n(sildikdən sonra, və s.)</string>
+  <string-array name="prefEntries_autoAdvance">
+    <item>Daha yeni</item>
+    <item>Daha köhnə</item>
+    <item>Danışıq siyahısı</item>
+  </string-array>
+  <string-array name="prefSummaries_autoAdvance">
+    <item>Sildikdən sonra daha yeni danışığı göstər</item>
+    <item>Sildikdən sonra daha köhnə danışığı göstər</item>
+    <item>Sildikdən sonra danışıq siyahısını göstər</item>
+  </string-array>
+  <string name="clear_display_images_whitelist_title">Şəkil təsdiqlərini təmizlə</string>
+  <string name="clear_display_images_whitelist_dialog_title">Şəkil təsdiqləri təmizlənsin?</string>
+  <string name="clear_display_images_whitelist_dialog_message">Əvvəlcədən icazə verdiyiniz göndərənlərdən gələn təsvirlərin sətir içi görüntülənməsini dayandır.</string>
+  <string name="sender_whitelist_cleared">Şəkillər avtomatik olaraq göstərilməyəcək.</string>
+  <string name="preferences_signature_title">İmza</string>
+  <string name="preferences_signature_dialog_title">İmza</string>
+  <string name="preferences_signature_summary_not_set">Tənzimlənmədi</string>
+  <string name="notification_action_reply_all">Hamısını cavabla</string>
+  <string name="notification_action_archive">Arxivlə</string>
+  <string name="notification_action_remove_label">Etiketi çıxart</string>
+  <string name="notification_action_undo_archive">Arxivləndi</string>
+  <string name="notification_action_undo_remove_label">Etiket Çıxarıldı</string>
+  <string name="notification_action_undo_delete">Silindi</string>
+  <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <string name="silent_ringtone">Səssiz</string>
+  <string name="preference_removal_action_title">Arxivləmə və silmə prosesləri</string>
+  <string-array name="prefEntries_removal_action">
+    <item>Yalnız arxivləməni göstər</item>
+    <item>Yalnız silməni göstər</item>
+    <item>Arxivləməni və silməni göstər</item>
+  </string-array>
+  <string-array name="prefSummaries_removal_action_summary">
+    <item>Yalnız arxivləməni göstər</item>
+    <item>Yalnız silməni göstər</item>
+    <item>Arxivləməni və silməni göstər</item>
+  </string-array>
+  <string name="prefDialogTitle_removal_action">Arxivləmə və silmə prosesləri</string>
+  <string name="preferences_default_reply_all_title">Hamısını cavabla</string>
+  <string name="preferences_default_reply_all_summary">Mesaj cavablarında ilkin olaraq istifadə et</string>
+  <string name="preference_swipe_title_archive">Arxivləmək üçün sürətlə sürüşdürün</string>
+  <string name="preference_swipe_title_delete">Silmək üçün sürətlə sürüşdürün</string>
+  <string name="preference_swipe_description">Danışıq siyahısında</string>
+  <string name="swipe_down_to_refresh">Yeniləmək üçün sürətlə aşağı sürüşdürün</string>
+  <string name="checking_for_mail">Poçt yoxlanılır</string>
+  <string name="empty_trash">Zibil Qutusunu Boşalt</string>
+  <string name="empty_spam">Spam Qovluğunu Boşalt</string>
+  <string name="empty_trash_dialog_title">Zibil Qutusu Boşaldılsın?</string>
+  <string name="empty_spam_dialog_title">Spam Qovluğu Boşaldılsın?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mesaj həmişəlik silinəcək.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaj həmişəlik silinəcək.</item>
+  </plurals>
   <string name="drawer_open">Hərəkət menyusunu aç</string>
   <string name="drawer_close">Hərəkət menyusunu bağla</string>
+  <string name="conversation_photo_welcome_text">Danışığı seçmək üçün göndərənin şəklinə toxunun.</string>
+  <string name="long_press_to_select_tip">Bir danışığı seçmək üçün uzun toxunun və sonra digər danışığı seçmək üçün təkrar toxunun.</string>
+  <string name="folder_icon_desc">Qovluq nişanı</string>
+  <string name="add_account">Hesab əlavə et</string>
+  <string name="attached_message">Qoşmalı mesaj</string>
+  <string name="date_message_received_yesterday">Dünən, <xliff:g id="datetime">%1$s</xliff:g></string>
+  <string name="dismiss_tip_hover_text">Köməyi bağla</string>
+  <string name="auto_sync_off">Avto-sinxronizasiya bağlıdır.</string>
+  <string name="tap_to_enable_sync">Açmaq üçün toxunun.</string>
+  <string name="account_sync_off">Hesab sinxronizasiyasi bağlıdır.</string>
+  <string name="enable_sync_in_account_settings"><xliff:g id="account_settings">%1$s</xliff:g> içində açın.</string>
+  <string name="account_settings_param">Hesab tənzimləmələri</string>
+  <string name="unsent_messages_in_outbox"><xliff:g id="OUTBOX">%2$s</xliff:g> içində göndərilməmiş <xliff:g id="NUMBER">%1$s</xliff:g> mesaj var</string>
+  <string name="turn_auto_sync_on_dialog_title">Avtomatik sinxronizasiya açılsın?</string>
+  <string name="turn_auto_sync_on_dialog_body">Təkcə Gmail ilə yox, bütün tətbiqetmələrdə və hesablarda etdiyiniz dəyişikliklər, veb ilə sizin <xliff:g id="phone_or_tablet">%1$s</xliff:g> və digər cihazlarınız arasında sinxronizasiya ediləcək.</string>
+  <string name="phone">telefon</string>
+  <string name="tablet">planşet</string>
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Aç</string>
+  <string name="show_n_more_folders">Daha <xliff:g id="number">%1$s</xliff:g> qovluq göstər</string>
+  <string name="hide_folders">Qovluqları gizlət</string>
 </resources>

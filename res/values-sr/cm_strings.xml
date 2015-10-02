@@ -33,13 +33,11 @@
   <plurals name="to_header">
     <item quantity="one"> &amp; %d други</item>
     <item quantity="few">&amp; %d други</item>
-    <item quantity="many">&amp; %d други</item>
     <item quantity="other">&amp; %d други</item>
   </plurals>
   <plurals name="conversation_todo">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означен за урадити.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означена за урадити.</item>
-    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означена за урадити.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означена за урадити.</item>
   </plurals>
   <string name="reported_as_spam">Пријављено као спам</string>
@@ -47,7 +45,6 @@
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Прикажи <xliff:g id="count">%1$d</xliff:g> нову поруку.</item>
     <item quantity="few">Прикажи <xliff:g id="count">%1$d</xliff:g> нове поруке.</item>
-    <item quantity="many">Прикажи <xliff:g id="count">%1$d</xliff:g> нове поруке.</item>
     <item quantity="other">Прикажи <xliff:g id="count">%1$d</xliff:g> нове поруке.</item>
   </plurals>
   <string name="edit">Уреди</string>
@@ -71,7 +68,6 @@
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> нова порука</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
-    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> нове поруке</item>
   </plurals>
   <string name="preferences_swipe_actions_title">Акција превлачења</string>
@@ -84,7 +80,6 @@
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> порука</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> поруке</item>
-    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> поруке</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> поруке</item>
   </plurals>
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> у <xliff:g id="time">%2$s</xliff:g></string>
@@ -94,7 +89,6 @@
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> прилог</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> прилога</item>
-    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> прилога</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> прилога</item>
   </plurals>
   <string name="no_subject">(без назива)</string>
@@ -152,13 +146,11 @@
   <plurals name="quick_response_sent">
     <item quantity="one">Одговор послат</item>
     <item quantity="few">Одговори послати</item>
-    <item quantity="many">Одговори послати</item>
     <item quantity="other">Одговори послати</item>
   </plurals>
   <plurals name="liked_message">
     <item quantity="one">Порука се свидела</item>
     <item quantity="few">Порукe се свиделе</item>
-    <item quantity="many">Порукe се свиделе</item>
     <item quantity="other">Порукe се свиделе</item>
   </plurals>
   <string name="invalid_selection">Неважећи избор</string>
@@ -229,7 +221,6 @@
   <plurals name="calendar_attendees">
     <item quantity="one">Мени &amp;%d другом</item>
     <item quantity="few">Мени &amp;%d другима</item>
-    <item quantity="many">Мени &amp;%d другима</item>
     <item quantity="other">Мени &amp;%d другима</item>
   </plurals>
   <string name="all_day">Цео дан</string>
@@ -243,7 +234,6 @@
   <plurals name="other_conflicts">
     <item quantity="one">%d други конфликт</item>
     <item quantity="few">%d друга конфликта</item>
-    <item quantity="many">%d друга конфликта</item>
     <item quantity="other">%d друга конфликта</item>
   </plurals>
   <string name="meeting_invitation">Позивница за састанак:</string>
