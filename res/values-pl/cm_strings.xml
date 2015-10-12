@@ -228,6 +228,7 @@
   <string name="times_that_work_for_me">Czasy, które mi odpowiadają:</string>
   <string name="availability_by">Dostępność przez</string>
   <string name="remove_availability">Usuń dostępność</string>
+  <string name="event_over">Wydarzenie zakończone</string>
   <string name="busy">Zajęty</string>
   <string name="available">Dostępny</string>
   <plurals name="other_conflicts">
