@@ -318,7 +318,7 @@
     <string name="meeting_invitation">Meeting invitation:</string>
     <string name="remove_invite">Remove invite</string>
 
-    <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> liked your message with Boxer on Cyanogen OS</string>
+    <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> liked your message with &lt;a href="%s"&gt;Boxer on Cyanogen OS&lt;/a&gt;.</string>
 
     <string name="error_no_app_store">No suitable app store was found</string>
 
