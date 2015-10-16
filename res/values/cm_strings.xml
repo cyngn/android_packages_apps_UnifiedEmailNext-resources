@@ -315,7 +315,8 @@
         <item quantity="one">%d other conflict</item>
         <item quantity="other">%d other conflicts</item>
     </plurals>
-    <string name="meeting_invitation">Meeting invitation:</string>
+    <string name="meeting_invitation">Invitation summary:</string>
+    <string name="invitation_by">Invitation by</string>
     <string name="remove_invite">Remove invite</string>
 
     <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> liked your message with &lt;a href="%s"&gt;Boxer on Cyanogen OS&lt;/a&gt;.</string>
