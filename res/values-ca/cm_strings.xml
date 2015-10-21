@@ -226,9 +226,10 @@
     <item quantity="one">%d conflicte més</item>
     <item quantity="other">%d conflictes més</item>
   </plurals>
-  <string name="meeting_invitation">Invitació a una reunió:</string>
+  <string name="meeting_invitation">Resum de l\'invitació:</string>
+  <string name="invitation_by">Invitació de</string>
   <string name="remove_invite">Treu l\'invitació</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> li ha agradat el teu missatge amb Boxer a Cianogen OS</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> li agrada el teu missatge amb &lt;a href=\"%s\"&gt;Boxer a Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">No s\'ha trobat cap botiga d\'aplicacions adequada</string>
   <string name="calendar_feature_dialog_title">Descarrega el Calendari Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer proporciona característiques de calendari que funcionen exclusivament amb el calendari Boxer. Per habilitar aquesta funció, descarrega l\'última versió del Calendari Boxer avui (Gratuït)</string>

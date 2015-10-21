@@ -210,5 +210,4 @@
   <string name="times_that_work_for_me">나한테 적합한 시간:</string>
   <string name="availability_by">제공자: </string>
   <string name="remove_availability">제공자 제거</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>이(가) Cyanogen OS의 Boxer를 통해 당신의 메시지를 좋아합니다</string>
 </resources>

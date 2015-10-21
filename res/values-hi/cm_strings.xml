@@ -219,5 +219,4 @@
   <string name="times_that_work_for_me">मेरे लिए सुविधाजनक समय:</string>
   <string name="availability_by">इसके क्रम से उपलब्धता</string>
   <string name="remove_availability">उपलब्धता हटाएँ</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> ने सियानोजेन ओएस पर बॉक्सर से आपके संदेश को पसंद किया है</string>
 </resources>

@@ -219,5 +219,9 @@
   <string name="times_that_work_for_me">Tider som fungerar för mig:</string>
   <string name="availability_by">Tillgänglig via</string>
   <string name="remove_availability">Ta bort tillgänghet</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> gillade ditt meddelande med Boxer på Cyanogen OS</string>
+  <string name="busy">Upptagen</string>
+  <string name="available">Tillgänglig</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALLERA</string>
+  <string name="calendar_feature_dialog_negative_btn">INTE NU</string>
+  <string name="undisclosed_recipients">Hemlig mottagare</string>
 </resources>

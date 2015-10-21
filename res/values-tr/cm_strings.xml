@@ -226,9 +226,10 @@
     <item quantity="one">%d diğer çakışma</item>
     <item quantity="other">%d diğer çakışma</item>
   </plurals>
-  <string name="meeting_invitation">Toplantı davetiyesi:</string>
+  <string name="meeting_invitation">Davet özeti:</string>
+  <string name="invitation_by">Daveti gönderen</string>
   <string name="remove_invite">Daveti kaldır</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> Cyanogen İS\'de Boxer\'la mesajını beğendi</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> mesajınınızı &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt; ile beğendi.</string>
   <string name="error_no_app_store">Uygun bir mağaza bulunamadı</string>
   <string name="calendar_feature_dialog_title">Boxer Takvimini indir</string>
   <string name="calendar_feature_dialog_msg">Boxer sadece Boxer Takvimi ile çalışan takvim özellikleri sağlar. Bu özelliği etkinleştirmek için Boxer Takviminin son sürümünü şimdi indirin (ÜCRETSİZ)</string>

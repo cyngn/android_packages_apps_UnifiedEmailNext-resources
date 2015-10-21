@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">Från</string>
   <string name="to">Till</string>
   <string name="cc">Kopia</string>
   <string name="bcc">Hemlig kopia</string>

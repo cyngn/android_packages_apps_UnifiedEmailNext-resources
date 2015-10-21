@@ -256,5 +256,4 @@
   <string name="times_that_work_for_me">الأوقات التي تناسبني:</string>
   <string name="availability_by">أوقات تواجد</string>
   <string name="remove_availability">حذف التواجد</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>أعجبته رسالتك مع Boxer على Cyanogen OS </string>
 </resources>

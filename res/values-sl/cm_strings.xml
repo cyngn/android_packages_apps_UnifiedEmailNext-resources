@@ -246,9 +246,10 @@
     <item quantity="few">in še %d drugi spori</item>
     <item quantity="other">in še %d drugih sporov</item>
   </plurals>
-  <string name="meeting_invitation">Povabilo na srečanje:</string>
+  <string name="meeting_invitation">Povzetek povabila:</string>
+  <string name="invitation_by">Povabil vas je</string>
   <string name="remove_invite">Odstrani povabilo</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo z Boxerjem na OS-u Cyanogen všeč</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo z &lt;a href=\"%s\"&gt;Boxerjem na OS-u Cyanogen&lt;/a&gt; všeč.</string>
   <string name="error_no_app_store">Nobene primerne trgovine programov ni bilo najdene</string>
   <string name="calendar_feature_dialog_title">Prejmi Koledar Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer ponuja značilnosti koledarja, ki delujejo izključno s Koledarjem Boxer. Da to značilnost omogočite, prejmite najnovejšo različico Koledarja Boxer še danes (BREZPLAČNO)</string>

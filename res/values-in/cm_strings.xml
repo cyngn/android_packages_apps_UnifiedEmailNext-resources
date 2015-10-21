@@ -210,5 +210,4 @@
   <string name="times_that_work_for_me">Waktu yang bekerja untuk saya:</string>
   <string name="availability_by">Ketersediaan oleh</string>
   <string name="remove_availability">Hapus ketersediaan</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> menyukai pesan Anda dengan Boxer di Cyanogen OS</string>
 </resources>

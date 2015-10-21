@@ -226,9 +226,10 @@
     <item quantity="one">%d outro conflito</item>
     <item quantity="other">%d outros conflitos</item>
   </plurals>
-  <string name="meeting_invitation">Convite para reunião:</string>
+  <string name="meeting_invitation">Resumo do convite:</string>
+  <string name="invitation_by">Convite de</string>
   <string name="remove_invite">Remover o convite</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> gostou da sua mensagem com Boxer no Cyanogen OS</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> gostou da sua mensagem com &lt;a href=\"%s\"&gt;Boxer no Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Nenhuma loja de aplicações adequada foi encontrada</string>
   <string name="calendar_feature_dialog_title">Transferir o calendário Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer fornece recursos de calendário que funcionam exclusivamente com o calendário Boxer. Para ativar este recurso, transfira hoje a última versão do calendário Boxer (GRÁTIS)</string>

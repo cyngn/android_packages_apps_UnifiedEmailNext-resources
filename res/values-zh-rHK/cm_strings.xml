@@ -212,9 +212,7 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d 個其他衝突</item>
   </plurals>
-  <string name="meeting_invitation">會議邀請：</string>
   <string name="remove_invite">移除邀請</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>在 Cyanogen OS 的郵件助手上喜歡了您的訊息</string>
   <string name="error_no_app_store">沒有發現合適的應用程式商店</string>
   <string name="calendar_feature_dialog_title">下載郵件助手日曆</string>
   <string name="calendar_feature_dialog_msg">郵件助手提供專屬郵件助手日曆的功能。若要啟用此功能，今天就下載郵件助手日曆的最新版本吧（免費）</string>

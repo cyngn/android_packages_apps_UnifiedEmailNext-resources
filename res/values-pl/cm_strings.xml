@@ -236,9 +236,7 @@
     <item quantity="few">%d inne konflikty</item>
     <item quantity="other">%d innych konfliktów</item>
   </plurals>
-  <string name="meeting_invitation">Zaproszenie na spotkanie:</string>
   <string name="remove_invite">Usuń zaproszenie</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> polubił twoją wiadomość przez Boxer na Cyanogen OS</string>
   <string name="error_no_app_store">Nie znaleziono pasującej aplikacji</string>
   <string name="calendar_feature_dialog_title">Pobierz Boxer Calendar</string>
   <string name="calendar_feature_dialog_msg">Boxer zapewnia funkcje kalendarza, które działają wyłączenie z Boxer Calendar. Aby włączyć tę funkcję, pobierz za darmo najnowszą wersję Boxer Calendar</string>

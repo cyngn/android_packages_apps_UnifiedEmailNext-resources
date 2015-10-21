@@ -236,9 +236,10 @@
     <item quantity="few">%d iné konflikty</item>
     <item quantity="other">%d iných konfliktov</item>
   </plurals>
-  <string name="meeting_invitation">Pozvánka na stretnutie:</string>
+  <string name="meeting_invitation">Zhrnutie pozvánky:</string>
+  <string name="invitation_by">Pozvanie od</string>
   <string name="remove_invite">Odstrániť pozvánku</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> sa páči vaša správa s aplikáciou Boxer na Cyanogen OS</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="Jankovi Hraškovi">%s</xliff:g> sa páči vaša správa s &lt;a href=\"%s\"&gt;Boxer na Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Nenašiel sa žiadny vhodný obchod s aplikáciami</string>
   <string name="calendar_feature_dialog_title">Stiahnuť Boxer Kalendár</string>
   <string name="calendar_feature_dialog_msg">Boxer poskytuje funkcie kalendára, ktoré pracujú výhradne s Boxer Kalendárom. Ak chcete povoliť túto funkciu, stiahnite si najnovšiu verziu Boxer Kalendára už dnes (zadarmo)</string>

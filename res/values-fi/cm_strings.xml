@@ -226,9 +226,10 @@
     <item quantity="one">%d ristiriita</item>
     <item quantity="other">%d ristiriitaa</item>
   </plurals>
-  <string name="meeting_invitation">Kokouskutsu:</string>
+  <string name="meeting_invitation">Kutsun yhteenveto:</string>
+  <string name="invitation_by">Kutsuja:</string>
   <string name="remove_invite">Poista kutsu</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> tykkäsi viestistäsi käyttäen Boxeria Cyanogen OSilla</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> tykkäsi viestistäsi sovelluksella &lt;a href=\"%s\"&gt; Boxer Cyanogen OSilla&lt;/a&gt;.</string>
   <string name="error_no_app_store">Sopivaa sovelluskauppaa ei löydy</string>
   <string name="calendar_feature_dialog_title">Lataa Boxer Calendar</string>
   <string name="calendar_feature_dialog_msg">Boxer tarjoaa kalenteriominaisuudet jotka toimivat yksinoikeudella Boxer Calendarin kanssa. Ottaaksesi tämän ominaisuuden käyttöön, lataa uusin Boxer Calendarin versio tänään (ILMAINEN)</string>

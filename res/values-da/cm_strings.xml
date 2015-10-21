@@ -222,10 +222,17 @@
   <string name="event_over">Begivenhed afsluttet</string>
   <string name="busy">Optaget</string>
   <string name="available">Tilgængelig</string>
-  <string name="meeting_invitation">Mødeinvitation:</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d anden konflikt</item>
+    <item quantity="other">%d andre konflikter</item>
+  </plurals>
+  <string name="meeting_invitation">Invitationssammendrag:</string>
+  <string name="invitation_by">Inviteret af</string>
   <string name="remove_invite">Fjern invitation</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> synes godt om din besked via Boxer på Cyanogen OS</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> kunne lide din besked via &lt;a href=\"%s\"&gt;Boxer på Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Ingen passende app butik blev fundet</string>
+  <string name="calendar_feature_dialog_title">Hent Boxer kalender</string>
+  <string name="calendar_feature_dialog_msg">Boxer giver kalender funktioner, der udelukkende arbejder med Boxer kalender. For at aktivere denne funktion, hent da den nyeste version af Boxer kalender i dag (GRATIS)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLÉR</string>
   <string name="calendar_feature_dialog_negative_btn">IKKE NU</string>
   <string name="undisclosed_recipients">Skjulte Modtagere</string>

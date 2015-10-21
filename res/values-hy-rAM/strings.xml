@@ -125,6 +125,7 @@
   <string name="contextmenu_help">Օգնություն</string>
   <string name="contextmenu_feedback">Ուղարկել կարծիք</string>
   <plurals name="move_conversation">
+    <item quantity="one">Տեղափոխել <xliff:g id="ID_1">%1$d</xliff:g> խոսակցությունները</item>
     <item quantity="other">Տեղափոխել <xliff:g id="ID_1">%1$d</xliff:g> խոսակցությունները</item>
   </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g>-ը <xliff:g id="SUBJECT">%2$s</xliff:g>-ի մասին, <xliff:g id="SNIPPET">%3$s</xliff:g> <xliff:g id="DATE">%4$s</xliff:g>-ին, <xliff:g id="READSTATE">%5$s</xliff:g></string>
@@ -134,6 +135,7 @@
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
   <plurals name="draft">
+    <item quantity="one">Սևագրություններ</item>
     <item quantity="other">Սևագրություններ</item>
   </plurals>
   <string name="sending">Ուղարկվում է...</string>
@@ -142,45 +144,57 @@
   <string name="me_subject_pronun">ես</string>
   <string name="inbox_folders_heading">Մուտքի արկղ</string>
   <plurals name="confirm_delete_conversation">
+    <item quantity="one">Ջնջե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցությունը:</item>
     <item quantity="other">Ջնջե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցությունը:</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
+    <item quantity="one">Արխիվացնե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցությունը:</item>
     <item quantity="other">Արխիվացնե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցությունը:</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Հրաժարվե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցության սևագրերից:</item>
     <item quantity="other">Հրաժարվե՞լ այս <xliff:g id="COUNT">%1$d</xliff:g> խոսակցության սևագրերից:</item>
   </plurals>
   <string name="confirm_discard_text">Մերժե՞լ այս հաղորդագրությունը</string>
   <string name="loading_conversations">Բեռնում...</string>
   <string name="undo">Հետարկել</string>
   <plurals name="conversation_unstarred">
+    <item quantity="one">Ապաաստղանշվում է <xliff:g id="COUNT">%1$d</xliff:g> զրույց:</item>
     <item quantity="other">Ապաաստղանշվում է <xliff:g id="COUNT">%1$d</xliff:g> զրույց:</item>
   </plurals>
   <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; համրեցված է:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; համրեցված է:</item>
   </plurals>
   <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես լցոն:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես լցոն:</item>
   </plurals>
   <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես ոչ լցոն:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես ոչ լցոն:</item>
   </plurals>
   <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; նշված է որպես ոչ կարևոր:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; նշված է որպես ոչ կարևոր:</item>
   </plurals>
   <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես որսում:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; զեկուցված է որպես որսում:</item>
   </plurals>
   <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; արխիվացված:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; արխիվացված:</item>
   </plurals>
   <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; ջնջված:</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; ջնջված:</item>
   </plurals>
   <string name="deleted">Ջնջված է</string>
   <string name="archived">Արխիվացված</string>
   <string name="folder_removed">Հեռացվել է <xliff:g id="FOLDERNAME">%1$s</xliff:g>-ից</string>
   <plurals name="conversation_folder_changed">
+    <item quantity="one">Փոխված թղթապանակներ:</item>
     <item quantity="other">Փոխված թղթապանակներ:</item>
   </plurals>
   <string name="conversation_folder_moved">Տեղափոխվել է <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
@@ -193,6 +207,7 @@
   <string name="contact_info_string">Ցուցադրել <xliff:g id="NAME">%1$s</xliff:g>-ի կոնտակտային տվյալները</string>
   <string name="contact_info_string_default">Ցույց տալ կոնտակտային տեղեկությունները</string>
   <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> ավելի հին հաղորդագրություն</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> ավելի հին հաղորդագրություն</item>
   </plurals>
   <string name="from_heading">Ուղարկող` </string>
@@ -237,6 +252,7 @@
   <string name="tap_to_configure_folder_sync">Համաժամեցնել թղթապանակը</string>
   <string name="widget_large_unread_count">%d+</string>
   <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> չընթերցված</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> չընթերցված</item>
   </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g> + չընթերցված</string>
@@ -325,6 +341,7 @@
   <string name="empty_trash_dialog_title">Դատարկե՞լ Աղբարկղը</string>
   <string name="empty_spam_dialog_title">Դատարկե՞լ Թափոնը</string>
   <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> հաղորդագրություն ընդմիշտ կջնջվի:</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> հաղորդագրություն ընդմիշտ կջնջվի:</item>
   </plurals>
   <string name="drawer_open">Բացել նավարկման դարակը</string>

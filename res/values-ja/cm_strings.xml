@@ -216,9 +216,10 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d件の競争</item>
   </plurals>
-  <string name="meeting_invitation">会議への招待状:</string>
+  <string name="meeting_invitation">招待状の概要:</string>
+  <string name="invitation_by">招待者: </string>
   <string name="remove_invite">招待状を削除</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>がCyanogen OSのBoxerであなたのメッセージをいいねしました。</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g>があなたのメッセージを&lt;a href=\"%s\"&gt;Cyanogen OSのBoxer&lt;/a&gt;でいいねしました。</string>
   <string name="error_no_app_store">適切なアプリストアが見つかりませんでした</string>
   <string name="calendar_feature_dialog_title">Boxer Calendarをダウンロード</string>
   <string name="calendar_feature_dialog_msg">BoxerはBoxer Calendarとのみ動作するカレンダー機能を提供します。この機能を有効にするには、最新バージョンのBoxer Calendar today（無料）をダウンロードしてください。</string>

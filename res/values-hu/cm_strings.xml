@@ -226,9 +226,7 @@
     <item quantity="one">%d másik ütközés</item>
     <item quantity="other">%d másik ütközés</item>
   </plurals>
-  <string name="meeting_invitation">Meghívás találkozóra:</string>
   <string name="remove_invite">Meghívó eltávolítása</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> kedvelte a Boxer által küldött üzenetet a Cyanogen készülékén</string>
   <string name="error_no_app_store">Nem található megfelelő alkalmazás</string>
   <string name="calendar_feature_dialog_title">Boxer naptár letöltése</string>
   <string name="calendar_feature_dialog_msg">A Boxer szolgáltató naptár funkciói kizárólag a Boxer Naptárral működnek. Ahhoz, hogy ezt a funkciót engedélyezhesse, töltse le a Boxer Naptár legújabb (ingyenes) verzióját</string>

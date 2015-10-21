@@ -226,9 +226,10 @@
     <item quantity="one">התנגשות אחרת %d</item>
     <item quantity="other">%d התנגשויות אחרות</item>
   </plurals>
-  <string name="meeting_invitation">הזמנה לפגישה:</string>
+  <string name="meeting_invitation">סיכום הזמנה:</string>
+  <string name="invitation_by">הזמנה מ:</string>
   <string name="remove_invite">הסר הזמנה</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב את ההודעה שלך דרך Boxer המותקן על מערכת Cyanogen</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב את ההודעה שלך עם&lt;a href=\"%s\"&gt;Boxer על מערכת ההפעלה Cyanogen&lt;/a&gt;.</string>
   <string name="error_no_app_store">לא נמצא יישום מתאים בחנות</string>
   <string name="calendar_feature_dialog_title">הורד את Boxer Calendar</string>
   <string name="calendar_feature_dialog_msg">Boxer מספק תכונות ללוח שנה העובדות רק עם יישום Boxer Calendar. כדי להפעיל תכונה זו, הורד היום את הגרסה העדכנית של Boxer Calendar (בחינם)</string>

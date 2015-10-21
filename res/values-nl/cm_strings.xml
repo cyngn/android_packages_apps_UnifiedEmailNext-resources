@@ -226,9 +226,7 @@
     <item quantity="one">%d ander conflict</item>
     <item quantity="other">%d andere conflicten</item>
   </plurals>
-  <string name="meeting_invitation">Uitnodiging voor afspraak:</string>
   <string name="remove_invite">Uitnodiging verwijderen</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> vindt uw bericht leuk met Boxer op Cyanogen OS</string>
   <string name="error_no_app_store">Geen geschikte app-winkel gevonden</string>
   <string name="calendar_feature_dialog_title">Boxer Agenda downloaden</string>
   <string name="calendar_feature_dialog_msg">Boxer biedt agendafuncties die uitsluitend met Boxer Agenda werken. Om deze functies in te schakelen, kunt u de nieuwste versie van Boxer Agenda (gratis) downloaden.</string>

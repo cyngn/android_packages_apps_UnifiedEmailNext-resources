@@ -216,9 +216,7 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d 个其他冲突</item>
   </plurals>
-  <string name="meeting_invitation">会议邀请：</string>
   <string name="remove_invite">移除邀请</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> 通过基于 Cyanogen OS 的 Boxer 赞了你的消息。</string>
   <string name="error_no_app_store">没有找到合适的应用商店</string>
   <string name="calendar_feature_dialog_title">下载 Boxer 日历</string>
   <string name="calendar_feature_dialog_msg">Boxer 提供基于 Boxer 日历的专有功能。要启用此功能，立刻下载最新版本的 Boxer 日历（免费）</string>

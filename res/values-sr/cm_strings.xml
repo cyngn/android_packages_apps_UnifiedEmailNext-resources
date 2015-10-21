@@ -236,9 +236,10 @@
     <item quantity="few">%d друга конфликта</item>
     <item quantity="other">%d друга конфликта</item>
   </plurals>
-  <string name="meeting_invitation">Позивница за састанак:</string>
+  <string name="meeting_invitation">Резиме позивнице:</string>
+  <string name="invitation_by">Позивница од</string>
   <string name="remove_invite">Уклони позивницу</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> лајковао твоју поруку са Boxer-ом на Cyanogen OS-у</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> се допада твоја порука са &lt;a href=\"%s\"&gt;Boxer на Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
   <string name="calendar_feature_dialog_title">Преузми Boxer календар</string>
   <string name="calendar_feature_dialog_msg">Boxer омогућава карактеристике које раде само на Boxer календару. Да омогућиш те карактеристике преузми последњу верзију Boxer календара данас (БЕСПЛАТНО)</string>

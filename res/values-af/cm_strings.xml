@@ -226,9 +226,10 @@
     <item quantity="one">%d ander konflik</item>
     <item quantity="other">%d ander konflikte</item>
   </plurals>
-  <string name="meeting_invitation">Vergadering Uitnodiging:</string>
+  <string name="meeting_invitation">Uitnodiging opsomming:</string>
+  <string name="invitation_by">Uitgenooi deur</string>
   <string name="remove_invite">Verwyder uitnodiging</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hou van jou boodskap met Boxer op Cyanogen</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hou van jou boodskap met &lt;a href=\"%s\"&gt;Boxer op Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Geen beskikbare toep winkel is gevind</string>
   <string name="calendar_feature_dialog_title">Laai Boxer kalender af</string>
   <string name="calendar_feature_dialog_msg">Boxer bied kalender funksies wat uitsluitlik werk met Boxer Jaarboek. Om hierdie funksie te gebruik, laai die nuutste weergawe van Boxer Kalendar vandag af (gratis)</string>

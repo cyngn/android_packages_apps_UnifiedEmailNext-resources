@@ -236,9 +236,10 @@
     <item quantity="few">%d конфликта</item>
     <item quantity="other">%d конфликтов</item>
   </plurals>
-  <string name="meeting_invitation">Приглашение на встречу:</string>
+  <string name="meeting_invitation">Кратк. описание приглашения:</string>
+  <string name="invitation_by">Приглашение от</string>
   <string name="remove_invite">Удалить приглашение</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> понравилось ваше сообщение, отправленное с помощью Boxer для Cyanogen OS</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> понравилось ваше сообщение с использованием &lt;a href=\"%s\"&gt;Boxer для Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Магазин приложений не найден</string>
   <string name="calendar_feature_dialog_title">Загрузить Календарь Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer поддерживает функции календаря, которые работают исключительно с Календарем Boxer. Чтобы воспользоваться этими функциями, скачайте последнюю версию бесплатного приложения «Календарь Boxer»</string>
