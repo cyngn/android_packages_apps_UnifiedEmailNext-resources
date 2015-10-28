@@ -216,6 +216,7 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d مورد بحث دیگر</item>
   </plurals>
+  <string name="meeting_invitation">خلاصه دعوت:</string>
   <string name="remove_invite">حذف دعوت</string>
   <string name="error_no_app_store">هیچ فروشگاه برنامه مناسبی یافت نشد</string>
   <string name="calendar_feature_dialog_title">دانلود تقویم باکسر</string>

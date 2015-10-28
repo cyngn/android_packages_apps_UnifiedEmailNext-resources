@@ -226,6 +226,8 @@
     <item quantity="one">%d ಇತರೆ ಘರ್ಷಣೆ</item>
     <item quantity="other">%d ಇತರೆ ಘರ್ಷಣೆಗಳು</item>
   </plurals>
+  <string name="meeting_invitation">ಆಮಂತ್ರಣ ಸಾರಾಂಶ:</string>
+  <string name="invitation_by">ಆಹ್ವಾನಿಸಿದವರು</string>
   <string name="remove_invite">ಆಮಂತ್ರಣ ತೆಗೆ</string>
   <string name="error_no_app_store">ಯಾವುದೇ ಸೂಕ್ತ ಆಪ್ ಸ್ಟೋರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
   <string name="calendar_feature_dialog_title">ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ</string>

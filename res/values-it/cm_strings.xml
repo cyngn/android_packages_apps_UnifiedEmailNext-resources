@@ -226,7 +226,10 @@
     <item quantity="one">%d altro conflitto</item>
     <item quantity="other">%d altri conflitti</item>
   </plurals>
+  <string name="meeting_invitation">Riepilogo invito:</string>
+  <string name="invitation_by">Invito da</string>
   <string name="remove_invite">Rimuovi invito</string>
+  <string name="action_liked_message_cm">A <xliff:g id="display_name" example="John Doe">%s </xliff:g> è piaciuto il tuo messaggio con &lt;a href =\"%s\" &gt;Boxer su Cianogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Nessun app store adatto è stato trovato</string>
   <string name="calendar_feature_dialog_title">Scarica Calendario Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer fornisce un funzioni calendario che funzionano esclusivamente con Calendario Boxer. Per attivare questa funzione, scarica l\'ultima versione del Calendario Boxer ora (gratis)</string>
