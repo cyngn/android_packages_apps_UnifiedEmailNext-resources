@@ -29,7 +29,7 @@
   <string name="compose">Schreiwen</string>
   <string-array name="compose_modes">
     <item>Äntweren</item>
-    <item>Allen Äntwerten</item>
+    <item>Allen äntweren</item>
     <item>Weiderleeden</item>
   </string-array>
   <string name="reply_attribution">Den <xliff:g id="date">%s</xliff:g> schreift den/d\' <xliff:g id="person">%s</xliff:g>:</string>
@@ -64,7 +64,7 @@
   <string name="discard_drafts">Brouillone verwerfen</string>
   <string name="refresh">Opfrëschen</string>
   <string name="reply">Äntweren</string>
-  <string name="reply_all">Allen Äntwerten</string>
+  <string name="reply_all">Allen äntweren</string>
   <string name="resume_draft">Änneren</string>
   <string name="forward">Weiderleeden</string>
   <string name="menu_compose">Schreiwen</string>
@@ -308,7 +308,7 @@
   <string name="preferences_signature_title">Ënnerschrëft</string>
   <string name="preferences_signature_dialog_title">Ënnerschrëft</string>
   <string name="preferences_signature_summary_not_set">Net gesat</string>
-  <string name="notification_action_reply_all">Allen Äntwerten</string>
+  <string name="notification_action_reply_all">Allen äntweren</string>
   <string name="notification_action_archive">Archiv</string>
   <string name="notification_action_remove_label">Etikett läschen</string>
   <string name="notification_action_undo_archive">Archivéiert</string>
@@ -329,7 +329,7 @@
     <item>\"Archivéieren\" a \"Läschen\" uweisen</item>
   </string-array>
   <string name="prefDialogTitle_removal_action">Aktioun beim Archivéieren a Läschen</string>
-  <string name="preferences_default_reply_all_title">Allen Äntwerten</string>
+  <string name="preferences_default_reply_all_title">Allen äntweren</string>
   <string name="preferences_default_reply_all_summary">Als Standard fir Äntwerte benotzen</string>
   <string name="preference_swipe_title_archive">Wësche fir z\'archivéieren</string>
   <string name="preference_swipe_title_delete">Wësche fir ze läschen</string>

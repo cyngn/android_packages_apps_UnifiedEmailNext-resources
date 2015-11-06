@@ -217,7 +217,9 @@
     <item quantity="other">%d مورد بحث دیگر</item>
   </plurals>
   <string name="meeting_invitation">خلاصه دعوت:</string>
+  <string name="invitation_by">دعوت از</string>
   <string name="remove_invite">حذف دعوت</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> پیام‌های شما را با &lt;a href=\"%s\"&gt; Booxer در سیستم‌عامل سایانوژن‌مود&lt;/a&gt; لایک کرد.</string>
   <string name="error_no_app_store">هیچ فروشگاه برنامه مناسبی یافت نشد</string>
   <string name="calendar_feature_dialog_title">دانلود تقویم باکسر</string>
   <string name="calendar_feature_dialog_msg">باکسر ویژگی‌هایی را برای تقویم ارائه می‌کند که فقط با تقویم باکسر کار می‌کند. برای فعال کردن این ویژگی، جدیدترین نسخه تقویم باکسر را همین امروز (به صورت رایگان) دانلود کنید</string>

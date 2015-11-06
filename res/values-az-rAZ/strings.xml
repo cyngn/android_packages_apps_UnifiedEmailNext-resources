@@ -179,6 +179,18 @@
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq əhəmiyyətsiz olaraq işarələndi.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; danışıq əhəmiyyətsiz olaraq işarələndi.</item>
   </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; kimlik ovu olaraq bildirildi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; kimlik ovu olaraq bildirildi.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arxivləndi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arxivləndi.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; silindi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; silindi.</item>
+  </plurals>
   <string name="deleted">Silindi</string>
   <string name="archived">Arxivləndi</string>
   <string name="folder_removed"><xliff:g id="folderName">%1$s</xliff:g> adlı qovluqdan çıxarıldı</string>
@@ -259,6 +271,7 @@
   <string name="wait_for_sync_title">Sinxron etmək üçün gözlənilir</string>
   <string name="wait_for_sync_body">E-poçtunuz birazdan göstəriləcək.</string>
   <string name="not_synced_title">Hesab sinxron deyil</string>
+  <string name="wait_for_manual_sync_body">Bu hesab avtomatik olaraq sinxronizasiya etmək üçün tənzimlənməyib.\nPoçtu bir dəfə sinxron etmək üçün \"<b>"İndi Sinxron Et"</b>\"ə və ya bu hesabı poçtu avtomatik olaraq sinxron edəcək formada tənzimləmək üçün \"<b>"Sinx Tənzimləmələrini Dəyişdir"</b>\"ə tounun.</string>
   <string name="manual_sync">İndi sinxron et</string>
   <string name="change_sync_settings">Sinxronizasiya tənzimləmələri</string>
   <string name="photo_load_failed">Təsvir yüklənə bilmədi</string>
@@ -273,6 +286,7 @@
   <string name="sync_error_message">Cihazınızda sinxronizasiya üçün kifayət qədər yer yoxdur.</string>
   <string name="storage">Saxlama</string>
   <string name="senders_split_token">, </string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <string name="recent_folders_heading">Son qovluqlar</string>
   <string name="message_details_title">Mesaj təfsilatı</string>
   <string name="auto_advance_label">Avtomatik ilərilə</string>

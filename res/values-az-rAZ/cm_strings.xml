@@ -16,5 +16,220 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Birgə</string>
+  <string name="menu_select_all">Hamısını seç</string>
+  <string name="menu_actiongrid">Əməliyyat paneli</string>
+  <string name="remove_account">Hesabı sil</string>
+  <string name="support">Dəstək</string>
+  <string name="delete_account_title">Hesabı sil</string>
+  <string name="delete_account_summary">Bu hesabı və onun bütün tənzimləmə və verilənlərini silər</string>
+  <string name="delete_account_confirmation_msg"><xliff:g id="account">%s</xliff:g> hesabının bütün tənzimləmələri və e-poçtları silinəcək. Bu əməliyyatın geri dönüşü yoxdur.\n\nDavam edilsin?</string>
+  <string name="deleting_account_msg">Hesab silinir\u2026</string>
+  <string name="delete_account_failed">Hesab silinə bilmədi</string>
+  <string name="open_attachment">Aç</string>
+  <string name="install_attachment">Quraşdır</string>
   <string name="menu_photo_print">Çap et</string>
+  <string name="contextmenu_view_image">Təsviri göstər</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d digər</item>
+    <item quantity="other"> &amp; %d digər</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ediləcək olaraq işarələndi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ediləcək olaraq işarələndi.</item>
+  </plurals>
+  <string name="reported_as_spam">Spam olaraq bildirildi</string>
+  <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g> şəxsindən gələn yeni mesajı göstər.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni mesajı göstər.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni mesajı göstər.</item>
+  </plurals>
+  <string name="edit">Düzəliş et</string>
+  <string name="folder_search_hint">Axtar</string>
+  <string-array name="moveto_folder_sections">
+    <item>Ağıllı qovluqlar</item>
+    <item>Bütün qovluqlar</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>Ağıllı etiketlər</item>
+    <item>Bütün etiketlər</item>
+  </string-array>
+  <string name="boxes_heading">Qutular</string>
+  <string name="all_folders_heading">Qovluqlar</string>
+  <string name="accounts_heading">Hesablar</string>
+  <string name="vendor_signature">Cyanogen telefonumdan göndərildi</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ilə göndərildi</string>
+  <string name="notification_action_mark_read">OXU</string>
+  <string name="notification_action_reply">CAVABLA</string>
+  <string name="notification_action_delete">SİL</string>
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Sürüşdürmə hərəkəti</string>
+  <string name="preferences_swipe_actions_summary">Sol və sağ sürüşdürmə hərəkətlərini özəlləşdir</string>
+  <string name="preferences_swipe_left_short_title">Sola qısa sürüşdürmə</string>
+  <string name="preferences_swipe_left_long_title">Sola uzun sürüşdürmə</string>
+  <string name="preferences_swipe_right_short_title">Sağa qısa sürüşdürmə</string>
+  <string name="preferences_swipe_right_long_title">Sağa uzun sürüşdürmə</string>
+  <string name="print">Çap et</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Qaralama alıcıları:\u0020</string>
+  <string name="draft_heading">Qaralama</string>
+  <string name="quoted_text_hidden_print">Sitat mətn gizlidir</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> qoşma</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> qoşma</item>
+  </plurals>
+  <string name="no_subject">(mövzu yoxdur)</string>
+  <string name="action_grid_select_quick_response">Cəld cavabı seçin</string>
+  <string name="action_grid_todo_dialog_title">Təfsilatlar</string>
+  <string name="action_grid_set_due_date">Bitmə tarixini tənzimlə</string>
+  <string name="action_grid_due">Bitmə:<xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Birincilik əlavə et</string>
+  <string name="action_grid_priority">Birincilik:\u0020</string>
+  <string name="action_grid_add_assignee">Təyin ediləni əlavə et</string>
+  <string name="action_grid_assignee">Təyin edilən:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Bitmə tarixini tənzimlə</string>
+  <string name="action_grid_due_date_today">Bugün</string>
+  <string name="action_grid_due_date_tomorrow">Sabah</string>
+  <string name="action_grid_due_date_this_week">Bu həftə</string>
+  <string name="action_grid_due_date_next_week">Növbəti həftə</string>
+  <string name="action_grid_due_date_specific_date">Xüsusi tarix</string>
+  <string name="action_grid_calendar_picker_dialog_title">Bitmə tarixini tənzimlə</string>
+  <string name="action_grid_priority_dialog_title">Birincilik əlavə et</string>
+  <string name="action_grid_priority_highest">Ən yüksək birincilik</string>
+  <string name="action_grid_priority_high">Yüksək birincilik</string>
+  <string name="action_grid_priority_normal">Normal birincilik</string>
+  <string name="action_grid_priority_low">Aşağı birincilik</string>
+  <string name="action_grid_priority_lowest">Ən aşağı birincilik</string>
+  <string name="action_grid_assignee_dialog_title">Təyin ediləni əlavə et</string>
+  <string name="action_grid_assignee_select_from_contacts">Şəxslərdən seç</string>
+  <string name="action_grid_assignee_search_for_contact">Şəxslərdə axtar</string>
+  <string name="action_grid_assignee_button_bar_clear">Təmizlə</string>
+  <string name="action_message_header_delete">Bu mesaj silinsin?</string>
+  <string name="action_like">Bəyən</string>
+  <string name="action_todo">Ediləcəklər</string>
+  <string name="action_quick">Cəld</string>
+  <string name="action_move">Köçür</string>
+  <string name="action_label">Etiket</string>
+  <string name="action_move_or_label">Köçür/Etiketlə</string>
+  <string name="action_archive">Arxiv</string>
+  <string name="action_delete">Sil</string>
+  <string name="action_spam">Spam</string>
+  <string name="action_flag">İşarələ</string>
+  <string name="action_clear_flag">İşarəni təmizlə</string>
+  <string name="action_star">Ulduz</string>
+  <string name="action_clear_star">Ulduzu təmizlə</string>
+  <string name="action_star_or_flag">Ulduz/İşarə</string>
+  <string name="action_mark_unread">Oxunmamış kimi işarələ</string>
+  <string name="action_mark_read">Oxunmuş kimi işarələ</string>
+  <string name="action_read_or_unread">Oxundu/Oxunmadı</string>
+  <string name="action_actions">Hərəkətlər</string>
+  <string name="marked_evernote">Evernote\'a göndərildi</string>
+  <string name="marked_liked">Bəyənilən olaraq işarələndi</string>
+  <string name="marked_archived">Arxiv üçün işarələndi</string>
+  <string name="marked_deleted">Silinmək üçün işarələndi</string>
+  <string name="marked_spam">Spam qovluğuna köçürüldü</string>
+  <string name="marked_todo">Ediləcək olaraq işarələndi</string>
+  <string name="marked_done">Tamamlandı olaraq işarələndi</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Cavab göndərildi</item>
+    <item quantity="other">Cavab göndərildi</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Mesaj bəyənildi</item>
+    <item quantity="other">Mesajlar bəyənildi</item>
+  </plurals>
+  <string name="invalid_selection">Etibarsız seçim</string>
+  <string name="file_action_more_than_one_account">Birdən çox hesabdan danışıqları seçdiniz. Yalnız bir hesabdan danışıqları seçməyi yoxlayın.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote funksiyası yalnız bir dəfədə bir danışığı dəstəkləyir. Təkcə bir danışığı seçməyi yoxlayın.</string>
+  <string name="not_installed">Quraşdırılmayıb</string>
+  <string name="evernote_not_installed">Evernote quraşdırılmayıb. Bu funksiyanı işlətmək üçün zəhmət olmasa quraşdırın.</string>
+  <string name="custom_mailbox_button">Özəl qutu əlavə et</string>
+  <string name="custom_mailbox_settings_label">Tənzimləmələr</string>
+  <string name="custom_mailbox_folder_name_hint">Özəl qutu adı</string>
+  <string name="custom_mailbox_background_sync_label">Arxaplan sinxronizasiyasi</string>
+  <string name="custom_mailbox_background_sync_switch_on">Açıq</string>
+  <string name="custom_mailbox_background_sync_switch_off">Bağlı</string>
+  <string name="custom_mailbox_delete_box">Qutunu sil</string>
+  <string name="custom_mailbox_error_no_selected_folders">Zəhmət olmasa aşağıdakı siyahıdan ən az bir qovluq seçin</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Xəbərdarlıq</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Bu özəl qutunu silmək istədiyinizə əminsiniz?</string>
+  <string name="custom_mailbox_error_deleting_box">Özəl poçt qutunuzu silərkən xəta baş verdi</string>
+  <string name="viral_prompt_rate_app_title">Bu tətbiqetməni qiymətləndirin</string>
+  <string name="viral_prompt_rate_app_body">Bu tətbiqetməni istifadə etməkdən zövq aldınızsa, bunu qiymətləndirmək üçün bir dəqiqənizi ayıra bilərsiniz? Bir dəqiqədən çox vaxt aparmaz. Dəstəyiniz üçün təşəkkürlər!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Sonra yadıma sal</string>
+  <string name="viral_ratings_prompt_no_thanks">Xeyr təşəkkürlər</string>
+  <string name="viral_ratings_prompt_rate_now">İndi qiymətləndir</string>
+  <string name="promo_code_title_text">Tək başına gələn qutunuzla mübarizə aparmayın</string>
+  <string name="promo_code_edittext_hint">Promo kodu daxil edin</string>
+  <string name="promo_code_button_text">Göndər</string>
+  <string name="promo_code_error_no_code_entered">Göndərə basmamışdan əvvəl promo kodu daxil edin</string>
+  <string name="promo_code_error_invalid_code">Etibarsız promo kodu</string>
+  <string name="promo_code_dialog_title">Özəlliklərin kilidi açıldı</string>
+  <string name="promo_code_dialog_message"><xliff:g id="features">%s</xliff:g> özəlliklərinin kilidi uğurla açıldı</string>
+  <string name="promo_code_dialog_generic_success_msg">Promo kodu uğurla tətbiq edildi</string>
+  <string name="promo_code_progress_dialog_validating">Promo kodu yoxlanır</string>
+  <string name="rage_shake_title">Xəta aşkarlandı</string>
+  <string name="actions_dialog_title">Özəlləşdir</string>
+  <string name="actions_dialog_positive_button_text">Sürüşdürmələri özəlləşdir</string>
+  <string name="actions_dialog_negative_button_text">Bağla</string>
+  <string name="account_setup_start_company_slogan_text">Daha yaxşı gələn qutusuna xoş gəldiniz</string>
+  <string name="account_setup_vendor_heading">E-poçta xoş gəldiniz</string>
+  <string name="account_setup_heading_email_instruction">Başlamaq üçün e-poçt ünvanınızı daxil edin</string>
+  <string name="account_setup_heading_password_instruction">Şifrənizi daxil edin</string>
+  <string name="like_action_dialog_tittle">Bəyənmə nədir?</string>
+  <string name="new_button">Yeni</string>
+  <string name="folder_name_hint">Qovluq adı</string>
+  <string name="create_folder_progess">Qovluq yaradılır\u2026</string>
+  <string name="duplicate_folder_title">Təkrarlanan ad</string>
+  <string name="duplicate_folder_message">Daxil etdiyiniz ad artıq mövcuddur.</string>
+  <string name="error">Xəta</string>
+  <string name="error_creating_folder_message">Qovluq yaradıla bilmədi.</string>
+  <string name="report_rendering_problem">Hesabat</string>
+  <string name="message_reported">Hesabat bildirildi</string>
+  <string name="no_conversation_needs_sync">Burda heç bir poçt yoxdur.\nYeniləmək üçün yuxarıdan aşağı çəkin</string>
+  <string name="getting_messages">Mesajlarınız alınır</string>
+  <string name="empty_folder">Burda heç bir poçt yoxdur.</string>
+  <string name="empty_inbox">Hamısı bu qədər! Gününüzdən zövq alın.</string>
+  <string name="empty_search">Uuups! \"<xliff:g id="search_query">%1$s</xliff:g>\" üçün heçnə tapmadıq.</string>
+  <string name="empty_spam_folder">Əlaa, burda heç bir spam yoxdur!</string>
+  <string name="empty_trash_folder">Burda heç tullantı yoxdur. Zibil qutusu üçün təşəkkürlər!</string>
+  <string name="view_on_calendar">Təqvimdə göstər</string>
+  <string name="accept">Qəbul et</string>
+  <string name="maybe">Bəlkə</string>
+  <string name="decline">Rədd et</string>
+  <string name="remove_from_cal">Təqvimdən çıxart</string>
+  <string name="remove_series_from_cal">Cərgəni təqvimdən çıxart</string>
+  <string name="calendar_attendees_me_only">Mən</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Mən &amp; %d şəxs</item>
+    <item quantity="other">Mən &amp; %d şəxs</item>
+  </plurals>
+  <string name="all_day">Bütün gün</string>
+  <string name="canceled">İmtina edildi</string>
+  <string name="times_that_work_for_me">Mənə uyğun vaxt:</string>
+  <string name="availability_by">Uyğunluq ></string>
+  <string name="remove_availability">Uyğunluğu çıxart</string>
+  <string name="event_over">Tədbir qutardı</string>
+  <string name="busy">Məşğul</string>
+  <string name="available">Uyğun</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d başqa ziddiyyət</item>
+    <item quantity="other">%d başqa ziddiyyət</item>
+  </plurals>
+  <string name="meeting_invitation">Dəvət icmalı:</string>
+  <string name="invitation_by">Dəvət göndərən</string>
+  <string name="remove_invite">Dəvəti çıxart</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> mesajınızı &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt; ilə bəyəndi.</string>
+  <string name="error_no_app_store">Uyğun bir mağaza tapılmadı</string>
+  <string name="calendar_feature_dialog_title">Boxer Təqvimini Endir</string>
+  <string name="calendar_feature_dialog_msg">Boxer təkcə Boxer Təqvimi ilə işləyən təqvim özəlliklərini təchiz edər. Bu özəlliyi fəallaşdırmaq üçün Boxer Təqviminin (ÖDƏNİŞSİZ) ən son versiyasını elə indi endirin</string>
+  <string name="calendar_feature_dialog_positive_btn">QURAŞDIR</string>
+  <string name="calendar_feature_dialog_negative_btn">İNDİ YOX</string>
 </resources>

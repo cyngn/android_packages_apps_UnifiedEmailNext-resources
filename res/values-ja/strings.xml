@@ -255,7 +255,7 @@
   <string name="wait_for_sync_title">同期を待機中</string>
   <string name="wait_for_sync_body">まもなくメールが表示されます。</string>
   <string name="not_synced_title">アカウントが同期していません</string>
-  <string name="wait_for_manual_sync_body">このアカウントには自動同期が設定されていません。\nメールを一度だけ同期させるには[\"<b>"今すぐ同期"</b>\"]をタップします。このアカウントでメールが自動的に同期されるように設定するには、[\"<b>"同期設定の変更"</b>\"]をタップします。</string>
+  <string name="wait_for_manual_sync_body">このアカウントは自動同期がセットアップされていません。\n一度だけメールを同期するには[\"<b>"今すぐ同期"</b>\"]をタップします。このアカウントでメールが自動的に同期するようにセットアップするには[\"<b>"同期設定の変更"</b>\"]をタップします。</string>
   <string name="manual_sync">今すぐ同期</string>
   <string name="change_sync_settings">同期設定の変更</string>
   <string name="photo_load_failed">画像を読み込めませんでした</string>
