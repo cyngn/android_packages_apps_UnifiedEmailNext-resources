@@ -16,7 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Combinada</string>
   <string name="menu_select_all">Seleccionar todas</string>
+  <string name="menu_actiongrid">Grade de acción</string>
   <string name="remove_account">Eliminar conta</string>
   <string name="support">Soporte</string>
   <string name="delete_account_title">Eliminar conta</string>

@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">보낸 사람</string>
   <string name="to">받는사람</string>
   <string name="cc">참조</string>
   <string name="bcc">숨은참조</string>

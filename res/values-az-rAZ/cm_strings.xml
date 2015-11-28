@@ -99,7 +99,7 @@
   <string name="action_grid_due_date_tomorrow">Sabah</string>
   <string name="action_grid_due_date_this_week">Bu həftə</string>
   <string name="action_grid_due_date_next_week">Növbəti həftə</string>
-  <string name="action_grid_due_date_specific_date">Xüsusi tarix</string>
+  <string name="action_grid_due_date_specific_date">Dəqiq tarix</string>
   <string name="action_grid_calendar_picker_dialog_title">Bitmə tarixini tənzimlə</string>
   <string name="action_grid_priority_dialog_title">Birincilik əlavə et</string>
   <string name="action_grid_priority_highest">Ən yüksək birincilik</string>

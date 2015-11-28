@@ -216,7 +216,10 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d xung đột khác</item>
   </plurals>
+  <string name="meeting_invitation">Tóm tắt lời mời:</string>
+  <string name="invitation_by">Mời bởi</string>
   <string name="remove_invite">Xóa lời mời</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> đã thích tin nhắn của bạn với &lt;a href=\"%s\"&gt;Boxer trên Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Không tìm thấy cửa hàng ứng dụng nào phù hợp</string>
   <string name="calendar_feature_dialog_title">Tải Boxer Calendar xuống</string>
   <string name="calendar_feature_dialog_msg">Boxer cung cấp các tính năng lịch mà hoạt động riêng với Boxer Calendar. Để bật tính năng này, hãy tải xuống phiên bản mới nhất của Boxer Calendar ngay hôm nay (MIỄN PHÍ)</string>

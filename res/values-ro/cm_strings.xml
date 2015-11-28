@@ -154,6 +154,7 @@
   <string name="message_reported">Mesaj raportat</string>
   <string name="no_conversation_needs_sync">Nu există niciun mail aici.\nTrageți în jos din partea de sus pentru a împrospăta</string>
   <string name="empty_folder">Nu există niciun mail aici.</string>
+  <string name="empty_spam_folder">Ura, nu avem spam aici!</string>
   <string name="empty_trash_folder">Nu există gunoi aici. Mulțumim pentru reciclare!</string>
   <string name="accept">Accept</string>
   <string name="maybe">Poate</string>

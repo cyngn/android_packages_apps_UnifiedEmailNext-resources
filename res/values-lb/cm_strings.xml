@@ -170,8 +170,16 @@
   <string name="empty_search">Upps! Mir hunn näischt fonnt fir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, kee Spam do!</string>
   <string name="empty_trash_folder">Keen Offall hei. Merci fir d\'recycléieren!</string>
+  <string name="accept">Acceptéieren</string>
+  <string name="maybe">Vläicht</string>
+  <string name="calendar_attendees_me_only">Ech</string>
   <plurals name="calendar_attendees">
     <item quantity="one">Ech an %d aneren</item>
     <item quantity="other">Ech a(n) %d aner</item>
   </plurals>
+  <string name="all_day">Ganzen Dag</string>
+  <string name="canceled">Ofgebrach</string>
+  <string name="busy">Beschäftegt</string>
+  <string name="available">Disponibel</string>
+  <string name="calendar_feature_dialog_negative_btn">NET ELO</string>
 </resources>
