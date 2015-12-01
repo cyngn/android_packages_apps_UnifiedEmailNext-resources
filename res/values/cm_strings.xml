@@ -82,6 +82,8 @@
     <!-- Default email signature on vendor builds -->
     <string name="vendor_signature">Sent from my Cyanogen phone</string>
     <string name="vendor_signature_fmt">Sent from <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+    <string name="blu_signature">Sent from my BLU phone – BLU Mail powered by Boxer</string>
+    <string name="vendor_signature_o2">Sent from Cyanogen on O2</string>
     <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
     <string name="notification_action_mark_read">READ</string>
     <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
@@ -245,8 +247,6 @@
     <!-- Account Setup -->
     <string name="account_setup_start_company_slogan_text">Welcome to a better inbox</string>
     <string name="account_setup_vendor_heading">Welcome to email</string>
-    <string name="account_setup_heading_email_instruction">Enter your email address to get started</string>
-    <string name="account_setup_heading_password_instruction">Enter your password</string>
 
     <!-- Like Feature -->
     <string name="like_action_dialog_tittle">What is Like?</string>
