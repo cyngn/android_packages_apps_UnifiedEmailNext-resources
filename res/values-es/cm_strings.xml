@@ -59,6 +59,8 @@
   <string name="accounts_heading">Cuentas</string>
   <string name="vendor_signature">Enviado desde mi teléfono con Cyanogen</string>
   <string name="vendor_signature_fmt">Enviado desde <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Enviado desde mi teléfono BLU - Email BLU proporcionado por Boxer</string>
+  <string name="vendor_signature_o2">Enviado desde Cyanogen O2</string>
   <string name="notification_action_mark_read">LEER</string>
   <string name="notification_action_reply">RESPONDER</string>
   <string name="notification_action_delete">ELIMINAR</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Cerrar</string>
   <string name="account_setup_start_company_slogan_text">Bienvenido a una bandeja de entrada mejor</string>
   <string name="account_setup_vendor_heading">Bienvenido al correo electrónico</string>
-  <string name="account_setup_heading_email_instruction">Introduce tu dirección de correo electrónico para comenzar</string>
-  <string name="account_setup_heading_password_instruction">Introduce tu contraseña</string>
   <string name="like_action_dialog_tittle">¿Qué es \u00ABme gusta\u00BB?</string>
   <string name="like_action_dialog_message">Has encontrado nuestra característica favorita. Cuando te \u00ABgusta\u00BB un mensaje, se enviará un correo electrónico al remitente y el resto de destinatarios para que sepan que te gusta. Es la manera más rápida para contestar un correo electrónico.</string>
   <string name="new_button">Nuevo</string>
