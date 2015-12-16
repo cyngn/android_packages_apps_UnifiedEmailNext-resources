@@ -59,6 +59,8 @@
   <string name="accounts_heading">חשבונות</string>
   <string name="vendor_signature">נשלח ממכשיר ה-Cyanogen שלי</string>
   <string name="vendor_signature_fmt">נשלח מ-<xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">נשלח ממכשיר ה-BLU שלי - דוא\"ל BLU דרך Boxer</string>
+  <string name="vendor_signature_o2">נשלח מ-Cyanogen ברשת O2</string>
   <string name="notification_action_mark_read">קרא</string>
   <string name="notification_action_reply">השב</string>
   <string name="notification_action_delete">מחק</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">סגור</string>
   <string name="account_setup_start_company_slogan_text">ברוכים הבאים לדוא\"ל טוב יותר</string>
   <string name="account_setup_vendor_heading">ברוכים הבאים לדואר האלקטרוני</string>
-  <string name="account_setup_heading_email_instruction">הכנס את כתובת הדוא\"ל שלך כדי להתחיל</string>
-  <string name="account_setup_heading_password_instruction">הכנס את הסיסמה שלך</string>
   <string name="like_action_dialog_tittle">מה זה \"אהבתי\"?</string>
   <string name="like_action_dialog_message">מצאת את התכונה החביבה עלינו. כשאתה מסמן הודעה כ\"אהבתי\", דוא\"ל יישלח לשולח ולנמענים נוספים על מנת שידעו שאהבת את זה. זו הדרך המהירה ביותר להגיב לדוא\"ל כיום.</string>
   <string name="new_button">חדש</string>

@@ -183,8 +183,6 @@
   <string name="actions_dialog_negative_button_text">Lukk</string>
   <string name="account_setup_start_company_slogan_text">Velkommen til en bedre innboks</string>
   <string name="account_setup_vendor_heading">Velkommen til e-post</string>
-  <string name="account_setup_heading_email_instruction">Skriv inn epostadressen din å komme i gang</string>
-  <string name="account_setup_heading_password_instruction">Angi passordet</string>
   <string name="like_action_dialog_tittle">Hva er like?</string>
   <string name="like_action_dialog_message">Du har funnet vår favoritt funksjon. Når du \"Liker\" en melding, vil en epost bli sendt for å la avsendere og andre få beskjed om at du liker eposten. Det er den raskeste metoden å svare på eposter.</string>
   <string name="new_button">Ny</string>

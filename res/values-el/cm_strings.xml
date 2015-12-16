@@ -59,6 +59,8 @@
   <string name="accounts_heading">Λογαριασμοί</string>
   <string name="vendor_signature">Στάλθηκε από το Cyanogen τηλέφωνό μου</string>
   <string name="vendor_signature_fmt">Στάλθηκε από <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Στάλθηκε από το BLU τηλέφωνό μου - BLU Mail powered by Boxer</string>
+  <string name="vendor_signature_o2">Στάλθηκε από Cyanogen σε O2</string>
   <string name="notification_action_mark_read">ΑΝΑΓΝ</string>
   <string name="notification_action_reply">ΑΠΑΝΤ</string>
   <string name="notification_action_delete">ΔΙΑΓΡ</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Κλείσιμο</string>
   <string name="account_setup_start_company_slogan_text">Καλώς ήλθατε σε έναν καλύτερο φάκελο εισερχομένων</string>
   <string name="account_setup_vendor_heading">Καλώς ήλθατε στο ηλεκτρονικό ταχυδρομείο</string>
-  <string name="account_setup_heading_email_instruction">Εισάγετε το email σας για να ξεκινήσετε</string>
-  <string name="account_setup_heading_password_instruction">Εισάγετε τον κωδικό πρόσβασής σας</string>
   <string name="like_action_dialog_tittle">Τι είναι το Μου αρέσει;</string>
   <string name="like_action_dialog_message">Βρήκατε το αγαπημένο χαρακτηριστικό μας. Όταν σας \'αρέσει\' ένα μήνυμα, ένα email θα αποσταλεί στον αποστολέα και τους άλλους παραλήπτες επισημαίνοντας ότι σας αρέσει. Είναι ο πλέον γρήγορος τρόπος για να απαντήσετε σε email.</string>
   <string name="new_button">Νέο</string>

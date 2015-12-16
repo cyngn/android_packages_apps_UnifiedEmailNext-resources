@@ -188,8 +188,6 @@
   <string name="actions_dialog_message">Ar jūs naudojate aplankus reguliariai? dažnai pažymite kaip šlamštą? patinka iškirpti į „Evernote“?\n\nSu tinkintais braukiamaisiais veiksmais galite nustatyti bet kurį iš šių gestų, kad pagerintumėte savo darbo eigą.\n</string>
   <string name="actions_dialog_positive_button_text">Tinkinti braukimus</string>
   <string name="actions_dialog_negative_button_text">Uždaryti</string>
-  <string name="account_setup_heading_email_instruction">Įveskite savo el. pašto adresą, kad pradėtumėte</string>
-  <string name="account_setup_heading_password_instruction">įveskite savo slaptažodį</string>
   <string name="like_action_dialog_tittle">Kaip?</string>
   <string name="like_action_dialog_message">Jūs radote mūsų mėgstamiausią funkciją. Kai jūs pažymite, kad jums patinka pranešimas, el. paštas bus išsiųstas siuntėjui leidžiantis žinoti jog jums tai patiko. Tai greičiausias būdas atsakyti į el. paštą.</string>
   <string name="new_button">Naujas</string>

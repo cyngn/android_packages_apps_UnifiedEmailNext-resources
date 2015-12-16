@@ -59,6 +59,8 @@
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Enviat des del meu telèfon Cyanogen</string>
   <string name="vendor_signature_fmt">Enviat des de <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Enviat des del meu telèfon BLU - Correu BLU alimentat per Boxer</string>
+  <string name="vendor_signature_o2">Enviat des de Cyanogen sobre O2</string>
   <string name="notification_action_mark_read">LLEGIR</string>
   <string name="notification_action_reply">RESPONDRE</string>
   <string name="notification_action_delete">ESBORRAR</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Tanca</string>
   <string name="account_setup_start_company_slogan_text">Benvingut a una safata d\'entrada millor</string>
   <string name="account_setup_vendor_heading">Benvingut al correu electrònic</string>
-  <string name="account_setup_heading_email_instruction">Introdueix la teva adreça de correu electrònic per a començar</string>
-  <string name="account_setup_heading_password_instruction">Introdueix la teva contrasenya</string>
   <string name="like_action_dialog_tittle">Com és?</string>
   <string name="like_action_dialog_message">Has trobat la nostra funció preferida. Quan marquis \"M\'agrada\" en un missatge, s\'enviarà un correu electrònic permetent que l\'emissor i altres destinataris sàpiguen que t\'agrada. És la manera més ràpida de respondre a un correu electrònic.</string>
   <string name="new_button">Nou</string>

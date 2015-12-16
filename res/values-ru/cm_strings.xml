@@ -62,6 +62,8 @@
   <string name="accounts_heading">Аккаунты</string>
   <string name="vendor_signature">Отправлено с моего телефона Cyanogen</string>
   <string name="vendor_signature_fmt">Отправлено с <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Отправлено с телефона BLU — BLU Mail на основе Boxer</string>
+  <string name="vendor_signature_o2">Отправлено с телефона Cyanogen на O2</string>
   <string name="notification_action_mark_read">ПРОЧИТАНО</string>
   <string name="notification_action_reply">ОТВЕТИТЬ</string>
   <string name="notification_action_delete">УДАЛИТЬ</string>
@@ -191,8 +193,6 @@
   <string name="actions_dialog_negative_button_text">Закрыть</string>
   <string name="account_setup_start_company_slogan_text">Добро пожаловать в лучший почтовый ящик</string>
   <string name="account_setup_vendor_heading">Добро пожаловать в Email</string>
-  <string name="account_setup_heading_email_instruction">Введите адрес электронной почты, чтобы начать работу</string>
-  <string name="account_setup_heading_password_instruction">Введите ваш пароль</string>
   <string name="like_action_dialog_tittle">Кнопка «Мне нравится»</string>
   <string name="like_action_dialog_message">Это наша любимая функция. Когда вы ставите отметку «нравится» у сообщения, отправляется e-mail, который уведомит об этом отправителя и других получателей. Пока что это самый быстрый способ отвечать на письма.</string>
   <string name="new_button">Создать</string>

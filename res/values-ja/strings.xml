@@ -229,7 +229,7 @@
     <item>完了</item>
     <item>接続できません。</item>
     <item>ログインできませんでした。</item>
-    <item>セキュリティエラー</item>
+    <item>セキュリティエラーが発生しました。</item>
     <item>同期できませんでした。</item>
     <item>内部エラー</item>
   </string-array>

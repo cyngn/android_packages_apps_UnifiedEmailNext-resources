@@ -59,6 +59,8 @@
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Verzonden vanaf mijn Cyanogen-telefoon</string>
   <string name="vendor_signature_fmt">Verzonden met <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Verzonden vanaf mijn BLU-telefoon – BLU e-mail mogelijk gemaakt door Boxer</string>
+  <string name="vendor_signature_o2">Verzonden vanaf Cyanogen op O2</string>
   <string name="notification_action_mark_read">Lees</string>
   <string name="notification_action_reply">Antw</string>
   <string name="notification_action_delete">Wis</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Sluiten</string>
   <string name="account_setup_start_company_slogan_text">Welkom bij een verbeterde inbox</string>
   <string name="account_setup_vendor_heading">Welkom bij E-mail</string>
-  <string name="account_setup_heading_email_instruction">E-mailadres invoeren om te beginnen</string>
-  <string name="account_setup_heading_password_instruction">Wachtwoord invoeren</string>
   <string name="like_action_dialog_tittle">Wat is \'Leuk vinden\'?</string>
   <string name="like_action_dialog_message">U heeft onze favoriete functie gevonden. Wanneer u een bericht markeert als \'leuk\', wordt er een e-mail verstuurd om de verzender en andere ontvangers te laten weten dat u het bericht leuk vindt. Het is een snelle manier om op e-mails te reageren.</string>
   <string name="new_button">Nieuw</string>

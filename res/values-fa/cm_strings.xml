@@ -56,6 +56,8 @@
   <string name="accounts_heading">حساب‌های کاربری</string>
   <string name="vendor_signature">ارسال شده از تلفن همراه سیانوژن من</string>
   <string name="vendor_signature_fmt">ارسال شده از <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">ارسال شده از گوشی BLU من - BLU Mail قدرت گرفته از Boxer</string>
+  <string name="vendor_signature_o2">ارسال شده از سایانوژن در O2</string>
   <string name="notification_action_mark_read">خوانده شده</string>
   <string name="notification_action_reply">پاسخ</string>
   <string name="notification_action_delete">حذف</string>
@@ -175,8 +177,6 @@
   <string name="actions_dialog_negative_button_text">بستن</string>
   <string name="account_setup_start_company_slogan_text">به یک صندوق ورودی بهتر خوش آمدید</string>
   <string name="account_setup_vendor_heading">به ایمیل خوش آمدید</string>
-  <string name="account_setup_heading_email_instruction">برای شروع، آدرس ایمیل خود را وارد کنید</string>
-  <string name="account_setup_heading_password_instruction">گذرواژه خود را وارد کنید</string>
   <string name="like_action_dialog_tittle">چگونه است؟</string>
   <string name="like_action_dialog_message">شما قابلیت مورد علاقه ما را پیدا کردید. هنگامی که یک پیام را پیام را «می‌پسندید»، یک ایمیل به ارسال‌کننده و دیگر شرکت‌کنندگان ارسال می‌شود تا به آنها اطلاع دهید که آن را پسندیدید. این سریع‌ترین روش برای پاسخ به ایمیل است.</string>
   <string name="new_button">جدید</string>

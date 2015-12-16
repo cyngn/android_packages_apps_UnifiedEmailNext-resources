@@ -180,8 +180,6 @@
   <string name="actions_dialog_message">¿Utilizas carpetas habitualmente? ¿Sueles marcar mensajes como correo no deseado? ¿Te gusta mucho el clip de Evernote?\n\nCon las acciones de deslizar personalizadas puedes configurar cualquiera de estos gestos para adaptarse a tu flujo de trabajo.\n</string>
   <string name="actions_dialog_positive_button_text">Personalizar las acciones de deslizar</string>
   <string name="actions_dialog_negative_button_text">Cerrar</string>
-  <string name="account_setup_heading_email_instruction">Introduce tu dirección de correo electrónico para comenzar</string>
-  <string name="account_setup_heading_password_instruction">Introduce tu contraseña</string>
   <string name="like_action_dialog_tittle">¿Cómo es?</string>
   <string name="like_action_dialog_message">Encontraste nuestra característica favorita. Cuando te \"gusta\" un mensaje, se envía un correo electrónico al remitente y el resto de los destinatarios que elijas para que sepan que te gusta. Es la manera más rápida de contestar un correo electrónico.</string>
   <string name="new_button">Nuevo</string>

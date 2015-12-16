@@ -56,6 +56,8 @@
   <string name="accounts_heading">账户</string>
   <string name="vendor_signature">发送自我的 Cyanogen 手机</string>
   <string name="vendor_signature_fmt">发送自 <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">发自我的 BLU 手机 – 由 Boxer 驱动的 BLU Mail</string>
+  <string name="vendor_signature_o2">发自 O2 上的 Cyanogen</string>
   <string name="notification_action_mark_read">阅读</string>
   <string name="notification_action_reply">回复</string>
   <string name="notification_action_delete">删除</string>
@@ -175,8 +177,6 @@
   <string name="actions_dialog_negative_button_text">关闭</string>
   <string name="account_setup_start_company_slogan_text">欢迎来到一个更好的收件箱</string>
   <string name="account_setup_vendor_heading">欢迎来到电子邮件</string>
-  <string name="account_setup_heading_email_instruction">输入您的电子邮件地址以开始</string>
-  <string name="account_setup_heading_password_instruction">输入您的密码</string>
   <string name="like_action_dialog_tittle">什么是“赞”？</string>
   <string name="like_action_dialog_message">您找到了我们最喜欢的功能。当您“赞”一条信息，一封电子邮件将会发送给其他回复人告诉他们您喜欢它。这是目前最快速的电子邮件回复方式。</string>
   <string name="new_button">新的</string>

@@ -59,6 +59,8 @@
   <string name="accounts_heading">Tilit</string>
   <string name="vendor_signature">Lähetetty Cyanogen-puhelimesta</string>
   <string name="vendor_signature_fmt">Lähetetty <xliff:g id="brand" example="samsung">%s</xliff:g>-laitteesta</string>
+  <string name="blu_signature">Lähetetty BLU-puhelimestani – BLU Mail powered by Boxer</string>
+  <string name="vendor_signature_o2">Lähetetty Cyanogenin O2-puhelimesta</string>
   <string name="notification_action_mark_read">LUE</string>
   <string name="notification_action_reply">VASTAA</string>
   <string name="notification_action_delete">POISTA</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Sulje</string>
   <string name="account_setup_start_company_slogan_text">Tervetuloa parempaan sähköpostiin</string>
   <string name="account_setup_vendor_heading">Tervetuloa sähköpostiin</string>
-  <string name="account_setup_heading_email_instruction">Kirjoita sähköpostiosoitteesi aloittaaksesi</string>
-  <string name="account_setup_heading_password_instruction">Kirjoita salasanasi</string>
   <string name="like_action_dialog_tittle">Mikä on \"Tykkää\"?</string>
   <string name="like_action_dialog_message">Löysit suosikkiominaisuutemme. Kun \"Tykkäät\" viestistä, lähettäjälle ja muille vastaanottajille lähetetään tieto että pidät viestistä. Se on nopein tapa vastata sähköpostiin.</string>
   <string name="new_button">Uusi</string>

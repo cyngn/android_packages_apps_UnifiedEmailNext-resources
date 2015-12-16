@@ -59,6 +59,8 @@
   <string name="accounts_heading">Konti</string>
   <string name="vendor_signature">Sendt fra min telefon med CyanogenMod</string>
   <string name="vendor_signature_fmt">Sendt fra <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Sendt fra min BLU-telefon – BLU-Mail drevet af Boxer</string>
+  <string name="vendor_signature_o2">Sendt fra Cyanogen på O2</string>
   <string name="notification_action_mark_read">LÆS</string>
   <string name="notification_action_reply">SVAR</string>
   <string name="notification_action_delete">SLET</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Luk</string>
   <string name="account_setup_start_company_slogan_text">Velkommen til en bedre indbakke</string>
   <string name="account_setup_vendor_heading">Velkommen til e-mail</string>
-  <string name="account_setup_heading_email_instruction">Indtast din e-mail adresse for at komme i gang</string>
-  <string name="account_setup_heading_password_instruction">Indtast din adgangskode</string>
   <string name="like_action_dialog_tittle">Hvad er Synes om?</string>
   <string name="like_action_dialog_message">Du har fundet vores favorit funktion. Når du \'synes godt om\' en e-mail, bliver der sendt en e-mail til afsenderen og andre modtagere for at fortælle det. Det er den hurtigste måde at reagere på en e-mail.</string>
   <string name="new_button">Ny</string>

@@ -172,8 +172,6 @@
   <string name="actions_dialog_negative_button_text">關閉</string>
   <string name="account_setup_start_company_slogan_text">歡迎使用更好的收件匣</string>
   <string name="account_setup_vendor_heading">歡迎來到電子郵件</string>
-  <string name="account_setup_heading_email_instruction">輸入您的電子郵件地址以開始</string>
-  <string name="account_setup_heading_password_instruction">輸入您的密碼</string>
   <string name="like_action_dialog_tittle">什麼是「喜歡」？</string>
   <string name="like_action_dialog_message">您發現了我們最喜歡的功能。當您「喜歡」一則訊息時，會傳送一封電子郵件讓寄件人和其他收件人知道您喜歡它。這是答覆電子郵件最快的方法。</string>
   <string name="new_button">新增</string>

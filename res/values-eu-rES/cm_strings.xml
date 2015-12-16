@@ -59,6 +59,8 @@
   <string name="accounts_heading">Kontuak</string>
   <string name="vendor_signature">Nire Cyanogen telefonotik bidalita</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>tik bidalita</string>
+  <string name="blu_signature">Nire BLU telefonotik bidalita - BLU Mail, Boxerren oinarrituta</string>
+  <string name="vendor_signature_o2">O2ko Cyanogenetik bidalita</string>
   <string name="notification_action_mark_read">IRAKURRI</string>
   <string name="notification_action_reply">ERANTZUN</string>
   <string name="notification_action_delete">EZABATU</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Itxi</string>
   <string name="account_setup_start_company_slogan_text">Ongi etorri sarrera ontzi hobe batetara</string>
   <string name="account_setup_vendor_heading">Ongi etorri epostara</string>
-  <string name="account_setup_heading_email_instruction">Sartu zure eposta helbidea hasteko</string>
-  <string name="account_setup_heading_password_instruction">Sartu zure pasahitza</string>
   <string name="like_action_dialog_tittle">Zer da gogokoa?</string>
   <string name="like_action_dialog_message">Gure ezaugarririk kuttunena aurkitu duzu. Mezu bat \'Gustukoa\' duzunean, mezu bat bidaliko zaie igorleari eta besteei gustukoa duzula jakinarazteko. Mezu bati erantzuteko modurik azkarrena da.</string>
   <string name="new_button">Berria</string>

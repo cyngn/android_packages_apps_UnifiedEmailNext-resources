@@ -65,6 +65,8 @@
   <string name="accounts_heading">Računi</string>
   <string name="vendor_signature">Poslano iz mojega telefona Cyanogen</string>
   <string name="vendor_signature_fmt">Poslano iz <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <string name="blu_signature">Poslano iz mojega telefona BLU - BLU Mail omogoča Boxer</string>
+  <string name="vendor_signature_o2">Poslano iz Cyanogena na C2</string>
   <string name="notification_action_mark_read">PREBRANO</string>
   <string name="notification_action_reply">ODGOVORI</string>
   <string name="notification_action_delete">IZBRIŠI</string>
@@ -92,10 +94,10 @@
   <string name="draft_heading">Osnutek</string>
   <string name="quoted_text_hidden_print">Navedeno besedilo skrito</string>
   <plurals name="num_attachments">
-    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> priponka</item>
-    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> priponki</item>
-    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> priponke</item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> priponk</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> priloga</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> prilogi</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> priloge</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> prilog</item>
   </plurals>
   <string name="no_subject">(brez zadeve)</string>
   <string name="action_grid_select_quick_response">Izberite hiter odziv</string>
@@ -199,8 +201,6 @@
   <string name="actions_dialog_negative_button_text">Zapri</string>
   <string name="account_setup_start_company_slogan_text">Dobrodošli v boljšo mapo Prejeto</string>
   <string name="account_setup_vendor_heading">Dobrodošli v e-pošto</string>
-  <string name="account_setup_heading_email_instruction">Vnesite svoj e-poštni naslov, da začnete</string>
-  <string name="account_setup_heading_password_instruction">Vnesite svoje geslo</string>
   <string name="like_action_dialog_tittle">Kaj je \'Všeč mi je\'?</string>
   <string name="like_action_dialog_message">Našli ste našo priljubljeno značilnost. Ko sporočilo označite z \'Všeč mi je\', bo pošiljatelju in drugim prejemnikom poslana e-pošta, da vam je všeč. To je doslej najhitrejši način, da odgovorite na e-pošto.</string>
   <string name="new_button">Novo</string>

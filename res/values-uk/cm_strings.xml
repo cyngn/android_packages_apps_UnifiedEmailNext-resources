@@ -191,8 +191,6 @@
   <string name="actions_dialog_negative_button_text">Закрити</string>
   <string name="account_setup_start_company_slogan_text">Ласкаво просимо до покращеної пошти</string>
   <string name="account_setup_vendor_heading">Ласкаво просимо до email</string>
-  <string name="account_setup_heading_email_instruction">Введіть адресу електронної пошти, щоб почати</string>
-  <string name="account_setup_heading_password_instruction">Введіть свій пароль</string>
   <string name="like_action_dialog_tittle">Подобається?</string>
   <string name="like_action_dialog_message">Ви знайшли нашу улюблену функцію. Коли ви позначите повідомлення як \"Подобається\", буде надіслано е-mail, котрий повідомить відправника та інших отримувачів, що ви оцінили цей лист. Це найшвидший спосіб відповідати на електронну пошту.</string>
   <string name="new_button">Нова</string>

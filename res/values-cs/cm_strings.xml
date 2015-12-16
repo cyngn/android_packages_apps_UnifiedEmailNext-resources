@@ -62,6 +62,8 @@
   <string name="accounts_heading">Účty</string>
   <string name="vendor_signature">Odesláno z mého Cyanogen telefonu</string>
   <string name="vendor_signature_fmt">Odesláno pomocí: <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Odesláno z mého BLU - BLU Mail powered by Boxer</string>
+  <string name="vendor_signature_o2">Odesláno z Cyanogen na O2</string>
   <string name="notification_action_mark_read">ČÍST</string>
   <string name="notification_action_reply">ODPOVĚDĚT</string>
   <string name="notification_action_delete">SMAZAT</string>
@@ -191,8 +193,6 @@
   <string name="actions_dialog_negative_button_text">Zavřít</string>
   <string name="account_setup_start_company_slogan_text">Vítejte v lepší doručené poště</string>
   <string name="account_setup_vendor_heading">Vítejte v e-mailu</string>
-  <string name="account_setup_heading_email_instruction">Nejprve zadejte vaši e-mailovou adresu</string>
-  <string name="account_setup_heading_password_instruction">Zadejte své heslo</string>
   <string name="like_action_dialog_tittle">Co je to „Like“?</string>
   <string name="like_action_dialog_message">Našli jste naši oblíbenou funkci. Když dáte zprávě „Like“, odesílatel a ostatní příjemci budou vědět, že se vám líbí. Je to nejrychlejší způsob, jak odpovědět na email.</string>
   <string name="new_button">Nový</string>

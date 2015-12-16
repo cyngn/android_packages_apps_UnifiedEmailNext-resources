@@ -59,6 +59,8 @@
   <string name="accounts_heading">Contas</string>
   <string name="vendor_signature">Enviado do meu telefone com Cyanogen</string>
   <string name="vendor_signature_fmt">Enviado de <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Enviado do meu telefone BLU - BLU Mail produzido por Boxer</string>
+  <string name="vendor_signature_o2">Enviado de Cyanogen na O2</string>
   <string name="notification_action_mark_read">LER</string>
   <string name="notification_action_reply">RESPONDER</string>
   <string name="notification_action_delete">ELIMINAR</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Fechar</string>
   <string name="account_setup_start_company_slogan_text">Bem-vindo a uma caixa de entrada melhor</string>
   <string name="account_setup_vendor_heading">Bem-vindo ao e-mail</string>
-  <string name="account_setup_heading_email_instruction">Insira o seu endereço de e-mail para começar</string>
-  <string name="account_setup_heading_password_instruction">Digite a sua palavra-passe</string>
   <string name="like_action_dialog_tittle">O que é Gostar?</string>
   <string name="like_action_dialog_message">Tu encontraste a nossa função favorita. Quando colocas \'Gostar\' numa mensagem, um e-mail será enviado ao remetente e outros destinatários dando a conhecer que tu gostaste. É a maneira mais rápida para responder a um e-mail.</string>
   <string name="new_button">Novo</string>

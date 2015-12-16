@@ -183,8 +183,6 @@
   <string name="actions_dialog_negative_button_text">बंद करें</string>
   <string name="account_setup_start_company_slogan_text">बेहतर इनबॉक्स में आपका स्वागत है</string>
   <string name="account_setup_vendor_heading">ईमेल में आपका स्वागत है</string>
-  <string name="account_setup_heading_email_instruction">शुरू करने के लिए अपना ईमेल पता दर्ज करें</string>
-  <string name="account_setup_heading_password_instruction">अपना पासवर्ड दर्ज करें</string>
   <string name="like_action_dialog_tittle">पसंद करें क्या है?</string>
   <string name="like_action_dialog_message">आपने हमारी पसंदीदा सुविधा को ढूँढ़ ही लिया। जब आप किसी संदेश को \'पसंद\' करें, एक ईमेल भेजा जाएगा जो प्रेषक और अन्य प्राप्तियों को बताएगा कि आपको वह पसंद आया है। ईमले का उत्तर देने का यह अब तक विकसित सबसे तेज़ तरीका है।</string>
   <string name="new_button">नया</string>
