@@ -56,6 +56,8 @@
   <string name="accounts_heading">アカウント</string>
   <string name="vendor_signature">Cyanogenの携帯電話から送信</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>から送信</string>
+  <string name="blu_signature">BLUの携帯電話から送信 – Boxer提供のBLUメール</string>
+  <string name="vendor_signature_o2">O2のCyanogenから送信</string>
   <string name="notification_action_mark_read">読む</string>
   <string name="notification_action_reply">返信</string>
   <string name="notification_action_delete">削除</string>
@@ -175,8 +177,6 @@
   <string name="actions_dialog_negative_button_text">閉じる</string>
   <string name="account_setup_start_company_slogan_text">改良された受信トレイへようこそ</string>
   <string name="account_setup_vendor_heading">メールへようこそ</string>
-  <string name="account_setup_heading_email_instruction">開始するにはメールアドレスを入力してください</string>
-  <string name="account_setup_heading_password_instruction">パスワードを入力してください</string>
   <string name="like_action_dialog_tittle">いいねとは？</string>
   <string name="like_action_dialog_message">お気に入りの機能を見つけましたね。メッセージを「いいね」すると、送信者や他の受信者にいいねしたことを知らせるメールが送信されます。今のところ、最速の返信方法です。</string>
   <string name="new_button">新規</string>

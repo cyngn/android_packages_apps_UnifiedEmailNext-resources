@@ -183,8 +183,6 @@
   <string name="actions_dialog_negative_button_text">Stäng</string>
   <string name="account_setup_start_company_slogan_text">Välkommen till en bättre inkorg</string>
   <string name="account_setup_vendor_heading">Välkommen till e-post</string>
-  <string name="account_setup_heading_email_instruction">Ange din e-postadress för att komma igång</string>
-  <string name="account_setup_heading_password_instruction">Ange ditt lösenord</string>
   <string name="like_action_dialog_tittle">Vad är Gilla?</string>
   <string name="like_action_dialog_message">Du har hittat vår favoritfunktion. När du \'Gillar\' ett meddelande, kommer ett e-postmeddelande att skickas för att låta avsändaren och andra mottagare veta att du gillar det. Det är det snabbaste sättet att svara på e-postmeddelande.</string>
   <string name="new_button">Ny</string>

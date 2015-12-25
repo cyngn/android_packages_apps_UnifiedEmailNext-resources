@@ -191,8 +191,6 @@
   <string name="actions_dialog_negative_button_text">Zamknij</string>
   <string name="account_setup_start_company_slogan_text">Witaj w lepszej skrzynce odbiorczej</string>
   <string name="account_setup_vendor_heading">Witamy w e-mail</string>
-  <string name="account_setup_heading_email_instruction">Wpisz swój adres e-mail, aby zacząć</string>
-  <string name="account_setup_heading_password_instruction">Wpisz swoje hasło</string>
   <string name="like_action_dialog_tittle">Jak działa funkcja Lubię?</string>
   <string name="like_action_dialog_message">Udało ci się znaleźć naszą ulubioną funkcję. Kiedy \"Lubisz\" wiadomość, wysłany e-mail pokaże innym odbiorcom, że ją lubisz. Obecnie jest to najszybsza możliwość odpowiedzi na e-mail.</string>
   <string name="new_button">Nowy</string>

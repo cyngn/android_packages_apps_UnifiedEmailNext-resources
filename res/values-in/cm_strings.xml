@@ -175,8 +175,6 @@
   <string name="actions_dialog_negative_button_text">Tutup</string>
   <string name="account_setup_start_company_slogan_text">Selamat datang di kotak masuk yang lebih baik</string>
   <string name="account_setup_vendor_heading">Selamat datang di email</string>
-  <string name="account_setup_heading_email_instruction">Masukkan alamat email anda untuk memulai</string>
-  <string name="account_setup_heading_password_instruction">Masukkan sandi</string>
   <string name="like_action_dialog_tittle">Apa itu Suka?</string>
   <string name="like_action_dialog_message">Anda menemukan fitur favorit kami. Ketika anda \'menyukai\' pesan, email akan dikirim dan membiarkan pengirim dan penerima lainnya tahu anda menyukainya. Ini adalah cara tercepat untuk menanggapi email.</string>
   <string name="new_button">Baru</string>

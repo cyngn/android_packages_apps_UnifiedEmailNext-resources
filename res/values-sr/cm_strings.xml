@@ -62,6 +62,8 @@
   <string name="accounts_heading">Налози</string>
   <string name="vendor_signature">Послато са мог Cyanogen телефона</string>
   <string name="vendor_signature_fmt">Послато од <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Послато са мог BLU телефона - BLU пошта покренута Boxer-ом</string>
+  <string name="vendor_signature_o2">Послато од Cyanogen-а на O2</string>
   <string name="notification_action_mark_read">ПРОЧИТАНО</string>
   <string name="notification_action_reply">ОДГОВОРИ</string>
   <string name="notification_action_delete">ОБРИШИ</string>
@@ -191,8 +193,6 @@
   <string name="actions_dialog_negative_button_text">Затвори</string>
   <string name="account_setup_start_company_slogan_text">Добродошли у бољи inbox</string>
   <string name="account_setup_vendor_heading">Добро дошли у Е-пошту</string>
-  <string name="account_setup_heading_email_instruction">Унеси адресу своје Е-поште да почнеш</string>
-  <string name="account_setup_heading_password_instruction">Унеси лозинку</string>
   <string name="like_action_dialog_tittle">Шта се допада?</string>
   <string name="like_action_dialog_message">Пронашао си нашу омиљену могућност. Када ти се допада порука Е-пошта ће бити послата пошиљаоцу и осталим примаоцима обавештавајући да ти се допада. Ово је до сада најбржи одговор на Е-пошту.</string>
   <string name="new_button">Ново</string>

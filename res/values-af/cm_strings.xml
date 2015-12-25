@@ -59,6 +59,8 @@
   <string name="accounts_heading">Rekeninge</string>
   <string name="vendor_signature">Gestuur van my foon</string>
   <string name="vendor_signature_fmt">Gestuur vanaf my <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Gestuur van my BLU foon - BLU epos aangedryf deur Boxer</string>
+  <string name="vendor_signature_o2">Gestuur van Cyanogen op O2</string>
   <string name="notification_action_mark_read">GELEES</string>
   <string name="notification_action_reply">ANTWOORD</string>
   <string name="notification_action_delete">VERW</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Maak toe</string>
   <string name="account_setup_start_company_slogan_text">Welkom by \'n beter inkassie</string>
   <string name="account_setup_vendor_heading">Welkom by epos</string>
-  <string name="account_setup_heading_email_instruction">Tik jou epos adres om te begin</string>
-  <string name="account_setup_heading_password_instruction">Tik jou wagwoord</string>
   <string name="like_action_dialog_tittle">Wat is soos?</string>
   <string name="like_action_dialog_message">Jy het ons gunsteling funksie gevind. Wanneer jy \'n boodskap \'Hou van\', sal \'n e-pos gestuur word om die stuurder en ander ontvangers te laat weet jou hou daarvan. Dit is die vinnigste manier om te reageer nog op e-pos.</string>
   <string name="new_button">Nuut</string>

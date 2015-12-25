@@ -59,6 +59,8 @@
   <string name="accounts_heading">Hesaplar</string>
   <string name="vendor_signature">Cyanogen telefonumdan gönderildi</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ile gönderildi</string>
+  <string name="blu_signature">BLU telefonumdan gönderildi – BLU Posta - Boxer</string>
+  <string name="vendor_signature_o2">O2 Cyanogen ile gönderildi</string>
   <string name="notification_action_mark_read">OKU</string>
   <string name="notification_action_reply">YANITLA</string>
   <string name="notification_action_delete">SİL</string>
@@ -116,9 +118,9 @@
   <string name="action_todo">Yapılacaklar</string>
   <string name="action_quick">Hızlı</string>
   <string name="action_move">Taşı</string>
-  <string name="action_label">Etiket</string>
+  <string name="action_label">Etiketle</string>
   <string name="action_move_or_label">Taşı/Etiketle</string>
-  <string name="action_archive">Arşiv</string>
+  <string name="action_archive">Arşivle</string>
   <string name="action_delete">Sil</string>
   <string name="action_spam">Spam</string>
   <string name="action_flag">İşaretle</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Kapat</string>
   <string name="account_setup_start_company_slogan_text">Daha iyi bir gelen kutusuna hoş geldiniz</string>
   <string name="account_setup_vendor_heading">E-postaya hoş geldiniz</string>
-  <string name="account_setup_heading_email_instruction">Başlamak için e-posta adresinizi giriniz</string>
-  <string name="account_setup_heading_password_instruction">Şifrenizi giriniz</string>
   <string name="like_action_dialog_tittle">Beğenme nedir?</string>
   <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten  bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
   <string name="new_button">Yeni</string>

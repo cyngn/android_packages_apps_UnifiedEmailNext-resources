@@ -181,8 +181,6 @@
   <string name="actions_dialog_negative_button_text">Bağla</string>
   <string name="account_setup_start_company_slogan_text">Daha yaxşı gələn qutusuna xoş gəldiniz</string>
   <string name="account_setup_vendor_heading">E-poçta xoş gəldiniz</string>
-  <string name="account_setup_heading_email_instruction">Başlamaq üçün e-poçt ünvanınızı daxil edin</string>
-  <string name="account_setup_heading_password_instruction">Şifrənizi daxil edin</string>
   <string name="like_action_dialog_tittle">Bəyənmə nədir?</string>
   <string name="new_button">Yeni</string>
   <string name="folder_name_hint">Qovluq adı</string>

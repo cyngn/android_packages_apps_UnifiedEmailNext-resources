@@ -175,8 +175,6 @@
   <string name="actions_dialog_negative_button_text">닫기</string>
   <string name="account_setup_start_company_slogan_text">더 나은 편지함에 오신 걸 환영합니다.</string>
   <string name="account_setup_vendor_heading">이메일에 오신 것을 환영합니다</string>
-  <string name="account_setup_heading_email_instruction">이메일주소를 입력하여 시작하십시오.</string>
-  <string name="account_setup_heading_password_instruction">비밀번호를 입력하십시오.</string>
   <string name="like_action_dialog_tittle">어떤가요?</string>
   <string name="like_action_dialog_message">우리가 좋아하는 기능입니다. 메시지에 \'좋아요!\'를 하면 보낸 사람이나 다른 받은 사람들에게 당신이 좋아하는 것을 알리는 메일이 보내집니다. 아직은 이메일에 응답하는 가장 빠른 방법입니다.</string>
   <string name="new_button">새로운</string>

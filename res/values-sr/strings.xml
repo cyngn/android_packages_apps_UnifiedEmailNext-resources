@@ -125,12 +125,22 @@
   <string name="contextmenu_sharelink">Дели везу</string>
   <string name="contextmenu_help">Помоћ</string>
   <string name="contextmenu_feedback">Пошаљи повратне информације</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Премести преписку</item>
+    <item quantity="few">Премести <xliff:g>%1$d</xliff:g> преписке</item>
+    <item quantity="other">Премести <xliff:g>%1$d</xliff:g> преписке</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> на тему <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> на тему <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> у <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">преписка је прочитана</string>
   <string name="unread_string">преписка није прочитана</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>] <xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Нацрти</item>
+    <item quantity="few">Недовршено</item>
+    <item quantity="other">Недовршене</item>
+  </plurals>
   <string name="sending">Слање...</string>
   <string name="send_failed">Порука није послата.</string>
   <string name="me_object_pronun">ја</string>

@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Redueix les dades del destinatari</string>
   <string name="contact_info_string">Mostra la informació de contacte de <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Mostra la informació de contacte</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> missatge antic</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> missatges antics</item>
+  </plurals>
   <string name="from_heading">De: </string>
   <string name="replyto_heading">Respon a: </string>
   <string name="to_heading">Per a: </string>
@@ -248,6 +252,10 @@
   <string name="non_synced_folder_description">Sincronitza la carpeta per veure converses.</string>
   <string name="tap_to_configure_folder_sync">Sincronitza la carpeta</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> no llegit</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> no llegits</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Més de <xliff:g id="COUNT">%1$d</xliff:g> no llegits</string>
   <string name="view_more_conversations">Visualitza més converses</string>
   <string name="activity_mailbox_selection">Selecciona un compte</string>

@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Tiivistä vastaanottajan tiedot</string>
   <string name="contact_info_string">Näytä henkilön <xliff:g id="NAME">%1$s</xliff:g> yhteystiedot</string>
   <string name="contact_info_string_default">Näytä yhteystiedot</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> vanhempi viesti</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> vanhempaa viestiä</item>
+  </plurals>
   <string name="from_heading">Lähettäjä: </string>
   <string name="replyto_heading">Vastausosoite: </string>
   <string name="to_heading">Vast.ott.: </string>
@@ -248,6 +252,10 @@
   <string name="non_synced_folder_description">Synkronoi tämä kansio, jos haluat tarkastella keskusteluja.</string>
   <string name="tap_to_configure_folder_sync">Synkronoi kansio</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> lukematon</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> lukematonta</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Yli <xliff:g id="COUNT">%1$d</xliff:g> lukematonta</string>
   <string name="view_more_conversations">Näytä lisää keskusteluita</string>
   <string name="activity_mailbox_selection">Valitse tili</string>

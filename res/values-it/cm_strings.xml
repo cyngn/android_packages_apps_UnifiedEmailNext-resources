@@ -59,6 +59,8 @@
   <string name="accounts_heading">Accounts</string>
   <string name="vendor_signature">Inviato dal mio telefono Cyanogenmod</string>
   <string name="vendor_signature_fmt">Inviato da <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Inviato dal mio telefono BLU - BLU Mail offerto da Boxer</string>
+  <string name="vendor_signature_o2">Inviato da Cyanogen su O2</string>
   <string name="notification_action_mark_read">LEGGI</string>
   <string name="notification_action_reply">RISPONDI</string>
   <string name="notification_action_delete">ELIMINA</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Chiudi</string>
   <string name="account_setup_start_company_slogan_text">Benvenuti in una posta elettronica migliore</string>
   <string name="account_setup_vendor_heading">Benvenuto in EMail</string>
-  <string name="account_setup_heading_email_instruction">Inserisci il tuo indirizzo email per iniziare</string>
-  <string name="account_setup_heading_password_instruction">Inserisci la tua password</string>
   <string name="like_action_dialog_tittle">Come è?</string>
   <string name="like_action_dialog_message">Hai trovato la nostra funzione preferita. Quando metti \"Like\" ad un messaggio, verrà inviata una e-mail facendo in modo che il mittente e altri destinatari sappiano che ti piace. È ancora il modo più veloce per rispondere alle e-mail.</string>
   <string name="new_button">Nuovo</string>

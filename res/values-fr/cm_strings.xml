@@ -59,6 +59,8 @@
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Envoyé depuis mon téléphone Cyanogen</string>
   <string name="vendor_signature_fmt">Envoyé depuis un <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Envoyé depuis mon BLU phone – BLU Mail de Boxer</string>
+  <string name="vendor_signature_o2">Envoyé depuis Cyanogen sur O2</string>
   <string name="notification_action_mark_read">LIRE</string>
   <string name="notification_action_reply">RÉPONDRE</string>
   <string name="notification_action_delete">SUPPRIMER</string>
@@ -183,8 +185,6 @@
   <string name="actions_dialog_negative_button_text">Fermer</string>
   <string name="account_setup_start_company_slogan_text">Bienvenue dans la meilleure boîte de réception</string>
   <string name="account_setup_vendor_heading">Bienvenue sur Email</string>
-  <string name="account_setup_heading_email_instruction">Entrez votre adresse e-mail pour commencer</string>
-  <string name="account_setup_heading_password_instruction">Entrez votre mot de passe</string>
   <string name="like_action_dialog_tittle">Qu\'est ce que Like ?</string>
   <string name="like_action_dialog_message">Vous avez trouvé notre fonction préférée. Lorsque vous « aimez » un message, un e-mail faisant savoir que vous aimez ce message sera envoyé à l\'expéditeur et aux autres destinataires. C\'est le moyen le plus rapide de répondre à un e-mail.</string>
   <string name="new_button">Nouveau</string>

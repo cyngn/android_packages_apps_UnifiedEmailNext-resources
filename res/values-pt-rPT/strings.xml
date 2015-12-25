@@ -160,8 +160,8 @@
   <string name="loading_conversations">A carregar…</string>
   <string name="undo">Anular</string>
   <plurals name="conversation_unstarred">
-    <item quantity="one">A remover a estrela de <xliff:g id="COUNT">%1$d</xliff:g> conversa.</item>
-    <item quantity="other">A remover a estrela de <xliff:g id="COUNT">%1$d</xliff:g> conversas.</item>
+    <item quantity="one">A remover favorito de <xliff:g id="COUNT">%1$d</xliff:g> conversa.</item>
+    <item quantity="other">A remover favorito de <xliff:g id="COUNT">%1$d</xliff:g> conversas.</item>
   </plurals>
   <plurals name="conversation_muted">
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; ignorada.</item>

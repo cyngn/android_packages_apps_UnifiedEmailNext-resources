@@ -158,8 +158,6 @@
   <string name="actions_dialog_title">Personaliséieren</string>
   <string name="actions_dialog_positive_button_text">Wëschbeweegungen upassen</string>
   <string name="actions_dialog_negative_button_text">Zoumaachen</string>
-  <string name="account_setup_heading_email_instruction">Gëff deng E-Mail-Adress a fir lasszeleeën</string>
-  <string name="account_setup_heading_password_instruction">Gëff däi Passwuert an</string>
   <string name="new_button">Nei</string>
   <string name="folder_name_hint">Dossiersnumm</string>
   <string name="error">Feeler</string>

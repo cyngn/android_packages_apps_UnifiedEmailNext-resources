@@ -139,6 +139,46 @@
   <string name="confirm_discard_text">Удалить это сообщение?</string>
   <string name="loading_conversations">Загрузка…</string>
   <string name="undo">Отмена</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочки.</item>
+    <item quantity="few">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочек.</item>
+    <item quantity="other">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочек.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка скрыта.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки скрыты.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек скрыто.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как спам.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как спам.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечено как спам.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как не спам.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как не спам.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечено как не спам.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как не важная.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как не важные.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечено как не важные.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как фишинг.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как фишинг.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечено как фишинг.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка архивирована.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки архивированы.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек архивировано.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка удалена.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки удалены.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек удалено.</item>
+  </plurals>
   <string name="deleted">Удалено</string>
   <string name="archived">Отправлено в архив</string>
   <string name="folder_removed">Удалено из папки \"<xliff:g id="FOLDERNAME">%1$s</xliff:g>\"</string>
@@ -151,6 +191,11 @@
   <string name="collapse_recipient_details">Скрыть сведения о получателе</string>
   <string name="contact_info_string">Показать контактные данные пользователя <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Показать контактные данные</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> старое сообщение</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> старых сообщения</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> старых сообщений</item>
+  </plurals>
   <string name="from_heading">От: </string>
   <string name="replyto_heading">Ответить: </string>
   <string name="to_heading">Кому: </string>
@@ -192,6 +237,11 @@
   <string name="non_synced_folder_description">Для просмотра цепочек писем синхронизируйте эту папку.</string>
   <string name="tap_to_configure_folder_sync">Синхронизировать папку</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> непрочитанное сообщение</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> непрочитанных сообщения</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> непрочитанных сообщений</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Новых: <xliff:g id="count">%1$d</xliff:g>+</string>
   <string name="view_more_conversations">Другие цепочки писем</string>
   <string name="activity_mailbox_selection">Выбрать аккаунт</string>

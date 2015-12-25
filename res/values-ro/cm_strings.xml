@@ -142,8 +142,6 @@
   <string name="promo_code_progress_dialog_validating">Validare cod promoțional</string>
   <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
-  <string name="account_setup_heading_email_instruction">Introduceți adresa de e-mail pentru a începe</string>
-  <string name="account_setup_heading_password_instruction">Introduceți parola</string>
   <string name="new_button">Nou</string>
   <string name="folder_name_hint">Numele de dosar</string>
   <string name="duplicate_folder_title">Nume duplicat</string>

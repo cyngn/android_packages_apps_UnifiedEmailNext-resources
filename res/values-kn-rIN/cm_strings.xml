@@ -183,8 +183,6 @@
   <string name="actions_dialog_negative_button_text">ಮುಚ್ಚಿ</string>
   <string name="account_setup_start_company_slogan_text">ಒಂದು ಉತ್ತಮ ಇನ್‍ಬಾಕ್ಸ್ ಗೆ ಸ್ವಾಗತ</string>
   <string name="account_setup_vendor_heading">ಇಮೇಲ್‍ಗೆ ಸುಸ್ವಾಗತ</string>
-  <string name="account_setup_heading_email_instruction">ಆರಂಭಿಸಲು ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಬರೆಯಿರಿ</string>
-  <string name="account_setup_heading_password_instruction">ನಿಮ್ಮ ಪ್ರವೇಶಪದವನ್ನು ಬರೆಯಿರಿ</string>
   <string name="like_action_dialog_tittle">ಇಷ್ಟ ಎಂದರೇನು?</string>
   <string name="like_action_dialog_message">ನೀವು ನಮ್ಮ ಫೇವರಿಟ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಪತ್ತೆಹಚ್ಚಿದ್ದೀರಿ. ನೀವು ಒಂದು ಸಂದೇಶವನ್ನು \'ಇಷ್ಟ\'ಪಟ್ಟಾಗ, ಒಂದು ಇಮೇಲನ್ನು ಕಳುಹಿಸಿದವರಿಗೆ ಮತ್ತು ಇತರೆ ಸ್ವೀಕರಿಸುವವರಿಗೆ ನೀವು ಇಷ್ಟಪಟ್ಟಿದ್ದೀರಿ ಎಂದು ತಿಳಿಸಲು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
   <string name="new_button">ಹೊಸ</string>
