@@ -52,7 +52,7 @@
   <string name="all_folders_heading">資料夾</string>
   <string name="accounts_heading">帳戶</string>
   <string name="vendor_signature">傳送自我的 Cyanogen 手機</string>
-  <string name="vendor_signature_fmt">傳送自 <xliff:g id="brand"example="samsung">%s </xliff:g></string>
+  <string name="vendor_signature_fmt">傳送自 <xliff:g id="brand" example="samsung">%s </xliff:g></string>
   <string name="notification_action_mark_read">閱讀</string>
   <string name="notification_action_reply">回覆</string>
   <string name="notification_action_delete">刪除</string>

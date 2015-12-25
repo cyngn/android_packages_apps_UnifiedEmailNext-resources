@@ -33,330 +33,69 @@
     <item>Responder a todos</item>
     <item>Reenviar</item>
   </string-array>
-  <string name="reply_attribution">El <xliff:g id="DATE">%s</xliff:g>, <xliff:g id="PERSON">%s</xliff:g> escribió:</string>
+  <string name="reply_attribution">El <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> escribió:</string>
   <string name="forward_attribution">---------- Mensaje reenviado ----------&lt;br&gt;De: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Fecha: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Asunto: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Para: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
   <string name="forward_attribution_no_headers">---------- Mensaje reenviado ----------</string>
-  <string name="cc_attribution">Cc: <xliff:g id="CC">%1$s</xliff:g> &lt;br&gt;</string>
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <string name="select_attachment_type">Selecciona el tipo de archivo adjunto.</string>
-  <string name="too_large_to_attach_single">No puedes adjuntar archivos superiores a <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
-  <string name="too_large_to_attach_multiple">Uno o varios archivos no se han adjuntado (límite de <xliff:g id="MAXSIZE">%1$s</xliff:g>).</string>
-  <string name="too_large_to_attach_additional">No se ha adjuntado el archivo. Se ha alcanzado el límite de <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_single">No puedes adjuntar archivos superiores a <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_multiple">Uno o varios archivos no se han adjuntado. El límite es de <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">No se ha adjuntado el archivo. Se ha alcanzado el límite de <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <string name="generic_attachment_problem">No se ha podido adjuntar el archivo.</string>
   <string name="recipient_needed">Añade al menos un destinatario.</string>
   <string name="recipient_error_dialog_title">Error de destinatario</string>
   <string name="confirm_send_title">¿Quieres enviar el mensaje?</string>
   <string name="confirm_send_message_with_no_subject">El asunto del mensaje está vacío.</string>
-  <string name="confirm_send_message_with_no_body">El cuerpo del mensaje está vacío.</string>
+  <string name="confirm_send_message_with_no_body">El mensaje está vacío.</string>
   <string name="confirm_send_message">¿Quieres enviar este mensaje?</string>
   <string name="message_discarded">Mensaje descartado</string>
   <string name="custom_from_account_label">Enviar como:</string>
   <string name="send">Enviar</string>
   <string name="mark_read">Marcar como leída</string>
   <string name="mark_unread">Marcar como no leída</string>
-  <string name="mute">Silenciar</string>
   <string name="add_star">Añadir estrella</string>
   <string name="remove_star">Eliminar estrella</string>
-  <string name="remove_folder">Eliminar de <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <string name="remove_folder">Eliminar de <xliff:g id="folderName">%1$s</xliff:g></string>
   <string name="archive">Archivar</string>
   <string name="report_spam">Marcar como spam</string>
-  <string name="mark_not_spam">Informar de que no es spam</string>
-  <string name="report_phishing">Denunciar suplantación identidad</string>
+  <string name="report_phishing">Denunciar suplantación de identidad</string>
   <string name="delete">Eliminar</string>
   <string name="discard_drafts">Descartar borradores</string>
-  <string name="refresh">Actualizar</string>
-  <string name="reply">Responder</string>
   <string name="reply_all">Responder a todos</string>
   <string name="resume_draft">Editar</string>
   <string name="forward">Reenviar</string>
-  <string name="menu_compose">Redactar</string>
   <string name="menu_change_folders">Cambiar carpetas</string>
   <string name="menu_move_to">Mover a</string>
-  <string name="menu_move_to_inbox">Mover a bandeja de entrada</string>
-  <string name="menu_manage_folders">Ajustes de carpeta</string>
-  <string name="menu_show_original">Volver al tamaño original</string>
   <string name="menu_folder_options">Ajustes de carpeta</string>
   <string name="menu_settings">Ajustes</string>
-  <string name="menu_search">Buscar</string>
   <string name="mark_important">Marcar como importante</string>
-  <string name="mark_not_important">Marcar como no importante</string>
-  <string name="add_cc_label">Añadir Cc/Cco</string>
-  <string name="add_bcc_label">Añadir Cco</string>
   <string name="feedback">Danos tu opinión</string>
-  <string name="help_and_info">Ayuda</string>
   <string name="quoted_text">Incluir texto citado</string>
   <string name="quoted_text_label">Citar texto</string>
-  <string name="respond_inline">Responder entre líneas</string>
-  <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
-  <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> KB</string>
-  <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
-  <string name="attachment_image">Imagen</string>
-  <string name="attachment_video">Vídeo</string>
-  <string name="attachment_audio">Audio</string>
-  <string name="attachment_text">SMS</string>
-  <string name="attachment_application_msword">Documento</string>
-  <string name="attachment_application_vnd_ms_powerpoint">Presentación</string>
-  <string name="attachment_application_vnd_ms_excel">Hoja de cálculo</string>
-  <string name="attachment_application_pdf">PDF</string>
-  <string name="attachment_unknown">Archivo <xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g></string>
-  <string name="preview_attachment">Vista previa</string>
-  <string name="save_attachment">Guardar</string>
-  <string name="cancel_attachment">Cancelar</string>
-  <string name="download_again">Volver a descargar</string>
-  <string name="more_info_attachment">Información</string>
-  <string name="no_application_found">Ninguna aplicación puede abrir este archivo adjunto.</string>
-  <string name="fetching_attachment">Extrayendo archivo adjunto...</string>
-  <string name="please_wait">Espera, por favor...</string>
-  <string name="saved">Guardado, <xliff:g id="SIZE">%s</xliff:g></string>
-  <string name="download_failed">Error, toca para reintentar</string>
-  <string name="attachments_header">Archivos adjuntos</string>
-  <string name="menu_photo_save_all">Guardar todo</string>
-  <string name="menu_photo_share">Compartir</string>
-  <string name="menu_photo_share_all">Compartir todo</string>
-  <string name="saving">Guardando...</string>
-  <string name="choosertitle_sharevia">Compartir a través de</string>
-  <string name="contextmenu_openlink">Abrir en el navegador</string>
-  <string name="contextmenu_copy">Copiar</string>
-  <string name="contextmenu_copylink">Copiar URL de enlace</string>
-  <string name="contextmenu_dial_dot">Marcar...</string>
-  <string name="contextmenu_sms_dot">SMS...</string>
-  <string name="contextmenu_add_contact">Añadir contacto</string>
-  <string name="contextmenu_send_mail">Enviar correo</string>
-  <string name="contextmenu_map">Mapa</string>
-  <string name="contextmenu_sharelink">Compartir enlace</string>
-  <string name="contextmenu_help">Ayuda</string>
   <string name="contextmenu_feedback">Danos tu opinión</string>
-  <plurals name="move_conversation">
-    <item quantity="one">Mover una conversación</item>
-    <item quantity="other">Mover <xliff:g id="ID_1">%1$d</xliff:g> conversaciones</item>
-  </plurals>
-  <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> sobre <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> el <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
-  <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> sobre <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> a la(s) <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
-  <string name="read_string">conversación leída</string>
-  <string name="unread_string">conversación no leída</string>
-  <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
-  <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> - <xliff:g id="ID_2">%s</xliff:g></string>
-  <plurals name="draft">
-    <item quantity="one">Borrador</item>
-    <item quantity="other">Borradores</item>
-  </plurals>
-  <string name="sending">Enviando...</string>
-  <string name="send_failed">No se ha enviado el mensaje.</string>
-  <string name="me_object_pronun">yo</string>
-  <string name="me_subject_pronun">yo</string>
-  <string name="inbox_folders_heading">Bandeja de entrada</string>
-  <plurals name="confirm_delete_conversation">
-    <item quantity="one">¿Eliminar esta conversación?</item>
-    <item quantity="other">¿Eliminar estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
-  </plurals>
-  <plurals name="confirm_archive_conversation">
-    <item quantity="one">¿Archivar esta conversación?</item>
-    <item quantity="other">¿Archivar estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
-  </plurals>
-  <plurals name="confirm_discard_drafts_conversation">
-    <item quantity="one">¿Descartar borradores de esta conversación?</item>
-    <item quantity="other">¿Descartar borradores de estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
-  </plurals>
-  <string name="confirm_discard_text">¿Quieres descartar este mensaje?</string>
-  <string name="loading_conversations">Cargando…</string>
-  <string name="undo">Deshacer</string>
-  <plurals name="conversation_unstarred">
-    <item quantity="one">Anulando <xliff:g id="COUNT">%1$d</xliff:g> conversación destacada</item>
-    <item quantity="other">Anulando <xliff:g id="COUNT">%1$d</xliff:g> conversaciones destacadas</item>
-  </plurals>
-  <plurals name="conversation_muted">
-    <item quantity="one">Se ha silenciado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación.</item>
-    <item quantity="other">Se han silenciado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones.</item>
-  </plurals>
-  <plurals name="conversation_spammed">
-    <item quantity="one">Se ha marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como spam.</item>
-    <item quantity="other">Se han marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como spam.</item>
-  </plurals>
-  <plurals name="conversation_not_spam">
-    <item quantity="one">Se ha marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como deseada.</item>
-    <item quantity="other">Se han marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como deseadas.</item>
-  </plurals>
-  <plurals name="conversation_not_important">
-    <item quantity="one">Se ha marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como no importante.</item>
-    <item quantity="other">Se han marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como no importantes.</item>
-  </plurals>
-  <plurals name="conversation_phished">
-    <item quantity="one">Se ha marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como suplantación de identidad.</item>
-    <item quantity="other">Se han marcado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como suplantación de identidad.</item>
-  </plurals>
-  <plurals name="conversation_archived">
-    <item quantity="one">Se ha archivado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación.</item>
-    <item quantity="other">Se han archivado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones.</item>
-  </plurals>
-  <plurals name="conversation_deleted">
-    <item quantity="one">Se ha eliminado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación.</item>
-    <item quantity="other">Se han eliminado &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones.</item>
-  </plurals>
-  <string name="deleted">Eliminada</string>
-  <string name="archived">Archivada</string>
-  <string name="folder_removed">Eliminado de <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
-  <plurals name="conversation_folder_changed">
-    <item quantity="one">Carpeta cambiada</item>
-    <item quantity="other">Carpetas cambiadas</item>
-  </plurals>
-  <string name="conversation_folder_moved">Movida a <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
-  <string name="search_results_header">Resultados</string>
-  <string name="search_unsupported">Esta cuenta no admite la función de búsqueda.</string>
-  <string name="search_results_searching_header">Buscando...</string>
-  <string name="add_label">Añadir carpeta</string>
-  <string name="expand_recipient_details">Ampliar información del destinatario</string>
-  <string name="collapse_recipient_details">Contraer información del destinatario</string>
-  <string name="contact_info_string">Mostrar información de contacto de <xliff:g id="NAME">%1$s</xliff:g></string>
-  <string name="contact_info_string_default">Mostrar información de contacto</string>
-  <string name="from_heading">De: </string>
-  <string name="replyto_heading">Responder a: </string>
-  <string name="to_heading">Para: </string>
-  <string name="cc_heading">Cc: </string>
-  <string name="bcc_heading">Cco: </string>
-  <string name="date_heading">Fecha: </string>
-  <string name="show_images">Mostrar imágenes</string>
-  <string name="always_show_images">Mostrar siempre imágenes de este remitente</string>
-  <string name="always_show_images_toast">Las imágenes de este remitente se mostrarán automáticamente.</string>
-  <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
-  <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> a través de <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
-  <string name="message_saved">Mensaje guardado como borrador</string>
-  <string name="sending_message">Enviando mensaje...</string>
-  <string name="invalid_recipient">La dirección <xliff:g id="WRONGEMAIL">%s</xliff:g> no es válida.</string>
-  <string name="show_elided">▶ Mostrar texto citado</string>
-  <string name="hide_elided">▼ Ocultar texto citado</string>
-  <string name="message_invite_title">Invitación de calendario</string>
   <string name="message_invite_calendar_view">Ver en calendario</string>
-  <string name="message_invite_label_attending">¿Asistirás?</string>
-  <string name="message_invite_accept">Sí</string>
   <string name="message_invite_tentative">Quizás</string>
-  <string name="message_invite_decline">No</string>
-  <string name="enumeration_comma">, </string>
-  <string name="yes">Sí</string>
-  <string name="no">No</string>
   <string name="ok">Aceptar</string>
   <string name="done">Listo</string>
-  <string name="cancel">Cancelar</string>
-  <string name="clear">Borrar</string>
   <string-array name="sync_status">
-    <item>Sin errores</item>
-    <item>Sin conexión</item>
-    <item>Error al iniciar sesión</item>
-    <item>Error de seguridad</item>
+    <item>Success</item>
+    <item>No connection.</item>
+    <item>Couldn\'t sign in.</item>
+    <item>Security error.</item>
     <item>Error al sincronizar</item>
-    <item>Error interno</item>
+    <item>Internal Error</item>
   </string-array>
-  <string name="tap_to_configure">Tocar para configurar</string>
   <string name="non_synced_folder_description">Para ver conversaciones, sincroniza esta carpeta.</string>
   <string name="tap_to_configure_folder_sync">Sincronizar carpeta</string>
-  <string name="widget_large_unread_count">%d+</string>
-  <string name="actionbar_large_unread_count">Más de <xliff:g id="COUNT">%1$d</xliff:g> no leídos</string>
-  <string name="view_more_conversations">Ver más conversaciones</string>
-  <string name="activity_mailbox_selection">Seleccionar cuenta</string>
-  <string name="activity_folder_selection">Seleccionar carpeta</string>
-  <string name="folder_shortcut_widget_label">Carpeta de correo</string>
-  <string name="change_folders_selection_dialog_title">Cambiar carpetas</string>
-  <string name="move_to_selection_dialog_title">Mover a</string>
-  <string name="search_hint">Buscar mensaje</string>
-  <string name="network_error">Sin conexión</string>
-  <string name="retry">Reintentar</string>
-  <string name="load_more">Cargar más</string>
-  <string name="shortcut_name_title">Asignar nombre a acceso directo de carpeta</string>
   <string name="wait_for_sync_title">Esperando para sincronizar...</string>
-  <string name="wait_for_sync_body">Tu correo electrónico aparecerá en breve.</string>
   <string name="not_synced_title">Cuenta no sincronizada</string>
-  <string name="wait_for_manual_sync_body">Esta cuenta no está configurada para sincronizarse de forma automática.\nToca \"<b>"Sincronizar ahora"</b>\" para sincronizar el correo una vez o selecciona \"<b>"Cambiar ajustes de sincronización"</b>\" para configurar la sincronización automática del correo en esta cuenta.</string>
+  <string name="wait_for_manual_sync_body">Esta cuenta no está configurada para sincronizarse de forma automática.\nToca <b>Sincronizar ahora</b> para sincronizar el correo una vez o selecciona <b>Cambiar ajustes de sincronización</b> para configurar la sincronización automática del correo en esta cuenta.</string>
   <string name="manual_sync">Sincronizar ahora</string>
   <string name="change_sync_settings">Cambiar ajustes de sincronización</string>
-  <string name="photo_load_failed">Error al cargar la imagen</string>
-  <string name="cant_move_or_change_labels">No se puede mover porque la selección contiene varias cuentas.</string>
-  <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
-  <string name="ignore_spam_warning">Ignorar. Confío en el mensaje.</string>
-  <string name="via_domain">vía <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
-  <string name="signin">Iniciar sesión</string>
-  <string name="info">Información</string>
-  <string name="report">Informar</string>
   <string name="sync_error">Error al sincronizar</string>
   <string name="sync_error_message">No hay suficiente espacio en el dispositivo para sincronizar tu correo</string>
-  <string name="storage">Almacenamiento</string>
-  <string name="senders_split_token">, </string>
-  <string name="draft_count_format"> (<xliff:g id="COUNT">%1$s</xliff:g>)</string>
-  <string name="recent_folders_heading">Carpetas recientes</string>
-  <string name="message_details_title">Detalles del mensaje</string>
-  <string name="auto_advance_label">Avance automático</string>
-  <string name="auto_advance_summary">Seleccionar la pantalla que se mostrará después de eliminar un mensaje</string>
-  <string name="auto_advance_help_title">Avance automático\n(después de eliminar, etc.)</string>
-  <string-array name="prefEntries_autoAdvance">
-    <item>Más reciente</item>
-    <item>Más antigua</item>
-    <item>Lista de conversaciones</item>
-  </string-array>
-  <string-array name="prefSummaries_autoAdvance">
-    <item>Mostrar conversación más reciente después de eliminar</item>
-    <item>Mostrar conversación más antigua después de eliminar</item>
-    <item>Mostrar lista de conversaciones después de eliminar</item>
-  </string-array>
-  <string name="clear_display_images_whitelist_title">Borrar aprobaciones de imágenes</string>
-  <string name="clear_display_images_whitelist_dialog_title">¿Borrar aprobaciones de imágenes?</string>
-  <string name="clear_display_images_whitelist_dialog_message">Ya no se mostrarán imágenes de remitentes que se hayan permitido anteriormente.</string>
-  <string name="sender_whitelist_cleared">Las imágenes de los mensajes no se mostrarán automáticamente.</string>
-  <string name="preferences_signature_title">Firma</string>
-  <string name="preferences_signature_dialog_title">Firma</string>
-  <string name="preferences_signature_summary_not_set">Sin configurar</string>
-  <string name="notification_action_reply_all">Responder a todos</string>
-  <string name="notification_action_archive">Archivar</string>
-  <string name="notification_action_remove_label">Eliminar etiqueta</string>
-  <string name="notification_action_undo_archive">Archivado</string>
-  <string name="notification_action_undo_remove_label">Etiqueta eliminada</string>
-  <string name="notification_action_undo_delete">Eliminado</string>
-  <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
-  <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
-  <string name="silent_ringtone">Silencio</string>
-  <string name="preference_removal_action_title">Archivar y eliminar</string>
-  <string-array name="prefEntries_removal_action">
-    <item>Mostrar solo archivar</item>
-    <item>Mostrar solo eliminar</item>
-    <item>Mostrar archivar y eliminar</item>
-  </string-array>
-  <string-array name="prefSummaries_removal_action_summary">
-    <item>Mostrar solo archivar</item>
-    <item>Mostrar solo eliminar</item>
-    <item>Mostrar archivar y eliminar</item>
-  </string-array>
-  <string name="prefDialogTitle_removal_action">Archivar y eliminar</string>
-  <string name="preferences_default_reply_all_title">Responder a todos</string>
-  <string name="preferences_default_reply_all_summary">Usar como opción predeterminada para responder mensajes</string>
-  <string name="preference_swipe_title_archive">Desliza para archivar</string>
-  <string name="preference_swipe_title_delete">Deslizar para eliminar</string>
-  <string name="preference_swipe_description">En la lista de conversaciones</string>
-  <string name="swipe_down_to_refresh">Deslizar hacia abajo para actualizar</string>
-  <string name="checking_for_mail">Buscando correo electrónico...</string>
-  <string name="empty_trash">Vaciar papelera</string>
-  <string name="empty_spam">Vaciar carpeta de spam</string>
-  <string name="empty_trash_dialog_title">¿Vaciar papelera?</string>
-  <string name="empty_spam_dialog_title">¿Vaciar carpeta de spam?</string>
-  <plurals name="empty_folder_dialog_message">
-    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> mensaje se eliminará de forma permanente.</item>
-    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> mensajes se eliminarán de forma permanente.</item>
-  </plurals>
-  <string name="drawer_open">Abrir control de navegación</string>
-  <string name="drawer_close">Cerrar control de navegación</string>
-  <string name="conversation_photo_welcome_text">Toca la imagen de un remitente para seleccionar esa conversación.</string>
-  <string name="long_press_to_select_tip">Mantén pulsada una conversación para seleccionarla y, a continuación, toca otras conversaciones para seleccionarlas.</string>
-  <string name="folder_icon_desc">Icono de carpeta</string>
-  <string name="add_account">Añadir cuenta</string>
-  <string name="attached_message">Mensaje adjunto</string>
-  <string name="date_message_received_yesterday">Ayer a las <xliff:g id="TIME">%1$s</xliff:g></string>
-  <string name="dismiss_tip_hover_text">Ignorar sugerencia</string>
   <string name="auto_sync_off">La opción de sincronización automática está desactivada.</string>
-  <string name="tap_to_enable_sync">Tocar para activar.</string>
   <string name="account_sync_off">La opción de sincronización de cuenta está desactivada.</string>
-  <string name="enable_sync_in_account_settings">Activar en <xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g>.</string>
-  <string name="account_settings_param">Ajustes de la cuenta</string>
-  <string name="unsent_messages_in_outbox"><xliff:g id="NUMBER">%1$s</xliff:g> sin enviar en <xliff:g id="OUTBOX">%2$s</xliff:g></string>
   <string name="turn_auto_sync_on_dialog_title">¿Quieres activar la sincronización automática?</string>
-  <string name="turn_auto_sync_on_dialog_body">Los cambios que realices en todas las aplicaciones y cuentas, no solo en Gmail, se sincronizarán en la Web, otros de tus dispositivos y tu <xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g>.</string>
-  <string name="phone">teléfono</string>
-  <string name="tablet">tablet</string>
-  <string name="turn_auto_sync_on_dialog_confirm_btn">Activar</string>
-  <string name="show_n_more_folders">Mostrar otras <xliff:g id="NUMBER">%1$s</xliff:g> carpetas</string>
-  <string name="hide_folders">Ocultar carpetas</string>
+  <string name="turn_auto_sync_on_dialog_body">Los cambios que realices en todas las aplicaciones y cuentas, no solo en Gmail, se sincronizarán en la Web, otros de tus dispositivos y tu <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
 </resources>

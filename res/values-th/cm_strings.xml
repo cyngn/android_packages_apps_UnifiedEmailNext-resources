@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">รวม</string>
   <string name="vendor_signature_fmt">ส่งจาก <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="account_setup_start_company_slogan_text">ยินดีต้อนรับสู่กล่องจดหมายที่ดีกว่า</string>
   <string name="account_setup_vendor_heading">ยินดีต้อนรับสู่อีเมล</string>

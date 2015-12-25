@@ -118,9 +118,9 @@
   <string name="action_todo">Yapılacaklar</string>
   <string name="action_quick">Hızlı</string>
   <string name="action_move">Taşı</string>
-  <string name="action_label">Etiket</string>
+  <string name="action_label">Etiketle</string>
   <string name="action_move_or_label">Taşı/Etiketle</string>
-  <string name="action_archive">Arşiv</string>
+  <string name="action_archive">Arşivle</string>
   <string name="action_delete">Sil</string>
   <string name="action_spam">Spam</string>
   <string name="action_flag">İşaretle</string>

@@ -60,6 +60,7 @@
   <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
   <string name="vendor_signature_fmt">Von <xliff:g id="brand" example="samsung">%s</xliff:g> gesendet</string>
   <string name="blu_signature">Von meinem BLU-Telefon gesendet – BLU Mail wird zur Verfügung gestellt von Boxer</string>
+  <string name="vendor_signature_o2">Gesendet von Cyanogen über O2</string>
   <string name="notification_action_mark_read">LESEN</string>
   <string name="notification_action_reply">ANTWORT</string>
   <string name="notification_action_delete">LÖSCHEN</string>
