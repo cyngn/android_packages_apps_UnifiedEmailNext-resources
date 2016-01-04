@@ -22,7 +22,7 @@
   <string name="remove_account">Hesabı kaldır</string>
   <string name="support">Destek</string>
   <string name="delete_account_title">Hesabı sil</string>
-  <string name="delete_account_summary">Bu hesabı, tüm ayar ve verisini siler</string>
+  <string name="delete_account_summary">Bu hesabı, tüm ayarları ve verileri siler</string>
   <string name="delete_account_confirmation_msg"><xliff:g id="account">%s</xliff:g> hesabının tüm ayarları ve e-postaları silinecek. Bu işlem geri alınamaz.\n\nDevam edilsin mi?</string>
   <string name="deleting_account_msg">Hesap siliniyor\u2026</string>
   <string name="delete_account_failed">Hesap silinemedi</string>
@@ -59,7 +59,7 @@
   <string name="accounts_heading">Hesaplar</string>
   <string name="vendor_signature">Cyanogen telefonumdan gönderildi</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ile gönderildi</string>
-  <string name="blu_signature">BLU telefonumdan gönderildi – BLU Posta - Boxer</string>
+  <string name="blu_signature">BLU telefonumdan gönderildi – BLU Posta Boxer ile çalışır</string>
   <string name="vendor_signature_o2">O2 Cyanogen ile gönderildi</string>
   <string name="notification_action_mark_read">OKU</string>
   <string name="notification_action_reply">YANITLA</string>
@@ -135,105 +135,22 @@
   <string name="marked_evernote">Evernote\'a gönderildi</string>
   <string name="marked_liked">Beğenilen olarak işaretlendi</string>
   <string name="marked_archived">Arşiv için işaretlendi</string>
-  <string name="marked_deleted">Silinmek için işaretlendi</string>
-  <string name="marked_spam">Spam klasörüne taşındı</string>
-  <string name="marked_todo">Yapılacak olarak işaretlendi</string>
   <string name="marked_done">Tamamlandı olarak işaretlendi</string>
-  <plurals name="quick_response_sent">
-    <item quantity="one">Yanıt gönderildi</item>
-    <item quantity="other">Yanıt gönderildi</item>
-  </plurals>
-  <plurals name="liked_message">
-    <item quantity="one">Mesaj beğenildi</item>
-    <item quantity="other">Mesaj beğenildi</item>
-  </plurals>
-  <string name="invalid_selection">Geçersiz seçim</string>
-  <string name="file_action_more_than_one_account">Birden fazla hesaptan konuşmaları seçtiniz. Yalnızca bir hesaptan konuşmaları seçmeyi deneyin.</string>
-  <string name="evernote_action_more_than_one_conversation">Evernote işlevi yalnızca bir seferde bir konuşmayı destekler. Sadece bir konuşma seçmeyi deneyin.</string>
+  <string name="file_action_more_than_one_account">Birden fazla hesaptan konuşmalar seçtiniz. Yalnızca bir hesaptaki konuşmaları seçmeyi deneyin.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote işlevi bir seferde yalnızca bir konuşmayı destekler. Sadece bir konuşma seçmeyi deneyin.</string>
   <string name="not_installed">Yüklü değil</string>
-  <string name="evernote_not_installed">Evernote yüklü değil. Bu işlevi kullanmak için lütfen uygulamayı yükleyin.</string>
-  <string name="custom_mailbox_button">Özel kutu ekle</string>
-  <string name="custom_mailbox_settings_label">Ayarlar</string>
   <string name="custom_mailbox_folder_name_hint">Özel kutu adı</string>
   <string name="custom_mailbox_background_sync_label">Arkaplan eşitlemesi</string>
-  <string name="custom_mailbox_background_sync_switch_on">Açık</string>
-  <string name="custom_mailbox_background_sync_switch_off">Kapalı</string>
-  <string name="custom_mailbox_delete_box">Kutuyu sil</string>
   <string name="custom_mailbox_error_no_selected_folders">Lütfen aşağıdaki listeden en az bir klasör seçiniz</string>
   <string name="custom_mailbox_delete_box_dialog_title">Uyarı</string>
-  <string name="custom_mailbox_delete_box_dialog_message">Bu özel kutuyu silmek istediğinizden emin misiniz?</string>
-  <string name="custom_mailbox_error_deleting_box">Özel posta kutusunu silerken bir hata oluştu</string>
-  <string name="viral_prompt_rate_app_title">Bu uygulamayı değerlendirin</string>
-  <string name="viral_prompt_rate_app_body">Uygulamayı kullanmaktan keyif aldıysanız, bunu değerlendirmek için bir dakikanızı ayırabilir misiniz? Bir dakikadan daha fazla sürmez. Desteğiniz için teşekkür ederiz!</string>
-  <string name="viral_ratings_prompt_remind_me_later">Daha sonra hatırlat</string>
-  <string name="viral_ratings_prompt_no_thanks">Hayır, teşekkürler</string>
-  <string name="viral_ratings_prompt_rate_now">Şimdi değerlendir</string>
-  <string name="promo_code_title_text">Tek başınıza gelen kutunuzla mücadele etmeyin</string>
-  <string name="promo_code_edittext_hint">Promosyon kodunu girin</string>
-  <string name="promo_code_button_text">Gönder</string>
-  <string name="promo_code_error_no_code_entered">Göndere basmadan önce bir promosyon kodu girin</string>
-  <string name="promo_code_error_invalid_code">Geçersiz promosyon kodu</string>
-  <string name="promo_code_dialog_title">Özellikler kilidi açıldı</string>
-  <string name="promo_code_dialog_message"><xliff:g id="features">%s</xliff:g> özellikleri başarıyla açıldı</string>
-  <string name="promo_code_dialog_generic_success_msg">Promosyon kodu başarıyla uygulandı</string>
-  <string name="promo_code_progress_dialog_validating">Promosyon kodu doğrulanıyor</string>
-  <string name="rage_shake_title">Hata tespit edildi</string>
-  <string name="rage_shake_message">Çöken uygulamaların hata ayıklama mesajları göndermesini ister misiniz?</string>
   <string name="actions_dialog_title">Özelleştir</string>
   <string name="actions_dialog_message">Klasörleri sık sık kullanıyor musunuz? E-postaları spam olarak işaretliyor musunuz? Evernote\'a kaydetmeyi seviyor musunuz?\n\nÖzelleştirilebilen kaydırma eylemleri ile bu hareketleri kendi kullanımınıza göre ayarlayabilirsiniz.\n</string>
   <string name="actions_dialog_positive_button_text">Kaydırmaları özelleştir</string>
   <string name="actions_dialog_negative_button_text">Kapat</string>
-  <string name="account_setup_start_company_slogan_text">Daha iyi bir gelen kutusuna hoş geldiniz</string>
-  <string name="account_setup_vendor_heading">E-postaya hoş geldiniz</string>
   <string name="like_action_dialog_tittle">Beğenme nedir?</string>
-  <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten  bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
+  <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
   <string name="new_button">Yeni</string>
-  <string name="folder_name_hint">Klasör adı</string>
-  <string name="create_folder_progess">Klasör oluşturuluyor\u2026</string>
-  <string name="duplicate_folder_title">Yinelenen ad</string>
-  <string name="duplicate_folder_message">Girdiğiniz ad zaten mevcut.</string>
-  <string name="error">Hata</string>
-  <string name="error_creating_folder_message">Klasör oluşturulamadı.</string>
-  <string name="report_rendering_problem">Bildir</string>
   <string name="message_reported">Mesaj bildirildi</string>
-  <string name="no_conversation_needs_sync">Burada hiç posta yok.\nYenilemek için yukarıdan aşağıya çekin</string>
-  <string name="getting_messages">Mesajlarınız alınıyor</string>
-  <string name="empty_folder">Burada hiç posta yok.</string>
-  <string name="empty_inbox">Hepsi bu kadar! Lütfen günün tadını çıkarın.</string>
-  <string name="empty_search">Hoppala! Biz \"<xliff:g id="search_query">%1$s</xliff:g>\" için bir şey bulamadık.</string>
-  <string name="empty_spam_folder">Yaşasın, burada hiç spam yok!</string>
-  <string name="empty_trash_folder">Burada hiç çöp yok. Geri dönüşüm için teşekkürler!</string>
-  <string name="view_on_calendar">Takvimde görüntüle</string>
   <string name="accept">Kabul et</string>
-  <string name="maybe">Belki</string>
-  <string name="decline">Reddet</string>
-  <string name="remove_from_cal">Takvimden kaldır</string>
-  <string name="remove_series_from_cal">Diziyi takvimden kaldır</string>
-  <string name="calendar_attendees_me_only">Ben</string>
-  <plurals name="calendar_attendees">
-    <item quantity="one">Ben &amp; %d diğeri</item>
-    <item quantity="other">Ben &amp; %d diğerleri</item>
-  </plurals>
-  <string name="all_day">Tüm gün</string>
-  <string name="canceled">İptal edildi</string>
-  <string name="times_that_work_for_me">Bana uygun zamanlar:</string>
-  <string name="availability_by">Uygunluk ></string>
-  <string name="remove_availability">Uygunluğu kaldır</string>
-  <string name="event_over">Olay sonlandı</string>
-  <string name="busy">Meşgul</string>
-  <string name="available">Uygun</string>
-  <plurals name="other_conflicts">
-    <item quantity="one">%d diğer çakışma</item>
-    <item quantity="other">%d diğer çakışma</item>
-  </plurals>
-  <string name="meeting_invitation">Davet özeti:</string>
-  <string name="invitation_by">Daveti gönderen</string>
-  <string name="remove_invite">Daveti kaldır</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> mesajınınızı &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt; ile beğendi.</string>
-  <string name="error_no_app_store">Uygun bir mağaza bulunamadı</string>
-  <string name="calendar_feature_dialog_title">Boxer Takvimini indir</string>
-  <string name="calendar_feature_dialog_msg">Boxer sadece Boxer Takvimi ile çalışan takvim özellikleri sağlar. Bu özelliği etkinleştirmek için Boxer Takviminin son sürümünü şimdi indirin (ÜCRETSİZ)</string>
-  <string name="calendar_feature_dialog_positive_btn">YÜKLE</string>
-  <string name="calendar_feature_dialog_negative_btn">ŞİMDİ DEĞİL</string>
-  <string name="undisclosed_recipients">Alıcılar Girilmedi</string>
 </resources>

@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">From</string>
   <string name="to">To</string>
   <string name="cc">Cc</string>
   <string name="bcc">Bcc</string>
@@ -206,6 +207,10 @@
   <string name="collapse_recipient_details">Collapse recipient details</string>
   <string name="contact_info_string">Show contact information for <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Show contact information</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> older messages</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> older messages</item>
+  </plurals>
   <string name="from_heading">From: </string>
   <string name="replyto_heading">Reply-to: </string>
   <string name="to_heading">To: </string>
@@ -247,6 +252,10 @@
   <string name="non_synced_folder_description">To view conversations, sync this folder.</string>
   <string name="tap_to_configure_folder_sync">Sync Folder</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> unread</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> unread</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ unread</string>
   <string name="view_more_conversations">View more conversations</string>
   <string name="activity_mailbox_selection">Choose account</string>

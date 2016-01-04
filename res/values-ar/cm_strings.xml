@@ -17,7 +17,37 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">الاثنان معاً</string>
+  <string name="menu_select_all">تحديد الكل</string>
   <string name="menu_actiongrid">شبكة العمل</string>
+  <string name="remove_account">حذف الحساب</string>
+  <string name="support">الدعم</string>
+  <string name="delete_account_title">حذف الحساب</string>
+  <string name="delete_account_summary">حذف هذا الحساب وكل الإعدادات والبيانات</string>
+  <string name="delete_account_confirmation_msg">سيؤدي هذا إلى حذف كافة الإعدادات ورسائل البريد الإلكتروني
+        من الحساب<xliff:g id="account">%s</xliff:g>.هذه العملية لا يمكن أن التراجع عنها.\n\nإستمرار؟</string>
+  <string name="deleting_account_msg">حذف الحساب\u2026</string>
+  <string name="delete_account_failed">تعذر حذف الحساب</string>
+  <string name="open_attachment">فتح</string>
+  <string name="install_attachment">تثبيت</string>
+  <string name="menu_photo_print">طباعة</string>
+  <string name="contextmenu_view_image">عرض الصورة</string>
+  <plurals name="to_header">
+    <item quantity="zero">&amp; %d اخرى</item>
+    <item quantity="one">&amp; %d اخرى</item>
+    <item quantity="two">&amp; %d اخرى</item>
+    <item quantity="few">&amp; %d اخرى</item>
+    <item quantity="many">&amp; %d اخرى</item>
+    <item quantity="other">&amp; %d اخرى</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حدد كـ للقيام بعمله.</item>
+  </plurals>
+  <string name="reported_as_spam">تم الابلاغ عنه كبريد عشوائي</string>
   <string name="new_incoming_messages_one">إظهار الرسائل الجديدة من <xliff:g id="sender">%s </xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
     <item quantity="zero">إظهار <xliff:g id="count">%1$d</xliff:g>رسالة جديدة. </item>
@@ -27,7 +57,19 @@
     <item quantity="many">إظهار <xliff:g id="count">%1$d</xliff:g>رسائل جديدة.</item>
     <item quantity="other">إظهار <xliff:g id="count">%1$d</xliff:g>رسائل جديدة.</item>
   </plurals>
+  <string name="edit">تحرير</string>
+  <string name="folder_search_hint">بحث</string>
+  <string-array name="moveto_folder_sections">
+    <item>المجلدات الذكية</item>
+    <item>كل المجلدات</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>العلامات الذكية</item>
+    <item>جميع التسميات</item>
+  </string-array>
+  <string name="boxes_heading">الصناديق</string>
   <string name="all_folders_heading">المجلدات</string>
+  <string name="accounts_heading">الحسابات</string>
   <string name="vendor_signature">أرسلت من هاتف Cyanogen</string>
   <string name="vendor_signature_fmt">أرسلت من <xliff:g id="brand" example="samsung">%s </xliff:g></string>
   <string name="notification_action_mark_read">قراءة</string>
@@ -41,6 +83,25 @@
     <item quantity="many"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
   </plurals>
+  <string name="preferences_swipe_left_short_title">تمرير قصيرة لليسار</string>
+  <string name="preferences_swipe_left_long_title">تمريرة طويلة لليسار</string>
+  <string name="preferences_swipe_right_short_title">تمريرة قصيرة لليمين</string>
+  <string name="preferences_swipe_right_long_title">تمريرة طويلة لليمين</string>
+  <string name="print">طباعة</string>
+  <string name="date_message_received_print"><<xliff:g id="day_and_date">%1$s</xliff:g> في<xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">مسودة إلى:u0020</string>
+  <plurals name="num_attachments">
+    <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> المرفقات</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
+  </plurals>
+  <string name="no_subject">(لا يوجد موضوع)</string>
+  <string name="action_grid_select_quick_response">حدد استجابة سريعة</string>
+  <string name="action_grid_todo_dialog_title">التفاصيل</string>
+  <string name="action_grid_set_due_date">تعيين تاريخ الاستحقاق</string>
   <string name="custom_mailbox_background_sync_switch_on">يعمل</string>
   <string name="custom_mailbox_background_sync_switch_off">مغلق</string>
   <string name="viral_prompt_rate_app_title">تقييم هذا التطبيق</string>

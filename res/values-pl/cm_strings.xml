@@ -62,6 +62,8 @@
   <string name="accounts_heading">Konta</string>
   <string name="vendor_signature">Wysłane z mojego telefonu Cyanogen</string>
   <string name="vendor_signature_fmt">Wysłano z <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Wysłane z mojego telefonu BLU - Poczta BLU obsługiwana przez Boxer</string>
+  <string name="vendor_signature_o2">Wysłane z urządzenia Cyanogen w sieci O2</string>
   <string name="notification_action_mark_read">PRZECZYTAJ</string>
   <string name="notification_action_reply">ODPOWIEDZ</string>
   <string name="notification_action_delete">USUŃ</string>
