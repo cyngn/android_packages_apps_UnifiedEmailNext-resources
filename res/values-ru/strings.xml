@@ -125,17 +125,42 @@
   <string name="contextmenu_sharelink">Отправить ссылку</string>
   <string name="contextmenu_help">Справка</string>
   <string name="contextmenu_feedback">Отправить отзыв</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Переместить <xliff:g>%1$d</xliff:g> цепочку</item>
+    <item quantity="few">Переместить <xliff:g>%1$d</xliff:g> цепочки</item>
+    <item quantity="other">Переместить <xliff:g>%1$d</xliff:g> цепочек</item>
+  </plurals>
   <string name="content_description">Отправитель: <xliff:g id="SENDER">%1$s</xliff:g>; тема: <xliff:g id="SUBJECT">%2$s</xliff:g>; фрагмент: <xliff:g id="SNIPPET">%3$s</xliff:g>; дата: <xliff:g id="DATE">%4$s</xliff:g>; состояние: <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today">Отправитель: <xliff:g id="SENDER">%1$s</xliff:g>; тема: <xliff:g id="SUBJECT">%2$s</xliff:g>; фрагмент: <xliff:g id="SNIPPET">%3$s</xliff:g>; время: <xliff:g id="TIME">%4$s</xliff:g>; состояние: <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">прочитано</string>
   <string name="unread_string">не прочитано</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Черновик</item>
+    <item quantity="few">Черновики</item>
+    <item quantity="other">Черновики</item>
+  </plurals>
   <string name="sending">Отправка…</string>
   <string name="send_failed">Не отправлено.</string>
   <string name="me_object_pronun">я</string>
   <string name="me_subject_pronun">я</string>
   <string name="inbox_folders_heading">Входящие</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Удалить <xliff:g id="count">%1$d</xliff:g> цепочку?</item>
+    <item quantity="few">Удалить <xliff:g id="count">%1$d</xliff:g> цепочки?</item>
+    <item quantity="other">Удалить <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Архивировать <xliff:g id="count">%1$d</xliff:g> цепочку?</item>
+    <item quantity="few">Архивировать <xliff:g id="count">%1$d</xliff:g> цепочки?</item>
+    <item quantity="other">Архивировать <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Удалить черновики из <xliff:g id="count">%1$d</xliff:g> цепочки?</item>
+    <item quantity="few">Удалить черновики из <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+    <item quantity="other">Удалить черновики из <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+  </plurals>
   <string name="confirm_discard_text">Удалить это сообщение?</string>
   <string name="loading_conversations">Загрузка…</string>
   <string name="undo">Отмена</string>
@@ -182,6 +207,11 @@
   <string name="deleted">Удалено</string>
   <string name="archived">Отправлено в архив</string>
   <string name="folder_removed">Удалено из папки \"<xliff:g id="FOLDERNAME">%1$s</xliff:g>\"</string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Папка изменена.</item>
+    <item quantity="few">Папки изменены.</item>
+    <item quantity="other">Папки изменены.</item>
+  </plurals>
   <string name="conversation_folder_moved">Перемещено в папку \"<xliff:g id="FOLDERNAME">%1$s</xliff:g>\"</string>
   <string name="search_results_header">Результаты</string>
   <string name="search_unsupported">В этом аккаунте не поддерживается поиск.</string>

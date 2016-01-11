@@ -125,6 +125,11 @@
   <string name="contextmenu_sharelink">Udostępnij link</string>
   <string name="contextmenu_help">Pomoc</string>
   <string name="contextmenu_feedback">Prześlij opinię</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Przenieś wątek</item>
+    <item quantity="few">Przenieś <xliff:g>%1$d</xliff:g> wątki</item>
+    <item quantity="other">Przenieś <xliff:g>%1$d</xliff:g> wątków</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> na temat <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> w dniu <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> na temat <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> o <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">wątek został przeczytany</string>
@@ -141,12 +146,67 @@
   <string name="me_object_pronun">ja</string>
   <string name="me_subject_pronun">ja</string>
   <string name="inbox_folders_heading">Odebrane</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Usunąć wątek?</item>
+    <item quantity="few">Usunąć <xliff:g id="count">%1$d</xliff:g> wątki?</item>
+    <item quantity="other">Usunąć <xliff:g id="count">%1$d</xliff:g> wątków?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Zarchiwizować wątek?</item>
+    <item quantity="few">Zarchiwizować <xliff:g id="count">%1$d</xliff:g> wątki?</item>
+    <item quantity="other">Zarchiwizować <xliff:g id="count">%1$d</xliff:g> wątków?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Odrzucić wersję roboczą z tego wątku?</item>
+    <item quantity="few">Odrzucić <xliff:g id="count">%1$d</xliff:g> wersje robocze z tego wątku?</item>
+    <item quantity="other">Odrzucić <xliff:g id="count">%1$d</xliff:g> wersji roboczych z tego wątku?</item>
+  </plurals>
   <string name="confirm_discard_text">Odrzucić tę wiadomość?</string>
   <string name="loading_conversations">Wczytuję…</string>
   <string name="undo">Cofnij</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Cofanie oznaczenia gwiazdką <xliff:g id="COUNT">%1$d</xliff:g> wątku.</item>
+    <item quantity="few">Cofanie oznaczenia gwiazdką <xliff:g id="COUNT">%1$d</xliff:g> wątków.</item>
+    <item quantity="other">Cofanie oznaczenia gwiazdką <xliff:g id="COUNT">%1$d</xliff:g> wątków.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">Oznaczono wątek jako spam.</item>
+    <item quantity="few">Oznaczono &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątki jako spam.</item>
+    <item quantity="other">Oznaczono &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków jako spam.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">Usunięto oznaczenie wątku jako spam.</item>
+    <item quantity="few">Usunięto oznaczenie &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków jako spam.</item>
+    <item quantity="other">Usunięto oznaczenie &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków jako spam.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">Oznaczono wątek jako mało ważny.</item>
+    <item quantity="few">Oznaczono &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątki jako mało ważne.</item>
+    <item quantity="other">Oznaczono &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków jako mało ważne.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">Wątek zgłoszony jako wyłudzanie informacji.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątki zgłoszono jako wyłudzanie informacji.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków zgłoszono jako wyłudzanie informacji.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">Wątek zarchiwizowano.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątki zarchiwizowane.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków zarchiwizowano.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">Wątek usunięto.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątki usunięte.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; wątków usunięto.</item>
+  </plurals>
   <string name="deleted">Usunięty</string>
   <string name="archived">Zarchiwizowany</string>
   <string name="folder_removed">Usunięto z: <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Zmieniono folder.</item>
+    <item quantity="few">Zmieniono foldery.</item>
+    <item quantity="other">Zmieniono foldery.</item>
+  </plurals>
   <string name="conversation_folder_moved">Przeniesiono do: <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Wyniki</string>
   <string name="search_unsupported">Wyszukiwanie nie jest obsługiwane na tym koncie.</string>
@@ -156,6 +216,11 @@
   <string name="collapse_recipient_details">Zwiń szczegóły odbiorcy</string>
   <string name="contact_info_string">Pokaż informacje kontaktowe: <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Pokaż informacje kontaktowe</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> starsza wiadomość</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> starsze wiadomości</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> starszych wiadomości</item>
+  </plurals>
   <string name="from_heading">Od: </string>
   <string name="replyto_heading">Odpowiedź do: </string>
   <string name="to_heading">Do: </string>
@@ -197,6 +262,11 @@
   <string name="non_synced_folder_description">Aby wyświetlić rozmowy, zsynchronizuj ten folder.</string>
   <string name="tap_to_configure_folder_sync">Synchronizuj folder</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one">Oznaczono wątek jako nieprzeczytany</item>
+    <item quantity="few">Oznaczono <xliff:g id="count" example="4">%1$d</xliff:g> wątki jako nieprzeczytane</item>
+    <item quantity="other">Oznaczono <xliff:g id="count" example="4">%1$d</xliff:g> wątków jako nieprzeczytane</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Nieprzeczytane: ponad <xliff:g id="COUNT">%1$d</xliff:g></string>
   <string name="view_more_conversations">Wyświetl więcej rozmów</string>
   <string name="activity_mailbox_selection">Wybierz konto</string>
@@ -282,6 +352,11 @@
   <string name="empty_spam">Opróżnij spam</string>
   <string name="empty_trash_dialog_title">Opróżnić kosz?</string>
   <string name="empty_spam_dialog_title">Opróżnić spam?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> wiadomość zostanie trwale usunięta.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> wiadomości zostaną trwale usunięte.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> wiadomości zostanie trwale usuniętych.</item>
+  </plurals>
   <string name="drawer_open">Otwórz szufladę nawigacji</string>
   <string name="drawer_close">Zamknij szufladę nawigacji</string>
   <string name="conversation_photo_welcome_text">Kliknij zdjęcie nadawcy, by wybrać wątek.</string>

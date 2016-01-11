@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Ontvangersdetails samenvouwen</string>
   <string name="contact_info_string">Contactgegevens weergeven voor <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Contactgegevens weergeven</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> oudere berichten</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> oudere berichten</item>
+  </plurals>
   <string name="from_heading">Van: </string>
   <string name="replyto_heading">Antwoord: </string>
   <string name="to_heading">Aan: </string>
@@ -341,8 +345,8 @@
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> bericht wordt permanent verwijderd.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> berichten worden permanent verwijderd.</item>
   </plurals>
-  <string name="drawer_open">Navigatielade openen</string>
-  <string name="drawer_close">Navigatielade sluiten</string>
+  <string name="drawer_open">Navigatiemenu openen</string>
+  <string name="drawer_close">Navigatiemenu sluiten</string>
   <string name="conversation_photo_welcome_text">Raak de afbeelding van een afzender aan om dat gesprek te selecteren.</string>
   <string name="long_press_to_select_tip">Blijf aanraken om één gesprek te selecteren en raak aan om meer te selecteren.</string>
   <string name="folder_icon_desc">Mappictogram</string>

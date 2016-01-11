@@ -217,4 +217,8 @@
   <string name="times_that_work_for_me">Tidspunkter som fungerer for meg:</string>
   <string name="availability_by">Tilgjengelighet via</string>
   <string name="remove_availability">Fjern tilgjengelighet</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d annen konflikt</item>
+    <item quantity="other">%d andre konflikter</item>
+  </plurals>
 </resources>

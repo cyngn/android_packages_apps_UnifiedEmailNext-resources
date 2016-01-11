@@ -146,12 +146,72 @@
   <string name="me_object_pronun">ја</string>
   <string name="me_subject_pronun">ја</string>
   <string name="inbox_folders_heading">Примљене</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Избрисати ову преписку?</item>
+    <item quantity="few">Избрисати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+    <item quantity="other">Избрисати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Сачувати ову преписку?</item>
+    <item quantity="few">Сачувати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+    <item quantity="other">Сачувати ове <xliff:g id="count">%1$d</xliff:g> преписке?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Одбаци скице из ове преписке?</item>
+    <item quantity="few">Одбаци скице из ових <xliff:g id="count">%1$d</xliff:g> преписака?</item>
+    <item quantity="other">Одбаци скице из ових <xliff:g id="count">%1$d</xliff:g> преписака?</item>
+  </plurals>
   <string name="confirm_discard_text">Желите ли да одбаците ову поруку?</string>
   <string name="loading_conversations">Учитавање…</string>
   <string name="undo">Опозови</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписке.</item>
+    <item quantity="few">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписки.</item>
+    <item quantity="other">Уклоњена звездица <xliff:g id="count">%1$d</xliff:g> преписки.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишана.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишано.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; утишане.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављена као нежељена.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављено као нежељено.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене као нежељене.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављена да није нежељена.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене као нежељене.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене као нежељене.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означена као важна.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означено као важно.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; означене као важне.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављена као ловљење.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављено као ловљење.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пријављене као ловљење.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачувана.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачувано.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; сачуване.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисана.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисано.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; обрисане.</item>
+  </plurals>
   <string name="deleted">Избрисано</string>
   <string name="archived">Архивирано</string>
   <string name="folder_removed">Уклоњено из директоријума <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Промена фолдера.</item>
+    <item quantity="few">Промене фолдера.</item>
+    <item quantity="other">Промене фолдера.</item>
+  </plurals>
   <string name="conversation_folder_moved">Премештена је у <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Резултати</string>
   <string name="search_unsupported">Претрага није подржана на овом налогу.</string>
@@ -161,6 +221,11 @@
   <string name="collapse_recipient_details">Скупи детаље о примаоцу</string>
   <string name="contact_info_string">Прикажи контакт информације корисника <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Прикажи контакт информације</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> стара порука</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> старе поруке</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> старе поруке</item>
+  </plurals>
   <string name="from_heading">Од: </string>
   <string name="replyto_heading">Одговор на: </string>
   <string name="to_heading">Коме: </string>
@@ -202,6 +267,11 @@
   <string name="non_synced_folder_description">Да бисте прегледали преписке, синхронизујте директоријум.</string>
   <string name="tap_to_configure_folder_sync">Синхронизуј директоријум</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитана</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитано</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> непрочитане</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Непрочитаних: <xliff:g id="COUNT">%1$d</xliff:g>+</string>
   <string name="view_more_conversations">Прикажи још преписки</string>
   <string name="activity_mailbox_selection">Избор налога</string>
@@ -287,6 +357,11 @@
   <string name="empty_spam">Пражњење директоријума са непожељним порукама</string>
   <string name="empty_trash_dialog_title">Желите ли да испразните директоријум за отпад?</string>
   <string name="empty_spam_dialog_title">Желите ли да испразните директоријум са непожељним порукама?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> порука ће бити трајно обрисана.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> порука ће бити трајно обрисано.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> поруке ће бити трајно обрисане.</item>
+  </plurals>
   <string name="drawer_open">Отвори фиоку за навигацију</string>
   <string name="drawer_close">Затвори фиоку за навигацију</string>
   <string name="conversation_photo_welcome_text">Додирните слику пошиљаоца да бисте изабрали ту преписку.</string>

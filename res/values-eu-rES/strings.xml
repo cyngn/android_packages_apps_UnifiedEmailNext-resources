@@ -281,7 +281,7 @@
   <string name="via_domain"><xliff:g id="viaDomain">%1$s</xliff:g> bidez</string>
   <string name="signin">Hasi saioa</string>
   <string name="info">Informazioa</string>
-  <string name="report">Salatu</string>
+  <string name="report">Jakitera eman</string>
   <string name="sync_error">Ezin izan da sinkronizatu.</string>
   <string name="sync_error_message">Zure gailuak ez du biltegiratze leku nahikorik sinkronizaziorako.</string>
   <string name="storage">Biltegiratzea</string>

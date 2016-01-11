@@ -137,6 +137,12 @@
   <string name="unread_string">pogovor ni bil prebran</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Osnutek</item>
+    <item quantity="two">Osnutka</item>
+    <item quantity="few">Osnutki</item>
+    <item quantity="other">Osnutki</item>
+  </plurals>
   <string name="sending">Pošiljanje…</string>
   <string name="send_failed">Sporočilo ni bilo poslano.</string>
   <string name="me_object_pronun">jaz</string>
@@ -187,6 +193,12 @@
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovori prijavljeni kot želeni.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovorov prijavljenih kot želenih.</item>
   </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen kot nepomemben.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena kot nepomembna.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeni kot nepomembni.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označenih kot nepomembnih.</item>
+  </plurals>
   <plurals name="conversation_phished">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovor prijavljen kot zvabljanje.</item>
     <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pogovora prijavljena kot zvabljanje.</item>
@@ -208,6 +220,12 @@
   <string name="deleted">Izbrisan</string>
   <string name="archived">Arhiviran</string>
   <string name="folder_removed">Odstranjeno iz <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Spremenjena mapa.</item>
+    <item quantity="two">Spremenjeni mapi.</item>
+    <item quantity="few">Spremenjene mape.</item>
+    <item quantity="other">Spremenjene mape.</item>
+  </plurals>
   <string name="conversation_folder_moved">Premaknjeno v: <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Rezultati</string>
   <string name="search_unsupported">Iskanje ni podprto za ta račun.</string>
@@ -217,6 +235,12 @@
   <string name="collapse_recipient_details">Strni podrobnosti prejemnika</string>
   <string name="contact_info_string">Prikaz podatkov za stik za <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Prikaži podatke za stik</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> starejše sporočilo</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> starejši sporočili</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> starejša sporočila</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> starejših sporočil</item>
+  </plurals>
   <string name="from_heading">Od: </string>
   <string name="replyto_heading">Odgovori: </string>
   <string name="to_heading">Za: </string>
@@ -258,6 +282,12 @@
   <string name="non_synced_folder_description">Če si želite ogledati pogovore, sinhronizirajte to mapo.</string>
   <string name="tap_to_configure_folder_sync">Sinhroniziranje mape</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> neprebrano</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> neprebrani</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> neprebrana</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> neprebranih</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Št. neprebranih: več kot <xliff:g id="COUNT">%1$d</xliff:g></string>
   <string name="view_more_conversations">Oglejte si več pogovorov</string>
   <string name="activity_mailbox_selection">Izberite račun</string>
@@ -343,6 +373,12 @@
   <string name="empty_spam">Izprazni mapo z vsiljeno pošto</string>
   <string name="empty_trash_dialog_title">Želite izprazniti smetnjak?</string>
   <string name="empty_spam_dialog_title">Želite izprazniti mapo z vsiljeno pošto?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> sporočilo bo trajno izbrisano.</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> sporočili bosta trajno izbrisani.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> sporočila bodo trajno izbrisana.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> sporočil bo trajno izbrisanih.</item>
+  </plurals>
   <string name="drawer_open">Odpri predal za navigacijo</string>
   <string name="drawer_close">Zapri predal za navigacijo</string>
   <string name="conversation_photo_welcome_text">Če želite izbrati ta pogovor, se dotaknite slike pošiljatelja.</string>

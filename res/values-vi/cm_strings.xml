@@ -17,8 +17,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kết hợp</string>
+  <string name="menu_select_all">Chọn tất cả</string>
   <string name="menu_actiongrid">Lưới thao tác</string>
   <string name="remove_account">Xóa tài khoản</string>
+  <string name="support">Hỗ trợ</string>
+  <string name="delete_account_title">Xoá tài khoản</string>
+  <string name="delete_account_summary">Xoá tài khoản này cùng với tất cả cài đặt và dữ liệu của nó</string>
+  <string name="delete_account_confirmation_msg">Việc này sẽ xoá tất cả cài đặt và các email của tài khoản <xliff:g id="account">%s</xliff:g>. Thao tác này không thể hoàn tác.\n\nTiếp tục?</string>
+  <string name="deleting_account_msg">Đang xoá tài khoản\u2026</string>
+  <string name="delete_account_failed">Không thể xoá tài khoản</string>
+  <string name="open_attachment">Mở</string>
+  <string name="install_attachment">Cài đặt</string>
+  <string name="menu_photo_print">In</string>
+  <string name="contextmenu_view_image">Xem ảnh</string>
   <plurals name="to_header">
     <item quantity="other">&amp; %d khác</item>
   </plurals>
@@ -26,9 +37,24 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; được đánh dấu là việc cần làm.</item>
   </plurals>
   <string name="reported_as_spam">Đã báo cáo là thư rác</string>
+  <string name="new_incoming_messages_one">Hiển thị tin nhắn mới từ <xliff:g id="sender">%s</xliff:g>.</string>
+  <string name="edit">Chỉnh sửa</string>
+  <string name="folder_search_hint">Tìm kiếm</string>
+  <string-array name="moveto_folder_sections">
+    <item>Thư mục thông minh</item>
+    <item>Tất cả thư mục</item>
+  </string-array>
+  <string-array name="change_folders_sections">
+    <item>Nhãn thông minh</item>
+    <item>Tất cả nhãn</item>
+  </string-array>
   <string name="boxes_heading">Hộp</string>
+  <string name="all_folders_heading">Thư mục</string>
+  <string name="accounts_heading">Tài khoản</string>
   <string name="vendor_signature">Đã gửi từ điện thoại Cyanogen của tôi</string>
   <string name="vendor_signature_fmt">Đã gửi từ <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Được gửi từ điện thoại BLU của tôi - Thư BLU được hỗ trợ bởi Boxer</string>
+  <string name="vendor_signature_o2">Được gửi từ Cyanogen trên O2</string>
   <string name="notification_action_mark_read">ĐÃ ĐỌC</string>
   <string name="notification_action_reply">TRẢ LỜI</string>
   <string name="notification_action_delete">XÓA</string>
@@ -38,47 +64,91 @@
   <string name="preferences_swipe_left_long_title">Vuốt lâu bên trái</string>
   <string name="preferences_swipe_right_short_title">Vuốt nhanh bên phải</string>
   <string name="preferences_swipe_right_long_title">Vuốt lâu bên phải</string>
+  <string name="print">In</string>
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> vào lúc <xliff:g id="time">%2$s</xliff:g></string>
   <string name="draft_to_heading">Bản nháp cho:\u0020</string>
   <string name="draft_heading">Bản nháp</string>
   <string name="quoted_text_hidden_print">Văn bản ẩn đã trích dẫn</string>
+  <string name="no_subject">(không có tiêu đề)</string>
   <string name="action_grid_select_quick_response">Chọn trả lời nhanh</string>
+  <string name="action_grid_todo_dialog_title">Chi tiết</string>
   <string name="action_grid_set_due_date">Thiết đặt ngày hết hạn</string>
   <string name="action_grid_due">Hết hạn: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Thêm ưu tiên</string>
+  <string name="action_grid_priority">Ưu tiên:\u0020</string>
   <string name="action_grid_add_assignee">Thêm người được ủy nhiệm</string>
   <string name="action_grid_assignee">Người được ủy nhiệm:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Thiết đặt ngày hết hạn</string>
+  <string name="action_grid_due_date_today">Hôm nay</string>
+  <string name="action_grid_due_date_tomorrow">Ngày mai</string>
+  <string name="action_grid_due_date_this_week">Tuần này</string>
+  <string name="action_grid_due_date_next_week">Tuần tới</string>
+  <string name="action_grid_due_date_specific_date">Ngày cụ thể</string>
   <string name="action_grid_calendar_picker_dialog_title">Thiết đặt ngày hết hạn</string>
+  <string name="action_grid_priority_dialog_title">Thêm ưu tiên</string>
+  <string name="action_grid_priority_highest">Ưu tiên cao nhất</string>
+  <string name="action_grid_priority_high">Ưu tiên cao</string>
+  <string name="action_grid_priority_normal">Ưu tiên bình thường</string>
+  <string name="action_grid_priority_low">Ưu tiên thấp</string>
+  <string name="action_grid_priority_lowest">Ưu tiên thấp nhất</string>
   <string name="action_grid_assignee_dialog_title">Thêm người được ủy nhiệm</string>
   <string name="action_grid_assignee_select_from_contacts">Chọn từ danh bạ</string>
   <string name="action_grid_assignee_search_for_contact">Tìm kiếm số liên lạc</string>
+  <string name="action_grid_assignee_button_bar_clear">Xoá</string>
+  <string name="action_message_header_delete">Xóa tin nhắn này?</string>
   <string name="action_like">Thích</string>
   <string name="action_todo">Việc cần làm</string>
   <string name="action_quick">Nhanh chóng</string>
+  <string name="action_move">Di chuyển</string>
+  <string name="action_label">Nhãn</string>
   <string name="action_move_or_label">Di chuyển/Nhãn</string>
   <string name="action_archive">Lưu trữ</string>
+  <string name="action_delete">Xóa</string>
+  <string name="action_spam">Thư rác</string>
   <string name="action_flag">Lá cờ</string>
   <string name="action_clear_flag">Xóa cờ</string>
   <string name="action_star">Sao</string>
   <string name="action_clear_star">Xóa sao</string>
   <string name="action_star_or_flag">Sao/Cờ</string>
+  <string name="action_mark_unread">Đánh dấu là chưa đọc</string>
+  <string name="action_mark_read">Đánh dấu là đã đọc</string>
+  <string name="action_read_or_unread">Đọc/chưa đọc</string>
   <string name="action_actions">Thao tác</string>
   <string name="marked_evernote">Đã gửi đến Evernote</string>
   <string name="marked_liked">Đã đánh dấu là thích</string>
   <string name="marked_archived">Đã đánh dấu để lưu trữ</string>
+  <string name="marked_deleted">Đánh dấu để xóa bỏ</string>
+  <string name="marked_spam">Chuyển đến thư rác</string>
   <string name="marked_todo">Đã đánh dấu là việc cần làm</string>
   <string name="marked_done">Đã đánh dấu là hoàn tất</string>
+  <string name="invalid_selection">Lựa chọn không hợp lệ</string>
+  <string name="file_action_more_than_one_account">Bạn đã chọn cuộc hội thoại từ nhiều tài khoản. Thử chỉ chọn cuộc hội thoại từ một tài khoản.</string>
+  <string name="evernote_action_more_than_one_conversation">Chức năng Evernote chỉ hỗ trợ một cuộc hội thoại tại một thời điểm. Thử chọn chỉ chọn một cuộc hội thoại.</string>
+  <string name="not_installed">Không được cài đặt</string>
+  <string name="evernote_not_installed">Evernote có vẻ chưa được cài đặt. Xin vui lòng cài đặt để sử dụng chức năng này.</string>
   <string name="custom_mailbox_button">Thêm ô tùy chỉnh</string>
+  <string name="custom_mailbox_settings_label">Cài đặt</string>
   <string name="custom_mailbox_folder_name_hint">Tên ô tùy chỉnh</string>
   <string name="custom_mailbox_background_sync_label">Đồng bộ hóa hình nền</string>
+  <string name="custom_mailbox_background_sync_switch_on">Bật</string>
+  <string name="custom_mailbox_background_sync_switch_off">Tắt</string>
   <string name="custom_mailbox_delete_box">Xóa hộp</string>
+  <string name="custom_mailbox_error_no_selected_folders">Vui lòng chọn ít nhất một thư mục từ danh sách dưới đây</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Cảnh báo</string>
   <string name="custom_mailbox_delete_box_dialog_message">Bạn có chắc là bạn muốn xóa hộp tùy chỉnh này?</string>
   <string name="custom_mailbox_error_deleting_box">Đã xảy ra lỗi khi xóa hộp thư tùy chỉnh của bạn</string>
+  <string name="viral_prompt_rate_app_title">Đánh giá ứng dụng này</string>
   <string name="viral_prompt_rate_app_body">Nếu bạn thích sử dụng ứng dụng này, bạn có thể vui lòng dành chút thời gian để đánh giá ứng dụng đó? Bạn sẽ mất không quá một phút. Cảm ơn sự hỗ trợ của bạn!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Nhắc tôi sau</string>
+  <string name="viral_ratings_prompt_no_thanks">Không, cảm ơn</string>
+  <string name="viral_ratings_prompt_rate_now">Đánh giá ngay</string>
   <string name="promo_code_title_text">Bạn không đơn độc trong việc xử lý hộp thư đến của mình</string>
   <string name="promo_code_edittext_hint">Nhập mã quảng cáo</string>
+  <string name="promo_code_button_text">Gửi</string>
   <string name="promo_code_error_no_code_entered">Vui lòng nhập một mã quảng cáo trước khi nhấn gửi</string>
   <string name="promo_code_error_invalid_code">Mã quảng cáo không hợp lệ</string>
+  <string name="promo_code_dialog_title">Các tính năng đã được mở khóa</string>
+  <string name="promo_code_dialog_message">Bạn đã mở khóa <xliff:g id="features">%s</xliff:g> thành công</string>
   <string name="promo_code_dialog_generic_success_msg">Mã quảng cáo đã áp dụng thành công</string>
   <string name="promo_code_progress_dialog_validating">Xác nhận mã quảng cáo</string>
   <string name="rage_shake_title">Lắc đã được phát hiện</string>
@@ -86,10 +156,18 @@
   <string name="actions_dialog_title">Tùy chỉnh</string>
   <string name="actions_dialog_message">Bạn có thường xuyên sử dụng các thư mục? Thường đánh dấu là Thư rác? Thích cắt cho Evernote?\n\nBằng thao tác vuốt đã tùy chỉnh bạn có thể thiết đặt bất kỳ cử chỉ nào trong số này để làm cho phù hợp với tiến trình làm việc của bạn.\n</string>
   <string name="actions_dialog_positive_button_text">Tùy chỉnh các thao tác vuốt</string>
+  <string name="actions_dialog_negative_button_text">Đóng</string>
   <string name="account_setup_start_company_slogan_text">Chào mừng đến với hộp thư đến tốt hơn</string>
   <string name="account_setup_vendor_heading">Chào mừng đến email</string>
   <string name="like_action_dialog_tittle">Thích là cái gì?</string>
   <string name="like_action_dialog_message">Bạn đã tìm thấy tính năng yêu thích của chúng tôi. Khi bạn \'Thích\' tin nhắn, một email sẽ được gửi cho phép người gửi và người nhận khác biết rằng bạn thích nó. Đó là cách nhanh nhất để trả lời email.</string>
+  <string name="new_button">Mới</string>
+  <string name="folder_name_hint">Tên thư mục</string>
+  <string name="create_folder_progess">Đang tạo thư mục\u2026</string>
+  <string name="duplicate_folder_title">Tên trùng lặp</string>
+  <string name="duplicate_folder_message">Tên thư mục bạn nhập đã tồn tại.</string>
+  <string name="error">Lỗi</string>
+  <string name="error_creating_folder_message">Không thể tạo thư mục.</string>
   <string name="report_rendering_problem">Báo cáo</string>
   <string name="message_reported">Tin nhắn đã được báo cáo</string>
   <string name="no_conversation_needs_sync">Không có thư ở đây.\nKéo từ trên xuống để làm mới</string>
@@ -120,7 +198,10 @@
   <plurals name="other_conflicts">
     <item quantity="other">%d xung đột khác</item>
   </plurals>
+  <string name="meeting_invitation">Tóm tắt lời mời:</string>
+  <string name="invitation_by">Mời bởi</string>
   <string name="remove_invite">Xóa lời mời</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> đã thích tin nhắn của bạn với &lt;a href=\"%s\"&gt;Boxer trên Hệ điều hành Cyanogen&lt;/a&gt;.</string>
   <string name="error_no_app_store">Không tìm thấy cửa hàng ứng dụng nào phù hợp</string>
   <string name="calendar_feature_dialog_title">Tải Boxer Calendar xuống</string>
   <string name="calendar_feature_dialog_msg">Boxer cung cấp các tính năng lịch mà hoạt động riêng với Boxer Calendar. Để bật tính năng này, hãy tải xuống phiên bản mới nhất của Boxer Calendar ngay hôm nay (MIỄN PHÍ)</string>

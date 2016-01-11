@@ -22,7 +22,7 @@
   <string name="remove_account">Hesabı kaldır</string>
   <string name="support">Destek</string>
   <string name="delete_account_title">Hesabı sil</string>
-  <string name="delete_account_summary">Bu hesabı, tüm ayar ve verisini siler</string>
+  <string name="delete_account_summary">Bu hesabı, tüm ayarları ve verileri siler</string>
   <string name="delete_account_confirmation_msg"><xliff:g id="account">%s</xliff:g> hesabının tüm ayarları ve e-postaları silinecek. Bu işlem geri alınamaz.\n\nDevam edilsin mi?</string>
   <string name="deleting_account_msg">Hesap siliniyor\u2026</string>
   <string name="delete_account_failed">Hesap silinemedi</string>
@@ -59,7 +59,7 @@
   <string name="accounts_heading">Hesaplar</string>
   <string name="vendor_signature">Cyanogen telefonumdan gönderildi</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ile gönderildi</string>
-  <string name="blu_signature">BLU telefonumdan gönderildi – BLU Posta - Boxer</string>
+  <string name="blu_signature">BLU telefonumdan gönderildi – BLU Posta Boxer ile çalışır</string>
   <string name="vendor_signature_o2">O2 Cyanogen ile gönderildi</string>
   <string name="notification_action_mark_read">OKU</string>
   <string name="notification_action_reply">YANITLA</string>
@@ -148,8 +148,8 @@
     <item quantity="other">Mesaj beğenildi</item>
   </plurals>
   <string name="invalid_selection">Geçersiz seçim</string>
-  <string name="file_action_more_than_one_account">Birden fazla hesaptan konuşmaları seçtiniz. Yalnızca bir hesaptan konuşmaları seçmeyi deneyin.</string>
-  <string name="evernote_action_more_than_one_conversation">Evernote işlevi yalnızca bir seferde bir konuşmayı destekler. Sadece bir konuşma seçmeyi deneyin.</string>
+  <string name="file_action_more_than_one_account">Birden fazla hesaptan konuşmalar seçtiniz. Yalnızca bir hesaptaki konuşmaları seçmeyi deneyin.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote işlevi bir seferde yalnızca bir konuşmayı destekler. Sadece bir konuşma seçmeyi deneyin.</string>
   <string name="not_installed">Yüklü değil</string>
   <string name="evernote_not_installed">Evernote yüklü değil. Bu işlevi kullanmak için lütfen uygulamayı yükleyin.</string>
   <string name="custom_mailbox_button">Özel kutu ekle</string>
@@ -186,7 +186,7 @@
   <string name="account_setup_start_company_slogan_text">Daha iyi bir gelen kutusuna hoş geldiniz</string>
   <string name="account_setup_vendor_heading">E-postaya hoş geldiniz</string>
   <string name="like_action_dialog_tittle">Beğenme nedir?</string>
-  <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten  bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
+  <string name="like_action_dialog_message">En sevdiğimiz özelliği buldunuz. Bir mesajı \'Beğen\'diğinizde, gönderene ve istediğiniz diğer alıcılara o mesajı sevdiğinizi belirten bir e-posta gönderilecek. Bu şu ana kadarki en hızlı cevap verme yoludur.</string>
   <string name="new_button">Yeni</string>
   <string name="folder_name_hint">Klasör adı</string>
   <string name="create_folder_progess">Klasör oluşturuluyor\u2026</string>
@@ -217,7 +217,7 @@
   <string name="all_day">Tüm gün</string>
   <string name="canceled">İptal edildi</string>
   <string name="times_that_work_for_me">Bana uygun zamanlar:</string>
-  <string name="availability_by">Uygunluk ></string>
+  <string name="availability_by">Uygunluk</string>
   <string name="remove_availability">Uygunluğu kaldır</string>
   <string name="event_over">Olay sonlandı</string>
   <string name="busy">Meşgul</string>

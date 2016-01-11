@@ -59,6 +59,8 @@
   <string name="accounts_heading">Fiókok</string>
   <string name="vendor_signature">Cyanogen készülékemről küldve</string>
   <string name="vendor_signature_fmt">Következővel küldve: <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">A BLU telefonomról küldve - BLU Mail a Boxer által támogatott</string>
+  <string name="vendor_signature_o2">Küldve O2-ről Cyanogen alatt</string>
   <string name="notification_action_mark_read">OLVAS</string>
   <string name="notification_action_reply">VÁLASZ</string>
   <string name="notification_action_delete">TÖRÖL</string>
@@ -224,7 +226,10 @@
     <item quantity="one">%d másik ütközés</item>
     <item quantity="other">%d másik ütközés</item>
   </plurals>
+  <string name="meeting_invitation">Meghívó összefoglaló:</string>
+  <string name="invitation_by">Meghívás általa:</string>
   <string name="remove_invite">Meghívó eltávolítása</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> kedvelte az üzenetét a &lt;a href=\"%s\"&gt;Boxer-ral Cyanogen OS alatt&lt;/a&gt;.</string>
   <string name="error_no_app_store">Nem található megfelelő alkalmazás</string>
   <string name="calendar_feature_dialog_title">Boxer naptár letöltése</string>
   <string name="calendar_feature_dialog_msg">A Boxer szolgáltató naptár funkciói kizárólag a Boxer Naptárral működnek. Ahhoz, hogy ezt a funkciót engedélyezhesse, töltse le a Boxer Naptár legújabb (ingyenes) verzióját</string>

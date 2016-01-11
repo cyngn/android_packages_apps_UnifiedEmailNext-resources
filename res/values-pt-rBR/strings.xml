@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Recolher detalhes do destinatário</string>
   <string name="contact_info_string">Mostrar informações de contato de <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Mostrar informações de contato</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> mensagem mais antiga</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> mensagens mais antigas</item>
+  </plurals>
   <string name="from_heading">De: </string>
   <string name="replyto_heading">Responder para: </string>
   <string name="to_heading">Para: </string>
@@ -248,6 +252,10 @@
   <string name="non_synced_folder_description">Para ver as conversações, sincronize esta pasta.</string>
   <string name="tap_to_configure_folder_sync">Sincronizar pasta</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> não lida</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> não lidas</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ não lidas</string>
   <string name="view_more_conversations">Ver mais conversas</string>
   <string name="activity_mailbox_selection">Escolher conta</string>
