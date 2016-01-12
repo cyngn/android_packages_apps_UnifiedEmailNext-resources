@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">من</string>
   <string name="to">إلى</string>
   <string name="cc">نسخة إلى</string>
   <string name="bcc">نسخة مخفية الوجهة</string>
@@ -47,6 +48,8 @@
   <string name="confirm_send_message_with_no_subject">لا يحتوي موضوع الرسالة على نص.</string>
   <string name="confirm_send_message_with_no_body">لا يوجد نص في ‏‏النص الأساسي للرسالة.</string>
   <string name="confirm_send_message">إرسال هذه الرسالة؟</string>
+  <string name="message_discarded">تم تجاهل الرسالة.</string>
+  <string name="custom_from_account_label">إرسال بريد كـ:</string>
   <string name="send">إرسال</string>
   <string name="mark_read">وضع علامة كمقروء</string>
   <string name="mark_unread">وضع علامة كـ \"غير مقروءة\"</string>
@@ -55,8 +58,381 @@
   <string name="remove_star">إزالة النجمة</string>
   <string name="remove_folder">إزالة من <xliff:g id="folderName">%1$s</xliff:g></string>
   <string name="archive">الأرشيف</string>
+  <string name="report_spam">الإبلاغ عن بريد عشوائي</string>
+  <string name="mark_not_spam">إبلاغ بكونه بريد غير عشوائي</string>
+  <string name="report_phishing">الإبلاغ عن تصيّد احتيالي</string>
   <string name="delete">حذف</string>
   <string name="discard_drafts">استبعاد المسودات</string>
   <string name="refresh">تحديث</string>
   <string name="reply">رد</string>
+  <string name="reply_all">الرد على الكل</string>
+  <string name="resume_draft">تحرير</string>
+  <string name="forward">إعادة توجيه</string>
+  <string name="menu_compose">إنشاء</string>
+  <string name="menu_change_folders">تغيير المجلدات</string>
+  <string name="menu_move_to">نقل إلى</string>
+  <string name="menu_move_to_inbox">نقل إلى علبة الوارد</string>
+  <string name="menu_manage_folders">إعدادات المجلد</string>
+  <string name="menu_show_original">عودة إلى الحجم التلقائي</string>
+  <string name="menu_folder_options">إعدادات المجلد</string>
+  <string name="menu_settings">إعدادات</string>
+  <string name="menu_search">بحث</string>
+  <string name="mark_important">وضع علامة كهام</string>
+  <string name="mark_not_important">وضع علامة كغير هام</string>
+  <string name="add_cc_label">إضافة نسخة/ مخفية</string>
+  <string name="add_bcc_label">إضافة نسخة مخفية الوجهة</string>
+  <string name="feedback">إرسال تعليقات</string>
+  <string name="help_and_info">تعليمات</string>
+  <string name="quoted_text">إدراج النص المقتبس</string>
+  <string name="quoted_text_label">نص الاقتباس</string>
+  <string name="respond_inline">الرد مضمّن</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> كيلوبايت</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> ميجابايت</string>
+  <string name="attachment_image">صورة</string>
+  <string name="attachment_video">فيديو</string>
+  <string name="attachment_audio">صوت</string>
+  <string name="attachment_text">نص</string>
+  <string name="attachment_application_msword">مستند</string>
+  <string name="attachment_application_vnd_ms_powerpoint">عرض تقديمي</string>
+  <string name="attachment_application_vnd_ms_excel">جدول بيانات</string>
+  <string name="attachment_application_pdf">PDF</string>
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g>ملف</string>
+  <string name="preview_attachment">معاينة</string>
+  <string name="save_attachment">حفظ</string>
+  <string name="cancel_attachment">إلغاء</string>
+  <string name="download_again">تنزيل مرة أخرى</string>
+  <string name="more_info_attachment">معلومات</string>
+  <string name="no_application_found">لا يوجد تطبيق يمكنه فتح هذا المرفق لعرضه.</string>
+  <string name="fetching_attachment">إحضار المرفق</string>
+  <string name="please_wait">الرجاء الانتظار/u2026</string>
+  <string name="saved">محفوظ،<xliff:g id="size">%s</xliff:g></string>
+  <string name="download_failed">تعذر التنزيل، المس لإعادة المحاولة.</string>
+  <string name="attachments_header">المرفقات</string>
+  <string name="menu_photo_save_all">حفظ الكل</string>
+  <string name="menu_photo_share">مشاركة</string>
+  <string name="menu_photo_share_all">مشاركة الكل</string>
+  <string name="saving">جارٍ الحفظ...</string>
+  <string name="choosertitle_sharevia">مشاركة عبر</string>
+  <string name="contextmenu_openlink">فتح في المتصفح</string>
+  <string name="contextmenu_copy">نسخ</string>
+  <string name="contextmenu_copylink">‏نسخ عنوان URL لرابط</string>
+  <string name="contextmenu_dial_dot">طلب/u2026</string>
+  <string name="contextmenu_sms_dot">رسالة نصية قصيرة/u2026</string>
+  <string name="contextmenu_add_contact">إضافة جهة اتصال</string>
+  <string name="contextmenu_send_mail">إرسال بريداً إلكترونياً</string>
+  <string name="contextmenu_map">خريطة</string>
+  <string name="contextmenu_sharelink">مشاركة الرابط</string>
+  <string name="contextmenu_help">تعليمات</string>
+  <string name="contextmenu_feedback">إرسال تعليقات</string>
+  <plurals name="move_conversation">
+    <item quantity="zero">نقل<xliff:g>%1$d</xliff:g> المحادثات</item>
+    <item quantity="one">نقل المحادثة</item>
+    <item quantity="two">نقل <xliff:g>%1$d</xliff:g> عمليات المحادثة</item>
+    <item quantity="few">نقل<xliff:g>%1$d</xliff:g> المحادثات</item>
+    <item quantity="many">نقل<xliff:g>%1$d</xliff:g> عمليات المحادثة</item>
+    <item quantity="other">نقل <xliff:g>%1$d</xliff:g> المحادثات</item>
+  </plurals>
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> حول<xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> عند<xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> حول<xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> في<xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <string name="read_string">قراءة المحادثة</string>
+  <string name="unread_string">لم تتم قراءة المحادثة</string>
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="subject_and_snippet"><xliff:g>%s</xliff:g> \u2014 <xliff:g>%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="zero">مسودات</item>
+    <item quantity="one">مسودة</item>
+    <item quantity="two">مسودات</item>
+    <item quantity="few">مسودات</item>
+    <item quantity="many">المسودات</item>
+    <item quantity="other">مسودات</item>
+  </plurals>
+  <string name="sending">جارٍ الإرسال/u2026</string>
+  <string name="send_failed">لم يتم إرسال الرسالة.</string>
+  <string name="me_object_pronun">أنا</string>
+  <string name="me_subject_pronun">أنا</string>
+  <string name="inbox_folders_heading">علبة الوارد</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="zero">هل تريد حذف هذه <xliff:g id="count">%1$d</xliff:g> المحادثات؟?</item>
+    <item quantity="one">تريد حذف هذه المحادثة؟</item>
+    <item quantity="two">هل تريد حذف هذه <xliff:g id="count">%1$d</xliff:g> المحادثات؟</item>
+    <item quantity="few">هل تريد حذف هذه <xliff:g id="count">%1$d</xliff:g> المحادثة؟</item>
+    <item quantity="many">هل تريد حذف هذه <xliff:g id="count">%1$d</xliff:g> المحادثات؟</item>
+    <item quantity="other">هل تريد حذف هذه <xliff:g id="count">%1$d</xliff:g> المحادثات؟</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="zero">هل تريد وضع هذه <xliff:g id="count">%1$d</xliff:g> المحادثات في الأرشيف؟</item>
+    <item quantity="one">هل تريد وضع هذه المحادثة في الأرشيف؟</item>
+    <item quantity="two">هل تريد وضع هذه <xliff:g id="count">%1$d</xliff:g> المحادثات في الأرشيف؟</item>
+    <item quantity="few">هل تريد وضع هذه <xliff:g id="count">%1$d</xliff:g> المحادثات في الأرشيف؟</item>
+    <item quantity="many">هل تريد وضع <xliff:g id="count">%1$d</xliff:g> عمليات المحادثة هذه في الأرشيف؟</item>
+    <item quantity="other">هل تريد وضع هذه <xliff:g id="count">%1$d</xliff:g> المحادثات في الأرشيف؟</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="zero">هل تريد إلغاء المسودات <xliff:g id="count">%1$d</xliff:g> من هذه المحادثات؟</item>
+    <item quantity="one">هل تريد إلغاء المسودات من هذه المحادثة؟</item>
+    <item quantity="two">هل تريد إلغاء المسودات <xliff:g id="count">%1$d</xliff:g> من هذه المحادثات؟</item>
+    <item quantity="few">هل تريد إلغاء المسودات <xliff:g id="count">%1$d</xliff:g> من عمليات المحادثة هذه؟</item>
+    <item quantity="many">هل تريد إلغاء المسودات <xliff:g id="count">%1$d</xliff:g> من هذه المحادثات؟</item>
+    <item quantity="other">هل تريد إلغاء المسودات من <xliff:g id="count">%1$d</xliff:g> عمليات المحادثة هذه؟</item>
+  </plurals>
+  <string name="confirm_discard_text">تجاهل هذه الرسالة؟</string>
+  <string name="loading_conversations">جارٍ التحميل/u2026</string>
+  <string name="undo">تراجع</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="zero">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> محادثات بنجمة.</item>
+    <item quantity="one">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> محادثة بنجمة.</item>
+    <item quantity="two">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> محادثات بنجمة.</item>
+    <item quantity="few">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> عمليات المحادثة بنجمة.</item>
+    <item quantity="many">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> محادثات بنجمة.</item>
+    <item quantity="other">جارٍ إلغاء تمييز<xliff:g id="count">%1$d</xliff:g> عمليات المحادثة بنجمة.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تم الكتم.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كتم.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تم الكتم.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كتم.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كتم.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تم الكتم.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم الإبلاغ عن كغير مرغوب فيها.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم الإبلاغ عن كغير مرغوب فيها.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم الإبلاغ عن كغير مرغوب فيه.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم الإبلاغ عن كغير مرغوب فيها.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم الإبلاغ عن كغير مرغوب فيه.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;‏تم الإبلاغ عن كغير مرغوب فيها.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثة ليست ضمن المحادثات غير المرغوب فيها.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثات ليست ضمن المحادثات غير المرغوب فيها.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثة ليست ضمن المحادثات غير المرغوب فيها.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثات ليست ضمن المحادثات غير المرغوب فيها.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثة ليست ضمن المحادثات غير المرغوب فيها.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; كمحادثات ليست ضمن المحادثات غير المرغوب فيها.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="zero">‏تم وضع علامة على &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;تشير إلى عدم الأهمية.</item>
+    <item quantity="one">‏تم وضع علامة عليهم &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; تشير إلى عدم الأهمية.</item>
+    <item quantity="two">‏تم وضع علامة عليهم &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تشير إلى عدم الأهمية.</item>
+    <item quantity="few">‏تم وضع علامة عليها &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تشير إلى عدم الأهمية.</item>
+    <item quantity="many">‏تم وضع علامة عليهم&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تشير إلى عدم الأهمية.</item>
+    <item quantity="other">‏تم وضع علامة عليها&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تشير إلى عدم الأهمية.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="zero">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;كمحادثة تهدف إلى التصيّد.</item>
+    <item quantity="one">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; كمحادثات تهدف إلى التصيّد.</item>
+    <item quantity="two">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; كمحادثة تهدف إلى التصيّد.</item>
+    <item quantity="few">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; كمحادثات تهدف إلى التصيّد.</item>
+    <item quantity="many">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; كمحادثة تهدف إلى التصيّد.</item>
+    <item quantity="other">‏تم الإبلاغ عن &lt;b&gt;<xliff:g id="Count">%1$d</xliff:g>&lt;/b&gt; كمحادثات تهدف إلى التصيّد.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفة.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفتهم.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفة.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفتهم.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفة.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تمت أرشفتهم.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="zero">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم حذف.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; تم حذفهم.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حذف.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم حذف.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; حذف.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ‏تم حذف.</item>
+  </plurals>
+  <string name="deleted">تم الحذف</string>
+  <string name="archived">تم الوضع في الأرشيف</string>
+  <string name="folder_removed">تمت الإزالة من <xliff:g id="folderName">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="zero">تم تغيير المجلدات.</item>
+    <item quantity="one">تم تغيير المجلد.</item>
+    <item quantity="two">تم تغيير المجلدات.</item>
+    <item quantity="few">تم تغيير المجلدات.</item>
+    <item quantity="many">تغيير المجلدات.</item>
+    <item quantity="other">تم تغيير المجلدات.</item>
+  </plurals>
+  <string name="conversation_folder_moved">تم النقل إلى <xliff:g id="folderName">%1$s</xliff:g></string>
+  <string name="search_results_header">النتائج</string>
+  <string name="search_unsupported">ميزة البحث غير مدعومة على هذا الحساب.</string>
+  <string name="search_results_searching_header">جارٍ البحث\u2026</string>
+  <string name="add_label">إضافة مجلد</string>
+  <string name="expand_recipient_details">توسيع تفاصيل المستلم</string>
+  <string name="collapse_recipient_details">تصغير تفاصيل المستلم</string>
+  <string name="contact_info_string">إظهار معلومات جهة الاتصال لـ <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="contact_info_string_default">إظهار معلومات جهة الاتصال</string>
+  <plurals name="show_messages_read">
+    <item quantity="zero"><xliff:g id="count" example="4">%1$d</xliff:g> الرسائل القديمة</item>
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> رسائل قديمة</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> الرسائل القديمة</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> رسائل قديمة</item>
+    <item quantity="many"><xliff:g id="count" example="4">%1$d</xliff:g> الرسائل القديمة</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> الرسائل القديمة</item>
+  </plurals>
+  <string name="from_heading">من:/u0020</string>
+  <string name="replyto_heading">الرد إلى:\u0020</string>
+  <string name="to_heading">إلى:/u0020</string>
+  <string name="cc_heading">نسخة إلى:/u0020</string>
+  <string name="bcc_heading">نسخة مخفية الوجهة:/\u0020</string>
+  <string name="date_heading">التاريخ: \u0020</string>
+  <string name="show_images">إظهار الصور</string>
+  <string name="always_show_images">عرض صور من هذا المرسل دومًا</string>
+  <string name="always_show_images_toast">سيتم إظهار الصور من هذا المرسل تلقائيًا.</string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> عبر <xliff:g id="via_domain">%3$s</xliff:g></string>
+  <string name="message_saved">تمّ حفظ الرسالة كمسودة.</string>
+  <string name="sending_message">جارٍ إرسال الرسالة/u2026</string>
+  <string name="invalid_recipient">العنوان <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> غير صالح.</string>
+  <string name="show_elided">\u25B إظهار النص المقتبس</string>
+  <string name="hide_elided">\u25BC إخفاء النص المقتبس</string>
+  <string name="message_invite_title">دعوة تقويم</string>
+  <string name="message_invite_calendar_view">عرض في التقويم</string>
+  <string name="message_invite_label_attending">هل لديك نية للذهاب؟</string>
+  <string name="message_invite_accept">نعم</string>
+  <string name="message_invite_tentative">ربما</string>
+  <string name="message_invite_decline">لا</string>
+  <string name="enumeration_comma">,\u0020</string>
+  <string name="yes">نعم</string>
+  <string name="no">لا</string>
+  <string name="ok">موافق</string>
+  <string name="done">تم</string>
+  <string name="cancel">إلغاء</string>
+  <string name="clear">محو</string>
+  <string-array name="sync_status">
+    <item>نجاح</item>
+    <item>لا اتصال.</item>
+    <item>تعذر تسجيل الدخول.</item>
+    <item>خطأ في الأمان.</item>
+    <item>تعذرت المزامنة</item>
+    <item>خطأ داخلي</item>
+  </string-array>
+  <string name="tap_to_configure">المس للإعداد</string>
+  <string name="non_synced_folder_description">لعرض المحادثات، عليك مزامنة هذا المجلد.</string>
+  <string name="tap_to_configure_folder_sync">مزامنة المجلد</string>
+  <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="zero"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروءة</item>
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروء</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروءة</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروء</item>
+    <item quantity="many"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروءة</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> غير مقروء</item>
+  </plurals>
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ غير مقروء</string>
+  <string name="view_more_conversations">عرض المزيد من المحادثات</string>
+  <string name="activity_mailbox_selection">اختيار حساب</string>
+  <string name="activity_folder_selection">اختيار مجلد</string>
+  <string name="folder_shortcut_widget_label">مجلد البريد الإلكتروني</string>
+  <string name="change_folders_selection_dialog_title">تغيير المجلدات</string>
+  <string name="move_to_selection_dialog_title">نقل إلى</string>
+  <string name="search_hint">بحث في البريد</string>
+  <string name="network_error">لا يوجد اتصال</string>
+  <string name="retry">إعادة المحاولة</string>
+  <string name="load_more">تحميل المزيد</string>
+  <string name="shortcut_name_title">اختصار اسم المجلد</string>
+  <string name="wait_for_sync_title">في انتظار المزامنة</string>
+  <string name="wait_for_sync_body">سيظهر بريدك الإلكتروني بعد قليل.</string>
+  <string name="not_synced_title">لم تتم مزامنة الحساب</string>
+  <string name="wait_for_manual_sync_body">لم يتم إعداد هذا الحساب من أجل المزامنة تلقائيًا.\nيمكنك لمس <b>"المزامنة الآن"</b> لمزامنة البريد مرة واحدة أو <b>تغيير إعدادات المزامنة"</b> لإعداد هذا الحساب على مزامنة البريد تلقائيًا.</string>
+  <string name="manual_sync">مزامنة الآن</string>
+  <string name="change_sync_settings">تغيير إعدادات المزامنة</string>
+  <string name="photo_load_failed">تعذر تحميل الصورة</string>
+  <string name="cant_move_or_change_labels">يتعذر النقل نظرًا لاحتواء التحديد على عدة حسابات.</string>
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+  <string name="ignore_spam_warning">تجاهل، أثق بهذه الرسالة</string>
+  <string name="via_domain">عبر<xliff:g id="viaDomain">%1$s</xliff:g></string>
+  <string name="signin">تسجيل الدخول</string>
+  <string name="info">معلومات</string>
+  <string name="report">تقرير</string>
+  <string name="sync_error">تعذرت المزامنة.</string>
+  <string name="sync_error_message">لا توجد مساحة تخزينية كافية على جهازك لإجراء المزامنة.</string>
+  <string name="storage">التخزين</string>
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
+  <string name="recent_folders_heading">المجلدات الحديثة</string>
+  <string name="message_details_title">تفاصيل الرسالة</string>
+  <string name="auto_advance_label">التقدم التلقائي</string>
+  <string name="auto_advance_summary">اختيار الشاشة التي تظهر بعد حذف رسالة</string>
+  <string name="auto_advance_help_title">تعيين أفضيلة التقدم التلقائي\n(بعد الحذف وما إلى ذلك)</string>
+  <string-array name="prefEntries_autoAdvance">
+    <item>أحدث</item>
+    <item>أقدم</item>
+    <item>قائمة المحادثات</item>
+  </string-array>
+  <string-array name="prefSummaries_autoAdvance">
+    <item>إظهار المحادثة الأحدث بعد قيامك بالحذف</item>
+    <item>عرض المحادثة الأقدم بعد قيامك بالحذف</item>
+    <item>إظهار قائمة المحادثات بعد قيامك بالحذف</item>
+  </string-array>
+  <string name="clear_display_images_whitelist_title">محو الموافقات على الصور</string>
+  <string name="clear_display_images_whitelist_dialog_title">هل تريد محو الموافقات على الصور؟</string>
+  <string name="clear_display_images_whitelist_dialog_message">إيقاف عرض الصور المضمنة من المرسلين الذين سبق أن تم السماح لهم بذلك.</string>
+  <string name="sender_whitelist_cleared">لن يتم عرض الصور تلقائيًا.</string>
+  <string name="preferences_signature_title">التوقيع</string>
+  <string name="preferences_signature_dialog_title">التوقيع</string>
+  <string name="preferences_signature_summary_not_set">لم يتم التعيين</string>
+  <string name="notification_action_reply_all">الرد على الكل</string>
+  <string name="notification_action_archive">وضع في الأرشيف</string>
+  <string name="notification_action_remove_label">إزالة التسمية</string>
+  <string name="notification_action_undo_archive">تمت الأرشفة</string>
+  <string name="notification_action_undo_remove_label">تمت إزالة التسمية</string>
+  <string name="notification_action_undo_delete">تم الحذف</string>
+  <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="silent_ringtone">صامت</string>
+  <string name="preference_removal_action_title">إجراءات الأرشيف والحذف</string>
+  <string-array name="prefEntries_removal_action">
+    <item>إظهار الأرشيف فقط</item>
+    <item>إظهار الحذف فقط</item>
+    <item>إظهار &amp; الأرشيف والحذف</item>
+  </string-array>
+  <string-array name="prefSummaries_removal_action_summary">
+    <item>إظهار الأرشيف فقط</item>
+    <item>إظهار الحذف فقط</item>
+    <item>إظهار &amp; الأرشيف والحذف</item>
+  </string-array>
+  <string name="prefDialogTitle_removal_action">إجراءات الأرشيف والحذف</string>
+  <string name="preferences_default_reply_all_title">الرد على الكل</string>
+  <string name="preferences_default_reply_all_summary">الاستخدام كافتراضي مع ردود الرسائل</string>
+  <string name="preference_swipe_title_archive">تمرير لإجراء أرشفة</string>
+  <string name="preference_swipe_title_delete">تمرير لإجراء حذف</string>
+  <string name="preference_swipe_description">في قائمة المحادثات</string>
+  <string name="swipe_down_to_refresh">التمرير لأسفل للتحديث</string>
+  <string name="checking_for_mail">التحقق من وجود بريد</string>
+  <string name="empty_trash">إفراغ المهملات</string>
+  <string name="empty_spam">إفراغ البريد العشوائي</string>
+  <string name="empty_trash_dialog_title">إفراغ المهملات؟</string>
+  <string name="empty_spam_dialog_title">إفراغ البريد العشوائي؟</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> سيتم حذف الرسائل نهائياً.</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> سيتم حذف الرسالة نهائيا.</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> سيتم حذف الرسائل نهائياً.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g>سيتم حذف الرسائل نهائياً.</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> سيتم حذف لرسائل نهائياً.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> سيتم حذف الرسائل نهائياً.</item>
+  </plurals>
+  <string name="drawer_open">فتح ساحب التنقل</string>
+  <string name="drawer_close">إغلاق ساحب التنقل</string>
+  <string name="conversation_photo_welcome_text">المس صورة أحد المرسلين لتحديد تلك المحادثة.</string>
+  <string name="long_press_to_select_tip">المس &amp; مع الاستمرار لتحديد إحدى المحادثات، ثم المس لتحديد المزيد.</string>
+  <string name="folder_icon_desc">أيقونة المجلد</string>
+  <string name="add_account">إضافة حساب</string>
+  <string name="attached_message">الرسالة المرفقة</string>
+  <string name="date_message_received_yesterday">أمس، <xliff:g id="datetime">%1$s</xliff:g></string>
+  <string name="dismiss_tip_hover_text">استبعاد النصيحة</string>
+  <string name="auto_sync_off">المزامنة التلقائية متوقفة.</string>
+  <string name="tap_to_enable_sync">المس للتشغيل.</string>
+  <string name="account_sync_off">مزامنة الحساب متوقفة.</string>
+  <string name="enable_sync_in_account_settings">تشغيل في <xliff:g id="account_settings">%1$s</xliff:g>.</string>
+  <string name="account_settings_param">إعدادات الحساب</string>
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> غير مرسلة في <xliff:g id="outbox">%2$s</xliff:g></string>
+  <string name="turn_auto_sync_on_dialog_title">تشغيل المزامنة التلقائية؟</string>
+  <string name="turn_auto_sync_on_dialog_body">‏ستتم مزامنة التغييرات التي تجريها على جميع التطبيقات والحسابات، وليس Gmail فقط، بين الويب والأجهزة الأخرى و <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
+  <string name="phone">هاتف</string>
+  <string name="tablet">جهاز لوحي</string>
+  <string name="turn_auto_sync_on_dialog_confirm_btn">تشغيل</string>
+  <string name="show_n_more_folders">إظهار <xliff:g id="number">%1$s</xliff:g> مزيد من المجلدات</string>
+  <string name="hide_folders">إخفاء المجلدات</string>
 </resources>

@@ -72,6 +72,8 @@
   <string name="accounts_heading">الحسابات</string>
   <string name="vendor_signature">أرسلت من هاتف Cyanogen</string>
   <string name="vendor_signature_fmt">أرسلت من <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <string name="blu_signature">تم الإرسال من هاتف BLU- بريد BLU مزود بالطاقة بواسطة Boxer</string>
+  <string name="vendor_signature_o2">تم الإرسال من Cyanogen على O2</string>
   <string name="notification_action_mark_read">قراءة</string>
   <string name="notification_action_reply">رد</string>
   <string name="notification_action_delete">حذف</string>
@@ -83,13 +85,25 @@
     <item quantity="many"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
   </plurals>
+  <string name="preferences_swipe_actions_title">اجراءات التمرير</string>
+  <string name="preferences_swipe_actions_summary">تخصيص اجراءات التمرير لليمين واليسار</string>
   <string name="preferences_swipe_left_short_title">تمرير قصيرة لليسار</string>
   <string name="preferences_swipe_left_long_title">تمريرة طويلة لليسار</string>
   <string name="preferences_swipe_right_short_title">تمريرة قصيرة لليمين</string>
   <string name="preferences_swipe_right_long_title">تمريرة طويلة لليمين</string>
   <string name="print">طباعة</string>
+  <plurals name="num_messages">
+    <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> رسالة</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> رسائل</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> رسائل</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> رسائل</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> رسائل</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> رسائل</item>
+  </plurals>
   <string name="date_message_received_print"><<xliff:g id="day_and_date">%1$s</xliff:g> في<xliff:g id="time">%2$s</xliff:g></string>
   <string name="draft_to_heading">مسودة إلى:u0020</string>
+  <string name="draft_heading">مسودة</string>
+  <string name="quoted_text_hidden_print">النص المقتبس مخفي</string>
   <plurals name="num_attachments">
     <item quantity="zero"><xliff:g id="count">%1$d</xliff:g> المرفقات</item>
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> المرفق</item>
@@ -102,8 +116,86 @@
   <string name="action_grid_select_quick_response">حدد استجابة سريعة</string>
   <string name="action_grid_todo_dialog_title">التفاصيل</string>
   <string name="action_grid_set_due_date">تعيين تاريخ الاستحقاق</string>
+  <string name="action_grid_due">حلول: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">إضافة الأولوية</string>
+  <string name="action_grid_priority">الأولوية:\u0020</string>
+  <string name="action_grid_add_assignee">إضافة المحال إليه</string>
+  <string name="action_grid_assignee">المحال إليه:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">تعيين تاريخ الاستحقاق</string>
+  <string name="action_grid_due_date_today">اليوم</string>
+  <string name="action_grid_due_date_tomorrow">الغد</string>
+  <string name="action_grid_due_date_this_week">هذا الأسبوع</string>
+  <string name="action_grid_due_date_next_week">الأسبوع القادم</string>
+  <string name="action_grid_due_date_specific_date">تاريخ محدد</string>
+  <string name="action_grid_calendar_picker_dialog_title">تعيين تاريخ الاستحقاق</string>
+  <string name="action_grid_priority_dialog_title">إضافة الأولوية</string>
+  <string name="action_grid_priority_highest">أعلى أولوية</string>
+  <string name="action_grid_priority_high">أولوية عالية</string>
+  <string name="action_grid_priority_normal">أولوية عادية</string>
+  <string name="action_grid_priority_low">أولوية منخفضة</string>
+  <string name="action_grid_priority_lowest">أولوية أدنى</string>
+  <string name="action_grid_assignee_dialog_title">إضافة المحال إليه</string>
+  <string name="action_grid_assignee_select_from_contacts">تحديد من جهات الإتصال</string>
+  <string name="action_grid_assignee_search_for_contact">البحث عن جهات الاتصال</string>
+  <string name="action_grid_assignee_button_bar_clear">مسح</string>
+  <string name="action_message_header_delete">حذف هذه الرسالة؟</string>
+  <string name="action_like">إعجاب</string>
+  <string name="action_todo">المهام</string>
+  <string name="action_quick">سريع</string>
+  <string name="action_move">تحريك</string>
+  <string name="action_label">تسمية</string>
+  <string name="action_move_or_label">تحريك/ تسمية</string>
+  <string name="action_archive">أرشيف</string>
+  <string name="action_delete">حذف</string>
+  <string name="action_spam">بريد عشوائي</string>
+  <string name="action_flag">علم</string>
+  <string name="action_clear_flag">مسح العلم</string>
+  <string name="action_star">نجمة</string>
+  <string name="action_clear_star">مسح النجمة</string>
+  <string name="action_star_or_flag">نجمة/علم</string>
+  <string name="action_mark_unread">وضع علامة كـ غير مقروء</string>
+  <string name="action_mark_read">علامة كـ مقروء</string>
+  <string name="action_read_or_unread">قراءة/غير مقروء</string>
+  <string name="action_actions">الاجراءات</string>
+  <string name="marked_evernote">تم الإرسال إلى Evernote</string>
+  <string name="marked_liked">تم وضع علامة كـ اعجاب</string>
+  <string name="marked_archived">وضع علامة للأرشفة</string>
+  <string name="marked_deleted">وضع علامة للحذف</string>
+  <string name="marked_spam">نقل إلى بريد عشوائي</string>
+  <string name="marked_todo">تم وضع علامة كمهمة</string>
+  <string name="marked_done">تم وضع علامة كـ تمّ</string>
+  <plurals name="quick_response_sent">
+    <item quantity="zero">تم ارسال الرد</item>
+    <item quantity="one">تم ارسال الردود</item>
+    <item quantity="two">تم ارسال الردود</item>
+    <item quantity="few">تم ارسال الردود</item>
+    <item quantity="many">تم ارسال الردود</item>
+    <item quantity="other">تم ارسال الردود</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="zero">تم الاعجاب بالرسالة</item>
+    <item quantity="one">تم الاعجاب بالرسائل</item>
+    <item quantity="two">تم الاعجاب بالرسائل</item>
+    <item quantity="few">تم الاعجاب بالرسائل</item>
+    <item quantity="many">تم الاعجاب بالرسائل</item>
+    <item quantity="other">تم الاعجاب بالرسائل</item>
+  </plurals>
+  <string name="invalid_selection">تحديد غير صالح</string>
+  <string name="file_action_more_than_one_account">لقد قمت باختيار محادثات من أكثر من حساب واحد. جرب اختيار محادثات من حساب واحد.</string>
+  <string name="evernote_action_more_than_one_conversation">ان وظيفة Evernote تدعم فقط محادثة واحدة فقط. جرب اختيار محادثة واحدة فقط.</string>
+  <string name="not_installed">غير مثبت</string>
+  <string name="evernote_not_installed">يبدو ان Evernote لم يتم تثبيته. الرجاء التثبيت لاستخدام هذه الوظيفة.</string>
+  <string name="custom_mailbox_button">إضافة مربع مخصص</string>
+  <string name="custom_mailbox_settings_label">الإعدادات</string>
+  <string name="custom_mailbox_folder_name_hint">اسم مربع مخصص</string>
+  <string name="custom_mailbox_background_sync_label">مزامنة الخلفية</string>
   <string name="custom_mailbox_background_sync_switch_on">يعمل</string>
   <string name="custom_mailbox_background_sync_switch_off">مغلق</string>
+  <string name="custom_mailbox_delete_box">مربع حذف</string>
+  <string name="custom_mailbox_error_no_selected_folders">الرجاء تحديد مجلد واحد على الأقل من القائمة أدناه</string>
+  <string name="custom_mailbox_delete_box_dialog_title">تحذير</string>
+  <string name="custom_mailbox_delete_box_dialog_message">هل أنت متأكد من أن كنت ترغب في حذف هذا المربع المخصص؟</string>
+  <string name="custom_mailbox_error_deleting_box">حدث خطأ أثناء حذف علبة البريد المخصصة الخاصة بك</string>
   <string name="viral_prompt_rate_app_title">تقييم هذا التطبيق</string>
   <string name="viral_prompt_rate_app_body">إذا كنت قد استمتعت باستخدام هذا التطبيق، هل يمكنك تقييمه؟ لن تستغرق أكثر من دقيقة واحدة. شكرا لدعمك!</string>
   <string name="viral_ratings_prompt_remind_me_later">ذكرني لاحقاً</string>
@@ -164,4 +256,25 @@
   <string name="times_that_work_for_me">الأوقات التي تناسبني:</string>
   <string name="availability_by">أوقات تواجد</string>
   <string name="remove_availability">حذف التواجد</string>
+  <string name="event_over">Event over</string>
+  <string name="busy">مشغول</string>
+  <string name="available">متاح</string>
+  <plurals name="other_conflicts">
+    <item quantity="zero">%d تعارضات أخرى</item>
+    <item quantity="one">%d تعارض آخر</item>
+    <item quantity="two">%d تعارضات أخرى</item>
+    <item quantity="few">%d تعارضات أخرى</item>
+    <item quantity="many">%d عمليات تعارض أخرى</item>
+    <item quantity="other">%d تعارضات أخرى</item>
+  </plurals>
+  <string name="meeting_invitation">ملخص الدعوة:</string>
+  <string name="invitation_by">دعوة من قبل</string>
+  <string name="remove_invite">إزالة الدعوة</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> حصول إعجاب لرسالتك من قبل &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">عدم العثور على متجر تطبيقات ملائم</string>
+  <string name="calendar_feature_dialog_title">تنزيل تقويم Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer يقدم مزايا تقويم تعمل بشكل حصري مع تقويم Boxer. لتمكين هذه الميزة، قم بتنزيل أحدث إصدار من تقويم Boxer اليوم (مجاناً)</string>
+  <string name="calendar_feature_dialog_positive_btn">تثبيت</string>
+  <string name="calendar_feature_dialog_negative_btn">ليس الآن</string>
+  <string name="undisclosed_recipients">مستلمين غير منشورين</string>
 </resources>
