@@ -125,6 +125,11 @@
   <string name="contextmenu_sharelink">Поділитися посиланням</string>
   <string name="contextmenu_help">Довідка</string>
   <string name="contextmenu_feedback">Надіслати відгук</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Перемістити ланцюжок</item>
+    <item quantity="few">Перемістити <xliff:g>%1$d</xliff:g> ланцюжки</item>
+    <item quantity="other">Перемістити <xliff:g>%1$d</xliff:g> ланцюжків</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g>, тема: <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g>, тема: <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> о <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">бесіду прочитано</string>
@@ -136,6 +141,21 @@
   <string name="me_object_pronun">я</string>
   <string name="me_subject_pronun">я</string>
   <string name="inbox_folders_heading">Вхідні</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Видалити цей ланцюжок?</item>
+    <item quantity="few">Видалити <xliff:g id="count">%1$d</xliff:g> ланцюжки?</item>
+    <item quantity="other">Видалити <xliff:g id="count">%1$d</xliff:g> ланцюжків?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Архівувати ці ланцюжки?</item>
+    <item quantity="few">Архівувати <xliff:g id="count">%1$d</xliff:g> ланцюжки?</item>
+    <item quantity="other">Архівувати <xliff:g id="count">%1$d</xliff:g> ланцюжків?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Видалити чернетки з цих ланцюжків?</item>
+    <item quantity="few">Видалити <xliff:g id="count">%1$d</xliff:g> чернетки з цих ланцюжків?</item>
+    <item quantity="other">Видалити <xliff:g id="count">%1$d</xliff:g> чернеток з цих ланцюжків?</item>
+  </plurals>
   <string name="confirm_discard_text">Відхилити це повідомлення?</string>
   <string name="loading_conversations">Завантаження…</string>
   <string name="undo">Відмінити</string>

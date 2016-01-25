@@ -140,6 +140,7 @@
   <string name="promo_code_dialog_message">Ați deblocat cu succes <xliff:g id="features">%s</xliff:g></string>
   <string name="promo_code_dialog_generic_success_msg">Cod promoțional aplicat cu succes</string>
   <string name="promo_code_progress_dialog_validating">Validare cod promoțional</string>
+  <string name="rage_shake_title">Agitare detectată</string>
   <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
   <string name="new_button">Nou</string>
@@ -164,5 +165,7 @@
   <string name="remove_availability">Elimină disponibilitatea</string>
   <string name="busy">Ocupat</string>
   <string name="available">Disponibil</string>
+  <string name="meeting_invitation">Rezumat invitație:</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALAȚI</string>
+  <string name="calendar_feature_dialog_negative_btn">NU ACUM</string>
 </resources>

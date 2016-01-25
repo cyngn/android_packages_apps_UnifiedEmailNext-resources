@@ -56,6 +56,8 @@
   <string name="accounts_heading">الحسابات</string>
   <string name="vendor_signature">أرسلت من هاتف Cyanogen</string>
   <string name="vendor_signature_fmt">أرسلت من <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <string name="blu_signature">تم الإرسال من هاتف BLU- بريد BLU مزود بالطاقة بواسطة Boxer</string>
+  <string name="vendor_signature_o2">تم الإرسال من Cyanogen على O2</string>
   <string name="notification_action_mark_read">قراءة</string>
   <string name="notification_action_reply">رد</string>
   <string name="notification_action_delete">حذف</string>
@@ -206,4 +208,17 @@
   <string name="times_that_work_for_me">الأوقات التي تناسبني:</string>
   <string name="availability_by">أوقات تواجد</string>
   <string name="remove_availability">حذف التواجد</string>
+  <string name="event_over">Event over</string>
+  <string name="busy">مشغول</string>
+  <string name="available">متاح</string>
+  <string name="meeting_invitation">ملخص الدعوة:</string>
+  <string name="invitation_by">دعوة من قبل</string>
+  <string name="remove_invite">إزالة الدعوة</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> حصول إعجاب لرسالتك من قبل &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">عدم العثور على متجر تطبيقات ملائم</string>
+  <string name="calendar_feature_dialog_title">تنزيل تقويم Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer يقدم مزايا تقويم تعمل بشكل حصري مع تقويم Boxer. لتمكين هذه الميزة، قم بتنزيل أحدث إصدار من تقويم Boxer اليوم (مجاناً)</string>
+  <string name="calendar_feature_dialog_positive_btn">تثبيت</string>
+  <string name="calendar_feature_dialog_negative_btn">ليس الآن</string>
+  <string name="undisclosed_recipients">مستلمين غير منشورين</string>
 </resources>

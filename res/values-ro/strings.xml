@@ -131,6 +131,11 @@
   <string name="unread_string">conversație necitită</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>] <xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Ciornă</item>
+    <item quantity="few">Ciorne</item>
+    <item quantity="other">Ciorne</item>
+  </plurals>
   <string name="sending">Se trimite\u2026</string>
   <string name="send_failed">Mesaj netrimis.</string>
   <string name="me_object_pronun">eu</string>

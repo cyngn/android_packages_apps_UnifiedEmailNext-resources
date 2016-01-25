@@ -90,7 +90,7 @@
   <string name="kilobytes"><xliff:g id="count">%s</xliff:g> kB</string>
   <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
   <string name="attachment_image">Slika</string>
-  <string name="attachment_video">Video</string>
+  <string name="attachment_video">Videopos.</string>
   <string name="attachment_audio">Zvok</string>
   <string name="attachment_text">Besedilo</string>
   <string name="attachment_application_msword">Dokument</string>
@@ -103,7 +103,7 @@
   <string name="cancel_attachment">Prekliči</string>
   <string name="download_again">Znova prenesi</string>
   <string name="more_info_attachment">Informacije</string>
-  <string name="no_application_found">Priloge si ni mogoče ogledati z nobenim programom.</string>
+  <string name="no_application_found">Priloge si ni mogoče ogledati z nobeno aplikacijo.</string>
   <string name="fetching_attachment">Prenos priloge</string>
   <string name="please_wait">Počakajte …</string>
   <string name="saved">Shranjeno, <xliff:g id="SIZE">%s</xliff:g></string>
@@ -395,7 +395,7 @@
   <string name="account_settings_param">Nastavitve računa</string>
   <string name="unsent_messages_in_outbox">Št. neposlanih sporočil v <xliff:g id="OUTBOX">%2$s</xliff:g>: <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <string name="turn_auto_sync_on_dialog_title">Želite vklopiti samodejno sinhronizacijo?</string>
-  <string name="turn_auto_sync_on_dialog_body">Spremembe vseh programov in računov, ne samo za Gmail, bodo sinhronizirane med spletom, vašimi drugimi napravami in vašo <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
+  <string name="turn_auto_sync_on_dialog_body">Spremembe vseh aplikacij in računov, ne samo za Gmaila, bodo sinhronizirane med spletom, vašimi drugimi napravami in napravo <xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g>.</string>
   <string name="phone">telefon</string>
   <string name="tablet">tablični računalnik</string>
   <string name="turn_auto_sync_on_dialog_confirm_btn">Vklopi</string>

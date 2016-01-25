@@ -23,11 +23,15 @@
   <string name="support">Soporte</string>
   <string name="delete_account_title">Eliminar conta</string>
   <string name="delete_account_summary">Eliminar esta conta e todos os axustes e datos</string>
+  <string name="delete_account_confirmation_msg">Vanse borrar todas as configuracións e correos electrónicos da conta <xliff:g id="account">%s</xliff:g>. Esta operación non se pode desfacer.\n\nQuere continuar?</string>
+  <string name="deleting_account_msg">Eliminando a conta\u2026</string>
   <string name="delete_account_failed">Non se puido eliminar a conta</string>
   <string name="open_attachment">Abrir</string>
   <string name="install_attachment">Instalar</string>
   <string name="menu_photo_print">Imprimir</string>
   <string name="contextmenu_view_image">Ver imaxe</string>
+  <string name="reported_as_spam">Declarado como correo lixo</string>
+  <string name="new_incoming_messages_one">Amosar nova mensaxe de <xliff:g id="sender">%s</xliff:g>.</string>
   <string name="edit">Editar</string>
   <string-array name="moveto_folder_sections">
     <item>Smart Folders</item>
