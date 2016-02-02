@@ -16,7 +16,9 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="mailbox_list_account_selector_combined_view">Комбинирана</string>
   <string name="menu_select_all">Избери всички</string>
+  <string name="menu_actiongrid">Секция за действие</string>
   <string name="remove_account">Премахване на акаунт</string>
   <string name="support">Поддръжка</string>
   <string name="delete_account_title">Изтриване на акаунт</string>
@@ -37,6 +39,11 @@
     <item quantity="other">&lt; b &gt; <xliff:g id="count"> %1$d </xliff:g> &lt; /b &gt; маркирани като задание.</item>
   </plurals>
   <string name="reported_as_spam">Добавен като спам</string>
+  <string name="new_incoming_messages_one">Покажи новото съобщение от <xliff:g id="sender">%s </xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Покажи <xliff:g id="count">%1$d </xliff:g> ново съобщение.</item>
+    <item quantity="other">Покажи <xliff:g id="count">%1$d </xliff:g> нови съобщения.</item>
+  </plurals>
   <string name="edit">Редактиране</string>
   <string name="folder_search_hint">Търсене</string>
   <string-array name="moveto_folder_sections">
@@ -48,11 +55,185 @@
     <item>Всички етикети</item>
   </string-array>
   <string name="boxes_heading">Кутии</string>
+  <string name="all_folders_heading">Папки</string>
   <string name="accounts_heading">Акаунти</string>
+  <string name="vendor_signature">Изпратено от моя телефон с Cyanogen</string>
+  <string name="vendor_signature_fmt">Изпратено от <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <string name="blu_signature">Изпратено от моя телефон BLU — Поща BLU, осигурена от Boxer</string>
+  <string name="vendor_signature_o2">Изпратено от Cyanogen на O2</string>
+  <string name="notification_action_mark_read">ПРОЧЕТИ</string>
+  <string name="notification_action_reply">ОТГОВОРИ</string>
+  <string name="notification_action_delete">ИЗТРИЙ</string>
+  <plurals name="new_messages">
+    <item quantity="one">Покажи <xliff:g id="count">%1$d </xliff:g> ново съобщение</item>
+    <item quantity="other">Покажи <xliff:g id="count">%1$d </xliff:g> нови съобщения</item>
+  </plurals>
+  <string name="preferences_swipe_actions_title">Действия за плъзване</string>
+  <string name="preferences_swipe_actions_summary">Персонализиране на действията за леви и десни плъзвания</string>
+  <string name="preferences_swipe_left_short_title">Кратко плъзване наляво</string>
+  <string name="preferences_swipe_left_long_title">Дълго плъзване наляво</string>
+  <string name="preferences_swipe_right_short_title">Късо плъзване надясно</string>
+  <string name="preferences_swipe_right_long_title">Дълго плъзване надясно</string>
   <string name="print">Принтирай</string>
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> съобщение</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> съобщения</item>
+  </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s </xliff:g> в <xliff:g id="time">%2$s </xliff:g></string>
+  <string name="draft_to_heading">Чернова за: \u0020</string>
+  <string name="draft_heading">Чернова</string>
+  <string name="quoted_text_hidden_print">Скрий цитирания текст</string>
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> има прикрепен файл</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> има прикрепени файлове</item>
+  </plurals>
+  <string name="no_subject">(без заглавие)</string>
+  <string name="action_grid_select_quick_response">Изберете бърз отговор</string>
   <string name="action_grid_todo_dialog_title">Подробности</string>
   <string name="action_grid_set_due_date">Задайте крайната дата</string>
   <string name="action_grid_due">Поради: <xliff:g id="datestring"> %s </xliff:g></string>
   <string name="action_grid_add_priority">Добавяне на приоритет</string>
   <string name="action_grid_priority">Приоритет: </string>
+  <string name="action_grid_add_assignee">Добави изпълнител</string>
+  <string name="action_grid_assignee">Изпълнител: \u0020</string>
+  <string name="action_grid_due_date_dialog_title">Задайте крайната дата</string>
+  <string name="action_grid_due_date_today">Днес</string>
+  <string name="action_grid_due_date_tomorrow">Утре</string>
+  <string name="action_grid_due_date_this_week">Тази седмица</string>
+  <string name="action_grid_due_date_next_week">Следващата седмица</string>
+  <string name="action_grid_due_date_specific_date">Конкретна дата</string>
+  <string name="action_grid_calendar_picker_dialog_title">Задайте крайната дата</string>
+  <string name="action_grid_priority_dialog_title">Добавяне на приоритет</string>
+  <string name="action_grid_priority_highest">Най-висок приоритет</string>
+  <string name="action_grid_priority_high">Висок приоритет</string>
+  <string name="action_grid_priority_normal">Нормален приоритет</string>
+  <string name="action_grid_priority_low">Нисък приоритет</string>
+  <string name="action_grid_priority_lowest">Най-нисък приоритет</string>
+  <string name="action_grid_assignee_dialog_title">Добави изпълнител</string>
+  <string name="action_grid_assignee_select_from_contacts">Изберете от контактите</string>
+  <string name="action_grid_assignee_search_for_contact">Търсене на контакт</string>
+  <string name="action_grid_assignee_button_bar_clear">Изчистване</string>
+  <string name="action_message_header_delete">Да изтрия ли това съобщение?</string>
+  <string name="action_like">Харесва ми</string>
+  <string name="action_todo">Да се направи</string>
+  <string name="action_quick">Бърз</string>
+  <string name="action_move">Премести</string>
+  <string name="action_label">Етикет</string>
+  <string name="action_move_or_label">Преместване/етикет</string>
+  <string name="action_archive">Архив</string>
+  <string name="action_delete">Изтрий</string>
+  <string name="action_spam">Спам</string>
+  <string name="action_flag">Маркиран</string>
+  <string name="action_clear_flag">Премахни от маркирани</string>
+  <string name="action_star">Предпочитан</string>
+  <string name="action_clear_star">Премахни от предпочитани</string>
+  <string name="action_star_or_flag">Предпочитан или маркиран</string>
+  <string name="action_mark_unread">Отбележи като непрочетено</string>
+  <string name="action_mark_read">Отбележи като прочетено</string>
+  <string name="action_read_or_unread">Четенен или непрочетен</string>
+  <string name="action_actions">Действия</string>
+  <string name="marked_evernote">Изпратен към Evernote</string>
+  <string name="marked_liked">Маркирано като харесва ми</string>
+  <string name="marked_archived">Маркирани за Архива</string>
+  <string name="marked_deleted">Маркирани за изтриване</string>
+  <string name="marked_spam">Премести в спам</string>
+  <string name="marked_todo">Маркирано като задача</string>
+  <string name="marked_done">Маркирано като готово</string>
+  <plurals name="quick_response_sent">
+    <item quantity="one">Изпратен отговор</item>
+    <item quantity="other">Изпратени отговори</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Съобщението е харесано</item>
+    <item quantity="other">Съобщенията са харесани</item>
+  </plurals>
+  <string name="invalid_selection">Невалиден избор</string>
+  <string name="file_action_more_than_one_account">Избрали сте разговори от повече от един акаунт. Опитайте да изберете разговори от само един акаунт.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote поддържа само един разговор в даден момент. Опитайте да изберете само един разговор.</string>
+  <string name="not_installed">Не е инсталиран</string>
+  <string name="evernote_not_installed">Evernote не изглежда да е инсталиран. Моля инсталирайте за да използвате тази функционалност.</string>
+  <string name="custom_mailbox_button">Добавяне на персонализирана кутия</string>
+  <string name="custom_mailbox_settings_label">Настройки</string>
+  <string name="custom_mailbox_folder_name_hint">Име на персонализираната кутия</string>
+  <string name="custom_mailbox_background_sync_label">Синхронизиране на заден план</string>
+  <string name="custom_mailbox_background_sync_switch_on">Вкл.</string>
+  <string name="custom_mailbox_background_sync_switch_off">Изкл.</string>
+  <string name="custom_mailbox_delete_box">Изтриване на кутията</string>
+  <string name="custom_mailbox_error_no_selected_folders">Моля изберете поне една папка от списъка по-долу</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Внимание</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Наистина ли искате да изтриете тази персонализирана кутия?</string>
+  <string name="custom_mailbox_error_deleting_box">Възникна грешка при изтриването на персонализираната пощенска кутия</string>
+  <string name="viral_prompt_rate_app_title">Оцени тава приложение</string>
+  <string name="viral_prompt_rate_app_body">Ако обичате да използвате това приложение, бихте ли, че отделили момент да го оцените? Той няма да отнеме повече от една минута. Благодаря за вашата подкрепа!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Напомни ми по-късно</string>
+  <string name="viral_ratings_prompt_no_thanks">Не, благодаря</string>
+  <string name="viral_ratings_prompt_rate_now">Оцени сега</string>
+  <string name="promo_code_title_text">Не се бори сам с пощата си</string>
+  <string name="promo_code_edittext_hint">Въведете промо код</string>
+  <string name="promo_code_button_text">Подайте</string>
+  <string name="promo_code_error_no_code_entered">Моля, въведете промо кода преди да натиснете Подайте</string>
+  <string name="promo_code_error_invalid_code">Невалиден промо код</string>
+  <string name="promo_code_dialog_title">Функциите са отключени</string>
+  <string name="promo_code_dialog_message">Вие успешно отключихте <xliff:g id="features">%s </xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Промо кода е успешно приложен</string>
+  <string name="promo_code_progress_dialog_validating">Потвърждаване на промо кода</string>
+  <string name="rage_shake_title">Разклащането е открито</string>
+  <string name="rage_shake_message">Бихте ли искали за срива на приложението да подадете информация за грешка?</string>
+  <string name="actions_dialog_title">Персонализиране</string>
+  <string name="actions_dialog_message">Използвате ли папки редовно? Маркирате ли често спам? Обичате ли клипове от Evernote? \n\nС персонализиране на плъзващите жестове, вие можете да настроите всеки един от тези жестове, за вашия начин на работа. \n</string>
+  <string name="actions_dialog_positive_button_text">Персонализиране на плъзващите жестове</string>
+  <string name="actions_dialog_negative_button_text">Затвори</string>
+  <string name="account_setup_start_company_slogan_text">Добре дошли в една по-добра входяща кутия</string>
+  <string name="account_setup_vendor_heading">Добре дошли в Имейл</string>
+  <string name="like_action_dialog_tittle">Харесва ли ви?</string>
+  <string name="like_action_dialog_message">Открихте нашата любима функция. Когато „харесате“ съобщение, до подателя и другите получатели ще бъде изпратено писмо, което да ги уведоми за това. Това е най-бързият начин да се отговори на електронната поща.</string>
+  <string name="new_button">Нов</string>
+  <string name="folder_name_hint">Име на папката</string>
+  <string name="create_folder_progess">Създаване на папка\u2026</string>
+  <string name="duplicate_folder_title">Дублиращо се име</string>
+  <string name="duplicate_folder_message">Името на папката, което въведохте вече съществува.</string>
+  <string name="error">Грешка</string>
+  <string name="error_creating_folder_message">Неуспешно създаване на папка.</string>
+  <string name="report_rendering_problem">Докладване</string>
+  <string name="message_reported">Съобщението е докладвано</string>
+  <string name="no_conversation_needs_sync">Тук няма писма.\nПлъзнете от горе надолу, за да се обнови</string>
+  <string name="getting_messages">Получаване на съобщения</string>
+  <string name="empty_folder">Тук няма писма.</string>
+  <string name="empty_inbox">Всичко е готово! Моля Наслаждавайте се на деня си.</string>
+  <string name="empty_search">За съжаление! Не намерихме нищо за \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
+  <string name="empty_spam_folder">Отлично, тук няма спам!</string>
+  <string name="empty_trash_folder">Кошчето е празно. Благодаря за рециклирането!</string>
+  <string name="view_on_calendar">Преглед на календара</string>
+  <string name="accept">Приемам</string>
+  <string name="maybe">Може би</string>
+  <string name="decline">Отхвърли</string>
+  <string name="remove_from_cal">Премахни от календара</string>
+  <string name="remove_series_from_cal">Премахване на серия от календара</string>
+  <string name="calendar_attendees_me_only">Мен</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Аз &amp; %d друг</item>
+    <item quantity="other">Аз &amp; %d други</item>
+  </plurals>
+  <string name="all_day">Цял ден</string>
+  <string name="canceled">Отменена</string>
+  <string name="times_that_work_for_me">Пъти работило за мен:</string>
+  <string name="availability_by">Наличност по</string>
+  <string name="remove_availability">Премахване на наличност</string>
+  <string name="event_over">Събитието над</string>
+  <string name="busy">Зает</string>
+  <string name="available">Достъпен</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d конфликт</item>
+    <item quantity="other">%d конфликти</item>
+  </plurals>
+  <string name="meeting_invitation">Покана резюме:</string>
+  <string name="invitation_by">Покана от</string>
+  <string name="remove_invite">Премахване на покана</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s </xliff:g> хареса вашето съобщение с &lt; a href = \"%s\" &gt; Кутия на Cyanogen OS&lt; /a &gt;.</string>
+  <string name="error_no_app_store">Няма намерено подходящо приложение</string>
+  <string name="calendar_feature_dialog_title">Изтеглете календар Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer ви предлага функции работещи само с календара на Boxer. За тяхното активиране изтеглете последната версия на календара Boxer (БЕЗПЛАТНО)</string>
+  <string name="calendar_feature_dialog_positive_btn">ИНСТАЛИРАНЕ</string>
+  <string name="calendar_feature_dialog_negative_btn">НЕ СЕГА</string>
+  <string name="undisclosed_recipients">Неразкрита получателите</string>
 </resources>

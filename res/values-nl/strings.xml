@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Ontvangersdetails samenvouwen</string>
   <string name="contact_info_string">Contactgegevens weergeven voor <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Contactgegevens weergeven</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> oudere berichten</item>
+    <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> oudere berichten</item>
+  </plurals>
   <string name="from_heading">Van: </string>
   <string name="replyto_heading">Antwoord: </string>
   <string name="to_heading">Aan: </string>

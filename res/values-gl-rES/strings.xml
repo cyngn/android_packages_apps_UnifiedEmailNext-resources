@@ -71,6 +71,56 @@
   <string name="menu_compose">Escribir</string>
   <string name="menu_change_folders">Mudar cartafoles</string>
   <string name="menu_move_to">Mover a</string>
+  <string name="menu_move_to_inbox">Mover á caixa de entrada</string>
+  <string name="menu_manage_folders">Configuración dos cartafoles</string>
+  <string name="menu_show_original">Desfacer tamaño automático</string>
+  <string name="menu_folder_options">Configuración dos cartafoles</string>
+  <string name="menu_settings">Axustes</string>
+  <string name="menu_search">Buscar</string>
+  <string name="mark_important">Marcar como importante</string>
+  <string name="mark_not_important">Marcar como non importante</string>
+  <string name="add_cc_label">Engadir copia/copia oculta</string>
+  <string name="add_bcc_label">Engadir copia oculta</string>
+  <string name="feedback">Enviar comentario</string>
+  <string name="help_and_info">Axuda</string>
+  <string name="quoted_text">Incluír texto citado</string>
+  <string name="quoted_text_label">Citar texto</string>
+  <string name="respond_inline">Responder entre liñas</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
+  <string name="attachment_image">Imaxe</string>
+  <string name="attachment_video">Vídeo</string>
+  <string name="attachment_audio">Son</string>
+  <string name="attachment_text">Texto</string>
+  <string name="attachment_application_msword">Documento</string>
+  <string name="attachment_application_vnd_ms_powerpoint">Presentación</string>
+  <string name="attachment_application_vnd_ms_excel">Folla de cálculo</string>
+  <string name="attachment_application_pdf">PDF</string>
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g> Ficheiro</string>
+  <string name="preview_attachment">Visualización</string>
+  <string name="save_attachment">Gardar</string>
+  <string name="cancel_attachment">Anular</string>
+  <string name="download_again">Descargar de novo</string>
+  <string name="more_info_attachment">Información</string>
+  <string name="no_application_found">Ningunha aplicación pode abrir este anexo para visualizalo.</string>
+  <string name="fetching_attachment">Obtendo o anexo</string>
+  <string name="please_wait">Agarde\u2026</string>
+  <string name="saved">Gardado, <xliff:g id="size">%s</xliff:g></string>
+  <string name="download_failed">Non se puido descargar. Toque para tentar de novo.</string>
+  <string name="attachments_header">Anexos</string>
+  <string name="menu_photo_save_all">Gardar todo</string>
+  <string name="menu_photo_share">Compartir</string>
+  <string name="menu_photo_share_all">Compartir todo</string>
+  <string name="saving">Gardando&#8230;</string>
+  <string name="choosertitle_sharevia">Compartir por</string>
+  <string name="contextmenu_openlink">Abrir no navegador</string>
+  <string name="contextmenu_copy">Copiar</string>
+  <string name="contextmenu_copylink">Copiar ligazón URL</string>
+  <string name="contextmenu_dial_dot">Marcar\u2026</string>
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
+  <string name="contextmenu_add_contact">Engadir contacto</string>
+  <string name="contextmenu_send_mail">Enviar correo electrónico</string>
   <string name="contextmenu_map">Mapa</string>
   <string name="contextmenu_sharelink">Compartir ligazón</string>
   <string name="contextmenu_help">Axuda</string>
@@ -166,6 +216,61 @@
   <string name="to_heading">Para:\u0020</string>
   <string name="cc_heading">Copia:\u0020</string>
   <string name="bcc_heading">Copia oculta:\u0020</string>
+  <string name="date_heading">Data:\u0020</string>
+  <string name="show_images">Amosar imaxes</string>
+  <string name="always_show_images">Amosar sempre as imaxes deste remitente</string>
+  <string name="always_show_images_toast">Amosaranse automaticamente as imaxes deste remitente.</string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> via <xliff:g id="via_domain">%3$s</xliff:g></string>
+  <string name="message_saved">Mensaxe gardada como borrador.</string>
+  <string name="sending_message">Enviando mensaxe\u2026</string>
+  <string name="invalid_recipient">O enderezo <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> non é correcto.</string>
+  <string name="show_elided">\u25B6 Amosar o texto citado</string>
+  <string name="hide_elided">\u25BC Agochar o texto citado</string>
+  <string name="message_invite_title">Invitación de calendario</string>
+  <string name="message_invite_calendar_view">Ver no calendario</string>
+  <string name="message_invite_label_attending">Asistirá?</string>
+  <string name="message_invite_accept">Si</string>
+  <string name="message_invite_tentative">Quizais</string>
+  <string name="message_invite_decline">Non</string>
+  <string name="enumeration_comma">,\u0020</string>
+  <string name="yes">Si</string>
+  <string name="no">Non</string>
+  <string name="ok">Aceptar</string>
+  <string name="done">Feito</string>
+  <string name="cancel">Anular</string>
+  <string name="clear">Despexado</string>
+  <string-array name="sync_status">
+    <item>Listo</item>
+    <item>Sen conexión.</item>
+    <item>Non se puido iniciar sesión.</item>
+    <item>Erro de seguranza.</item>
+    <item>Non se puido sincronizar.</item>
+    <item>Error interno</item>
+  </string-array>
+  <string name="tap_to_configure">Tocar para configurar</string>
+  <string name="non_synced_folder_description">Sincroniza este cartafol para ver as conversas.</string>
+  <string name="tap_to_configure_folder_sync">Sincronizar o cartafol</string>
+  <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> non lido</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> non lidos</item>
+  </plurals>
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ sen ler</string>
+  <string name="view_more_conversations">Ver máis conversas</string>
+  <string name="activity_mailbox_selection">Escoller conta</string>
+  <string name="activity_folder_selection">Escoller cartafol</string>
+  <string name="folder_shortcut_widget_label">Cartafol do correo electrónico</string>
+  <string name="change_folders_selection_dialog_title">Cambiar os cartafoles</string>
+  <string name="move_to_selection_dialog_title">Mover a</string>
+  <string name="search_hint">Buscar correo electrónico</string>
+  <string name="network_error">Sen conexión</string>
+  <string name="retry">Tentar de novo</string>
+  <string name="load_more">Cargar máis</string>
+  <string name="shortcut_name_title">Introduza un nome para o atallo do cartafol</string>
+  <string name="wait_for_sync_title">Agardando para sincronizar</string>
+  <string name="wait_for_sync_body">O seu correo aparecerá de contado.</string>
+  <string name="not_synced_title">Conta non sincronizada</string>
   <string name="wait_for_manual_sync_body">Esta conta non está configurada para sincronizarse automaticamente.\nToque<b>Sincronizar agora</b> para sincronizar o correo unha vez, ou <b>Cambiar axustes de sincronización</b> para facer que esta conta sincronice o correo automaticamente.</string>
   <string name="manual_sync">Sincronizar agora</string>
   <string name="change_sync_settings">Cambiar a configuración de sincronización</string>
@@ -225,4 +330,42 @@
     <item>Amosar só eliminar</item>
     <item>Amosar arquivar e eliminar</item>
   </string-array>
+  <string name="prefDialogTitle_removal_action">Arquivar e eliminar</string>
+  <string name="preferences_default_reply_all_title">Respostar a todos</string>
+  <string name="preferences_default_reply_all_summary">Usar como resposta predeterminada para as mensaxes</string>
+  <string name="preference_swipe_title_archive">Esvarar para arquivar</string>
+  <string name="preference_swipe_title_delete">Esvarar para eliminar</string>
+  <string name="preference_swipe_description">Na listaxe de conversas</string>
+  <string name="swipe_down_to_refresh">Desprazar cara abaixo para actualizar</string>
+  <string name="checking_for_mail">Comprobando se hai correo</string>
+  <string name="empty_trash">Baleirar o lixo</string>
+  <string name="empty_spam">Baleirar correo non desexado</string>
+  <string name="empty_trash_dialog_title">Baleirar o lixo?</string>
+  <string name="empty_spam_dialog_title">Baleirar correo non desexado?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one">Vaise eliminar de forma permanente <xliff:g id="count">%1$d</xliff:g> mensaxe.</item>
+    <item quantity="other">Vaise eliminar de forma permanente <xliff:g id="count">%1$d</xliff:g> mensaxes.</item>
+  </plurals>
+  <string name="drawer_open">Abrir o panel de navegación</string>
+  <string name="drawer_close">Pechar o panel de navegación</string>
+  <string name="conversation_photo_welcome_text">Toca a imaxe dun remitente para seleccionar esa conversa.</string>
+  <string name="long_press_to_select_tip">Mantén tocada unha conversa para seleccionala e, a continuación, toca outras para seleccionalas.</string>
+  <string name="folder_icon_desc">Icona do cartafol</string>
+  <string name="add_account">Engadir conta</string>
+  <string name="attached_message">Mensaxe anexa</string>
+  <string name="date_message_received_yesterday">Onte, <xliff:g id="datetime">%1$s</xliff:g></string>
+  <string name="dismiss_tip_hover_text">Ignorar suxestión</string>
+  <string name="auto_sync_off">A sincronización automática está desactivada.</string>
+  <string name="tap_to_enable_sync">Toque para activar.</string>
+  <string name="account_sync_off">A sincronización de contas está desactivada.</string>
+  <string name="enable_sync_in_account_settings">Activar en <xliff:g id="account_settings">%1$s</xliff:g>.</string>
+  <string name="account_settings_param">Configuración da conta</string>
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%1$s</xliff:g> sen enviar <xliff:g id="outbox">%2$s</xliff:g></string>
+  <string name="turn_auto_sync_on_dialog_title">Quere activar a sincronización automática?</string>
+  <string name="turn_auto_sync_on_dialog_body">Os cambios que realice en todas as aplicacións e contas, non só en Gmail, vanse sincronizar coa Web, os seus demais dispositivos e o seu/a súa <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
+  <string name="phone">móbil</string>
+  <string name="tablet">tableta</string>
+  <string name="turn_auto_sync_on_dialog_confirm_btn">Activada</string>
+  <string name="show_n_more_folders">Amosar <xliff:g id="number">%1$s</xliff:g> cartafoles máis</string>
+  <string name="hide_folders">Agochar cartafoles</string>
 </resources>

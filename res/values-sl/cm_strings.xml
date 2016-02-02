@@ -179,8 +179,8 @@
   <string name="custom_mailbox_delete_box_dialog_title">Opozorilo</string>
   <string name="custom_mailbox_delete_box_dialog_message">Ali res želite izbrisati to polje po meri?</string>
   <string name="custom_mailbox_error_deleting_box">Pri brisanju nabiralnika po meri se je pojavila napaka</string>
-  <string name="viral_prompt_rate_app_title">Oceni ta program</string>
-  <string name="viral_prompt_rate_app_body">Če vam je ta program všeč, si vzemite trenutek, da jo ocenite. Ne bo trajalo več kot minuto. Hvala za vašo podporo!</string>
+  <string name="viral_prompt_rate_app_title">Oceni to aplikacijo</string>
+  <string name="viral_prompt_rate_app_body">Če vam je ta aplikacija všeč, si vzemite trenutek, da jo ocenite. Ne bo trajalo več kot minuto. Hvala za vašo podporo!</string>
   <string name="viral_ratings_prompt_remind_me_later">Opomni me kasneje</string>
   <string name="viral_ratings_prompt_no_thanks">Ne, hvala</string>
   <string name="viral_ratings_prompt_rate_now">Oceni zdaj</string>
@@ -194,7 +194,7 @@
   <string name="promo_code_dialog_generic_success_msg">Promocijska koda uspešno uveljavljena</string>
   <string name="promo_code_progress_dialog_validating">Preverjanje veljavnosti promocijske kode</string>
   <string name="rage_shake_title">Zaznano tresenje</string>
-  <string name="rage_shake_message">Ali bi radi sesuli program, da pošljete podatke o hrošču?</string>
+  <string name="rage_shake_message">Ali bi radi sesuli aplikacijo, da pošljete podatke o hrošču?</string>
   <string name="actions_dialog_title">Prilagodi</string>
   <string name="actions_dialog_message">Ali redno uporabljate mape? Sporočila pogosto označite kot neželena? Vam je všeč pošiljanje odrezkov na Evernote?\n\nS prilagojenimi dejanji potegov lahko te poteze nastavite, da ustrezajo vašemu poteku dela.\n</string>
   <string name="actions_dialog_positive_button_text">Prilagodi potege</string>
@@ -250,7 +250,7 @@
   <string name="invitation_by">Povabil vas je</string>
   <string name="remove_invite">Odstrani povabilo</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> je bilo vaše sporočilo z &lt;a href=\"%s\"&gt;Boxerjem na OS-u Cyanogen&lt;/a&gt; všeč.</string>
-  <string name="error_no_app_store">Nobene primerne trgovine programov ni bilo najdene</string>
+  <string name="error_no_app_store">Nobene primerne trgovine aplikacij ni bilo najdene</string>
   <string name="calendar_feature_dialog_title">Prejmi Koledar Boxer</string>
   <string name="calendar_feature_dialog_msg">Boxer ponuja značilnosti koledarja, ki delujejo izključno s Koledarjem Boxer. Da to značilnost omogočite, prejmite najnovejšo različico Koledarja Boxer še danes (BREZPLAČNO)</string>
   <string name="calendar_feature_dialog_positive_btn">NAMESTI</string>

@@ -29,7 +29,7 @@
   <string name="discard">Renunţaţi</string>
   <string name="compose">Scrieţi</string>
   <string-array name="compose_modes">
-    <item>Răspundeţi</item>
+    <item>Răspuns</item>
     <item>Răsp. tuturor</item>
     <item>Redirecţionaţi</item>
   </string-array>
@@ -64,7 +64,7 @@
   <string name="delete">Ștergeți</string>
   <string name="discard_drafts">Ștergeți mesajele nefinalizate</string>
   <string name="refresh">Actualizaţi</string>
-  <string name="reply">Răspundeţi</string>
+  <string name="reply">Răspundeți</string>
   <string name="reply_all">Răs. tuturor</string>
   <string name="resume_draft">Editare</string>
   <string name="forward">Redirecţionaţi</string>
