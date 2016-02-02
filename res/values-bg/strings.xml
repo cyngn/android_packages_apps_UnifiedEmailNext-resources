@@ -17,6 +17,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="from">От</string>
   <string name="to">До</string>
   <string name="cc">Як</string>
   <string name="bcc">Ск</string>
@@ -206,6 +207,10 @@
   <string name="collapse_recipient_details">Свиване на подробностите за получателя</string>
   <string name="contact_info_string">Показване на информацията за връзка със: <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Показване на информацията за връзка</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d </xliff:g> старo съобщениe</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d </xliff:g> стари съобщения</item>
+  </plurals>
   <string name="from_heading">От: </string>
   <string name="replyto_heading">Отговор до: </string>
   <string name="to_heading">До: </string>
@@ -247,6 +252,10 @@
   <string name="non_synced_folder_description">За да видите кореспонденциите, синхронизирайте тази папка.</string>
   <string name="tap_to_configure_folder_sync">Синхронизиране на папката</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d </xliff:g> непрочетенo</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d </xliff:g> непрочетени</item>
+  </plurals>
   <string name="actionbar_large_unread_count">над <xliff:g id="COUNT">%1$d</xliff:g> непрочетени</string>
   <string name="view_more_conversations">Преглед на още кореспонденции</string>
   <string name="activity_mailbox_selection">Изберете профил</string>
@@ -323,10 +332,10 @@
   <string name="prefDialogTitle_removal_action">Действия за архивиране и изтриване</string>
   <string name="preferences_default_reply_all_title">Отговор до всички</string>
   <string name="preferences_default_reply_all_summary">Използване като стандартна опция при отговор на съобщения</string>
-  <string name="preference_swipe_title_archive">Прекарайте пръст, за да архивирате</string>
-  <string name="preference_swipe_title_delete">Прекарайте пръст, за да изтриете</string>
+  <string name="preference_swipe_title_archive">Плъзнете за да архивирате</string>
+  <string name="preference_swipe_title_delete">Плъзнете за да изтриете</string>
   <string name="preference_swipe_description">В списък с кореспонденции</string>
-  <string name="swipe_down_to_refresh">Прекарайте пръст надолу, за да опресните</string>
+  <string name="swipe_down_to_refresh">Плъзнете надолу за да обнови</string>
   <string name="checking_for_mail">Проверява се за поща</string>
   <string name="empty_trash">Изчистване на кошчето</string>
   <string name="empty_spam">Изчистване на нежеланата поща</string>

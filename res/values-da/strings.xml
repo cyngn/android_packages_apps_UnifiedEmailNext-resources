@@ -207,6 +207,10 @@
   <string name="collapse_recipient_details">Skjul modtageroplysninger</string>
   <string name="contact_info_string">Vis kontaktoplysninger for <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Vis kontaktoplysninger</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> gammel besked</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> gamle beskeder</item>
+  </plurals>
   <string name="from_heading">Fra: </string>
   <string name="replyto_heading">Svar til: </string>
   <string name="to_heading">Til: </string>
@@ -248,6 +252,10 @@
   <string name="non_synced_folder_description">Synkroniser denne mappe for at se samtaler.</string>
   <string name="tap_to_configure_folder_sync">Synkroniser mappe</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> ulæst</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ulæste</item>
+  </plurals>
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ ulæste</string>
   <string name="view_more_conversations">Vis flere samtaler</string>
   <string name="activity_mailbox_selection">Vælg konto</string>

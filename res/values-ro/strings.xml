@@ -29,7 +29,7 @@
   <string name="discard">Renunţaţi</string>
   <string name="compose">Scrieţi</string>
   <string-array name="compose_modes">
-    <item>Răspundeţi</item>
+    <item>Răspuns</item>
     <item>Răsp. tuturor</item>
     <item>Redirecţionaţi</item>
   </string-array>
@@ -64,7 +64,7 @@
   <string name="delete">Ștergeți</string>
   <string name="discard_drafts">Ștergeți mesajele nefinalizate</string>
   <string name="refresh">Actualizaţi</string>
-  <string name="reply">Răspundeţi</string>
+  <string name="reply">Răspundeți</string>
   <string name="reply_all">Răs. tuturor</string>
   <string name="resume_draft">Editare</string>
   <string name="forward">Redirecţionaţi</string>
@@ -125,6 +125,11 @@
   <string name="contextmenu_sharelink">Distribuiţi linkul</string>
   <string name="contextmenu_help">Ajutor</string>
   <string name="contextmenu_feedback">Trimiteţi feedback</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Mutați conversația</item>
+    <item quantity="few">Mutați <xliff:g>%1$d</xliff:g> conversații</item>
+    <item quantity="other">Mutați <xliff:g>%1$d</xliff:g> conversații</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> despre <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> pe data de <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> despre <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> la ora <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">conversație citită</string>
@@ -151,9 +156,24 @@
     <item quantity="few">Arhivați aceste <xliff:g id="count">%1$d</xliff:g> (de) conversații?</item>
     <item quantity="other">Arhivați aceste <xliff:g id="count">%1$d</xliff:g> (de) conversații?</item>
   </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Renunțați la ciorne în această conversație?</item>
+    <item quantity="few">Renunțați la ciorne în aceste <xliff:g id="count">%1$d</xliff:g> conversații?</item>
+    <item quantity="other">Renunțați la ciorne în aceste <xliff:g id="count">%1$d</xliff:g> conversații?</item>
+  </plurals>
   <string name="confirm_discard_text">Renunțați la acest mesaj?</string>
   <string name="loading_conversations">Se încarcă…</string>
   <string name="undo">Anulaţi</string>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportat ca spam.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportate ca spam.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportate ca spam.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; șters.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; șterse.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; șterse.</item>
+  </plurals>
   <string name="deleted">Ștearsă</string>
   <string name="archived">Arhivată</string>
   <string name="folder_removed">Eliminat din <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
@@ -171,6 +191,11 @@
   <string name="collapse_recipient_details">Restrângeţi detaliile destinatarului</string>
   <string name="contact_info_string">Afișați informațiile de contact pentru <xliff:g id="name">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Afișați informațiile de contact</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> mesaj vechi</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> mesaje vechi</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> mesaje vechi</item>
+  </plurals>
   <string name="from_heading">De la: </string>
   <string name="replyto_heading">Răspundeți la: </string>
   <string name="to_heading">Către: </string>

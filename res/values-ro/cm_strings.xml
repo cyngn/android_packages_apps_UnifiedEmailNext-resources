@@ -28,8 +28,18 @@
   <string name="open_attachment">Deschidere</string>
   <string name="install_attachment">Instalați</string>
   <string name="menu_photo_print">Imprimare</string>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; marcată ca de-făcut.</item>
+    <item quantity="few">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; marcate ca de-făcut.</item>
+    <item quantity="other">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; marcate ca de-făcut.</item>
+  </plurals>
   <string name="reported_as_spam">Raportat ca spam</string>
   <string name="new_incoming_messages_one">Arată mesaj nou de la <xliff:g id="sender">%s</xliff:g>.</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Arată <xliff:g id="count">%1$d</xliff:g> mesaj nou.</item>
+    <item quantity="few">Arată <xliff:g id="count">%1$d</xliff:g> mesaje noi.</item>
+    <item quantity="other">Arată <xliff:g id="count">%1$d</xliff:g> mesaje noi.</item>
+  </plurals>
   <string name="edit">Editare</string>
   <string name="folder_search_hint">Căutare</string>
   <string-array name="moveto_folder_sections">
@@ -143,6 +153,7 @@
   <string name="rage_shake_title">Agitare detectată</string>
   <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
+  <string name="account_setup_vendor_heading">Bine ați venit la email</string>
   <string name="new_button">Nou</string>
   <string name="folder_name_hint">Numele de dosar</string>
   <string name="duplicate_folder_title">Nume duplicat</string>
@@ -160,11 +171,17 @@
   <string name="decline">Declin</string>
   <string name="remove_from_cal">Elimină din calendar</string>
   <string name="remove_series_from_cal">Elimină serie din calendar</string>
+  <string name="calendar_attendees_me_only">Eu</string>
   <string name="all_day">Toată ziua</string>
   <string name="canceled">Anulat</string>
   <string name="remove_availability">Elimină disponibilitatea</string>
   <string name="busy">Ocupat</string>
   <string name="available">Disponibil</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d alt conflict</item>
+    <item quantity="few">%d alte conflicte</item>
+    <item quantity="other">%d alte conflicte</item>
+  </plurals>
   <string name="meeting_invitation">Rezumat invitație:</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALAȚI</string>
   <string name="calendar_feature_dialog_negative_btn">NU ACUM</string>

@@ -125,23 +125,93 @@
   <string name="contextmenu_sharelink">Sdílet odkaz</string>
   <string name="contextmenu_help">Nápověda</string>
   <string name="contextmenu_feedback">Odeslat názor</string>
+  <plurals name="move_conversation">
+    <item quantity="one">Přesunout konverzaci</item>
+    <item quantity="few">Přesunout <xliff:g>%1$d</xliff:g> konverzace</item>
+    <item quantity="other">Přesunout <xliff:g>%1$d</xliff:g> konverzací</item>
+  </plurals>
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> – <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g>, dne <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> – <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> v <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <string name="read_string">Konverzace byla přečtena.</string>
   <string name="unread_string">Konverzace nebyla přečtena.</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Koncept</item>
+    <item quantity="few">Koncepty</item>
+    <item quantity="other">Konceptů</item>
+  </plurals>
   <string name="sending">Odesílání...</string>
   <string name="send_failed">Zpráva nebyla odeslána.</string>
   <string name="me_object_pronun">mně</string>
   <string name="me_subject_pronun">já</string>
   <string name="inbox_folders_heading">Doručená pošta</string>
+  <plurals name="confirm_delete_conversation">
+    <item quantity="one">Odstranit tuto konverzaci?</item>
+    <item quantity="few">Odstranit tyto <xliff:g id="count">%1$d</xliff:g> konverzace?</item>
+    <item quantity="other">Odstranit těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <item quantity="one">Archivovat tuto konverzaci?</item>
+    <item quantity="few">Archivovat tyto <xliff:g id="count">%1$d</xliff:g> konverzace?</item>
+    <item quantity="other">Archivovat těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <item quantity="one">Chcete zahodit koncept z této konverzace?</item>
+    <item quantity="few">Chcete zahodit koncepty z těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+    <item quantity="other">Chcete zahodit koncepty z těchto <xliff:g id="count">%1$d</xliff:g> konverzací?</item>
+  </plurals>
   <string name="confirm_discard_text">Zahodit tuto zprávu?</string>
   <string name="loading_conversations">Načítání…</string>
   <string name="undo">Vrátit zpět</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Odhvězdičkována <xliff:g id="count">%1$d</xliff:g> konverzace.</item>
+    <item quantity="few">Odhvězdičkovány <xliff:g id="count">%1$d</xliff:g> konverzace.</item>
+    <item quantity="other">Odhvězdičkováno <xliff:g id="count">%1$d</xliff:g> konverzací.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; potlačena.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; potlačeny.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; potlačených.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena jako spam.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeny jako spam.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených jako spam.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena že není spam.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeny že nejsou spam.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených že nejsou spam.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena jako nedůležitá.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeny jako nedůležité.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených jako nedůležité.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena jako phishing.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeny jako phishing.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených jako phishing.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivována.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivovány.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; archivovaných.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazána.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazány.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; smazaných.</item>
+  </plurals>
   <string name="deleted">Smazáno</string>
   <string name="archived">Archivováno</string>
   <string name="folder_removed">Odestraněno ze složky <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Složka změněna.</item>
+    <item quantity="few">Složky změněny.</item>
+    <item quantity="other">Složky změněny.</item>
+  </plurals>
   <string name="conversation_folder_moved">Přesunuto do složky <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Výsledky</string>
   <string name="search_unsupported">Vyhledávání není v tomto účtu podporováno.</string>
@@ -151,6 +221,11 @@
   <string name="collapse_recipient_details">Sbalit podrobnosti o příjemci</string>
   <string name="contact_info_string">Zobrazit kontaktní údaje uživatele <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Zobrazit kontaktní údaje</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> starší zpráva</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> starší zprávy</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> starších zpráv</item>
+  </plurals>
   <string name="from_heading">Od: </string>
   <string name="replyto_heading">Odpovědět: </string>
   <string name="to_heading">Komu: </string>
@@ -192,6 +267,11 @@
   <string name="non_synced_folder_description">Chcete-li zobrazit konverzace, synchronizujte tuto složku.</string>
   <string name="tap_to_configure_folder_sync">Synchronizovat složku</string>
   <string name="widget_large_unread_count">&gt;%d</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> nepřečtená</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d</xliff:g> nepřečtené</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> nepřečtených</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Nepřečteno: <xliff:g id="COUNT">%1$d</xliff:g>+</string>
   <string name="view_more_conversations">Zobrazit další konverzace</string>
   <string name="activity_mailbox_selection">Výběr účtu</string>
@@ -277,6 +357,11 @@
   <string name="empty_spam">Vyprázdnit složku se spamem</string>
   <string name="empty_trash_dialog_title">Chcete vysypat koš?</string>
   <string name="empty_spam_dialog_title">Chcete vyprázdnit složku se spamem?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> zpráva bude trvale smazána.</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> zprávy budou trvale smazány.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> zpráv bude trvale smazáno.</item>
+  </plurals>
   <string name="drawer_open">Otevřít navigační složku</string>
   <string name="drawer_close">Zavřít navigační složku</string>
   <string name="conversation_photo_welcome_text">Klepnutím na obrázek odesílatele vyberete příslušnou konverzaci.</string>

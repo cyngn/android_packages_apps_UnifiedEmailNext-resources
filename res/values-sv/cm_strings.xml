@@ -59,6 +59,7 @@
   <string name="accounts_heading">Konton</string>
   <string name="vendor_signature">Skickat från min Cyanogen telefon</string>
   <string name="vendor_signature_fmt">Välj från <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="vendor_signature_o2">Skickat från Cyanogen på O2</string>
   <string name="notification_action_mark_read">LÄS</string>
   <string name="notification_action_reply">SVARA</string>
   <string name="notification_action_delete">RADERA</string>
@@ -219,6 +220,15 @@
   <string name="remove_availability">Ta bort tillgänghet</string>
   <string name="busy">Upptagen</string>
   <string name="available">Tillgänglig</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d annan konflikt</item>
+    <item quantity="other">%d andra konflikter</item>
+  </plurals>
+  <string name="meeting_invitation">Sammanfattning av inbjudan:</string>
+  <string name="invitation_by">Inbjudan från</string>
+  <string name="remove_invite">Ta bort inbjudan</string>
+  <string name="error_no_app_store">Ingen lämplig Appbutik hittades</string>
+  <string name="calendar_feature_dialog_title">Hämta Boxer kalender</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLERA</string>
   <string name="calendar_feature_dialog_negative_btn">INTE NU</string>
   <string name="undisclosed_recipients">Hemlig mottagare</string>
