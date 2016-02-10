@@ -16,7 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="mailbox_list_account_selector_combined_view">Combinado</string>
+  <string name="mailbox_list_account_selector_combined_view">Combinada</string>
   <string name="menu_select_all">Selecionar tudo</string>
   <string name="menu_actiongrid">Grelha de ação</string>
   <string name="remove_account">Remover conta</string>
@@ -149,7 +149,7 @@
   </plurals>
   <string name="invalid_selection">Seleção inválida</string>
   <string name="file_action_more_than_one_account">Selecionou conversações de mais que uma conta. Tente selecionar apenas as conversações de uma conta.</string>
-  <string name="evernote_action_more_than_one_conversation">A funcionalidade do Evernote só oferece suporte a uma conversação de cada vez. Tente selecionar apenas uma conversação.</string>
+  <string name="evernote_action_more_than_one_conversation">A funcionalidade do Evernote só oferece suporte a uma conversa de cada vez. Tente selecionar apenas uma conversa.</string>
   <string name="not_installed">Não instalado</string>
   <string name="evernote_not_installed">O Evernote parece não estar instalado. Por favor instale para utilizar esta funcionalidade.</string>
   <string name="custom_mailbox_button">Adicionar caixa personalizada</string>
@@ -186,7 +186,7 @@
   <string name="account_setup_start_company_slogan_text">Bem-vindo a uma caixa de entrada melhor</string>
   <string name="account_setup_vendor_heading">Bem-vindo ao e-mail</string>
   <string name="like_action_dialog_tittle">O que é Gostar?</string>
-  <string name="like_action_dialog_message">Tu encontraste a nossa função favorita. Quando colocas \'Gostar\' numa mensagem, um e-mail será enviado ao remetente e outros destinatários dando a conhecer que tu gostaste. É a maneira mais rápida para responder a um e-mail.</string>
+  <string name="like_action_dialog_message">Encontrou a nossa função favorita. Quando \'Gostar\' de uma mensagem, será enviado um e-mail ao remetente e outros destinatários dando a conhecer que gostou. É a maneira mais rápida para responder a um e-mail.</string>
   <string name="new_button">Novo</string>
   <string name="folder_name_hint">Nome da pasta</string>
   <string name="create_folder_progess">A criar pasta\u2026</string>

@@ -27,7 +27,6 @@
   <string name="add_photo_attachment">Bild anhängen</string>
   <string name="save_draft">Entwurf speichern</string>
   <string name="discard">Löschen</string>
-  <string name="compose">Schreiben</string>
   <string-array name="compose_modes">
     <item>Antworten</item>
     <item>Allen antworten</item>
@@ -68,7 +67,6 @@
   <string name="reply_all">Allen antworten</string>
   <string name="resume_draft">Bearbeiten</string>
   <string name="forward">Weiterleiten</string>
-  <string name="menu_compose">Schreiben</string>
   <string name="menu_change_folders">Ordner ändern</string>
   <string name="menu_move_to">Verschieben nach</string>
   <string name="menu_move_to_inbox">In den Posteingang verschieben</string>
@@ -105,7 +103,7 @@
   <string name="more_info_attachment">Info</string>
   <string name="no_application_found">Dieser Anhang kann von keiner App zum Anzeigen geöffnet werden.</string>
   <string name="fetching_attachment">Anhang wird abgerufen...</string>
-  <string name="please_wait">Bitte warten…</string>
+  <string name="please_wait">Bitte warten\u2016</string>
   <string name="saved">Gespeichert, <xliff:g id="SIZE">%s</xliff:g></string>
   <string name="download_failed">Downloadfehler. Zum Wiederholen berühren</string>
   <string name="attachments_header">Anhänge</string>
@@ -117,8 +115,8 @@
   <string name="contextmenu_openlink">In Browser öffnen</string>
   <string name="contextmenu_copy">Kopieren</string>
   <string name="contextmenu_copylink">Link-URL kopieren</string>
-  <string name="contextmenu_dial_dot">Wählen...</string>
-  <string name="contextmenu_sms_dot">SMS senden…</string>
+  <string name="contextmenu_dial_dot">Wählen\u2016</string>
+  <string name="contextmenu_sms_dot">SMS senden\u2016</string>
   <string name="contextmenu_add_contact">Kontakt hinzufügen</string>
   <string name="contextmenu_send_mail">E-Mail senden</string>
   <string name="contextmenu_map">Karte</string>
@@ -139,7 +137,7 @@
     <item quantity="one">Entwurf</item>
     <item quantity="other">Entwürfe</item>
   </plurals>
-  <string name="sending">Senden...</string>
+  <string name="sending">Senden\u2016</string>
   <string name="send_failed">Nicht gesendet</string>
   <string name="me_object_pronun">ich</string>
   <string name="me_subject_pronun">ich</string>
@@ -157,7 +155,7 @@
     <item quantity="other">Entwürfe aus diesen <xliff:g id="COUNT">%1$d</xliff:g> Konversationen löschen?</item>
   </plurals>
   <string name="confirm_discard_text">Nachricht löschen?</string>
-  <string name="loading_conversations">Wird geladen…</string>
+  <string name="loading_conversations">Wird geladen\u2016</string>
   <string name="undo">Rückgängig</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Markierung von <xliff:g id="COUNT">%1$d</xliff:g> Konversation wird aufgehoben...</item>
@@ -201,7 +199,7 @@
   <string name="conversation_folder_moved">Verschoben nach <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Ergebnisse</string>
   <string name="search_unsupported">Die Suche wird für dieses Konto nicht unterstützt.</string>
-  <string name="search_results_searching_header">Wird gesucht...</string>
+  <string name="search_results_searching_header">Wird gesucht\u2016</string>
   <string name="add_label">Ordner hinzufügen</string>
   <string name="expand_recipient_details">Empfängerdetails maximieren</string>
   <string name="collapse_recipient_details">Empfängerdetails minimieren</string>
@@ -223,7 +221,7 @@
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
   <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> über <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
   <string name="message_saved">Nachricht wurde als Entwurf gespeichert.</string>
-  <string name="sending_message">Nachricht wird gesendet…</string>
+  <string name="sending_message">Nachricht wird gesendet\u2026</string>
   <string name="invalid_recipient">Die Adresse <xliff:g id="WRONGEMAIL">%s</xliff:g> ist ungültig.</string>
   <string name="show_elided">▶ Zitierten Text anzeigen</string>
   <string name="hide_elided">▼ Zitierten Text ausblenden</string>
