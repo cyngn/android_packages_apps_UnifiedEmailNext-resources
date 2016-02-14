@@ -32,8 +32,14 @@
   <plurals name="to_header">
     <item quantity="other">&amp; %d 其他</item>
   </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 標記為待辦事項。</item>
+  </plurals>
   <string name="reported_as_spam">已回報為垃圾郵件</string>
   <string name="new_incoming_messages_one">顯示來自 <xliff:g id="sender">%s</xliff:g> 的新訊息。</string>
+  <plurals name="new_incoming_messages_many">
+    <item quantity="other">顯示 <xliff:g id="count">%1$d</xliff:g> 則新訊息。</item>
+  </plurals>
   <string name="edit">編輯</string>
   <string name="folder_search_hint">搜尋</string>
   <string-array name="moveto_folder_sections">
@@ -47,8 +53,17 @@
   <string name="all_folders_heading">資料夾</string>
   <string name="accounts_heading">帳戶</string>
   <string name="vendor_signature">從我的 Cyanogen 手機發送</string>
+  <plurals name="new_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 則新訊息</item>
+  </plurals>
   <string name="print">列印</string>
+  <plurals name="num_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 則新訊息</item>
+  </plurals>
   <string name="draft_heading">草稿</string>
+  <plurals name="num_attachments">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 個附件</item>
+  </plurals>
   <string name="no_subject">(無標題)</string>
   <string name="action_grid_todo_dialog_title">詳細資訊</string>
   <string name="action_grid_due_date_today">今天</string>
@@ -71,6 +86,12 @@
   <string name="action_mark_read">標示為已讀取</string>
   <string name="action_read_or_unread">已讀/未讀</string>
   <string name="marked_evernote">發送到 Evernote</string>
+  <plurals name="quick_response_sent">
+    <item quantity="other">已傳送回應</item>
+  </plurals>
+  <plurals name="liked_message">
+    <item quantity="other">已喜歡訊息</item>
+  </plurals>
   <string name="not_installed">未安裝</string>
   <string name="evernote_not_installed">未安裝 Evernote 。請先安裝以使用此功能。</string>
   <string name="custom_mailbox_settings_label">設定</string>
@@ -94,4 +115,10 @@
   <string name="error_creating_folder_message">無法建立目錄。</string>
   <string name="empty_folder">此處沒有郵件。</string>
   <string name="empty_spam_folder">萬歲，沒有垃圾電郵！</string>
+  <plurals name="calendar_attendees">
+    <item quantity="other">我 &amp; %d 其他人</item>
+  </plurals>
+  <plurals name="other_conflicts">
+    <item quantity="other">%d 個其他衝突</item>
+  </plurals>
 </resources>

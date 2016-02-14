@@ -35,7 +35,7 @@
     <item quantity="other">&amp; %d andra</item>
   </plurals>
   <plurals name="conversation_todo">
-    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; markerats som att göra.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; markerad som att göra.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; markerats som att göra.</item>
   </plurals>
   <string name="reported_as_spam">Rapporterat som skräppost</string>
@@ -59,6 +59,7 @@
   <string name="accounts_heading">Konton</string>
   <string name="vendor_signature">Skickat från min Cyanogen telefon</string>
   <string name="vendor_signature_fmt">Välj från <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Skickat från min BLU telefon – BLU e-post från Boxer</string>
   <string name="vendor_signature_o2">Skickat från Cyanogen på O2</string>
   <string name="notification_action_mark_read">LÄS</string>
   <string name="notification_action_reply">SVARA</string>
@@ -218,6 +219,7 @@
   <string name="times_that_work_for_me">Tider som fungerar för mig:</string>
   <string name="availability_by">Tillgänglig via</string>
   <string name="remove_availability">Ta bort tillgänghet</string>
+  <string name="event_over">Händelse slut</string>
   <string name="busy">Upptagen</string>
   <string name="available">Tillgänglig</string>
   <plurals name="other_conflicts">
@@ -227,8 +229,10 @@
   <string name="meeting_invitation">Sammanfattning av inbjudan:</string>
   <string name="invitation_by">Inbjudan från</string>
   <string name="remove_invite">Ta bort inbjudan</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> gillade ditt meddelande med &lt; en href = \"%s\" &gt; Boxer på Cyanogen OS &lt; /a &gt;.</string>
   <string name="error_no_app_store">Ingen lämplig Appbutik hittades</string>
   <string name="calendar_feature_dialog_title">Hämta Boxer kalender</string>
+  <string name="calendar_feature_dialog_msg">Boxer har kalenderfunktioner som fungerar exklusivt med Boxer Kalender. För att aktivera funktionen, hämta den senaste versionen av Boxer Kalender idag (gratis)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLERA</string>
   <string name="calendar_feature_dialog_negative_btn">INTE NU</string>
   <string name="undisclosed_recipients">Hemlig mottagare</string>

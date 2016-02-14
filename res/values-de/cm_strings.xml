@@ -17,19 +17,19 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="mailbox_list_account_selector_combined_view">Kombiniert</string>
-  <string name="menu_select_all">Alles auswählen</string>
+  <string name="menu_select_all">Alle auswählen</string>
   <string name="menu_actiongrid">Aktionsraster</string>
   <string name="remove_account">Konto löschen</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Konto löschen</string>
-  <string name="delete_account_summary">Lösche dieses Konto samt Einstellungen und Daten</string>
-  <string name="delete_account_confirmation_msg">Dieser Vorgang löscht alle Einstellungen und E-Mails vom Konto <xliff:g id="account">%s</xliff:g>. Dieser Vorgang kann nicht widerrufen werden\n\nFortfahren?</string>
+  <string name="delete_account_summary">Dieses Konto samt Einstellungen und Daten löschen</string>
+  <string name="delete_account_confirmation_msg">Dieser Vorgang löscht alle Einstellungen und E-Mails des Kontos <xliff:g id="account">%s</xliff:g>. Dieser Vorgang kann nicht rückgängig gemacht werden\n\nFortfahren?</string>
   <string name="deleting_account_msg">Konto wird gelöscht\u2026</string>
-  <string name="delete_account_failed">Konto konnte nicht gelöscht werden</string>
+  <string name="delete_account_failed">Das Konto konnte nicht gelöscht werden.</string>
   <string name="open_attachment">Öffnen</string>
   <string name="install_attachment">Installieren</string>
   <string name="menu_photo_print">Drucken</string>
-  <string name="contextmenu_view_image">Bild anschauen</string>
+  <string name="contextmenu_view_image">Bild anzeigen</string>
   <plurals name="to_header">
     <item quantity="one"> &amp; %d anderer</item>
     <item quantity="other">&amp; %d andere</item>
@@ -59,7 +59,7 @@
   <string name="accounts_heading">Konten</string>
   <string name="vendor_signature">Von meinem CyanogenMod-Telefon gesendet</string>
   <string name="vendor_signature_fmt">Von <xliff:g id="brand" example="samsung">%s</xliff:g> gesendet</string>
-  <string name="blu_signature">Von meinem BLU-Telefon gesendet – BLU Mail wird zur Verfügung gestellt von Boxer</string>
+  <string name="blu_signature">Von meinem BLU-Telefon gesendet – BLU Mail wird von Boxer zur Verfügung gestellt</string>
   <string name="vendor_signature_o2">Gesendet von Cyanogen über O2</string>
   <string name="notification_action_mark_read">LESEN</string>
   <string name="notification_action_reply">ANTWORT</string>
@@ -69,11 +69,11 @@
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten</item>
   </plurals>
   <string name="preferences_swipe_actions_title">Wischaktionen</string>
-  <string name="preferences_swipe_actions_summary">Aktion für Wisch nach links und rechts anpassen</string>
-  <string name="preferences_swipe_left_short_title">Kurzer Wisch nach links</string>
-  <string name="preferences_swipe_left_long_title">Langer Wisch nach links</string>
-  <string name="preferences_swipe_right_short_title">Kurzer Wisch nach rechts</string>
-  <string name="preferences_swipe_right_long_title">Langer Wisch nach rechts</string>
+  <string name="preferences_swipe_actions_summary">Aktionen für Wischen nach links und rechts anpassen</string>
+  <string name="preferences_swipe_left_short_title">Kurzes Wischen nach links</string>
+  <string name="preferences_swipe_left_long_title">Langes Wischen nach links</string>
+  <string name="preferences_swipe_right_short_title">Kurzes Wischen nach rechts</string>
+  <string name="preferences_swipe_right_long_title">Langes Wischen nach rechts</string>
   <string name="print">Drucken</string>
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Nachricht</item>
@@ -88,21 +88,21 @@
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Anhänge</item>
   </plurals>
   <string name="no_subject">(Kein Betreff)</string>
-  <string name="action_grid_select_quick_response">Schnelle Antwort auswählen</string>
+  <string name="action_grid_select_quick_response">Kurzantwort auswählen</string>
   <string name="action_grid_todo_dialog_title">Details</string>
   <string name="action_grid_set_due_date">Fälligkeitsdatum setzen</string>
   <string name="action_grid_due">Fällig am: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Priorität hinzufügen</string>
-  <string name="action_grid_priority">Priorität: </string>
+  <string name="action_grid_priority">Priorität:\u0020</string>
   <string name="action_grid_add_assignee">Bevollmächtigten hinzufügen</string>
   <string name="action_grid_assignee">Bevollmächtigter:\u0020</string>
-  <string name="action_grid_due_date_dialog_title">Verfallsdatum setzen</string>
+  <string name="action_grid_due_date_dialog_title">Fälligkeitsdatum setzen</string>
   <string name="action_grid_due_date_today">Heute</string>
   <string name="action_grid_due_date_tomorrow">Morgen</string>
   <string name="action_grid_due_date_this_week">Diese Woche</string>
   <string name="action_grid_due_date_next_week">Nächste Woche</string>
   <string name="action_grid_due_date_specific_date">Bestimmtes Datum</string>
-  <string name="action_grid_calendar_picker_dialog_title">Verfallsdatum setzen</string>
+  <string name="action_grid_calendar_picker_dialog_title">Fälligkeitsdatum setzen</string>
   <string name="action_grid_priority_dialog_title">Priorität hinzufügen</string>
   <string name="action_grid_priority_highest">Extrem wichtig</string>
   <string name="action_grid_priority_high">Sehr wichtig</string>
@@ -113,10 +113,10 @@
   <string name="action_grid_assignee_select_from_contacts">Aus Kontakten auswählen</string>
   <string name="action_grid_assignee_search_for_contact">Kontakt suchen</string>
   <string name="action_grid_assignee_button_bar_clear">Löschen</string>
-  <string name="action_message_header_delete">Soll diese Nachricht gelöscht werden?</string>
+  <string name="action_message_header_delete">Diese Nachricht löschen?</string>
   <string name="action_like">Gefällt mir</string>
   <string name="action_todo">To-Do</string>
-  <string name="action_quick">schnell</string>
+  <string name="action_quick">Schnell</string>
   <string name="action_move">Verschieben</string>
   <string name="action_label">Beschriftung</string>
   <string name="action_move_or_label">Verschieben/Kennzeichnen</string>
@@ -133,10 +133,10 @@
   <string name="action_read_or_unread">Gelesen/Ungelesen</string>
   <string name="action_actions">Aktionen</string>
   <string name="marked_evernote">An Evernote senden</string>
-  <string name="marked_liked">Wie gewünscht markiert</string>
+  <string name="marked_liked">Als \"Gefällt mir\" markiert</string>
   <string name="marked_archived">Zum Archivieren markiert</string>
   <string name="marked_deleted">Zum Löschen markiert</string>
-  <string name="marked_spam">Als Spam markiert</string>
+  <string name="marked_spam">In den Spam-Ordner verschoben</string>
   <string name="marked_todo">Als zu erledigen markiert</string>
   <string name="marked_done">Als erledigt markieren</string>
   <plurals name="quick_response_sent">
@@ -148,50 +148,50 @@
     <item quantity="other">Nachrichten gefallen mir</item>
   </plurals>
   <string name="invalid_selection">Ungültige Auswahl</string>
-  <string name="file_action_more_than_one_account">Sie haben Konversationen aus mehreren Konten ausgewählt. Versuchen Sie nur Konversationen von einem Konto auszuwählen.</string>
-  <string name="evernote_action_more_than_one_conversation">Die Evernote-Funktion unterstützt nur eine Konversation gleichzeitig. Versuchen Sie nur eine Konversation auszuwählen.</string>
+  <string name="file_action_more_than_one_account">Sie haben Konversationen aus mehreren Konten ausgewählt. Versuchen Sie, nur Konversationen von einem Konto auszuwählen.</string>
+  <string name="evernote_action_more_than_one_conversation">Die Evernote-Funktion unterstützt immer nur eine Konversation. Versuchen Sie nur eine Konversation auszuwählen.</string>
   <string name="not_installed">Nicht installiert</string>
   <string name="evernote_not_installed">Evernote scheint nicht installiert zu sein. Bitte installieren Sie Evernote, um diese Funktionen nutzen zu können.</string>
   <string name="custom_mailbox_button">Benutzerdefiniertes Feld hinzufügen</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_folder_name_hint">Benutzerdefinierter Feldname</string>
-  <string name="custom_mailbox_background_sync_label">Hintergrund-Synchronisation</string>
+  <string name="custom_mailbox_background_sync_label">Hintergrund-Synchronisierung</string>
   <string name="custom_mailbox_background_sync_switch_on">An</string>
   <string name="custom_mailbox_background_sync_switch_off">Aus</string>
   <string name="custom_mailbox_delete_box">Feld löschen</string>
-  <string name="custom_mailbox_error_no_selected_folders">Bitte wähle mindestens einen Ornder aus der Liste (unten)</string>
+  <string name="custom_mailbox_error_no_selected_folders">Bitte wählen Sie mindestens einen Ordern aus der nachstehenden Liste.</string>
   <string name="custom_mailbox_delete_box_dialog_title">Warnung</string>
-  <string name="custom_mailbox_delete_box_dialog_message">Bist du dir sicher, dass du dieses Feld löschen willst?</string>
-  <string name="custom_mailbox_error_deleting_box">Es ist ein Fehler beim Löschen des benuzterdefinierten Postfaches aufgetreten</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Sind Sie sicher, dass Sie dieses benutzerdefinierte Feld löschen wollen?</string>
+  <string name="custom_mailbox_error_deleting_box">Beim Löschen des benutzerdefinierten Postfachs ist ein Fehler aufgetreten.</string>
   <string name="viral_prompt_rate_app_title">Bewerten Sie diese App</string>
-  <string name="viral_prompt_rate_app_body">Wenn Ihnen diese App gefällt, würden Sie sich kurz Zeit nehmen und sie bewerten? Es dauert nicht länger als eine Minute. Vielen Dank für Ihre Unterstützung!</string>
+  <string name="viral_prompt_rate_app_body">Wenn Ihnen diese App gefällt, würden Sie sich kurz die Zeit nehmen und sie bewerten? Es dauert nicht länger als eine Minute. Vielen Dank für Ihre Unterstützung!</string>
   <string name="viral_ratings_prompt_remind_me_later">Später erinnern</string>
-  <string name="viral_ratings_prompt_no_thanks">Nein, danke</string>
+  <string name="viral_ratings_prompt_no_thanks">Nein danke!</string>
   <string name="viral_ratings_prompt_rate_now">Jetzt bewerten</string>
-  <string name="promo_code_title_text">Kämpfen Sie nicht alleine gegen Ihren Posteingang</string>
+  <string name="promo_code_title_text">Kämpfen Sie nicht alleine gegen Ihren Posteingang.</string>
   <string name="promo_code_edittext_hint">Promo-Code eingeben</string>
   <string name="promo_code_button_text">Absenden</string>
-  <string name="promo_code_error_no_code_entered">Bitte gebe einen Promocode ein, bevor du auf Absenden drückst</string>
+  <string name="promo_code_error_no_code_entered">Bitte geben Sie einen Promo-Code ein, bevor Sie auf Absenden drücken.</string>
   <string name="promo_code_error_invalid_code">Ungültiger Promo-Code</string>
   <string name="promo_code_dialog_title">Funktionen freigeschaltet</string>
-  <string name="promo_code_dialog_message">Du hast erfolgreich <xliff:g id="features">%s</xliff:g> freigeschaltet</string>
+  <string name="promo_code_dialog_message">Sie haben <xliff:g id="features">%s</xliff:g> erfolgreich freigeschaltet.</string>
   <string name="promo_code_dialog_generic_success_msg">Promo-Code erfolgreich angewendet</string>
-  <string name="promo_code_progress_dialog_validating">Üperprüfung läuft...</string>
+  <string name="promo_code_progress_dialog_validating">Promo-Code wird überprüft</string>
   <string name="rage_shake_title">Schütteln erkannt</string>
-  <string name="rage_shake_message">Möchten Sie, wenn die App abstürzt, Debuginformationen übermitteln?</string>
+  <string name="rage_shake_message">Möchten Sie Debuginformationen übermitteln, wenn die App abstürzt?</string>
   <string name="actions_dialog_title">Anpassen</string>
-  <string name="actions_dialog_message">Sie verwenden oft Ordner, markieren Spam oder lieben das Festhalten von Notizen duch Evernote?\n\nMit von Ihnen angepassten Wisch-Aktionen können Sie die Gesten Ihrem Arbeitsablauf anpassen.\n</string>
+  <string name="actions_dialog_message">Sie verwenden oft Ordner, markieren Spam oder lieben das Festhalten von Notizen mit Evernote?\n\nMit von Ihnen angepassten Wisch-Aktionen können Sie jede dieser Gesten Ihren individuellen Arbeitsabläufen entsprechend anpassen.\n</string>
   <string name="actions_dialog_positive_button_text">Wischaktionen anpassen</string>
   <string name="actions_dialog_negative_button_text">Schließen</string>
   <string name="account_setup_start_company_slogan_text">Willkommen zu einem besserem Posteingang</string>
   <string name="account_setup_vendor_heading">Willkommen bei E-Mail</string>
-  <string name="like_action_dialog_tittle">Was ist \"gefällt mir\"?</string>
-  <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie eine Nachricht \"liken\", wird eine E-Mail an den Absender und andere Empfänger gesendet, sodass jeder weiß, dass sie Ihnen gefällt. Es ist die schnellste Art auf eine E-Mail zu antworten.</string>
+  <string name="like_action_dialog_tittle">Was ist \"Gefällt mir\"?</string>
+  <string name="like_action_dialog_message">Sie haben unsere Lieblingsfunktion gefunden. Wenn Sie eine Nachricht \"liken\", wird dem Absender und anderen Empfängern per E-Mail mitgeteilt, dass sie Ihnen gefällt. Es ist die schnellste Art, auf eine E-Mail zu antworten.</string>
   <string name="new_button">Neu</string>
   <string name="folder_name_hint">Ordnername</string>
-  <string name="create_folder_progess">Erstelle Ordner\u2026</string>
+  <string name="create_folder_progess">Ordner wird erstellt\u2026</string>
   <string name="duplicate_folder_title">Doppelter Name</string>
-  <string name="duplicate_folder_message">Der eigegebene Ordnername ist bereits vorhanden.</string>
+  <string name="duplicate_folder_message">Der eingegebene Ordnername ist bereits vorhanden.</string>
   <string name="error">Fehler</string>
   <string name="error_creating_folder_message">Der Ordner konnte nicht erstellt werden.</string>
   <string name="report_rendering_problem">Feedback</string>
@@ -203,7 +203,7 @@
   <string name="empty_search">Hoppla! Wir haben nichts für \"<xliff:g id="search_query">%1$s</xliff:g>\" gefunden.</string>
   <string name="empty_spam_folder">Hurra, keine Spam-Mails!</string>
   <string name="empty_trash_folder">Papierkorb leer. Danke fürs Aufräumen!</string>
-  <string name="view_on_calendar">Im Kalender Anzeigen</string>
+  <string name="view_on_calendar">Im Kalender anzeigen</string>
   <string name="accept">Akzeptieren</string>
   <string name="maybe">Vielleicht</string>
   <string name="decline">Ablehnen</string>
@@ -231,8 +231,8 @@
   <string name="remove_invite">Einladung entfernen</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hat Ihre Nachricht mit &lt;a href=\"%s\"&gt;Boxer auf Cyanogen OS&lt;/a&gt; geliked.</string>
   <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
-  <string name="calendar_feature_dialog_title">Boxer-Kalender herunterladen</string>
-  <string name="calendar_feature_dialog_msg">Boxer bietet Ihnen Features, die exklusiv mit Boxer Kalender funktionieren. Um diese Features zu erhalten, laden Sie noch heute die aktuelle Version von Boxer Kalender herunter (KOSTENLOS)</string>
+  <string name="calendar_feature_dialog_title">Boxer Kalender herunterladen</string>
+  <string name="calendar_feature_dialog_msg">Boxer bietet Ihnen Features, die exklusiv mit Boxer Kalender funktionieren. Um diese Features zu erhalten, laden Sie noch heute die aktuelle Version von Boxer Kalender herunter (KOSTENLOS).</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLIEREN</string>
   <string name="calendar_feature_dialog_negative_btn">NICHT JETZT</string>
   <string name="undisclosed_recipients">Unbekannte Empfänger</string>

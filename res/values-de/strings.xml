@@ -33,14 +33,14 @@
     <item>Allen antworten</item>
     <item>Weiterleiten</item>
   </string-array>
-  <string name="reply_attribution">Am <xliff:g id="DATE">%s</xliff:g> schrieb <xliff:g id="PERSON">%s</xliff:g>:</string>
-  <string name="forward_attribution">---------- Weitergeleitete Nachricht ----------&lt;br&gt;Von: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Datum: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Betreff: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;An: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
+  <string name="reply_attribution">Am <xliff:g id="date">%s</xliff:g> schrieb <xliff:g id="person">%s</xliff:g>:</string>
+  <string name="forward_attribution">---------- Weitergeleitete Nachricht ----------&lt;br&gt;Von: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Datum: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;Betreff: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;An: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <string name="forward_attribution_no_headers">---------- Weitergeleitete Nachricht ----------</string>
-  <string name="cc_attribution">Cc: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <string name="select_attachment_type">Anhangstyp auswählen</string>
-  <string name="too_large_to_attach_single">Dateien mit mehr als <xliff:g id="MAXSIZE">%1$s</xliff:g> können nicht angehängt werden.</string>
-  <string name="too_large_to_attach_multiple">Mindestens eine Datei wurde nicht angehängt. Limit: <xliff:g id="MAXSIZE">%1$s</xliff:g></string>
-  <string name="too_large_to_attach_additional">Datei wurde nicht angehängt. Limit von <xliff:g id="MAXSIZE">%1$s</xliff:g> erreicht.</string>
+  <string name="too_large_to_attach_single">Dateien mit mehr als <xliff:g id="maxSize">%1$s</xliff:g> können nicht angehängt werden.</string>
+  <string name="too_large_to_attach_multiple">Mindestens eine Datei wurde nicht angehängt. Limit: <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">Datei wurde nicht angehängt. Limit von <xliff:g id="maxSize">%1$s</xliff:g> erreicht.</string>
   <string name="generic_attachment_problem">Die Datei konnte nicht hinzugefügt werden.</string>
   <string name="recipient_needed">Fügen Sie mindestens einen Empfänger hinzu.</string>
   <string name="recipient_error_dialog_title">Fehler beim Empfänger</string>
@@ -53,13 +53,13 @@
   <string name="send">Senden</string>
   <string name="mark_read">Als gelesen markieren</string>
   <string name="mark_unread">Als ungelesen markieren</string>
-  <string name="mute">Ignorieren</string>
+  <string name="mute">Stummschalten</string>
   <string name="add_star">Markieren</string>
   <string name="remove_star">Markierung entfernen</string>
-  <string name="remove_folder">Aus <xliff:g id="FOLDERNAME">%1$s</xliff:g> entfernen</string>
+  <string name="remove_folder">Aus <xliff:g id="folderName">%1$s</xliff:g> entfernen</string>
   <string name="archive">Archivieren</string>
-  <string name="report_spam">Spam melden</string>
-  <string name="mark_not_spam">Nicht als Spam melden</string>
+  <string name="report_spam">Als Spam melden</string>
+  <string name="mark_not_spam">Als \"Kein Spam\" melden</string>
   <string name="report_phishing">Phishing melden</string>
   <string name="delete">Löschen</string>
   <string name="discard_drafts">Entwürfe löschen</string>
@@ -86,9 +86,9 @@
   <string name="quoted_text">Zitierten Text einfügen</string>
   <string name="quoted_text_label">Zitierter Text</string>
   <string name="respond_inline">Inline antworten</string>
-  <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
-  <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> KB</string>
-  <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
   <string name="attachment_image">Bild</string>
   <string name="attachment_video">Video</string>
   <string name="attachment_audio">Audio</string>
@@ -97,7 +97,7 @@
   <string name="attachment_application_vnd_ms_powerpoint">Präsentation</string>
   <string name="attachment_application_vnd_ms_excel">Tabelle</string>
   <string name="attachment_application_pdf">PDF</string>
-  <string name="attachment_unknown"><xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g>-Datei</string>
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g>-Datei</string>
   <string name="preview_attachment">Vorschau</string>
   <string name="save_attachment">Speichern</string>
   <string name="cancel_attachment">Abbrechen</string>
@@ -105,9 +105,9 @@
   <string name="more_info_attachment">Info</string>
   <string name="no_application_found">Dieser Anhang kann von keiner App zum Anzeigen geöffnet werden.</string>
   <string name="fetching_attachment">Anhang wird abgerufen...</string>
-  <string name="please_wait">Bitte warten…</string>
+  <string name="please_wait">Bitte warten\u2026</string>
   <string name="saved">Gespeichert, <xliff:g id="SIZE">%s</xliff:g></string>
-  <string name="download_failed">Downloadfehler. Zum Wiederholen berühren</string>
+  <string name="download_failed">Downloadfehler. Zum Wiederholen berühren.</string>
   <string name="attachments_header">Anhänge</string>
   <string name="menu_photo_save_all">Alle speichern</string>
   <string name="menu_photo_share">Teilen</string>
@@ -117,8 +117,8 @@
   <string name="contextmenu_openlink">In Browser öffnen</string>
   <string name="contextmenu_copy">Kopieren</string>
   <string name="contextmenu_copylink">Link-URL kopieren</string>
-  <string name="contextmenu_dial_dot">Wählen...</string>
-  <string name="contextmenu_sms_dot">SMS senden…</string>
+  <string name="contextmenu_dial_dot">Wählen\u2026</string>
+  <string name="contextmenu_sms_dot">SMS senden\u2026</string>
   <string name="contextmenu_add_contact">Kontakt hinzufügen</string>
   <string name="contextmenu_send_mail">E-Mail senden</string>
   <string name="contextmenu_map">Karte</string>
@@ -129,17 +129,17 @@
     <item quantity="one">Konversation verschieben</item>
     <item quantity="other"><xliff:g id="ID_1">%1$d</xliff:g> Konversationen verschieben</item>
   </plurals>
-  <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> über <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> am <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
-  <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> über <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> um <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> über <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> am <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> über <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> um <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <string name="read_string">Konversation gelesen</string>
   <string name="unread_string">Konversation ungelesen</string>
-  <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
   <plurals name="draft">
     <item quantity="one">Entwurf</item>
     <item quantity="other">Entwürfe</item>
   </plurals>
-  <string name="sending">Senden...</string>
+  <string name="sending">Senden\u2026</string>
   <string name="send_failed">Nicht gesendet</string>
   <string name="me_object_pronun">ich</string>
   <string name="me_subject_pronun">ich</string>
@@ -156,8 +156,8 @@
     <item quantity="one">Entwürfe aus dieser Konversation löschen?</item>
     <item quantity="other">Entwürfe aus diesen <xliff:g id="COUNT">%1$d</xliff:g> Konversationen löschen?</item>
   </plurals>
-  <string name="confirm_discard_text">Nachricht löschen?</string>
-  <string name="loading_conversations">Wird geladen…</string>
+  <string name="confirm_discard_text">Diese Nachricht löschen?</string>
+  <string name="loading_conversations">Wird geladen\u2026</string>
   <string name="undo">Rückgängig</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Markierung von <xliff:g id="COUNT">%1$d</xliff:g> Konversation wird aufgehoben...</item>
@@ -193,38 +193,38 @@
   </plurals>
   <string name="deleted">Gelöscht</string>
   <string name="archived">Archiviert</string>
-  <string name="folder_removed">Aus <xliff:g id="FOLDERNAME">%1$s</xliff:g> entfernt</string>
+  <string name="folder_removed">Aus <xliff:g id="folderName">%1$s</xliff:g> entfernt</string>
   <plurals name="conversation_folder_changed">
     <item quantity="one">Ordner geändert</item>
     <item quantity="other">Ordner geändert</item>
   </plurals>
-  <string name="conversation_folder_moved">Verschoben nach <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <string name="conversation_folder_moved">Verschoben nach <xliff:g id="folderName">%1$s</xliff:g></string>
   <string name="search_results_header">Ergebnisse</string>
   <string name="search_unsupported">Die Suche wird für dieses Konto nicht unterstützt.</string>
-  <string name="search_results_searching_header">Wird gesucht...</string>
+  <string name="search_results_searching_header">Wird gesucht\u2026</string>
   <string name="add_label">Ordner hinzufügen</string>
   <string name="expand_recipient_details">Empfängerdetails maximieren</string>
   <string name="collapse_recipient_details">Empfängerdetails minimieren</string>
-  <string name="contact_info_string">Kontaktinformationen für <xliff:g id="NAME">%1$s</xliff:g> anzeigen</string>
+  <string name="contact_info_string">Kontaktinformationen für <xliff:g id="name">%1$s</xliff:g> anzeigen</string>
   <string name="contact_info_string_default">Kontaktinformationen anzeigen</string>
   <plurals name="show_messages_read">
     <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> ältere Nachricht</item>
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ältere Nachrichten</item>
   </plurals>
-  <string name="from_heading">Von: </string>
-  <string name="replyto_heading">Antworten: </string>
-  <string name="to_heading">An: </string>
-  <string name="cc_heading">Cc: </string>
-  <string name="bcc_heading">Bcc: </string>
-  <string name="date_heading">Datum: </string>
+  <string name="from_heading">Von:\u0020</string>
+  <string name="replyto_heading">Antworten:\u0020</string>
+  <string name="to_heading">An:\u0020</string>
+  <string name="cc_heading">Cc:\u0020</string>
+  <string name="bcc_heading">Bcc:\u0020</string>
+  <string name="date_heading">Datum:\u0020</string>
   <string name="show_images">Bilder anzeigen</string>
   <string name="always_show_images">Bilder von diesem Absender immer anzeigen</string>
   <string name="always_show_images_toast">Bilder von diesem Absender werden automatisch angezeigt.</string>
-  <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
-  <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> über <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> über <xliff:g id="via_domain">%3$s</xliff:g></string>
   <string name="message_saved">Nachricht wurde als Entwurf gespeichert.</string>
-  <string name="sending_message">Nachricht wird gesendet…</string>
-  <string name="invalid_recipient">Die Adresse <xliff:g id="WRONGEMAIL">%s</xliff:g> ist ungültig.</string>
+  <string name="sending_message">Nachricht wird gesendet\u2026</string>
+  <string name="invalid_recipient">Die Adresse <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> ist ungültig.</string>
   <string name="show_elided">▶ Zitierten Text anzeigen</string>
   <string name="hide_elided">▼ Zitierten Text ausblenden</string>
   <string name="message_invite_title">Kalendereinladung</string>
@@ -233,7 +233,7 @@
   <string name="message_invite_accept">Ja</string>
   <string name="message_invite_tentative">Vielleicht</string>
   <string name="message_invite_decline">Nein</string>
-  <string name="enumeration_comma">, </string>
+  <string name="enumeration_comma">,\u0020</string>
   <string name="yes">Ja</string>
   <string name="no">Nein</string>
   <string name="ok">OK</string>
@@ -256,7 +256,7 @@
     <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> ungelesen</item>
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> ungelesen</item>
   </plurals>
-  <string name="actionbar_large_unread_count">Mindestens <xliff:g id="COUNT">%1$d</xliff:g> ungelesene</string>
+  <string name="actionbar_large_unread_count">Mindestens <xliff:g id="count">%1$d</xliff:g> ungelesene</string>
   <string name="view_more_conversations">Weitere Konversationen ansehen</string>
   <string name="activity_mailbox_selection">Konto auswählen</string>
   <string name="activity_folder_selection">Ordner auswählen</string>
@@ -334,7 +334,7 @@
   <string name="preferences_default_reply_all_summary">Als Standard für Antworten verwenden</string>
   <string name="preference_swipe_title_archive">Zum Archivieren wischen</string>
   <string name="preference_swipe_title_delete">Zum Löschen wischen</string>
-  <string name="preference_swipe_description">In einer Unterhaltungsliste</string>
+  <string name="preference_swipe_description">In einer Konversationsliste</string>
   <string name="swipe_down_to_refresh">Zum Aktualisieren nach unten wischen</string>
   <string name="checking_for_mail">Nachrichten werden abgerufen...</string>
   <string name="empty_trash">Papierkorb leeren</string>

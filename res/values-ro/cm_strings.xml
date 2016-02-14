@@ -21,6 +21,7 @@
   <string name="menu_actiongrid">Grila de acțiune</string>
   <string name="remove_account">Elimină cont</string>
   <string name="support">Suport</string>
+  <string name="delete_account_title">Ștergere cont</string>
   <string name="delete_account_summary">Șterge acest cont și toate setările și datele sale</string>
   <string name="delete_account_confirmation_msg">Se vor șterge toate setările și email-urile contului <xliff:g id="account">%s</xliff:g>. Această operație nu poate fi anulată.\n\nContinuați?</string>
   <string name="deleting_account_msg">Se șterge contul\u2026</string>
@@ -153,6 +154,7 @@
   <string name="rage_shake_title">Agitare detectată</string>
   <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
+  <string name="actions_dialog_negative_button_text">Închide</string>
   <string name="account_setup_vendor_heading">Bine ați venit la email</string>
   <string name="new_button">Nou</string>
   <string name="folder_name_hint">Numele de dosar</string>

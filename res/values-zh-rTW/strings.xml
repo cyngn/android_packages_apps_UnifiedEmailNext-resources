@@ -154,7 +154,7 @@
   <string name="loading_conversations">載入中...</string>
   <string name="undo">復原</string>
   <plurals name="conversation_unstarred">
-    <item quantity="other">正在移除 <xliff:g id="COUNT">%1$d</xliff:g> 個會話群組的星號。</item>
+    <item quantity="other">正在解除 <xliff:g id="count">%1$d</xliff:g> 個會話群組的星號。<xliff:g id="count"></item>
   </plurals>
   <plurals name="conversation_muted">
     <item quantity="other">已略過 &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; 個會話群組。</item>

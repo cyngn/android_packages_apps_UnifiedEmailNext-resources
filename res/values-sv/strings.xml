@@ -160,11 +160,11 @@
   <string name="loading_conversations">Läser in …</string>
   <string name="undo">Ångra</string>
   <plurals name="conversation_unstarred">
-    <item quantity="one">Tar bort stjärnmärkning från <xliff:g id="COUNT">%1$d</xliff:g> konversation.</item>
+    <item quantity="one">Tar bort stjärnmärkning från <xliff:g id="count">%1$d</xliff:g> konversation.</item>
     <item quantity="other">Tar bort stjärnmärkning från <xliff:g id="COUNT">%1$d</xliff:g> konversationer.</item>
   </plurals>
   <plurals name="conversation_muted">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har ignorerats.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; tystad.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har ignorerats.</item>
   </plurals>
   <plurals name="conversation_spammed">
@@ -208,7 +208,7 @@
   <string name="contact_info_string">Visa kontaktuppgifter för <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Visa kontaktuppgifter</string>
   <plurals name="show_messages_read">
-    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> äldre meddelanden</item>
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> äldre meddelande</item>
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> äldre meddelanden</item>
   </plurals>
   <string name="from_heading">Från: </string>
@@ -253,7 +253,7 @@
   <string name="tap_to_configure_folder_sync">Synkronisera mappen</string>
   <string name="widget_large_unread_count">%d+</string>
   <plurals name="actionbar_unread_messages">
-    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> olästa</item>
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> oläst</item>
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> olästa</item>
   </plurals>
   <string name="actionbar_large_unread_count">Mer än <xliff:g id="COUNT">%1$d</xliff:g> olästa</string>

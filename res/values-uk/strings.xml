@@ -136,6 +136,11 @@
   <string name="unread_string">бесіду не прочитано</string>
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> – <xliff:g id="ID_2">%s</xliff:g></string>
+  <plurals name="draft">
+    <item quantity="one">Чернетка</item>
+    <item quantity="few">Чернетки</item>
+    <item quantity="other">Чернеток</item>
+  </plurals>
   <string name="sending">Надсилання…</string>
   <string name="send_failed">Повідомл. не надісл.</string>
   <string name="me_object_pronun">я</string>
@@ -159,9 +164,29 @@
   <string name="confirm_discard_text">Відхилити це повідомлення?</string>
   <string name="loading_conversations">Завантаження…</string>
   <string name="undo">Відмінити</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Позначка знята з <xliff:g id="count">%1$d</xliff:g> ланцюжка.</item>
+    <item quantity="few">Позначка знята з <xliff:g id="count">%1$d</xliff:g> ланцюжків.</item>
+    <item quantity="other">Позначка знята з <xliff:g id="count">%1$d</xliff:g> ланцюжків.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ланцюжок прихований.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ланцюжки приховано.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ланцюжків приховано.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <item quantity="one">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt;/b &gt; позначена, як спам.</item>
+    <item quantity="few">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt;/b &gt; позначено, як спам.</item>
+    <item quantity="other">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt;/b &gt; позначено, як спам.</item>
+  </plurals>
   <string name="deleted">Видалено</string>
   <string name="archived">Заархівовано</string>
   <string name="folder_removed">Видалено з папки <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Папка змінена.</item>
+    <item quantity="few">Папки змінено.</item>
+    <item quantity="other">Папок змінено.</item>
+  </plurals>
   <string name="conversation_folder_moved">Переміщено в папку <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Результати</string>
   <string name="search_unsupported">Функція пошуку в цьому обліковому записі не підтримується.</string>
@@ -171,6 +196,11 @@
   <string name="collapse_recipient_details">Згорнути дані отримувача</string>
   <string name="contact_info_string">Показати контактну інформацію відправника <xliff:g id="NAME">%1$s</xliff:g></string>
   <string name="contact_info_string_default">Показати контактну інформацію</string>
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d </xliff:g> старе повідомлення</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d </xliff:g> старих повідомлення</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d </xliff:g> старих повідомлень</item>
+  </plurals>
   <string name="from_heading">Від: </string>
   <string name="replyto_heading">Зворотна адреса: </string>
   <string name="to_heading">Кому: </string>
@@ -212,6 +242,11 @@
   <string name="non_synced_folder_description">Щоб переглядати бесіди, синхронізуйте цю папку.</string>
   <string name="tap_to_configure_folder_sync">Синхронізувати папку</string>
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d </xliff:g> непрочитане</item>
+    <item quantity="few"><xliff:g id="count" example="4">%1$d </xliff:g> непрочитані</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d </xliff:g> непрочитаних</item>
+  </plurals>
   <string name="actionbar_large_unread_count">Не прочитано: <xliff:g id="COUNT">%1$d</xliff:g>+</string>
   <string name="view_more_conversations">Переглянути інші бесіди</string>
   <string name="activity_mailbox_selection">Вибрати обліковий запис</string>
@@ -297,6 +332,11 @@
   <string name="empty_spam">Очистити папку для спаму</string>
   <string name="empty_trash_dialog_title">Очистити кошик?</string>
   <string name="empty_spam_dialog_title">Очистити папку для спаму?</string>
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> повідомлення буде остаточно видалено.</item>
+    <item quantity="few"><xliff:g id="count">%1$d </xliff:g> повідомлення буде остаточно видалено.</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> повідомлень буде остаточно видалено.</item>
+  </plurals>
   <string name="drawer_open">Висунути навігаційну панель</string>
   <string name="drawer_close">Сховати навігаційну панель</string>
   <string name="conversation_photo_welcome_text">Торкніться зображення відправника, щоб вибрати бесіду.</string>
