@@ -61,7 +61,7 @@
   <string name="report_spam">Prijavite neželjenu poštu</string>
   <string name="mark_not_spam">Prijav. da nije neželj. pošta</string>
   <string name="report_phishing">Prijavite krađu identiteta</string>
-  <string name="delete">Izbriši</string>
+  <string name="delete">Obriši</string>
   <string name="discard_drafts">Odbaci skice</string>
   <string name="refresh">Osvježi</string>
   <string name="reply">Odgovor</string>

@@ -20,7 +20,7 @@
   <string name="from">Från</string>
   <string name="to">Till</string>
   <string name="cc">Kopia</string>
-  <string name="bcc">Hemlig kopia</string>
+  <string name="bcc">Bcc</string>
   <string name="subject_hint">Ämne</string>
   <string name="body_hint">Skriv ett e-postmeddelande</string>
   <string name="add_file_attachment">Bifoga fil</string>

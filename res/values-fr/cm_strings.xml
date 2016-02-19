@@ -20,10 +20,10 @@
   <string name="menu_select_all">Tout sélectionner</string>
   <string name="menu_actiongrid">Grille d\'action</string>
   <string name="remove_account">Supprimer le compte</string>
-  <string name="support">Support</string>
+  <string name="support">Assistance</string>
   <string name="delete_account_title">Supprimer le compte</string>
   <string name="delete_account_summary">Supprimer ce compte avec tous ses paramètres et données</string>
-  <string name="delete_account_confirmation_msg">Ceci effacera tous les réglages et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
+  <string name="delete_account_confirmation_msg">Ceci effacera tous les paramètres et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
   <string name="deleting_account_msg">Suppression du compte\u2026</string>
   <string name="delete_account_failed">Impossible de supprimer le compte</string>
   <string name="open_attachment">Ouvrir</string>

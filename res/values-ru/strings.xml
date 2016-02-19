@@ -294,7 +294,7 @@
   <string name="auto_sync_off">Автосинхронизация отключена</string>
   <string name="tap_to_enable_sync">Нажмите, чтобы включить.</string>
   <string name="account_sync_off">Синхронизация для этого аккаунта отключена.</string>
-  <string name="enable_sync_in_account_settings">Чтобы включить ее, перейдите в <xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g>.</string>
+  <string name="enable_sync_in_account_settings">Чтобы включить ее, перейдите в <xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <string name="account_settings_param">настройки аккаунта</string>
   <string name="unsent_messages_in_outbox">Неотправленных сообщений в папке \"<xliff:g id="OUTBOX">%2$s</xliff:g>": <xliff:g id="NUMBER">%1$s</xliff:g></string>
   <string name="turn_auto_sync_on_dialog_title">Включить автосинхронизацию?</string>

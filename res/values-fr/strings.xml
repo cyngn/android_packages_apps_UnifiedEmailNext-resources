@@ -22,12 +22,12 @@
   <string name="cc">Cc</string>
   <string name="bcc">Cci</string>
   <string name="subject_hint">Objet</string>
-  <string name="body_hint">Composez un message</string>
+  <string name="body_hint">Composer un message</string>
   <string name="add_file_attachment">Joindre un fichier</string>
   <string name="add_photo_attachment">Joindre une photo</string>
   <string name="save_draft">Enregistrer le brouillon</string>
   <string name="discard">Supprimer</string>
-  <string name="compose">Nouveau message</string>
+  <string name="compose">Composer</string>
   <string-array name="compose_modes">
     <item>Répondre</item>
     <item>Répondre à tous</item>

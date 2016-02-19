@@ -191,7 +191,7 @@
     <item quantity="one">Изтрихте &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
     <item quantity="other">Изтрихте &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
   </plurals>
-  <string name="deleted">Изтрита</string>
+  <string name="deleted">Изтрито</string>
   <string name="archived">Архивирана</string>
   <string name="folder_removed">Премахнатa от „<xliff:g id="FOLDERNAME">%1$s</xliff:g>“</string>
   <plurals name="conversation_folder_changed">
