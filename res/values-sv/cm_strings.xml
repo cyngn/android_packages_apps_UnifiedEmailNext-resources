@@ -22,10 +22,10 @@
   <string name="remove_account">Ta bort konto</string>
   <string name="support">Support</string>
   <string name="delete_account_title">Radera konto</string>
-  <string name="delete_account_summary">Ta bort detta konto och alla dess inställningar och data</string>
+  <string name="delete_account_summary">Radera detta konto och alla dess inställningar och data</string>
   <string name="delete_account_confirmation_msg">Detta kommer att ta bort alla inställningar och all e-post på kontot <xliff:g id="account">%s</xliff:g>. Denna åtgärd kan inte ångras.\n\nFortsätt?</string>
   <string name="deleting_account_msg">Tar bort konto\u2026</string>
-  <string name="delete_account_failed">Kunde inte ta bort kontot</string>
+  <string name="delete_account_failed">Kunde inte radera kontot</string>
   <string name="open_attachment">Öppna</string>
   <string name="install_attachment">Installera</string>
   <string name="menu_photo_print">Skriv ut</string>

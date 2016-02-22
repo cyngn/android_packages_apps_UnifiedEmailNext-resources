@@ -23,7 +23,7 @@
   <string name="support">Поддержка</string>
   <string name="delete_account_title">Удалить аккаунт</string>
   <string name="delete_account_summary">Удаление аккаунта, его настроек и данных</string>
-  <string name="delete_account_confirmation_msg">Это действие удалит все настройки и письма аккаунта «<xliff:g id="account">%s</xliff:g>». Эта операция не может быть отменена.\n\nПродолжить?</string>
+  <string name="delete_account_confirmation_msg">При этом будут удалены все настройки и письма аккаунта «<xliff:g id="account">%s</xliff:g>». Эту операцию невозможно будет отменить.\n\nПродолжить?</string>
   <string name="deleting_account_msg">Удаление аккаунта\u2026</string>
   <string name="delete_account_failed">Не удалось удалить аккаунт</string>
   <string name="open_attachment">Открыть</string>
@@ -47,7 +47,7 @@
     <item quantity="few">Показать <xliff:g id="count">%1$d</xliff:g> новых сообщения.</item>
     <item quantity="other">Показать <xliff:g id="count">%1$d</xliff:g> новых сообщений.</item>
   </plurals>
-  <string name="edit">Редактировать</string>
+  <string name="edit">Изменить</string>
   <string name="folder_search_hint">Поиск</string>
   <string-array name="moveto_folder_sections">
     <item>Смарт-папки</item>
@@ -95,13 +95,13 @@
   </plurals>
   <string name="no_subject">(без темы)</string>
   <string name="action_grid_select_quick_response">Выберите быстрый ответ</string>
-  <string name="action_grid_todo_dialog_title">Подробности</string>
+  <string name="action_grid_todo_dialog_title">Сведения</string>
   <string name="action_grid_set_due_date">Установить срок</string>
   <string name="action_grid_due">До: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Добавить приоритет</string>
-  <string name="action_grid_priority">Приоритет: </string>
+  <string name="action_grid_priority">Приоритет:\u0020</string>
   <string name="action_grid_add_assignee">Добавить назначаемого</string>
-  <string name="action_grid_assignee">Назначено: </string>
+  <string name="action_grid_assignee">Назначено:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Установить срок</string>
   <string name="action_grid_due_date_today">Сегодня</string>
   <string name="action_grid_due_date_tomorrow">Завтра</string>
@@ -129,8 +129,8 @@
   <string name="action_archive">Архивировать</string>
   <string name="action_delete">Удалить</string>
   <string name="action_spam">Спам</string>
-  <string name="action_flag">Флаг</string>
-  <string name="action_clear_flag">Удалить флаг</string>
+  <string name="action_flag">Флажок</string>
+  <string name="action_clear_flag">Снять флажок</string>
   <string name="action_star">Избранное</string>
   <string name="action_clear_star">Удалить из избранного</string>
   <string name="action_star_or_flag">В избранное</string>

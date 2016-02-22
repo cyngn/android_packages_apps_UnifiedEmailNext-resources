@@ -29,6 +29,11 @@
   <string name="open_attachment">Deschidere</string>
   <string name="install_attachment">Instalați</string>
   <string name="menu_photo_print">Imprimare</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; alte %d</item>
+    <item quantity="few">&amp; %d altele</item>
+    <item quantity="other">&amp; %d altele</item>
+  </plurals>
   <plurals name="conversation_todo">
     <item quantity="one">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; marcată ca de-făcut.</item>
     <item quantity="few">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; marcate ca de-făcut.</item>

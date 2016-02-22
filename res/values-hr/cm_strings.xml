@@ -30,6 +30,16 @@
   <string name="install_attachment">Instaliraj</string>
   <string name="menu_photo_print">Ispis</string>
   <string name="contextmenu_view_image">Vidi sliku</string>
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d drugi</item>
+    <item quantity="few">&amp; %d druga</item>
+    <item quantity="other">&amp; %d drugih</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen za uraditi.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označena za uraditi.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označenih za uraditi.</item>
+  </plurals>
   <string name="reported_as_spam">Prijavljeno kao spam</string>
   <string name="new_incoming_messages_one">Pokaži novu poruku od <xliff:g id="sender">%s</xliff:g>.</string>
   <plurals name="new_incoming_messages_many">
@@ -50,11 +60,19 @@
   <string name="boxes_heading">Polja</string>
   <string name="all_folders_heading">Mape</string>
   <string name="accounts_heading">Računi</string>
+  <string name="vendor_signature">Poslano sa mog Cyanogen telefona</string>
+  <string name="vendor_signature_fmt">Poslano sa <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Poslano sa mog BLU telefona - BLU Pošta pokretana Boxer-om</string>
+  <string name="vendor_signature_o2">Poslano sa Cyanogen-a na O2</string>
+  <string name="notification_action_mark_read">PROČITANO</string>
+  <string name="notification_action_reply">ODGOVOR</string>
+  <string name="notification_action_delete">OBRIŠI</string>
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nova poruka</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nove poruke</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novih poruka</item>
   </plurals>
+  <string name="preferences_swipe_actions_title">Akcije poteza</string>
   <string name="preferences_swipe_actions_summary">Prilagodi akcije lijevog i desnog poteza</string>
   <string name="preferences_swipe_left_short_title">Kratki potez lijevo</string>
   <string name="preferences_swipe_left_long_title">Dugi potez lijevo</string>
@@ -66,20 +84,100 @@
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> poruke</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> poruka</item>
   </plurals>
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> u <xliff:g id="time">%2$s</xliff:g></string>
+  <string name="draft_to_heading">Nacrt za:\u0020</string>
   <string name="draft_heading">Skica</string>
+  <string name="quoted_text_hidden_print">Citirani tekst skriven</string>
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> privitak</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> privitka</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> privitaka</item>
   </plurals>
   <string name="no_subject">(nema predmeta)</string>
+  <string name="action_grid_select_quick_response">Odaberi brzi odgovor</string>
+  <string name="action_grid_todo_dialog_title">Pojedinosti</string>
+  <string name="action_grid_set_due_date">Namjesti dospjeli datum</string>
+  <string name="action_grid_due">Prispjelo: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Dodaj prioritet</string>
   <string name="action_grid_priority">Prioritet:\u0020</string>
+  <string name="action_grid_add_assignee">Dodaj predstavnika</string>
+  <string name="action_grid_assignee">Predstavnik:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Namjesti dospjeli datum</string>
+  <string name="action_grid_due_date_today">Danas</string>
+  <string name="action_grid_due_date_tomorrow">Sutra</string>
+  <string name="action_grid_due_date_this_week">Ovaj tjedan</string>
   <string name="action_grid_due_date_next_week">Sljedeći tjedan</string>
+  <string name="action_grid_due_date_specific_date">Određeni datum</string>
+  <string name="action_grid_calendar_picker_dialog_title">Namjesti dospjeli datum</string>
+  <string name="action_grid_priority_dialog_title">Dodaj prioritet</string>
   <string name="action_grid_priority_highest">Najviši prioritet</string>
   <string name="action_grid_priority_high">Visoki prioritet</string>
+  <string name="action_grid_priority_normal">Normalan prioritet</string>
+  <string name="action_grid_priority_low">Nizak prioritet</string>
+  <string name="action_grid_priority_lowest">Najniži prioritet</string>
+  <string name="action_grid_assignee_dialog_title">Dodaj predstavnika</string>
+  <string name="action_grid_assignee_select_from_contacts">Odaberi iz kontakata</string>
+  <string name="action_grid_assignee_button_bar_clear">Jasno</string>
+  <string name="action_message_header_delete">Izbrisati ovu poruku?</string>
+  <string name="action_todo">Zaduženja</string>
+  <string name="action_quick">Brzo</string>
+  <string name="action_move">Premjesti</string>
+  <string name="action_delete">Obriši</string>
+  <string name="action_flag">Zastava</string>
+  <string name="action_star">Zvijezda</string>
+  <string name="action_star_or_flag">Zvijezda/Zastava</string>
+  <string name="action_mark_unread">Označi kao nepročitano</string>
+  <string name="action_mark_read">Označi kao pročitano</string>
+  <string name="action_read_or_unread">Pročitano/Nepročitano</string>
+  <string name="action_actions">Radnje</string>
+  <string name="marked_deleted">Označeno za brisanje</string>
   <plurals name="quick_response_sent">
     <item quantity="one">Odgovor poslan</item>
     <item quantity="few">Odgovora poslano</item>
     <item quantity="other">Odgovora poslano</item>
   </plurals>
+  <plurals name="liked_message">
+    <item quantity="one">Poruka označena sa \"Sviđa mi se\"</item>
+    <item quantity="few">Poruke označene sa \"Sviđa mi se\"</item>
+    <item quantity="other">Poruka označeno sa \"Sviđa mi se\"</item>
+  </plurals>
+  <string name="not_installed">Nije instalirano</string>
+  <string name="custom_mailbox_settings_label">Postavke</string>
+  <string name="custom_mailbox_background_sync_switch_on">Uključen</string>
+  <string name="custom_mailbox_background_sync_switch_off">Isključen</string>
+  <string name="custom_mailbox_delete_box_dialog_title">Upozorenje</string>
+  <string name="viral_ratings_prompt_no_thanks">Ne, hvala</string>
+  <string name="viral_ratings_prompt_rate_now">Ocijeni sada</string>
+  <string name="promo_code_edittext_hint">Unesite promotivni kod</string>
+  <string name="promo_code_button_text">Pošalji</string>
+  <string name="actions_dialog_title">Prilagodba</string>
+  <string name="actions_dialog_negative_button_text">Zatvori</string>
+  <string name="account_setup_vendor_heading">Dobrodošli u e-poštu</string>
+  <string name="new_button">Nova</string>
+  <string name="folder_name_hint">Naziv mape</string>
+  <string name="create_folder_progess">Stvaranje mape\u2026</string>
+  <string name="duplicate_folder_message">Naziv mape koji ste unijeli već postoji.</string>
+  <string name="error">Greška</string>
+  <string name="report_rendering_problem">Prijavi</string>
+  <string name="accept">Prihvati</string>
+  <string name="maybe">Možda</string>
+  <string name="decline">Odbij</string>
+  <string name="calendar_attendees_me_only">Ja</string>
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ja &amp; %d drugi</item>
+    <item quantity="few">Ja &amp; %d drugih</item>
+    <item quantity="other">Ja &amp; %d drugih</item>
+  </plurals>
+  <string name="all_day">Cijeli dan</string>
+  <string name="canceled">Otkazano</string>
+  <string name="busy">Zauzeto</string>
+  <string name="available">Dostupno</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d drugi konflikt</item>
+    <item quantity="few">%d druga konflikta</item>
+    <item quantity="other">%d drugih konflikata</item>
+  </plurals>
+  <string name="error_no_app_store">Nije pronađena odgovarajuća aplikacija za trgovinu</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALIRAJ</string>
+  <string name="calendar_feature_dialog_negative_btn">NE SAD</string>
 </resources>

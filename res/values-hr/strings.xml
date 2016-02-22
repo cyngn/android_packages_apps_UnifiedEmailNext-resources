@@ -61,7 +61,7 @@
   <string name="report_spam">Prijavite neželjenu poštu</string>
   <string name="mark_not_spam">Prijav. da nije neželj. pošta</string>
   <string name="report_phishing">Prijavite krađu identiteta</string>
-  <string name="delete">Izbriši</string>
+  <string name="delete">Obriši</string>
   <string name="discard_drafts">Odbaci skice</string>
   <string name="refresh">Osvježi</string>
   <string name="reply">Odgovor</string>
@@ -164,6 +164,16 @@
   <string name="confirm_discard_text">Odbaciti ovu poruku?</string>
   <string name="loading_conversations">Učitavanje…</string>
   <string name="undo">Poništi</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Uklonjena zvjezdica <xliff:g id="count">%1$d</xliff:g> razgovora.</item>
+    <item quantity="few">Uklonjene zvjezdice <xliff:g id="count">%1$d</xliff:g> razgovora.</item>
+    <item quantity="other">Uklonjene zvjezdice <xliff:g id="count">%1$d</xliff:g> razgovora.</item>
+  </plurals>
+  <plurals name="conversation_muted">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; utišan.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; utišana.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; utišanih.</item>
+  </plurals>
   <plurals name="conversation_spammed">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; prijavljeno kao neželjeno.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; prijavljeno kao neželjeno.</item>
@@ -179,6 +189,11 @@
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeno kao nevažno.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeno kao nevažno.</item>
   </plurals>
+  <plurals name="conversation_phished">
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; prijavljen kao pecanje.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; prijavljeno kao pecanje.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; prijavljenih kao pecanje.</item>
+  </plurals>
   <plurals name="conversation_archived">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arhiviran.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arhivirana.</item>
@@ -192,6 +207,11 @@
   <string name="deleted">Izbrisano</string>
   <string name="archived">Arhivirano</string>
   <string name="folder_removed">Uklonjeno iz mape <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <plurals name="conversation_folder_changed">
+    <item quantity="one">Promjenjena mapa.</item>
+    <item quantity="few">Promjenjene mape.</item>
+    <item quantity="other">Promjenjenih mapa.</item>
+  </plurals>
   <string name="conversation_folder_moved">Premješteno u mapu <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <string name="search_results_header">Rezultati</string>
   <string name="search_unsupported">Pretraživanje nije podržano na ovom računu.</string>

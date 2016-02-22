@@ -23,7 +23,7 @@
   <string name="support">Поддръжка</string>
   <string name="delete_account_title">Изтриване на акаунт</string>
   <string name="delete_account_summary">Изтриване на този акаунт и всичките му настройки и данни</string>
-  <string name="delete_account_confirmation_msg">Това ще изтрие всички настройки и имейли от акаунта <xliff:g id="account"> %s </xliff:g>. Тази операция не може да бъде отменена.\n\nContinue?</string>
+  <string name="delete_account_confirmation_msg">Това ще изтрие всички настройки и имейли от акаунта <xliff:g id="account"> %s </xliff:g>. Тази операция не може да бъде отменена.\n\nПродължавате ли?</string>
   <string name="deleting_account_msg">Изтриване на акаунт\u2026</string>
   <string name="delete_account_failed">Не може да изтриете акаунт</string>
   <string name="open_attachment">Отвори</string>

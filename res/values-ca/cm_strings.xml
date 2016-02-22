@@ -178,7 +178,7 @@
   <string name="promo_code_dialog_generic_success_msg">El codi promocional s\'ha aplicat amb èxit</string>
   <string name="promo_code_progress_dialog_validating">S\'està validant el codi promocional</string>
   <string name="rage_shake_title">Agitació detectada</string>
-  <string name="rage_shake_message">Vols provocar una fallada a l\'app per enviar la informació de depuració?</string>
+  <string name="rage_shake_message">Vols forçar el tancament de l\'aplicació per enviar la informació de depuració?</string>
   <string name="actions_dialog_title">Personalitza</string>
   <string name="actions_dialog_message">Vols utilitzar carpetes amb regularitat? Sovint marques correus com a correu brossa? T\'agrada penjar coses a Evernote? \n\nAmb les accions de lliscament personalitzades pots establir qualsevol d\'aquests gestos per ajustar-se amb el teu ritme de treball.\n</string>
   <string name="actions_dialog_positive_button_text">Personalitza gestos de lliscament</string>

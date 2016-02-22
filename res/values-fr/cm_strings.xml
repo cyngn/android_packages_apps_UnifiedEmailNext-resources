@@ -20,10 +20,10 @@
   <string name="menu_select_all">Tout sélectionner</string>
   <string name="menu_actiongrid">Grille d\'action</string>
   <string name="remove_account">Supprimer le compte</string>
-  <string name="support">Support</string>
+  <string name="support">Assistance</string>
   <string name="delete_account_title">Supprimer le compte</string>
   <string name="delete_account_summary">Supprimer ce compte avec tous ses paramètres et données</string>
-  <string name="delete_account_confirmation_msg">Ceci effacera tous les réglages et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
+  <string name="delete_account_confirmation_msg">Ceci effacera tous les paramètres et e-mails du compte <xliff:g id="account">%s</xliff:g>. Cette opération ne peut pas être annulée.\n\nContinuer ?</string>
   <string name="deleting_account_msg">Suppression du compte\u2026</string>
   <string name="delete_account_failed">Impossible de supprimer le compte</string>
   <string name="open_attachment">Ouvrir</string>
@@ -59,7 +59,7 @@
   <string name="accounts_heading">Comptes</string>
   <string name="vendor_signature">Envoyé depuis mon téléphone Cyanogen</string>
   <string name="vendor_signature_fmt">Envoyé depuis un <xliff:g id="brand" example="samsung">%s</xliff:g></string>
-  <string name="blu_signature">Envoyé depuis mon BLU phone – BLU Mail de Boxer</string>
+  <string name="blu_signature">Envoyé depuis mon téléphone BLU – BLU Mail optimisé par Boxer</string>
   <string name="vendor_signature_o2">Envoyé depuis Cyanogen sur O2</string>
   <string name="notification_action_mark_read">LIRE</string>
   <string name="notification_action_reply">RÉPONDRE</string>
@@ -93,7 +93,7 @@
   <string name="action_grid_set_due_date">Définir la date d\'échéance</string>
   <string name="action_grid_due">Échéance : <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Ajouter priorité</string>
-  <string name="action_grid_priority">Priorité: </string>
+  <string name="action_grid_priority">Priorité : </string>
   <string name="action_grid_add_assignee">Ajouter propriétaire</string>
   <string name="action_grid_assignee">Propriétaire : \u0020</string>
   <string name="action_grid_due_date_dialog_title">Définir la date d\'échéance</string>

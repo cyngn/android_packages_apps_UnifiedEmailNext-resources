@@ -20,7 +20,7 @@
   <string name="from">Från</string>
   <string name="to">Till</string>
   <string name="cc">Kopia</string>
-  <string name="bcc">Hemlig kopia</string>
+  <string name="bcc">Bcc</string>
   <string name="subject_hint">Ämne</string>
   <string name="body_hint">Skriv ett e-postmeddelande</string>
   <string name="add_file_attachment">Bifoga fil</string>
@@ -175,10 +175,6 @@
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som Inte skräppost.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som Inte skräppost.</item>
   </plurals>
-  <plurals name="conversation_not_important">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har markerats som oviktig.</item>
-    <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har markerats som oviktig.</item>
-  </plurals>
   <plurals name="conversation_phished">
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som nätfiske.</item>
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som nätfiske.</item>
@@ -188,8 +184,8 @@
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har arkiverats.</item>
   </plurals>
   <plurals name="conversation_deleted">
-    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har tagits bort.</item>
-    <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har tagits bort.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; är borttagen.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; är borttagna.</item>
   </plurals>
   <string name="deleted">Borttagen</string>
   <string name="archived">Arkiverad</string>

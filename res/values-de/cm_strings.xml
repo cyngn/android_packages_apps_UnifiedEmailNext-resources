@@ -23,7 +23,7 @@
   <string name="support">Support</string>
   <string name="delete_account_title">Konto löschen</string>
   <string name="delete_account_summary">Dieses Konto samt Einstellungen und Daten löschen</string>
-  <string name="delete_account_confirmation_msg">Dieser Vorgang löscht alle Einstellungen und E-Mails des Kontos <xliff:g id="account">%s</xliff:g>. Dieser Vorgang kann nicht rückgängig gemacht werden\n\nFortfahren?</string>
+  <string name="delete_account_confirmation_msg">Diese Aktion löscht alle Einstellungen und E-Mails des Kontos <xliff:g id="account">%s</xliff:g>. Dieser Vorgang kann nicht rückgängig gemacht werden\n\nFortfahren?</string>
   <string name="deleting_account_msg">Konto wird gelöscht\u2026</string>
   <string name="delete_account_failed">Das Konto konnte nicht gelöscht werden.</string>
   <string name="open_attachment">Öffnen</string>
@@ -31,8 +31,8 @@
   <string name="menu_photo_print">Drucken</string>
   <string name="contextmenu_view_image">Bild anzeigen</string>
   <plurals name="to_header">
-    <item quantity="one"> &amp; %d anderer</item>
-    <item quantity="other">&amp; %d andere</item>
+    <item quantity="one"> und %d anderer</item>
+    <item quantity="other"> und %d anderer</item>
   </plurals>
   <plurals name="conversation_todo">
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als zu erledigen markiert.</item>
@@ -41,8 +41,8 @@
   <string name="reported_as_spam">Als Spam gemeldet</string>
   <string name="new_incoming_messages_one">Neue Nachricht von <xliff:g id="sender">%s</xliff:g> anzeigen.</string>
   <plurals name="new_incoming_messages_many">
-    <item quantity="one">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachricht.</item>
-    <item quantity="other">Zeige <xliff:g id="count">%1$d</xliff:g> neue Nachrichten.</item>
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neue Nachricht anzeigen.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> neue Nachrichten anzeigen.</item>
   </plurals>
   <string name="edit">Bearbeiten</string>
   <string name="folder_search_hint">Suchen</string>
@@ -52,7 +52,7 @@
   </string-array>
   <string-array name="change_folders_sections">
     <item>Smart Labels</item>
-    <item>Alle Bezeichnungen</item>
+    <item>Alle Labels</item>
   </string-array>
   <string name="boxes_heading">Boxen</string>
   <string name="all_folders_heading">Ordner</string>
@@ -118,7 +118,7 @@
   <string name="action_todo">To-Do</string>
   <string name="action_quick">Schnell</string>
   <string name="action_move">Verschieben</string>
-  <string name="action_label">Beschriftung</string>
+  <string name="action_label">Kennzeichnen</string>
   <string name="action_move_or_label">Verschieben/Kennzeichnen</string>
   <string name="action_archive">Archiv</string>
   <string name="action_delete">Löschen</string>
@@ -155,7 +155,7 @@
   <string name="custom_mailbox_button">Benutzerdefiniertes Feld hinzufügen</string>
   <string name="custom_mailbox_settings_label">Einstellungen</string>
   <string name="custom_mailbox_folder_name_hint">Benutzerdefinierter Feldname</string>
-  <string name="custom_mailbox_background_sync_label">Hintergrund-Synchronisierung</string>
+  <string name="custom_mailbox_background_sync_label">Hintergrundsynchronisierung</string>
   <string name="custom_mailbox_background_sync_switch_on">An</string>
   <string name="custom_mailbox_background_sync_switch_off">Aus</string>
   <string name="custom_mailbox_delete_box">Feld löschen</string>
@@ -168,7 +168,7 @@
   <string name="viral_ratings_prompt_remind_me_later">Später erinnern</string>
   <string name="viral_ratings_prompt_no_thanks">Nein danke!</string>
   <string name="viral_ratings_prompt_rate_now">Jetzt bewerten</string>
-  <string name="promo_code_title_text">Kämpfen Sie nicht alleine gegen Ihren Posteingang.</string>
+  <string name="promo_code_title_text">Kämpfen Sie nicht alleine gegen Ihren Posteingang</string>
   <string name="promo_code_edittext_hint">Promo-Code eingeben</string>
   <string name="promo_code_button_text">Absenden</string>
   <string name="promo_code_error_no_code_entered">Bitte geben Sie einen Promo-Code ein, bevor Sie auf Absenden drücken.</string>
@@ -211,8 +211,8 @@
   <string name="remove_series_from_cal">Serientermine aus dem Kalender entfernen</string>
   <string name="calendar_attendees_me_only">Ich</string>
   <plurals name="calendar_attendees">
-    <item quantity="one">Ich &amp; %d andere</item>
-    <item quantity="other">Ich &amp; %d andere</item>
+    <item quantity="one">Ich und %d anderer</item>
+    <item quantity="other">Ich und %d andere</item>
   </plurals>
   <string name="all_day">Ganztägig</string>
   <string name="canceled">Abgebrochen</string>
@@ -230,8 +230,8 @@
   <string name="invitation_by">Einladung von</string>
   <string name="remove_invite">Einladung entfernen</string>
   <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> hat Ihre Nachricht mit &lt;a href=\"%s\"&gt;Boxer auf Cyanogen OS&lt;/a&gt; geliked.</string>
-  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
-  <string name="calendar_feature_dialog_title">Boxer Kalender herunterladen</string>
+  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden.</string>
+  <string name="calendar_feature_dialog_title">Boxer-Kalender herunterladen</string>
   <string name="calendar_feature_dialog_msg">Boxer bietet Ihnen Features, die exklusiv mit Boxer Kalender funktionieren. Um diese Features zu erhalten, laden Sie noch heute die aktuelle Version von Boxer Kalender herunter (KOSTENLOS).</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLIEREN</string>
   <string name="calendar_feature_dialog_negative_btn">NICHT JETZT</string>

@@ -22,12 +22,12 @@
   <string name="cc">Cc</string>
   <string name="bcc">Cci</string>
   <string name="subject_hint">Objet</string>
-  <string name="body_hint">Composez un message</string>
+  <string name="body_hint">Composer un message</string>
   <string name="add_file_attachment">Joindre un fichier</string>
   <string name="add_photo_attachment">Joindre une photo</string>
   <string name="save_draft">Enregistrer le brouillon</string>
   <string name="discard">Supprimer</string>
-  <string name="compose">Nouveau message</string>
+  <string name="compose">Composer</string>
   <string-array name="compose_modes">
     <item>Répondre</item>
     <item>Répondre à tous</item>
@@ -42,7 +42,7 @@
   <string name="too_large_to_attach_multiple">Un ou plusieurs fichiers n\'ont pas été joints. La limite est de <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
   <string name="too_large_to_attach_additional">Le fichier n\'a pas été joint. Limite de <xliff:g id="MAXSIZE">%1$s</xliff:g> atteinte.</string>
   <string name="generic_attachment_problem">Impossible de joindre le fichier.</string>
-  <string name="recipient_needed">Ajoutez au moins un destinataire.</string>
+  <string name="recipient_needed">Ajouter au moins un destinataire.</string>
   <string name="recipient_error_dialog_title">Erreur de destinataire</string>
   <string name="confirm_send_title">Envoyer le message ?</string>
   <string name="confirm_send_message_with_no_subject">L\'objet du message est vide.</string>
@@ -53,7 +53,7 @@
   <string name="send">Envoyer</string>
   <string name="mark_read">Marquer comme lu</string>
   <string name="mark_unread">Marquer comme non lu</string>
-  <string name="mute">Ignorer</string>
+  <string name="mute">Couper le son</string>
   <string name="add_star">Activer le suivi</string>
   <string name="remove_star">Désactiver le suivi</string>
   <string name="remove_folder">Supprimer de <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
