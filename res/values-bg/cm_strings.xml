@@ -16,86 +16,128 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Комбинирана</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Избери всички</string>
   <string name="menu_actiongrid">Секция за действие</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Премахване на акаунт</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Поддръжка</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Изтриване на акаунт</string>
   <string name="delete_account_summary">Изтриване на този акаунт и всичките му настройки и данни</string>
   <string name="delete_account_confirmation_msg">Това ще изтрие всички настройки и имейли от акаунта <xliff:g id="account"> %s </xliff:g>. Тази операция не може да бъде отменена.\n\nПродължавате ли?</string>
   <string name="deleting_account_msg">Изтриване на акаунт\u2026</string>
   <string name="delete_account_failed">Не може да изтриете акаунт</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Отвори</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Инсталирай</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Принтирай</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Преглед на изображението</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d други</item>
     <item quantity="other">&amp; %d другите</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt; b &gt; <xliff:g id="count"> %1$d </xliff:g> &lt; /b &gt; маркирани като задание.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt; b &gt; <xliff:g id="count"> %1$d </xliff:g> &lt; /b &gt; маркирани като задание.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Добавен като спам</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Покажи новото съобщение от <xliff:g id="sender">%s </xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Покажи <xliff:g id="count">%1$d </xliff:g> ново съобщение.</item>
     <item quantity="other">Покажи <xliff:g id="count">%1$d </xliff:g> нови съобщения.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Редактиране</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Търсене</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Умни папки</item>
     <item>Всички папки</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Интелигентни етикети</item>
     <item>Всички етикети</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Кутии</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Папки</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Акаунти</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Изпратено от моя телефон с Cyanogen</string>
   <string name="vendor_signature_fmt">Изпратено от <xliff:g id="brand" example="samsung">%s </xliff:g></string>
   <string name="blu_signature">Изпратено от моя телефон BLU — Поща BLU, осигурена от Boxer</string>
   <string name="vendor_signature_o2">Изпратено от Cyanogen на O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">ПРОЧЕТИ</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ОТГОВОРИ</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ИЗТРИЙ</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d </xliff:g> ново съобщение</item>
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> нови съобщения</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Действия за плъзване</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Персонализиране на действията за леви и десни плъзвания</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Кратко плъзване наляво</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Дълго плъзване наляво</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Късо плъзване надясно</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Дълго плъзване надясно</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Принтирай</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d </xliff:g> съобщение</item>
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> съобщения</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s </xliff:g> в <xliff:g id="time">%2$s </xliff:g></string>
-  <string name="draft_to_heading">Чернова за: \u0020</string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Чернова за:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Чернова</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Скрий цитирания текст</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
-    <item quantity="one"><xliff:g id="count">%1$d </xliff:g> има прикрепен файл</item>
-    <item quantity="other"><xliff:g id="count">%1$d </xliff:g> има прикрепени файлове</item>
+    <item quantity="one"><xliff:g id="count">%1$d </xliff:g>прикрепен файл</item>
+    <item quantity="other"><xliff:g id="count">%1$d </xliff:g>прикрепени файла</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(без заглавие)</string>
   <string name="action_grid_select_quick_response">Изберете бърз отговор</string>
   <string name="action_grid_todo_dialog_title">Подробности</string>
   <string name="action_grid_set_due_date">Задайте крайната дата</string>
   <string name="action_grid_due">Поради: <xliff:g id="datestring"> %s </xliff:g></string>
   <string name="action_grid_add_priority">Добавяне на приоритет</string>
-  <string name="action_grid_priority">Приоритет: </string>
+  <string name="action_grid_priority">Приоритет:\u0020</string>
   <string name="action_grid_add_assignee">Добави изпълнител</string>
-  <string name="action_grid_assignee">Изпълнител: \u0020</string>
+  <string name="action_grid_assignee">Изпълнител:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Задайте крайната дата</string>
   <string name="action_grid_due_date_today">Днес</string>
   <string name="action_grid_due_date_tomorrow">Утре</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">Изберете от контактите</string>
   <string name="action_grid_assignee_search_for_contact">Търсене на контакт</string>
   <string name="action_grid_assignee_button_bar_clear">Изчистване</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Да изтрия ли това съобщение?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Харесва ми</string>
   <string name="action_todo">Да се направи</string>
   <string name="action_quick">Бърз</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">Отбележи като прочетено</string>
   <string name="action_read_or_unread">Четенен или непрочетен</string>
   <string name="action_actions">Действия</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Изпратен към Evernote</string>
   <string name="marked_liked">Маркирано като харесва ми</string>
   <string name="marked_archived">Маркирани за Архива</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">Маркирано като задача</string>
   <string name="marked_done">Маркирано като готово</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Изпратен отговор</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Отговорите, изпратени</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Съобщението е харесано</item>
+    <!-- Like several conversations -->
     <item quantity="other">Съобщенията са харесани</item>
   </plurals>
   <string name="invalid_selection">Невалиден избор</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Изкл.</string>
   <string name="custom_mailbox_delete_box">Изтриване на кутията</string>
   <string name="custom_mailbox_error_no_selected_folders">Моля изберете поне една папка от списъка по-долу</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Внимание</string>
   <string name="custom_mailbox_delete_box_dialog_message">Наистина ли искате да изтриете тази персонализирана кутия?</string>
   <string name="custom_mailbox_error_deleting_box">Възникна грешка при изтриването на персонализираната пощенска кутия</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Оцени тава приложение</string>
   <string name="viral_prompt_rate_app_body">Ако обичате да използвате това приложение, бихте ли, че отделили момент да го оцените? Той няма да отнеме повече от една минута. Благодаря за вашата подкрепа!</string>
   <string name="viral_ratings_prompt_remind_me_later">Напомни ми по-късно</string>
@@ -170,7 +221,7 @@
   <string name="viral_ratings_prompt_rate_now">Оцени сега</string>
   <string name="promo_code_title_text">Не се бори сам с пощата си</string>
   <string name="promo_code_edittext_hint">Въведете промо код</string>
-  <string name="promo_code_button_text">Подайте</string>
+  <string name="promo_code_button_text">Изпрати</string>
   <string name="promo_code_error_no_code_entered">Моля, въведете промо кода преди да натиснете Подайте</string>
   <string name="promo_code_error_invalid_code">Невалиден промо код</string>
   <string name="promo_code_dialog_title">Функциите са отключени</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">Използвате ли папки редовно? Маркирате ли често спам? Обичате ли клипове от Evernote? \n\nС персонализиране на плъзващите жестове, вие можете да настроите всеки един от тези жестове, за вашия начин на работа. \n</string>
   <string name="actions_dialog_positive_button_text">Персонализиране на плъзващите жестове</string>
   <string name="actions_dialog_negative_button_text">Затвори</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Добре дошли в една по-добра входяща кутия</string>
   <string name="account_setup_vendor_heading">Добре дошли в Имейл</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Харесва ли ви?</string>
   <string name="like_action_dialog_message">Открихте нашата любима функция. Когато „харесате“ съобщение, до подателя и другите получатели ще бъде изпратено писмо, което да ги уведоми за това. Това е най-бързият начин да се отговори на електронната поща.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Нов</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Име на папката</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Създаване на папка\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Дублиращо се име</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Името на папката, което въведохте вече съществува.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Грешка</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Неуспешно създаване на папка.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Докладване</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Съобщението е докладвано</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Тук няма писма.\nПлъзнете от горе надолу, за да се обнови</string>
   <string name="getting_messages">Получаване на съобщения</string>
   <string name="empty_folder">Тук няма писма.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">За съжаление! Не намерихме нищо за \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">Отлично, тук няма спам!</string>
   <string name="empty_trash_folder">Кошчето е празно. Благодаря за рециклирането!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Преглед на календара</string>
+  <!-- Response action buttons. -->
   <string name="accept">Приемам</string>
   <string name="maybe">Може би</string>
   <string name="decline">Отхвърли</string>
   <string name="remove_from_cal">Премахни от календара</string>
   <string name="remove_series_from_cal">Премахване на серия от календара</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Мен</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Аз &amp; %d друг</item>
     <item quantity="other">Аз &amp; %d други</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Цял ден</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Отменена</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Пъти работило за мен:</string>
   <string name="availability_by">Наличност по</string>
   <string name="remove_availability">Премахване на наличност</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxer ви предлага функции работещи само с календара на Boxer. За тяхното активиране изтеглете последната версия на календара Boxer (БЕЗПЛАТНО)</string>
   <string name="calendar_feature_dialog_positive_btn">ИНСТАЛИРАНЕ</string>
   <string name="calendar_feature_dialog_negative_btn">НЕ СЕГА</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Неразкрита получателите</string>
 </resources>

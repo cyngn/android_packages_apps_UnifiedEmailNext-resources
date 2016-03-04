@@ -17,229 +17,444 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Layout tests strings -->
+  <!-- Compose -->
+  <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
   <string name="from">Από</string>
+  <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to">Προς</string>
+  <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="cc">Κοιν.</string>
+  <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="bcc">Κρυφ. κοιν.</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="subject_hint">Θέμα</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="body_hint">Σύνταξη μηνύματος ηλεκτρονικού ταχυδρομείου</string>
+  <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
   <string name="add_file_attachment">Επισύναψη αρχείου</string>
+  <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
   <string name="add_photo_attachment">Επισύναψη εικόνας</string>
+  <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
   <string name="save_draft">Αποθήκευση προχείρου</string>
+  <!--  Button name: discard this message [CHAR LIMIT=15] -->
   <string name="discard">Απόρριψη</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string name="compose">Σύνταξη</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string-array name="compose_modes">
+    <!-- Reply -->
     <item>Απάντηση</item>
+    <!-- Reply all -->
     <item>Απάντ. σε όλους</item>
+    <!-- Forward -->
     <item>Προώθηση</item>
   </string-array>
+  <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
+  <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
+  <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
+  <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
   <string name="reply_attribution">Στις <xliff:g id="DATE">%s</xliff:g>, ο χρήστης <xliff:g id="PERSON">%s</xliff:g> έγραψε:</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <string name="forward_attribution">---------- Προωθημένο μήνυμα ----------&lt;br&gt;Από: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Ημερομηνία: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Θέμα: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Προς: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
   <string name="forward_attribution_no_headers">---------- Προωθημένο μήνυμα ----------</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
   <string name="cc_attribution">Κοιν.: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
+  <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
   <string name="select_attachment_type">Επιλογή τύπου συνημμένου</string>
+  <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_single">Δεν είναι δυνατή η επισύναψη αρχείων πάνω από <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_multiple">Δεν έγινε επισύναψη ενός ή περισσότερων αρχείων. Όριο <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_additional">Δεν έγινε επισύναψη του αρχείου. Το όριο <xliff:g id="MAXSIZE">%1$s</xliff:g> εξαντλήθηκε.</string>
+  <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
   <string name="generic_attachment_problem">Δεν ήταν δυνατή η επισύναψη του αρχείου.</string>
+  <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
   <string name="recipient_needed">Προσθέστε τουλάχιστον έναν παραλήπτη.</string>
+  <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <string name="recipient_error_dialog_title">Σφάλμα παραλήπτη</string>
+  <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <string name="confirm_send_title">Αποστολή μηνύματος;</string>
+  <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
   <string name="confirm_send_message_with_no_subject">Το θέμα του μηνύματος δεν περιέχει κείμενο.</string>
   <string name="confirm_send_message_with_no_body">Το κύριο μέρος του μηνύματος δεν περιέχει κείμενο.</string>
   <string name="confirm_send_message">Αποστολή του μηνύματος;</string>
+  <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
   <string name="message_discarded">Το μήνυμα απορρίφθηκε.</string>
+  <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
   <string name="custom_from_account_label">Αποστ. μην. ως:</string>
+  <!-- Menu item: send this message -->
   <string name="send">Αποστολή</string>
+  <!-- Menu item: mark this conversation as read -->
   <string name="mark_read">Επισήμανση ως αναγνωσμένης</string>
+  <!-- Menu item: mark this conversation as unread -->
   <string name="mark_unread">Επισήμανση ως μη αναγνωσμένης</string>
+  <!--  Menu item: mute this conversation -->
   <string name="mute">Σίγαση</string>
+  <!-- Menu item: add a star to this conversation -->
   <string name="add_star">Επισήμανση με αστέρι</string>
+  <!-- Menu item: remove the star from this conversation -->
   <string name="remove_star">Κατάργηση αστεριού</string>
+  <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <string name="remove_folder">Κατάργηση από το <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <!-- Menu item: archive this conversation -->
   <string name="archive">Αρχειοθέτηση</string>
+  <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
   <string name="report_spam">Αναφορά ως ανεπιθύμητης</string>
+  <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <string name="mark_not_spam">Αναφορά μη ανεπιθύμητης</string>
+  <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <string name="report_phishing">Αναφορά ηλεκτρονικού ψαρέματος</string>
+  <!-- Menu item: delete this conversation -->
   <string name="delete">Διαγραφή</string>
+  <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
   <string name="discard_drafts">Απόρριψη πρόχειρων</string>
+  <!-- Menu item: refresh the inbox -->
   <string name="refresh">Ανανέωση</string>
+  <!-- Menu item: reply to this message -->
   <string name="reply">Απάντηση</string>
+  <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
   <string name="reply_all">Απάντ. σε όλους</string>
+  <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
   <string name="resume_draft">Επεξεργασία</string>
+  <!-- Menu item: forward this message -->
   <string name="forward">Προώθηση</string>
+  <!-- Menu item: compose a new email -->
   <string name="menu_compose">Σύνταξη</string>
+  <!-- Menu item: change the folders for this conversation. -->
   <string name="menu_change_folders">Αλλαγή φακέλων</string>
+  <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
   <string name="menu_move_to">Μετακίνηση σε</string>
+  <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <string name="menu_move_to_inbox">Μεταφορά στα Εισερχόμενα</string>
+  <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <string name="menu_manage_folders">Ρυθμίσεις φακέλων</string>
+  <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
   <string name="menu_show_original">Επαναφορά αυτόμ. μεγέθους</string>
+  <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
   <string name="menu_folder_options">Ρυθμίσεις φακέλου</string>
+  <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Ρυθμίσεις</string>
+  <!-- Menu item: search through the Gmail inbox -->
   <string name="menu_search">Αναζήτηση</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
   <string name="mark_important">Επισήμανση ως σημαντικό</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
   <string name="mark_not_important">Επισήμανση ως μη σημαντικό</string>
+  <!-- Compose screen, menu item: add Cc/Bcc fields -->
   <string name="add_cc_label">Προσθήκη Κοιν./Κρ. κοιν.</string>
+  <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <string name="add_bcc_label">Προσθήκη Κρ. κοιν.</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <string name="feedback">Αποστολή σχολίων</string>
+  <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
   <string name="help_and_info">Βοήθεια</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
   <string name="quoted_text">Συμπερίληψη του αναφερόμενου κειμένου</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
   <string name="quoted_text_label">Αναφερόμενο κείμενο</string>
+  <!--  Button for including inline responses. [CHAR LIMIT=25] -->
   <string name="respond_inline">Απάντηση επί τόπου</string>
+  <!-- Format string for email addresses -->
+  <!-- Attachments -->
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
   <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
   <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> KB</string>
+  <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
   <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
+  <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <string name="attachment_image">Εικόνα</string>
+  <!-- Attachment description for video files [CHAR LIMIT=30] -->
   <string name="attachment_video">Βίντεο</string>
+  <!-- Attachment description for audio files [CHAR LIMIT=30] -->
   <string name="attachment_audio">Ήχος</string>
+  <!-- Attachment description for text files [CHAR LIMIT=30] -->
   <string name="attachment_text">Κείμενο</string>
+  <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
   <string name="attachment_application_msword">Έγγραφο</string>
+  <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
   <string name="attachment_application_vnd_ms_powerpoint">Παρουσίαση</string>
+  <!-- Attachment description for excel files [CHAR LIMIT=30] -->
   <string name="attachment_application_vnd_ms_excel">Υπολογιστικό φύλλο</string>
+  <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
+  <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
   <string name="attachment_unknown">Αρχείο <xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g></string>
+  <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">Προεπισκόπηση</string>
+  <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Αποθήκευση</string>
+  <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <string name="cancel_attachment">Ακύρωση</string>
+  <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
   <string name="download_again">Λήψη ξανά</string>
+  <!-- Dialog box title [CHAR LIMIT=30] -->
   <string name="more_info_attachment">Πληροφορίες</string>
+  <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
   <string name="no_application_found">Δεν υπάρχει εφαρμογή για το άνοιγμα αυτού του συνημμένου για προβολή.</string>
+  <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">Λήψη συνημμένου</string>
+  <!-- Dialog box message. [CHAR LIMIT=80] -->
   <string name="please_wait">Παρακαλώ περιμένετε…</string>
+  <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <string name="saved">Αποθηκεύτηκε, <xliff:g id="SIZE">%s</xliff:g></string>
+  <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <string name="download_failed">Η λήψη απέτυχε. Αγγίξτε για προσπάθεια ξανά.</string>
+  <!-- Displayed in the conversation view, as a header informing
+         the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">Συνημμένα</string>
+  <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
   <string name="menu_photo_save_all">Αποθήκευση όλων</string>
+  <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
   <string name="menu_photo_share">Κοινή χρήση</string>
+  <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
   <string name="menu_photo_share_all">Κοιν χρήση όλων</string>
+  <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
   <string name="saving">Αποθήκευση&#8230;</string>
+  <!-- Webview Context Menu Strings -->
+  <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
   <string name="choosertitle_sharevia">Κοινή χρήση μέσω</string>
+  <!-- Menu item to open a link  [CHAR LIMIT=50]-->
   <string name="contextmenu_openlink">Άνοιγμα στο πρόγραμμα περιήγησης</string>
+  <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
   <string name="contextmenu_copy">Αντιγραφή</string>
+  <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
   <string name="contextmenu_copylink">Αντιγραφή διεύθυνσης URL συνδέσμου</string>
+  <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
   <string name="contextmenu_dial_dot">Κλήση...</string>
+  <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
   <string name="contextmenu_sms_dot">SMS…</string>
+  <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">Προσθήκη επαφής</string>
+  <!-- Menu item to send an email [CHAR LIMIT=50] -->
   <string name="contextmenu_send_mail">Αποστολή μηνύματος ηλεκτρονικού ταχυδρομείου</string>
+  <!-- Menu item to show a map  [CHAR LIMIT=50]-->
   <string name="contextmenu_map">Χάρτης</string>
+  <!-- Menu item to share link  [CHAR LIMIT=50]-->
   <string name="contextmenu_sharelink">Κοινή χρήση συνδέσμου</string>
+  <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <string name="contextmenu_help">Βοήθεια</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <string name="contextmenu_feedback">Αποστολή σχολίων</string>
+  <!-- Browse list item strings -->
+  <!-- Text indicating how many messages are selected in the top action bar
+    [CHAR LIMIT=40] -->
+  <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
   <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
     <item quantity="one">Μετακίνηση συνομιλίας</item>
+    <!-- Move several conversations -->
     <item quantity="other">Μετακίνηση <xliff:g id="ID_1">%1$d</xliff:g> συνομιλιών</item>
   </plurals>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> σχετικά με <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> στις <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> σχετικά με <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> στις <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">αναγνωσμένη συνομιλία</string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">μη αναγνωσμένη συνομιλία</string>
+  <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
+    return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
+         [CHAR LIMIT=5] -->
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
+  <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
     <item quantity="one">Πρόχειρο</item>
+    <!-- Title of the screen when there are more than one draft -->
     <item quantity="other">Πρόχειρα</item>
   </plurals>
+  <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <string name="sending">Γίνεται αποστολή…</string>
+  <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <string name="send_failed">Το μήνυμα δεν εστάλη.</string>
+  <!-- String used to represent "me" when used as an object pronoun. This string is used when
+         showing the list of recipients of a message [CHAR LIMIT=15] -->
   <string name="me_object_pronun">εγώ</string>
+  <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
+         showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
   <string name="me_subject_pronun">εγώ</string>
+  <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
   <string name="inbox_folders_heading">Εισερχόμενα</string>
   <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
     <item quantity="one">Να διαγραφεί αυτή η συνομιλία;</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">Να διαγραφούν αυτές οι <xliff:g id="COUNT">%1$d</xliff:g> συνομιλίες;</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
     <item quantity="one">Να αρχειοθετηθεί αυτή η συνομιλία;</item>
+    <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">Να αρχειοθετηθούν αυτές οι <xliff:g id="COUNT">%1$d</xliff:g> συνομιλίες;</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
     <item quantity="one">Απόρριψη πρόχειρων από αυτή τη συνομιλία;</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
     <item quantity="other">Απόρριψη πρόχειρων από αυτές τις <xliff:g id="COUNT">%1$d</xliff:g> συνομιλίες;</item>
   </plurals>
+  <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Να απορριφθεί αυτό το μήνυμα;</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="loading_conversations">Γίνεται φόρτωση…</string>
+  <!-- Undo bar strings -->
+  <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">Αναίρεση</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">Κατάργηση αστεριού για <xliff:g id="COUNT">%1$d</xliff:g> συνομιλία.</item>
     <item quantity="other">Κατάργηση αστεριού για <xliff:g id="COUNT">%1$d</xliff:g> συνομιλίες.</item>
   </plurals>
+  <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; τέθηκε σε σίγαση.</item>
+    <!-- Displayed while muting several conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; τέθηκαν σε σίγαση.</item>
   </plurals>
   <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφέρθηκε ως ανεπιθύμητη.</item>
+    <!-- Displayed while reporting several conversations as spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφέρθηκαν ως ανεπιθύμητες.</item>
   </plurals>
   <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορά ως μη ανεπιθύμητη.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ως μη ανεπιθύμητες.</item>
   </plurals>
   <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκε ως μη σημαντική.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; επισημάνθηκαν ως μη σημαντικές.</item>
   </plurals>
   <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορά ηλεκτρονικού ψαρέματος.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αναφορές ηλεκτρονικού ψαρέματος.</item>
   </plurals>
   <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αρχειοθετήθηκε.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; αρχειοθετήθηκαν.</item>
   </plurals>
   <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; διαγράφηκε.</item>
+    <!-- Displayed while deleting multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; διαγράφηκαν.</item>
   </plurals>
+  <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">Διαγράφηκε</string>
+  <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">Αρχειοθετήθηκε</string>
+  <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
   <string name="folder_removed">Καταργήθηκε από το <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
   <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
     <item quantity="one">Έγινε αλλαγή φακέλου.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
     <item quantity="other">Έγινε αλλαγή φακέλων.</item>
   </plurals>
+  <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
   <string name="conversation_folder_moved">Μεταφέρθηκε στο φάκελο <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">Αποτελέσματα</string>
+  <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
   <string name="search_unsupported">Η αναζήτηση δεν υποστηρίζεται σε αυτόν τον λογαριασμό.</string>
+  <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
   <string name="search_results_searching_header">Αναζήτηση…</string>
+  <!-- Conversation view -->
+  <!--  Text anchor for control to add / change labels on a conversation when
+          viewing it. [CHAR LIMIT=40] -->
   <string name="add_label">Προσθήκη φακέλου</string>
+  <!-- Conversation message header strings -->
+  <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="expand_recipient_details">Ανάπτυξη στοιχείων παραλήπτη</string>
+  <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="collapse_recipient_details">Σύμπτυξη στοιχείων παραλήπτη</string>
+  <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
   <string name="contact_info_string">Εμφάνιση στοιχείων επικοινωνίας για τον χρήστη <xliff:g id="NAME">%1$s</xliff:g></string>
+  <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <string name="contact_info_string_default">Εμφάνιση στοιχείων επικοινωνίας</string>
+  <!-- Shown in collapsed mode when a conversation has more than one read message.
+         The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <plurals name="show_messages_read">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> παλαιότερα μηνύματα</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> παλαιότερα μηνύματα</item>
   </plurals>
+  <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <string name="from_heading">Από: </string>
+  <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">Απάντ. σε: </string>
+  <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to_heading">Προς: </string>
+  <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="cc_heading">Κοιν.: </string>
+  <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="bcc_heading">Κρυφή κοιν.: </string>
+  <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="date_heading">Ημερομηνία: </string>
+  <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
   <string name="show_images">Εμφάνιση εικόνων</string>
+  <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
   <string name="always_show_images">Πάντα εμφ. εικ. από αυτόν τον αποστολέα</string>
+  <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
   <string name="always_show_images_toast">Εικόνες από αυτόν τον αποστολέα θα εμφανίζονται αυτόματα.</string>
+  <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
+  <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
   <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> μέσω <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
+  <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
   <string name="message_saved">Το μήνυμα αποθηκεύτηκε ως πρόχειρο.</string>
+  <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <string name="sending_message">Αποστολή μηνύματος...</string>
+  <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <string name="invalid_recipient">Η διεύθυνση <xliff:g id="WRONGEMAIL">%s</xliff:g> δεν είναι έγκυρη.</string>
+  <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">▶ Εμφάνιση αναφερόμενου κειμένου</string>
+  <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
   <string name="hide_elided">▼ Απόκρυψη αναφερόμενου κειμένου</string>
+  <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">Πρόσκληση ημερολογίου</string>
+  <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
   <string name="message_invite_calendar_view">Προβολή στο Ημερολόγιο</string>
+  <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
   <string name="message_invite_label_attending">Θα παρευρεθείτε;</string>
+  <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_accept">Ναι</string>
+  <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_tentative">Ίσως</string>
+  <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_decline">Όχι</string>
+  <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <string name="enumeration_comma">, </string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="yes">Ναι</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="no">Όχι</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="ok">OK</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="done">Τέλος</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Ακύρωση</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="clear">Διαγραφή</string>
+  <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
   <string-array name="sync_status">
     <item>Επιτυχία</item>
     <item>Δεν υπάρχει σύνδεση.</item>
@@ -248,123 +463,269 @@
     <item>Δεν ήταν δυνατός ο συγχρονισμός.</item>
     <item>Εσωτερικό σφάλμα</item>
   </string-array>
+  <!-- Widget strings -->
+  <!-- Displayed when user adds a new widget. Tapping on the widget in this
+          mode will bring user to the account selection screen [CHAR LIMIT=35] -->
   <string name="tap_to_configure">Αγγίξτε για ρύθμιση</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
   <string name="non_synced_folder_description">Για προβολή των συνομιλιών, συγχρονίστε αυτόν το φάκελο.</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
+         button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <string name="tap_to_configure_folder_sync">Συγχρονισμός φακέλου</string>
+  <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%d+</string>
   <plurals name="actionbar_unread_messages">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> μη αναγνωσμένο</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> μη αναγνωσμένα</item>
   </plurals>
+  <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ μη αναγνωσμένα</string>
+  <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
   <string name="view_more_conversations">Προβολή περισσότερων συνομιλιών</string>
+  <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
   <string name="activity_mailbox_selection">Επιλογή λογαριασμού</string>
+  <!-- Name of the Folders activity [CHAR LIMIT=30] -->
   <string name="activity_folder_selection">Επιλογή φακέλου</string>
+  <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <string name="folder_shortcut_widget_label">Φάκελος email</string>
+  <!-- Folder selection dialog -->
+  <!-- Title for change folders dialog [CHAR LIMIT=30] -->
   <string name="change_folders_selection_dialog_title">Αλλαγή φακέλων</string>
+  <!-- Title for move to dialog [CHAR LIMIT=30] -->
   <string name="move_to_selection_dialog_title">Μετακίνηση σε</string>
+  <!-- Search -->
+  <!-- Title of the search dialog -->
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Αναζήτηση μηνυμάτων ηλ. ταχ.</string>
+  <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
+  <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
   <string name="network_error">Δεν υπάρχει σύνδεση</string>
+  <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
   <string name="retry">Επανάληψη</string>
+  <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
   <string name="load_more">Φόρτωση περισσότερων</string>
+  <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
+  <!-- Shortcut strings -->
+  <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
   <string name="shortcut_name_title">Όνομα συντόμευσης φακέλου</string>
+  <!-- Wait fragment strings -->
+  <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
   <string name="wait_for_sync_title">Αναμονή για συγχρονισμό</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <string name="wait_for_sync_body">Η αλληλογραφία θα εμφανιστεί σύντομα.</string>
+  <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
   <string name="not_synced_title">Ο λογαριασμός δεν συγχρονίστηκε</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
   <string name="wait_for_manual_sync_body">Ο λογαριασμός αυτός δεν έχει ρυθμιστεί για αυτόματο συγχρονισμό.\nΑγγίξτε <b>Συγχρ. τώρα</b> για συγχρονισμό της αλληλογραφίας μία φορά ή <b>Αλλαγή ρυθμίσεων συγχρονισμού</b> για να ρυθμίσετε το λογαριασμό για αυτόματο συγχρονισμό της αλληλογραφίας.</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
   <string name="manual_sync">Συγχρ. τώρα</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
   <string name="change_sync_settings">Αλλαγή ρυθμίσεων συγχρονισμού</string>
+  <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
   <string name="photo_load_failed">Αδύνατη η φόρτωση της εικόνας</string>
+  <!--  The move message / change labels action can't be taken because the selected messages
+        come from different accounts -->
   <string name="cant_move_or_change_labels">Δεν είναι δυνατή η μετακίνηση επειδή η επιλογή περιλαμβάνει πολλούς λογαριασμούς.</string>
+  <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
+         Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
+  <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+  <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <string name="ignore_spam_warning">Παράβλεψη, αξιόπιστο μήνυμα</string>
+  <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
   <string name="via_domain">μέσω <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
+  <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">Σύνδεση</string>
+  <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
   <string name="info">Πληροφορίες</string>
+  <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <string name="report">Αναφορά</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <string name="sync_error">Δεν ήταν δυνατός ο συγχρονισμός.</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
   <string name="sync_error_message">Η συσκευή σας δεν διαθέτει επαρκή χώρο αποθήκευσης για συγχρονισμό.</string>
+  <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">Χώρος αποθήκευσης</string>
+  <!-- Token used as a divider between senders -->
   <string name="senders_split_token">, </string>
   <string name="draft_count_format"> (<xliff:g id="COUNT">%1$s</xliff:g>)</string>
+  <!-- Token to replace senders that are not visible -->
+  <!-- Token used to space out elided senders that are not visible -->
+  <!-- Token used to space out message count, draft text, and senders -->
+  <!-- String used in the FolderListFragment to mark the start of recent folders -->
   <string name="recent_folders_heading">Πρόσφατοι φάκελοι</string>
+  <!-- Dialog title when showing message header details in a popup window. [CHAR LIMIT=100]-->
   <string name="message_details_title">Λεπτομέρειες μηνύματος</string>
+  <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
   <string name="auto_advance_label">Αυτόματη συνέχιση</string>
+  <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
   <string name="auto_advance_summary">Επιλογή οθόνης που εμφανίζεται μετά τη διαγραφή ενός μηνύματος</string>
+  <!-- Title of the dialog that appears the first time they perform an action that would cause
+         auto advance logic to fire [CHAR LIMIT=70] -->
   <string name="auto_advance_help_title">Ορισμός προτίμησης αυτόματης προώθησης\n(μετά τη διαγραφή, κ.λπ.)</string>
+  <!-- The auto-advance modes -->
   <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
     <item>Νεότερες</item>
+    <!-- Older conversation -->
     <item>Παλαιότερες</item>
+    <!-- Conversation list -->
     <item>Λίστα συνομιλιών</item>
   </string-array>
+  <!-- Description for each auto-advance option to display after the user has picked one -->
+  <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <string-array name="prefSummaries_autoAdvance">
+    <!-- Newer conversation -->
     <item>Εμφάνιση νεότερης συνομιλίας μετά τη διαγραφή</item>
+    <!-- Older conversation -->
     <item>Εμφάνιση παλαιότερης συνομιλίας μετά τη διαγραφή</item>
+    <!-- Conversation list -->
     <item>Εμφάνιση λίστας συνομιλιών μετά τη διαγραφή</item>
   </string-array>
+  <!-- TODO: these pref keys that are never user visible should probably be
+    moved to a donttranslate file -->
+  <!-- The default auto-advance mode -->
+  <!-- The auto-advance mode values -->
+  <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
   <string name="clear_display_images_whitelist_title">Διαγραφή εγκρίσεων εικόνας</string>
+  <!-- Settings screen, title of dialog shown to confirm action when user taps
+    "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
   <string name="clear_display_images_whitelist_dialog_title">Να διαγραφούν οι εγκρίσεις εικόνας;</string>
+  <!-- Settings screen, message of dialog shown to confirm action when tapping
+    "Clear picture approvals" [CHAR LIMIT=1000]-->
   <string name="clear_display_images_whitelist_dialog_message">Διακόψτε την εμφάνιση ενσωματωμένων εικόνων από αποστολείς που έχετε προηγουμένως επιτρέψει.</string>
+  <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <string name="sender_whitelist_cleared">Οι εικόνες δεν θα εμφανίζονται αυτόματα.</string>
+  <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_title">Υπογραφή</string>
+  <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_dialog_title">Υπογραφή</string>
+  <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
   <string name="preferences_signature_summary_not_set">Δεν ορίστηκε</string>
+  <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply_all">Απάντηση σε όλους</string>
+  <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
   <string name="notification_action_archive">Αρχειοθέτηση</string>
+  <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
   <string name="notification_action_remove_label">Κατάργηση ετικέτας</string>
+  <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_archive">Αρχειοθετημένο</string>
+  <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_remove_label">Η ετικέτα καταργήθηκε</string>
+  <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_delete">Διαγραμμένο</string>
+  <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
+  <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
+  <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
   <string name="silent_ringtone">Σίγαση</string>
+  <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <string name="preference_removal_action_title">Ενέργειες αρχειοθέτησης και διαγραφής</string>
+  <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <string-array name="prefEntries_removal_action">
     <item>Εμφάνιση μόνο αρχειοθέτησης</item>
     <item>Εμφάνιση μόνο διαγραφής</item>
     <item>Εμφάνιση αρχειοθέτησης και διαγραφής</item>
   </string-array>
+  <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <string-array name="prefSummaries_removal_action_summary">
     <item>Εμφάνιση μόνο αρχειοθέτησης</item>
     <item>Εμφάνιση μόνο διαγραφής</item>
     <item>Εμφάνιση αρχειοθέτησης και διαγραφής</item>
   </string-array>
+  <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <string name="prefDialogTitle_removal_action">Ενέργειες αρχειοθέτησης και διαγραφής</string>
+  <!-- The default value -->
+  <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
   <string name="preferences_default_reply_all_title">Απάντηση σε όλους</string>
+  <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
   <string name="preferences_default_reply_all_summary">Χρήση ως προεπιλογή για απαντήσεις μηνυμάτων</string>
+  <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <string name="preference_swipe_title_archive">Σύρετε για αρχειοθέτηση</string>
+  <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <string name="preference_swipe_title_delete">Ολίσθηση για διαγραφή</string>
+  <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <string name="preference_swipe_description">Στη λίστα συνομιλιών</string>
+  <!-- In conversation list, when user initiates a downward swipe,
+        this text is displayed in the action bar as a hint that they can trigger a
+        sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
   <string name="swipe_down_to_refresh">Σύρετε προς τα κάτω για ανανέωση</string>
+  <!-- In conversation list, when user has triggered a sync via a downward swipe,
+        this text is displayed in the action bar for a brief moment to
+    indicate that a sync is in progress.  [CHAR LIMIT=60] -->
   <string name="checking_for_mail">Γίνεται έλεγχος για αλληλογραφία</string>
+  <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
   <string name="empty_trash">Άδειασμα κάδου απορριμάτων</string>
+  <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
   <string name="empty_spam">Άδειασμα ανεπιθύμητων μηνυμάτων</string>
+  <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_trash_dialog_title">Άδειασμα κάδου απορριμάτων;</string>
+  <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_spam_dialog_title">Άδειασμα ανεπιθύμητων μηνυμάτων;</string>
+  <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> μήνυμα θα διαγραφεί οριστικά.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> μηνύματα θα διαγραφούν οριστικά.</item>
   </plurals>
+  <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <string name="drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
   <string name="drawer_close">Κλείσιμο συρταριού πλοήγησης</string>
   <string name="conversation_photo_welcome_text">Αγγίξτε την εικόνα ενός αποστολέα για να επιλέξετε αυτήν τη συνομιλία.</string>
   <string name="long_press_to_select_tip">Αγγίξτε παρατεταμένα για να επιλέξετε μια συνομιλία και στη συνέχεια αγγίξτε για να επιλέξετε περισσότερες.</string>
+  <!-- Content description for the folder icon for nested folders. -->
   <string name="folder_icon_desc">Εικονίδιο φακέλου</string>
+  <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
   <string name="add_account">Προσθήκη λογαριασμού</string>
+  <!-- Action bar title for viewing messages that are attached to another message. -->
   <string name="attached_message">Συνημμένο μήνυμα</string>
+  <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
   <string name="date_message_received_yesterday">Χθες, <xliff:g id="TIME">%1$s</xliff:g></string>
+  <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
   <string name="dismiss_tip_hover_text">Παράβλεψη συμβουλής</string>
+  <!-- Tip for letting user know that their device auto-sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
   <string name="auto_sync_off">Ο αυτόματος συγχρονισμός είναι απενεργοποιημένος.</string>
+  <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
   <string name="tap_to_enable_sync">Αγγίξτε για ενεργοποίηση.</string>
+  <!-- Tip for letting user know that their account level sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
   <string name="account_sync_off">Ο συγχρονισμός του λογαριασμού είναι απενεργοποιημένος.</string>
+  <!-- Hint text for user to enable sync in Gmail's account settings.
+         The whole string should read "Turn on in Account settings.", but because we need
+         "Account settings" to appear as blue link text, it's a parameter here.
+         [CHAR LIMIT=250] -->
   <string name="enable_sync_in_account_settings">Ενεργοποιήστε τον στην ενότητα <xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g> .</string>
+  <!-- This is used as a parameter to another string and combined reads
+         "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Ρυθμίσεις λογαριασμού</string>
+  <!-- Hint text that there are X number of unsent messages users
+    Outbox. [CHAR LIMIT=250] -->
   <string name="unsent_messages_in_outbox"><xliff:g id="NUMBER">%1$s</xliff:g> μη απεσταλμένα σε <xliff:g id="OUTBOX">%2$s</xliff:g></string>
+  <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
   <string name="turn_auto_sync_on_dialog_title">Ενεργοποίηση αυτόματου συγχρονισμού;</string>
+  <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
   <string name="turn_auto_sync_on_dialog_body">Θα γίνει συγχρονισμός όλων των αλλαγών που πραγματοποιείτε σε όλες τις εφαρμογές και τους λογαριασμούς, όχι μόνο στο Gmail, στον ιστό, σε άλλες συσκευές και στο <xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g> σας.</string>
+  <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">τηλέφωνo</string>
+  <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
   <string name="tablet">tablet</string>
+  <!-- Confirm button text for dialog to turn auto-sync on [CHAR
+         LIMIT=30] -->
   <string name="turn_auto_sync_on_dialog_confirm_btn">Ενεργοποίηση</string>
+  <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <string name="show_n_more_folders">Εμφάνιση <xliff:g id="NUMBER">%1$s</xliff:g> ακόμη φακέλων</string>
+  <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <string name="hide_folders">Απόκρυψη φακέλων</string>
 </resources>

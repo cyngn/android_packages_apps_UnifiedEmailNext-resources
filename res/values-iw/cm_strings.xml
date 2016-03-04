@@ -16,77 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">משולב</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">בחר הכל</string>
   <string name="menu_actiongrid">מרכז פעולות</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">הסר חשבון</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">תמיכה</string>
+  <!-- Delete account -->
   <string name="delete_account_title">מחק חשבון</string>
   <string name="delete_account_summary">מחק חשבון זה ואת כל ההגדרות והנתונים שלו</string>
   <string name="delete_account_confirmation_msg">פעולה זאת תמחק את כל ההגדרות וההודעות של החשבון \"<xliff:g id="account">%s</xliff:g>\". פעולה זו אינה ניתנת לשחזור.\n\nלהמשיך?</string>
   <string name="deleting_account_msg">מוחק חשבון\u2026</string>
   <string name="delete_account_failed">לא הצליח למחוק את החשבון</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">פתח</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">התקן</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">הדפס</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">הצג תמונה</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> ו-%d נוסף</item>
     <item quantity="other">ו-%d נוספים</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנת לביצוע.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">דווח כדואר זבל</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">הראה הודעה חדשה מ-<xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">הראה הודעה <xliff:g id="count">%1$d</xliff:g> חדשה.</item>
     <item quantity="other">הראה <xliff:g id="count">%1$d</xliff:g> הודעות חדשות.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">ערוך</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">חיפוש</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>תיקיות חכמות</item>
     <item>כל התיקיות</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>תוויות חכמות</item>
     <item>כל התוויות</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">תיבות</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">תיקיות</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">חשבונות</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">נשלח ממכשיר ה-Cyanogen שלי</string>
   <string name="vendor_signature_fmt">נשלח מ-<xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">נשלח ממכשיר ה-BLU שלי - דוא\"ל BLU דרך Boxer</string>
   <string name="vendor_signature_o2">נשלח מ-Cyanogen ברשת O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">קרא</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">השב</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">מחק</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g> חדשה</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">פעולות החלקה</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">התאם אישית פעולות החלקה ימינה ושמאלה</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">החלקה קצרה שמאלה</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">החלקה ארוכה שמאלה</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">החלקה קצרה ימינה</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">החלקה ארוכה ימינה</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">הדפס</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> ב-<xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">טיוטה ל:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">טיוטה</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">טקסט מצוטט מוסתר</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one">קובץ מצורף <xliff:g id="count">%1$d</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> קבצים מצורפים</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(ללא נושא)</string>
   <string name="action_grid_select_quick_response">בחר תגובה מהירה</string>
   <string name="action_grid_todo_dialog_title">פרטים</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">בחר מאנשי הקשר</string>
   <string name="action_grid_assignee_search_for_contact">חפש איש קשר</string>
   <string name="action_grid_assignee_button_bar_clear">הסר</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">האם למחוק הודעה זו?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">אהבתי</string>
   <string name="action_todo">לביצוע</string>
   <string name="action_quick">מהיר</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">סמן כנקראה</string>
   <string name="action_read_or_unread">נקראה/לא נקראה</string>
   <string name="action_actions">פעולות</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">נשלח ל-Evernote</string>
   <string name="marked_liked">סומן כ\"אהבתי\"</string>
   <string name="marked_archived">מסומן להעברה לארכיון</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">מסומן לביצוע</string>
   <string name="marked_done">מסומן כבוצע</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">התגובה נשלחה</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">התגובות נשלחו</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">אהבתי את ההודעה</item>
+    <!-- Like several conversations -->
     <item quantity="other">אהבתי את ההודעות</item>
   </plurals>
   <string name="invalid_selection">בחירה לא חוקית</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">כבוי</string>
   <string name="custom_mailbox_delete_box">מחק תיבה</string>
   <string name="custom_mailbox_error_no_selected_folders">אנא בחר תיקייה אחת לפחות מרשימה זו</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">אזהרה</string>
   <string name="custom_mailbox_delete_box_dialog_message">האם אתה בטוח שברצונך למחוק תיבה מותאמת אישית זו?</string>
   <string name="custom_mailbox_error_deleting_box">אירעה שגיאה בעת מחיקת התיבה המותאמת אישית שלך</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">דרג יישום זה</string>
   <string name="viral_prompt_rate_app_body">אם אתה נהנה מיישום זה, האם תוכל לקחת רגע ולדרג אותו? זה לא ייקח יותר מדקה. תודה רבה על תמיכתך!</string>
   <string name="viral_ratings_prompt_remind_me_later">הזכר לי מאוחר יותר</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">האם אתה משתמש בתיקיות באופן קבוע? מסמן כדואר זבל בלי הפסקה? אוהב להשתמש ב-Evernote?\n\nעם פעולות החלקה מותאמות אישית, אתה יכול להתאים כל אחת מפעולות אלו לרצף העבודה שלך.\n</string>
   <string name="actions_dialog_positive_button_text">התאם אישית החלקות</string>
   <string name="actions_dialog_negative_button_text">סגור</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">ברוכים הבאים לדוא\"ל טוב יותר</string>
   <string name="account_setup_vendor_heading">ברוכים הבאים לדואר האלקטרוני</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">מה זה \"אהבתי\"?</string>
   <string name="like_action_dialog_message">מצאת את התכונה החביבה עלינו. כשאתה מסמן הודעה כ\"אהבתי\", דוא\"ל יישלח לשולח ולנמענים נוספים על מנת שידעו שאהבת את זה. זו הדרך המהירה ביותר להגיב לדוא\"ל כיום.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">חדש</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">שם התיקייה</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">יוצר תיקייה\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">שם כפול</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">שם התיקייה שהכנסת כבר קיים.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">שגיאה</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">לא ניתן היה ליצור את התיקייה.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">דווח</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">ההודעה דווחה</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">אין כאן דואר.\nמשוך למטה מהקצה העליון של המסך בשביל לרענן</string>
   <string name="getting_messages">מקבל את ההודעות שלך</string>
   <string name="empty_folder">אין כאן דואר.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">אופס! לא מצאנו דבר בשביל \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">הידד, אין כאן דואר זבל!</string>
   <string name="empty_trash_folder">אין זבל כאן! תודה שמיחזרת!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">הצג בלוח השנה</string>
+  <!-- Response action buttons. -->
   <string name="accept">קבל</string>
   <string name="maybe">אולי</string>
   <string name="decline">סרב</string>
   <string name="remove_from_cal">הסר מלוח השנה</string>
   <string name="remove_series_from_cal">הסר סדרה מלוח השנה</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">אני</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">אני ו-%d נוסף</item>
     <item quantity="other">אני ו-%d נוספים</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">כל היום</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">בוטל</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">זמנים שמתאימים לי:</string>
   <string name="availability_by">זמין דרך</string>
   <string name="remove_availability">הסר זמינות</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxer מספק תכונות ללוח שנה העובדות רק עם יישום Boxer Calendar. כדי להפעיל תכונה זו, הורד היום את הגרסה העדכנית של Boxer Calendar (בחינם)</string>
   <string name="calendar_feature_dialog_positive_btn">התקנה</string>
   <string name="calendar_feature_dialog_negative_btn">לא כרגע</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">נמענים לא ידועים</string>
 </resources>

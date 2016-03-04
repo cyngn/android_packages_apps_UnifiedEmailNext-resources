@@ -16,77 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Yhdistetty</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Valitse kaikki</string>
   <string name="menu_actiongrid">Toimintoruudukko</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Poista tili</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Tuki</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Poista tili</string>
   <string name="delete_account_summary">Poista tämä tili ja kaikki sen asetukset ja tiedot</string>
   <string name="delete_account_confirmation_msg">Tämä poistaa kaikki asetukset ja sähköpostit tililtä <xliff:g id="account">%s</xliff:g>. Toimintoa ei voi peruuttaa.\n\nJatketaanko?</string>
   <string name="deleting_account_msg">Poistetaan tiliä\u2026</string>
   <string name="delete_account_failed">Tiliä ei voitu poistaa</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Avaa</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Asenna</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Tulosta</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Näytä kuva</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d muu</item>
     <item quantity="other">&amp; %d muut</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; merkitty tehtäväksi.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; merkitty tehtäväksi.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Ilmoitettu roskapostiksi</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Näytä uudet viestit lähettäjältä<xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Näytä <xliff:g id="count">%1$d</xliff:g> uusi viesti.</item>
     <item quantity="other">Näytä <xliff:g id="count">%1$d</xliff:g> uutta viestiä.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Muokkaa</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Haku</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Älykkäät kansiot</item>
     <item>Kaikki kansiot</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Älykkäät tunnisteet</item>
     <item>Kaikki tunnisteet</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Laatikot</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Kansiot</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Tilit</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Lähetetty Cyanogen-puhelimesta</string>
   <string name="vendor_signature_fmt">Lähetetty <xliff:g id="brand" example="samsung">%s</xliff:g>-laitteesta</string>
   <string name="blu_signature">Lähetetty BLU-puhelimestani – BLU Mail powered by Boxer</string>
   <string name="vendor_signature_o2">Lähetetty Cyanogenin O2-puhelimesta</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LUE</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">VASTAA</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">POISTA</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> uusi viesti</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> uutta viestiä</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Pyyhkäisytoiminnot</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Mukauta pyyhkäisytoimintoja vasemmalle tai oikealle</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Vasen lyhyt pyyhkäisy</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Vasen pitkä pyyhkäisy</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Oikea lyhyt pyyhkäisy</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Oikea pitkä pyyhkäisy</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Tulosta</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> viesti</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> viestiä</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Luonnos:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Luonnos</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Lainattu teksti piilotettu</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> liite</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> liitettä</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(ei aihetta)</string>
   <string name="action_grid_select_quick_response">Valitse nopea vastaus</string>
   <string name="action_grid_todo_dialog_title">Lisätiedot</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">Valitse yhteystiedoista</string>
   <string name="action_grid_assignee_search_for_contact">Etsi yhteystieto</string>
   <string name="action_grid_assignee_button_bar_clear">Tyhjennä</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Poista tämä viesti?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Tykkää</string>
   <string name="action_todo">Tehtävät</string>
   <string name="action_quick">Nopea</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">Merkitse luetuksi</string>
   <string name="action_read_or_unread">Luettu/Lukematon</string>
   <string name="action_actions">Toiminnot</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Lähetä Evernoteen</string>
   <string name="marked_liked">Merkattu tykätyksi</string>
   <string name="marked_archived">Merkitty arkistoon</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">Merkitty tehtäväksi</string>
   <string name="marked_done">Merkitty tehdyksi</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Vastaus lähetettiin</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Vastaukset lähetettiin</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Tykätty viestistä</item>
+    <!-- Like several conversations -->
     <item quantity="other">Tykätty viesteistä</item>
   </plurals>
   <string name="invalid_selection">Virheellinen valinta</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Pois päältä</string>
   <string name="custom_mailbox_delete_box">Poista laatikko</string>
   <string name="custom_mailbox_error_no_selected_folders">Valitse vähintään yksi kansio alla olevasta luettelosta</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Varoitus</string>
   <string name="custom_mailbox_delete_box_dialog_message">Haluatko varmasti poistaa tämän mukautetun laatikon?</string>
   <string name="custom_mailbox_error_deleting_box">Virhe poistettaessa mukautettua postilaatikkoa</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Arvioi tämä sovellus</string>
   <string name="viral_prompt_rate_app_body">Jos pidät tästä sovelluksesta, voisitko arvioida sen? Se ei vie edes minuuttia. Kiitos tuestasi!</string>
   <string name="viral_ratings_prompt_remind_me_later">Muistuta myöhemmin</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">Käytätkö kansioita säännöllisesti? Merkkaatko usein roskaposteja? Rakastatko Evernotea?\n\nMukautettujen pyyhkäisytoimintojen avulla voit asettaa eleet sopivaksi työnkulkuusi.\n</string>
   <string name="actions_dialog_positive_button_text">Mukautetut pyyhkäisyt</string>
   <string name="actions_dialog_negative_button_text">Sulje</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Tervetuloa parempaan sähköpostiin</string>
   <string name="account_setup_vendor_heading">Tervetuloa sähköpostiin</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Mikä on \"Tykkää\"?</string>
   <string name="like_action_dialog_message">Löysit suosikkiominaisuutemme. Kun \"Tykkäät\" viestistä, lähettäjälle ja muille vastaanottajille lähetetään tieto että pidät viestistä. Se on nopein tapa vastata sähköpostiin.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Uusi</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Kansion nimi</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Luodaan kansiota\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Nimi on jo käytössä</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Syöttämäsi kansion nimi on jo käytössä.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Virhe</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Kansiota ei voitu luoda.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Raportoi ongelmasta</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Viesti reportoita</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Täällä ei ole postia.\nVedä ylhäältä alas päivittääksesi</string>
   <string name="getting_messages">Haetaan viestejäsi</string>
   <string name="empty_folder">Täällä ei ole postia.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">Hups! Emme löytäneet mitään hakusanalla \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Jipii, ei roskapostia!</string>
   <string name="empty_trash_folder">Täällä ei ole roskia. Kiitos että kierrätät!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Näytä kalenterissa</string>
+  <!-- Response action buttons. -->
   <string name="accept">Hyväksy</string>
   <string name="maybe">Ehkä</string>
   <string name="decline">Hylkää</string>
   <string name="remove_from_cal">Poista kalenterista</string>
   <string name="remove_series_from_cal">Poista sarja kalenterista</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Minä</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Minä &amp; %d muu</item>
     <item quantity="other">Minä &amp; %d muuta</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Koko päivä</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Peruttu</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Ajat jotka sopii minulle:</string>
   <string name="availability_by">Saatavilla</string>
   <string name="remove_availability">Poista saatavuus</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxer tarjoaa kalenteriominaisuudet jotka toimivat yksinoikeudella Boxer Calendarin kanssa. Ottaaksesi tämän ominaisuuden käyttöön, lataa uusin Boxer Calendarin versio tänään (ILMAINEN)</string>
   <string name="calendar_feature_dialog_positive_btn">ASENNA</string>
   <string name="calendar_feature_dialog_negative_btn">EI NYT</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Salaiset vastaanottajat</string>
 </resources>

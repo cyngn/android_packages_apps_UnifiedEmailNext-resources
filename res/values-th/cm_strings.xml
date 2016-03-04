@@ -16,71 +16,113 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">รวม</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">เลือกทั้งหมด</string>
   <string name="menu_actiongrid">ตารางการดำเนินการ</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">นำบัญชีออก</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">สนับสนุน</string>
+  <!-- Delete account -->
   <string name="delete_account_title">ลบบัญชีผู้ใช้</string>
   <string name="delete_account_summary">ลบบัญชีและการตั้งค่าและข้อมูลทั้งหมดของบัญชีนี้</string>
   <string name="delete_account_confirmation_msg">สิ่งนี้จะลบการตั้งค่าทั้งหมดและอีเมลของบัญชี <xliff:g id="account">%s</xliff:g> การกระทำนี้ไม่สามารถยกเลิกได้ \n\nดำเนินการต่อหรือไม่</string>
   <string name="deleting_account_msg">กำลังลบบัญชีผู้ใช้\u2026</string>
   <string name="delete_account_failed">ไม่สามารถลบบัญชีผู้ใช้ได้</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">เปิด</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">ติดตั้ง</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">พิมพ์</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">ดูรูปภาพ</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="other">และ %d อื่น ๆ</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ถูกทำเครื่องหมายเป็นจะทำ</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">ได้รับรายงานว่าเป็นสแปม</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">แสดงข้อความใหม่จาก <xliff:g id="sender">%s</xliff:g></string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="other">แสดง <xliff:g id="count">%1$d</xliff:g> ข้อความใหม่</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">แก้ไข</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">ค้นหา</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>สมาร์ทโฟลเดอร์</item>
     <item>โฟลเดอร์ทั้งหมด</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>ป้ายแบบสมาร์ท</item>
     <item>ป้ายกำกับทั้งหมด</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">กล่อง</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">โฟลเดอร์</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">บัญชี</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">ส่งจากโทรศัพท์ Cyanogen ของฉัน</string>
   <string name="vendor_signature_fmt">ส่งจาก <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">ส่งจากโทรศัพท์ BLU - BLU เมลดำเนินงานโดย Boxer</string>
   <string name="vendor_signature_o2">ส่งจาก Cyanogen บน O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">อ่าน</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ตอบ</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ลบ</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ข้อความใหม่</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">การปัด</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">ปรับแต่งการปัดทางซ้ายและขวา</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">ปัดซ้ายสั้น</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">ปัดยาวซ้าย</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">ปัดขวาสั้น</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">ปัดขวายาว</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">พิมพ์</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ข้อความ</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> เมื่อ <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">ร่างไปที่:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">ร่างจดหมาย</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">ข้อความที่อ้างถูกซ่อนอยู่</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> สิ่งที่แนบมาด้วย</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(ไม่มีหัวข้อ)</string>
   <string name="action_grid_select_quick_response">เลือกการตอบแบบรวดเร็ว</string>
   <string name="action_grid_todo_dialog_title">รายละเอียด</string>
@@ -107,7 +149,9 @@
   <string name="action_grid_assignee_select_from_contacts">เลือกจากรายชื่อติดต่อ</string>
   <string name="action_grid_assignee_search_for_contact">ค้นหารายชื่อติดต่อ</string>
   <string name="action_grid_assignee_button_bar_clear">ล้าง</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">ลบข้อความนี้?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">ชอบ</string>
   <string name="action_todo">สิ่งที่ต้องทำ</string>
   <string name="action_quick">รวดเร็ว</string>
@@ -126,6 +170,7 @@
   <string name="action_mark_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
   <string name="action_read_or_unread">อ่าน/ยังไม่ได้อ่าน</string>
   <string name="action_actions">การกระทำ</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">ส่งไป Evernote แล้ว</string>
   <string name="marked_liked">ทำเครื่องหมายว่าชอบ</string>
   <string name="marked_archived">ทำเครื่องหมายเพื่อเก็บถาวร</string>
@@ -134,9 +179,13 @@
   <string name="marked_todo">ทำเครื่องหมายเป็นสิ่งที่ต้องทำ</string>
   <string name="marked_done">ทำเครื่องหมายว่าทำเสร็จแล้ว</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
     <item quantity="other">ส่งการตอบกลับ</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
     <item quantity="other">ข้อความที่ชอบ</item>
   </plurals>
   <string name="invalid_selection">เลือกไม่ถูกต้อง</string>
@@ -152,9 +201,11 @@
   <string name="custom_mailbox_background_sync_switch_off">ปิด</string>
   <string name="custom_mailbox_delete_box">ลบกล่อง</string>
   <string name="custom_mailbox_error_no_selected_folders">กรุณาเลือกอย่างน้อยหนึ่งโฟลเดอร์จากรายการด้านล่าง</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">คำเตือน</string>
   <string name="custom_mailbox_delete_box_dialog_message">แน่ใจหรือไม่ที่จะลบกล่องจดหมายนี้</string>
   <string name="custom_mailbox_error_deleting_box">มีปัญหาขณะพยายามลบกล่องจดหมายดังกล่าว</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">ให้ดาวแอปนี้</string>
   <string name="viral_prompt_rate_app_body">ถ้าคุณชอบแอปนี้ โปรดสละเวลาที่ไม่มากไปกว่าหนึ่งนาทีเพื่อให้ดาวกับเราหน่อยได้ไหม ขอบคุณที่ใช้แอปของเรา!</string>
   <string name="viral_ratings_prompt_remind_me_later">เตือนฉันในภายหลัง</string>
@@ -175,19 +226,32 @@
   <string name="actions_dialog_message">คุณใช้โฟลเดอร์นี้เป็นประจำหรือไม่ ทำเครื่องหมายเป็นสแปมบ่อยหรือไม่ ชอบแปะไว้ใน Evernote หรือไม่\n\n ด้วยท่าทางการปัดที่กำหนดเอง คุณสามารถตั้งค่าท่าทางการปัดเหล่านี้ให้เข้ากับการใช้งานของตนได้\n</string>
   <string name="actions_dialog_positive_button_text">กำหนดท่าทางการปัด</string>
   <string name="actions_dialog_negative_button_text">ปิด</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">ยินดีต้อนรับสู่กล่องจดหมายที่ดีกว่า</string>
   <string name="account_setup_vendor_heading">ยินดีต้อนรับสู่อีเมล</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">ไลค์ คืออะไร</string>
   <string name="like_action_dialog_message">คุณได้พบคุณสมบัติที่เราชื่นชอบแล้ว เมื่อกดปุ่ม \'ไลค์\' ข้อความ ผู้ส่งและผู้รับคนอื่น ๆ จะได้รับอีเมลที่แจ้งให้ทราบว่าคุณชอบข้อความดังกล่าว นี่ยังเป็นวิธีการตอบอีเมลที่รวดเร็วที่สุดด้วย</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">ใหม่</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">ชื่อโฟลเดอร์</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">กำลังสร้างโฟลเดอร์\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">ชื่อซ้ำกัน</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">มีโฟลเดอร์ชื่อนี้อยู่แล้ว</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">ผิดพลาด</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">ไม่สามารถสร้างโฟลเดอร์ได้</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">รายงาน</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">ข้อความที่รายงาน</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">ไม่มีเมลที่นี่\nลองปัดลงเพื่อรีเฟรช</string>
   <string name="getting_messages">ได้รับข้อความ</string>
   <string name="empty_folder">ไม่มีเมลที่นี่</string>
@@ -195,18 +259,26 @@
   <string name="empty_search">อุ๊ป เราไม่พบอะไรที่เกียวกับ \"<xliff:g id="search_query">%1$s</xliff:g>\"</string>
   <string name="empty_spam_folder">ยินดีด้วย ไม่มีสแปมอยู่ในนี้!</string>
   <string name="empty_trash_folder">ไม่มีขยะอยู่ในนี้ ขอบคุณที่กำจัดมัน!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">ดูบนปฏิทิน</string>
+  <!-- Response action buttons. -->
   <string name="accept">ยอมรับ</string>
   <string name="maybe">อาจจะ</string>
   <string name="decline">ปฏิเสธ</string>
   <string name="remove_from_cal">ลบออกจากปฏิทิน</string>
   <string name="remove_series_from_cal">ลบซีรี่ส์ออกจากปฏิทิน</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">ตัวฉัน</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="other">ตัวฉัน &amp; %d ผู้เข้าร่วมคนอื่น ๆ</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">ตลอดทั้งวัน</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">ยกเลิกแล้ว</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">เวลาที่เข้าได้กับฉัน:</string>
   <string name="availability_by">การใช้งานได้โดย</string>
   <string name="remove_availability">ลบการใช้งานได้</string>
@@ -225,5 +297,6 @@
   <string name="calendar_feature_dialog_msg">Boxer นำเสนอคุณสมบัติการใช้งานปฏิทินที่ใช้ได้เฉพาะกับปฏิทิน Boxer ในการใช้คุณสมบัตินี้ กรุณาดาวน์โหลดปฏิทิน Boxer รุ่นล่าสุดวันนี้ (ฟรี)</string>
   <string name="calendar_feature_dialog_positive_btn">ติดตั้ง</string>
   <string name="calendar_feature_dialog_negative_btn">อย่าเพิ่ง</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">ผู้รับที่ไม่เปิดเผย</string>
 </resources>

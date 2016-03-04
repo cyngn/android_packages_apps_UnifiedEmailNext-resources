@@ -16,71 +16,113 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">統合</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">すべて選択</string>
   <string name="menu_actiongrid">アクショングリッド</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">アカウントを削除</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">サポート</string>
+  <!-- Delete account -->
   <string name="delete_account_title">アカウントを削除</string>
   <string name="delete_account_summary">このアカウントとすべての設定やデータを削除する</string>
   <string name="delete_account_confirmation_msg">アカウント<xliff:g id="account">%s</xliff:g>のすべての設定やメールを削除します。この操作は元に戻せません。\n\n続けますか？</string>
   <string name="deleting_account_msg">アカウントを削除中\u2026</string>
   <string name="delete_account_failed">アカウントを削除できませんでした</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">開く</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">インストール</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">印刷</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">画像を表示</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="other">と他%d人</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt;通をToDoにする。</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">迷惑メールとして報告済み</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g>からの新しいメッセージを表示する。</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>通の新しいメッセージを表示する。</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">編集</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">検索</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>スマートフォルダ</item>
     <item>すべてのフォルダ</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>スマートラベル</item>
     <item>すべてのラベル</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">ボックス</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">フォルダ</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">アカウント</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Cyanogenの携帯電話から送信</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>から送信</string>
   <string name="blu_signature">BLUの携帯電話から送信 – Boxer提供のBLUメール</string>
   <string name="vendor_signature_o2">O2のCyanogenから送信</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">読む</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">返信</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">削除</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>通の新しいメッセージ</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">スワイプ操作</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">左右のスワイプ操作をカスタマイズする</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">短い左スワイプ</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">長い左スワイプ</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">短い右スワイプ</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">長い右スワイプ</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">印刷</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>通のメッセージ</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g>の<xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">下書き:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">下書き</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">引用テキストを非表示</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>件の添付ファイル</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">（件名なし）</string>
   <string name="action_grid_select_quick_response">クイック返信を選択</string>
   <string name="action_grid_todo_dialog_title">詳細</string>
@@ -107,7 +149,9 @@
   <string name="action_grid_assignee_select_from_contacts">連絡帳から選択</string>
   <string name="action_grid_assignee_search_for_contact">連絡先を検索</string>
   <string name="action_grid_assignee_button_bar_clear">消去</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">このメッセージを削除しますか？</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">いいね</string>
   <string name="action_todo">ToDo</string>
   <string name="action_quick">クイック</string>
@@ -126,6 +170,7 @@
   <string name="action_mark_read">既読にする</string>
   <string name="action_read_or_unread">既読/未読</string>
   <string name="action_actions">操作</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Evernoteに送信しました</string>
   <string name="marked_liked">いいねしました</string>
   <string name="marked_archived">アーカイブしました</string>
@@ -134,9 +179,13 @@
   <string name="marked_todo">ToDoにしました</string>
   <string name="marked_done">完了にしました</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
     <item quantity="other">返信を送信しました</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
     <item quantity="other">メッセージをいいねしました</item>
   </plurals>
   <string name="invalid_selection">無効な選択</string>
@@ -152,9 +201,11 @@
   <string name="custom_mailbox_background_sync_switch_off">OFF</string>
   <string name="custom_mailbox_delete_box">ボックスを削除</string>
   <string name="custom_mailbox_error_no_selected_folders">以下のリストから最低1つのフォルダを選択してください</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">警告</string>
   <string name="custom_mailbox_delete_box_dialog_message">このカスタムのボックスを削除してもよろしいですか？</string>
   <string name="custom_mailbox_error_deleting_box">カスタムのメールボックスの削除中にエラーが発生しました</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">このアプリを評価</string>
   <string name="viral_prompt_rate_app_body">このアプリに満足してもらえたのであれば、お手数ですが評価していただけませんか？お時間は取らせません。ご協力よろしくお願いします。</string>
   <string name="viral_ratings_prompt_remind_me_later">あとで通知</string>
@@ -175,19 +226,32 @@
   <string name="actions_dialog_message">フォルダをよく使いますか？迷惑メールをよく振り分けますか？Evernoteにクリップしたいですか？\n\nスワイプ操作をカスタマイズすればワークフローに合わせてジェスチャーを設定できます。\n</string>
   <string name="actions_dialog_positive_button_text">スワイプをカスタマイズ</string>
   <string name="actions_dialog_negative_button_text">閉じる</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">改良された受信トレイへようこそ</string>
   <string name="account_setup_vendor_heading">メールへようこそ</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">いいねとは？</string>
   <string name="like_action_dialog_message">お気に入りの機能を見つけましたね。メッセージを[いいね]すると、送信者や他の受信者にいいねしたことを知らせるメールが送信されます。現状での最速の返信方法です。</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">新規</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">フォルダ名</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">フォルダを作成中\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">名前が重複しています</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">入力したフォルダ名は既に存在しています。</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">エラー</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">フォルダを作成できませんでした。</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">報告</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">メッセージは報告されました</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">メールがありません。\n上からプルダウンして更新します</string>
   <string name="getting_messages">メッセージを取得中</string>
   <string name="empty_folder">メールがありません。</string>
@@ -195,18 +259,26 @@
   <string name="empty_search">残念！[<xliff:g id="search_query">%1$s</xliff:g>]では何も見つかりませんでした。</string>
   <string name="empty_spam_folder">バンザイ！スパムはありません。</string>
   <string name="empty_trash_folder">ゴミ箱には何もありません。リサイクルへの協力感謝します！</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">カレンダーで表示</string>
+  <!-- Response action buttons. -->
   <string name="accept">承諾</string>
   <string name="maybe">未定</string>
   <string name="decline">拒否</string>
   <string name="remove_from_cal">カレンダーから削除</string>
   <string name="remove_series_from_cal">一連の予定をカレンダーから削除</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">自分</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="other">自分と他%d人</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">終日</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">キャンセル済み</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">都合の良い時間:</string>
   <string name="availability_by">予定提供: </string>
   <string name="remove_availability">予定を削除</string>
@@ -225,5 +297,6 @@
   <string name="calendar_feature_dialog_msg">BoxerはBoxer Calendarとのみ動作するカレンダー機能を提供します。この機能を有効にするには、最新バージョンのBoxer Calendar today（無料）をダウンロードしてください。</string>
   <string name="calendar_feature_dialog_positive_btn">インストール</string>
   <string name="calendar_feature_dialog_negative_btn">後で</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">未公開の受信者</string>
 </resources>

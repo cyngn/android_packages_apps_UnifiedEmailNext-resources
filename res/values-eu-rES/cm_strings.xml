@@ -16,77 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Bateratua</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Hautatu guztiak</string>
   <string name="menu_actiongrid">Ekintza sareta</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Ezabatu kontua</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Euskarria</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Ezabatu kontua</string>
   <string name="delete_account_summary">Ezabatu kontu hau eta bere ezarpen eta datu guztiak</string>
   <string name="delete_account_confirmation_msg">Honek <xliff:g id="account">%s</xliff:g> kontuko ezarpen eta mezu guztiak ezabatuko ditu. Eragiketa hau ezin da desegin.\n\nJarraitu?</string>
   <string name="deleting_account_msg">Kontua ezabatzen\u2026</string>
   <string name="delete_account_failed">Ezin izan da kontua ezabatu</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Ireki</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instalatu</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Inprimatu</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Ikusi irudia</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> eta beste %d</item>
     <item quantity="other">eta beste %d</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zeregin gisa markatu da.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; zeregin gisa markatu dira.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Zabor posta gisa salatua</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Bistaratu <xliff:g id="sender">%s</xliff:g>(r)en mezu berria.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Bistaratu mezu berri <xliff:g id="count">%1$d</xliff:g>.</item>
     <item quantity="other">Bistaratu <xliff:g id="count">%1$d</xliff:g> mezu berri .</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Editatu</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Bilatu</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Karpeta adimentsuak</item>
     <item>Karpeta guztiak</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Etiketa adimentsuak</item>
     <item>Etiketa guztiak</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Kutxak</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Karpetak</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Kontuak</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Nire Cyanogen telefonotik bidalita</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>tik bidalita</string>
   <string name="blu_signature">Nire BLU telefonotik bidalita - BLU Mail, Boxerren oinarrituta</string>
   <string name="vendor_signature_o2">O2ko Cyanogenetik bidalita</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">IRAKURRI</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ERANTZUN</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">EZABATU</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">mezu berri <xliff:g id="count">%1$d</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu berri</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Hatza pasatze ekintzak</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Pertsonalizatu hatza ezkerrera edo eskuinera pasatzearen ekintzak</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Hatza ezkerrera labur pasatzea</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Hatza ezkerrera luze pasatzea</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Hatza eskumara labur pasatzea</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Hatza eskumara luze pasatzea</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Inprimatu</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one">mezu <xliff:g id="count">%1$d</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mezu</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g>(e)n</string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Zirriborroa hona:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Zirriborroa</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Aipatutako testua ezkutuan</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one">Eranskin <xliff:g id="count">%1$d</xliff:g></item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> eranskin</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(gairik gabe)</string>
   <string name="action_grid_select_quick_response">Hautatu erantzun azkarra</string>
   <string name="action_grid_todo_dialog_title">Xehetasunak</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">Hautatu kontaktuetatik</string>
   <string name="action_grid_assignee_search_for_contact">Bilatu kontaktua</string>
   <string name="action_grid_assignee_button_bar_clear">Garbitu</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Ezabatu mezu hau?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Gogoko</string>
   <string name="action_todo">Zeregina</string>
   <string name="action_quick">Azkarra</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">Markatu irakurrita gisa</string>
   <string name="action_read_or_unread">Irakurrita/Ez irakurrita</string>
   <string name="action_actions">Ekintzak</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Evernote-ra bidali da</string>
   <string name="marked_liked">Gogoko gisa markatu da</string>
   <string name="marked_archived">Artxibatzeko markatu da</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">Zeregin gisa markatu da</string>
   <string name="marked_done">Eginda gisa markatu da</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Erantzuna bidali da</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Erantzunak bidali dira</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Mezua gogoko</item>
+    <!-- Like several conversations -->
     <item quantity="other">Mezuak gogoko</item>
   </plurals>
   <string name="invalid_selection">Hautapen baliogabea</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Ez</string>
   <string name="custom_mailbox_delete_box">Ezabatu kutxa</string>
   <string name="custom_mailbox_error_no_selected_folders">Hautatu gutxienez karpeta bat beheko zerrendatik</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Kontuz</string>
   <string name="custom_mailbox_delete_box_dialog_message">Ziur postontzi pertsonalizatu hau ezabatu nahi duzula?</string>
   <string name="custom_mailbox_error_deleting_box">Errore bat gertatu da zure postontzi pertsonalizatua ezabatzerakoan</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Baloratu aplikazio hau</string>
   <string name="viral_prompt_rate_app_body">Aplikazio hau erabiltzea gustuko baduzu axola zaizu baloratzen unetxo bat ematea? Minutu bat ere ez dizu hartuko. Eskerrik asko zure laguntzagatik!</string>
   <string name="viral_ratings_prompt_remind_me_later">Gogoratu geroago</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">Karpetak maiz erabiltzen dituzu? Maiz zabor posta gisa markatu? Evernotera gauzak erantsi?\n\nPertsonalizatutako hatza pasatze ekintzekin edozein keinu zure lan erara moldatu dezakezu.\n</string>
   <string name="actions_dialog_positive_button_text">Pertsonalizatu hatza pasatzeak</string>
   <string name="actions_dialog_negative_button_text">Itxi</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Ongi etorri sarrera ontzi hobe batetara</string>
   <string name="account_setup_vendor_heading">Ongi etorri epostara</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Zer da gogokoa?</string>
   <string name="like_action_dialog_message">Gure ezaugarririk kuttunena aurkitu duzu. Mezu bat \'Gustukoa\' duzunean, mezu bat bidaliko zaie igorleari eta besteei gustukoa duzula jakinarazteko. Mezu bati erantzuteko modurik azkarrena da.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Berria</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Karpeta izena</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Karpeta sortzen\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Izen bikoiztua</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Sartu duzun karpeta izena badago aurretik.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Errorea</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Karpeta ezin izan da sortu.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Jakitera eman</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Mezuaren berri eman da</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Ez dago mezurik hemen.\npasatu hatza beherantz berrizteko</string>
   <string name="getting_messages">Zure mezuak jasotzen</string>
   <string name="empty_folder">Ez dago mezurik hemen.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">Ene! Ez dugu ezer aurkitu \"<xliff:g id="search_query">%1$s</xliff:g>\" bilatzean.</string>
   <string name="empty_spam_folder">Zoragarri. Ez dago spam mezurik hemen!</string>
   <string name="empty_trash_folder">Ez dago zaborrik hemen. Eskerrik asko birziklatzeagatik!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Ikusi egutegian</string>
+  <!-- Response action buttons. -->
   <string name="accept">Onartu</string>
   <string name="maybe">Agian</string>
   <string name="decline">Ezetsi</string>
   <string name="remove_from_cal">Kendu egutegitik</string>
   <string name="remove_series_from_cal">Kendu serieak egutegitik</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Ni</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Ni eta beste %d</item>
     <item quantity="other"> Ni eta beste %d</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Egun osoan</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Bertan behera utzita</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Ondo datozkidan orduak:</string>
   <string name="availability_by">Eskuragarritasuna hemen</string>
   <string name="remove_availability">Ezabatu eskuragarritasuna</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxerrek baditu soilik Boxer egutegiarekin dabiltzan egutegi ezaugarriak. Ezaugarri hau gaitzeko, deskargatu Boxer egutegia orain (doan)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALATU</string>
   <string name="calendar_feature_dialog_negative_btn">ORAIN EZ</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Jasotzaile ezkutuak</string>
 </resources>

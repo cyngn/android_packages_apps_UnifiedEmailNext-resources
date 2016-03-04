@@ -16,83 +16,125 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Усе акаўнты</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Абраць усё</string>
   <string name="menu_actiongrid">Сетка дзеянняў</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Выдаліць акаўнт</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Падтрымка</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Выдаліць акаўнт</string>
   <string name="delete_account_summary">Выдаленне акаўнта, яго налад і дадзеных</string>
   <string name="delete_account_confirmation_msg">Гэта дзеянне выдаліць усе налады і лісты акаўнта <xliff:g id="account">%s</xliff:g> Гэта аперацыя не можа быць скасавана.\n\nПрацягнуць?</string>
   <string name="deleting_account_msg">Выдаленне акаўнта\u2026</string>
   <string name="delete_account_failed">Не атрымалася выдаліць акаўнт</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Адчыніць</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Усталяваць</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Друк</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Прагляд выявы</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp;%d іншы</item>
     <item quantity="few">&amp;%d іншых</item>
     <item quantity="other">&amp;%d іншых</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пазначаны як заданне.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пазначаны як заданні.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; пазначаны як заданні.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Пазначана як спам</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Паказаць новае паведамленне ад <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Паказаць <xliff:g id="count">%1$d</xliff:g> новае паведамленне.</item>
     <item quantity="few">Паказаць <xliff:g id="count">%1$d</xliff:g> новых паведамленняў.</item>
     <item quantity="other">Паказаць <xliff:g id="count">%1$d</xliff:g> новых паведамленняў.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Рэдагаваць</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Пошук</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Смарт-тэчкі</item>
     <item>Усе тэчкі</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Смарт-пазнакі</item>
     <item>Усе пазнакі</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Скрыні</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Тэчкі</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Акаўнты</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Адпраўлена з майго тэлефона Cyanogen</string>
   <string name="vendor_signature_fmt">Адпраўлена з <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">Даслана з майго BLU тэлефона - Boxer лепшая пошта ад BLU</string>
   <string name="vendor_signature_o2">Даслана з Cyanogen на O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">ПРАЧЫТАНА</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">АДКАЗАЦЬ</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ВЫДАЛІЦЬ</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> новае паведамленне</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> новых паведамленні</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> новых паведамленняў</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Дзеянні на дотык</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Налада дзеянняў для левага і правага правядзення пальцаў</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Кароткі правод налева</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Доўгі правод налева</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Кароткі правод направа</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Доўгі правод направа</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Друк</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> паведамленне</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> паведамленні</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> паведамленняў</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> у <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Чарнавік для:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Чарнавік</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Цытаваны тэкст утоены</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> прымацаваны файл</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> прымацаваны файлы</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> прымацаваных файлаў</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(без тэмы)</string>
   <string name="action_grid_select_quick_response">Выберыце хуткі адказ</string>
   <string name="action_grid_todo_dialog_title">Дакладней</string>
@@ -119,7 +161,9 @@
   <string name="action_grid_assignee_select_from_contacts">Абраць са спіса кантактаў</string>
   <string name="action_grid_assignee_search_for_contact">Пошук кантакту</string>
   <string name="action_grid_assignee_button_bar_clear">Ачысціць</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Выдаліць гэта паведамленне?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Падабаецца</string>
   <string name="action_todo">Заданні</string>
   <string name="action_quick">Хуткі адказ</string>
@@ -138,6 +182,7 @@
   <string name="action_mark_read">Пазначыць як прачытанае</string>
   <string name="action_read_or_unread">Прачытанае/непрачытанае</string>
   <string name="action_actions">Дзеянні</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Адпраўлена ў Evernote</string>
   <string name="marked_liked">Пазначана як упадабанае</string>
   <string name="marked_archived">Адзначаныя для архіва</string>
@@ -146,13 +191,17 @@
   <string name="marked_todo">Пазначана як заданне</string>
   <string name="marked_done">Пазначана як выкананае</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Адказ адпраўлены</item>
     <item quantity="few">Адказы адпраўлены</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Адказаў адпраўленыя</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Паведамленне спадабалася</item>
     <item quantity="few">Паведамленні спадабалася</item>
+    <!-- Like several conversations -->
     <item quantity="other">Паведамленняў спадабалася</item>
   </plurals>
   <string name="invalid_selection">Недапушчальны выбар</string>
@@ -168,9 +217,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Выкл</string>
   <string name="custom_mailbox_delete_box">Выдаліць скрыню</string>
   <string name="custom_mailbox_error_no_selected_folders">Калі ласка, выберыце прынамсі адну тэчку са спіса ніжэй</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Папярэджанне</string>
   <string name="custom_mailbox_delete_box_dialog_message">Вы ўпэўнены, што хочаце выдаліць гэту скрыню?</string>
   <string name="custom_mailbox_error_deleting_box">Адбылася памылка пры выдаленні вашай паштовай скрынкі</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Паставіць адзнаку гетаму дадатку</string>
   <string name="viral_prompt_rate_app_body">Калі Вам падабаецца дадатак, не маглі б вы надаць няшмат часу для яго адзнакі? Дзякуй за вашу дапамогу!</string>
   <string name="viral_ratings_prompt_remind_me_later">Нагадаць пазней</string>
@@ -191,19 +242,32 @@
   <string name="actions_dialog_message">Часта карыстаецеся тэчкамі? Ці адзначаеце лісты як спам? Адпраўляеце нататкі ў Evernote?\n\n\Вы можаце ўсталяваць індывідуальныя дзеянні на розныя жэсты для максімальна зручнай працы.\n</string>
   <string name="actions_dialog_positive_button_text">Налада жэстаў</string>
   <string name="actions_dialog_negative_button_text">Зачыніць</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Сардэчна запрашаем у лепшую паштовую скрынку</string>
   <string name="account_setup_vendor_heading">Сардэчна запрашаем у Email</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Кнопка \"Мне падабаецца\"</string>
   <string name="like_action_dialog_message">Гэта наша любая функцыя. Калі вы ставіце адзнаку \"падабаецца\" ў паведамлення, адпраўляецца e-mail, які апавясціць пра гэта адпраўніка і іншых атрымальнікаў. Пакуль што гэта самы хуткі спосаб адказваць на лісты.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Стварыць</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Імя тэчкі</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Стварэнне тэчкі\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Паўтаральнае імя</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Тэчка з такой назвай ужо існуе.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Памылка</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Не атрымалася стварыць тэчку.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Паскардзіцца</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Паведамленне адпраўлена</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Тут нічога няма.\nПравядзіце зверху ўніз для абнаўлення спіса лістоў</string>
   <string name="getting_messages">Атрыманне паведамленняў</string>
   <string name="empty_folder">Тут нічога няма.</string>
@@ -211,20 +275,28 @@
   <string name="empty_search">Па запыце \"<xliff:g id="search_query">%1$s</xliff:g>\" нічога не знойдзена.</string>
   <string name="empty_spam_folder">Спаму няма, выдатна!</string>
   <string name="empty_trash_folder">У кошыку пуста. Дзякуй, што выносіце смецце!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Паглядзець у Календары</string>
+  <!-- Response action buttons. -->
   <string name="accept">Пагадзіцца</string>
   <string name="maybe">Магчыма</string>
   <string name="decline">Адмовіцца</string>
   <string name="remove_from_cal">Выдаліць з календара</string>
   <string name="remove_series_from_cal">Выдаліць серыю падзей з календара</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Я</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Я і яшчэ &amp;%d чалавек</item>
     <item quantity="few">Я і яшчэ &amp;%d чалавека</item>
     <item quantity="other">Я і яшчэ &amp;%d чалавекаў</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">На ўвесь дзень</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Скасавана</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Прыдатны час:</string>
   <string name="availability_by">Даступна ў</string>
   <string name="remove_availability">Выдаліць інфармацыю пра даступнасць</string>
@@ -245,5 +317,6 @@
   <string name="calendar_feature_dialog_msg">Boxer падтрымвае функцыі календара, якія працуюць вылучна з Календаром Boxer. Каб скарыстацца гэтымі функцыямі, спампуйце апошнюю версію (безкаштоўнага) дадатку \"Каляндар Boxer\"</string>
   <string name="calendar_feature_dialog_positive_btn">УСТАЛЯВАЦЬ</string>
   <string name="calendar_feature_dialog_negative_btn">ПАЗНЕЙ</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Атрымальнік не паказаны</string>
 </resources>

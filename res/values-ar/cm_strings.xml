@@ -16,23 +16,37 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">الاثنان معاً</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">تحديد الكل</string>
   <string name="menu_actiongrid">شبكة العمل</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">حذف الحساب</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">الدعم</string>
+  <!-- Delete account -->
   <string name="delete_account_title">حذف الحساب</string>
   <string name="delete_account_summary">حذف هذا الحساب وكل الإعدادات والبيانات</string>
   <string name="delete_account_confirmation_msg">سيؤدي هذا إلى حذف كافة الإعدادات ورسائل البريد الإلكتروني
         من الحساب<xliff:g id="account">%s</xliff:g>.هذه العملية لا يمكن أن التراجع عنها.\n\nإستمرار؟</string>
   <string name="deleting_account_msg">حذف الحساب\u2026</string>
   <string name="delete_account_failed">تعذر حذف الحساب</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">فتح</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">تثبيت</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">طباعة</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">عرض الصورة</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">تم الابلاغ عنه كبريد عشوائي</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">إظهار الرسائل الجديدة من <xliff:g id="sender">%s </xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="zero">إظهار <xliff:g id="count">%1$d</xliff:g>رسالة جديدة. </item>
     <item quantity="one">إظهار <xliff:g id="count">%1$d</xliff:g>رسائل جديدة.</item>
@@ -41,26 +55,38 @@
     <item quantity="many">إظهار <xliff:g id="count">%1$d</xliff:g>رسائل جديدة.</item>
     <item quantity="other">إظهار <xliff:g id="count">%1$d</xliff:g>رسائل جديدة.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">تحرير</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">بحث</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>المجلدات الذكية</item>
     <item>كل المجلدات</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>العلامات الذكية</item>
     <item>جميع التسميات</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">الصناديق</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">المجلدات</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">الحسابات</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">أرسلت من هاتف Cyanogen</string>
   <string name="vendor_signature_fmt">أرسلت من <xliff:g id="brand" example="samsung">%s </xliff:g></string>
   <string name="blu_signature">تم الإرسال من هاتف BLU- بريد BLU مزود بالطاقة بواسطة Boxer</string>
   <string name="vendor_signature_o2">تم الإرسال من Cyanogen على O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">قراءة</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">رد</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">حذف</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="zero"><xliff:g id="count">%1$d</xliff:g>رسالة جديدة</item>
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
@@ -69,17 +95,31 @@
     <item quantity="many"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>رسائل جديدة</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">اجراءات التمرير</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">تخصيص اجراءات التمرير لليمين واليسار</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">تمرير قصيرة لليسار</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">تمريرة طويلة لليسار</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">تمريرة قصيرة لليمين</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">تمريرة طويلة لليمين</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">طباعة</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><<xliff:g id="day_and_date">%1$s</xliff:g> في<xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">مسودة إلى:u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">مسودة</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">النص المقتبس مخفي</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(لا يوجد موضوع)</string>
   <string name="action_grid_select_quick_response">حدد استجابة سريعة</string>
   <string name="action_grid_todo_dialog_title">التفاصيل</string>
@@ -106,7 +146,9 @@
   <string name="action_grid_assignee_select_from_contacts">تحديد من جهات الإتصال</string>
   <string name="action_grid_assignee_search_for_contact">البحث عن جهات الاتصال</string>
   <string name="action_grid_assignee_button_bar_clear">مسح</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">حذف هذه الرسالة؟</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">إعجاب</string>
   <string name="action_todo">المهام</string>
   <string name="action_quick">سريع</string>
@@ -125,6 +167,7 @@
   <string name="action_mark_read">علامة كـ مقروء</string>
   <string name="action_read_or_unread">قراءة/غير مقروء</string>
   <string name="action_actions">الاجراءات</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">تم الإرسال إلى Evernote</string>
   <string name="marked_liked">تم وضع علامة كـ اعجاب</string>
   <string name="marked_archived">وضع علامة للأرشفة</string>
@@ -145,9 +188,11 @@
   <string name="custom_mailbox_background_sync_switch_off">مغلق</string>
   <string name="custom_mailbox_delete_box">مربع حذف</string>
   <string name="custom_mailbox_error_no_selected_folders">الرجاء تحديد مجلد واحد على الأقل من القائمة أدناه</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">تحذير</string>
   <string name="custom_mailbox_delete_box_dialog_message">هل أنت متأكد من أن كنت ترغب في حذف هذا المربع المخصص؟</string>
   <string name="custom_mailbox_error_deleting_box">حدث خطأ أثناء حذف علبة البريد المخصصة الخاصة بك</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">تقييم هذا التطبيق</string>
   <string name="viral_prompt_rate_app_body">إذا كنت قد استمتعت باستخدام هذا التطبيق، هل يمكنك تقييمه؟ لن تستغرق أكثر من دقيقة واحدة. شكرا لدعمك!</string>
   <string name="viral_ratings_prompt_remind_me_later">ذكرني لاحقاً</string>
@@ -168,19 +213,32 @@
   <string name="actions_dialog_message">هل تستخدم المجلدات بشكل منتظم؟ وكثيراً ما تضع علامة البريد المزعج؟ وتحب إرفاق القصاصات إلى ايفرنوت؟ \n\n مع التمريرات المخصصة، يمكنك تعيين أي من هذه الإيماءات لتتناسب مع سير عملك. \n</string>
   <string name="actions_dialog_positive_button_text">التمريرات المخصصة</string>
   <string name="actions_dialog_negative_button_text">إغلاق</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">مرحباً بك في مفهوم أفضل لصندوق البريد الوارد</string>
   <string name="account_setup_vendor_heading">مرحبا بك في البريد الإلكتروني</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">ما معنى خاصية ’مثل‘؟</string>
   <string name="like_action_dialog_message">لقد عثرت على ميزتنا المفضلة. عند إبداء \'الإعجاب\' برسالة ما، سيتم إرسال رسالة بالبريد إلكتروني لإبلاغ المرسل والمستلمين الآخرين بأن الرسالة أعجبتك. وهي أسرع طريقة إلى الآن للرد على البريد الإلكتروني.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">جديد</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">اسم المجلد</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">جاري إنشاء المجلد</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">اسم مكرر</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">اسم المجلد الذي أدخلته موجود بالفعل.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">خطأ</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">تعذر إنشاء المجلد.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">الإبلاغ</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">تم الإبلاغ عن الرسالة</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">لا يوجد بريد هنا. \n اسحب إلى أسفل للتحديث</string>
   <string name="getting_messages">جاري جلب رسائلك</string>
   <string name="empty_folder">لا يوجد أي بريد هنا.</string>
@@ -188,13 +246,18 @@
   <string name="empty_search">عذراً! لم نجد أي شيء عن \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">رائع، لا توجد رسائل مزعجة!</string>
   <string name="empty_trash_folder">لا مهملات. شكراً لإعادة التدوير!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">عرض في التقويم</string>
+  <!-- Response action buttons. -->
   <string name="accept">موافقة</string>
   <string name="maybe">ربما</string>
   <string name="decline">رفض</string>
   <string name="remove_from_cal">إزالة من التقويم</string>
   <string name="remove_series_from_cal">إزالة السلسلة من التقويم</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">أنا</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="zero">أنا و%d آخر</item>
     <item quantity="one">أنا و%d آخرين</item>
@@ -203,8 +266,11 @@
     <item quantity="many">أنا و%d آخرين</item>
     <item quantity="other">أنا و%d آخرين</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">طوال اليوم</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">تم الإلغاء</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">الأوقات التي تناسبني:</string>
   <string name="availability_by">أوقات تواجد</string>
   <string name="remove_availability">حذف التواجد</string>
@@ -220,5 +286,6 @@
   <string name="calendar_feature_dialog_msg">Boxer يقدم مزايا تقويم تعمل بشكل حصري مع تقويم Boxer. لتمكين هذه الميزة، قم بتنزيل أحدث إصدار من تقويم Boxer اليوم (مجاناً)</string>
   <string name="calendar_feature_dialog_positive_btn">تثبيت</string>
   <string name="calendar_feature_dialog_negative_btn">ليس الآن</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">مستلمين غير منشورين</string>
 </resources>

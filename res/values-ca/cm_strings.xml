@@ -16,77 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Combinat</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Selecciona-ho tot</string>
   <string name="menu_actiongrid">Graella d\'accions</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Esborra el compte</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Suport</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Elimina compte</string>
   <string name="delete_account_summary">Elimina aquest compte i totes les seves configuracions i dades</string>
   <string name="delete_account_confirmation_msg">Això eliminarà totes les configuracions i els correus electrònics del compte <xliff:g id="account">%s</xliff:g>. Aquesta operació no es pot desfer.\n\nVols continuar?</string>
   <string name="deleting_account_msg">S\'està eliminant el compte\u2026</string>
   <string name="delete_account_failed">No s\'ha pogut eliminar el compte</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Obre</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instal·la</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Imprimeix</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Veure imatge</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d altre</item>
     <item quantity="other">&amp; %d altres</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcat com a pendent.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcats com a pendents.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">S\'ha informat com a correu brossa</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Mostra el missatge nou de <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Mostra <xliff:g id="count">%1$d</xliff:g> missatge nou.</item>
     <item quantity="other">Mostra <xliff:g id="count">%1$d</xliff:g> missatges nous.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Edita</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Cerca</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Carpetes intel·ligents</item>
     <item>Totes les carpetes</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Etiquetes intel·ligents</item>
     <item>Totes les etiquetes</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Caixes</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Carpetes</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Comptes</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Enviat des del meu telèfon Cyanogen</string>
   <string name="vendor_signature_fmt">Enviat des de <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">Enviat des del meu telèfon BLU - Correu BLU alimentat per Boxer</string>
   <string name="vendor_signature_o2">Enviat des de Cyanogen sobre O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LLEGIR</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">RESPONDRE</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ESBORRAR</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> missatge nou</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> missatges nous</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Accions de lliscament</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Personalitza les accions lliscament a esquerra i dreta</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Lliscament curt a l\'esquerra</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Lliscament llarg a l\'esquerra</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Lliscament curt a la dreta</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Lliscament llarg a la dreta</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Imprimeix</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> missatge</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> missatges</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> a les <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Esborrany a: \u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Esborrany</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Text citat amagat</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> adjunt</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> adjunts</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(sense assumpte)</string>
   <string name="action_grid_select_quick_response">Selecciona la resposta ràpida</string>
   <string name="action_grid_todo_dialog_title">Detalls</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">Selecciona des dels contactes</string>
   <string name="action_grid_assignee_search_for_contact">Cerca un contacte</string>
   <string name="action_grid_assignee_button_bar_clear">Neteja</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Vols esborrar aquest missatge?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">M\'agrada</string>
   <string name="action_todo">Pendent</string>
   <string name="action_quick">Ràpid</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">Marca com a llegit</string>
   <string name="action_read_or_unread">Llegit/No llegit</string>
   <string name="action_actions">Accions</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Envia a Evernote</string>
   <string name="marked_liked">Marcat com m\'agrada</string>
   <string name="marked_archived">Marca per arxivar</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">Marcat com a pendent</string>
   <string name="marked_done">Marcat com a fet</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Resposta enviada</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Respostes enviades</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Missatge agradat</item>
+    <!-- Like several conversations -->
     <item quantity="other">Missatges agradats</item>
   </plurals>
   <string name="invalid_selection">Selecció no vàlida</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">No</string>
   <string name="custom_mailbox_delete_box">Esborra bústia</string>
   <string name="custom_mailbox_error_no_selected_folders">Si us plau selecciona almenys una carpeta de la llista de sota</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Avís</string>
   <string name="custom_mailbox_delete_box_dialog_message">Estàs segur que vols esborrar aquesta bústia personalitzada?</string>
   <string name="custom_mailbox_error_deleting_box">Hi ha hagut un error mentre s\'esborrava la teva bústia de correu personalitzada</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Valora aquesta aplicació</string>
   <string name="viral_prompt_rate_app_body">Si t\'agrada utilitzar aquesta aplicació, et faria res prendre un moment per valorar-la? No et prendrà més d\'un minut. Gràcies pel teu suport!</string>
   <string name="viral_ratings_prompt_remind_me_later">Recorda-m\'ho més tard</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">Vols utilitzar carpetes amb regularitat? Sovint marques correus com a correu brossa? T\'agrada penjar coses a Evernote? \n\nAmb les accions de lliscament personalitzades pots establir qualsevol d\'aquests gestos per ajustar-se amb el teu ritme de treball.\n</string>
   <string name="actions_dialog_positive_button_text">Personalitza gestos de lliscament</string>
   <string name="actions_dialog_negative_button_text">Tanca</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Benvingut a una safata d\'entrada millor</string>
   <string name="account_setup_vendor_heading">Benvingut al correu electrònic</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Com és?</string>
   <string name="like_action_dialog_message">Has trobat la nostra funció preferida. Quan marquis \"M\'agrada\" en un missatge, s\'enviarà un correu electrònic permetent que l\'emissor i altres destinataris sàpiguen que t\'agrada. És la manera més ràpida de respondre a un correu electrònic.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nou</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Nom de la carpeta</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">S\'està creant la carpeta\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Nom duplicat</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">El nom de la carpeta que has introduït ja existeix.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Error</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">No s\'ha pogut crear la carpeta.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Informa</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Missatge denunciat</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Aquí no hi ha cap correu. \nArrossega cap avall des de dalt per actualitzar</string>
   <string name="getting_messages">Recollint els teus missatges</string>
   <string name="empty_folder">Aquí no hi ha cap correu.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">Whoops! No s\'ha trobat res per \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">Bravo, aquí no hi ha spam!</string>
   <string name="empty_trash_folder">Aquí no hi ha deixalles. Gràcies per reciclar!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Veure al calendari</string>
+  <!-- Response action buttons. -->
   <string name="accept">Accepta</string>
   <string name="maybe">Potser</string>
   <string name="decline">Declina</string>
   <string name="remove_from_cal">Treu del calendari</string>
   <string name="remove_series_from_cal">Treu les sèries del calendari</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Jo</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Jo &amp; %d altre</item>
     <item quantity="other">Jo &amp; %d altres</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Tot el dia</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Cancel·lat</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Hores que em van bé a mi:</string>
   <string name="availability_by">Disponibilitat per</string>
   <string name="remove_availability">Treu la disponibilitat</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxer proporciona característiques de calendari que funcionen exclusivament amb el calendari Boxer. Per habilitar aquesta funció, descarrega l\'última versió del Calendari Boxer avui (Gratuït)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTAL·LA</string>
   <string name="calendar_feature_dialog_negative_btn">ARA NO</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Destinataris no revelats</string>
 </resources>
