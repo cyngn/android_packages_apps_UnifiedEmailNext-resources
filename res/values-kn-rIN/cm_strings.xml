@@ -83,6 +83,8 @@
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">ನನ್ನ Cyanogen ಫೋನ್‍ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
+  <string name="blu_signature">ನನ್ನ BLU ಫೋನ್‍ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ - ಬಾಕ್ಸರ್‍ನ ವತಿಯಿಂದ BLU ಮೇಲ್</string>
+  <string name="vendor_signature_o2">O2ನಲ್ಲಿ Cyanogenನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">ಓದಲಾಗಿದೆ</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
@@ -299,6 +301,7 @@
   <string name="meeting_invitation">ಆಮಂತ್ರಣ ಸಾರಾಂಶ:</string>
   <string name="invitation_by">ಆಹ್ವಾನಿಸಿದವರು</string>
   <string name="remove_invite">ಆಮಂತ್ರಣ ತೆಗೆ</string>
+  <string name="action_liked_message_cm">&lt;a href=\"%s\"&gt;Cyanogen OSನ ಬಾಕ್ಸರ್&lt;/a&gt;ನಲ್ಲಿರುವ ನಿಮ್ಮ ಸಂದೇಶವನ್ನು <xliff:g id="display_name" example="John Doe">%s</xliff:g> ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ.</string>
   <string name="error_no_app_store">ಯಾವುದೇ ಸೂಕ್ತ ಆಪ್ ಸ್ಟೋರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
   <string name="calendar_feature_dialog_title">ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ</string>
   <string name="calendar_feature_dialog_msg">ಬಾಕ್ಸರ್ ಹಲವು ಕ್ಯಾಲೆಂಡರ್ ವೈಶಿಶಷ್ಟ್ಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ ಅದು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಜೊತೆ ಮಾತ್ರ ಕೆಲಸಮಾಡುತ್ತದೆ. ಈ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್‍ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಇಂದೇ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ (ಉಚಿತ)</string>

@@ -286,9 +286,9 @@
   <string name="inbox_folders_heading">Safata d\'entrada</string>
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
-    <item quantity="one">Vols suprimir aquesta conversa?</item>
+    <item quantity="one">Vols esborrar aquesta conversa?</item>
     <!-- Dialog message to confirm deletion of several conversations -->
-    <item quantity="other">Vols suprimir aquestes <xliff:g id="COUNT">%1$d</xliff:g> converses?</item>
+    <item quantity="other">Vols esborrar aquestes <xliff:g id="COUNT">%1$d</xliff:g> converses?</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
     <!-- Dialog message to confirm archival of one conversation -->

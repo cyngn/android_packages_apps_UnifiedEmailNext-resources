@@ -333,6 +333,12 @@
     <!-- Displayed while reporting several conversations as not spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som Inte skräppost.</item>
   </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; har markerats som oviktig.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; har markerats som oviktiga.</item>
+  </plurals>
   <plurals name="conversation_phished">
     <!-- Displayed while reporting one conversation as phishing -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; har rapporterats som nätfiske.</item>

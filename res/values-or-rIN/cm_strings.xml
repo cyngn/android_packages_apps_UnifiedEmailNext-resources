@@ -18,69 +18,295 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">ସମ୍ମିଳିତ</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">ସମସ୍ତ ଚୟନ କରନ୍ତୁ</string>
+  <string name="menu_actiongrid">ଆକ୍ସନ୍‍ ଗ୍ରିଡ୍</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="remove_account">ଆକାଉଣ୍ଟ ବାହାର କରିବା</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">ସମ‍ର୍ଥନ</string>
   <!-- Delete account -->
+  <string name="delete_account_title">ଆକାଉଣ୍ଟ ବିଲୋପ</string>
+  <string name="delete_account_summary">ଏହି ଆକାଉଣ୍ଟ ଓ ଏହାର ସେଟିଂସ୍‍ ଓ ତଥ୍ୟ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="delete_account_confirmation_msg">ଏହା <xliff:g id="account">%s</xliff:g>ଆକାଉଣ୍ଟର ସମସ୍ତ ସେଟିଂସମୂହ ଓ ଇମେଲ୍‍ ବିଲୋପ କରିଦେବ। ଏହି ସଂଚାଳନକୁ ଅନ୍‍ଡନ୍‍ କରିହେବ ନାହିଁ।\n\nଜାରି ରଖିବେ କି?</string>
+  <string name="deleting_account_msg">ଆକାଉଣ୍ଟ ବିଲୋପ କରାଯାଉଛି\u2026</string>
+  <string name="delete_account_failed">ଆକାଉଣ୍ଟ ବିଲୋପ କରିହେଲା ନାହିଁ</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <string name="open_attachment">ଖୋଲନ୍ତୁ</string>
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <string name="install_attachment">ସଂସ୍ଥାପନ</string>
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">ପ୍ରିଣ୍ଟ</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">ଫଟୋ ଦେଖନ୍ତୁ</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> ଓ %d ଅନ୍ୟ</item>
+    <item quantity="other">ଓ %d ଅନ୍ୟ</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; କରିବାର ଅଛି ଭାବେ ଚିହ୍ନିତ କରାଯାଇଛି।</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; କରିବାର ଅଛି ଭାବେ ଚିହ୍ନିତ କରାଯାଇଛି।</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">ସ୍ପାମ୍‍ ଭାବେ ରିପୋର୍ଟ କରାଯାଇଛି</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g>ରୁ ନୂତନ ସନ୍ଦେଶ ଦେଖାନ୍ତୁ।</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">ଦେଖାନ୍ତୁ <xliff:g id="count">%1$d</xliff:g> ନୂତନ ସନ୍ଦେଶ।</item>
+    <item quantity="other">ଦେଖାନ୍ତୁ <xliff:g id="count">%1$d</xliff:g> ନୂତନ ସନ୍ଦେଶ।</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">ସମ୍ପାଦନ</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">ସନ୍ଧାନ</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>ସ୍ମାର୍ଟ ଫୋଲ୍‍ଡର୍‍ଗୁଡିକ</item>
+    <item>ସମସ୍ତ ଫୋଲ୍ଡରଗୁଡିକ</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>ସ୍ମାର୍ଟ ଲେବେଲ୍‍</item>
+    <item>ସମସ୍ତ ଲେବେଲ୍‍</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">ବକ୍ସଗୁଡିକ</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">ଫୋଲ୍‍ଡର୍‍ଗୁଡିକ</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">ଆକାଉଣ୍ଟଗୁଡିକ</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">ସିଆନୋଜେନ୍‍ ଫୋନ୍‍ରୁ ପଠାଯାଇଛି</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>ରୁ ପଠାଯାଇଛି</string>
+  <string name="blu_signature">ମୋ BLU ଫୋନ୍‍ରୁ ପଠାଯାଇଛି-BLU ମେଲ୍‍ ବକ୍ସର୍‍ ଦ୍ୱାରା ପରିଚାଳିତ</string>
+  <string name="vendor_signature_o2">O2ରେ ସିଆନୋଜେରୁ ପଠାଯାଇଛି</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">ପଠନ</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ପ୍ରତ୍ୟୁତ୍ତର</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">DEL</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ନୂତନ ସନ୍ଦେଶ</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ନୂତନ ସନ୍ଦେଶ</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">ସ୍ଵାଇପ୍ କ୍ରିୟା</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">ବାମ ଓ ଡାହାଣ ସ୍ୱାଇପ୍‍ କ୍ରିୟା କଷ୍ଟମାଇଜ୍‍ କରନ୍ତୁ</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">ବାମ ଛୋଟ ସ୍ୱାଇପ୍‍</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">ବାମ ଲ୍ମ୍‍ବା ସ୍ୱାଇପ୍‍</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">ଡାହାଣ ଛୋଟ ସ୍ୱାଇପ୍‍</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">ଡାହାଣ ଲ୍ମ୍‍ବା ସ୍ୱାଇପ୍‍</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">ପ୍ରିଣ୍ଟ</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$D</xliff:g> ସନ୍ଦେଶ</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ସନ୍ଦେଶ</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%2$s</xliff:g> ରେ <xliff:g id="time">%1$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">ଏଥିରେ ଡ୍ରାଫ୍ଟ କରନ୍ତୁ :\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">ଡ୍ରାଫ୍ଟ</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">ଉଦ୍ଦୃତ ଟେକ୍ସଟ୍ ଲୁକ୍କାୟିତ</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$D</xliff:g> ସଂଲଗ୍ନ</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ସଂଲଗ୍ନ</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(କୌଣସି ବିଷୟ ନାହିଁ)</string>
+  <string name="action_grid_select_quick_response">ଦ୍ରୁତ ପ୍ରତ୍ୟୁତ୍ତର ଚୟନ କରନ୍ତୁ</string>
+  <string name="action_grid_todo_dialog_title">ବିବରଣୀଗୁଡିକ</string>
+  <string name="action_grid_set_due_date">ଉପଯୁକ୍ତ ତାରିଖ ସେଟ୍‍ କରନ୍ତୁ</string>
+  <string name="action_grid_due">ଅବ୍ଶିଷ୍ଟ <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">ପ୍ରାଥମିକତା ଯୋଗ କରନ୍ତୁ</string>
+  <string name="action_grid_priority">ପ୍ରାଥମିକତା:\u0020</string>
+  <string name="action_grid_add_assignee">ଆସାଇନି ଯୋଗ କରନ୍ତୁ</string>
+  <string name="action_grid_assignee">ଆସାଇନି:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">ଉପଯୁକ୍ତ ତାରିଖ ସେଟ୍‍ କରନ୍ତୁ</string>
+  <string name="action_grid_due_date_today">ଆଜି</string>
+  <string name="action_grid_due_date_tomorrow">ଆସନ୍ତାକାଲି</string>
+  <string name="action_grid_due_date_this_week">ଏହି ସପ୍ତାହ</string>
+  <string name="action_grid_due_date_next_week">ପର ସପ୍ତାହ</string>
+  <string name="action_grid_due_date_specific_date">ନିର୍ଦ୍ଦିଷ୍ଟ ତାରିଖ</string>
+  <string name="action_grid_calendar_picker_dialog_title">ଉପଯୁକ୍ତ ତାରିଖ ସେଟ୍‍ କରନ୍ତୁ</string>
+  <string name="action_grid_priority_dialog_title">ପ୍ରାଥମିକତା ଯୋଗ କରନ୍ତୁ</string>
+  <string name="action_grid_priority_highest">ସର୍ବାଧିକ ପ୍ରାଥମିକତା</string>
+  <string name="action_grid_priority_high">ଅଧିକ ପ୍ରାଥମିକତା</string>
+  <string name="action_grid_priority_normal">ସାଧାରଣ ପ୍ରାଥମିକତା</string>
+  <string name="action_grid_priority_low">କମ୍‍ ପ୍ରାଥମିକତା</string>
+  <string name="action_grid_priority_lowest">ସର୍ବନିମ୍ନ ପ୍ରାଥମିକତା</string>
+  <string name="action_grid_assignee_dialog_title">ଆସାଇନି ଯୋଗ କରନ୍ତୁ</string>
+  <string name="action_grid_assignee_select_from_contacts">ସମ୍ପର୍କଗୁଡିକରୁ ଚୟନ କରନ୍ତୁ</string>
+  <string name="action_grid_assignee_search_for_contact">ସମ୍ପର୍କ ପାଇଁ ସନ୍ଧାନ କରନ୍ତୁ</string>
+  <string name="action_grid_assignee_button_bar_clear">ଖାଲି</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">ଏହି ସନ୍ଦେଶ ବିଲୋପ କରନ୍ତୁ?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">ପସନ୍ଦ</string>
+  <string name="action_todo">କରିବା ପାଇଁ</string>
+  <string name="action_quick">ଦ୍ରୁତ</string>
+  <string name="action_move">ଘୁଞ୍ଚାନ୍ତୁ</string>
+  <string name="action_label">ଲେବଲ୍</string>
+  <string name="action_move_or_label">ଘୁଞ୍ଚାଇବା/ଲେବେଲ୍‍ କରନ୍ତୁ</string>
+  <string name="action_archive">ଅଭିଲେଖ</string>
+  <string name="action_delete">ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="action_spam">ସ୍ପାମ୍</string>
+  <string name="action_flag">ପତାକା</string>
+  <string name="action_clear_flag">ପତାକା ହଟାନ୍ତୁ</string>
+  <string name="action_star">ତାରକା</string>
+  <string name="action_clear_star">ତାରକା ହଟାନ୍ତୁ</string>
+  <string name="action_star_or_flag">ତାରକା/ପତାକା</string>
+  <string name="action_mark_unread">ଅପଠିତ ଭାବେ ଚିହ୍ନଟ କରନ୍ତୁ</string>
+  <string name="action_mark_read">ପଠିତ ଚିହ୍ନଟ କରନ୍ତୁ</string>
+  <string name="action_read_or_unread">ପଠିତ/ଅପଠିତ</string>
+  <string name="action_actions">କ୍ରିୟାଗୁଡିକ</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="marked_evernote">ଏଭର୍‍ନୋଟ୍‍କୁ ପଠାଯାଇଛି</string>
+  <string name="marked_liked">ପସନ୍ଦ କରାଯାଇଥିବାର ଚିହ୍ନିତ କରାଯାଇଛି</string>
+  <string name="marked_archived">ଅଭିଲେଖ ଭାବେ ଚିହ୍ନିତ କରାଯାଇଛି</string>
+  <string name="marked_deleted">ବିଲୋପନ ଭାବେ ଚିହ୍ନିତ କରାଯାଇଛି</string>
+  <string name="marked_spam">ସ୍ପାମ୍‍କୁ ଗତି କରାଯାଇଛି</string>
+  <string name="marked_todo">କରିବା ପାଇଁ ଚିହ୍ନିତ କରାଯାଇଛି</string>
+  <string name="marked_done">କରାଯାଇଥିବାର ଚିହ୍ନିତ କରାଯାଇଛି</string>
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">ପ୍ରତ୍ୟୁତ୍ତର ପଠାଯାଇଛି</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">ପ୍ରତ୍ୟୁତ୍ତରଗୁଡିକ ପଠାଯାଇଛି</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">ସନ୍ଦେଶ ପସନ୍ଦ କରାଯାଇ୍ଛି</item>
+    <!-- Like several conversations -->
+    <item quantity="other">ସନ୍ଦେଶଗୁଡିକ ପସନ୍ଦ କରାଯାଇ୍ଛି</item>
+  </plurals>
+  <string name="invalid_selection">ଆବୈଧ ଚୟନ</string>
+  <string name="file_action_more_than_one_account">ଆପଣ ଗୋଟିଏରୁ ଅଧିକ ଆକାଉଣ୍ଟରୁ ବାର୍ତ୍ତାଳାପ ଚୟନ କ୍ରିଛନ୍ତି। କେବଳ ଗୋଟିଏ ଆକାଉଣ୍ଟ୍‍ରୁ ବାର୍ତ୍ତାଳାପ ଚୟନ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+  <string name="evernote_action_more_than_one_conversation">ଏଭନୋତ୍‍ ସଂଚାଳନ ଏକ ସମୟରେ କେବଳ ଗୋଟିଏ ବାର୍ତ୍ତାଳାପର ସମଥନ କରେ। କେବଳ ଗୋଟିଏ ବାର୍ତ୍ତାଳାପ ଚୟନ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ।</string>
+  <string name="not_installed">ସଂସ୍ଥାପିତ ହୋଇନାହିଁ</string>
+  <string name="evernote_not_installed">ଏଭର୍‍ନୋଟ୍‍ ସଂଥାପନ ହେବା ପାଇଁ ଦେଖାଯାଉନାହିଁ। ଏହି ସଂଚାଳନ ବ୍ୟବହାର କରିବା ପାଇଁ ଦୟାକରି ସଂଥାପନ କରନ୍ତୁ।</string>
+  <string name="custom_mailbox_button">କଷ୍ଟମ% ବକ୍ସ ଯୋଗ କରନ୍ତୁ</string>
+  <string name="custom_mailbox_settings_label">ସେଟିଂସ୍</string>
+  <string name="custom_mailbox_folder_name_hint">କଷ୍ଟମ୍‍ ବକ୍ସ ନାମ</string>
+  <string name="custom_mailbox_background_sync_label">ପୃଷ୍ଠପଟ ସିଙ୍କ୍‍ କରନ୍ତୁ</string>
+  <string name="custom_mailbox_background_sync_switch_on">ଅନ</string>
+  <string name="custom_mailbox_background_sync_switch_off">ଅଫ୍</string>
+  <string name="custom_mailbox_delete_box">ବକ୍ସ ବିଲୋପ କରନ୍ତୁ</string>
+  <string name="custom_mailbox_error_no_selected_folders">ଦୟାକରି ନିମ୍ନରେ ଦିଆଯାଇଥିବା ତାଲିକାରୁ ଅତିକମ୍‍ରେ ଗୋଟିଏ ଫୋଲ୍‍ଡର୍‍ ଚୟନ କରନ୍ତୁ</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">ସତର୍କବାଣୀ</string>
+  <string name="custom_mailbox_delete_box_dialog_message">ଏହି କଷ୍ଟମ୍‍ ବକ୍ସକୁ ଆପଣ ବିଲୋପ କରିବାକୁ ଚାହାଁନ୍ତି, ଏଥିରେ ଆପଣ ସୁନିଶ୍ଚିତ କି?</string>
+  <string name="custom_mailbox_error_deleting_box">ଆପଣଙ୍କ କଷ୍ଟମ୍‍ ମେଲ୍-ବାକ୍ସ ବିଲୋପ କରିବା ସମୟରେ ଏକ ତ୍ରୁଟି ଘଟିଥିଲା</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">ଏହି ଆପ୍ଲିକେସନ୍‍କୁ ମୂଲ୍ୟାୟନ କରନ୍ତୁ</string>
+  <string name="viral_prompt_rate_app_body">ଯଦି ଆପଣ ଏହି ଆପ୍ଲିକେସନ୍‍ର ବ୍ୟବହାରକୁ ଉପଭୋଗ କରୁଛନ୍ତି, ଏହା ମୂଲ୍ୟାୟନ କରିବାକୁ କିଛି ସମୟ ଦେବେ କି? ଏହା ଏକ ମିନିଟ୍‍ରୁ ଅଧିକ ସମୟ ନେବ ନାହିଁ। ଆପଣଙ୍କ ସମର୍ଥନ ପାଇଁ ଧନ୍ୟବାଦ!</string>
+  <string name="viral_ratings_prompt_remind_me_later">ମୋତେ ପରେ ମନେପକାନ୍ତୁ</string>
+  <string name="viral_ratings_prompt_no_thanks">ନା ଧନ୍ୟବାଦ</string>
+  <string name="viral_ratings_prompt_rate_now">ବର୍ତ୍ତ୍ମାନ ମୂଲ୍ୟାୟନ କରନ୍ତୁ</string>
+  <string name="promo_code_title_text">କେବଳ ଆପଣଙ୍କ ଇନ୍‍ବକ୍ସ ସହିତ କାରବାର କରନ୍ତୁ ନାହିଁ</string>
+  <string name="promo_code_edittext_hint">ପ୍ରମୋ କୋଡ୍‍ ପ୍ରବେଶ କରନ୍ତୁ</string>
+  <string name="promo_code_button_text">ଜମା</string>
+  <string name="promo_code_error_no_code_entered">ସବ୍‍ମିଟ୍‍ ଦବାଇବା ପୂର୍ବରୁ ଦୟାକରି ଏକ ପ୍ରମୋ କୋଡ୍‍ ପ୍ରବେଶ କରନ୍ତୁ</string>
+  <string name="promo_code_error_invalid_code">ଅବୈଧ ପ୍ରମୋ କୋଡ୍‍</string>
+  <string name="promo_code_dialog_title">ବୈଶିଷ୍ଟ୍ୟଗୁଡିକ ଅନ୍‍ଲକ୍‍ ହୋଇଛି</string>
+  <string name="promo_code_dialog_message">ଆପଣ ସଫଳତାର ସହିତ <xliff:g id="features">%s</xliff:g>କୁ ଅନ୍‍ଲକ୍‍ କରିଛନ୍ତି</string>
+  <string name="promo_code_dialog_generic_success_msg">ପ୍ରମୋ କୋଡ୍‍ ସଫଳତାର ସହିତ ଜାରି କରାଯାଇଛି</string>
+  <string name="promo_code_progress_dialog_validating">ପ୍ରମୋ କୋଡ୍‍ ବୈଧ କରାଯାଉ୍ଛି</string>
+  <string name="rage_shake_title">ସେକ୍‍ ସନ୍ଧାନ କରାଯାଇଛି</string>
+  <string name="rage_shake_message">ଡିବଗିଂ ସୂଚନା ସବ୍‍ମିଟ୍‍ କରିବା ପାଇଁ ଆପଣ ଆପ୍ଲିକେସନ୍‍କୁ ନଷ୍ଟ କରିବାକୁ ଚାହାଁନ୍ତି କି?</string>
+  <string name="actions_dialog_title">କଷ୍ଟମାଇଜ୍</string>
+  <string name="actions_dialog_message">ଆପଣ ଦୈନନ୍ଦିନ ଫୋଲ୍‍ଡର୍‍ ବ୍ୟବହାର କରନ୍ତି କି? ବହୁ ସମୟରେ ସ୍ପାମ୍‍ ଭାବେ ଚିହ୍ନିତ କରିବେ କି? ଏଭର୍‍ନେଟ୍‍ ସହ କ୍ଲିପ୍‍ କରିବାକୁ ପସନ୍ଦ କରିବେ କି?\n\nକଷ୍ଟମାଇଜ୍‍ ସ୍ୱାଇପ୍‍ କ୍ରିୟା ସହିତ ଆପଣ ଆପଣଙ୍କ ସଂଚାଳନପ୍ରବାହ ସହିତ ଫିଟ୍‍ ହେବା ପାଇଁ ଏଥିମଧ୍ୟରୁ ଯେ କୌଣସି ଅଙ୍ଗଭଙ୍ଗୀ୍‍ ସେଟ୍‍ କରିପାରିବେ।\n</string>
+  <string name="actions_dialog_positive_button_text">ସ୍ୱାଇପ୍‍ଗୂଡିକ କଷ୍ଟମାଇଜ୍‍ କରନ୍ତୁ</string>
+  <string name="actions_dialog_negative_button_text">ବନ୍ଦ</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">ଏକ ଅଧିକ ଉତ୍ତମ ଇନ୍‍ବକ୍ସକୁ ସ୍ୱାଗତ</string>
+  <string name="account_setup_vendor_heading">ଇମେଲ୍‍କୁ ସ୍ୱାଗତ</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">କେଉଁପରି?</string>
+  <string name="like_action_dialog_message">ଆପଣ ଆମର ପସନ୍ଦ ବୈଶିଷ୍ଟ୍ୟ ପ୍ରାପ୍ତ କରିଲେ। ଯେତେବେଳେ ଆପଣ ଏକ ସନ୍ଦେଶ \'ପସନ୍ଦ\’ କରନ୍ତି, ପ୍ରେରକ ଓ ଅନ୍ୟ ଗ୍ରାହକମାନଙ୍କୁ ଆପଣ ତାହା ପସନ୍ଦ କରୁଥିବା ଜଣାଇ ଏକ ଇମେଲ୍‍ ପଠାଯିବ। ବର୍ତ୍ତମାନ ପର୍ଯ୍ୟନ୍ତ ଇମେଲ୍‍ର ପ୍ରତ୍ୟୁତ୍ତର ଦେବା ପାଇଁ ଏହା ହେଉଛି ସବୁଠାରୁ ଦ୍ରୁତ ଉପାୟ</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">ନୂତନ</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">ଫୋଲ୍ଡର୍ ନାମ</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">ଫୋଲ୍‍ଡର୍‍ ସୃ୍ଷ୍ଟି କରାଯାଇଛି\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">ନକଲି ନାମ</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">ଆପଣ ପ୍ରବେଶ କରାଇଥିବା ଫୋଲ୍‍ଡର୍‍ ନାମ ଆଗରୁ ବିଦ୍ୟମାନ ଅଛି।</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">ତ୍ରୁଟି</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">ଫୋଲ୍‍ଡର୍‍ ସୃଷ୍ଟି କରାଯାଇପାରିଲା ନାହିଁ।</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">ରିପୋର୍ଟ୍</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">ସନ୍ଦେଶ ରିପୋର୍ଟ୍‍ କରାଯାଇଛି</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">ଏଠାରେ କୌଣସି ମେଲ୍‍ ନାହିଁ।\nସତେଜ କରିବା ପାଇଁ ତଳକୁ ଟାଣନ୍ତୁ</string>
+  <string name="getting_messages">ଆପଣଙ୍କ ସନ୍ଦେଶ ପ୍ରାପ୍ତ କରୁଛି</string>
+  <string name="empty_folder">ଏଠାରେ କୌଣସି ଇମେଲ୍ ନାହିଁ।</string>
+  <string name="empty_inbox">ଆପଣ ସବୁକିଛି ଶେଷ କରିଛନ୍ତି! ଦୟାକରି ଆପଣଙ୍କ ଦିନ ଉପଭୋଗ କରନ୍ତୁ।</string>
+  <string name="empty_search">ଓହୋ! ଆମେ &quot;<xliff:g id="search_query">%1$s</xliff:g>” ପାଇଁ କିଛି ସନ୍ଧାନ  କରିନାହୁଁ।</string>
+  <string name="empty_spam_folder">ହୁରରେ, ଏଠାରେ କୌଣସି ସ୍ପାମ୍ ନାହିଁ!</string>
+  <string name="empty_trash_folder">ଏଠାରେ କୌଣସି ଟ୍ରାସ୍ ନାହିଁ। ରିସାଇକେଲିଂ ପାଇଁ ଧନ୍ୟବାଦ!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">କ୍ୟାଲେଣ୍ଡରରେ ଦେଖନ୍ତୁ</string>
   <!-- Response action buttons. -->
+  <string name="accept">ସ୍ଵୀକାର</string>
+  <string name="maybe">ହୋଇପାରେ</string>
+  <string name="decline">ନିଷିଦ୍ଧ</string>
+  <string name="remove_from_cal">କ୍ୟାଲେଣ୍ଡର୍ରୁ ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="remove_series_from_cal">କ୍ୟା୍ଲେଣ୍ଡରରୁ ସିରିଜ୍‍ ଅପସାରଣ କରନ୍ତୁ</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">ମୁଁ</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">ମୁଁ ଓ %d ଅନ୍ୟାନ୍ୟ</item>
+    <item quantity="other">ମୁଁ ଓ %d ଅନ୍ୟାନ୍ୟ</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">ସମସ୍ତ ଦିନ</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">ବାତିଲ ହୋଇଛି</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">ମୋ ପାଇଁ ଉପଯୁକ୍ତ ସମୟ</string>
+  <string name="availability_by">ଏହା ଦ୍ୱାରା ଉପଲବ୍ଧ</string>
+  <string name="remove_availability">ଉପଲବ୍ଧତା ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="event_over">ଏହି ସମୟରେ ଘଟଣାକ୍ରମ</string>
+  <string name="busy">ବ୍ୟସ୍ତ</string>
+  <string name="available">ଉପଲବ୍ଧ</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d ଅନ୍ୟାନ୍ୟ ଦ୍ୱନ୍ଦ</item>
+    <item quantity="other">%d ଅନ୍ୟାନ୍ୟ ଦ୍ୱନ୍ଦ୍ୱ</item>
+  </plurals>
+  <string name="meeting_invitation">ଆମନ୍ତ୍ରଣ ବିଷୟବସ୍ତୁ:</string>
+  <string name="invitation_by">ଏହାଙ୍କ ଦ୍ୱାରା ଆମନ୍ତ୍ରିତ</string>
+  <string name="remove_invite">ଆମନ୍ତ୍ରଣ ଅପସାରଣ କରନ୍ତୁ</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> ଆପଣଙ୍କ ସନ୍ଦେଶ &lt;a href=&quot;%s&quot;&gt;ସିଆନୋଜେନ୍‍ OSରେ ବକ୍ସର୍‍&lt;/a&gt; ସହିତ ପସନ୍ଦ କରିଥିଲେ</string>
+  <string name="error_no_app_store">କୌଣ୍ସି ଉପ୍ଯୁକ୍ତ ଆପ୍ଲିକେସନ୍‍ ଷ୍ଟୋର୍‍ ମିଳିଲା ନାହିଁ</string>
+  <string name="calendar_feature_dialog_title">ବକ୍ସର୍‍ କ୍ୟାଲେଣ୍ଡର୍‍ ଡାଉନ୍‍ଲୋଡ୍‍ କରନ୍ତୁ</string>
+  <string name="calendar_feature_dialog_msg">ବକ୍ସର କ୍ୟାଲେଣ୍ଡର ବୈଶିଷ୍ଟ୍ୟ ପ୍ରଦାନ କରୁଛି ଯାହା ବକ୍ସର କ୍ୟାଲେଣ୍ଡର ସହିତ ଉପଯୁକ୍ତଭାବେ ସଂଚାଳନ କରୁଛି। ଏହି ବୈଶିଷ୍ଟ୍ୟ ସଷମ କରିବା ପାଇଁ, ବକ୍ସର୍‍ କ୍ୟାଲେଣ୍ଡରର ସାମ୍ପ୍ରତିକ ସଂସ୍କରଣ (ମାଗଣା) ଡାଉନ୍‍ଲୋଡ୍‍ କରନ୍ତୁ</string>
+  <string name="calendar_feature_dialog_positive_btn">ସଂସ୍ଥାପନ</string>
+  <string name="calendar_feature_dialog_negative_btn">ବର୍ତ୍ତମାନ ନୁହେଁ।</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">ପ୍ରକାଶନ ହୋଇନଥିବା ଗ୍ରାହକ</string>
 </resources>

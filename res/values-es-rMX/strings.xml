@@ -134,6 +134,12 @@
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Mover conversación</item>
+    <!-- Move several conversations -->
+    <item quantity="other">Mover <xliff:g id="ID_1">%1$d</xliff:g> conversaciones</item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
@@ -143,6 +149,12 @@
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">Borrador</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">Borradores</item>
+  </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
@@ -150,15 +162,85 @@
   <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
          showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
   <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">¿Deseas eliminar esta conversación?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">¿Deseas eliminar estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">¿Deseas archivar esta conversación?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">¿Deseas archivar estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">¿Descartar borradores de esta conversación?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">¿Descartar borradores de estas <xliff:g id="COUNT">%1$d</xliff:g> conversaciones?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Quitando marca de estrella de <xliff:g id="COUNT">%1$d</xliff:g> conversación</item>
+    <item quantity="other">Quitando marca de estrella de <xliff:g id="COUNT">%1$d</xliff:g> conversaciones</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">Se silenció &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">Se silenciaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">Se detectó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; como spam.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">Se detectaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; como spam.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">Se marcó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como deseada.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">Se marcaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como deseadas.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">Se marcó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como no importante.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">Se marcaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como no importantes.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">Se marcó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversación como suplantación de identidad.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">Se marcaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; conversaciones como suplantación de identidad.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">Se archivó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">Se archivaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">Se eliminó &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">Se eliminaron &lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt;.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">Carpeta modificada.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">Carpetas modificadas.</item>
+  </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
@@ -173,6 +255,10 @@
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> mensaje antiguo</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> mensajes antiguos</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
@@ -210,6 +296,11 @@
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> no leído</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> no leídos</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
@@ -313,6 +404,10 @@
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensaje se eliminará de forma permanente.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mensajes se eliminarán de forma permanente.</item>
+  </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <!-- Content description for the folder icon for nested folders. -->
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->

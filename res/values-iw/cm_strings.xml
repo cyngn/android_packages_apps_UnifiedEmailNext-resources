@@ -29,9 +29,9 @@
   <!-- Delete account -->
   <string name="delete_account_title">מחק חשבון</string>
   <string name="delete_account_summary">מחק חשבון זה ואת כל ההגדרות והנתונים שלו</string>
-  <string name="delete_account_confirmation_msg">פעולה זאת תמחק את כל ההגדרות וההודעות של החשבון \"<xliff:g id="account">%s</xliff:g>\". פעולה זו אינה ניתנת לשחזור.\n\nלהמשיך?</string>
+  <string name="delete_account_confirmation_msg">פעולה זאת תמחק את כל ההגדרות וההודעות של החשבון \"<xliff:g id="account">%s</xliff:g>\". פעולה זו אינה ניתנת לביטול.\n\nלהמשיך?</string>
   <string name="deleting_account_msg">מוחק חשבון\u2026</string>
-  <string name="delete_account_failed">לא הצליח למחוק את החשבון</string>
+  <string name="delete_account_failed">מחיקת החשבון נכשלה</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">פתח</string>
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
@@ -81,7 +81,7 @@
   <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">חשבונות</string>
   <!-- Default email signature on vendor builds -->
-  <string name="vendor_signature">נשלח ממכשיר ה-Cyanogen שלי</string>
+  <string name="vendor_signature">נשלח מטלפון ה-Cyanogen שלי</string>
   <string name="vendor_signature_fmt">נשלח מ-<xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">נשלח ממכשיר ה-BLU שלי - דוא\"ל BLU דרך Boxer</string>
   <string name="vendor_signature_o2">נשלח מ-Cyanogen ברשת O2</string>
@@ -122,7 +122,7 @@
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">טיוטה</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
-  <string name="quoted_text_hidden_print">טקסט מצוטט מוסתר</string>
+  <string name="quoted_text_hidden_print">טקסט מצוטט הוסתר</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one">קובץ מצורף <xliff:g id="count">%1$d</xliff:g></item>
@@ -154,9 +154,9 @@
   <string name="action_grid_assignee_dialog_title">הוסף מקבל הקצאה</string>
   <string name="action_grid_assignee_select_from_contacts">בחר מאנשי הקשר</string>
   <string name="action_grid_assignee_search_for_contact">חפש איש קשר</string>
-  <string name="action_grid_assignee_button_bar_clear">הסר</string>
+  <string name="action_grid_assignee_button_bar_clear">נקה</string>
   <!-- Prompt used if you are trying to delete a message -->
-  <string name="action_message_header_delete">האם למחוק הודעה זו?</string>
+  <string name="action_message_header_delete">למחוק הודעה זו?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">אהבתי</string>
   <string name="action_todo">לביצוע</string>
@@ -168,9 +168,9 @@
   <string name="action_delete">מחק</string>
   <string name="action_spam">דואר זבל</string>
   <string name="action_flag">דגל</string>
-  <string name="action_clear_flag">הסר דגל</string>
+  <string name="action_clear_flag">נקה דגל</string>
   <string name="action_star">כוכב</string>
-  <string name="action_clear_star">הסר כוכב</string>
+  <string name="action_clear_star">נקה כוכב</string>
   <string name="action_star_or_flag">כוכב/דגל</string>
   <string name="action_mark_unread">סמן כלא נקראה</string>
   <string name="action_mark_read">סמן כנקראה</string>
@@ -183,7 +183,7 @@
   <string name="marked_deleted">מסומן למחיקה</string>
   <string name="marked_spam">הועבר לדואר זבל</string>
   <string name="marked_todo">מסומן לביצוע</string>
-  <string name="marked_done">מסומן כבוצע</string>
+  <string name="marked_done">סומן כבוצע</string>
   <plurals name="quick_response_sent">
     <!-- Quick respond to 1 conversation -->
     <item quantity="one">התגובה נשלחה</item>
@@ -198,40 +198,40 @@
   </plurals>
   <string name="invalid_selection">בחירה לא חוקית</string>
   <string name="file_action_more_than_one_account">בחרת שיחות מיותר מחשבון אחד. נסה לבחור שיחות מחשבון אחד בלבד.</string>
-  <string name="evernote_action_more_than_one_conversation">הפונקציונליות של Evernote תומכת רק בשיחה אחת בכל פעם. נסה לבחור שיחה אחת בלבד.</string>
+  <string name="evernote_action_more_than_one_conversation">הפונקציונליות של Evernote תומכת רק בשיחה אחת בכל פעם. נסה לבחור בשיחה אחת בלבד.</string>
   <string name="not_installed">לא מותקן</string>
   <string name="evernote_not_installed">לא נראה ש-Evernote מותקן על המכשיר. אנא התקן את היישום על מנת להשתמש באפשרות זו.</string>
   <string name="custom_mailbox_button">הוסף תיבה מותאמת אישית</string>
   <string name="custom_mailbox_settings_label">הגדרות</string>
   <string name="custom_mailbox_folder_name_hint">שם תיבה מותאמת אישית</string>
   <string name="custom_mailbox_background_sync_label">סנכרון ברקע</string>
-  <string name="custom_mailbox_background_sync_switch_on">פעיל</string>
+  <string name="custom_mailbox_background_sync_switch_on">מופעל</string>
   <string name="custom_mailbox_background_sync_switch_off">כבוי</string>
   <string name="custom_mailbox_delete_box">מחק תיבה</string>
-  <string name="custom_mailbox_error_no_selected_folders">אנא בחר תיקייה אחת לפחות מרשימה זו</string>
+  <string name="custom_mailbox_error_no_selected_folders">בחר בתיקייה אחת לפחות מרשימה זו</string>
   <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">אזהרה</string>
-  <string name="custom_mailbox_delete_box_dialog_message">האם אתה בטוח שברצונך למחוק תיבה מותאמת אישית זו?</string>
+  <string name="custom_mailbox_delete_box_dialog_message">בטוח שברצונך למחוק תיבה מותאמת אישית זו?</string>
   <string name="custom_mailbox_error_deleting_box">אירעה שגיאה בעת מחיקת התיבה המותאמת אישית שלך</string>
   <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">דרג יישום זה</string>
-  <string name="viral_prompt_rate_app_body">אם אתה נהנה מיישום זה, האם תוכל לקחת רגע ולדרג אותו? זה לא ייקח יותר מדקה. תודה רבה על תמיכתך!</string>
+  <string name="viral_prompt_rate_app_body">אם אתה נהנה מיישום זה, האם תוכל להקדיש רגע ולדרג אותו? זה לא יארוך יותר מדקה. תודה רבה על תמיכתך!</string>
   <string name="viral_ratings_prompt_remind_me_later">הזכר לי מאוחר יותר</string>
-  <string name="viral_ratings_prompt_no_thanks">לא תודה</string>
+  <string name="viral_ratings_prompt_no_thanks">לא, תודה</string>
   <string name="viral_ratings_prompt_rate_now">דרג עכשיו</string>
   <string name="promo_code_title_text">אל תילחם בדואר הנכנס שלך לבד</string>
-  <string name="promo_code_edittext_hint">הכנס קוד קידום</string>
+  <string name="promo_code_edittext_hint">הכנס קוד מבצע</string>
   <string name="promo_code_button_text">שלח</string>
-  <string name="promo_code_error_no_code_entered">אנא הכנס קוד קידום לפני לחיצה על \"שלח\"</string>
-  <string name="promo_code_error_invalid_code">קוד קידום לא חוקי</string>
-  <string name="promo_code_dialog_title">תכונות נפתחו</string>
+  <string name="promo_code_error_no_code_entered">הזן קוד מבצע לפני לחיצה על \'שלח\'</string>
+  <string name="promo_code_error_invalid_code">קוד מבצע לא חוקי</string>
+  <string name="promo_code_dialog_title">התכונות נפתחו</string>
   <string name="promo_code_dialog_message">פתחת בהצלחה את <xliff:g id="features">%s</xliff:g></string>
-  <string name="promo_code_dialog_generic_success_msg">קוד קידום הוחל בהצלחה</string>
-  <string name="promo_code_progress_dialog_validating">מאמת קוד קידום</string>
+  <string name="promo_code_dialog_generic_success_msg">קוד מבצע הוחל בהצלחה</string>
+  <string name="promo_code_progress_dialog_validating">מאמת קוד מבצע</string>
   <string name="rage_shake_title">ניעור זוהה</string>
-  <string name="rage_shake_message">האם ברצונך לעצור את היישום על מנת לשלוח מידע איתור באגים?</string>
+  <string name="rage_shake_message">האם ברצונך לעצור את היישום על מנת לשלוח מידע על איתור באגים?</string>
   <string name="actions_dialog_title">התאם אישית</string>
-  <string name="actions_dialog_message">האם אתה משתמש בתיקיות באופן קבוע? מסמן כדואר זבל בלי הפסקה? אוהב להשתמש ב-Evernote?\n\nעם פעולות החלקה מותאמות אישית, אתה יכול להתאים כל אחת מפעולות אלו לרצף העבודה שלך.\n</string>
+  <string name="actions_dialog_message">משתמש בתיקיות באופן קבוע? מסמן כדואר זבל בלי הפסקה? אוהב להשתמש ב-Evernote?\n\nעם פעולות החלקה מותאמות אישית, אתה יכול להתאים כל אחת מפעולות אלו לרצף העבודה שלך.\n</string>
   <string name="actions_dialog_positive_button_text">התאם אישית החלקות</string>
   <string name="actions_dialog_negative_button_text">סגור</string>
   <!-- Account Setup -->
@@ -249,23 +249,23 @@
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">שם כפול</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
-  <string name="duplicate_folder_message">שם התיקייה שהכנסת כבר קיים.</string>
+  <string name="duplicate_folder_message">שם התיקייה שהזנת כבר קיים.</string>
   <!-- Title used for generic error alerts. -->
   <string name="error">שגיאה</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">לא ניתן היה ליצור את התיקייה.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
-  <string name="report_rendering_problem">דווח</string>
+  <string name="report_rendering_problem">דיווח</string>
   <!-- Toast message for above action -->
   <string name="message_reported">ההודעה דווחה</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
-  <string name="no_conversation_needs_sync">אין כאן דואר.\nמשוך למטה מהקצה העליון של המסך בשביל לרענן</string>
+  <string name="no_conversation_needs_sync">לא נמצא דואר.\nמשוך למטה מקצה המסך העליון לרענון</string>
   <string name="getting_messages">מקבל את ההודעות שלך</string>
   <string name="empty_folder">אין כאן דואר.</string>
   <string name="empty_inbox">סיימת הכל! שיהיה לך יום נהדר!</string>
-  <string name="empty_search">אופס! לא מצאנו דבר בשביל \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
-  <string name="empty_spam_folder">הידד, אין כאן דואר זבל!</string>
+  <string name="empty_search">אופס! לא מצאנו דבר עבור \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">כל הכבוד, אין כאן דואר זבל!</string>
   <string name="empty_trash_folder">אין זבל כאן! תודה שמיחזרת!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
@@ -289,7 +289,7 @@
   <string name="canceled">בוטל</string>
   <!-- Send availability strings -->
   <string name="times_that_work_for_me">זמנים שמתאימים לי:</string>
-  <string name="availability_by">זמין דרך</string>
+  <string name="availability_by">זמין באמצעות</string>
   <string name="remove_availability">הסר זמינות</string>
   <string name="event_over">אירוע הסתיים</string>
   <string name="busy">עסוק</string>
@@ -301,10 +301,10 @@
   <string name="meeting_invitation">סיכום הזמנה:</string>
   <string name="invitation_by">הזמנה מ:</string>
   <string name="remove_invite">הסר הזמנה</string>
-  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב את ההודעה שלך עם&lt;a href=\"%s\"&gt;Boxer על מערכת ההפעלה Cyanogen&lt;/a&gt;.</string>
-  <string name="error_no_app_store">לא נמצא יישום מתאים בחנות</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> אהב/ה את ההודעה שלך עם&lt;a href=\"%s\"&gt;Boxer על מערכת ההפעלה Cyanogen&lt;/a&gt;.</string>
+  <string name="error_no_app_store">לא נמצאה חנות יישומים מתאימה</string>
   <string name="calendar_feature_dialog_title">הורד את Boxer Calendar</string>
-  <string name="calendar_feature_dialog_msg">Boxer מספק תכונות ללוח שנה העובדות רק עם יישום Boxer Calendar. כדי להפעיל תכונה זו, הורד היום את הגרסה העדכנית של Boxer Calendar (בחינם)</string>
+  <string name="calendar_feature_dialog_msg">Boxer מספק תכונות ללוח שנה הפועלות רק עם יישום Boxer Calendar. כדי להפעיל תכונה זו, הורד היום את הגרסה העדכנית של Boxer Calendar (בחינם)</string>
   <string name="calendar_feature_dialog_positive_btn">התקנה</string>
   <string name="calendar_feature_dialog_negative_btn">לא כרגע</string>
   <!-- String shown in the TO field when it is blank -->

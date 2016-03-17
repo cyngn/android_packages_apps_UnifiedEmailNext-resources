@@ -82,7 +82,9 @@
   <string name="accounts_heading">Cuentas</string>
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Enviado desde mi teléfono con Cyanogen</string>
+  <string name="vendor_signature_fmt">Enviado desde <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">Enviado desde mi teléfono BLU - BLU Mail con tecnología Boxer</string>
+  <string name="vendor_signature_o2">Enviado desde Cyanogen en O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LEER</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
@@ -233,6 +235,8 @@
   <string name="actions_dialog_positive_button_text">Personalizar las acciones de deslizar</string>
   <string name="actions_dialog_negative_button_text">Cerrar</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Bienvenido a una bandeja de entrada mejor</string>
+  <string name="account_setup_vendor_heading">Bienvenido al correo electrónico</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">¿Cómo es?</string>
   <string name="like_action_dialog_message">Encontraste nuestra característica favorita. Cuando te \"gusta\" un mensaje, se envía un correo electrónico al remitente y el resto de los destinatarios que elijas para que sepan que te gusta. Es la manera más rápida de contestar un correo electrónico.</string>
@@ -253,6 +257,7 @@
   <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Informar</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">Mensaje informado</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">No hay correo aquí.\nDesliza hacia abajo para actualizar</string>
@@ -264,12 +269,44 @@
   <string name="empty_trash_folder">No hay nada en la papelera. ¡Gracias por reciclar!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Ver en el calendario</string>
   <!-- Response action buttons. -->
+  <string name="accept">Aceptar</string>
+  <string name="maybe">Quizá</string>
+  <string name="decline">Rechazar</string>
+  <string name="remove_from_cal">Quitar del calendario</string>
+  <string name="remove_series_from_cal">Quitar la serie del calendario</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Yo</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Yo y %d más</item>
+    <item quantity="other">Yo y %d más</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Todo el día</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">Cancelado</string>
   <!-- Send availability strings -->
   <string name="times_that_work_for_me">Veces que funcionó para mí:</string>
+  <string name="availability_by">Disponibilidad de</string>
+  <string name="remove_availability">Quitar disponibilidad</string>
+  <string name="event_over">Evento terminado</string>
+  <string name="busy">Ocupado</string>
+  <string name="available">Disponible</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d conflicto más</item>
+    <item quantity="other">%d conflictos más</item>
+  </plurals>
+  <string name="meeting_invitation">Resumen de la convocatoria:</string>
+  <string name="invitation_by">Convocatoria por</string>
+  <string name="remove_invite">Eliminar invitación</string>
+  <string name="action_liked_message_cm">A <xliff:g id="display_name" example="John Doe">%s</xliff:g> le gustó tu mensaje con &lt; a href = \"%s\" &gt; Boxer en Cyanogen OS &lt; /a &gt;.</string>
+  <string name="error_no_app_store">No se encontró ninguna tienda de aplicaciones</string>
+  <string name="calendar_feature_dialog_title">Descargar el calendario Boxer</string>
+  <string name="calendar_feature_dialog_msg">Boxer proporciona características que funcionan exclusivamente con el calendario Boxer. Para activar estas características descarga la última versión del calendario Boxer (GRATUITO)</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALAR</string>
+  <string name="calendar_feature_dialog_negative_btn">AHORA NO</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Destinatarios no revelados</string>
 </resources>

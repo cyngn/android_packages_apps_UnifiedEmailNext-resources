@@ -56,35 +56,37 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
-  <string name="reply_attribution">בתאריך <xliff:g id="DATE">%s</xliff:g>, <xliff:g id="PERSON">%s</xliff:g> כתב:</string>
+  <string name="reply_attribution">בתאריך <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> כתב/ה:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
-  <string name="forward_attribution">‏---------- הודעה שהועברה ----------&lt;br&gt;מאת: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;תאריך: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;נושא: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;אל: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
+  <string name="forward_attribution">‏---------- הודעה שהועברה ----------&lt;br&gt;מאת: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;תאריך:
+<xliff:g id="date">%2$s</xliff:g>&lt;br&gt;נושא:
+<xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;אל: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
   <string name="forward_attribution_no_headers">------------ הודעה שהועברה ----------</string>
   <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
-  <string name="cc_attribution">‏עותק: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
+  <string name="cc_attribution">‏עותק: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
   <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
   <string name="select_attachment_type">בחר סוג קובץ מצורף</string>
   <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
-  <string name="too_large_to_attach_single">לא ניתן לצרף קובץ שגדול מ-<xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_single">לא ניתן לצרף קובץ מעל <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
-  <string name="too_large_to_attach_multiple">קובץ אחד או יותר לא צורפו. המגבלה היא <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_multiple">קובץ אחד או יותר לא צורפו. המגבלה היא <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
-  <string name="too_large_to_attach_additional">הקובץ לא צורף. המגבלה היא <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <string name="too_large_to_attach_additional">הקובץ לא צורף. המערכת הגיעה למגבלת <xliff:g id="maxSize">%1$s</xliff:g>.</string>
   <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
-  <string name="generic_attachment_problem">לא ניתן היה לצרף קובץ.</string>
+  <string name="generic_attachment_problem">לא ניתן לצרף קובץ.</string>
   <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
   <string name="recipient_needed">הוסף נמען אחד לפחות.</string>
   <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <string name="recipient_error_dialog_title">שגיאת נמען</string>
   <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
-  <string name="confirm_send_title">האם לשלוח את ההודעה?</string>
+  <string name="confirm_send_title">לשלוח הודעה?</string>
   <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
   <string name="confirm_send_message_with_no_subject">אין טקסט בנושא ההודעה.</string>
   <string name="confirm_send_message_with_no_body">אין טקסט בגוף ההודעה.</string>
-  <string name="confirm_send_message">האם לשלוח הודעה זו?</string>
+  <string name="confirm_send_message">לשלוח הודעה זו?</string>
   <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
-  <string name="message_discarded">ההודעה נמחקה.</string>
+  <string name="message_discarded">ההודעה בוטלה.</string>
   <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
   <string name="custom_from_account_label">שלח דואר כ:</string>
   <!-- Menu item: send this message -->
@@ -100,21 +102,21 @@
   <!-- Menu item: remove the star from this conversation -->
   <string name="remove_star">הסר כוכב</string>
   <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
-  <string name="remove_folder">הסר מ-<xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <string name="remove_folder">הסר מ-<xliff:g id="folderName">%1$s</xliff:g></string>
   <!-- Menu item: archive this conversation -->
   <string name="archive">העבר לארכיון</string>
   <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
-  <string name="report_spam">דווח על דואר זבל</string>
+  <string name="report_spam">דיווח על דואר זבל</string>
   <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
-  <string name="mark_not_spam">דווח שפריט זה אינו דואר זבל</string>
+  <string name="mark_not_spam">דיווח שפריט זה אינו דואר זבל</string>
   <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
-  <string name="report_phishing">דווח על דיוג (פישינג)</string>
+  <string name="report_phishing">דיווח על דיוג</string>
   <!-- Menu item: delete this conversation -->
   <string name="delete">מחק</string>
   <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
-  <string name="discard_drafts">מחק טיוטות</string>
+  <string name="discard_drafts">בטל טיוטות</string>
   <!-- Menu item: refresh the inbox -->
-  <string name="refresh">רענן</string>
+  <string name="refresh">רענון</string>
   <!-- Menu item: reply to this message -->
   <string name="reply">השב</string>
   <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
@@ -162,11 +164,11 @@
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
-  <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
-  <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> KB</string>
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
-  <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> MB</string>
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
   <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <string name="attachment_image">תמונה</string>
   <!-- Attachment description for video files [CHAR LIMIT=30] -->
@@ -184,7 +186,7 @@
   <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
   <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
-  <string name="attachment_unknown">קובץ <xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g></string>
+  <string name="attachment_unknown">קובץ <xliff:g id="attachmentExtension">%s</xliff:g></string>
   <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">תצוגה מקדימה</string>
   <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
@@ -200,20 +202,20 @@
   <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">מאחזר קובץ מצורף</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
-  <string name="please_wait">המתן…</string>
+  <string name="please_wait">המתן\u2026</string>
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
-  <string name="saved">נשמר, <xliff:g id="SIZE">%s</xliff:g></string>
+  <string name="saved">נשמר, <xliff:g id="size">%s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
-  <string name="download_failed">לא ניתן היה להוריד. גע כדי לנסות שוב.</string>
+  <string name="download_failed">לא ניתן היה להוריד. גע כדי לנסות שנית.</string>
   <!-- Displayed in the conversation view, as a header informing
          the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">קבצים מצורפים</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
-  <string name="menu_photo_save_all">שמור הכל</string>
+  <string name="menu_photo_save_all">שמור הכול</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
   <string name="menu_photo_share">שתף</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
-  <string name="menu_photo_share_all">שתף הכל</string>
+  <string name="menu_photo_share_all">שתף הכול</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
   <string name="saving">שומר&#8230;</string>
   <!-- Webview Context Menu Strings -->
@@ -224,11 +226,11 @@
   <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
   <string name="contextmenu_copy">העתק</string>
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
-  <string name="contextmenu_copylink">העתק כתובת אתר של קישור</string>
+  <string name="contextmenu_copylink">העתק כתובת קישור</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
-  <string name="contextmenu_dial_dot">חייג...</string>
+  <string name="contextmenu_dial_dot">חייג\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
-  <string name="contextmenu_sms_dot">SMS…</string>
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">הוסף איש קשר</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
@@ -252,19 +254,19 @@
     <item quantity="other">העבר <xliff:g id="ID_1">%1$d</xliff:g> שיחות</item>
   </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
-  <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> על <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> בתאריך <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> על <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> on <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
-  <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> על <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> בשעה <xliff:g id="TIME">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> על <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> at <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">השיחה נקראה</string>
   <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">השיחה לא נקראה</string>
   <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
     return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
-  <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
          [CHAR LIMIT=5] -->
-  <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
+  <string name="subject_and_snippet"><xliff:g>%s</xliff:g> \u2014 <xliff:g>%s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
@@ -273,7 +275,7 @@
     <item quantity="other">טיוטות</item>
   </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
-  <string name="sending">שולח…</string>
+  <string name="sending">שולח\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <string name="send_failed">ההודעה לא נשלחה.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
@@ -303,10 +305,10 @@
     <item quantity="other">למחוק טיוטות מ-<xliff:g id="COUNT">%1$d</xliff:g> שיחות אלה?</item>
   </plurals>
   <!-- Dialog text: confirm discard -->
-  <string name="confirm_discard_text">האם למחוק הודעה זו?</string>
+  <string name="confirm_discard_text">לבטל הודעה זו?</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
-  <string name="loading_conversations">טוען…</string>
+  <string name="loading_conversations">טוען\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">בטל</string>
@@ -362,7 +364,7 @@
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">הועברה לארכיון</string>
   <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
-  <string name="folder_removed">הוסרה מ-<xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <string name="folder_removed">הוסרה מ- <xliff:g id="folderName">%1$s</xliff:g></string>
   <plurals name="conversation_folder_changed">
     <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
     <item quantity="one">התיקיה שונתה.</item>
@@ -370,13 +372,13 @@
     <item quantity="other">התיקיות שונו.</item>
   </plurals>
   <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
-  <string name="conversation_folder_moved">הועברה אל <xliff:g id="FOLDERNAME">%1$s</xliff:g></string>
+  <string name="conversation_folder_moved">הועברה אל <xliff:g id="folderName">%1$s</xliff:g></string>
   <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">תוצאות</string>
   <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
   <string name="search_unsupported">חיפוש אינו נתמך בחשבון זה.</string>
   <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
-  <string name="search_results_searching_header">מחפש…</string>
+  <string name="search_results_searching_header">מחפש\u2026</string>
   <!-- Conversation view -->
   <!--  Text anchor for control to add / change labels on a conversation when
           viewing it. [CHAR LIMIT=40] -->
@@ -385,9 +387,9 @@
   <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="expand_recipient_details">הרחב פרטי נמען</string>
   <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
-  <string name="collapse_recipient_details">כווץ את פרטי הנמען</string>
+  <string name="collapse_recipient_details">צמצם את פרטי הנמען</string>
   <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
-  <string name="contact_info_string">הצג פרטי איש קשר של <xliff:g id="NAME">%1$s</xliff:g></string>
+  <string name="contact_info_string">הצג פרטי איש קשר של <xliff:g id="name">%1$s</xliff:g></string>
   <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <string name="contact_info_string_default">הצג פרטי איש קשר</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
@@ -397,17 +399,17 @@
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> הודעות ישנות יותר</item>
   </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
-  <string name="from_heading">מאת: </string>
+  <string name="from_heading">מאת:\u0020</string>
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
-  <string name="replyto_heading">השב ל: </string>
+  <string name="replyto_heading">השב ל:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="to_heading">אל: </string>
+  <string name="to_heading">אל:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="cc_heading">עותק: </string>
+  <string name="cc_heading">עותק:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="bcc_heading">עותק מוסתר: </string>
+  <string name="bcc_heading">עותק מוסתר:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="date_heading">תאריך: </string>
+  <string name="date_heading">תאריך:\u0020</string>
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
   <string name="show_images">הצג תמונות</string>
   <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
@@ -415,25 +417,25 @@
   <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
   <string name="always_show_images_toast">תמונות משולח זה יוצגו באופן אוטומטי.</string>
   <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
-  <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
   <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
-  <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> דרך <xliff:g id="VIA_DOMAIN">%3$s</xliff:g></string>
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> דרך <xliff:g id="via_domain">%3$s</xliff:g></string>
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
   <string name="message_saved">ההודעה נשמרה כטיוטה.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
-  <string name="sending_message">שולח הודעה…</string>
+  <string name="sending_message">שולח הודעה\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
-  <string name="invalid_recipient">הכתובת <xliff:g id="WRONGEMAIL">%s</xliff:g> אינה חוקית.</string>
+  <string name="invalid_recipient">הכתובת <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> אינה חוקית.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
-  <string name="show_elided">▶ הצג טקסט מצוטט</string>
+  <string name="show_elided">\u25B6 הצג טקסט מצוטט</string>
   <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
-  <string name="hide_elided">▼ הסתר טקסט מצוטט</string>
+  <string name="hide_elided">\u25BC הסתר טקסט מצוטט</string>
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">הזמנה בלוח השנה</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
   <string name="message_invite_calendar_view">הצג בלוח השנה</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
-  <string name="message_invite_label_attending">האם אתה הולך?</string>
+  <string name="message_invite_label_attending">מגיע?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_accept">כן</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
@@ -441,7 +443,7 @@
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_decline">לא</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
-  <string name="enumeration_comma">, </string>
+  <string name="enumeration_comma">,\u0020</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="yes">כן</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -502,7 +504,7 @@
   <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
   <string name="network_error">אין חיבור</string>
   <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
-  <string name="retry">נסה שוב</string>
+  <string name="retry">נסה שנית</string>
   <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
   <string name="load_more">טען עוד</string>
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
@@ -592,10 +594,10 @@
   <!-- The default auto-advance mode -->
   <!-- The auto-advance mode values -->
   <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
-  <string name="clear_display_images_whitelist_title">ניקוי של אישורי תמונות</string>
+  <string name="clear_display_images_whitelist_title">נקה אישורי תמונות</string>
   <!-- Settings screen, title of dialog shown to confirm action when user taps
     "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
-  <string name="clear_display_images_whitelist_dialog_title">האם לנקות אישורי תמונות?</string>
+  <string name="clear_display_images_whitelist_dialog_title">לנקות אישורי תמונות?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
   <string name="clear_display_images_whitelist_dialog_message">הפסק להציג תמונות מוטבעות משולחים שהתרת זאת עבורם בעבר.</string>
@@ -624,7 +626,7 @@
   <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
   <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
-  <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>‏: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
+  <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>‏: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
@@ -691,7 +693,7 @@
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
   <string name="date_message_received_yesterday">אתמול ב-<xliff:g id="TIME">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
-  <string name="dismiss_tip_hover_text">סגור את הטיפ</string>
+  <string name="dismiss_tip_hover_text">דחה את הטיפ</string>
   <!-- Tip for letting user know that their device auto-sync setting
         is turned off, in case they are wondering why they are not
         receiving any new mail. [CHAR LIMIT=250] -->
@@ -716,7 +718,7 @@
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
   <string name="turn_auto_sync_on_dialog_title">האם להפעיל סנכרון אוטומטי?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
-  <string name="turn_auto_sync_on_dialog_body">‏שינויים שתבצע בכל האפליקציות והחשבונות, ולא רק ב-Gmail, יסונכרנו בין האינטרנט, המכשירים האחרים שלך וה<xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g> שלך.</string>
+  <string name="turn_auto_sync_on_dialog_body">‏שינויים שתבצע בכל היישומים והחשבונות, ולא רק ב-Gmail, יסונכרנו בין האינטרנט, המכשירים האחרים שלך ומכשיר <xliff:g id="phone_or_tablet">%1$s</xliff:g> שלך.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">טלפון</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->

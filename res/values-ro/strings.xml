@@ -323,6 +323,13 @@
     <!-- Displayed while reporting several conversations as spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; raportate ca spam.</item>
   </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arhivat.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arhivate.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; arhivate.</item>
+  </plurals>
   <plurals name="conversation_deleted">
     <!-- Displayed while deleting one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; șters.</item>

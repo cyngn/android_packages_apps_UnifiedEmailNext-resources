@@ -49,7 +49,7 @@
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как задача.</item>
-    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; помечены как задачи.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как задачи.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечены как задачи.</item>
   </plurals>
@@ -131,7 +131,7 @@
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> вложение</item>
-    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> прикреплённых файла</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> вложения</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> вложений</item>
   </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->

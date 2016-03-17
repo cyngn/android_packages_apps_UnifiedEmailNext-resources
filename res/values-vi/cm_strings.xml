@@ -54,6 +54,9 @@
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Hiển thị tin nhắn mới từ <xliff:g id="sender">%s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="other">Hiện <xliff:g id="count">%1$d</xliff:g> tin nhắn mới.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Chỉnh sửa</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
@@ -86,6 +89,9 @@
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">XÓA</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> tin nhắn mới</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Thao tác vuốt</string>
   <!--  Settings screen, Swipe actions preference summary -->
@@ -101,6 +107,9 @@
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">In</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> tin nhắn</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> vào lúc <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
@@ -110,6 +119,9 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Văn bản ẩn đã trích dẫn</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> tập tin đính kèm</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(không có tiêu đề)</string>
   <string name="action_grid_select_quick_response">Chọn trả lời nhanh</string>
@@ -166,6 +178,16 @@
   <string name="marked_spam">Chuyển đến thư rác</string>
   <string name="marked_todo">Đã đánh dấu là việc cần làm</string>
   <string name="marked_done">Đã đánh dấu là hoàn tất</string>
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Đã gửi hồi đáp</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
+    <item quantity="other">Tin nhắn đã thích</item>
+  </plurals>
   <string name="invalid_selection">Lựa chọn không hợp lệ</string>
   <string name="file_action_more_than_one_account">Bạn đã chọn cuộc hội thoại từ nhiều tài khoản. Thử chỉ chọn cuộc hội thoại từ một tài khoản.</string>
   <string name="evernote_action_more_than_one_conversation">Chức năng Evernote chỉ hỗ trợ một cuộc hội thoại tại một thời điểm. Thử chọn chỉ chọn một cuộc hội thoại.</string>

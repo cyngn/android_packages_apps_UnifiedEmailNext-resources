@@ -27,9 +27,23 @@
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> y %d más</item>
+    <item quantity="other"> y %d más</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcado como pendiente.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcados como pendientes.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one">Mostrar <xliff:g id="count">%1$d</xliff:g> nuevo mensaje.</item>
+    <item quantity="other">Mostrar <xliff:g id="count">%1$d</xliff:g> nuevos mensajes.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
@@ -42,6 +56,10 @@
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuevo mensaje</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nuevos mensajes</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
   <!--  Settings screen, Swipe actions preference summary -->
   <!--  Settings screen, Swipe actions, Left short preference title -->
@@ -50,15 +68,35 @@
   <!--  Settings screen, Swipe actions, Right long preference title -->
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensaje</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mensajes</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> adjunto</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> adjuntos</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <!-- Prompt used if you are trying to delete a message -->
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Respuesta enviada</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Respuestas enviadas</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Mensaje marcado como me gusta</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Mensajes marcados como me gusta</item>
+  </plurals>
   <!-- Title for confirm delete box dialog -->
   <!-- Ratings Viral Prompt -->
   <!-- Account Setup -->
@@ -79,8 +117,16 @@
   <!-- Response action buttons. -->
   <!-- Attendee text when user is the only attendee. -->
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Yo y %d más</item>
+    <item quantity="other">Yo y %d más</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
   <!-- Status for canceled events. -->
   <!-- Send availability strings -->
+  <plurals name="other_conflicts">
+    <item quantity="one">%d conflicto más</item>
+    <item quantity="other">%d conflictos más</item>
+  </plurals>
   <!-- String shown in the TO field when it is blank -->
 </resources>

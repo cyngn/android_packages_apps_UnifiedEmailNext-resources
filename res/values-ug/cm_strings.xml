@@ -18,69 +18,285 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">بىرلەشتۈرۈلگەن</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">ھەممىنى تاللاش</string>
+  <string name="menu_actiongrid">ھەرىكەت كاتىكى</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="remove_account">ھېساباتنى چىقىرىۋەت</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">قوللايدۇ</string>
   <!-- Delete account -->
+  <string name="delete_account_title">ھېسابات ئۆچۈرۈش</string>
+  <string name="delete_account_summary">بۇ ھېساباتنىڭ ھەممە تەڭشەكلىرى ۋە سانلىق مەلۇماتىنى ئۆچۈرىدۇ</string>
+  <string name="delete_account_confirmation_msg">بۇ <xliff:g id="account">%s</xliff:g> ھېساباتنىڭ ھەممە تەڭشەكلىرى ۋە تورخەتلىرىنى ئۆچۈرىدۇ. بۇ مەشغۇلاتتىن يېنىۋالغىلى بولمايدۇ.\n\nداۋاملاشتۇرامدۇ؟</string>
+  <string name="deleting_account_msg">ھېساباتنى ئۆچۈرۈۋاتىدۇ\u2026</string>
+  <string name="delete_account_failed">ھېساباتنى ئۆچۈرەلمەيدۇ</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <string name="open_attachment">ئېچىش</string>
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <string name="install_attachment">ئورنىتىش</string>
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">بېسىش</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">سۈرەتنى كۆرسەت</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="other">&amp; %d باشقىلار</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">تۈر &lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; گە قىلماقچى بولغان ئىش بەلگىسى قويۇلدى.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">ئەخلەت تورخەت دەپ دوكلات قىلىنغان</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g> دىن كەلگەن يېڭى ئۇچۇرنى كۆرسىتىدۇ.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> دانە يېڭى ئۇچۇرنى كۆرسىتىش.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">تەھرىرلەش</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">ئىزدە</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>ئىدراكلىق قىسقۇچلار</item>
+    <item>ھەممە قىسقۇچلار</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>ئىدراكلىق بەلگەلەر</item>
+    <item>ھەممە بەلگەلەر</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">تاللانمىلار</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">قىسقۇچلار</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">ھېساباتلار</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">مېنىڭ Cyanogen تېلېفونۇمدىن ئەۋەتىلگەن</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> دىن ئەۋەتىلگەن</string>
+  <string name="blu_signature">مېنىڭ BLU تېلېفونۇمدىكى BLU ئېلخېتىدىن ئەۋەتىلگەن</string>
+  <string name="vendor_signature_o2">O2 دىكى Cyanogen دىن ئەۋەتىلگەن</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">ئوقۇش</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">قايتۇرۇش</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">ئۆچۈرۈش</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> دانە يېڭى ئۇچۇر</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">سىيرىش ھەرىكىتى</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">ئوڭ سولغا سىيرىش ھەرىكىتىنى خاسلاشتۇرۇش</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">سولغا قىسقا سىيرىش</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">سولغا ئۇزۇن سىيرىش</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">ئوڭغا قىسقا سىيرىش</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">ئوڭغا ئوزۇن سىيرىش</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">بېسىپ چىقىرىش</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> نىڭ ئۇچۇرى</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> دە <xliff:g id="time">%2$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">ئارگىنال:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">ئارگىنال</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">نەقىل ئېلىنغان تېكىسىت يوشۇرۇلدى</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> نىڭ قوشۇمچەھۆججىتى</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(ماۋزۇسىز)</string>
+  <string name="action_grid_select_quick_response">تىز ئىنكاسنى تاللاش</string>
+  <string name="action_grid_todo_dialog_title">تەپسىلاتى</string>
+  <string name="action_grid_set_due_date">كۈچكە ئىگە چىسلانى بېكىتىش</string>
+  <string name="action_grid_due">ۋاقتى توشىدۇ:<xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">ئالدىنلىق قوشۇش</string>
+  <string name="action_grid_priority">ئالدىنلىق:\u0020</string>
+  <string name="action_grid_add_assignee">ۋاكالەتچى قوشۇش</string>
+  <string name="action_grid_assignee">ۋاكالەتچى:\u2026</string>
+  <string name="action_grid_due_date_dialog_title">كۈچكە ئىگە چىسلانى بېكىتىش</string>
+  <string name="action_grid_due_date_today">بۈگۈن</string>
+  <string name="action_grid_due_date_tomorrow">ئەتە</string>
+  <string name="action_grid_due_date_this_week">بۇ ھەپتە</string>
+  <string name="action_grid_due_date_next_week">كىيىنكى ھەپتە</string>
+  <string name="action_grid_due_date_specific_date">بەلگىلەنگەن چىسلا</string>
+  <string name="action_grid_calendar_picker_dialog_title">كۈچكە ئىگە چىسلانى بېكىتىش</string>
+  <string name="action_grid_priority_dialog_title">ئالدىنلىق قوشۇش</string>
+  <string name="action_grid_priority_highest">ئەڭ يوقىرى ئالدىنلىق</string>
+  <string name="action_grid_priority_high">يوقرى ئالدىنلىق</string>
+  <string name="action_grid_priority_normal">نورمال ئالدىنلىق</string>
+  <string name="action_grid_priority_low">تۆۋەن ئالدىنلىق</string>
+  <string name="action_grid_priority_lowest">ئەڭ تۆۋەن ئالدىنلىق</string>
+  <string name="action_grid_assignee_dialog_title">ۋاكالەتچى قوشۇش</string>
+  <string name="action_grid_assignee_select_from_contacts">ئالاقىداشتىن تاللاڭ</string>
+  <string name="action_grid_assignee_search_for_contact">ئالاقىداش ئىزدەش</string>
+  <string name="action_grid_assignee_button_bar_clear">تازىلاش</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">بۇ ئۇچۇرنى يۇيۋېتەمسىز؟</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">بارىكاللا</string>
+  <string name="action_todo">بىجىرىلىدىغان ئىش</string>
+  <string name="action_quick">تىز</string>
+  <string name="action_move">يۆتكەش</string>
+  <string name="action_label">ماركا</string>
+  <string name="action_move_or_label">يۆتكەش\ماركا</string>
+  <string name="action_archive">ئارخىپلاش</string>
+  <string name="action_delete">ئۆچۈرۈش</string>
+  <string name="action_spam">ئەخلەت ئېلخەت</string>
+  <string name="action_flag">بايراق</string>
+  <string name="action_clear_flag">بايراقنى تازىلاش</string>
+  <string name="action_star">يۇلتۇز</string>
+  <string name="action_clear_star">يۇلتۇزنى تازىلاش</string>
+  <string name="action_star_or_flag">يۇلتۇز\بايراق</string>
+  <string name="action_mark_unread">ئوقۇلمىغان قىلىش</string>
+  <string name="action_mark_read">ئوقۇلدى دەپ بەلگە قويۇش</string>
+  <string name="action_read_or_unread">ئوقۇلدى\ئوقۇلمىدى</string>
+  <string name="action_actions">ھەرىكەت</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="marked_evernote">Evernote قا ئەۋەتىش</string>
+  <string name="marked_liked">ئالقىشلاندى</string>
+  <string name="marked_archived">ئارخىپلانغان قىلىپ بەلگە سېلىش</string>
+  <string name="marked_deleted">ئۆچۈرۈلگەن قىلىپ بەلگە سېلىش</string>
+  <string name="marked_spam">ئەخلەت ساندۇقىغا يۆتكەش</string>
+  <string name="marked_todo">بىجىردىغان ئىش قىلىش</string>
+  <string name="marked_done">تامام دەپ بەلگە سېلىندى</string>
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">جاۋاب قايتۇرۇلدى</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
+    <item quantity="other">ئۇچۇرنى ياقتۇردى</item>
+  </plurals>
+  <string name="invalid_selection">ئىناۋاتسىز تاللاش</string>
+  <string name="file_action_more_than_one_account">سىز بىردىن كۆپ ھېسابات بار دىئالوگنى تاللىدىڭىز. سىز پەقەت بىرلا ھېسابات بار دىئالوگنى تاللاپ سىناپ بېقىڭ.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote بىر قېتىمدا پەقەت بىرلا دىئالوگنى قوللايدۇ. بىرلا دىئالوگنى تاللاپ سىناپ بېقىڭ.</string>
+  <string name="not_installed">ئورنىتىلمىدى</string>
+  <string name="evernote_not_installed">Evernote تېخى ئورنىتىلمىغاندەك قىلىدۇ، ئورنىتىپ بۇ ئىقتىدارنى ئىشلىتىڭ.</string>
+  <string name="custom_mailbox_button">خاسلاشتۇرۇلغان ئېلخەت قوشۇش</string>
+  <string name="custom_mailbox_settings_label">تەڭشەكلەر</string>
+  <string name="custom_mailbox_folder_name_hint">ئېلخەت ئادېرىسىنى خاسلاشتۇرۇش</string>
+  <string name="custom_mailbox_background_sync_label">ئارقا سۇپىدا قەدەمداش قىلىش</string>
+  <string name="custom_mailbox_background_sync_switch_on">ئوچۇق</string>
+  <string name="custom_mailbox_background_sync_switch_off">تاقاق</string>
+  <string name="custom_mailbox_delete_box">خەت ساندۇقىنى ئۆچۈرۈش</string>
+  <string name="custom_mailbox_error_no_selected_folders">تۆۋەندىكى ھۆججەت قىسقۇچتىن ئاز بولغاندىمۇ بىرنى تاللاڭ</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">ئاگاھلاندۇرۇش</string>
+  <string name="custom_mailbox_delete_box_dialog_message">خاسلاشتۇرۇلغان ئېلخەت ساندۇقىنى ئۆچۈرەمسىز؟</string>
+  <string name="custom_mailbox_error_deleting_box">خاسلاشتۇرۇلغان ئېلخەت ساندۇقىنى ئۆچۈرۈۋاتقاندا خاتالىق كۆرۈلدى</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">بۇ ئەپنى باھالاش</string>
+  <string name="viral_prompt_rate_app_body">ئەگەر سىز بۇ ئەپنى ئىشلىتىشنى ياقتۇرسىڭىز، ئازراق ۋاقتىڭىزنى چىقىرىپ ئۇنى باھالاپ قويۇڭ. كۆپ ۋاقتىڭىزنى ئالمايدۇ. قوللىغىنىڭىزغا رەھمەت!</string>
+  <string name="viral_ratings_prompt_remind_me_later">مېنى كىيىن ئەسكەرتىڭ</string>
+  <string name="viral_ratings_prompt_no_thanks">ياق، رەھمەت</string>
+  <string name="viral_ratings_prompt_rate_now">دەرھال باھالاش</string>
+  <string name="promo_code_title_text">سىز ھەممىنى قۇبۇللاش ساندۇقىڭىز كۆرسىڭىز بولمايدۇ</string>
+  <string name="promo_code_edittext_hint">سېتىشنى تىزلىتىش نۇمۇرىنى كىرگۈزۈڭ</string>
+  <string name="promo_code_button_text">تاپشۇرۇش</string>
+  <string name="promo_code_error_no_code_entered">ئاۋۋال سېتىشنى تىزلىتىش نۇمۇرىنى كىرگۈزۈڭ، ئاندىن تاپشۇرۇڭ</string>
+  <string name="promo_code_error_invalid_code">ئىناۋەتسىز سېتىشنى تىزلىتىش نومۇرى</string>
+  <string name="promo_code_dialog_title">ئىقتىدار ئېچىلدى</string>
+  <string name="promo_code_dialog_message">سىز <xliff:g id="features">%s</xliff:g>نى مۇۋاپپىقىيەتلىك ئاچتىڭىز</string>
+  <string name="promo_code_dialog_generic_success_msg">سېتىشنى تىزلىتىش نۇمۇرى ئۇڭۇشلۇق ئىشلىتىلدى</string>
+  <string name="promo_code_progress_dialog_validating">سېتىشنى تىزلىتىش نۇمۇرىنى تەستىقلەۋاتىدۇ</string>
+  <string name="rage_shake_title">سىلكىش بايقالدى</string>
+  <string name="rage_shake_message">سىز ئەپنى گۇمراق قىلىش ئارقىلىق سازلاش ئۇچۇرىنى تاپشۇرامسىز؟</string>
+  <string name="actions_dialog_title">ئىختىيارىي</string>
+  <string name="actions_dialog_message">سىز ھۆججەت قىسقۇچ رەتلىگۈچنى دائىم ئىشلىتەمسىز؟ دائىم ئەخلەت ئېلخەت ئۇچىرامدۇ؟ Evernoteقا كۆچۈرۈپ ساقلاشنى ياخشى كۆرەمسىز؟\n\n سىيرىش ھەرىكىتىنى خاسلاشتۇرۇپ، ئۆزىڭىزگە ماس كېلىدىغان ھەرقانداق قول ئىشارىتىنى بېكىتىڭ. \n</string>
+  <string name="actions_dialog_positive_button_text">سىيرىشنى خاسلاشتۇرۇش</string>
+  <string name="actions_dialog_negative_button_text">تاقاش</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">تېخىمۇ ياخشى قوبۇللاش ساندۇقىغا مەرھابا</string>
+  <string name="account_setup_vendor_heading">ئېلخەتكە خۇش كەلدىڭىز</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">نەرى ياخشى؟</string>
+  <string name="like_action_dialog_message">بىز سىز ياقتۇردىغان ئىقتىدارنى تاپتۇق. سىز بىر تال ئۇچۇرنى \"ئالقىشلىغاندا\"، بىز ئۇلارغا بىر تال ئېلخەتئەۋەتىپ سىزنىڭ ئۇنى ياقتۇرغانلىقىڭىزنى ئېيتىمىز. بۇ نۆۋەتتىكى ئەڭ تىز ئېلخەت قايتۇرۇش ئۇسۇلى.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">يېڭى</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">قىسقۇچ ئسمى</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">ھۆججەت قىسقۇچ قۇرىۋاتىدۇ\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">قايتىلانغان ئىسىم</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">سىز كىرگۈزگەن ھەججەت نامى مەۋجۇتكەن.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">خاتالىق</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">ھۆججەت قىسقۇچىنى قۇرالمىدى.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">دوكلات</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">ئۇچۇرغا دوكىلات بېرىلدى</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">بۇ يەردە ئېلخەت يوق\n ئۈستىدىن ئاستىغا سىيرىپ يېڭىلاڭ</string>
+  <string name="getting_messages">ئۇچۇرىڭىزغا ئېرىشىۋاتىدۇ</string>
+  <string name="empty_folder">بۇ يەردە ئېلخەت يوق.</string>
+  <string name="empty_inbox">ھەممىنى تاماملىدىڭىز! گۈزەل بىر كۈنىڭىزدىن ھوزۇرلىنىڭ.</string>
+  <string name="empty_search">ئاپلا! بىز \"<xliff:g id="search_query">%1$s</xliff:g>\" ھەققىدىكى ئېلخەتنى تاپالمىدۇق.</string>
+  <string name="empty_spam_folder">ياشاپ كېتىڭ، ئەخلات يوقلكەن!</string>
+  <string name="empty_trash_folder">بۇ يەردە ئەخلەت يوق، قايتۇرۋالغىنىڭىزغا رەھمەت!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">كالېنداردا كۆرۈش</string>
   <!-- Response action buttons. -->
+  <string name="accept">قۇبۇل قىلىش</string>
+  <string name="maybe">مۇمكىن</string>
+  <string name="decline">رەت قىلىش</string>
+  <string name="remove_from_cal">كالېنداردىن چىقىرۋېتىش</string>
+  <string name="remove_series_from_cal">كالېنداردىن بۇ پائالىيەتنى چىقىرۋېتىش</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">مەن</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="other">مەن &amp; %d باشقىلار</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">پۈتۈن كۈن</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">بىكار قىلىندى</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">مۇۋاپىق ۋاقىت:</string>
+  <string name="availability_by">تەمنلىگۈچى:</string>
+  <string name="remove_availability">ئۈنۈملۈكىنى قالدۇرۇش</string>
+  <string name="event_over">بىجىرىدىغان ئىش ئاخىرلاشتى</string>
+  <string name="busy">ئالدىراش</string>
+  <string name="available">ئىشلىتىلىشچان</string>
+  <plurals name="other_conflicts">
+    <item quantity="other">ئۇنىڭدىن باشقا %d توقۇنۇش</item>
+  </plurals>
+  <string name="meeting_invitation">تەكلىپنامە چۈشەندۈرىشى:</string>
+  <string name="invitation_by">تەكلىپ قىلغۇچى:</string>
+  <string name="remove_invite">تەكلىپ ئۆچۈرۈش</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> سزنىڭ ئۇچۇرىڭىزنى &lt;a href=\"%s\"&gt;Boxer on Cyanogen OS&lt;/a&gt;. ئالقىشلىدى;.</string>
+  <string name="error_no_app_store">مۇۋاپىق ئەپ بازىرى تاپالمىدى</string>
+  <string name="calendar_feature_dialog_title">Boxer كالېندارى چۈشۈرۈش</string>
+  <string name="calendar_feature_dialog_msg">Boxer بولسا Boxer كالېندارىنىڭ مەخسۇس ئىقتىدارىنى تەمىنلەيدۇ. بۇ ئىقتىدارىنى قوزغتىش ئۈچۈن، دەرھال ئەڭ يېڭى نەشىردىكى Boxer كالېندارىنى چۈشۈرۈڭ(ھەقسىز)</string>
+  <string name="calendar_feature_dialog_positive_btn">ئورنىتىلغان</string>
+  <string name="calendar_feature_dialog_negative_btn">ھازىر ئەمەس</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">مەخپى ئالاقىداش</string>
 </resources>

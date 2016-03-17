@@ -228,7 +228,7 @@
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
   <string name="contextmenu_dial_dot">Набиране...</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
-  <string name="contextmenu_sms_dot">SMS…</string>
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">Добавяне на контакт</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
@@ -653,7 +653,7 @@
   <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <string name="preference_swipe_title_archive">Плъзнете за да архивирате</string>
   <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
-  <string name="preference_swipe_title_delete">Плъзнете за да изтриете</string>
+  <string name="preference_swipe_title_delete">Бързо изтриване</string>
   <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <string name="preference_swipe_description">В списък с кореспонденции</string>
   <!-- In conversation list, when user initiates a downward swipe,

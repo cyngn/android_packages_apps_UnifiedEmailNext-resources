@@ -18,69 +18,295 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Label shown in the account selector to select "Combined", which contains
          Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
+  <string name="mailbox_list_account_selector_combined_view">ஒருங்கிணைந்த</string>
   <!-- Menu item: Select all conversations -->
+  <string name="menu_select_all">எல்லாவற்றையும் தேர்ந்தெடு</string>
+  <string name="menu_actiongrid">செயல்பாட்டு கட்டம்</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="remove_account">கணக்கை அகற்று</string>
   <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="support">ஆதரவு</string>
   <!-- Delete account -->
+  <string name="delete_account_title">கணக்கை நீக்கு</string>
+  <string name="delete_account_summary">இந்த கணக்கையும் இதன் அமைப்புகள் மற்றும் தரவுகள் அனைத்தையும் நீக்கு</string>
+  <string name="delete_account_confirmation_msg">இது அனைத்து அமைப்புகளையும் <xliff:g id="account">%s</xliff:g> கணக்கின் மின்னஞ்சல்களையும் நீக்கும் இந்த இயக்கத்தை செயல்நீக்க முடியாது.\n\n தொடரவா?</string>
+  <string name="deleting_account_msg">கணக்கு நீக்கப்படுகிறது\u2026</string>
+  <string name="delete_account_failed">கணக்கை நீக்க முடியவில்லை</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
+  <string name="open_attachment">திற</string>
   <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <string name="install_attachment">நிறுவு</string>
   <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
+  <string name="menu_photo_print">அச்சிடு</string>
   <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <string name="contextmenu_view_image">படிமத்தைக் காட்டு</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d மற்றது</item>
+    <item quantity="other">&amp; %d மற்றவை</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; செய்ய வேண்டியது என்று குறிக்கப்பட்டிருக்கிறது.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; செய்ய வேண்டியது என்று குறிக்கப்பட்டிருக்கிறது.</item>
+  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
+  <string name="reported_as_spam">வேண்டாத மின்னஞ்சல் என்று புகாரளிகப்பட்டிருக்கிறது</string>
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g> இடமிருந்து புதிய செய்தியைக் காண்பி</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <plurals name="new_incoming_messages_many">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> புதிய செய்தியைக் காண்பி</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> புதிய செய்திகளைக் காண்பி.</item>
+  </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">திருத்து</string>
   <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">தேடு</string>
   <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
+  <string-array name="moveto_folder_sections">
+    <item>ஸ்மார்ட் கோப்புறைகள்</item>
+    <item>அனைத்து கோப்புறைகள்</item>
+  </string-array>
   <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
+  <string-array name="change_folders_sections">
+    <item>ஸ்மார்ட் லேபிள்கள்</item>
+    <item>அனைத்து சிட்டைகளும்</item>
+  </string-array>
   <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <string name="boxes_heading">பெட்டிகள்</string>
   <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <string name="all_folders_heading">கோப்புறைகள்</string>
   <!-- String used in the FolderListFragment to mark the start of accounts -->
+  <string name="accounts_heading">கணக்குகள்</string>
   <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">என் Cyanogen தொலைப்பேசியில் இருந்து அனுப்பப்பட்டது</string>
+  <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> இல் இருந்து அனுப்பப்பட்டது</string>
+  <string name="blu_signature">என் BLU தொலைப்பேசியில் இருந்து அனுப்பப்பட்டது - Boxerஆல் சக்தியூட்டப்பட்ட BLU அஞ்சல்</string>
+  <string name="vendor_signature_o2">O2வில் உள்ள Cyanogen இல் இருந்து அனுப்பப்பட்டது</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">READ</string>
   <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">REPLY</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">DEL</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> புதிய செய்தி</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> புதிய செய்திகள்</item>
+  </plurals>
   <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">தேய்த்தல் செயல்பாடுகள்</string>
   <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">இடது மற்றும் வலது தேய்த்தல் செயல்பாடுகளை தனிப்பயனாக்குக</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">இடது சுருக்க தேய்த்தல்</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">இடது நீண்ட தேய்த்தல்</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">வலது சுருக்க தேய்த்தல்</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">வலது நீண்ட தேய்த்தல்</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
+  <string name="print">அச்சிடு</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> செய்தி</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> செய்திகள்</item>
+  </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%2$s</xliff:g> இல் <xliff:g id="time">%1$s</xliff:g></string>
   <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">வரைவு அனுப்புக:\u0020</string>
   <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">வரைவு</string>
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">மேற்கோள்காட்டிய உரை மறைக்கப்பட்டது</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> இணைப்பு</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> இணைப்புகள்</item>
+  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
+  <string name="no_subject">(பொருள் இல்லை)</string>
+  <string name="action_grid_select_quick_response">விரைவு பதிலை தேர்ந்தெடுக்கவும்</string>
+  <string name="action_grid_todo_dialog_title">விவரங்கள்</string>
+  <string name="action_grid_set_due_date">நிலுவைத் தேதியை அமை</string>
+  <string name="action_grid_due">நிலுவை: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">முன்னுரிமையை சேர்</string>
+  <string name="action_grid_priority">முன்னுரிமை:</string>
+  <string name="action_grid_add_assignee">ஒதுக்கீடுசெய்பவரை சேர்</string>
+  <string name="action_grid_assignee">ஒதுக்கீடுசெய்பவர்:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">நிலுவைத் தேதியை அமை</string>
+  <string name="action_grid_due_date_today">இன்று</string>
+  <string name="action_grid_due_date_tomorrow">நாளை</string>
+  <string name="action_grid_due_date_this_week">இந்த வாரம்</string>
+  <string name="action_grid_due_date_next_week">அடுத்த வாரம்</string>
+  <string name="action_grid_due_date_specific_date">குறிப்பிட்ட தேதி</string>
+  <string name="action_grid_calendar_picker_dialog_title">நிலுவைத் தேதியை அமை</string>
+  <string name="action_grid_priority_dialog_title">முன்னுரிமையை சேர்</string>
+  <string name="action_grid_priority_highest">மிகவுயர்ந்த முன்னுரிமை</string>
+  <string name="action_grid_priority_high">உயர்ந்த முன்னுரிமை</string>
+  <string name="action_grid_priority_normal">இயல்பான முன்னுரிமை</string>
+  <string name="action_grid_priority_low">குறைந்த முன்னுரிமை</string>
+  <string name="action_grid_priority_lowest">மிகக்குறைந்த முன்னுரிமை</string>
+  <string name="action_grid_assignee_dialog_title">ஒதுக்கீடுசெய்பவரை சேர்</string>
+  <string name="action_grid_assignee_select_from_contacts">தொடர்புகளில் இருந்து தேர்ந்தெடுக்கவும்</string>
+  <string name="action_grid_assignee_search_for_contact">தொடர்பைத் தேடுக</string>
+  <string name="action_grid_assignee_button_bar_clear">அழி</string>
   <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">இந்தச் செய்தியை நீக்கவா?</string>
   <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">விருப்பம்</string>
+  <string name="action_todo">செய்யவேண்டியது</string>
+  <string name="action_quick">விரைவு</string>
+  <string name="action_move">நகர்த்து</string>
+  <string name="action_label">சிட்டை</string>
+  <string name="action_move_or_label">நகர்/சிட்டை</string>
+  <string name="action_archive">காப்பிடு</string>
+  <string name="action_delete">நீக்கு</string>
+  <string name="action_spam">ஸ்பேம்</string>
+  <string name="action_flag">குறி</string>
+  <string name="action_clear_flag">குறியை அழி</string>
+  <string name="action_star">நட்சத்திரம்</string>
+  <string name="action_clear_star">நட்சத்திரத்தை அழி</string>
+  <string name="action_star_or_flag">நட்சத்திரம்/குறி</string>
+  <string name="action_mark_unread">படிக்காததாகக் குறியிடு</string>
+  <string name="action_mark_read">படித்ததாகக் குறியிடு</string>
+  <string name="action_read_or_unread">படித்த/படிக்காத</string>
+  <string name="action_actions">செயல்கள்</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="marked_evernote">Evernoteக்கு அனுப்பப்பட்டது</string>
+  <string name="marked_liked">விரும்பப்பட்டதாக குறிக்கப்பட்டது</string>
+  <string name="marked_archived">காப்பகத்திற்காக குறிக்கப்பட்டது</string>
+  <string name="marked_deleted">நீக்கப்படுவதற்காக குறிக்கப்பட்டது</string>
+  <string name="marked_spam">வேண்டாத மின்னஞ்சல்-ற்கு நகர்த்தப்பட்டது</string>
+  <string name="marked_todo">செய்ய வேண்டியது என்று குறிக்கப்பட்டது</string>
+  <string name="marked_done">முடிந்தது என்று குறிக்கப்பட்டது</string>
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">பதில் அனுப்பப்பட்டது</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">பதில்கள் அனுப்பப்பட்டன</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">செய்தி விரும்பப்பட்டது</item>
+    <!-- Like several conversations -->
+    <item quantity="other">செய்திகள் விரும்பப்பட்டன</item>
+  </plurals>
+  <string name="invalid_selection">செல்லுபடியாகாத தேர்ந்தெடுப்பு</string>
+  <string name="file_action_more_than_one_account">ஒன்றுக்கும் மேற்பட்ட கணக்குகளில் இருந்து உரையாடல்களை நீங்கள் தேர்ந்தெடுத்துள்ளிர்கள் ஒரு கணக்கில் உள்ள உரையாடல்களை மட்டும் தேர்வுசெய்ய முயற்சிக்கவும்</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote இயக்கம் ஒரு நேரத்தில் ஒரு உரையாடலை மட்டுமே ஆதரிக்கும் ஒரே ஒரு உரையாடலை மட்டும் தேர்ந்தெடுக்க முயற்சிக்கவும்.</string>
+  <string name="not_installed">நிறுவப்படவில்லை</string>
+  <string name="evernote_not_installed">Evernote நிறுவப்பட்டதாக தோன்றவில்லை. இந்த இயக்கத்தை பயன்படுத்துவதற்கு தயவுசெய்து நிறுவு</string>
+  <string name="custom_mailbox_button">தனிப்பயனாக்க பெட்டியை சேர்</string>
+  <string name="custom_mailbox_settings_label">அமைப்புகள்</string>
+  <string name="custom_mailbox_folder_name_hint">தனிப்பயனாக்க பெட்டி பெயர்</string>
+  <string name="custom_mailbox_background_sync_label">பின்னணி ஒத்திசை</string>
+  <string name="custom_mailbox_background_sync_switch_on">இயக்கத்தில்</string>
+  <string name="custom_mailbox_background_sync_switch_off">முடக்கத்தில்</string>
+  <string name="custom_mailbox_delete_box">பெட்டியை நீக்கு</string>
+  <string name="custom_mailbox_error_no_selected_folders">தயவுசெய்து கீழுள்ள பட்டியலில் இருந்து குறைந்தது ஒரு கோப்புறையை தேர்ந்தெடுக்கவும்</string>
   <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">எச்சரிக்கை</string>
+  <string name="custom_mailbox_delete_box_dialog_message">இந்த தனிப்பயனாக்க பெட்டியை நீக்க விரும்புகிறிர்கள் என்பதில் உறுதியாக இருக்கிறீர்களா?</string>
+  <string name="custom_mailbox_error_deleting_box">உங்கள் தனிப்பயனாக்க அஞ்சல்பெட்டியை நீக்குவதில் ஒரு பிழை உள்ளது.</string>
   <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">இந்த பயன்பாட்டை தரமதிப்பிடவும்</string>
+  <string name="viral_prompt_rate_app_body">இந்த பயன்பாட்டை பயன்படுத்துவதில் நீங்கள் மகிழ்ந்தீர்கள் என்றால், இதை தரமதிப்பிடுவதற்கு ஒரு கனம் எடுத்துக்கொள்ள சம்மதிப்பீர்களா? இது ஒரு நிமிடத்திற்கு மேல் எடுத்துக்கொள்ளாது உங்கள் ஆதரவுக்கு நன்றி!</string>
+  <string name="viral_ratings_prompt_remind_me_later">பின்னர் எனக்கு நினைவூட்டவும்</string>
+  <string name="viral_ratings_prompt_no_thanks">வேண்டாம்</string>
+  <string name="viral_ratings_prompt_rate_now">இப்போது தரமதிப்பிடு</string>
+  <string name="promo_code_title_text">உங்கள் இன்பாஸிடம் தனியாக சண்டைபோடாதீர்கள்</string>
+  <string name="promo_code_edittext_hint">விளம்பர குறியீட்டை உள்ளிடுக</string>
+  <string name="promo_code_button_text">சமர்ப்பி</string>
+  <string name="promo_code_error_no_code_entered">சமர்பி பொத்தானை அழுத்துவதற்கு முன்பாக ஒரு விளம்பர குறியீட்டை தயவுசெய்து உள்ளிடவும்</string>
+  <string name="promo_code_error_invalid_code">செல்லுபடியாகாத விளம்பர குறியீடு</string>
+  <string name="promo_code_dialog_title">அம்சங்கள் பூட்டுநீக்கப்பட்டன</string>
+  <string name="promo_code_dialog_message">நீங்கள் வெற்றுகரமாக <xliff:g id="features">%s</xliff:g>ஐ பூட்டுநீக்கினீர்கள்</string>
+  <string name="promo_code_dialog_generic_success_msg">விளம்பர குறியீடு வெற்றிகரமாக பயன்படுத்தப்பட்டது</string>
+  <string name="promo_code_progress_dialog_validating">விளம்பர குறியீடு சரிபார்க்கப்படுகின்றது</string>
+  <string name="rage_shake_title">அதிர்வு கண்டறியப்பட்டது</string>
+  <string name="rage_shake_message">பிழைநீக்கல் தகவல்களை சமர்பிக்க நீங்கள் பயன்பாட்டை மோத விரும்புகிறீர்களா?</string>
+  <string name="actions_dialog_title">தனிப்பயனாக்கு</string>
+  <string name="actions_dialog_message">நீங்கள் கோப்புறைகளை வழக்கமாக பயன்படுத்துகிறீர்களா? வேண்டாத மின்னஞ்சல் என்று அடிக்கடி குறியிடுவீர்களா? Evernoteக்கு கிளிப் செய்ய விரும்புவீர்களா?\n\n தேய்த்தல் செயல்பாடுகள் மூலம் இந்த குறிப்புணர்வுகள் தொகுப்பில் எதை வேண்டுமானாலும் உங்கள் பணிப்பாய்வுக்கு பொருந்தும்படி அமைக்கலாம். \n</string>
+  <string name="actions_dialog_positive_button_text">தேய்த்தல்களை தனிப்பயனாக்கு</string>
+  <string name="actions_dialog_negative_button_text">மூடு</string>
   <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">மேம்பட்ட இன்பாக்ஸிற்கு வரவேற்கிறோம்</string>
+  <string name="account_setup_vendor_heading">மின்னஞ்சலுக்கு வரவேற்கிறோம்</string>
   <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">விருப்பு என்றால் என்ன?</string>
+  <string name="like_action_dialog_message">உங்களுக்கு விருப்பமான அம்சத்தை கண்டுகொண்டீர்கள். நீங்கள் ஒரு செய்தியை \'Like\' செய்யும்போது, நீங்கள் அதை விரும்புகிறீர்கள் என்று அனுப்புநருக்கும் மற்ற பெறுநர்களுக்கும் ஒரு மின்னஞ்சல் அனுப்பப்படும். இதுவரை உள்ளதிலேயே மின்னஞ்சலுக்கு விரைவாக பதிலளிக்கும் முறை இது.</string>
   <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">புதியதாக</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">கோப்புறையின்பெயர்</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">கோப்புறை உருவாக்கப்படுகிறது\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">போலி பெயர்</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">நீங்கள் உள்ளிட்ட கோப்புற பெயர் முன்பே இருக்கிறது.</string>
   <!-- Title used for generic error alerts. -->
+  <string name="error">பிழை</string>
   <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">கோப்புறை உருவாக்கப்பட முடியாது.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">புகாரளி</string>
   <!-- Toast message for above action -->
+  <string name="message_reported">செய்தி புகாரளிக்கப்பட்டது</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">இங்கே அஞ்சல் எதுவும் இல்லை.\n புதுப்பிக்க மேலிருந்து கீழே இழுக்கவும்</string>
+  <string name="getting_messages">உங்கள் செய்திகளை பெறுகிறோம்</string>
+  <string name="empty_folder">இங்கே அஞ்சல் எதுவும் இல்லை.</string>
+  <string name="empty_inbox">நீங்கள் அனைத்தையும் செய்துவிட்டீர்கள்! தயவுசெய்து உங்கள் நாளை மகிழ்ந்தனுபவியுங்கிஅள்.</string>
+  <string name="empty_search">அச்சச்சோ! நாங்கள் “<xliff:g id="search_query">%1$s</xliff:g>&quot;க்கு எதையும் கண்டுபிடிக்கவில்லை.</string>
+  <string name="empty_spam_folder">ஐயா, இங்கே வேண்டாத மின்னஞ்சல் எதுவும் இல்லை!</string>
+  <string name="empty_trash_folder">இங்கே குப்பை இல்லை. மறுசுழற்சி செய்ததற்காக நன்றி!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">நாள்காட்டியில் காண்</string>
   <!-- Response action buttons. -->
+  <string name="accept">ஏற்கிறேன்</string>
+  <string name="maybe">இருக்கலாம்</string>
+  <string name="decline">நிராகரி</string>
+  <string name="remove_from_cal">நாள்காட்டியில் இருந்து நீக்கு</string>
+  <string name="remove_series_from_cal">தொடர்களை நாள்காட்டியில் இருந்து நீக்கு</string>
   <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">எனக்கு</string>
   <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">நானும் %d மற்றவரும்</item>
+    <item quantity="other">நானும் %d மற்றவர்களும்</item>
+  </plurals>
   <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">நாள் முழுவதும்</string>
   <!-- Status for canceled events. -->
+  <string name="canceled">ரத்துசெய்யப்பட்டது</string>
   <!-- Send availability strings -->
+  <string name="times_that_work_for_me">எனக்கு வேலை செய்யும் நேரம்:</string>
+  <string name="availability_by">இதன் மூலம் கிடைக்கப்பெறும்</string>
+  <string name="remove_availability">கிடைக்கப்பெறுதலை நீக்கு</string>
+  <string name="event_over">நிகழ்வு முடிந்தது</string>
+  <string name="busy">பணிமிகுதி</string>
+  <string name="available">மீதமுள்ளது</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d மற்ற முரண்பாடு</item>
+    <item quantity="other">%d மற்ற முரண்பாடுகள்</item>
+  </plurals>
+  <string name="meeting_invitation">அழைப்புச் சுருக்கம்:</string>
+  <string name="invitation_by">அழைத்தவர்</string>
+  <string name="remove_invite">அழைப்பை நீக்கு</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> உங்கள் செய்தியை  &lt;a href=&quot;%s&quot;&gt; Cyanogen OS இல் உள்ள Boxer உடன் &lt;/a&gt;விரும்பியுள்ளார்.</string>
+  <string name="error_no_app_store">பொருத்தமான பயன்பாட்டு ஸ்டோர் எதுவும் கண்டறியப்படவில்லை.</string>
+  <string name="calendar_feature_dialog_title">Boxer நாள்காட்டியை பதிவிறக்கு</string>
+  <string name="calendar_feature_dialog_msg">Boxer நாள்காட்டியில் மட்டுமே பிரத்தியேகமாக வேலை செய்கின்ற நாள்காட்டி அம்சங்களை Boxer வழங்குகிறது இந்த அம்சத்தை செயல்படுத்த, சமீபத்திய Boxer நாள்காட்டி பதிப்பை இன்றே பதிவிறக்கு (இலவசம்)</string>
+  <string name="calendar_feature_dialog_positive_btn">நிறுவு</string>
+  <string name="calendar_feature_dialog_negative_btn">இப்போது அல்ல</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">வெளிப்படுத்தப்படாத பங்கேற்பாளர்கள்</string>
 </resources>

@@ -221,8 +221,8 @@
   <string name="viral_ratings_prompt_rate_now">Classificar agora</string>
   <string name="promo_code_title_text">Não lute contra a sua caixa de entrada sozinho</string>
   <string name="promo_code_edittext_hint">Insira o código promocional</string>
-  <string name="promo_code_button_text">Submeter</string>
-  <string name="promo_code_error_no_code_entered">Por favor, insira um código promocional antes de tocar em submeter</string>
+  <string name="promo_code_button_text">Enviar</string>
+  <string name="promo_code_error_no_code_entered">Por favor, insira um código promocional antes de carregar em enviar</string>
   <string name="promo_code_error_invalid_code">Código de promoção inválido</string>
   <string name="promo_code_dialog_title">Funções desbloqueadas</string>
   <string name="promo_code_dialog_message">Desbloqueou com sucesso <xliff:g id="features">%s</xliff:g></string>
