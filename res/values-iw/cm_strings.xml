@@ -245,7 +245,7 @@
   <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">שם התיקייה</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
-  <string name="create_folder_progess">יוצר תיקייה\u2026</string>
+  <string name="create_folder_progess">יוצר תיקיה\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">שם כפול</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->

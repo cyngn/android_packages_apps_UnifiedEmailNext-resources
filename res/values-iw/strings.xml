@@ -288,21 +288,21 @@
   <string name="inbox_folders_heading">תיבת דואר נכנס</string>
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
-    <item quantity="one">האם למחוק שיחה זו?</item>
+    <item quantity="one">למחוק שיחה זו?</item>
     <!-- Dialog message to confirm deletion of several conversations -->
-    <item quantity="other">האם למחוק <xliff:g id="COUNT">%1$d</xliff:g> שיחות אלה?</item>
+    <item quantity="other">למחוק <xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
     <!-- Dialog message to confirm archival of one conversation -->
-    <item quantity="one">האם להעביר שיחה זו לארכיון?</item>
+    <item quantity="one">להעביר שיחה זו לארכיון?</item>
     <!-- Dialog message to confirm archival of several conversations -->
-    <item quantity="other">האם להעביר <xliff:g id="COUNT">%1$d</xliff:g> שיחות אלה לארכיון?</item>
+    <item quantity="other">להעביר <xliff:g id="count">%1$d</xliff:g> שיחות אלה לארכיון?</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
     <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
     <item quantity="one">למחוק טיוטות משיחה זו?</item>
     <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
-    <item quantity="other">למחוק טיוטות מ-<xliff:g id="COUNT">%1$d</xliff:g> שיחות אלה?</item>
+    <item quantity="other">למחוק טיוטות מ-<xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
   </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">לבטל הודעה זו?</string>
@@ -313,8 +313,8 @@
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">בטל</string>
   <plurals name="conversation_unstarred">
-    <item quantity="one">מסיר כוכב משיחה <xliff:g id="COUNT">%1$d</xliff:g>.</item>
-    <item quantity="other">מסיר כוכב מ-‏<xliff:g id="COUNT">%1$d</xliff:g> שיחות.</item>
+    <item quantity="one">מסיר כוכב משיחה <xliff:g id="count">%1$d</xliff:g>.</item>
+    <item quantity="other">מסיר כוכב מ-‏<xliff:g id="count">%1$d</xliff:g> שיחות.</item>
   </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_muted">
@@ -325,9 +325,9 @@
   </plurals>
   <plurals name="conversation_spammed">
     <!-- Displayed while reporting one conversation as spam -->
-    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחה כספאם.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחה כזבל.</item>
     <!-- Displayed while reporting several conversations as spam -->
-    <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו כספאם.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו כזבל.</item>
   </plurals>
   <plurals name="conversation_not_spam">
     <!-- Displayed while reporting one conversation as not spam -->
@@ -337,9 +337,9 @@
   </plurals>
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
-    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; סומנה כלא חשובה.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנה כלא חשובה.</item>
     <!-- Displayed while reporting several conversations as not important in the important folder -->
-    <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; סומנה כלא חשובה.</item>
+    <item quantity="other">‏&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנו כלא חשובות.</item>
   </plurals>
   <plurals name="conversation_phished">
     <!-- Displayed while reporting one conversation as phishing -->
@@ -367,7 +367,7 @@
   <string name="folder_removed">הוסרה מ- <xliff:g id="folderName">%1$s</xliff:g></string>
   <plurals name="conversation_folder_changed">
     <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
-    <item quantity="one">התיקיה שונתה.</item>
+    <item quantity="one">התיקייה שונתה.</item>
     <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
     <item quantity="other">התיקיות שונו.</item>
   </plurals>
@@ -482,7 +482,7 @@
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> לא נקראו</item>
   </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
-  <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ לא נקראו</string>
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g>+ לא נקראו</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
   <string name="view_more_conversations">הצג שיחות נוספות</string>
   <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
@@ -493,7 +493,7 @@
   <string name="folder_shortcut_widget_label">תיקיית דוא\"ל</string>
   <!-- Folder selection dialog -->
   <!-- Title for change folders dialog [CHAR LIMIT=30] -->
-  <string name="change_folders_selection_dialog_title">שינוי תיקיות</string>
+  <string name="change_folders_selection_dialog_title">שנה תיקיות</string>
   <!-- Title for move to dialog [CHAR LIMIT=30] -->
   <string name="move_to_selection_dialog_title">העבר אל</string>
   <!-- Search -->
@@ -510,7 +510,7 @@
   <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
   <!-- Shortcut strings -->
   <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
-  <string name="shortcut_name_title">תן שם לקיצור הדרך של התיקיה</string>
+  <string name="shortcut_name_title">תן שם לקיצור הדרך של התיקייה</string>
   <!-- Wait fragment strings -->
   <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
   <string name="wait_for_sync_title">ממתין לסנכרון</string>
@@ -532,11 +532,11 @@
   <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
          Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
   <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
-  <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
   <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <string name="ignore_spam_warning">התעלם, אני נותן אמון בהודעה</string>
   <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
-  <string name="via_domain">דרך <xliff:g id="VIADOMAIN">%1$s</xliff:g></string>
+  <string name="via_domain">דרך <xliff:g id="viaDomain">%1$s</xliff:g></string>
   <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">היכנס</string>
   <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
@@ -550,8 +550,8 @@
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">אחסון</string>
   <!-- Token used as a divider between senders -->
-  <string name="senders_split_token">, </string>
-  <string name="draft_count_format"> (<xliff:g id="COUNT">%1$s</xliff:g>)</string>
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->
@@ -628,7 +628,7 @@
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
-  <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>‏: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
   <string name="silent_ringtone">שקט</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
@@ -671,9 +671,9 @@
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
   <string name="empty_spam">רוקן את דואר הזבל</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
-  <string name="empty_trash_dialog_title">האם לרוקן את האשפה?</string>
+  <string name="empty_trash_dialog_title">לרוקן את האשפה?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
-  <string name="empty_spam_dialog_title">האם לרוקן את דואר הזבל?</string>
+  <string name="empty_spam_dialog_title">לרוקן את דואר הזבל?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
     <item quantity="one">הודעה <xliff:g id="COUNT">%1$d</xliff:g> תימחק לצמיתות.</item>
@@ -683,7 +683,7 @@
   <string name="drawer_open">פתח את חלונית הניווט</string>
   <string name="drawer_close">סגור את חלונית הניווט</string>
   <string name="conversation_photo_welcome_text">גע בתמונת שולח כדי לבחור בשיחה.</string>
-  <string name="long_press_to_select_tip">גע והחזק כדי לבחור שיחה אחת, ולאחר מכן גע כדי לבחור עוד.</string>
+  <string name="long_press_to_select_tip">גע והחזק כדי לבחור בשיחה אחת, ולאחר מכן גע כדי לבחור עוד.</string>
   <!-- Content description for the folder icon for nested folders. -->
   <string name="folder_icon_desc">סמל תיקיה</string>
   <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
@@ -691,7 +691,7 @@
   <!-- Action bar title for viewing messages that are attached to another message. -->
   <string name="attached_message">הודעה מצורפת</string>
   <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
-  <string name="date_message_received_yesterday">אתמול ב-<xliff:g id="TIME">%1$s</xliff:g></string>
+  <string name="date_message_received_yesterday">אתמול ב-<xliff:g id="datetime">%1$s</xliff:g></string>
   <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
   <string name="dismiss_tip_hover_text">דחה את הטיפ</string>
   <!-- Tip for letting user know that their device auto-sync setting
@@ -708,7 +708,7 @@
          The whole string should read "Turn on in Account settings.", but because we need
          "Account settings" to appear as blue link text, it's a parameter here.
          [CHAR LIMIT=250] -->
-  <string name="enable_sync_in_account_settings">הפעל ב<xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g>.</string>
+  <string name="enable_sync_in_account_settings">הפעל ב-<xliff:g id="account_settings">%1$s</xliff:g>.</string>
   <!-- This is used as a parameter to another string and combined reads
          "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">הגדרות חשבון</string>
@@ -716,9 +716,9 @@
     Outbox. [CHAR LIMIT=250] -->
   <string name="unsent_messages_in_outbox"><xliff:g id="NUMBER">%1$s</xliff:g> לא נשלחו ב<xliff:g id="OUTBOX">%2$s</xliff:g></string>
   <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
-  <string name="turn_auto_sync_on_dialog_title">האם להפעיל סנכרון אוטומטי?</string>
+  <string name="turn_auto_sync_on_dialog_title">להפעיל סנכרון אוטומטי?</string>
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
-  <string name="turn_auto_sync_on_dialog_body">‏שינויים שתבצע בכל היישומים והחשבונות, ולא רק ב-Gmail, יסונכרנו בין האינטרנט, המכשירים האחרים שלך ומכשיר <xliff:g id="phone_or_tablet">%1$s</xliff:g> שלך.</string>
+  <string name="turn_auto_sync_on_dialog_body">‏שינויים שתבצע בכל היישומים והחשבונות, ולא רק ב-Gmail, יסונכרנו בין האינטרנט, המכשירים האחרים שלך ומכשיר ה-<xliff:g id="phone_or_tablet">%1$s</xliff:g> שלך.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">טלפון</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
@@ -727,7 +727,7 @@
          LIMIT=30] -->
   <string name="turn_auto_sync_on_dialog_confirm_btn">הפעל</string>
   <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
-  <string name="show_n_more_folders">הצג <xliff:g id="NUMBER">%1$s</xliff:g> תיקיות נוספות</string>
+  <string name="show_n_more_folders">הצג <xliff:g id="number">%1$s</xliff:g> תיקיות נוספות</string>
   <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <string name="hide_folders">הסתר תיקיות</string>
 </resources>
