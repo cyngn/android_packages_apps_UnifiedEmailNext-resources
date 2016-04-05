@@ -200,7 +200,7 @@
   <string name="file_action_more_than_one_account">בחרת שיחות מיותר מחשבון אחד. נסה לבחור שיחות מחשבון אחד בלבד.</string>
   <string name="evernote_action_more_than_one_conversation">הפונקציונליות של Evernote תומכת רק בשיחה אחת בכל פעם. נסה לבחור בשיחה אחת בלבד.</string>
   <string name="not_installed">לא מותקן</string>
-  <string name="evernote_not_installed">לא נראה ש-Evernote מותקן על המכשיר. אנא התקן את היישום על מנת להשתמש באפשרות זו.</string>
+  <string name="evernote_not_installed">לא נראה ש-Evernote מותקן על המכשיר. עליך להתקין את היישום על מנת להשתמש באפשרות זו.</string>
   <string name="custom_mailbox_button">הוסף תיבה מותאמת אישית</string>
   <string name="custom_mailbox_settings_label">הגדרות</string>
   <string name="custom_mailbox_folder_name_hint">שם תיבה מותאמת אישית</string>
@@ -265,7 +265,7 @@
   <string name="empty_folder">אין כאן דואר.</string>
   <string name="empty_inbox">סיימת הכל! שיהיה לך יום נהדר!</string>
   <string name="empty_search">אופס! לא מצאנו דבר עבור \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
-  <string name="empty_spam_folder">כל הכבוד, אין כאן דואר זבל!</string>
+  <string name="empty_spam_folder">כל הכבוד, אין כאן זבל!</string>
   <string name="empty_trash_folder">אין זבל כאן! תודה שמיחזרת!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->

@@ -202,7 +202,7 @@
   <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">מאחזר קובץ מצורף</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
-  <string name="please_wait">המתן\u2026</string>
+  <string name="please_wait">אנא המתן\u2026</string>
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <string name="saved">נשמר, <xliff:g id="size">%s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
@@ -331,9 +331,9 @@
   </plurals>
   <plurals name="conversation_not_spam">
     <!-- Displayed while reporting one conversation as not spam -->
-    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחה שאינה זבל.</item>
     <!-- Displayed while reporting several conversations as not spam -->
-    <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
   </plurals>
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
@@ -600,7 +600,7 @@
   <string name="clear_display_images_whitelist_dialog_title">לנקות אישורי תמונות?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
-  <string name="clear_display_images_whitelist_dialog_message">הפסק להציג תמונות מוטבעות משולחים שהתרת זאת עבורם בעבר.</string>
+  <string name="clear_display_images_whitelist_dialog_message">הפסק להציג תמונות מוטבעות משולחים שאותם אישרת בעבר.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <string name="sender_whitelist_cleared">תמונות לא יוצגו באופן אוטומטי.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
@@ -669,19 +669,19 @@
   <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
   <string name="empty_trash">רוקן את האשפה</string>
   <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
-  <string name="empty_spam">רוקן את דואר הזבל</string>
+  <string name="empty_spam">רוקן את תיקיית הזבל</string>
   <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_trash_dialog_title">לרוקן את האשפה?</string>
   <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
-  <string name="empty_spam_dialog_title">לרוקן את דואר הזבל?</string>
+  <string name="empty_spam_dialog_title">לרוקן את תיקיית הזבל?</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
     <item quantity="one">הודעה <xliff:g id="COUNT">%1$d</xliff:g> תימחק לצמיתות.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הודעות יימחקו לצמיתות.</item>
   </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->
-  <string name="drawer_open">פתח את חלונית הניווט</string>
-  <string name="drawer_close">סגור את חלונית הניווט</string>
+  <string name="drawer_open">פתח חלונית ניווט</string>
+  <string name="drawer_close">סגור חלונית ניווט</string>
   <string name="conversation_photo_welcome_text">גע בתמונת שולח כדי לבחור בשיחה.</string>
   <string name="long_press_to_select_tip">גע והחזק כדי לבחור בשיחה אחת, ולאחר מכן גע כדי לבחור עוד.</string>
   <!-- Content description for the folder icon for nested folders. -->
