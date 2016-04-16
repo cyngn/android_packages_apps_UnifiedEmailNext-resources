@@ -136,8 +136,8 @@
   <string name="action_grid_due">Vencimento: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">Adicionar prioridade</string>
   <string name="action_grid_priority">Prioridade:\u0020</string>
-  <string name="action_grid_add_assignee">Adicionar destinatário</string>
-  <string name="action_grid_assignee">Destinatário:\u0020</string>
+  <string name="action_grid_add_assignee">Adicionar proprietário</string>
+  <string name="action_grid_assignee">Proprietário:\u0020</string>
   <string name="action_grid_due_date_dialog_title">Definir data de vencimento</string>
   <string name="action_grid_due_date_today">Hoje</string>
   <string name="action_grid_due_date_tomorrow">Amanhã</string>
@@ -146,12 +146,12 @@
   <string name="action_grid_due_date_specific_date">Data específica</string>
   <string name="action_grid_calendar_picker_dialog_title">Definir data de vencimento</string>
   <string name="action_grid_priority_dialog_title">Adicionar prioridade</string>
-  <string name="action_grid_priority_highest">Prioridade máxima</string>
+  <string name="action_grid_priority_highest">Prioridade mais alta</string>
   <string name="action_grid_priority_high">Alta prioridade</string>
   <string name="action_grid_priority_normal">Prioridade normal</string>
   <string name="action_grid_priority_low">Prioridade baixa</string>
   <string name="action_grid_priority_lowest">Prioridade baixíssima</string>
-  <string name="action_grid_assignee_dialog_title">Adicionar destinatário</string>
+  <string name="action_grid_assignee_dialog_title">Adicionar proprietário</string>
   <string name="action_grid_assignee_select_from_contacts">Selecione a partir dos contatos</string>
   <string name="action_grid_assignee_search_for_contact">Buscar por contato</string>
   <string name="action_grid_assignee_button_bar_clear">Limpar</string>
@@ -192,9 +192,9 @@
   </plurals>
   <plurals name="liked_message">
     <!-- Like 1 conversation -->
-    <item quantity="one">Mensagem marcada como curtida</item>
+    <item quantity="one">Mensagem curtida</item>
     <!-- Like several conversations -->
-    <item quantity="other">Mensagens marcadas como curtida</item>
+    <item quantity="other">Mensagens curtidas</item>
   </plurals>
   <string name="invalid_selection">Seleção inválida</string>
   <string name="file_action_more_than_one_account">Você selecionou conversas de mais de uma conta. Tente selecionar apenas conversas de uma conta.</string>
@@ -214,10 +214,10 @@
   <string name="custom_mailbox_delete_box_dialog_message">Tem certeza de que deseja apagar esta caixa personalizada?</string>
   <string name="custom_mailbox_error_deleting_box">Ocorreu um erro ao excluir sua caixa de entrada personalizada</string>
   <!-- Ratings Viral Prompt -->
-  <string name="viral_prompt_rate_app_title">Avalie este app</string>
-  <string name="viral_prompt_rate_app_body">Se você gosta de usar este aplicativo, você se importaria de levar um momento para avaliá-lo? Não vai demorar mais que um minuto. Obrigado pelo seu apoio!</string>
-  <string name="viral_ratings_prompt_remind_me_later">Lembre-me mais tarde</string>
-  <string name="viral_ratings_prompt_no_thanks">Não obrigado</string>
+  <string name="viral_prompt_rate_app_title">Avalie este aplicativo</string>
+  <string name="viral_prompt_rate_app_body">Se você gosta de usar este aplicativo, você se importaria de avaliá-lo? Não vai demorar mais que um minuto. Obrigado pelo seu apoio!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Lembrar-me mais tarde</string>
+  <string name="viral_ratings_prompt_no_thanks">Não, obrigado</string>
   <string name="viral_ratings_prompt_rate_now">Avaliar agora</string>
   <string name="promo_code_title_text">Não lute contra sua caixa de entrada sozinho</string>
   <string name="promo_code_edittext_hint">Digite o código promocional</string>
@@ -229,16 +229,16 @@
   <string name="promo_code_dialog_generic_success_msg">Código promocional aplicado com sucesso</string>
   <string name="promo_code_progress_dialog_validating">Validando código promocional</string>
   <string name="rage_shake_title">Agitar detectado</string>
-  <string name="rage_shake_message">Gostaria de parar o app para enviar informações de depuração?</string>
+  <string name="rage_shake_message">Gostaria de parar o aplicativo para enviar informações de depuração?</string>
   <string name="actions_dialog_title">Personalizar</string>
-  <string name="actions_dialog_message">Você usa pastas regularmente? Frequentemente marca como spam? Gosta de enviar ao Evernote?\n\nCom ações de deslizar personalizadas você pode definir qualquer um desses gestos para atender às suas necessidades de trabalho.\n</string>
+  <string name="actions_dialog_message">Você usa pastas regularmente? Frequentemente marca como spam? Gosta de enviar ao Evernote?\n\nCom ações de deslizar personalizadas você pode definir qualquer um desses gestos para se adequar ao seu fluxo de trabalho.\n</string>
   <string name="actions_dialog_positive_button_text">Personalizar deslizar</string>
   <string name="actions_dialog_negative_button_text">Fechar</string>
   <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Bem-vindo a uma caixa de entrada melhor</string>
   <string name="account_setup_vendor_heading">Bem-vindo ao e-mail</string>
   <!-- Like Feature -->
-  <string name="like_action_dialog_tittle">Como é?</string>
+  <string name="like_action_dialog_tittle">O que é curtir?</string>
   <string name="like_action_dialog_message">Você encontrou nosso recurso favorito. Quando você \'Curte\' uma mensagem, um e-mail será enviado mostrando ao remetente e outros destinatários informando que você curtiu. É a maneira mais rápida para responder a um e-mail.</string>
   <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Novo</string>
@@ -255,9 +255,9 @@
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">A pasta não pôde ser criada.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
-  <string name="report_rendering_problem">Informar</string>
+  <string name="report_rendering_problem">Denunciar</string>
   <!-- Toast message for above action -->
-  <string name="message_reported">Mensagem reportada</string>
+  <string name="message_reported">Mensagem denunciada</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Não há nenhum e-mail aqui.\nPuxe para baixo na parte superior para atualizar</string>
@@ -266,7 +266,7 @@
   <string name="empty_inbox">Nada aqui! Por favor, aproveite o seu dia.</string>
   <string name="empty_search">Ops! Não encontramos nada para \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Viva, nenhum spam aqui!</string>
-  <string name="empty_trash_folder">Não há lixo aqui. Obrigado pela reciclagem!</string>
+  <string name="empty_trash_folder">Não há lixo aqui. Obrigado por reciclar!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Ver no calendário</string>

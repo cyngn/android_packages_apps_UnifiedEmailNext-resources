@@ -209,11 +209,11 @@
          the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">Anexos</string>
   <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
-  <string name="menu_photo_save_all">Salvar td.</string>
+  <string name="menu_photo_save_all">Salvar tudo</string>
   <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
   <string name="menu_photo_share">Compart.</string>
   <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
-  <string name="menu_photo_share_all">Comp. td.</string>
+  <string name="menu_photo_share_all">Compartilhar todas</string>
   <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
   <string name="saving">Salvando&#8230;</string>
   <!-- Webview Context Menu Strings -->
@@ -433,7 +433,7 @@
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
   <string name="message_invite_calendar_view">Ver na Agenda</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
-  <string name="message_invite_label_attending">Indo?</string>
+  <string name="message_invite_label_attending">Você vai?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_accept">Sim</string>
   <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
@@ -468,7 +468,7 @@
           mode will bring user to the account selection screen [CHAR LIMIT=35] -->
   <string name="tap_to_configure">Toque para configurar</string>
   <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
-  <string name="non_synced_folder_description">Para ver as conversações, sincronize esta pasta.</string>
+  <string name="non_synced_folder_description">Para ver as conversas, sincronize esta pasta.</string>
   <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
          button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <string name="tap_to_configure_folder_sync">Sincronizar pasta</string>

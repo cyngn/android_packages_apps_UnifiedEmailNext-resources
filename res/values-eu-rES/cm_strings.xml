@@ -255,7 +255,7 @@
   <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Karpeta ezin izan da sortu.</string>
   <!-- Menu item: report an email was not readable or poorly rendered -->
-  <string name="report_rendering_problem">Jakitera eman</string>
+  <string name="report_rendering_problem">Jakinarazi</string>
   <!-- Toast message for above action -->
   <string name="message_reported">Mezuaren berri eman da</string>
   <!-- Conversation list shared between the Activity and Widget -->
