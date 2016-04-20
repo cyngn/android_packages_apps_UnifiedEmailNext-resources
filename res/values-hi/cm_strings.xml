@@ -16,75 +16,117 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">संयुक्त</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">सबको चयनित करें</string>
   <string name="menu_actiongrid">कार्य ग्रिड</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">खाता निकालें</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">समर्थन</string>
+  <!-- Delete account -->
   <string name="delete_account_title">खाता हटाएँ</string>
   <string name="delete_account_summary">इस खाता तथा उसकी सभी सेटिंग और डेटा को हटा दें</string>
   <string name="delete_account_confirmation_msg">यह खाता <xliff:g id="account">%s</xliff:g> से संबंधित सभी सेटिंग और ईमेलों को हटा देगा। इस प्रचालन को पलटा नहीं जा सकेगा।\n\nआगे बढ़ें?</string>
   <string name="deleting_account_msg">खाता हटा रहे हैं\u2026</string>
   <string name="delete_account_failed">खाता हटा नहीं सके</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">खोलें</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">स्थापित करें</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">मुद्रित करें</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">छवि देखें</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> और %d अन्य</item>
     <item quantity="other">और %d अन्य</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; को करना है के रूप में चिह्नित किया गया।</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; को करना है के रूप में चिह्नित किया गया।</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">स्पैम के रूप में रिपोर्ट किया गया</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g> के नए संदेशों को दिखाएँ।</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> नया संदेश दिखाएँ।</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> के नए संदेश दिखाएँ।</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">संपादित करें</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">खोजें</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>स्मार्ट फ़ोल्डर</item>
     <item>सब फ़ोल्डर</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>स्मार्ट लेबल</item>
     <item>सब लेबल</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">बॉक्स</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">फ़ोल्डर</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">खाते</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">मेरे सियानोजेन फ़ोन से भेजा गया</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> से भेजा गया</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">पढ़ें</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">उत्तर दें</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">हटाएँ</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> नया संदेश</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> नए संदेश</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">स्वाइप कार्य</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">बाएँ और दाएँ स्वाइप कार्यों को मनपसंद बनाएँ</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">बायाँ छोटा स्वाइप</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">बायाँ लंबा स्वाइप</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">दायाँ छोटा स्वाइप</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">दायाँ लंबा स्वाइप</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">मुद्रित करें</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> संदेश</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> संदेश</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g> पर</string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">इसे प्रारूप भेजें:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">प्रारूप</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">उद्धृत छिपा पाठ</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> अनुलग्नक</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> अनुलग्नक</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(कोई विषय नहीं है)</string>
   <string name="action_grid_select_quick_response">तेज़ उत्तर चुनें</string>
   <string name="action_grid_todo_dialog_title">विवरण</string>
@@ -111,7 +153,9 @@
   <string name="action_grid_assignee_select_from_contacts">संपर्कों से चुनें</string>
   <string name="action_grid_assignee_search_for_contact">संपर्क के लिए खोजें</string>
   <string name="action_grid_assignee_button_bar_clear">साफ़ करें</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">इस संदेश को हटा दें?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">पसंद करें</string>
   <string name="action_todo">करना है</string>
   <string name="action_quick">तेज़</string>
@@ -130,6 +174,7 @@
   <string name="action_mark_read">पढ़ लिया के रूप में चिह्नित करें</string>
   <string name="action_read_or_unread">पढ़े गए/पढ़े नहीं गए</string>
   <string name="action_actions">कार्य</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">एवरनोट को भेजें</string>
   <string name="marked_liked">पसंद किया के रूप में चिह्नित करें</string>
   <string name="marked_archived">पुरालेखन के लिए चिह्नत करें</string>
@@ -138,11 +183,15 @@
   <string name="marked_todo">करना है के रूप में चिह्नित करें</string>
   <string name="marked_done">कर लिया के रूप में चिह्नित करें</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">उत्तर भेज दिया</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">उत्तर भेज दिए</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">संदेश पसंद किया</item>
+    <!-- Like several conversations -->
     <item quantity="other">संदेश पसंद किए</item>
   </plurals>
   <string name="invalid_selection">अमान्य चयन</string>
@@ -158,9 +207,11 @@
   <string name="custom_mailbox_background_sync_switch_off">बंद</string>
   <string name="custom_mailbox_delete_box">बॉक्स को हटाएँ</string>
   <string name="custom_mailbox_error_no_selected_folders">नीचे की सूची से कम से कम एक फ़ोल्डर चुनें</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">चेतावनी</string>
   <string name="custom_mailbox_delete_box_dialog_message">क्या आप सचमुच इस मनपसंद बॉक्स को हटाना चाहते हैं?</string>
   <string name="custom_mailbox_error_deleting_box">आपके मनपसंद मेलबॉक्स को हटाते समय त्रुटि हुई</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">इस ऐप को रेट करें</string>
   <string name="viral_prompt_rate_app_body">यदि आपको यह ऐप पसंद आया, तो क्या आप थोड़ा सा समय लेकर उसे रेट करेंगे? इसमें एक मिनट से अधिक नहीं लगेगा। आपके समर्थन के लिए आभार।</string>
   <string name="viral_ratings_prompt_remind_me_later">मुझे बाद में याद दिलाएँ</string>
@@ -181,19 +232,32 @@
   <string name="actions_dialog_message">क्या आप अक्सर फ़ोल्डरों का उपयोग करते हैं? क्या आप अक्सर स्पैम के रूप में चिह्नित करते हैं? एवरनोट में क्लिप करना पसंद करते हैं?\n\nमनपसंद स्वाइप कार्यों से आप अपने कार्य प्रवाह में इनमें से किसी गेश्चर को सेट कर सकते हैं।\n</string>
   <string name="actions_dialog_positive_button_text">स्वाइपों को मनपसंद बनाएँ</string>
   <string name="actions_dialog_negative_button_text">बंद करें</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">बेहतर इनबॉक्स में आपका स्वागत है</string>
   <string name="account_setup_vendor_heading">ईमेल में आपका स्वागत है</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">पसंद करें क्या है?</string>
   <string name="like_action_dialog_message">आपने हमारी पसंदीदा सुविधा को ढूँढ़ ही लिया। जब आप किसी संदेश को \'पसंद\' करें, एक ईमेल भेजा जाएगा जो प्रेषक और अन्य प्राप्तियों को बताएगा कि आपको वह पसंद आया है। ईमले का उत्तर देने का यह अब तक विकसित सबसे तेज़ तरीका है।</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">नया</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">फ़ोल्डर नाम</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">फ़ोल्डर निर्मित कर रहे हैं\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">डुप्लिकेट नाम</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">आपने जो फ़ोल्डर नाम दर्ज किया है, वह पहले से ही मौजूद है।</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">त्रुटि</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">फ़ोल्डर निर्मित नहीं किया जा सका।</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">रिपोर्ट करें</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">संदेश को रिपोर्ट किया गया</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">यहाँ कोई डाक नहीं है।\nताज़ा करने के लिए ऊपर से नीचे की ओर खींचें</string>
   <string name="getting_messages">आपके संदेश ला रहे हैं</string>
   <string name="empty_folder">यहाँ कोई डाक नहीं है।</string>
@@ -201,20 +265,29 @@
   <string name="empty_search">ओ-ओ! हमें \"<xliff:g id="search_query">%1$s</xliff:g>\" के लिए कुछ भी नहीं मिला।</string>
   <string name="empty_spam_folder">खुशियाँ मनाएँ, यहाँ कोई स्पैम नहीं है।</string>
   <string name="empty_trash_folder">यहाँ कोई कचरा नहीं है। कचरा खाली करने के लिए धन्यवदा।</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">कैलेंडर पर देखें</string>
+  <!-- Response action buttons. -->
   <string name="accept">स्वीकार करें</string>
   <string name="maybe">शायद</string>
   <string name="decline">मना करें</string>
   <string name="remove_from_cal">कैलेंडर से हटाएँ</string>
   <string name="remove_series_from_cal">श्रेणी को कैलेंडर से हटाएँ</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">मैं</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">मैं और %d अन्य</item>
     <item quantity="other">मैं और %d अन्य</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">दिन भर</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">रद्द</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">मेरे लिए सुविधाजनक समय:</string>
   <string name="availability_by">इसके क्रम से उपलब्धता</string>
   <string name="remove_availability">उपलब्धता हटाएँ</string>
+  <!-- String shown in the TO field when it is blank -->
 </resources>

@@ -16,70 +16,112 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Kombinéiert</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Alles auswielen</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Kont läschen</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Hëllef</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Kont läschen</string>
   <string name="delete_account_summary">Dëse Kont an all seng Astellungen an Date läschen</string>
   <string name="delete_account_confirmation_msg">Dës Aktioun läscht all d\'Astellungen an E-Maile vum Kont <xliff:g id="account">%s</xliff:g>. Dat kann net réckgängeg gemaach ginn.\n\nWeidermaachen?</string>
   <string name="deleting_account_msg">Kont gëtt geläscht\u2026</string>
   <string name="delete_account_failed">Kont konnt net geläscht ginn</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Opmaachen</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Installéieren</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Drécken</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Bild ukucken</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d aneren</item>
     <item quantity="other">&amp; %d anerer</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedege markéiert.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; als z\'erleedege markéiert.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Als Spam gemellt</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Nei Messagë vum <xliff:g id="sender">%s</xliff:g> uweisen.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neie Message uweisen.</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nei Messagen uweisen.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Änneren</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Sichen</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Gescheit Dossieren</item>
     <item>All d\'Dossieren</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Gescheit Etiketten</item>
     <item>All d\'Etiketten</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Këschten</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Dossieren</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Konten</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Vu mengem Cyanogen-Telefon geschéckt</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">GELIES</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">LÄSCHEN</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> neie Message</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nei Messagen</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Wëschaktiounen</string>
+  <!--  Settings screen, Swipe actions preference summary -->
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Kuerz no lénks wëschen</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Laang no lénks wëschen</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Kuerz no riets wëschen</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Laang no riets wëschen</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Drécken</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Message</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Messagen</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> um <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Brouillon</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Zitéierten Text verstoppt</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> Unhank</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Unhäng</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(kee Sujet)</string>
   <string name="action_grid_select_quick_response">Séier Äntwert auswielen</string>
   <string name="action_grid_todo_dialog_title">Detailer</string>
@@ -106,7 +148,9 @@
   <string name="action_grid_assignee_select_from_contacts">Aus de Kontakter auswielen</string>
   <string name="action_grid_assignee_search_for_contact">No Kontakt sichen</string>
   <string name="action_grid_assignee_button_bar_clear">Eidel maachen</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Dëse Message läschen?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Gefält mir</string>
   <string name="action_todo">To-Do</string>
   <string name="action_quick">Séier</string>
@@ -125,16 +169,21 @@
   <string name="action_mark_read">Als gelies markéieren</string>
   <string name="action_read_or_unread">Gelies/Ongelies</string>
   <string name="action_actions">Aktiounen</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Un Evernote schécken</string>
   <string name="marked_liked">Als \"gefält mir\" markéiert</string>
   <string name="marked_todo">Als \"z\'erleedegen\" markéiert</string>
   <string name="marked_done">Als \"erleedegt\" markéiert</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Äntwert geschéckt</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Äntwerte geschéckt</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Message gefält mir</item>
+    <!-- Like several conversations -->
     <item quantity="other">Messagë gefale mir</item>
   </plurals>
   <string name="invalid_selection">Ongëlteg Auswiel</string>
@@ -144,7 +193,9 @@
   <string name="custom_mailbox_background_sync_switch_on">Un</string>
   <string name="custom_mailbox_background_sync_switch_off">Aus</string>
   <string name="custom_mailbox_delete_box">Këscht läschen</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Warnung</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Dës App bewäerten</string>
   <string name="viral_ratings_prompt_remind_me_later">Méi spéit erënneren</string>
   <string name="viral_ratings_prompt_no_thanks">Nee Merci</string>
@@ -158,26 +209,48 @@
   <string name="actions_dialog_title">Personaliséieren</string>
   <string name="actions_dialog_positive_button_text">Wëschbeweegungen upassen</string>
   <string name="actions_dialog_negative_button_text">Zoumaachen</string>
+  <!-- Account Setup -->
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nei</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Dossiersnumm</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Title used for generic error alerts. -->
   <string name="error">Feeler</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Den Dossier konnt net erstallt ginn.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Mellen</string>
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="empty_folder">Keng E-Mailen hei.</string>
   <string name="empty_inbox">Alles fäerdeg! Genéiss däin Dag.</string>
   <string name="empty_search">Upps! Mir hunn näischt fonnt fir \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, kee Spam do!</string>
   <string name="empty_trash_folder">Keen Offall hei. Merci fir d\'recycléieren!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
   <string name="accept">Acceptéieren</string>
   <string name="maybe">Vläicht</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Ech</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Ech an %d aneren</item>
     <item quantity="other">Ech a(n) %d aner</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Ganzen Dag</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Ofgebrach</string>
+  <!-- Send availability strings -->
   <string name="busy">Beschäftegt</string>
   <string name="available">Disponibel</string>
   <string name="calendar_feature_dialog_negative_btn">NET ELO</string>
+  <!-- String shown in the TO field when it is blank -->
 </resources>

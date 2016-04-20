@@ -16,80 +16,122 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Kombinuotas</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Pasirinkti visus</string>
   <string name="menu_actiongrid">Veiksmo tinklelis</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Pašalinti paskyrą</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Pagalba</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Ištrinti paskyrą</string>
   <string name="delete_account_summary">Ištrinti šią paskyrą ir visus jos nustatymus bei duomenis</string>
   <string name="delete_account_confirmation_msg">Bus ištrinti visi <xliff:g id="account">%s</xliff:g> paskyros nustatymai ir el. laiškai. Ši operacija negali būti atšaukta.\n\nTęsti?</string>
   <string name="deleting_account_msg">Ištrinama paskyra\u2026</string>
   <string name="delete_account_failed">Nepavyko ištrinti paskyros</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Atidaryti</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Įdiegti</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Spausdinti</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Žiūrėti vaizdą</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d kitas</item>
     <item quantity="few">&amp; %d kiti</item>
     <item quantity="other">&amp; %d kitų</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pažymėtas kaip „Reikia padaryti“.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pažymėti kaip „Reikia padaryti“.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; pažymėta kaip „Reikia padaryti“.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Praneštas kaip šlamštas</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Rodyti naują pranešimą nuo <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Rodyti <xliff:g id="count">%1$d</xliff:g> naują pranešimą.</item>
     <item quantity="few">Rodyti <xliff:g id="count">%1$d</xliff:g> naujus pranešimus.</item>
     <item quantity="other">Rodyti <xliff:g id="count">%1$d</xliff:g> naujų pranešimų.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Redaguoti</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Ieškoti</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Sumanieji aplankai</item>
     <item>Visi aplankai</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Sumaniosios etiketės</item>
     <item>Visos etiketės</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Langeliai</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Aplankai</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Paskyros</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Išsiųsta iš mano „Cyanogen“ telefono</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">SKAITYTI</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ATSAKYTI</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">IŠTRINTI</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> naujas pranešimas</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nauji pranešimai</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> naujų pranešimų</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Braukimo veiksmai</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Tinkinti kairį ir dešinį braukimo veiksmus</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Kairysis trumpas braukimas</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Kairysis ilgas braukimas</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Dešinysis trumpas braukimas</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Dešinysis ilgas braukimas</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Spausdinti</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> pranešimas</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> pranešimai</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> pranešimų</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Juodrašis:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Juodraštis</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Cituojamas tekstas paslėptas</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> priedas</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> priedai</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> priedų</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(be temos)</string>
   <string name="action_grid_select_quick_response">Pasirinkti greitą atsakymą</string>
   <string name="action_grid_todo_dialog_title">Informacija</string>
@@ -116,7 +158,9 @@
   <string name="action_grid_assignee_select_from_contacts">Pasirinkti iš kontaktų</string>
   <string name="action_grid_assignee_search_for_contact">Ieškoti kontakto</string>
   <string name="action_grid_assignee_button_bar_clear">Išvalyti</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Ištrinti šį pranešimą?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Kaip</string>
   <string name="action_todo">Reikia padaryti</string>
   <string name="action_quick">Greitai</string>
@@ -135,6 +179,7 @@
   <string name="action_mark_read">Pažymėti kaip perskaitytą</string>
   <string name="action_read_or_unread">Perskaityti / neperskaityti</string>
   <string name="action_actions">Veiksmai</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Išsiųsta į „Evernote“</string>
   <string name="marked_liked">Pažymėta kaip patiko</string>
   <string name="marked_archived">Pažymėta archyvavimui</string>
@@ -143,13 +188,17 @@
   <string name="marked_todo">Pažymėta kaip reikia padaryti</string>
   <string name="marked_done">Pažymėta kaip baigta</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Atsakymas išsiųstas</item>
     <item quantity="few">Atsakymai išsiųsti</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Atsakymų išsiųsta</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Pranešimas patiko</item>
     <item quantity="few">Pranešimai patiko</item>
+    <!-- Like several conversations -->
     <item quantity="other">Pranešimų patiko</item>
   </plurals>
   <string name="invalid_selection">Neteisingas pasirinkimas</string>
@@ -165,9 +214,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Išjungti</string>
   <string name="custom_mailbox_delete_box">Ištrinti langelį</string>
   <string name="custom_mailbox_error_no_selected_folders">Prašome pasirinkti bent vieną aplanką iš žemiau esančio sąrašo</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Įspėjimas</string>
   <string name="custom_mailbox_delete_box_dialog_message">Ar tikrai norite ištrinti šį tinkintą langelį?</string>
   <string name="custom_mailbox_error_deleting_box">Įvyko klaida trinant jūsų tinkintą pašto dėžutę</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Įvertinti šią programą</string>
   <string name="viral_prompt_rate_app_body">Jei jums patinka naudotis šia programa, ar galetumėte skirti šiek tiek laiko ivertinant ją? tai neužtruks daugiau nei minutės. Ačiū už Jūsų paramą!</string>
   <string name="viral_ratings_prompt_remind_me_later">Priminti man vėliau</string>
@@ -188,16 +239,29 @@
   <string name="actions_dialog_message">Ar jūs naudojate aplankus reguliariai? dažnai pažymite kaip šlamštą? patinka iškirpti į „Evernote“?\n\nSu tinkintais braukiamaisiais veiksmais galite nustatyti bet kurį iš šių gestų, kad pagerintumėte savo darbo eigą.\n</string>
   <string name="actions_dialog_positive_button_text">Tinkinti braukimus</string>
   <string name="actions_dialog_negative_button_text">Uždaryti</string>
+  <!-- Account Setup -->
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Kaip?</string>
   <string name="like_action_dialog_message">Jūs radote mūsų mėgstamiausią funkciją. Kai jūs pažymite, kad jums patinka pranešimas, el. paštas bus išsiųstas siuntėjui leidžiantis žinoti jog jums tai patiko. Tai greičiausias būdas atsakyti į el. paštą.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Naujas</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Aplanko pavadinimas</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Kuriamas aplankas\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Pasikartojantis pavadinimas</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Aplanko pavadinimas kurį įvedėte jau egzistuoja.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Klaida</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Aplankas negali būti sukurtas.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Pranešti</string>
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Nėra jokio pašto.\nBraukite iš viršaus į apačią, kad atnaujintumėte</string>
   <string name="getting_messages">Gaunami pranešimai</string>
   <string name="empty_folder">Nėra jokio pašto.</string>
@@ -205,9 +269,18 @@
   <string name="empty_search">Oi! nieko neradome „<xliff:g id="search_query">%1$s</xliff:g>“.</string>
   <string name="empty_spam_folder">Valio, nėra jokio šlamšto!</string>
   <string name="empty_trash_folder">Šiukšlių nėra. Ačiū už perdirbimą!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
+  <!-- Attendee text when user is the only attendee. -->
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Aš &amp; %d kitas</item>
     <item quantity="few">Aš &amp; %d kiti</item>
     <item quantity="other">Aš &amp; %d kiti</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
+  <!-- Status for canceled events. -->
+  <!-- Send availability strings -->
+  <!-- String shown in the TO field when it is blank -->
 </resources>

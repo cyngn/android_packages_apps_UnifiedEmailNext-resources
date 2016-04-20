@@ -17,224 +17,439 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Layout tests strings -->
+  <!-- Compose -->
+  <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to">Хэнд</string>
+  <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="cc">Cc</string>
+  <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="bcc">Bcc</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="subject_hint">Гарчиг</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
   <string name="body_hint">Имэйл бичих</string>
+  <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
   <string name="add_file_attachment">Файл хавсаргах</string>
+  <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
   <string name="add_photo_attachment">Зураг хавсаргах</string>
+  <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
   <string name="save_draft">Ноорог хадгалах</string>
+  <!--  Button name: discard this message [CHAR LIMIT=15] -->
   <string name="discard">Цуцлах</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string name="compose">Бичих</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
   <string-array name="compose_modes">
+    <!-- Reply -->
     <item>Хариулах</item>
+    <!-- Reply all -->
     <item>Бүгдэд хариу илгээх</item>
+    <!-- Forward -->
     <item>Дамжуулах</item>
   </string-array>
+  <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
+  <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
+  <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
+  <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
   <string name="reply_attribution"><xliff:g id="DATE">%s</xliff:g>-д, <xliff:g id="PERSON">%s</xliff:g> бичсэн:</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <string name="forward_attribution">---------- Дамжуулсан зурвас ----------&lt;br&gt;Хэнээс: <xliff:g id="FROM">%1$s</xliff:g>&lt;br&gt;Огноо: <xliff:g id="DATE">%2$s</xliff:g>&lt;br&gt;Гарчиг: <xliff:g id="SUBJECT">%3$s</xliff:g>&lt;br&gt;Хэнд: <xliff:g id="TO">%4$s</xliff:g>&lt;br&gt;</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
   <string name="forward_attribution_no_headers">---------- Дамжуулагдсан зурвас ----------</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
   <string name="cc_attribution">Cc: <xliff:g id="CC">%1$s</xliff:g>&lt;br&gt;</string>
+  <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
   <string name="select_attachment_type">Хавсралтын төрлийг сонгоно уу</string>
+  <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_single"><xliff:g id="MAXSIZE">%1$s</xliff:g>-с хэтэрсэн файлыг хавсаргах боломжгүй.</string>
+  <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_multiple">Нэг буюу хэд хэдэн файл хавсрагдаагүй. Хязгаар <xliff:g id="MAXSIZE">%1$s</xliff:g>.</string>
+  <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
   <string name="too_large_to_attach_additional">Файлыг хавсаргасангүй. <xliff:g id="MAXSIZE">%1$s</xliff:g> хязгаарт хүрсэн.</string>
+  <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
   <string name="generic_attachment_problem">Файлын хавсаргаж чадсангүй.</string>
+  <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
   <string name="recipient_needed">Ядаж нэг хүлээн авагч нэмнэ үү.</string>
+  <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
   <string name="recipient_error_dialog_title">Хүлээн авагчийн алдаа</string>
+  <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
   <string name="confirm_send_title">Зурвас илгээх үү?</string>
+  <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
   <string name="confirm_send_message_with_no_subject">Зурвасын гарчигт текст байхгүй байна.</string>
   <string name="confirm_send_message_with_no_body">Зурвасын их биед текст байхгүй байна.</string>
   <string name="confirm_send_message">Энэ зурвасыг илгээх үү?</string>
+  <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
   <string name="message_discarded">Зурвас устгагдсан.</string>
+  <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
   <string name="custom_from_account_label">Имэйл илгээгч:</string>
+  <!-- Menu item: send this message -->
   <string name="send">Илгээх</string>
+  <!-- Menu item: mark this conversation as read -->
   <string name="mark_read">Уншсан болгох</string>
+  <!-- Menu item: mark this conversation as unread -->
   <string name="mark_unread">Уншаагүйгээр тэмдэглэх</string>
+  <!--  Menu item: mute this conversation -->
   <string name="mute">Дууг хаах</string>
+  <!-- Menu item: add a star to this conversation -->
   <string name="add_star">Од нэмэх</string>
+  <!-- Menu item: remove the star from this conversation -->
   <string name="remove_star">Одыг арилгах</string>
+  <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
   <string name="remove_folder"><xliff:g id="FOLDERNAME">%1$s</xliff:g>-с устгах</string>
+  <!-- Menu item: archive this conversation -->
   <string name="archive">Архивлах</string>
+  <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
   <string name="report_spam">Спам мэдээлэх</string>
+  <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
   <string name="mark_not_spam">Спам биш болгож тэмдэглэх</string>
+  <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
   <string name="report_phishing">Фишинг мэдээлэх</string>
+  <!-- Menu item: delete this conversation -->
   <string name="delete">Устгах</string>
+  <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
   <string name="discard_drafts">Нооргыг цуцлах</string>
+  <!-- Menu item: refresh the inbox -->
   <string name="refresh">Дахин шинэчлэх</string>
+  <!-- Menu item: reply to this message -->
   <string name="reply">Хариулах</string>
+  <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
   <string name="reply_all">Бүгдэд хариу илгээх</string>
+  <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
   <string name="resume_draft">Засах</string>
+  <!-- Menu item: forward this message -->
   <string name="forward">Дамжуулах</string>
+  <!-- Menu item: compose a new email -->
   <string name="menu_compose">Бичих</string>
+  <!-- Menu item: change the folders for this conversation. -->
   <string name="menu_change_folders">Фолдеруудыг өөрчлөх</string>
+  <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
   <string name="menu_move_to">Шилжүүлэх газар</string>
+  <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
   <string name="menu_move_to_inbox">Ирсэн имэйл рүү шилжүүлэх</string>
+  <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
   <string name="menu_manage_folders">Фолдерын тохиргоо</string>
+  <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
   <string name="menu_show_original">Авто-хэмжээ тохируулахыг буцаах</string>
+  <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
   <string name="menu_folder_options">Фолдерын тохиргоо</string>
+  <!-- Menu item: launch the Settings activity -->
   <string name="menu_settings">Тохиргоо</string>
+  <!-- Menu item: search through the Gmail inbox -->
   <string name="menu_search">Хайх</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
   <string name="mark_important">Чухал болгож тэмдэглэх</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
   <string name="mark_not_important">Чухал бус болгох</string>
+  <!-- Compose screen, menu item: add Cc/Bcc fields -->
   <string name="add_cc_label">Cc/Bcc нэмэх</string>
+  <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <string name="add_bcc_label">Bcc нэмэх</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <string name="feedback">Санал хүсэл илгээх</string>
+  <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
   <string name="help_and_info">Тусламж</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
   <string name="quoted_text">Иш татсан текстийг оруулах</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
   <string name="quoted_text_label">Текст ишлэх</string>
+  <!--  Button for including inline responses. [CHAR LIMIT=25] -->
   <string name="respond_inline">Шугаманд хариулах</string>
+  <!-- Format string for email addresses -->
+  <!-- Attachments -->
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
   <string name="bytes"><xliff:g id="COUNT">%s</xliff:g> B</string>
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
   <string name="kilobytes"><xliff:g id="COUNT">%s</xliff:g> КБ</string>
+  <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
   <string name="megabytes"><xliff:g id="COUNT">%s</xliff:g> МБ</string>
+  <!-- Attachment description for image files [CHAR LIMIT=30] -->
   <string name="attachment_image">Зураг</string>
+  <!-- Attachment description for video files [CHAR LIMIT=30] -->
   <string name="attachment_video">Видео</string>
+  <!-- Attachment description for audio files [CHAR LIMIT=30] -->
   <string name="attachment_audio">Аудио</string>
+  <!-- Attachment description for text files [CHAR LIMIT=30] -->
   <string name="attachment_text">Текст</string>
+  <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
   <string name="attachment_application_msword">Документ</string>
+  <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
   <string name="attachment_application_vnd_ms_powerpoint">Үзүүлэн</string>
+  <!-- Attachment description for excel files [CHAR LIMIT=30] -->
   <string name="attachment_application_vnd_ms_excel">Хүснэгт</string>
+  <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
   <string name="attachment_application_pdf">PDF</string>
+  <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
   <string name="attachment_unknown"><xliff:g id="ATTACHMENTEXTENSION">%s</xliff:g> Файл</string>
+  <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
   <string name="preview_attachment">Урьдчилж харах</string>
+  <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
   <string name="save_attachment">Хадгалах</string>
+  <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
   <string name="cancel_attachment">Цуцлах</string>
+  <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
   <string name="download_again">Дахин татах</string>
+  <!-- Dialog box title [CHAR LIMIT=30] -->
   <string name="more_info_attachment">Мэдээлэл</string>
+  <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
   <string name="no_application_found">Энэ хавсралтыг нээж харуулах апп байхгүй байна.</string>
+  <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">Хавсралтыг дуудаж байна</string>
+  <!-- Dialog box message. [CHAR LIMIT=80] -->
   <string name="please_wait">Түр хүлээнэ үү...</string>
+  <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <string name="saved">Хадгалагдсан, <xliff:g id="SIZE">%s</xliff:g></string>
+  <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
   <string name="download_failed">Татаж чадсангүй. Дахин оролдохын тулд хүрнэ үү.</string>
+  <!-- Displayed in the conversation view, as a header informing
+         the user that the following is the attachments. [CHAR LIMIT=100] -->
   <string name="attachments_header">Хавсралт</string>
+  <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
   <string name="menu_photo_save_all">Бүгдийг хадгалах</string>
+  <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
   <string name="menu_photo_share">Хуваалцах</string>
+  <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
   <string name="menu_photo_share_all">Бүгдийг хуваалцах</string>
+  <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
   <string name="saving">Хадгалж байна...</string>
+  <!-- Webview Context Menu Strings -->
+  <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
   <string name="choosertitle_sharevia">Дараахаар дамжуулан хуваалцах</string>
+  <!-- Menu item to open a link  [CHAR LIMIT=50]-->
   <string name="contextmenu_openlink">Хөтөч дотор нээх</string>
+  <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
   <string name="contextmenu_copy">Хуулах</string>
+  <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
   <string name="contextmenu_copylink">Холбоосыг хуулах URL</string>
+  <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
   <string name="contextmenu_dial_dot">Залгах...</string>
+  <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
   <string name="contextmenu_sms_dot">SMS...</string>
+  <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">Харилцагч нэмэх</string>
+  <!-- Menu item to send an email [CHAR LIMIT=50] -->
   <string name="contextmenu_send_mail">Имэйл илгээх</string>
+  <!-- Menu item to show a map  [CHAR LIMIT=50]-->
   <string name="contextmenu_map">Газрын зураг</string>
+  <!-- Menu item to share link  [CHAR LIMIT=50]-->
   <string name="contextmenu_sharelink">Холбоос хуваалцах</string>
+  <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
   <string name="contextmenu_help">Тусламж</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
   <string name="contextmenu_feedback">Санал хүсэл илгээх</string>
+  <!-- Browse list item strings -->
+  <!-- Text indicating how many messages are selected in the top action bar
+    [CHAR LIMIT=40] -->
+  <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
   <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
     <item quantity="one">Харилцааг зөөх</item>
+    <!-- Move several conversations -->
     <item quantity="other"><xliff:g id="ID_1">%1$d</xliff:g> харилцааг зөөх</item>
   </plurals>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> <xliff:g id="SUBJECT">%2$s</xliff:g> тухай, <xliff:g id="SNIPPET">%3$s</xliff:g> <xliff:g id="DATE">%4$s</xliff:g>-д, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
   <string name="content_description_today"><xliff:g id="SENDER">%1$s</xliff:g> <xliff:g id="SUBJECT">%2$s</xliff:g> тухай, <xliff:g id="SNIPPET">%3$s</xliff:g> <xliff:g id="TIME">%4$s</xliff:g>-д, <xliff:g id="READSTATE">%5$s</xliff:g></string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
   <string name="read_string">харилцааг уншсан</string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
   <string name="unread_string">харилцаа уншигдаагүй</string>
+  <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
+    return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
   <string name="filtered_tag">[<xliff:g id="TAG">%1$s</xliff:g>]<xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
+         [CHAR LIMIT=5] -->
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
+  <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
     <item quantity="one">Ноорог</item>
+    <!-- Title of the screen when there are more than one draft -->
     <item quantity="other">Ноорог</item>
   </plurals>
+  <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <string name="sending">Илгээж байна ...</string>
+  <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <string name="send_failed">Зурвас илгээгдээгүй.</string>
+  <!-- String used to represent "me" when used as an object pronoun. This string is used when
+         showing the list of recipients of a message [CHAR LIMIT=15] -->
   <string name="me_object_pronun">надтай</string>
+  <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
+         showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
   <string name="me_subject_pronun">надтай</string>
+  <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
   <string name="inbox_folders_heading">Ирсэн имэйл</string>
   <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
     <item quantity="one">Эдгээр харилцаануудыг устгах уу?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">Эдгээр <xliff:g id="COUNT">%1$d</xliff:g> харилцааг устгах уу?</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
     <item quantity="one">Энэ харилцааг идэвхжүүлэх үү?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">Эдгээр <xliff:g id="COUNT">%1$d</xliff:g> харилцааг архивлах уу?</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
     <item quantity="one">Энэ харилцаанаас нооргуудыг цуцлах уу?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
     <item quantity="other">Эдгээр <xliff:g id="COUNT">%1$d</xliff:g> харилцаануудаас нооргуудыг устгах уу?</item>
   </plurals>
+  <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Энэ зурвасыг устгах уу?</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="loading_conversations">Ачаалж байна...</string>
+  <!-- Undo bar strings -->
+  <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">Буцаах</string>
   <plurals name="conversation_unstarred">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> харилцааны одыг арилгаж байна.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> харилцааны одыг арилгаж байна.</item>
   </plurals>
+  <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; хаагдсан.</item>
+    <!-- Displayed while muting several conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; хаагдсан.</item>
   </plurals>
   <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; спам гэж мэдээлэгдсэн.</item>
+    <!-- Displayed while reporting several conversations as spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; спам гэж мэдээлэгдсэн.</item>
   </plurals>
   <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; спам биш гэж тэмдэглэгдсэн.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; спам биш гэж тэмдэглэгдсэн.</item>
   </plurals>
   <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; чухал бус гэж тэмдэглэгдсэн.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; чухал бус гэж тэмдэглэгдсэн.</item>
   </plurals>
   <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; залилан гэж мэдээлэгдсэн.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; залилан гэж мэдээлэгдсэн.</item>
   </plurals>
   <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; архивлагдсан.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; архивлагдсан.</item>
   </plurals>
   <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
     <item quantity="one">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; устгагдсан.</item>
+    <!-- Displayed while deleting multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; устгагдсан.</item>
   </plurals>
+  <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">Устгасан</string>
+  <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
   <string name="archived">Архивлагдсан</string>
+  <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
   <string name="folder_removed"><xliff:g id="FOLDERNAME">%1$s</xliff:g>-с арилгасан</string>
   <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
     <item quantity="one">Фолдер өөрчилсөн.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
     <item quantity="other">Фолдеруудыг өөрчилсөн.</item>
   </plurals>
+  <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
   <string name="conversation_folder_moved"><xliff:g id="FOLDERNAME">%1$s</xliff:g> руу зөөсөн</string>
+  <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
   <string name="search_results_header">Илэрцүүд</string>
+  <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
   <string name="search_unsupported">Энэ акаунтад хайлт дэмжигддэггүй.</string>
+  <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
   <string name="search_results_searching_header">Хайж байна...</string>
+  <!-- Conversation view -->
+  <!--  Text anchor for control to add / change labels on a conversation when
+          viewing it. [CHAR LIMIT=40] -->
   <string name="add_label">Фолдер нэмэх</string>
+  <!-- Conversation message header strings -->
+  <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="expand_recipient_details">Хүлээн авагчийн мэдээллийг дэлгэх</string>
+  <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
   <string name="collapse_recipient_details">Хүлээн авагчийн мэдээллийг хумих</string>
+  <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
   <string name="contact_info_string"><xliff:g id="NAME">%1$s</xliff:g>-н харилцагчийн мэдээллийг харуулах</string>
+  <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
   <string name="contact_info_string_default">Харилцагчийн мэдээллийг харуулах</string>
+  <!-- Shown in collapsed mode when a conversation has more than one read message.
+         The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <string name="from_heading">Хэнээс: </string>
+  <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">Хариу илгээх: </string>
+  <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="to_heading">Хэнд: </string>
+  <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="cc_heading">Cc: </string>
+  <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="bcc_heading">Bcc: </string>
+  <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="date_heading">Огноо: </string>
+  <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
   <string name="show_images">Зураг харуулах</string>
+  <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
   <string name="always_show_images">Энэ илгээгчийн хувьд ирүүлсэн зургуудыг нь байнга харуулах</string>
+  <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
   <string name="always_show_images_toast">Энэ илгээгчээс ирүүлсэн зургуудыг автоматаар харуулна.</string>
+  <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
   <string name="address_display_format"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g></string>
+  <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
   <string name="address_display_format_with_via_domain"><xliff:g id="NAME">%1$s</xliff:g> <xliff:g id="EMAIL">%2$s</xliff:g> <xliff:g id="VIA_DOMAIN">%3$s</xliff:g>-р</string>
+  <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
   <string name="message_saved">Зурвасыг ноорогт хадгалав.</string>
+  <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
   <string name="sending_message">Зурвасыг илгээж байна...</string>
+  <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <string name="invalid_recipient"><xliff:g id="WRONGEMAIL">%s</xliff:g> хаяг буруу байна.</string>
+  <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
   <string name="show_elided">▶ Ишлэгдсэн текстийг харуулах</string>
+  <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
   <string name="hide_elided">▼ Ишлэсэн текстийг нуух</string>
+  <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">Календарийн урилга</string>
+  <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
   <string name="message_invite_calendar_view">Календарь дотроос харах</string>
+  <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
   <string name="message_invite_label_attending">Явах уу?</string>
+  <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_accept">Тийм</string>
+  <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_tentative">Магадгүй</string>
+  <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_decline">Үгүй</string>
+  <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
   <string name="enumeration_comma">, </string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="yes">Тийм</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="no">Үгүй</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="ok">Тийм</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="done">Дууссан</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Цуцлах</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="clear">Цэвэрлэх</string>
+  <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
   <string-array name="sync_status">
     <item>Амжилттай</item>
     <item>Холбогдоогүй.</item>
@@ -243,119 +458,264 @@
     <item>Синк хийж чадсангүй.</item>
     <item>Дотоод алдаа</item>
   </string-array>
+  <!-- Widget strings -->
+  <!-- Displayed when user adds a new widget. Tapping on the widget in this
+          mode will bring user to the account selection screen [CHAR LIMIT=35] -->
   <string name="tap_to_configure">Тохируулах бол хүрнэ үү</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
   <string name="non_synced_folder_description">Харилцаануудыг харахын тулд энэ фолдерыг синк хийнэ үү.</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
+         button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
   <string name="tap_to_configure_folder_sync">Фолдер синк хийх</string>
+  <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%d+</string>
+  <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <string name="actionbar_large_unread_count"><xliff:g id="COUNT">%1$d</xliff:g>+ уншаагүй</string>
+  <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
   <string name="view_more_conversations">Өөр харилцаануудыг харах</string>
+  <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
   <string name="activity_mailbox_selection">Акаунт сонгох</string>
+  <!-- Name of the Folders activity [CHAR LIMIT=30] -->
   <string name="activity_folder_selection">Фолдер сонгох</string>
+  <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
   <string name="folder_shortcut_widget_label">Имэйл фолдер</string>
+  <!-- Folder selection dialog -->
+  <!-- Title for change folders dialog [CHAR LIMIT=30] -->
   <string name="change_folders_selection_dialog_title">Фолдеруудыг өөрчлөх</string>
+  <!-- Title for move to dialog [CHAR LIMIT=30] -->
   <string name="move_to_selection_dialog_title">Зөөх</string>
+  <!-- Search -->
+  <!-- Title of the search dialog -->
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Имэйл хайх</string>
+  <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
+  <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
   <string name="network_error">Холбогдоогүй</string>
+  <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
   <string name="retry">Дахин оролдох</string>
+  <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
   <string name="load_more">Нэмж харуулах</string>
+  <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
+  <!-- Shortcut strings -->
+  <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
   <string name="shortcut_name_title">Нэрийн фолдерын товчилбор</string>
+  <!-- Wait fragment strings -->
+  <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
   <string name="wait_for_sync_title">Синк хийгдэхийг хүлээж байна</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
   <string name="wait_for_sync_body">Таны имэйл удахгүй гарч ирэх болно.</string>
+  <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
   <string name="not_synced_title">Акаунт синк хийгдээгүй</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
   <string name="wait_for_manual_sync_body">Энэ акаунтыг автоматаар синк хийхээр тохируулаагүй.\nИмэйлийг нэг удаа синк хийхийн тулд \"<b>"Одоо синк хийх"</b>\" гэсэнд хүрэх буюу энэ акаунтыг автоматаар синк хийхээр тохируулахын тулд \"<b>"Синкийн Тохиргоог Өөрчлөх"</b>\" гэсэнд хүрнэ үү.</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
   <string name="manual_sync">Одоо синк хийх</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
   <string name="change_sync_settings">Синкийн тохиргоог өөрчлөх</string>
+  <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
   <string name="photo_load_failed">Зургийг ачаалж чадсангүй</string>
+  <!--  The move message / change labels action can't be taken because the selected messages
+        come from different accounts -->
   <string name="cant_move_or_change_labels">Сонголтонд олон тооны акаунт багтсан учир зөөх боломжгүй.</string>
+  <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
+         Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
+  <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_big_text"><xliff:g id="SUBJECT">%1$s</xliff:g>\n<xliff:g id="SNIPPET">%2$s</xliff:g></string>
+  <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
   <string name="ignore_spam_warning">Үл тоох, би энэ зурваст итгэж байна</string>
+  <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
   <string name="via_domain"><xliff:g id="VIADOMAIN">%1$s</xliff:g>-р</string>
+  <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
   <string name="signin">Нэвтрэх</string>
+  <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
   <string name="info">Мэдээлэл</string>
+  <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
   <string name="report">Мэдэгдэх</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <string name="sync_error">Синк хийж чадсангүй.</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
   <string name="sync_error_message">Таны төхөөрөмж синк хийхэд хангалттай зайгүй байна.</string>
+  <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">Сан</string>
+  <!-- Token used as a divider between senders -->
   <string name="senders_split_token">, </string>
   <string name="draft_count_format"> (<xliff:g id="COUNT">%1$s</xliff:g>)</string>
+  <!-- Token to replace senders that are not visible -->
+  <!-- Token used to space out elided senders that are not visible -->
+  <!-- Token used to space out message count, draft text, and senders -->
+  <!-- String used in the FolderListFragment to mark the start of recent folders -->
   <string name="recent_folders_heading">Саяхны фолдерууд</string>
+  <!-- Dialog title when showing message header details in a popup window. [CHAR LIMIT=100]-->
   <string name="message_details_title">Зурвасын мэдээлэл</string>
+  <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
   <string name="auto_advance_label">Автомат шилжилт</string>
+  <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
   <string name="auto_advance_summary">Таныг зурвас устгасны дараа ямар дэлгэцийг харуулахыг сонгоно уу</string>
+  <!-- Title of the dialog that appears the first time they perform an action that would cause
+         auto advance logic to fire [CHAR LIMIT=70] -->
   <string name="auto_advance_help_title">Автомат-шилжилтийн сонголтыг тохируулах\n(устгасны дараа гэх мэт.)</string>
+  <!-- The auto-advance modes -->
   <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
     <item>Шинэ</item>
+    <!-- Older conversation -->
     <item>Хуучин</item>
+    <!-- Conversation list -->
     <item>Харилцааны жагсаалт</item>
   </string-array>
+  <!-- Description for each auto-advance option to display after the user has picked one -->
+  <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
   <string-array name="prefSummaries_autoAdvance">
+    <!-- Newer conversation -->
     <item>Устгасны дараа харилцааг хэзээ ч харуулахгүй</item>
+    <!-- Older conversation -->
     <item>Устгасны дараа хуучин харилцааг харуулах</item>
+    <!-- Conversation list -->
     <item>Устгасны дараа харилцааны жагсаалтыг харуулах</item>
   </string-array>
+  <!-- TODO: these pref keys that are never user visible should probably be
+    moved to a donttranslate file -->
+  <!-- The default auto-advance mode -->
+  <!-- The auto-advance mode values -->
+  <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
   <string name="clear_display_images_whitelist_title">Зургийн зөвшөөрлүүдийг арилгах</string>
+  <!-- Settings screen, title of dialog shown to confirm action when user taps
+    "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
   <string name="clear_display_images_whitelist_dialog_title">Зургийн зөвшөөрлүүдийг арилгах уу?</string>
+  <!-- Settings screen, message of dialog shown to confirm action when tapping
+    "Clear picture approvals" [CHAR LIMIT=1000]-->
   <string name="clear_display_images_whitelist_dialog_message">Таны өмнө нь зөвшөөрсөн илгээгчдээс ирүүлсэн  зурвас доторх зургуудыг харуулахыг зогсоох.</string>
+  <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <string name="sender_whitelist_cleared">Зургийг автоматаар харуулахгүй.</string>
+  <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_title">Гарын үсэг</string>
+  <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
   <string name="preferences_signature_dialog_title">Гарын үсэг</string>
+  <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
   <string name="preferences_signature_summary_not_set">Тохируулаагүй</string>
+  <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply_all">Бүгдэд хариу илгээх</string>
+  <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
   <string name="notification_action_archive">Архивлах</string>
+  <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
   <string name="notification_action_remove_label">Шошгыг арилгах</string>
+  <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_archive">Архивлагдсан</string>
+  <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_remove_label">Шошгыг арилгасан</string>
+  <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
   <string name="notification_action_undo_delete">Устгасан</string>
+  <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
+  <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <string name="label_notification_ticker">"<xliff:g id="LABEL">%s</xliff:g>: <xliff:g id="NOTIFICATION">%s</xliff:g>"</string>
+  <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
+  <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
   <string name="silent_ringtone">Чимээгүй</string>
+  <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <string name="preference_removal_action_title">Архивлах &amp; устгах үйлдлүүд</string>
+  <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
   <string-array name="prefEntries_removal_action">
     <item>Зөвхөн архивлахыг харуулах</item>
     <item>Зөвхөн устгахыг харуулах</item>
     <item>Архивлах &amp; устгахыг харуулах</item>
   </string-array>
+  <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
   <string-array name="prefSummaries_removal_action_summary">
     <item>Зөвхөн архивлахыг харуулах</item>
     <item>Зөвхөн устгахыг харуулах</item>
     <item>Архивлах &amp; устгахыг харуулах</item>
   </string-array>
+  <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
   <string name="prefDialogTitle_removal_action">Архивлах &amp; устгах үйлдлүүд</string>
+  <!-- The default value -->
+  <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
   <string name="preferences_default_reply_all_title">Бүгдэд хариу илгээх</string>
+  <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
   <string name="preferences_default_reply_all_summary">Зурвасын үндсэн хариулт болгон ашиглах</string>
+  <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
   <string name="preference_swipe_title_archive">Архивлахын тулд шудрах</string>
+  <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
   <string name="preference_swipe_title_delete">Устгахын тулд шудрах</string>
+  <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
   <string name="preference_swipe_description">Харилцааны жагсаалтад</string>
+  <!-- In conversation list, when user initiates a downward swipe,
+        this text is displayed in the action bar as a hint that they can trigger a
+        sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
   <string name="swipe_down_to_refresh">Дахин шинэчлэхийн тулд доош шудрана уу</string>
+  <!-- In conversation list, when user has triggered a sync via a downward swipe,
+        this text is displayed in the action bar for a brief moment to
+    indicate that a sync is in progress.  [CHAR LIMIT=60] -->
   <string name="checking_for_mail">Имэйл шалгаж байна</string>
+  <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
   <string name="empty_trash">Хогийн савыг цэвэрлэх</string>
+  <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
   <string name="empty_spam">Спамыг хоослох</string>
+  <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_trash_dialog_title">Хогийн савыг хоослох уу?</string>
+  <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
   <string name="empty_spam_dialog_title">Спамыг хоослох уу?</string>
+  <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
     <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> зурвас бүрмөсөн устгагдах болно.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> зурвас бүрмөсөн устгагдах болно.</item>
   </plurals>
+  <!-- Strings used for accessibility for the items that toggles the drawer action  -->
   <string name="drawer_open">Навигацын татуургыг нээх</string>
   <string name="drawer_close">Навигацын татуургыг хаах</string>
   <string name="conversation_photo_welcome_text">Тухайн харилцааг сонгохын тулд илгээгчийн зурганд хүрнэ үү.</string>
   <string name="long_press_to_select_tip">Нэг харилцааг сонгохын тулд хүрээд &amp; барина уу, дараа нь илүү олныг сонгохын тулд хүрнэ үү.</string>
+  <!-- Content description for the folder icon for nested folders. -->
   <string name="folder_icon_desc">Хавтасны дүрс</string>
+  <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
   <string name="add_account">Акаунт нэмэх</string>
+  <!-- Action bar title for viewing messages that are attached to another message. -->
   <string name="attached_message">Хавсаргасан зурвас</string>
+  <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
   <string name="date_message_received_yesterday">Өчигдөр, <xliff:g id="TIME">%1$s</xliff:g></string>
+  <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
   <string name="dismiss_tip_hover_text">Зөвлөмжийг хаах</string>
+  <!-- Tip for letting user know that their device auto-sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
   <string name="auto_sync_off">Автомат синк идэвхгүй.</string>
+  <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
   <string name="tap_to_enable_sync">Асаах бол хүрнэ үү.</string>
+  <!-- Tip for letting user know that their account level sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
   <string name="account_sync_off">Акаунтын синк идэвхгүй.</string>
+  <!-- Hint text for user to enable sync in Gmail's account settings.
+         The whole string should read "Turn on in Account settings.", but because we need
+         "Account settings" to appear as blue link text, it's a parameter here.
+         [CHAR LIMIT=250] -->
   <string name="enable_sync_in_account_settings"><xliff:g id="ACCOUNT_SETTINGS">%1$s</xliff:g>-г асаах.</string>
+  <!-- This is used as a parameter to another string and combined reads
+         "Turn on in Account settings." [CHAR LIMIT=250] -->
   <string name="account_settings_param">Акаунтын тохиргоо</string>
+  <!-- Hint text that there are X number of unsent messages users
+    Outbox. [CHAR LIMIT=250] -->
   <string name="unsent_messages_in_outbox"><xliff:g id="OUTBOX">%2$s</xliff:g> дотор <xliff:g id="NUMBER">%1$s</xliff:g> илгээгүй</string>
+  <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
   <string name="turn_auto_sync_on_dialog_title">Автомат синкийг асаах уу?</string>
+  <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
   <string name="turn_auto_sync_on_dialog_body">Gmail төдөөгүй бүх апп болон акаунтад таны хийсэн өөрчлөлтүүд нь веб болон таны бусад төхөөрөмжүүд, <xliff:g id="PHONE_OR_TABLET">%1$s</xliff:g> хооронд синк хийгдэх болно.</string>
+  <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
   <string name="phone">утас</string>
+  <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
   <string name="tablet">таблет</string>
+  <!-- Confirm button text for dialog to turn auto-sync on [CHAR
+         LIMIT=30] -->
   <string name="turn_auto_sync_on_dialog_confirm_btn">Асаах</string>
+  <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
   <string name="show_n_more_folders">Өөр <xliff:g id="NUMBER">%1$s</xliff:g> фолдер харуулах</string>
+  <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
   <string name="hide_folders">Фолдер нуух</string>
 </resources>

@@ -16,50 +16,307 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Kombinirano</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Označi sve</string>
   <string name="menu_actiongrid">Akcija mreže</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Ukloni račun</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Podrška</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Izbriši račun</string>
   <string name="delete_account_summary">Izbriši ovaj račun i sve njegove postavke i podatke</string>
   <string name="delete_account_confirmation_msg">Izbrisat će se sve postavke i poruke e-pošte računa <xliff:g id="account"> %s </xliff:g>. Ovaj postupak se ne može poništiti.\n\nNastaviti?</string>
   <string name="deleting_account_msg">Brisanje računa\u2026</string>
   <string name="delete_account_failed">Nije moguće izbrisati račun</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Otvori</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instaliraj</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Ispis</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Vidi sliku</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <plurals name="to_header">
+    <item quantity="one"> &amp; %d drugi</item>
+    <item quantity="few">&amp; %d drugi</item>
+    <item quantity="other">&amp; %d drugih</item>
+  </plurals>
+  <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen za uraditi.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeno za uraditi.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označeno za uraditi.</item>
+  </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Prijavljeno kao spam</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Pokaži novu poruku od <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Prikaži <xliff:g id="count">%1$d</xliff:g> novu poruku.</item>
     <item quantity="few">Prikaži <xliff:g id="count">%1$d</xliff:g> novih poruka.</item>
     <item quantity="other">Prikaži <xliff:g id="count">%1$d</xliff:g> novih poruka.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Uređivanje</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Pretraži</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Pametne mape</item>
     <item>Sve mape</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Pametne oznake</item>
     <item>Sve oznake</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Polja</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Mape</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Računi</string>
+  <!-- Default email signature on vendor builds -->
+  <string name="vendor_signature">Poslano sa mog Cyanogen telefona</string>
+  <string name="vendor_signature_fmt">Poslano sa <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Poslano sa mog BLU telefona - BLU Pošta pokretana Boxer-om</string>
+  <string name="vendor_signature_o2">Poslano sa Cyanogen-a na O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_mark_read">PROČITANO</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply">ODGOVOR</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_delete">OBRIŠI</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nova poruka</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> nove poruke</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> novih poruka</item>
+  </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Akcije poteza</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Prilagodi akcije lijevog i desnog poteza</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Kratki potez lijevo</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Dugi potez lijevo</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Kratki potez desno</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Dugi potez desno</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Ispis</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
+  <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> poruka</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> poruke</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> poruka</item>
+  </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> u <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Nacrt za:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Skica</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Citirani tekst skriven</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> privitak</item>
+    <item quantity="few"><xliff:g id="count">%1$d</xliff:g> privitka</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> privitaka</item>
+  </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(nema predmeta)</string>
+  <string name="action_grid_select_quick_response">Odaberi brzi odgovor</string>
+  <string name="action_grid_todo_dialog_title">Pojedinosti</string>
+  <string name="action_grid_set_due_date">Namjesti dospjeli datum</string>
+  <string name="action_grid_due">Prispjelo: <xliff:g id="datestring">%s</xliff:g></string>
+  <string name="action_grid_add_priority">Dodaj prioritet</string>
   <string name="action_grid_priority">Prioritet:\u0020</string>
+  <string name="action_grid_add_assignee">Dodaj predstavnika</string>
+  <string name="action_grid_assignee">Predstavnik:\u0020</string>
+  <string name="action_grid_due_date_dialog_title">Namjesti dospjeli datum</string>
+  <string name="action_grid_due_date_today">Danas</string>
+  <string name="action_grid_due_date_tomorrow">Sutra</string>
+  <string name="action_grid_due_date_this_week">Ovaj tjedan</string>
   <string name="action_grid_due_date_next_week">Sljedeći tjedan</string>
+  <string name="action_grid_due_date_specific_date">Određeni datum</string>
+  <string name="action_grid_calendar_picker_dialog_title">Namjesti dospjeli datum</string>
+  <string name="action_grid_priority_dialog_title">Dodaj prioritet</string>
   <string name="action_grid_priority_highest">Najviši prioritet</string>
   <string name="action_grid_priority_high">Visoki prioritet</string>
+  <string name="action_grid_priority_normal">Normalan prioritet</string>
+  <string name="action_grid_priority_low">Nizak prioritet</string>
+  <string name="action_grid_priority_lowest">Najniži prioritet</string>
+  <string name="action_grid_assignee_dialog_title">Dodaj predstavnika</string>
+  <string name="action_grid_assignee_select_from_contacts">Odaberi iz kontakata</string>
+  <string name="action_grid_assignee_search_for_contact">Potražite kontakt</string>
+  <string name="action_grid_assignee_button_bar_clear">Jasno</string>
+  <!-- Prompt used if you are trying to delete a message -->
+  <string name="action_message_header_delete">Izbrisati ovu poruku?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
+  <string name="action_like">Sviđa mi se</string>
+  <string name="action_todo">Zaduženja</string>
+  <string name="action_quick">Brzo</string>
+  <string name="action_move">Premjesti</string>
+  <string name="action_label">Oznaka</string>
+  <string name="action_move_or_label">Premjesti/Označi</string>
+  <string name="action_archive">Arhiva</string>
+  <string name="action_delete">Obriši</string>
+  <string name="action_spam">Neželjeno</string>
+  <string name="action_flag">Zastava</string>
+  <string name="action_clear_flag">Ukloni oznaku</string>
+  <string name="action_star">Zvijezda</string>
+  <string name="action_clear_star">Ukloni zvijezdu</string>
+  <string name="action_star_or_flag">Zvijezda/Zastava</string>
+  <string name="action_mark_unread">Označi kao nepročitano</string>
+  <string name="action_mark_read">Označi kao pročitano</string>
+  <string name="action_read_or_unread">Pročitano/Nepročitano</string>
+  <string name="action_actions">Radnje</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
+  <string name="marked_evernote">Pošalji na Evernote</string>
+  <string name="marked_liked">Označeno sa sviđa mi se</string>
+  <string name="marked_archived">Označeno za arhivu</string>
+  <string name="marked_deleted">Označeno za brisanje</string>
+  <string name="marked_spam">Premješteno u neželjeno</string>
+  <string name="marked_todo">Označeno za uraditi</string>
+  <string name="marked_done">Označeno kao gotovo</string>
+  <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <item quantity="one">Odgovor poslan</item>
+    <item quantity="few">Odgovora poslano</item>
+    <!-- Quick respond to several conversations -->
+    <item quantity="other">Odgovora poslano</item>
+  </plurals>
+  <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <item quantity="one">Poruka označena sa \"Sviđa mi se\"</item>
+    <item quantity="few">Poruka označeno sa \"Sviđa mi se\"</item>
+    <!-- Like several conversations -->
+    <item quantity="other">Poruka označeno sa \"Sviđa mi se\"</item>
+  </plurals>
+  <string name="invalid_selection">Odabir nije valjan</string>
+  <string name="file_action_more_than_one_account">Izabrali ste razgovore s više od jednog računa. Pokušajte izabrati razgovore samo s jednog računa.</string>
+  <string name="evernote_action_more_than_one_conversation">Evernote funkcioniranje podržava samo jedan po jedan razgovor. Pokušajte izabrati samo jedan razgovor.</string>
+  <string name="not_installed">Nije instalirano</string>
+  <string name="evernote_not_installed">Evernote izgleda nije instaliran. Molimo instalirajte ga da bi koristili ovu mogućnost.</string>
+  <string name="custom_mailbox_button">Dodaj prilagođeno polje</string>
+  <string name="custom_mailbox_settings_label">Postavke</string>
+  <string name="custom_mailbox_folder_name_hint">Prilagođeni naziv polja</string>
+  <string name="custom_mailbox_background_sync_label">Sinkronizacija u pozadini</string>
+  <string name="custom_mailbox_background_sync_switch_on">Uključen</string>
+  <string name="custom_mailbox_background_sync_switch_off">Isključen</string>
+  <string name="custom_mailbox_delete_box">Obriši polje</string>
+  <string name="custom_mailbox_error_no_selected_folders">Izaberite barem jednu mapu s donje liste</string>
+  <!-- Title for confirm delete box dialog -->
+  <string name="custom_mailbox_delete_box_dialog_title">Upozorenje</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Jeste li sigurni da želite izbrisati ovo prilagođeno polje?</string>
+  <string name="custom_mailbox_error_deleting_box">Pogreška brisanja vaše prilagođene poštanske kutije</string>
+  <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Ocijeni ovu aplikaciju</string>
+  <string name="viral_prompt_rate_app_body">Ako uživate u korištenju ove aplikacije, da li bi odvojili sekundu da je ocijenite? Neće trajati više od minute. Hvala za podršku!</string>
+  <string name="viral_ratings_prompt_remind_me_later">Podsjeti me kasnije</string>
+  <string name="viral_ratings_prompt_no_thanks">Ne, hvala</string>
+  <string name="viral_ratings_prompt_rate_now">Ocijeni sada</string>
+  <string name="promo_code_title_text">Nemojte koristiti svoj ​​inbox sami</string>
+  <string name="promo_code_edittext_hint">Unesite promotivni kod</string>
+  <string name="promo_code_button_text">Pošalji</string>
+  <string name="promo_code_error_no_code_entered">Molimo unesite promotivni kod prije slanja</string>
+  <string name="promo_code_error_invalid_code">Pogrešan promotivni kod</string>
+  <string name="promo_code_dialog_title">Dodaci otključani</string>
+  <string name="promo_code_dialog_message">Uspješno ste otključali <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Promotivni kod uspješno primijenjen</string>
+  <string name="promo_code_progress_dialog_validating">Provjera promotivnog koda</string>
+  <string name="rage_shake_title">Otkriveno tresenje</string>
+  <string name="rage_shake_message">Da li želite srušiti aplikaciju za slanje informacija otklanjanja pogrešaka?</string>
+  <string name="actions_dialog_title">Prilagodba</string>
+  <string name="actions_dialog_message">Koristite li mape stalno? Često označavate kao Neželjeno? Voljeli bi se spojiti na Evernote?\n\nSa prilagođenim akcijama poteza možete podesiti geste koji odgovaraju vašem procesu rada.\n</string>
+  <string name="actions_dialog_positive_button_text">Prilagodi poteze</string>
+  <string name="actions_dialog_negative_button_text">Zatvori</string>
+  <!-- Account Setup -->
+  <string name="account_setup_start_company_slogan_text">Dobrodošli u bolji inbox</string>
+  <string name="account_setup_vendor_heading">Dobrodošli u e-poštu</string>
+  <!-- Like Feature -->
+  <string name="like_action_dialog_tittle">Što je Sviđa mi se?</string>
+  <string name="like_action_dialog_message">Pronašli ste našu omiljenu mogućnost. kada poruku označite sa \'Sviđa mi se\', e-pošta će biti poslana pošiljatelju i ostalim primateljima obavještavajući ih da vam se sviđa. Ovo je do sada najbrži odgovor na e-poštu.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
+  <string name="new_button">Nova</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <string name="folder_name_hint">Naziv mape</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <string name="create_folder_progess">Stvaranje mape\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_title">Duplo ime</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">Naziv mape koji ste unijeli već postoji.</string>
+  <!-- Title used for generic error alerts. -->
+  <string name="error">Greška</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
+  <string name="error_creating_folder_message">Nije moguće stvoriti mapu.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
+  <string name="report_rendering_problem">Prijavi</string>
+  <!-- Toast message for above action -->
+  <string name="message_reported">Poruka prijavljena</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">Nema pošte.\nPovucite od vrha prema dolje za osvježavanje</string>
+  <string name="getting_messages">Prikupljanje vaših poruka</string>
+  <string name="empty_folder">Ovdje nema pošte.</string>
+  <string name="empty_inbox">Završili ste! Uživajte u danu.</string>
+  <string name="empty_search">Ups! Nismo našli ništa za \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hura, bez spama!</string>
+  <string name="empty_trash_folder">Nema smeća. Hvala za recikliranje!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Pogledaj na kalendaru</string>
+  <!-- Response action buttons. -->
+  <string name="accept">Prihvati</string>
+  <string name="maybe">Možda</string>
+  <string name="decline">Odbij</string>
+  <string name="remove_from_cal">Ukloni iz kalendara</string>
+  <string name="remove_series_from_cal">Ukloni serije iz kalendara</string>
+  <!-- Attendee text when user is the only attendee. -->
+  <string name="calendar_attendees_me_only">Ja</string>
+  <!-- Attendee text when there are additional attendees. -->
+  <plurals name="calendar_attendees">
+    <item quantity="one">Ja &amp; %d drugi</item>
+    <item quantity="few">Ja &amp; %d drugih</item>
+    <item quantity="other">Ja &amp; %d drugih</item>
+  </plurals>
+  <!-- Accompanies the date/time for all day events. -->
+  <string name="all_day">Cijeli dan</string>
+  <!-- Status for canceled events. -->
+  <string name="canceled">Otkazano</string>
+  <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Vrijeme koje mi odgovara:</string>
+  <string name="availability_by">Raspoloživo od</string>
+  <string name="remove_availability">Ukloni dostupnost</string>
+  <string name="event_over">Događaj završen</string>
+  <string name="busy">Zauzeto</string>
+  <string name="available">Dostupno</string>
+  <plurals name="other_conflicts">
+    <item quantity="one">%d drugi konflikt</item>
+    <item quantity="few">%d drugih konflikata</item>
+    <item quantity="other">%d drugih konflikata</item>
+  </plurals>
+  <string name="meeting_invitation">Sažetak pozivnice:</string>
+  <string name="invitation_by">Poziv od strane</string>
+  <string name="remove_invite">Ukloni poziv</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> se sviđa vaša poruka s &lt;a href=\"%s\"&gt;Boxer na Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">Nije pronađena odgovarajuća aplikacija za trgovinu</string>
+  <string name="calendar_feature_dialog_title">Preuzmite Boxer Kalendar</string>
+  <string name="calendar_feature_dialog_msg">Boxer omogućuje karakteristike koje rade samo sa Boxer Kalendarom. Da bi omogućili te karakteristike preuzmite posljednju verziju Boxer Kalendara danas (BESPLATNO)</string>
+  <string name="calendar_feature_dialog_positive_btn">INSTALIRAJ</string>
+  <string name="calendar_feature_dialog_negative_btn">NE SAD</string>
+  <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Neotkriveni Primatelji</string>
 </resources>

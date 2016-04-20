@@ -16,66 +16,108 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">聯合</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_actiongrid">操作格</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <!-- Delete account -->
   <string name="delete_account_title">刪除帳戶</string>
   <string name="delete_account_summary">刪除此帳戶及所有的設定和數據</string>
   <string name="delete_account_confirmation_msg">這將刪除帳戶 <xliff:g id="account">%s</xliff:g> 的所有設定及電子郵件。該操作無法復原。\n\n是否繼續？</string>
   <string name="deleting_account_msg">刪除帳戶\u2026中</string>
   <string name="delete_account_failed">無法刪除此帳戶</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">開啟</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">安裝</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">列印</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">檢視圖像</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="other">&amp; %d 其他</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 標記為待辦事項。</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">舉報為垃圾訊息</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">顯示來自<xliff:g id="sender">%s</xliff:g>的新訊息。</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="other">顯示 <xliff:g id="count">%1$d</xliff:g> 則新訊息。</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">編輯</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">搜尋</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Smart folders</item>
     <item>所有資料夾</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Smart labels</item>
     <item>所有標籤</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">框</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">資料夾</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">帳戶</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">傳送自我的 Cyanogen 手機</string>
   <string name="vendor_signature_fmt">傳送自 <xliff:g id="brand" example="samsung">%s </xliff:g></string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">閱讀</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">回覆</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">刪除</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 則新訊息</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">滑動操作</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">自訂左右滑動操作</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">向左短滑動</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">向左長滑動</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">向右短滑動</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">向右長滑動</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">列印</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 則新訊息</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> 在 <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">草稿傳送至：\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">草稿</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">隱藏引用文字</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> 個附件</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">（無主題）</string>
   <string name="action_grid_select_quick_response">選擇快速回應</string>
   <string name="action_grid_todo_dialog_title">詳細資料</string>
@@ -102,7 +144,9 @@
   <string name="action_grid_assignee_select_from_contacts">從聯絡人中選擇</string>
   <string name="action_grid_assignee_search_for_contact">搜尋聯絡人</string>
   <string name="action_grid_assignee_button_bar_clear">清除</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">刪掉此訊息？</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">喜歡</string>
   <string name="action_todo">待辦事項</string>
   <string name="action_quick">快速</string>
@@ -121,6 +165,7 @@
   <string name="action_mark_read">標示為已讀取</string>
   <string name="action_read_or_unread">已讀取/未讀取</string>
   <string name="action_actions">操作</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">傳送到 Evernote</string>
   <string name="marked_liked">標記為喜歡</string>
   <string name="marked_archived">已標記為將封存</string>
@@ -129,9 +174,13 @@
   <string name="marked_todo">標記為待辦事項</string>
   <string name="marked_done">標記為完成</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
     <item quantity="other">已傳送回應</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
     <item quantity="other">喜歡的訊息</item>
   </plurals>
   <string name="invalid_selection">無效選擇</string>
@@ -147,9 +196,11 @@
   <string name="custom_mailbox_background_sync_switch_off">關閉</string>
   <string name="custom_mailbox_delete_box">刪除框</string>
   <string name="custom_mailbox_error_no_selected_folders">請從下列清單中選擇至少一個資料夾</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">警告</string>
   <string name="custom_mailbox_delete_box_dialog_message">您確定想要刪除此自訂框？</string>
   <string name="custom_mailbox_error_deleting_box">刪除自訂郵箱時發生錯誤</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">為此程式評分</string>
   <string name="viral_prompt_rate_app_body">如果您喜歡使用這個程式，是否介意抽出時間來為它評分呢？不會超過一分鐘。感謝您的支持！</string>
   <string name="viral_ratings_prompt_remind_me_later">以後提醒我</string>
@@ -170,19 +221,32 @@
   <string name="actions_dialog_message">您經常使用資料夾嗎？通常標記為垃圾訊息嗎？喜歡剪輯到 Evernote？ \n\n自訂滑動操作，您即可設定任何這些手勢來適應您的工作流程。\n</string>
   <string name="actions_dialog_positive_button_text">自訂滑動操作</string>
   <string name="actions_dialog_negative_button_text">關閉</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">歡迎使用更好的收件匣</string>
   <string name="account_setup_vendor_heading">歡迎來到電子郵件</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">什麼是「喜歡」？</string>
   <string name="like_action_dialog_message">您發現了我們最喜歡的功能。當您「喜歡」一則訊息時，會傳送一封電子郵件讓寄件人和其他收件人知道您喜歡它。這是答覆電子郵件最快的方法。</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">新增</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">資料夾名稱</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">建立資料夾\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">重複的名稱</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">您輸入的資料夾名稱已存在。</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">錯誤</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">無法建立該資料夾。</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">報告</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">已報告訊息</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">此處沒有郵件。\n從頂部向下拉動來重新整理頁面</string>
   <string name="getting_messages">正在獲取您的訊息</string>
   <string name="empty_folder">此處沒有郵件。</string>
@@ -190,17 +254,25 @@
   <string name="empty_search">哎呀！我們沒有找到 “<xliff:g id="search_query">%1$s </xliff:g>\" 的任何內容。</string>
   <string name="empty_spam_folder">太好了，沒有垃圾電郵！</string>
   <string name="empty_trash_folder">此處沒有垃圾。感謝您回收！</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">在日曆上檢視</string>
+  <!-- Response action buttons. -->
   <string name="maybe">也許</string>
   <string name="decline">拒絕</string>
   <string name="remove_from_cal">從日曆中移除</string>
   <string name="remove_series_from_cal">從日曆中移除系列</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">我</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="other">我 &amp; %d 其他人</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">全日</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">已取消</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">我方便的時間：</string>
   <string name="availability_by">截止有效日期</string>
   <string name="remove_availability">刪除有效日期</string>
@@ -216,5 +288,6 @@
   <string name="calendar_feature_dialog_msg">郵件助手提供專屬郵件助手日曆的功能。若要啟用此功能，今天就下載郵件助手日曆的最新版本吧（免費）</string>
   <string name="calendar_feature_dialog_positive_btn">安裝</string>
   <string name="calendar_feature_dialog_negative_btn">以後再說</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">保密收件人</string>
 </resources>

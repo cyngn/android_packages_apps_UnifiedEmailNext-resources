@@ -16,76 +16,118 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Kombinert</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Velg alle</string>
   <string name="menu_actiongrid">Handlingsrutenett</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Fjern konto</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Hjelp</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Slett konto</string>
   <string name="delete_account_summary">Slette kontoen, alle innstillinger og data</string>
   <string name="delete_account_confirmation_msg">Dette vil slette alle innstillingene og e-post for kontoen <xliff:g id="account">%s</xliff:g>. Denne operasjonen kan ikke være omgjøres.\n\nVil du fortsette?</string>
   <string name="deleting_account_msg">Sletter konto\u2026</string>
   <string name="delete_account_failed">Kunne ikke slette kontoen</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Åpne</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Installer</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Skriv ut</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Vis bilde</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d andre</item>
     <item quantity="other">&amp; %d andre</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; merket som gjøremål.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt; b &gt; <xliff:g id="count">%1$d </xliff:g> &lt; /b &gt; merket som gjøremål.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Rapportert som spam</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Vise nye meldinger fra <xliff:g id="sender">%s </xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding.</item>
     <item quantity="other">Vis <xliff:g id="count">%1$d </xliff:g> nye meldinger.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Endre</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Søk</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Smarte mapper</item>
     <item>Alle mapper</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Smarte etiketter</item>
     <item>Alle etiketter</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Bokser</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Mapper</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Kontoer</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Sendt fra min Cyanogen telefon</string>
   <string name="vendor_signature_fmt">Sendt fra <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="vendor_signature_o2">Sendt fra Cyanogen på O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LES</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">SVAR</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">DEL</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding</item>
     <item quantity="other">Vis <xliff:g id="count">%1$d </xliff:g> nye meldinger</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Dra handlinger</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Tilpasse venstre og høyre dra handlinger</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Venstre kort swipe</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Venstre lange sveip</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Rett kort sveip</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Høyre lang sveip</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Skriv ut</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one">Vis <xliff:g id="count">%1$d </xliff:g> ny melding</item>
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> meldinger</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s </xliff:g> på <xliff:g id="time">%2$s </xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Utkast til: \u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Utkast</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Sitert tekst skjult</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d </xliff:g> vedlegg</item>
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> vedlegg</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(uten emne)</string>
   <string name="action_grid_select_quick_response">Velg hurtigsvar</string>
   <string name="action_grid_todo_dialog_title">Detaljer</string>
@@ -112,7 +154,9 @@
   <string name="action_grid_assignee_select_from_contacts">Velg fra kontakter</string>
   <string name="action_grid_assignee_search_for_contact">Søk etter kontakter</string>
   <string name="action_grid_assignee_button_bar_clear">Fjern</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Slette denne meldingen?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Lik</string>
   <string name="action_todo">Å gjøre</string>
   <string name="action_quick">Rask</string>
@@ -131,6 +175,7 @@
   <string name="action_mark_read">Merk som lest</string>
   <string name="action_read_or_unread">Lest/ulest</string>
   <string name="action_actions">Handlinger</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Sendt til Evernote</string>
   <string name="marked_liked">Merket som likt</string>
   <string name="marked_archived">Merket for arkiv</string>
@@ -139,11 +184,15 @@
   <string name="marked_todo">Merket som gjøremål</string>
   <string name="marked_done">Merket som ferdig</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Svar sendt</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Svar sendt</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Melding likt</item>
+    <!-- Like several conversations -->
     <item quantity="other">Meldinger likt</item>
   </plurals>
   <string name="invalid_selection">Ugyldig valg</string>
@@ -159,9 +208,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Av</string>
   <string name="custom_mailbox_delete_box">Slette boks</string>
   <string name="custom_mailbox_error_no_selected_folders">Velg minst én mappe fra listen nedenfor</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Advarsel</string>
   <string name="custom_mailbox_delete_box_dialog_message">Er du sikker på at du vil slette denne egendefinerte boksen?</string>
   <string name="custom_mailbox_error_deleting_box">Det oppstod en feil under sletting av postboksen</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Rangere denne appen</string>
   <string name="viral_prompt_rate_app_body">Hvis du liker å bruke denne appen, ville du tatt et øyeblikk å vurdert den? Det tar ikke mer enn et minutt. Takk for din støtte!</string>
   <string name="viral_ratings_prompt_remind_me_later">Påminn meg senere</string>
@@ -182,19 +233,32 @@
   <string name="actions_dialog_message">Bruker du mapper regelmessig? Ofte merke som Spam? Liker du å klippe til Evernote? \n\nMed tilpassede sveipe handlinger du kan sette noen av disse gesteme til å passe din arbeidsflyt.\n</string>
   <string name="actions_dialog_positive_button_text">Tilpasse sveip</string>
   <string name="actions_dialog_negative_button_text">Lukk</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Velkommen til en bedre innboks</string>
   <string name="account_setup_vendor_heading">Velkommen til e-post</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Hva er like?</string>
   <string name="like_action_dialog_message">Du har funnet vår favoritt funksjon. Når du \"Liker\" en melding, vil en epost bli sendt for å la avsendere og andre få beskjed om at du liker eposten. Det er den raskeste metoden å svare på eposter.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Ny</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Mappenavn</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Oppretter mappe\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Duplisert navn</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Mappenavnet du skrev inn finnes allerede.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Feil</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Mappen kan ikke opprettes.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Rapportér</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Meldingen er rapportert</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Det er ingen post her. \nDra ned fra toppen for å oppdatere</string>
   <string name="getting_messages">Henter inn meldingene dine</string>
   <string name="empty_folder">Det er ingen mail her.</string>
@@ -202,19 +266,27 @@
   <string name="empty_search">Whoops! Vi fant ikke noe for \"<xliff:g id="search_query">%1$s </xliff:g>\".</string>
   <string name="empty_spam_folder">Hurra, ikke spam her!</string>
   <string name="empty_trash_folder">Søppel her. Takk for resirkulering!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Se på kalenderen</string>
+  <!-- Response action buttons. -->
   <string name="accept">Godta</string>
   <string name="maybe">Kanskje</string>
   <string name="decline">Avslå</string>
   <string name="remove_from_cal">Fjern fra kalenderen</string>
   <string name="remove_series_from_cal">Fjern serien fra kalenderen</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Meg</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Meg og %d annen</item>
     <item quantity="other">Meg og %d andre</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Hele dagen</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Avlyst</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Tidspunkter som fungerer for meg:</string>
   <string name="availability_by">Tilgjengelighet via</string>
   <string name="remove_availability">Fjern tilgjengelighet</string>
@@ -231,4 +303,5 @@
   <string name="calendar_feature_dialog_title">Last ned Boxer kalender</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLERE</string>
   <string name="calendar_feature_dialog_negative_btn">IKKE NÅ</string>
+  <!-- String shown in the TO field when it is blank -->
 </resources>

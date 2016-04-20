@@ -17,7 +17,706 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Names of packages and authorities that are common to all apps
+    and read from resources -->
+  <!-- Layout tests strings -->
+  <!-- Compose -->
+  <!-- Shown in Compose; the sender of the message [CHAR LIMIT=10] -->
+  <string name="from">அனுப்புநர்</string>
+  <!-- Shown in Compose; the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to">பெறுநர்</string>
+  <!-- Shown in Compose; the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc">Cc</string>
+  <!-- Shown in Compose; the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc">Bcc</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="subject_hint">தலைப்பு</string>
+  <!-- Shown in Compose; the subject of the message [CHAR LIMIT=100] -->
+  <string name="body_hint">மின்னஞ்சலை உருவாக்கு</string>
+  <!--  Compose screen button. Add an attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_file_attachment">கோப்பை இணை</string>
+  <!--  Compose screen button. Add a photo attachment to this message [CHAR LIMIT=20] -->
+  <string name="add_photo_attachment">படத்தை இணை</string>
+  <!-- Button name: save this message as draft [CHAR LIMIT=25]-->
+  <string name="save_draft">வரைவைச் சேமி</string>
+  <!--  Button name: discard this message [CHAR LIMIT=15] -->
+  <string name="discard">நிராகரி</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string name="compose">உருவாக்கு</string>
+  <!-- The possible ways to reply to a message [CHAR LIMIT=15] -->
+  <string-array name="compose_modes">
+    <!-- Reply -->
+    <item>பதிலளிக்கவும்</item>
+    <!-- Reply all -->
+    <item>அனைவருக்கும் பதிலளி</item>
+    <!-- Forward -->
+    <item>முன்னனுப்பு</item>
+  </string-array>
+  <!-- Formatting string for the subject when it contains a reply or forward identifier. Do not translate.-->
+  <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
+  <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
+  <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
+  <string name="reply_attribution"><xliff:g id="date">%s</xliff:g>இல், <xliff:g id="person">%s</xliff:g> எழுதினார்:</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
+  <string name="forward_attribution">’---------- முன்னனுப்பிய செய்தி ----------&lt;br&gt;அனுப்புநர்: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;தேதி: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;பொருள்: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;பெறுநர்: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
+  <string name="forward_attribution_no_headers">---------- பகிரப்பட்ட செய்தி ----------</string>
+  <!-- Compose screen, displayed at the top of a message being forwarded if there are any email addresses in the CC list. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000]-->
+  <string name="cc_attribution">Cc: <xliff:g id="cc">%1$s</xliff:g>&lt;br&gt;</string>
+  <!-- Dialog text: select the type of an attachment while composing [CHAR LIMIT=100]-->
+  <string name="select_attachment_type">இணைப்பின் வகையைத் தேர்வுசெய்</string>
+  <!-- Toast, attachment too large for single file [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_single">%1$s மீது கோப்பை இணைக்க முடியாது.</string>
+  <!-- Toast, attachment too large for multiple files [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_multiple">ஒன்று அல்லது அதிகமான கோப்புகள் இணைக்கப்படவில்லை வரம்பு <xliff:g id="maxSize">%1$s</xliff:g>.</string>
+  <!-- Toast, attachment too large when existing attachments exist [CHAR LIMIT=100] -->
+  <string name="too_large_to_attach_additional">கோப்பு இணைக்கப்படவில்லை <xliff:g id="maxSize">%1$S</xliff:g> அளவு வரம்பு அடைந்தாயிற்று.</string>
+  <!-- Toast, problem attaching file [CHAR LIMIT=100] -->
+  <string name="generic_attachment_problem">கோப்பை இணைக்க முடியவில்லை.</string>
+  <!-- Displayed for one second after trying to send with no recipients in To field [CHAR LIMIT=200]-->
+  <string name="recipient_needed">குறைந்த ஒரு பெறுநரையாவது சேர்க்கவும்.</string>
+  <!-- Title for recipient error dialog [CHAR LIMIT=200]-->
+  <string name="recipient_error_dialog_title">பெறுநர் பிழை</string>
+  <!-- Title for send confirmation dialog [CHAR LIMIT=200]-->
+  <string name="confirm_send_title">செய்தியை அனுப்பவா?</string>
+  <!-- Messages for send confirmation dialog [CHAR LIMIT=100]-->
+  <string name="confirm_send_message_with_no_subject">செய்தியின் பொருளில் உரை இல்லை.</string>
+  <string name="confirm_send_message_with_no_body">செய்தியின் பிரதானப் பகுதியில் உரை இல்லை.</string>
+  <string name="confirm_send_message">இந்தச் செய்தியை அனுப்பவா?</string>
+  <!-- Displayed for one second after discarding draft message [CHAR LIMIT=50]-->
+  <string name="message_discarded">செய்தி நிராகரிக்கப்பட்டது.</string>
+  <!--  Shown in the from dropdown in front of custom from addresses. [CHAR LIMIT=15] -->
+  <string name="custom_from_account_label">அஞ்சலை இப்படி அனுப்பு:</string>
+  <!-- Menu item: send this message -->
+  <string name="send">அனுப்பு</string>
+  <!-- Menu item: mark this conversation as read -->
+  <string name="mark_read">படித்ததாகக் குறியிடு</string>
+  <!-- Menu item: mark this conversation as unread -->
+  <string name="mark_unread">படிக்காததாகக் குறியிடு</string>
+  <!--  Menu item: mute this conversation -->
+  <string name="mute">ஒலிதடு</string>
+  <!-- Menu item: add a star to this conversation -->
+  <string name="add_star">நட்சத்திரத்தைச் சேர்</string>
+  <!-- Menu item: remove the star from this conversation -->
+  <string name="remove_star">நட்சத்திரத்தை அகற்று</string>
+  <!-- Remove the folder from this conversation [CHAR LIMIT = 30]-->
+  <string name="remove_folder"><xliff:g id="folderName">%1$s</xliff:g>இல் இருந்து நீக்கு</string>
+  <!-- Menu item: archive this conversation -->
+  <string name="archive">காப்பிடு</string>
+  <!-- Menu item: report this conversation as spam [CHAR LIMIT = 30] -->
+  <string name="report_spam">ஸ்பேம் என அறிக்கை அனுப்பு</string>
+  <!-- Menu item: report this conversation not as spam [CHAR LIMIT = 30] -->
+  <string name="mark_not_spam">ஸ்பேம் இல்லை என அறிக்கை அனுப்பு</string>
+  <!-- Menu item: report this conversation as phishing [CHAR LIMIT = 30] -->
+  <string name="report_phishing">மோசடி என அறிக்கை அனுப்பு</string>
+  <!-- Menu item: delete this conversation -->
   <string name="delete">நீக்கு</string>
-  <string name="cancel_attachment">ரத்து</string>
-  <string name="cancel">ரத்து</string>
+  <!-- Menu item: discard the drafts in this conversation [CHAR LIMIT = 30] -->
+  <string name="discard_drafts">வரைவுகளை நிராகரி</string>
+  <!-- Menu item: refresh the inbox -->
+  <string name="refresh">புதுப்பி</string>
+  <!-- Menu item: reply to this message -->
+  <string name="reply">பதிலளிக்கவும்</string>
+  <!-- Menu item: reply to all recipients in this message [CHAR LIMIT=18] -->
+  <string name="reply_all">அனைவருக்கும் பதிலளி</string>
+  <!-- Menu item: resume a draft message [CHAR LIMIT=12] -->
+  <string name="resume_draft">திருத்து</string>
+  <!-- Menu item: forward this message -->
+  <string name="forward">முன்னனுப்பு</string>
+  <!-- Menu item: compose a new email -->
+  <string name="menu_compose">உருவாக்கு</string>
+  <!-- Menu item: change the folders for this conversation. -->
+  <string name="menu_change_folders">கோப்புறைகளை மாற்று</string>
+  <!-- Menu item: moves to folders for selected conversation(s). [CHAR LIMIT = 30] -->
+  <string name="menu_move_to">இதற்கு நகர்த்து</string>
+  <!-- Menu item: moves current or selected conversation(s) to Inbox. [CHAR LIMIT = 30] -->
+  <string name="menu_move_to_inbox">இன்பாக்ஸுக்கு நகர்த்து</string>
+  <!-- Menu item: manages the folders for this account. [CHAR LIMIT = 30] -->
+  <string name="menu_manage_folders">கோப்புறை அமைப்புகள்</string>
+  <!-- Menu item text to show the original version of an email conversation, before message manipulation [CHAR LIMIT=25] -->
+  <string name="menu_show_original">தானாக-அளவிடுதலை முன்நிலைக்குத் திருப்பு</string>
+  <!-- Menu item: options for this folder. When source text cannot be translated within the char limit, please translate the shorter "Folder options" instead. [CHAR LIMIT = 30] -->
+  <string name="menu_folder_options">கோப்புறை அமைப்புகள்</string>
+  <!-- Menu item: launch the Settings activity -->
+  <string name="menu_settings">அமைப்புகள்</string>
+  <!-- Menu item: search through the Gmail inbox -->
+  <string name="menu_search">தேடு</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as important [CHAR LIMIT=30] -->
+  <string name="mark_important">முக்கியம் என குறியிடு</string>
+  <!--  Menu item: shown in conversation menu. Tap this to move to mark conversation as not important [CHAR LIMIT=30] -->
+  <string name="mark_not_important">முக்கியம் இல்லை என குறியிடு</string>
+  <!-- Compose screen, menu item: add Cc/Bcc fields -->
+  <string name="add_cc_label">Cc/Bcc ஐச் சேர்</string>
+  <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
+  <string name="add_bcc_label">Bcc ஐச் சேர்</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
+  <string name="feedback">கருத்தை அனுப்பு</string>
+  <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
+  <string name="help_and_info">உதவி</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
+  <string name="quoted_text">மேற்கோளிட்ட உரையைச் சேர்</string>
+  <!-- Compose screen, Prefix to quoted text in forwarded/replied message; folder for the quoted text area. [CHAR LIMIT=25] -->
+  <string name="quoted_text_label">உரையை மேற்கோளிடு</string>
+  <!--  Button for including inline responses. [CHAR LIMIT=25] -->
+  <string name="respond_inline">உள்நிலையில் பதிலளி</string>
+  <!-- Format string for email addresses -->
+  <!-- Attachments -->
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
+  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
+  <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
+  <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
+  <string name="megabytes"><xliff:g id="count">%s</xliff:g> MB</string>
+  <!-- Attachment description for image files [CHAR LIMIT=30] -->
+  <string name="attachment_image">படிமம்</string>
+  <!-- Attachment description for video files [CHAR LIMIT=30] -->
+  <string name="attachment_video">வீடியோ</string>
+  <!-- Attachment description for audio files [CHAR LIMIT=30] -->
+  <string name="attachment_audio">ஆடியோ</string>
+  <!-- Attachment description for text files [CHAR LIMIT=30] -->
+  <string name="attachment_text">உரை</string>
+  <!-- Attachment description for .doc files [CHAR LIMIT=30] -->
+  <string name="attachment_application_msword">ஆவணம்</string>
+  <!-- Attachment description for .ppt files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_powerpoint">விளக்கக்காட்சி</string>
+  <!-- Attachment description for excel files [CHAR LIMIT=30] -->
+  <string name="attachment_application_vnd_ms_excel">விரிதாள்</string>
+  <!-- Attachment description for .pdf files [CHAR LIMIT=30] -->
+  <string name="attachment_application_pdf">PDF</string>
+  <!-- Attachment description for unknown files [CHAR LIMIT=30]-->
+  <string name="attachment_unknown"><xliff:g id="attachmentExtension">%s</xliff:g> கோப்பு</string>
+  <!-- Read email screen, button name. Preview an attachment by Gview. [CHAR LIMIT=18] -->
+  <string name="preview_attachment">முன்னோட்டம்</string>
+  <!-- Read email screen, button name. Save an attachment to sd card. [CHAR LIMIT=10] -->
+  <string name="save_attachment">சேமி</string>
+  <!-- Read email screen, button name. Cancel a downloading attachment. [CHAR LIMIT=10] -->
+  <string name="cancel_attachment">ரத்துசெய்</string>
+  <!-- Read email screen, button name. Redownload an attachment [CHAR LIMIT=20]-->
+  <string name="download_again">மீண்டும் பதிவிறக்கு</string>
+  <!-- Dialog box title [CHAR LIMIT=30] -->
+  <string name="more_info_attachment">தகவல்</string>
+  <!-- Dialog box message, displayed when we could not view an attachment. [CHAR LIMIT=200]-->
+  <string name="no_application_found">காட்டுவதற்கு இந்த இணைப்பை எந்த பயன்பாட்டாலும் திறக்க முடியாது.</string>
+  <!-- Dialog box title. [CHAR LIMIT=30] -->
+  <string name="fetching_attachment">இணைப்பைக் கொணர்கிறது</string>
+  <!-- Dialog box message. [CHAR LIMIT=80] -->
+  <string name="please_wait">காத்திருக்கவும்…</string>
+  <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
+  <string name="saved">சேமிக்கப்பட்டது, <xliff:g id="size">%s</xliff:g></string>
+  <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
+  <string name="download_failed">பதிவிறக்க முடியவில்லை மறுமுயற்சிக்கு தொடு</string>
+  <!-- Displayed in the conversation view, as a header informing
+         the user that the following is the attachments. [CHAR LIMIT=100] -->
+  <string name="attachments_header">இணைப்புகள்</string>
+  <!-- Photo view screen, button name. Save all attachments to sd card. [CHAR LIMIT=17] -->
+  <string name="menu_photo_save_all">அனைத்தையும் சேமி</string>
+  <!-- Photo view screen, button name. Share attachment. [CHAR LIMIT=10] -->
+  <string name="menu_photo_share">பகிர்</string>
+  <!-- Photo view screen, button name. Share all attachments. [CHAR LIMIT=20] -->
+  <string name="menu_photo_share_all">அனைத்தையும் பங்கிடு</string>
+  <!-- Displayed in the action bar as a subtitle. Save in progress. [CHAR LIMIT=15] -->
+  <string name="saving">சேமிக்கிறது...</string>
+  <!-- Webview Context Menu Strings -->
+  <!-- Title of dialog for choosing which activity to share a link with. [CHAR LIMIT=50]-->
+  <string name="choosertitle_sharevia">இதன்மூலம் பங்கிடு</string>
+  <!-- Menu item to open a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_openlink">உலாவியில் திற</string>
+  <!-- Menu item to copy the selection  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copy">நகலெடு</string>
+  <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_copylink">இணைப்பு URL ஐ நகலெடு</string>
+  <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
+  <string name="contextmenu_dial_dot">டயல் செய்\u2026</string>
+  <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sms_dot">SMS\u2026</string>
+  <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
+  <string name="contextmenu_add_contact">தொடர்பைச் சேர்</string>
+  <!-- Menu item to send an email [CHAR LIMIT=50] -->
+  <string name="contextmenu_send_mail">மின்னஞ்சலை அனுப்பு</string>
+  <!-- Menu item to show a map  [CHAR LIMIT=50]-->
+  <string name="contextmenu_map">வரைபடம்</string>
+  <!-- Menu item to share link  [CHAR LIMIT=50]-->
+  <string name="contextmenu_sharelink">இணைப்பைப் பங்கிடு</string>
+  <!-- Menu item that displays the help page for Gmail.  [CHAR LIMIT=50]-->
+  <string name="contextmenu_help">உதவி</string>
+  <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
+  <string name="contextmenu_feedback">கருத்தை அனுப்பு</string>
+  <!-- Browse list item strings -->
+  <!-- Text indicating how many messages are selected in the top action bar
+    [CHAR LIMIT=40] -->
+  <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">உரையாடலை நகர்த்து</item>
+    <!-- Move several conversations -->
+    <item quantity="other"><xliff:g>%1$d</xliff:g> உரையாடல்களை நகர்த்து</item>
+  </plurals>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
+  <string name="content_description"><xliff:g id="sender">%1$s</xliff:g> குறித்து <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> ல் <xliff:g id="date">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
+  <string name="content_description_today"><xliff:g id="sender">%1$s</xliff:g> குறித்து <xliff:g id="subject">%2$s</xliff:g>, <xliff:g id="snippet">%3$s</xliff:g> ல் <xliff:g id="time">%4$s</xliff:g>, <xliff:g id="readstate">%5$s</xliff:g></string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was read [CHAR LIMIT=250] -->
+  <string name="read_string">உரையாடல் படிக்கப்பட்டது</string>
+  <!-- String used in content description field of a conversation list item when device is in accessibility mode and the conversation was not read [CHAR LIMIT=250] -->
+  <string name="unread_string">உரையாடல் படிக்கப்படவில்லை</string>
+  <!-- Formatting string. If the subject contains the tag of a mailing-list (text surrounded with
+    return the subject with that tag ellipsized, e.g. "[android-gmail-team] Hello" -> "[andr...] Hello" [CHAR LIMIT=100] -->
+  <string name="filtered_tag"> [<xliff:g id="tag">%1$s</xliff:g>]<xliff:g id="subject">%2$s</xliff:g></string>
+  <!-- Displayed in Conversation Header View and Widget in the form of "subject - snippet"
+         [CHAR LIMIT=5] -->
+  <string name="subject_and_snippet"><xliff:g>%s</xliff:g> \u2014 <xliff:g>%s</xliff:g></string>
+  <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">வரைவு</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">வரைவுகள்</item>
+  </plurals>
+  <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
+  <string name="sending">அனுப்புகிறது…</string>
+  <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
+  <string name="send_failed">செய்தி அனுப்பப்படவில்லை.</string>
+  <!-- String used to represent "me" when used as an object pronoun. This string is used when
+         showing the list of recipients of a message [CHAR LIMIT=15] -->
+  <string name="me_object_pronun">நான்</string>
+  <!-- String used to represent "me"/"I" when used as an subject pronoun. This string is use when
+         showing the list of senders for a conversation list item. [CHAR LIMIT=15] -->
+  <string name="me_subject_pronun">நான்</string>
+  <!-- Header for list of inboxes in the drawer (Inbox, Priority) [CHAR LIMIT=50] -->
+  <string name="inbox_folders_heading">இன்பாக்ஸ்</string>
+  <plurals name="confirm_delete_conversation">
+    <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">இந்த உரையாடலை நீக்கவா?</item>
+    <!-- Dialog message to confirm deletion of several conversations -->
+    <item quantity="other">இந்த <xliff:g id="count">%1$d</xliff:g> உரையாடல்களை நீக்கவா?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">இந்த உரையாடலை காப்பகத்தில் சேர்க்கவா?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">இந்த <xliff:g id="count">%1$d</xliff:g> உரையாடல்களை காப்பகப்படுத்தவா?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">இந்த உரையாடலிலிருந்து வரைவுகளை நிராகரிக்கவா?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">இந்த <xliff:g id="count">%1$d</xliff:g>  உரையாடல்களில் இருந்து வரைவுகளை நிராகரிக்கவா?</item>
+  </plurals>
+  <!-- Dialog text: confirm discard -->
+  <string name="confirm_discard_text">இந்தச் செய்தியை நிராகரிக்கவா?</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="loading_conversations">ஏற்றுகிறது...</string>
+  <!-- Undo bar strings -->
+  <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
+  <string name="undo">செயல்தவிர்</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> உரையாடலை நட்சத்திரம் நீக்குகிறது</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> உரையாடல்களை நட்சத்திரம் நீக்குகிறது.</item>
+  </plurals>
+  <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஒலிதடுத்தது</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஒலிதடுத்தது</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஸ்பேம் என்று புகாரளிக்கப்பட்டது.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஸ்பேம் என்று புகாரளிக்கப்பட்டது.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஸ்பேம் இல்லை என்று புகாரளிக்கப்பட்டது.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ஸ்பேம் இல்லை என்று புகாரளிக்கப்பட்டது.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; முக்கியம் இல்லை என்று குறிக்கப்பட்டது.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; முக்கியம் இல்லை என்று குறிக்கப்பட்டது.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; மோசடி என்று புகாரளிக்கப்பட்டது.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; மோசடி என்று புகாரளிக்கப்பட்டது.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; காப்பகப்படுத்தப்பட்டது.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; காப்பகப்படுத்தப்பட்டது.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; நீக்கப்பட்டது.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; நீக்கப்பட்டது.</item>
+  </plurals>
+  <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
+  <string name="deleted">நீக்கப்பட்டது</string>
+  <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
+  <string name="archived">காப்பகப்படுத்தப்பட்டன</string>
+  <!-- Displayed when swiping away a single conversation to remove the currently displayed folder [CHAR LIMIT=80] -->
+  <string name="folder_removed"><xliff:g id="folderName">%1$s</xliff:g>இல் இருந்து நீக்கப்பட்டது</string>
+  <plurals name="conversation_folder_changed">
+    <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">கோப்புறையை மாற்றியது.</item>
+    <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
+    <item quantity="other">கோப்புறைகளை மாற்றியது.</item>
+  </plurals>
+  <!-- Displayed after moving a conversation to a different folder. [CHAR LIMIT=100] -->
+  <string name="conversation_folder_moved"><xliff:g id="folderName">%1$s</xliff:g>க்கு நகர்த்தப்பட்டது</string>
+  <!-- Search Results: Text for header that is shown above search results [CHAR LIMIT=30] -->
+  <string name="search_results_header">முடிவுகள்</string>
+  <!-- Toast shown when the user taps the search hard key when viewing an account that does not support search [CHAR LIMIT=100] -->
+  <string name="search_unsupported">இந்தக் கணக்கில் தேடல் ஆதரிக்கப்படவில்லை.</string>
+  <!-- Search Results: Text for header that is shown above search results, while waiting for search results from the server [CHAR LIMIT=30] -->
+  <string name="search_results_searching_header">தேடுகிறது...</string>
+  <!-- Conversation view -->
+  <!--  Text anchor for control to add / change labels on a conversation when
+          viewing it. [CHAR LIMIT=40] -->
+  <string name="add_label">கோப்புறையைச் சேர்</string>
+  <!-- Conversation message header strings -->
+  <!--  Icon name for expanding recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="expand_recipient_details">பெறுநர் விவரங்களை விரி</string>
+  <!--  Icon name for collapsing recipient details in a message when viewing it. [CHAR LIMIT=40] -->
+  <string name="collapse_recipient_details">பெறுநர் விவரங்களை சுருக்கு</string>
+  <!--  Icon name for showing sender contact information. [CHAR LIMIT=100] -->
+  <string name="contact_info_string"><xliff:g id="name">%1$s</xliff:g>க்கு தொடர்பு தகவலைக் காண்பி</string>
+  <!--  Icon name for showing sender contact information when we cannot get sender info. [CHAR LIMIT=100] -->
+  <string name="contact_info_string_default">தொடர்புத் தகவலைக் காண்பி</string>
+  <!-- Shown in collapsed mode when a conversation has more than one read message.
+         The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
+  <string name="from_heading">அனுப்புநர்:</string>
+  <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
+  <string name="replyto_heading">இவருக்கு-பதிலளி:\u0020</string>
+  <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="to_heading">பெறுநர்:</string>
+  <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="cc_heading">Cc:\u0020</string>
+  <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="bcc_heading">Bcc:\u0020</string>
+  <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
+  <string name="date_heading">தேதி:\u0020</string>
+  <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
+  <string name="show_images">படங்களைக் காண்பி</string>
+  <!-- Displayed above an HTML message to always show images in messages from that sender [CHAR LIMIT=40] -->
+  <string name="always_show_images">இந்த அனுப்புநருக்கு எப்போதும் படங்களைக் காண்பி</string>
+  <!-- Shown in a toast to acknowledge always showing images for a sender [CHAR LIMIT=100] -->
+  <string name="always_show_images_toast">இந்த அனுப்புநரிடமிருந்து வரும் படங்கள் தானியங்காக காண்பிக்கப்படும்.</string>
+  <!-- Display format of an email recipient, displayed in expanded message details [CHAR LIMIT=10] -->
+  <string name="address_display_format"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g></string>
+  <!-- Display format of an email sender if the message has a via domain set, displayed in expanded message details [CHAR LIMIT=15] -->
+  <string name="address_display_format_with_via_domain"><xliff:g id="name">%1$s</xliff:g> <xliff:g id="email">%2$s</xliff:g> வழியாக <xliff:g id="via_domain">%3$s</xliff:g></string>
+  <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
+  <string name="message_saved">செய்தி வரைவாக சேமிக்கப்பட்டது.</string>
+  <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
+  <string name="sending_message">செய்தியை அனுப்புகிறது\u2026</string>
+  <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
+  <string name="invalid_recipient">முகவரி <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g>செல்லுபடியாகாது</string>
+  <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="show_elided">\u25B6 மேற்கோளிட்ட உரையைக் காண்பி</string>
+  <!-- Shown in HTML to allow the user to hide quoted text; should match Gmail web UI. 25BC is Unicode for a downward-pointing triangle. [CHAR LIMIT=50] -->
+  <string name="hide_elided">\u25BC மேற்கோளிட்ட உரையை மறை</string>
+  <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
+  <string name="message_invite_title">நாள்காட்டி அழைப்பு</string>
+  <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
+  <string name="message_invite_calendar_view">நாள்காட்டியில் காட்டு</string>
+  <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
+  <string name="message_invite_label_attending">செல்கிறீர்களா?</string>
+  <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_accept">அனுமதிக்கப்பட்டது</string>
+  <!-- Shown as a button label in message view to give a tentative response to a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_tentative">இருக்கலாம்</string>
+  <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
+  <string name="message_invite_decline">அனுமதிக்கப்படவில்லை</string>
+  <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
+  <string name="enumeration_comma">,</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
+  <string name="yes">அனுமதிக்கப்பட்டது</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
+  <string name="no">அனுமதிக்கப்படவில்லை</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="ok">சரி</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="done">முடிந்தது</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="cancel">ரத்துசெய்</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="clear">அழி</string>
+  <!-- Sync status errors. Please do not change the order [CHAR LIMIT=100] -->
+  <string-array name="sync_status">
+    <item>வெற்றி</item>
+    <item>இணைப்பு இல்லை.</item>
+    <item>உள்நுழைய முடியவில்லை.</item>
+    <item>பாதுகாப்புப் பிழை.</item>
+    <item>ஒத்திசைக்க முடியவில்லை.</item>
+    <item>உள்ளகப் பிழை</item>
+  </string-array>
+  <!-- Widget strings -->
+  <!-- Displayed when user adds a new widget. Tapping on the widget in this
+          mode will bring user to the account selection screen [CHAR LIMIT=35] -->
+  <string name="tap_to_configure">அமைக்கத் தொடவும்</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder [CHAR LIMIT=60] -->
+  <string name="non_synced_folder_description">உரையாடல்களைக் காட்ட, இந்தக் கோப்புறையை ஒத்திசைக்கவும்.</string>
+  <!-- Displayed within a widget that was setup for a non-synced folder.  This is the text of the
+         button that will allow the user to configure sync for the folder [CHAR LIMIT=35] -->
+  <string name="tap_to_configure_folder_sync">கோப்புறையை ஒத்திசை</string>
+  <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
+  <string name="widget_large_unread_count">%d+</string>
+  <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
+  <string name="actionbar_large_unread_count"><xliff:g id="count">%1$d</xliff:g> படிக்கப்படவில்லை</string>
+  <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->
+  <string name="view_more_conversations">மேலும் உரையாடல்களைக் காட்டு</string>
+  <!-- Name of the Mailboxes activity [CHAR LIMIT=30] -->
+  <string name="activity_mailbox_selection">கணக்கைத் தேர்வுசெய்</string>
+  <!-- Name of the Folders activity [CHAR LIMIT=30] -->
+  <string name="activity_folder_selection">கோப்புறையைத் தேர்வுசெய்</string>
+  <!-- Name of the Folder shortcut widget. Should use "Email" to refer to the app. [CHAR LIMIT=30] -->
+  <string name="folder_shortcut_widget_label">மின்னஞ்சல் கோப்புறை</string>
+  <!-- Folder selection dialog -->
+  <!-- Title for change folders dialog [CHAR LIMIT=30] -->
+  <string name="change_folders_selection_dialog_title">கோப்புறைகளை மாற்று</string>
+  <!-- Title for move to dialog [CHAR LIMIT=30] -->
+  <string name="move_to_selection_dialog_title">இதற்கு நகர்த்து</string>
+  <!-- Search -->
+  <!-- Title of the search dialog -->
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <string name="search_hint">அஞ்சலைத் தேடு</string>
+  <!-- Search Results: Text for status of the search when the results are completely loaded [CHAR LIMIT=10] -->
+  <!-- Shown in conversation list footer when application cannot make a connection [CHAR LIMIT=20]-->
+  <string name="network_error">இணைப்பு இல்லை</string>
+  <!-- Button at bottom of conversation list screen if last attempt to load conversations failed [CHAR LIMIT=20]-->
+  <string name="retry">மீண்டும் முயற்சிசெய்க</string>
+  <!-- Button at bottom of conversation list screen if the folder for which contents are being shown supports loading more on demand [CHAR LIMIT=20]-->
+  <string name="load_more">மேலும் ஏற்று</string>
+  <!-- Text for dummy attachments to load the actual attachment. This is not an ideal string, but it's too late to add a new string and get it translated -->
+  <!-- Shortcut strings -->
+  <!-- Title for shortcut naming dialog [CHAR LIMIT=100]-->
+  <string name="shortcut_name_title">கோப்புறை குறுக்குவழிக்கு பெயரிடு</string>
+  <!-- Wait fragment strings -->
+  <!-- Displayed in title bar during the initial sync  [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_title">ஒத்திசைவுக்காகக் காத்திருக்கிறது</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=40] -->
+  <string name="wait_for_sync_body">உங்கள் மின்னஞ்சல் சிறிது நேரத்தில் தோன்றும்.</string>
+  <!-- Title for the screen displayed during the initial sync [CHAR LIMIT=100]  -->
+  <string name="not_synced_title">கணக்கு ஒத்திசைக்கப்படவில்லை</string>
+  <!-- Displayed in the middle of the screen during the initial sync [CHAR LIMIT=300]-->
+  <string name="wait_for_manual_sync_body">இந்த கணக்கு தானாக ஒத்திசைக்க அமைக்கப்படவில்லை. \n  இந்த கணக்கை தானியக்கமாக அஞ்சல் <b>ஒத்திசைவு செய்ய</b> அமைக்க அஞ்சலை ஒருமுறை ஒத்திசைக்க, அல்லது <b>ஒத்திசைவு அமைப்புகளை மாற்றவும்</b>.</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will sync users mail for the selected account. [CHAR LIMIT=12]  -->
+  <string name="manual_sync">இப்போது ஒத்திசை</string>
+  <!-- Displayed at the bottom of the screen during the initial sync. If pressed will open sync setting screen for accounts. [CHAR LIMIT=30]  -->
+  <string name="change_sync_settings">ஒத்திசைவு அமைப்புகளை மாற்று</string>
+  <!-- Displayed when we could not load a photo in the photo viewer. [CHAR LIMIT=30] -->
+  <string name="photo_load_failed">படிமத்தை ஏற்ற முடியவில்லை</string>
+  <!--  The move message / change labels action can't be taken because the selected messages
+        come from different accounts -->
+  <string name="cant_move_or_change_labels">தேர்வில் பல கணக்குகள் உள்ளதால் நகர்த்த முடியாது.</string>
+  <!-- Format string used when displaying a summary in a message summary in list notification that was triggered by several new conversations.
+         Extra space between sender and subject is intentional.  [CHAR LIMIT=120] -->
+  <!-- Format string used when displaying the big text of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_big_text"><xliff:g id="subject">%1$s</xliff:g>\n<xliff:g id="snippet">%2$s</xliff:g></string>
+  <!-- Displayed in a message subheading. Ignore the current spam warning. [CHAR LIMIT=30] -->
+  <string name="ignore_spam_warning">புறக்கணி, இந்தச் செய்தியை நான் நம்புகிறேன்</string>
+  <!-- Displayed in the message heading. Shown if the message was sent via another domain. [CHAR LIMIT=10] -->
+  <string name="via_domain">வழி <xliff:g id="viaDomain">%1$s</xliff:g></string>
+  <!-- Button text for the button to click to have the user sign in again. [CHAR LIMIT=20]-->
+  <string name="signin">உள்நுழை</string>
+  <!-- Button text for the button to click for more information. [CHAR LIMIT=20]-->
+  <string name="info">தகவல்</string>
+  <!-- Button text for the button to click to report feedback. [CHAR LIMIT=20]-->
+  <string name="report">புகாரளி</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
+  <string name="sync_error">ஒத்திசைக்க முடியவில்லை.</string>
+  <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
+  <string name="sync_error_message">ஒத்திசைப்பதற்கு உங்கள் சாதனத்தில் போதுமான சேமிப்பக இடம் இல்லை.</string>
+  <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
+  <string name="storage">சேமிப்பிடம்</string>
+  <!-- Token used as a divider between senders -->
+  <string name="senders_split_token">,\u00A0</string>
+  <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
+  <!-- Token to replace senders that are not visible -->
+  <!-- Token used to space out elided senders that are not visible -->
+  <!-- Token used to space out message count, draft text, and senders -->
+  <!-- String used in the FolderListFragment to mark the start of recent folders -->
+  <string name="recent_folders_heading">சமீபத்திய கோப்புறைகள்</string>
+  <!-- Dialog title when showing message header details in a popup window. [CHAR LIMIT=100]-->
+  <string name="message_details_title">செய்தி விவரங்கள்</string>
+  <!-- General preference: Label of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=32] -->
+  <string name="auto_advance_label">தானாக-முன்செல்லுதல்</string>
+  <!-- General preference: Description of the setting for the direction to move to
+         when deleting the current message.
+         Options contain "newer message","older message", etc. [CHAR LIMIT=64] -->
+  <string name="auto_advance_summary">நீங்கள் ஒரு செய்தியை நீக்கிய பின்னர் எந்தத் திரையைக் காண்பிப்பது என்பதைத் தேர்வுசெய்யவும்</string>
+  <!-- Title of the dialog that appears the first time they perform an action that would cause
+         auto advance logic to fire [CHAR LIMIT=70] -->
+  <string name="auto_advance_help_title">தானாக-முன்செல்லுதல் முன்னுரிமையை அமைக்கவும்\n(நீங்கள் நீக்கிய பிறகு, போன்றவற்றிற்கு)</string>
+  <!-- The auto-advance modes -->
+  <string-array name="prefEntries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>புதியவை</item>
+    <!-- Older conversation -->
+    <item>பழையது</item>
+    <!-- Conversation list -->
+    <item>உரையாடல் பட்டியல்</item>
+  </string-array>
+  <!-- Description for each auto-advance option to display after the user has picked one -->
+  <!-- The entries here must correspond to the entries in prefEntries_autoAdvance [CHAR LIMIT=60] -->
+  <string-array name="prefSummaries_autoAdvance">
+    <!-- Newer conversation -->
+    <item>நீங்கள் நீக்கிய பிறகு புதிய உரையாடல்களைக் காண்பிக்கவும்</item>
+    <!-- Older conversation -->
+    <item>நீங்கள் நீக்கிய பிறகு பழைய உரையாடல்களைக் காண்பிக்கவும்</item>
+    <!-- Conversation list -->
+    <item>நீங்கள் நீக்கிய பிறகு உரையாடல் பட்டியலைக் காண்பிக்கவும்</item>
+  </string-array>
+  <!-- TODO: these pref keys that are never user visible should probably be
+    moved to a donttranslate file -->
+  <!-- The default auto-advance mode -->
+  <!-- The auto-advance mode values -->
+  <!-- Settings screen, title of "Restore default for "Show pictures"" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_title">பட ஒப்புதல்களை அழி</string>
+  <!-- Settings screen, title of dialog shown to confirm action when user taps
+    "Clear picture approvals" in preferences [CHAR LIMIT=200]-->
+  <string name="clear_display_images_whitelist_dialog_title">பட ஒப்புதல்களை அழிக்கவா?</string>
+  <!-- Settings screen, message of dialog shown to confirm action when tapping
+    "Clear picture approvals" [CHAR LIMIT=1000]-->
+  <string name="clear_display_images_whitelist_dialog_message">நீங்கள் முன்னர் அனுமதித்த அனுப்புநர்களிடமிருந்து வந்த உள்நிலைப் படங்களைக் காண்பிப்பதை நிறுத்தவும்.</string>
+  <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
+  <string name="sender_whitelist_cleared">படங்கள் தானியங்காக காண்பிக்கப்படாது.</string>
+  <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_title">கையொப்பம்</string>
+  <!-- Settings screen, title of the dialog that lets the user configure their signature [CHAR LIMIT=50] -->
+  <string name="preferences_signature_dialog_title">கையொப்பம்</string>
+  <!-- Settings screen, setting summary text when no signature set [CHAR LIMIT=100] -->
+  <string name="preferences_signature_summary_not_set">அமைக்கப்படவில்லை</string>
+  <!-- Notification action for replying-all to a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_reply_all">அனைவருக்கும் பதிலளி</string>
+  <!-- Notification action for archiving a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_archive">காப்பிடு</string>
+  <!-- Notification action for removing a label from a message. [CHAR LIMIT=20] -->
+  <string name="notification_action_remove_label">சிட்டையை அகற்று</string>
+  <!-- Notification undo text after archiving a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_archive">காப்பகப்படுத்தப்பட்டன</string>
+  <!-- Notification undo text after removing a label from a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_remove_label">சிட்டை அகற்றப்பட்டது</string>
+  <!-- Notification undo text after deleting a message. [CHAR LIMIT=30] -->
+  <string name="notification_action_undo_delete">நீக்கப்பட்டது</string>
+  <!-- Regex that specifies veiled addresses. These are all empty because this is disabled currently. -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- String to be shown instead of a veiled addresses. [CHAR LIMIT=50] -->
+  <!-- Summary string to be shown instead of a veiled recipient. [CHAR LIMIT=50] -->
+  <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
+  <string name="label_notification_ticker">"&quot;<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>&quot;"</string>
+  <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
+  <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
+  <string name="silent_ringtone">நிசப்தம்</string>
+  <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
+  <string name="preference_removal_action_title">செயல்களை காப்பகத்தில் சேர் &amp; நீக்கு</string>
+  <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
+  <string-array name="prefEntries_removal_action">
+    <item>காப்பகத்தில் சேர்த்ததை மட்டும் காண்பி</item>
+    <item>நீக்கியதை மட்டும் காண்பி</item>
+    <item>காப்பகத்தில் சேர்த்தது &amp; நீக்கியதைக் காண்பி</item>
+  </string-array>
+  <!-- Description of currently selected option of whether to use archive or delete as remove action [CHAR LIMIT=200] -->
+  <string-array name="prefSummaries_removal_action_summary">
+    <item>காப்பகத்தில் சேர்த்ததை மட்டும் காண்பி</item>
+    <item>நீக்கியதை மட்டும் காண்பி</item>
+    <item>காப்பகத்தில் சேர்த்தது &amp; நீக்கியதைக் காண்பி</item>
+  </string-array>
+  <!-- Dialog title for the choosing whether to use archive or delete as remove action [CHAR LIMIT=150] -->
+  <string name="prefDialogTitle_removal_action">செயல்களை காப்பகத்தில் சேர் &amp; நீக்கு</string>
+  <!-- The default value -->
+  <!--  Settings screen, Reply to all default setting title  [CHAR LIMIT=30] -->
+  <string name="preferences_default_reply_all_title">அனைவருக்கும் பதிலளி</string>
+  <!--  Settings screen, Reply to all default setting summary [CHAR LIMIT=70] -->
+  <string name="preferences_default_reply_all_summary">செய்தி பதில்களுக்கு இயல்புநிலையாகப் பயன்படுத்து</string>
+  <!-- Preference name for swipe action when action is archive [CHAR LIMIT=100]-->
+  <string name="preference_swipe_title_archive">காப்பகத்தில் சேர்க்க தேய்க்கவும்</string>
+  <!-- Preference name for swipe action when action is delete [CHAR LIMIT=100]-->
+  <string name="preference_swipe_title_delete">நீக்குவதற்கு தேய்க்கவும்</string>
+  <!-- Preference description swiping in conversation list option [CHAR LIMIT=100] -->
+  <string name="preference_swipe_description">உரையாடல் பட்டியலில்</string>
+  <!-- In conversation list, when user initiates a downward swipe,
+        this text is displayed in the action bar as a hint that they can trigger a
+        sync/refresh by continuing the downward swipe. [CHAR LIMIT=60] -->
+  <string name="swipe_down_to_refresh">புதுப்பிக்க கீழ்நோக்கித் தேய்க்கவும்</string>
+  <!-- In conversation list, when user has triggered a sync via a downward swipe,
+        this text is displayed in the action bar for a brief moment to
+    indicate that a sync is in progress.  [CHAR LIMIT=60] -->
+  <string name="checking_for_mail">அஞ்சலுக்காக சரிபார்க்கிறது</string>
+  <!-- Conversation list screen overflow menu in trash folder [CHAR LIMIT=50]  -->
+  <string name="empty_trash">சிதைவை வெறுமையாக்கு</string>
+  <!-- Conversation list screen overflow menu in spam folder [CHAR LIMIT=50]  -->
+  <string name="empty_spam">ஸ்பேமை வெறுமையாக்கு</string>
+  <!-- Dialog title for empty trash confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_trash_dialog_title">சிதைவை வெறுமையாக்கவா?</string>
+  <!-- Dialog title for empty spam confirmation dialog [CHAR LIMIT=100] -->
+  <string name="empty_spam_dialog_title">ஸ்பேமை வெறுமையாக்கவா?</string>
+  <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
+  <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> செய்தி நிரந்தரமாக நீக்கப்படும்.</item>
+    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> செய்திகள் நிரந்தரமாக நீக்கப்படும்.</item>
+  </plurals>
+  <!-- Strings used for accessibility for the items that toggles the drawer action  -->
+  <string name="drawer_open">வழிசெலுத்துதல் இழுப்பறையைத் திற</string>
+  <string name="drawer_close">வழிசெலுத்துதல் இழுப்பறையை மூடு</string>
+  <string name="conversation_photo_welcome_text">அந்த உரையாடலைத் தேர்ந்தெடுக்க ஓர் அனுப்புநர் படிமத்தைத் தொடவும்.</string>
+  <string name="long_press_to_select_tip">ஓர் உரையாடலைத் தேர்ந்தெடுக்க தொட்டுப் பிடிக்கவும், பிறகு மேலும் அதிகமாகத் தேர்ந்தெடுக்க, தொடவும்.</string>
+  <!-- Content description for the folder icon for nested folders. -->
+  <string name="folder_icon_desc">கோப்புறைப் படவுரு</string>
+  <!--  Button, "Add account" in the preference screen [CHAR LIMIT=30] -->
+  <string name="add_account">கணக்கைச் சேர்</string>
+  <!-- Action bar title for viewing messages that are attached to another message. -->
+  <string name="attached_message">இணைக்கப்பட்ட செய்தி</string>
+  <!-- Shown to display the date of the message when the message was received yesterday. [CHAR LIMIT=50]  -->
+  <string name="date_message_received_yesterday">நேற்று <xliff:g id="datetime">%1$s</xliff:g></string>
+  <!-- Content description for the "X" image icon for dismissing a tip. This is used for spoken description of the icon when touch explore is enabled. [CHAR LIMIT=50] -->
+  <string name="dismiss_tip_hover_text">உதவிக்குறிப்பை நீக்கு</string>
+  <!-- Tip for letting user know that their device auto-sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="auto_sync_off">தானாக-ஒத்திசைவு ஆஃப் செய்யப்பட்டுள்ளது.</string>
+  <!-- Tap to turn on device auto-sync setting.  [CHAR LIMIT=250] -->
+  <string name="tap_to_enable_sync">ஆன் செய்ய தொடவும்.</string>
+  <!-- Tip for letting user know that their account level sync setting
+        is turned off, in case they are wondering why they are not
+        receiving any new mail. [CHAR LIMIT=250] -->
+  <string name="account_sync_off">கணக்கு ஒத்திசைவு ஆஃப் செய்யப்பட்டுள்ளது.</string>
+  <!-- Hint text for user to enable sync in Gmail's account settings.
+         The whole string should read "Turn on in Account settings.", but because we need
+         "Account settings" to appear as blue link text, it's a parameter here.
+         [CHAR LIMIT=250] -->
+  <string name="enable_sync_in_account_settings"><xliff:g id="account_settings">%1$s</xliff:g>இல் ஆன் செய்</string>
+  <!-- This is used as a parameter to another string and combined reads
+         "Turn on in Account settings." [CHAR LIMIT=250] -->
+  <string name="account_settings_param">கணக்கு அமைப்பு</string>
+  <!-- Hint text that there are X number of unsent messages users
+    Outbox. [CHAR LIMIT=250] -->
+  <string name="unsent_messages_in_outbox"><xliff:g id="number">%2$s</xliff:g>இல் <xliff:g id="outbox">%1$s </xliff:g> அனுப்பப்படவில்லை</string>
+  <!-- Title of dialog to turn auto-sync on [CHAR LIMIT=100] -->
+  <string name="turn_auto_sync_on_dialog_title">தானாக-ஒத்திசைவை ஆன் செய்யவா?</string>
+  <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
+  <string name="turn_auto_sync_on_dialog_body">Gmail மட்டும் அல்ல, பயன்பாடுகளுக்கும் கணக்குகளுக்கும் நீங்கள் ஏற்படுத்தும் மாற்றன்கள், வலை, உங்கள் பிற சாதனங்கள் மற்றும் உங்கள் <xliff:g id="phone_or_tablet">%1$s</xliff:g> ஆகியவற்றுக்கு இடையே ஒத்திசைக்கப்படும்.</string>
+  <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
+  <string name="phone">தொலைபேசி</string>
+  <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
+  <string name="tablet">டேப்ளட்</string>
+  <!-- Confirm button text for dialog to turn auto-sync on [CHAR
+         LIMIT=30] -->
+  <string name="turn_auto_sync_on_dialog_confirm_btn">இயக்கு</string>
+  <!-- Button in conversation list to show more folders [CHAR LIMIT=50] -->
+  <string name="show_n_more_folders"><xliff:g id="number">%1$s</xliff:g> அதிக கோப்புறைகளைக் காண்பி</string>
+  <!-- Button in conversation list to hide folders [CHAR LIMIT=50] -->
+  <string name="hide_folders">கோப்புறைகளை மறை</string>
 </resources>

@@ -16,62 +16,103 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Combinate</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Selectare totală</string>
   <string name="menu_actiongrid">Grila de acțiune</string>
-  <string name="remove_account">Elimină cont</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
+  <string name="remove_account">Eliminare cont</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Suport</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Ștergere cont</string>
   <string name="delete_account_summary">Șterge acest cont și toate setările și datele sale</string>
   <string name="delete_account_confirmation_msg">Se vor șterge toate setările și email-urile contului <xliff:g id="account">%s</xliff:g>. Această operație nu poate fi anulată.\n\nContinuați?</string>
   <string name="deleting_account_msg">Se șterge contul\u2026</string>
   <string name="delete_account_failed">Contul nu a putut fi șters</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Deschidere</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instalați</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Imprimare</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Raportat ca spam</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Arată mesaj nou de la <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Editare</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Căutare</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Dosare inteligente</item>
     <item>Toate dosarele</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Etichete inteligente</item>
     <item>Toate etichetele</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Dosare</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Conturi</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Trimis de pe telefon meu Cyanogen</string>
   <string name="vendor_signature_fmt">Trimis de la <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">CITIT</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">RĂSPUNS</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ȘTERGE</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d </xliff:g> mesaj nou</item>
     <item quantity="few"><xliff:g id="count">%1$d </xliff:g> mesaje noi</item>
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> mesaje noi</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Acțiuni de glisare</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Personalizează acțiunile de glisare la stânga și dreapta</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Glisare la stânga scurtă</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Glisare la stânga lungă</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Glisare la dreapta scurtă</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Glisare la dreapta lungă</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Imprimare</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaje</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Ciornă către: \u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Ciornă</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <string name="quoted_text_hidden_print">Textul citat ascuns</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> atașament</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> atașamente</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> atașamente</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(fără subiect)</string>
   <string name="action_grid_select_quick_response">Selectați răspuns rapid</string>
   <string name="action_grid_todo_dialog_title">Detaliat</string>
@@ -92,13 +133,18 @@
   <string name="action_grid_priority_low">Prioritate scăzută</string>
   <string name="action_grid_priority_lowest">Cea mai mică prioritate</string>
   <string name="action_grid_assignee_select_from_contacts">Selectați din contacte</string>
+  <string name="action_grid_assignee_search_for_contact">Căutare în contacte</string>
   <string name="action_grid_assignee_button_bar_clear">Curăță</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Ștergeți acest mesaj?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Apreciere</string>
   <string name="action_todo">De făcut</string>
   <string name="action_quick">Rapid</string>
+  <string name="action_move">Mutare</string>
   <string name="action_label">Etichetă</string>
   <string name="action_move_or_label">Mutare/Etichetă</string>
+  <string name="action_archive">Arhivare</string>
   <string name="action_delete">Ștergeți</string>
   <string name="action_spam">Spam</string>
   <string name="action_flag">Fanion</string>
@@ -106,8 +152,11 @@
   <string name="action_star">Stea</string>
   <string name="action_clear_star">Golire stea</string>
   <string name="action_star_or_flag">Stea/Fanion</string>
+  <string name="action_mark_unread">Marcare ca necitit</string>
+  <string name="action_mark_read">Marcare ca citit</string>
   <string name="action_read_or_unread">Citit/Necitit</string>
   <string name="action_actions">Acțiuni</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Trimis la Evernote</string>
   <string name="marked_liked">Marcat ca plăcut</string>
   <string name="marked_archived">Marcat pentru arhivare</string>
@@ -115,26 +164,33 @@
   <string name="marked_todo">Marcat ca de făcut</string>
   <string name="marked_done">Marcat ca făcut</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Răspuns trimis</item>
     <item quantity="few">Răspunsuri trimise</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Răspunsuri trimise</item>
   </plurals>
   <string name="invalid_selection">Selecție incorectă</string>
   <string name="file_action_more_than_one_account">Ați selectat conversații din mai mult de un cont. Încercați să selectați numai conversații dintr-un cont.</string>
   <string name="evernote_action_more_than_one_conversation">Funcționalitatea Evernote acceptă numai o conversație la un moment dat. Încercați să selectați doar o conversație.</string>
+  <string name="not_installed">Nu este instalat</string>
   <string name="custom_mailbox_settings_label">Setări</string>
   <string name="custom_mailbox_folder_name_hint">Nume căsuță personalizată</string>
   <string name="custom_mailbox_background_sync_label">Sincronizare în fundal</string>
   <string name="custom_mailbox_background_sync_switch_on">Pornit</string>
   <string name="custom_mailbox_background_sync_switch_off">Oprit</string>
   <string name="custom_mailbox_error_no_selected_folders">Vă rugăm să selectați cel puțin un dosar din lista de mai jos</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Avertisment</string>
   <string name="custom_mailbox_delete_box_dialog_message">Sunteți sigur că doriți să ștergeți această casetă personalizată?</string>
   <string name="custom_mailbox_error_deleting_box">A existat o eroare în timpul ștergerii cutiei poștale particularizate</string>
+  <!-- Ratings Viral Prompt -->
+  <string name="viral_prompt_rate_app_title">Evaluează această aplicație</string>
   <string name="viral_ratings_prompt_remind_me_later">Aminteşte-mi mai târziu</string>
   <string name="viral_ratings_prompt_no_thanks">Nu, mulțumesc</string>
   <string name="viral_ratings_prompt_rate_now">Evaluează acum</string>
   <string name="promo_code_edittext_hint">Introduceți codul de promoție</string>
+  <string name="promo_code_button_text">Trimite</string>
   <string name="promo_code_error_no_code_entered">Vă rugăm să introduceți un cod promoțional înainte de a apăsa trimite</string>
   <string name="promo_code_error_invalid_code">Cod promoție incorect</string>
   <string name="promo_code_dialog_title">Caracteristici deblocate</string>
@@ -144,32 +200,55 @@
   <string name="rage_shake_title">Agitare detectată</string>
   <string name="rage_shake_message">Doriți să induceți aplicația în avarie pentru a trimite informații de depanare?</string>
   <string name="actions_dialog_title">Personalizare</string>
+  <string name="actions_dialog_positive_button_text">Personalizează glisările</string>
   <string name="actions_dialog_negative_button_text">Închide</string>
+  <!-- Account Setup -->
   <string name="account_setup_vendor_heading">Bine ați venit la email</string>
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nou</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Numele de dosar</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Nume duplicat</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Numele de dosar pe care l-ați introdus există deja.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Eroare</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Dosarul nu a putut fi creat.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Raportați</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Mesaj raportat</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Nu există niciun mail aici.\nTrageți în jos din partea de sus pentru a împrospăta</string>
   <string name="empty_folder">Nu există niciun mail aici.</string>
   <string name="empty_spam_folder">Ura, nu avem spam aici!</string>
   <string name="empty_trash_folder">Nu există gunoi aici. Mulțumim pentru reciclare!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
   <string name="accept">Accept</string>
   <string name="maybe">Poate</string>
   <string name="decline">Declin</string>
   <string name="remove_from_cal">Elimină din calendar</string>
   <string name="remove_series_from_cal">Elimină serie din calendar</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Eu</string>
+  <!-- Attendee text when there are additional attendees. -->
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Toată ziua</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Anulat</string>
+  <!-- Send availability strings -->
   <string name="remove_availability">Elimină disponibilitatea</string>
   <string name="busy">Ocupat</string>
   <string name="available">Disponibil</string>
   <string name="meeting_invitation">Rezumat invitație:</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALAȚI</string>
   <string name="calendar_feature_dialog_negative_btn">NU ACUM</string>
+  <!-- String shown in the TO field when it is blank -->
 </resources>

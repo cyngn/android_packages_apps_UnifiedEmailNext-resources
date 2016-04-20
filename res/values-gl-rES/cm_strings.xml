@@ -16,46 +16,88 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Combinada</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Seleccionar todas</string>
   <string name="menu_actiongrid">Grade de acción</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Eliminar conta</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Soporte</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Eliminar conta</string>
   <string name="delete_account_summary">Eliminar esta conta e todos os axustes e datos</string>
   <string name="delete_account_confirmation_msg">Vanse borrar todas as configuracións e correos electrónicos da conta <xliff:g id="account">%s</xliff:g>. Esta operación non se pode desfacer.\n\nQuere continuar?</string>
   <string name="deleting_account_msg">Eliminando a conta\u2026</string>
   <string name="delete_account_failed">Non se puido eliminar a conta</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Abrir</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instalar</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Imprimir</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Ver imaxe</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> e %d máis</item>
     <item quantity="other">e %d máis</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcada como pendente.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcadas como pendentes.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Declarado como correo lixo</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Amosar nova mensaxe de <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Editar</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Smart Folders</item>
     <item>Todos os cartafoles</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Smart Labels</item>
     <item>Todas as etiquetas</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Contas</string>
+  <!-- Default email signature on vendor builds -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
+  <!--  Settings screen, Swipe actions preference title -->
+  <!--  Settings screen, Swipe actions preference summary -->
+  <!--  Settings screen, Swipe actions, Left short preference title -->
+  <!--  Settings screen, Swipe actions, Left long preference title -->
+  <!--  Settings screen, Swipe actions, Right short preference title -->
+  <!--  Settings screen, Swipe actions, Right long preference title -->
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Imprimir</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mensaxe</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mensaxes</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Borrador</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(sen asunto)</string>
   <string name="action_grid_todo_dialog_title">Detalles</string>
   <string name="action_grid_add_priority">Engadir prioridade</string>
@@ -70,16 +112,21 @@
   <string name="action_grid_priority_normal">Prioridade normal</string>
   <string name="action_grid_priority_low">Prioridade baixa</string>
   <string name="action_grid_priority_lowest">Prioridade moi baixa</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Eliminar esta mensaxe?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Gústame</string>
   <string name="action_move">Mover</string>
   <string name="action_delete">Eliminar</string>
   <string name="action_actions">Accións</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="invalid_selection">Selección non válida</string>
   <string name="file_action_more_than_one_account">Seleccionaches conversas de máis dunha conta. Proba a seleccionar conversas unicamente dunha conta soa.</string>
   <string name="not_installed">Sen instalar</string>
   <string name="custom_mailbox_settings_label">Axustes</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Aviso</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_ratings_prompt_remind_me_later">Lembrarmo máis tarde</string>
   <string name="viral_ratings_prompt_no_thanks">Non, grazas</string>
   <string name="viral_ratings_prompt_rate_now">Valorar agora</string>
@@ -90,4 +137,26 @@
   <string name="promo_code_dialog_title">Funcionalidades desbloqueadas</string>
   <string name="promo_code_dialog_generic_success_msg">Código promocional aplicado satisfactoriamente</string>
   <string name="promo_code_progress_dialog_validating">Validando o código promocional</string>
+  <!-- Account Setup -->
+  <!-- Like Feature -->
+  <!-- Displayed on a button whose action is to create something new. -->
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <!-- Title used for generic error alerts. -->
+  <!-- Error message displayed when a folder fails to be created on the server. -->
+  <!-- Menu item: report an email was not readable or poorly rendered -->
+  <!-- Toast message for above action -->
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <!-- Response action buttons. -->
+  <!-- Attendee text when user is the only attendee. -->
+  <!-- Attendee text when there are additional attendees. -->
+  <!-- Accompanies the date/time for all day events. -->
+  <!-- Status for canceled events. -->
+  <!-- Send availability strings -->
+  <!-- String shown in the TO field when it is blank -->
 </resources>

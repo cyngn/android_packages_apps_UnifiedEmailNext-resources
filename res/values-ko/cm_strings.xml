@@ -16,71 +16,113 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">통합</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">모두 선택</string>
   <string name="menu_actiongrid">액션 그리드</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">계정 삭제</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">지원</string>
+  <!-- Delete account -->
   <string name="delete_account_title">계정 삭제</string>
   <string name="delete_account_summary">이 계정과 계정의 모든 설정 및 데이터 삭제</string>
   <string name="delete_account_confirmation_msg">계정 <xliff:g id="account">%s</xliff:g>의 모든 설정 및 이메일이 삭제 됩니다. 이 작업은 돌이킬 수 없습니다.\n\n계속하시겠습니까?</string>
   <string name="deleting_account_msg">계정 삭제 중\u2026</string>
   <string name="delete_account_failed">계정을 삭제하지 못했습니다.</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">열기</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">설치</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">인쇄</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">이미지 보기</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="other">&amp; %d 기타</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; 할 일로 표시.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">스팸으로 보고됨</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s </xliff:g>에서의 새 메시지를 표시합니다.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g>개의 새 메시지 표시.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">편집</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">검색</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>스마트 폴더</item>
     <item>모든 폴더</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>스마트 라벨</item>
     <item>모든 라벨</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">보관함</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">폴더</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">계정</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">내 Cyanogen 휴대전화에서 보냈음</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>에서 보냄</string>
   <string name="blu_signature">내 BLU 폰에서 보냄 - BLU Mail powered by Boxer</string>
   <string name="vendor_signature_o2">O2의 Cyanogen에서 보냄</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">읽기</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">답장</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">삭제</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 새 메시지</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">밀어내기 동작</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">왼쪽 및 오른쪽 밀어내기 동작 사용자지정</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">왼쪽으로 짧게 밀어내기</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">왼쪽으로 길게 밀어내기</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">오른쪽으로 짧게 밀어내기</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">오른쪽으로 길게 밀어내기</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">인쇄</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> 메시지</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">초안: \u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">초안</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">인용된 숨겨진 글</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> 첨부</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(제목 없음)</string>
   <string name="action_grid_select_quick_response">빠른 응답 선택</string>
   <string name="action_grid_todo_dialog_title">세부 정보</string>
@@ -107,7 +149,9 @@
   <string name="action_grid_assignee_select_from_contacts">연락처에서 선택</string>
   <string name="action_grid_assignee_search_for_contact">연락처에서 검색</string>
   <string name="action_grid_assignee_button_bar_clear">해제</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">이 메시지를 삭제합니까?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">좋아요</string>
   <string name="action_todo">할 일</string>
   <string name="action_quick">빠름</string>
@@ -126,6 +170,7 @@
   <string name="action_mark_read">읽음으로 표시</string>
   <string name="action_read_or_unread">읽음/읽지 않음</string>
   <string name="action_actions">동작</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Evernote로 보내기</string>
   <string name="marked_liked">좋아요! 표시</string>
   <string name="marked_archived">보관으로 표시</string>
@@ -134,9 +179,13 @@
   <string name="marked_todo">할일로 표시</string>
   <string name="marked_done">완료로 표시</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
     <item quantity="other">답장 보냄</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
     <item quantity="other">좋아요 표시 메시지</item>
   </plurals>
   <string name="invalid_selection">잘못 된 선택</string>
@@ -152,9 +201,11 @@
   <string name="custom_mailbox_background_sync_switch_off">끄기</string>
   <string name="custom_mailbox_delete_box">보관함 삭제</string>
   <string name="custom_mailbox_error_no_selected_folders">아래 목록에서 하나 이상의 폴더를 선택하십시오.</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">경고!</string>
   <string name="custom_mailbox_delete_box_dialog_message">이 사용자정의 보관함을 정말로 삭제하시겠습니까?</string>
   <string name="custom_mailbox_error_deleting_box">사용자정의 메일보관함 삭제에 오류가 있습니다.</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">이 앱 평가</string>
   <string name="viral_prompt_rate_app_body">이 앱을 좋아하시면, 앱을 평가해주십시오. 일분도 안 걸립니다. 감사합니다.</string>
   <string name="viral_ratings_prompt_remind_me_later">나중에 다시 알림</string>
@@ -175,19 +226,32 @@
   <string name="actions_dialog_message">정기적으로 폴더를 사용하십니까? 자주 스팸으로 표시하십니까? Evernote에 클리핑하는 것을 사랑하십니까? \n\n자주 쓰는 작업에 맞춰 이 밀어내기 동작을 새로 설정할 수 있습니다. \n</string>
   <string name="actions_dialog_positive_button_text">밀어내기 사용자 정의</string>
   <string name="actions_dialog_negative_button_text">닫기</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">더 나은 편지함에 오신 걸 환영합니다.</string>
   <string name="account_setup_vendor_heading">이메일에 오신 것을 환영합니다</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">어떤가요?</string>
   <string name="like_action_dialog_message">우리가 좋아하는 기능입니다. 메시지에 \'좋아요!\'를 하면 보낸 사람이나 다른 받은 사람들에게 당신이 좋아하는 것을 알리는 메일이 보내집니다. 아직은 이메일에 응답하는 가장 빠른 방법입니다.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">새로운</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">폴더 이름</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">폴더 생성 중\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">이름 복사</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">입력한 폴더 이름은 이미 존재합니다.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">오류</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">폴더를 생성할 수 없습니다.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">오류 보고</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">메시지 신고됨</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">메일이 없습니다.\n아래로 당겨서 새로 고침하세요</string>
   <string name="getting_messages">메시지 수신중</string>
   <string name="empty_folder">메일이 없습니다.</string>
@@ -195,18 +259,26 @@
   <string name="empty_search">이런! \"<xliff:g id="search_query">%1$s</xliff:g>\"에 대한 것을 찾지 못했습니다.</string>
   <string name="empty_spam_folder">스팸 메일이 없습니다!</string>
   <string name="empty_trash_folder">휴지통이 비어있습니다!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">일정에서 보기</string>
+  <!-- Response action buttons. -->
   <string name="accept">확인</string>
   <string name="maybe">미정</string>
   <string name="decline">거절</string>
   <string name="remove_from_cal">일정에서 제거</string>
   <string name="remove_series_from_cal">달력에서 연속된 일정을 제거</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">나</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="other">나와 %d명의 사람</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">종일</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">취소됨</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">나한테 적합한 시간:</string>
   <string name="availability_by">제공자: </string>
   <string name="remove_availability">제공자 제거</string>
@@ -225,5 +297,6 @@
   <string name="calendar_feature_dialog_msg">Boxer는 Boxer 캘린더와 연동되는 달력 기능을 제공합니다. 이 기능을 활성화하기 위해서는 최신 버전의 Boxer 캘린더를 다운로드하십시오 (무료)</string>
   <string name="calendar_feature_dialog_positive_btn">설치</string>
   <string name="calendar_feature_dialog_negative_btn">닫기</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">숨은 참조</string>
 </resources>

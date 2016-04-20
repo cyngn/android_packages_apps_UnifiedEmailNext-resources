@@ -16,85 +16,129 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Gabungan</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Pilih semua</string>
   <string name="menu_actiongrid">Kisi tindakan</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Hapus akun</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Dukungan</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Hapus akun</string>
-  <string name="delete_account_summary">Hapus akun ini dan semua pengaturan dan data</string>
-  <string name="delete_account_confirmation_msg">Ini akan menghapus semua pengaturan dan email dari akun <xliff:g id="account">%s</xliff:g>. Operasi ini tidak dapat dibatalkan.\n\nLanjutkan?</string>
+  <string name="delete_account_summary">Hapus akun ini serta semua pengaturan dan data</string>
+  <string name="delete_account_confirmation_msg">Ini akan menghapus semua pengaturan dan surel dari akun <xliff:g id="account">%s</xliff:g>. Tindakan ini tidak dapat diurungkan.\n\nLanjutkan?</string>
   <string name="deleting_account_msg">Menghapus akun\u2026</string>
   <string name="delete_account_failed">Tidak dapat menghapus akun</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Buka</string>
-  <string name="install_attachment">Pasang</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
+  <string name="install_attachment">Instal</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Cetak</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Lihat gambar</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="other">&amp; %d lainnya</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ditandai sebgai agenda.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Dilaporkan sebagai spam</string>
-  <string name="new_incoming_messages_one">Tampilkan pesan baru dari <xliff:g id="sender">%s </xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
+  <string name="new_incoming_messages_one">Tampilkan pesan baru dari <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
-    <item quantity="other">Menampilkan <xliff:g id="count">%1$d </xliff:g> pesan baru.</item>
+    <item quantity="other">Tampilkan <xliff:g id="count">%1$d</xliff:g> pesan baru.</item>
   </plurals>
-  <string name="edit">Ubah</string>
-  <string name="folder_search_hint">Cari</string>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
+  <string name="edit">Edit</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
+  <string name="folder_search_hint">Telusuri</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Folder pintar</item>
     <item>Semua folder</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Label pintar</item>
     <item>Semua label</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Kotak</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Folder</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Akun</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Dikirim dari ponsel Cyanogen</string>
   <string name="vendor_signature_fmt">Dikirim dari <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Dikirim dari BLU phone saya - BLU Mail dipersembahkan oleh Boxer</string>
+  <string name="vendor_signature_o2">Dikirim dari Cyanogen pada O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">DIBACA</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">BALAS</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">HAPUS</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> pesan baru</item>
   </plurals>
-  <string name="preferences_swipe_actions_title">Aksi menggeser</string>
-  <string name="preferences_swipe_actions_summary">Sesuaikan aksi tindakan menggeser ke kiri dan kanan</string>
-  <string name="preferences_swipe_left_short_title">Geseran pendek ke kiri</string>
-  <string name="preferences_swipe_left_long_title">Geseran panjang ke kiri</string>
-  <string name="preferences_swipe_right_short_title">Geseran pendek ke kanan</string>
-  <string name="preferences_swipe_right_long_title">Geseran panjang ke kanan</string>
+  <!--  Settings screen, Swipe actions preference title -->
+  <string name="preferences_swipe_actions_title">Aksi mengusap</string>
+  <!--  Settings screen, Swipe actions preference summary -->
+  <string name="preferences_swipe_actions_summary">Ubahsuaikan aksi mengusap ke kiri dan kanan</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
+  <string name="preferences_swipe_left_short_title">Usap pendek ke kiri</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
+  <string name="preferences_swipe_left_long_title">Usap panjang ke kiri</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
+  <string name="preferences_swipe_right_short_title">Usap pendek ke kanan</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
+  <string name="preferences_swipe_right_long_title">Usap panjang ke kanan</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Cetak</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> pesan baru</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s </xliff:g> pada <xliff:g id="time">%2$s </xliff:g></string>
-  <string name="draft_to_heading">Draft untuk:\u0020</string>
-  <string name="draft_heading">Draft</string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
+  <string name="draft_to_heading">Draf untuk: \u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
+  <string name="draft_heading">Draf</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Teks kutipan tersembunyi</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="other"><xliff:g id="count">%1$d </xliff:g> lampiran</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(tanpa subyek)</string>
-  <string name="action_grid_select_quick_response">Pilih respon cepat</string>
-  <string name="action_grid_todo_dialog_title">Rincian</string>
-  <string name="action_grid_set_due_date">Mengatur jatuh tempo</string>
+  <string name="action_grid_select_quick_response">Pilih tanggapan yang cepat</string>
+  <string name="action_grid_todo_dialog_title">Detail</string>
+  <string name="action_grid_set_due_date">Mengatur tanggal jatuh tempo</string>
   <string name="action_grid_due">Jatuh tempo: <xliff:g id="datestring">%s </xliff:g></string>
   <string name="action_grid_add_priority">Tambahkan prioritas</string>
   <string name="action_grid_priority">Prioritas:\u0020</string>
   <string name="action_grid_add_assignee">Tambahkan penerima</string>
   <string name="action_grid_assignee">Penerima:\u0020</string>
-  <string name="action_grid_due_date_dialog_title">Mengatur jatuh tempo</string>
+  <string name="action_grid_due_date_dialog_title">Mengatur tanggal jatuh tempo</string>
   <string name="action_grid_due_date_today">Hari Ini</string>
   <string name="action_grid_due_date_tomorrow">Besok</string>
   <string name="action_grid_due_date_this_week">Minggu ini</string>
   <string name="action_grid_due_date_next_week">Minggu depan</string>
   <string name="action_grid_due_date_specific_date">Tanggal tertentu</string>
-  <string name="action_grid_calendar_picker_dialog_title">Mengatur jatuh tempo</string>
+  <string name="action_grid_calendar_picker_dialog_title">Mengatur tanggal jatuh tempo</string>
   <string name="action_grid_priority_dialog_title">Tambahkan prioritas</string>
   <string name="action_grid_priority_highest">Prioritas tertinggi</string>
   <string name="action_grid_priority_high">Prioritas tinggi</string>
@@ -105,7 +149,9 @@
   <string name="action_grid_assignee_select_from_contacts">Pilih dari kontak</string>
   <string name="action_grid_assignee_search_for_contact">Mencari kontak</string>
   <string name="action_grid_assignee_button_bar_clear">Bersihkan</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Hapus pesan ini?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Suka</string>
   <string name="action_todo">Agenda</string>
   <string name="action_quick">Cepat</string>
@@ -124,6 +170,7 @@
   <string name="action_mark_read">Tandai telah dibaca</string>
   <string name="action_read_or_unread">Baca/Belum dibaca</string>
   <string name="action_actions">Tindakan</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Kirim ke Evernote</string>
   <string name="marked_liked">Ditandai sebagai suka</string>
   <string name="marked_archived">Ditandai untuk arsip</string>
@@ -132,80 +179,124 @@
   <string name="marked_todo">Ditandai sebagai agenda</string>
   <string name="marked_done">Ditandai sebagai selesai</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Tanggapan terkirim</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
+    <!-- Like several conversations -->
     <item quantity="other">Pesan yang disukai</item>
   </plurals>
   <string name="invalid_selection">Pilihan tidak valid</string>
-  <string name="file_action_more_than_one_account">Anda telah memilih percakapan lebih dari satu akun. Coba hanya memilih percakapan dari satu akun.</string>
-  <string name="evernote_action_more_than_one_conversation">Fungsi Evernote hanya mendukung satu percakapan pada satu waktu. Coba pilih hanya satu percakapan.</string>
-  <string name="not_installed">Tidak terpasang</string>
-  <string name="evernote_not_installed">Sepertinya Evernote tidak terpasang. Silahkan pasang untuk menggunakan fungsi ini.</string>
+  <string name="file_action_more_than_one_account">Anda telah memilih percakapan lebih dari satu akun. Coba pilih percakapan dari satu akun saja.</string>
+  <string name="evernote_action_more_than_one_conversation">Fungsi Evernote hanya mendukung satu percakapan pada satu waktu. Coba pilih satu percakapan saja.</string>
+  <string name="not_installed">Tidak terinstal</string>
+  <string name="evernote_not_installed">Sepertinya Evernote tidak terinstal. Silakan instal untuk menggunakan fungsi ini.</string>
   <string name="custom_mailbox_button">Tambahkan kotak kustom</string>
-  <string name="custom_mailbox_settings_label">Setelan</string>
-  <string name="custom_mailbox_folder_name_hint">Nama kotak kustom</string>
+  <string name="custom_mailbox_settings_label">Pengaturan</string>
+  <string name="custom_mailbox_folder_name_hint">Nama kotak khusus</string>
   <string name="custom_mailbox_background_sync_label">Sinkronisasi latar belakang</string>
   <string name="custom_mailbox_background_sync_switch_on">Aktif</string>
   <string name="custom_mailbox_background_sync_switch_off">Nonaktif</string>
   <string name="custom_mailbox_delete_box">Hapus kotak</string>
   <string name="custom_mailbox_error_no_selected_folders">Silakan pilih paling tidak satu folder dari daftar di bawah ini</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Peringatan</string>
-  <string name="custom_mailbox_delete_box_dialog_message">Apakah Anda yakin Anda ingin menghapus kotak kustom ini?</string>
-  <string name="custom_mailbox_error_deleting_box">Ada kesalahan saat menghapus kotak pesan kustom anda</string>
+  <string name="custom_mailbox_delete_box_dialog_message">Apakah Anda yakin Anda ingin menghapus kotak khusus ini?</string>
+  <string name="custom_mailbox_error_deleting_box">Terjadi galat saat menghapus kotak pesan khusus Anda</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Beri nilai aplikasi ini</string>
   <string name="viral_prompt_rate_app_body">Jika Anda menikmati penggunaan aplikasi ini, maukah Anda meluangkan waktu untuk memberi nilai? Ini tidak akan mengambil waktu lebih dari satu menit. Terima kasih atas dukungan Anda!</string>
   <string name="viral_ratings_prompt_remind_me_later">Ingatkan saya nanti</string>
   <string name="viral_ratings_prompt_no_thanks">Tidak terima kasih</string>
-  <string name="viral_ratings_prompt_rate_now">Menilai sekarang</string>
+  <string name="viral_ratings_prompt_rate_now">Beri nilai sekarang</string>
   <string name="promo_code_title_text">Jangan melawan kotak masuk Anda sendiri</string>
   <string name="promo_code_edittext_hint">Masukkan kode promo</string>
   <string name="promo_code_button_text">Kirim</string>
   <string name="promo_code_error_no_code_entered">Masukkan kode promo sebelum menekan kirim</string>
   <string name="promo_code_error_invalid_code">Kode promo tidak valid</string>
-  <string name="promo_code_dialog_title">Fitur terbuka</string>
-  <string name="promo_code_dialog_message">Anda berhasil membuka <xliff:g id="features">%s </xliff:g></string>
-  <string name="promo_code_dialog_generic_success_msg">Kode promo berhasil diterapkan</string>
-  <string name="promo_code_progress_dialog_validating">Memvalidasi kode promo</string>
+  <string name="promo_code_dialog_title">Tampilan terbuka</string>
+  <string name="promo_code_dialog_message">Anda berhasil membuka <xliff:g id="features">%s</xliff:g></string>
+  <string name="promo_code_dialog_generic_success_msg">Kode promo diterapkan dengan berhasil</string>
+  <string name="promo_code_progress_dialog_validating">Mengesahkan kode promo</string>
   <string name="rage_shake_title">Getaran terdeteksi</string>
-  <string name="rage_shake_message">Apakah anda ingin menggagalkan aplikasi untuk mengirimkan informasi debug?</string>
-  <string name="actions_dialog_title">Sesuaikan</string>
-  <string name="actions_dialog_message">Apakah anda menggunakan folder secara teratur? Sering menandai sebagai Spam? Suka untuk menklip ke Evernote? \n\nDengan aksi geser yang disesuaikan anda dapat mengatur salah satu gerakan ini agar sesuai dengan alur kerja anda.\n</string>
-  <string name="actions_dialog_positive_button_text">Menyesuaikan geseran</string>
+  <string name="rage_shake_message">Apakah Anda ingin memogokkan aplikasi untuk mengirimkan informasi perbaikan galat fungsi?</string>
+  <string name="actions_dialog_title">Ubahsuaikan</string>
+  <string name="actions_dialog_message">Apakah Anda menggunakan folder secara teratur? Sering menandai sebagai Spam? Suka memotong lalu menempelkan ke Evernote? \n\nDengan aksi usap yang diubahsuaikan Anda dapat mengatur salah satu gerakan ini agar sesuai dengan alur kerja Anda.\n</string>
+  <string name="actions_dialog_positive_button_text">Ubahsuaikan usapan</string>
   <string name="actions_dialog_negative_button_text">Tutup</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Selamat datang di kotak masuk yang lebih baik</string>
-  <string name="account_setup_vendor_heading">Selamat datang di email</string>
+  <string name="account_setup_vendor_heading">Selamat datang di Surel</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Apa itu Suka?</string>
-  <string name="like_action_dialog_message">Anda menemukan fitur favorit kami. Ketika anda \'menyukai\' pesan, email akan dikirim dan membiarkan pengirim dan penerima lainnya tahu anda menyukainya. Ini adalah cara tercepat untuk menanggapi email.</string>
+  <string name="like_action_dialog_message">Anda menemukan fitur favorit kami. Ketika Anda memberi \'Suka\' pada pesan, surel akan dikirim untuk memberitahukan pengirim dan penerima lainnya bahwa Anda menyukainya. Ini adalah cara tercepat untuk menanggapi surel.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Baru</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Nama folder</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Membuat folder\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Nama duplikat</string>
-  <string name="duplicate_folder_message">Nama folder yang anda masukkan sudah ada.</string>
-  <string name="error">Kesalahan</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
+  <string name="duplicate_folder_message">Nama folder yang Anda masukkan sudah ada.</string>
+  <!-- Title used for generic error alerts. -->
+  <string name="error">Galat</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Folder tidak dapat dibuat.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Lapor</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Pesan dilaporkan</string>
-  <string name="no_conversation_needs_sync">Tiada surel di sini.\nTarik turun dari atas untuk menyegarkan</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
+  <string name="no_conversation_needs_sync">Tiada surel di sini.\nTarik turun dari atas untuk memuat ulang</string>
   <string name="getting_messages">Mengambil pesan Anda</string>
-  <string name="empty_folder">Tiada surel di sini.</string>
+  <string name="empty_folder">Tidak ada surel di sini.</string>
   <string name="empty_inbox">Semua selesai! Semoga hari Anda menyenangkan.</string>
-  <string name="empty_search">Ups! Kami tidak menemukan apa-apa untuk \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
-  <string name="empty_spam_folder">Hore, tiada spam di sini!</string>
+  <string name="empty_search">Maaf. Kami tidak menemukan apa-apa untuk \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
+  <string name="empty_spam_folder">Hore, tidak ada spam di sini!</string>
   <string name="empty_trash_folder">Tiada sampah di sini. Terima kasih telah mendaur ulang!</string>
-  <string name="view_on_calendar">Lihat di kalender</string>
-  <string name="accept">Setuju</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
+  <string name="view_on_calendar">Lihat di kalendar</string>
+  <!-- Response action buttons. -->
+  <string name="accept">Terima</string>
   <string name="maybe">Mungkin</string>
-  <string name="decline">Tidak setuju</string>
-  <string name="remove_from_cal">Hapus dari kalender</string>
+  <string name="decline">Tolak</string>
+  <string name="remove_from_cal">Hapus dari kalendar</string>
   <string name="remove_series_from_cal">Hapus seri dari kalender</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Saya</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="other">Saya &amp;%d yang lain</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Seharian</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Dibatalkan</string>
-  <string name="times_that_work_for_me">Waktu yang bekerja untuk saya:</string>
+  <!-- Send availability strings -->
+  <string name="times_that_work_for_me">Waktu yang saya bisa:</string>
   <string name="availability_by">Ketersediaan oleh</string>
   <string name="remove_availability">Hapus ketersediaan</string>
+  <string name="event_over">Acara berakhir</string>
+  <string name="busy">Sibuk</string>
+  <string name="available">Tersedia</string>
+  <plurals name="other_conflicts">
+    <item quantity="other">%d konflik lainnya</item>
+  </plurals>
+  <string name="meeting_invitation">Ringkasan undangan:</string>
+  <string name="invitation_by">Undangan oleh</string>
+  <string name="remove_invite">Hapus undangan</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> menyukai pesan Anda dengan&lt;a href=\"%s\"&gt;Boxer di Cyanogen OS&lt;/a&gt;.</string>
+  <string name="error_no_app_store">Tidak ada toko aplikasi cocok yang ditemukan</string>
+  <string name="calendar_feature_dialog_title">Unduh Boxer Kalender</string>
+  <string name="calendar_feature_dialog_msg">Boxer menyediakan fitur kalender yang bekerja secara eksklusif dengan Boxer Kalender. Untuk mengaktifkan fitur ini, unduh versi terbaru Boxer Kalender hari ini (GRATIS)</string>
+  <string name="calendar_feature_dialog_positive_btn">PASANG</string>
+  <string name="calendar_feature_dialog_negative_btn">JANGAN SEKARANG</string>
+  <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Penerima tidak diketahui</string>
 </resources>

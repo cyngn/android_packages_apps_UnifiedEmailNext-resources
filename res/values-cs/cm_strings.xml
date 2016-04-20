@@ -16,83 +16,125 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Kombinovaný</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Vybrat vše</string>
   <string name="menu_actiongrid">Mřížka akcí</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Odebrat účet</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Podpora</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Smazat účet</string>
   <string name="delete_account_summary">Smazat účet i s jeho nastavením a daty</string>
   <string name="delete_account_confirmation_msg">Tímto bude odstraněno veškeré nastavení a emaily účtu „<xliff:g id="account">%s</xliff:g>“. Tuto operaci nelze vzít zpět.\n\nPokračovat?</string>
   <string name="deleting_account_msg">Mazání účtu\u2026</string>
   <string name="delete_account_failed">Účet nelze smazat</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Otevřít</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Instalovat</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Tisk</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Zobrazit obrázek</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d jiný</item>
     <item quantity="few">&amp; %d jiné</item>
     <item quantity="other">&amp; %d jiných</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označen jako úkol.</item>
     <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označené jako úkol.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; označených jako úkol.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Hlášeno jako spam</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Zobrazit novou zprávu od <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Zobrazit <xliff:g id="count">%1$d</xliff:g> novou zprávu.</item>
     <item quantity="few">Zobrazit <xliff:g id="count">%1$d</xliff:g> nové zprávy.</item>
     <item quantity="other">Zobrazit <xliff:g id="count">%1$d</xliff:g> nových zpráv.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Upravit</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Hledat</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Chytré složky</item>
     <item>Všechny složky</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Chytré štítky</item>
     <item>Všechny štítky</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Schránky</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Složky</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Účty</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Odesláno z mého Cyanogen telefonu</string>
   <string name="vendor_signature_fmt">Odesláno pomocí: <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">Odesláno z mého BLU - BLU Mail powered by Boxer</string>
   <string name="vendor_signature_o2">Odesláno z Cyanogen na O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">ČÍST</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ODPOVĚDĚT</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">SMAZAT</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">Zobrazit <xliff:g id="count">%1$d</xliff:g> nová zpráva</item>
     <item quantity="few">Zobrazit <xliff:g id="count">%1$d</xliff:g> nové zprávy</item>
     <item quantity="other">Zobrazit <xliff:g id="count">%1$d</xliff:g> nových zpráv</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Akce tažením</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Upravit akce levým a pravým tažením</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Levé krátké tažení</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Levé dlouhé tažení</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Pravé krátké tažení</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Pravé dlouhé tažení</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Tisk</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> zpráva</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> zprávy</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> zpráv</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> v <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Koncept:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Koncept</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Skrytá citace</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> příloha</item>
     <item quantity="few"><xliff:g id="count">%1$d</xliff:g> přílohy</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> příloh</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(žádný předmět)</string>
   <string name="action_grid_select_quick_response">Vybrat rychlou odpověď</string>
   <string name="action_grid_todo_dialog_title">Podrobnosti</string>
@@ -119,7 +161,9 @@
   <string name="action_grid_assignee_select_from_contacts">Vybrat z kontaktů</string>
   <string name="action_grid_assignee_search_for_contact">Vyhledat kontakt</string>
   <string name="action_grid_assignee_button_bar_clear">Vymazat</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Odstranit tuto zprávu?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Like</string>
   <string name="action_todo">Úkol</string>
   <string name="action_quick">Rychle</string>
@@ -138,6 +182,7 @@
   <string name="action_mark_read">Označit přečtené</string>
   <string name="action_read_or_unread">Přečtené/nepřečtené</string>
   <string name="action_actions">Akce</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Odesláno do Evernote</string>
   <string name="marked_liked">Označené „Like“</string>
   <string name="marked_archived">Označené pro archiv</string>
@@ -146,13 +191,17 @@
   <string name="marked_todo">Označené jako úkol</string>
   <string name="marked_done">Označené jako hotové</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Odpověď odeslána</item>
     <item quantity="few">Odpovědi odeslány</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Odpovědi odeslány</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Zprávě přidán „Like“</item>
     <item quantity="few">Zprávám přidán „Like“</item>
+    <!-- Like several conversations -->
     <item quantity="other">Zprávám přidán „Like“</item>
   </plurals>
   <string name="invalid_selection">Neplatný výběr</string>
@@ -168,9 +217,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Vypnuta</string>
   <string name="custom_mailbox_delete_box">Smazat schránku</string>
   <string name="custom_mailbox_error_no_selected_folders">Vyberte prosím aspoň jednu složku ze seznamu níže</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Upozornění</string>
   <string name="custom_mailbox_delete_box_dialog_message">Jste si jisti, že chcete odstranit tuto vlastní schránku?</string>
   <string name="custom_mailbox_error_deleting_box">Došlo k chybě při odstraňování vlastní schránky</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Ohodnoťte tuto aplikaci</string>
   <string name="viral_prompt_rate_app_body">Pokud se vám tato aplikace líbí, měl byste chvilku na to ji ohodnotit? Nebude to trvat déle než minutu. Děkujeme za vaši podporu!</string>
   <string name="viral_ratings_prompt_remind_me_later">Připomenout později</string>
@@ -191,19 +242,32 @@
   <string name="actions_dialog_message">Používáte složky pravidelně? Často označujete spam? Rádi používáte Evernote?\n\nS přizpůsobenými akcemi tažením můžete nastavit gesta podle vašich potřeb.\n</string>
   <string name="actions_dialog_positive_button_text">Přizpůsobit akce tažením</string>
   <string name="actions_dialog_negative_button_text">Zavřít</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Vítejte v lepší doručené poště</string>
   <string name="account_setup_vendor_heading">Vítejte v e-mailu</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Co je to „Like“?</string>
   <string name="like_action_dialog_message">Našli jste naši oblíbenou funkci. Když dáte zprávě „Like“, odesílatel a ostatní příjemci budou vědět, že se vám líbí. Je to nejrychlejší způsob, jak odpovědět na email.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nový</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Název složky</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Vytváření složky\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Duplicitní název</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Název složky, který jste zadali, již existuje.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Chyba</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Složku nelze vytvořit.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Nahlásit</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Ohlášena zpráva</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Není zde žádná zpráva.\nAktualizujte je tahem odshora dolů</string>
   <string name="getting_messages">Stahování zpráv</string>
   <string name="empty_folder">Není tu žádná pošta.</string>
@@ -211,20 +275,28 @@
   <string name="empty_search">Pro zadaný text „<xliff:g id="search_query">%1$s</xliff:g>“ nebylo nic nalezeno.</string>
   <string name="empty_spam_folder">Hurá, žádný spam!</string>
   <string name="empty_trash_folder">Prázdný koš. Díky za recyklaci!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Zobrazit v kalendáři</string>
+  <!-- Response action buttons. -->
   <string name="accept">Přijmout</string>
   <string name="maybe">Možná</string>
   <string name="decline">Odmítnout</string>
   <string name="remove_from_cal">Odebrat z kalendáře</string>
   <string name="remove_series_from_cal">Odebrat sérii z kalendáře</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Já</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Já &amp; %d další</item>
     <item quantity="few">Já &amp; %d další</item>
     <item quantity="other">Já &amp; %d dalších</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Celý den</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Zrušeno</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Mé časy:</string>
   <string name="availability_by">K dispozici dle</string>
   <string name="remove_availability">Odebrat dostupnost</string>
@@ -245,5 +317,6 @@
   <string name="calendar_feature_dialog_msg">Boxer poskytuje funkce kalendáře, které spolupracují výhradně s Boxer kalendářem. Chcete-li tuto funkci povolit, stáhněte nejnovější verzi Boxer kalendáře (ZDARMA)</string>
   <string name="calendar_feature_dialog_positive_btn">NAINSTALOVAT</string>
   <string name="calendar_feature_dialog_negative_btn">TEĎ NE</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Neznámí příjemci</string>
 </resources>

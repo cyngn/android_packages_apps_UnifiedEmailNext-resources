@@ -16,75 +16,117 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Birgə</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Hamısını seç</string>
   <string name="menu_actiongrid">Əməliyyat paneli</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Hesabı sil</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Dəstək</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Hesabı sil</string>
   <string name="delete_account_summary">Bu hesabı və onun bütün tənzimləmə və verilənlərini silər</string>
   <string name="delete_account_confirmation_msg"><xliff:g id="account">%s</xliff:g> hesabının bütün tənzimləmələri və e-poçtları silinəcək. Bu əməliyyatın geri dönüşü yoxdur.\n\nDavam edilsin?</string>
   <string name="deleting_account_msg">Hesab silinir\u2026</string>
   <string name="delete_account_failed">Hesab silinə bilmədi</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Aç</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Quraşdır</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Çap et</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Təsviri göstər</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d digər</item>
     <item quantity="other"> &amp; %d digər</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ediləcək olaraq işarələndi.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ediləcək olaraq işarələndi.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Spam olaraq bildirildi</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g> şəxsindən gələn yeni mesajı göstər.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni mesajı göstər.</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni mesajı göstər.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Düzəliş et</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Axtar</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Ağıllı qovluqlar</item>
     <item>Bütün qovluqlar</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Ağıllı etiketlər</item>
     <item>Bütün etiketlər</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Qutular</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Qovluqlar</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Hesablar</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Cyanogen telefonumdan göndərildi</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g> ilə göndərildi</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">OXU</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">CAVABLA</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">SİL</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> yeni mesaj</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Sürüşdürmə hərəkəti</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Sol və sağ sürüşdürmə hərəkətlərini özəlləşdir</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Sola qısa sürüşdürmə</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Sola uzun sürüşdürmə</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Sağa qısa sürüşdürmə</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Sağa uzun sürüşdürmə</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Çap et</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> mesaj</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Qaralama alıcıları:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Qaralama</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Sitat mətn gizlidir</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> qoşma</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> qoşma</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(mövzu yoxdur)</string>
   <string name="action_grid_select_quick_response">Cəld cavabı seçin</string>
   <string name="action_grid_todo_dialog_title">Təfsilatlar</string>
@@ -111,7 +153,9 @@
   <string name="action_grid_assignee_select_from_contacts">Şəxslərdən seç</string>
   <string name="action_grid_assignee_search_for_contact">Şəxslərdə axtar</string>
   <string name="action_grid_assignee_button_bar_clear">Təmizlə</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Bu mesaj silinsin?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Bəyən</string>
   <string name="action_todo">Ediləcəklər</string>
   <string name="action_quick">Cəld</string>
@@ -130,6 +174,7 @@
   <string name="action_mark_read">Oxunmuş kimi işarələ</string>
   <string name="action_read_or_unread">Oxundu/Oxunmadı</string>
   <string name="action_actions">Hərəkətlər</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Evernote\'a göndərildi</string>
   <string name="marked_liked">Bəyənilən olaraq işarələndi</string>
   <string name="marked_archived">Arxiv üçün işarələndi</string>
@@ -138,11 +183,15 @@
   <string name="marked_todo">Ediləcək olaraq işarələndi</string>
   <string name="marked_done">Tamamlandı olaraq işarələndi</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Cavab göndərildi</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Cavab göndərildi</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Mesaj bəyənildi</item>
+    <!-- Like several conversations -->
     <item quantity="other">Mesajlar bəyənildi</item>
   </plurals>
   <string name="invalid_selection">Etibarsız seçim</string>
@@ -158,9 +207,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Bağlı</string>
   <string name="custom_mailbox_delete_box">Qutunu sil</string>
   <string name="custom_mailbox_error_no_selected_folders">Zəhmət olmasa aşağıdakı siyahıdan ən az bir qovluq seçin</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Xəbərdarlıq</string>
   <string name="custom_mailbox_delete_box_dialog_message">Bu özəl qutunu silmək istədiyinizə əminsiniz?</string>
   <string name="custom_mailbox_error_deleting_box">Özəl poçt qutunuzu silərkən xəta baş verdi</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Bu tətbiqetməni qiymətləndirin</string>
   <string name="viral_prompt_rate_app_body">Bu tətbiqetməni istifadə etməkdən zövq aldınızsa, bunu qiymətləndirmək üçün bir dəqiqənizi ayıra bilərsiniz? Bir dəqiqədən çox vaxt aparmaz. Dəstəyiniz üçün təşəkkürlər!</string>
   <string name="viral_ratings_prompt_remind_me_later">Sonra yadıma sal</string>
@@ -179,18 +230,31 @@
   <string name="actions_dialog_title">Özəlləşdir</string>
   <string name="actions_dialog_positive_button_text">Sürüşdürmələri özəlləşdir</string>
   <string name="actions_dialog_negative_button_text">Bağla</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Daha yaxşı gələn qutusuna xoş gəldiniz</string>
   <string name="account_setup_vendor_heading">E-poçta xoş gəldiniz</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Bəyənmə nədir?</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Yeni</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Qovluq adı</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Qovluq yaradılır\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Təkrarlanan ad</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Daxil etdiyiniz ad artıq mövcuddur.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Xəta</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">Qovluq yaradıla bilmədi.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Hesabat</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Hesabat bildirildi</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Burda heç bir poçt yoxdur.\nYeniləmək üçün yuxarıdan aşağı çəkin</string>
   <string name="getting_messages">Mesajlarınız alınır</string>
   <string name="empty_folder">Burda heç bir poçt yoxdur.</string>
@@ -198,19 +262,27 @@
   <string name="empty_search">Uuups! \"<xliff:g id="search_query">%1$s</xliff:g>\" üçün heçnə tapmadıq.</string>
   <string name="empty_spam_folder">Əlaa, burda heç bir spam yoxdur!</string>
   <string name="empty_trash_folder">Burda heç tullantı yoxdur. Zibil qutusu üçün təşəkkürlər!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Təqvimdə göstər</string>
+  <!-- Response action buttons. -->
   <string name="accept">Qəbul et</string>
   <string name="maybe">Bəlkə</string>
   <string name="decline">Rədd et</string>
   <string name="remove_from_cal">Təqvimdən çıxart</string>
   <string name="remove_series_from_cal">Cərgəni təqvimdən çıxart</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Mən</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Mən &amp; %d şəxs</item>
     <item quantity="other">Mən &amp; %d şəxs</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Bütün gün</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">İmtina edildi</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Mənə uyğun vaxt:</string>
   <string name="availability_by">Uyğunluq ></string>
   <string name="remove_availability">Uyğunluğu çıxart</string>
@@ -230,4 +302,5 @@
   <string name="calendar_feature_dialog_msg">Boxer təkcə Boxer Təqvimi ilə işləyən təqvim özəlliklərini təchiz edər. Bu özəlliyi fəallaşdırmaq üçün Boxer Təqviminin (ÖDƏNİŞSİZ) ən son versiyasını elə indi endirin</string>
   <string name="calendar_feature_dialog_positive_btn">QURAŞDIR</string>
   <string name="calendar_feature_dialog_negative_btn">İNDİ YOX</string>
+  <!-- String shown in the TO field when it is blank -->
 </resources>

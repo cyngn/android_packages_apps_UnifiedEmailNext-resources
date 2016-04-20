@@ -16,77 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">Combinata</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">Seleziona tutto</string>
   <string name="menu_actiongrid">Griglia di azione</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">Elimina account</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">Supporto</string>
+  <!-- Delete account -->
   <string name="delete_account_title">Cancella account</string>
   <string name="delete_account_summary">Elimina questo account e le relative impostazioni e dati</string>
   <string name="delete_account_confirmation_msg">Questa operazione cancellerà tutte le impostazioni e le email dell\'account <xliff:g id="account">%s</xliff:g>. Questa operazione è irreversibile.\n\nContinuare?</string>
   <string name="deleting_account_msg">Eliminazione account\u2026</string>
   <string name="delete_account_failed">Impossibile eliminare l\'account</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">Apri</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">Installa</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">Stampa</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">Visualizza immagine</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d altro</item>
     <item quantity="other">&amp; %d altri</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; segnato come da fare.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; segnato come da fare.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">Segnalato come spam</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Mostra nuovo messaggio da <xliff:g id="sender">%s</xliff:g>.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">Mostra <xliff:g id="count">%1$d</xliff:g> nuovo messaggio.</item>
     <item quantity="other">Mostra <xliff:g id="count">%1$d</xliff:g> nuovi messaggi.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">Modifica</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">Cerca</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>Cartelle intelligenti</item>
     <item>Tutte le cartelle</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>Etichette intelligenti</item>
     <item>Tutte le etichette</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">Caselle</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">Cartelle</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">Accounts</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Inviato dal mio telefono Cyanogenmod</string>
   <string name="vendor_signature_fmt">Inviato da <xliff:g id="brand" example="samsung">%s</xliff:g></string>
   <string name="blu_signature">Inviato dal mio telefono BLU - BLU Mail offerto da Boxer</string>
   <string name="vendor_signature_o2">Inviato da Cyanogen su O2</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LEGGI</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">RISPONDI</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ELIMINA</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> nuovo messaggio</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> nuovi messaggi</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">Azioni swipe</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Personalizza le azioni per il trascinamento a destra e sinistra</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">Trascinamento a sinistra corto</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">Trascinamento a sinistra lungo</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">Trascinamento a destra corto</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">Trascinamento a destra lungo</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Stampa</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> messaggio</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> messaggi</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> alle <xliff:g id="time">%2$s</xliff:g></string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">Bozza Per:u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">Bozza</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Testo citato nascosto</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> allegato</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> allegati</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(senza oggetto)</string>
   <string name="action_grid_select_quick_response">Seleziona risposta rapida</string>
   <string name="action_grid_todo_dialog_title">Dettagli</string>
@@ -113,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">Seleziona dai contatti</string>
   <string name="action_grid_assignee_search_for_contact">Ricerca per contatto</string>
   <string name="action_grid_assignee_button_bar_clear">Annulla</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">Eliminare questo messaggio?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">Like</string>
   <string name="action_todo">Da fare</string>
   <string name="action_quick">Veloce</string>
@@ -132,6 +176,7 @@
   <string name="action_mark_read">Segna come già letto</string>
   <string name="action_read_or_unread">Già letto/da leggere</string>
   <string name="action_actions">Azioni</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Inviato a Evernote</string>
   <string name="marked_liked">Segna come piaciuto</string>
   <string name="marked_archived">Segna per archivio</string>
@@ -140,11 +185,15 @@
   <string name="marked_todo">Contrassegnato come da fare</string>
   <string name="marked_done">Contrassegnato come fatto</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">Risposta inviata</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">Risposte inviate</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">Messaggio piaciuto</item>
+    <!-- Like several conversations -->
     <item quantity="other">Messaggi piaciuti</item>
   </plurals>
   <string name="invalid_selection">Selezione non valida</string>
@@ -160,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">Disattivato</string>
   <string name="custom_mailbox_delete_box">Eliminare casella</string>
   <string name="custom_mailbox_error_no_selected_folders">Si prega di selezionare almeno una cartella dalla lista qui sotto</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">Attenzione</string>
   <string name="custom_mailbox_delete_box_dialog_message">Sei sicuro di voler eliminare questa casella personalizzata?</string>
   <string name="custom_mailbox_error_deleting_box">Si è verificato un errore durante l\'eliminazione la tua casella di posta personalizzata</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">Vota questa app</string>
   <string name="viral_prompt_rate_app_body">Se ti piace usare quest\'app, potresti prendere un momento per votarla? Non ci vorrà più di un minuto. Grazie per il sostegno!</string>
   <string name="viral_ratings_prompt_remind_me_later">Ricordamelo più tardi</string>
@@ -183,19 +234,32 @@
   <string name="actions_dialog_message">Usi regolarmente le cartelle? Contrassegni spesso i messaggi come indesiderati? Ti piace aggiungere su Evernote?\n\nCon le azioni di scorrimento personalizzate puoi impostare uno qualsiasi di questi gesti per rispecchiare il tuo modo di lavorare.\n</string>
   <string name="actions_dialog_positive_button_text">Personalizza scorrimenti</string>
   <string name="actions_dialog_negative_button_text">Chiudi</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">Benvenuti in una posta elettronica migliore</string>
   <string name="account_setup_vendor_heading">Benvenuto in EMail</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Come è?</string>
   <string name="like_action_dialog_message">Hai trovato la nostra funzione preferita. Quando metti \"Like\" ad un messaggio, verrà inviata una e-mail facendo in modo che il mittente e altri destinatari sappiano che ti piace. È ancora il modo più veloce per rispondere alle e-mail.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Nuovo</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">Nome cartella</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">Creazione cartella\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">Nome già esistente</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">Il nome della cartella è gia esistente.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">Errore</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">La cartella non può essere creata.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">Segnala</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">Messaggio segnalato</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">Non c\'è nessuna mail qui.\nTrascina dall\'alto verso il basso per aggiornare</string>
   <string name="getting_messages">Ottenendo i tuoi messaggi</string>
   <string name="empty_folder">Non c\'è nessuna mail qui.</string>
@@ -203,19 +267,27 @@
   <string name="empty_search">Ops! Non abbiamo trovato nulla per \"<xliff:g id="search_query">%1$s</xliff:g>\".</string>
   <string name="empty_spam_folder">Evviva, nessuno spam qui!</string>
   <string name="empty_trash_folder">Niente nel cestino. Grazie per aver cancellato tutto!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">Mostra su calendario</string>
+  <!-- Response action buttons. -->
   <string name="accept">Accetta</string>
   <string name="maybe">Forse</string>
   <string name="decline">Declina</string>
   <string name="remove_from_cal">Rimuovi dal calendario</string>
   <string name="remove_series_from_cal">Rimuovere la serie dal calendario</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Me</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">Me &amp; %d altro</item>
     <item quantity="other">Me &amp; %d altri</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Tutto il giorno</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">Annullata</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">Volte che funziona per me:</string>
   <string name="availability_by">Disponibilità di %s</string>
   <string name="remove_availability">Rimuovi disponibilità</string>
@@ -235,5 +307,6 @@
   <string name="calendar_feature_dialog_msg">Boxer fornisce un funzioni calendario che funzionano esclusivamente con Calendario Boxer. Per attivare questa funzione, scarica l\'ultima versione del Calendario Boxer ora (gratis)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLA</string>
   <string name="calendar_feature_dialog_negative_btn">NON ORA</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">Destinatari nascosti</string>
 </resources>

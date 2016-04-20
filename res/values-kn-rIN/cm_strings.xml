@@ -16,75 +16,119 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- Label shown in the account selector to select "Combined", which contains
+         Combined Inbox, Combined Outbox, etc. [CHAR LIMIT=30] -->
   <string name="mailbox_list_account_selector_combined_view">ಸಂಯೋಜಿತ</string>
+  <!-- Menu item: Select all conversations -->
   <string name="menu_select_all">ಎಲ್ಲಾ ಆಯ್ಕೆಮಾಡು</string>
   <string name="menu_actiongrid">ಕ್ರಿಯೆ ಗ್ರಿಡ್</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="remove_account">ಖಾತೆಯನ್ನು ತೆಗೆಯಿರಿ</string>
+  <!-- Main screen and setting, menu item [CHAR LIMIT=30]-->
   <string name="support">ಬೆಂಬಲ</string>
+  <!-- Delete account -->
   <string name="delete_account_title">ಖಾತೆಯನ್ನು ಅಳಿಸಿ</string>
   <string name="delete_account_summary">ಈ ಖಾತೆ ಹಾಗು ಇದರ ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮತ್ತು ಡೇಟಾವನ್ನು ಅಳಿಸಿ</string>
   <string name="delete_account_confirmation_msg">ಇದು <xliff:g id="account">%s</xliff:g> ಖಾತೆಯ ಎಲ್ಲಾ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮತ್ತು ಇಮೇಲ್‍ಗಳನ್ನು ಅಳಿಸುತ್ತದೆ. ಈ ಕಾರ್ಯಾಚರಣೆ ಮತ್ತೊಮ್ಮೆ ಹಿಂದಿರುಗಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.\n\nಮುಂದುವರಿಸಿ?</string>
   <string name="deleting_account_msg">ಖಾತೆ ಅಳಿಸುತ್ತಿದೆ\u2026</string>
   <string name="delete_account_failed">ಖಾತೆಯನ್ನು ಅಳಿಸಲಾಗಲಿಲ್ಲ</string>
+  <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">ತೆರೆ</string>
+  <!-- Read email screen, button name. Install an attachment. [CHAR LIMIT=10] -->
   <string name="install_attachment">ಸ್ಥಾಪಿಸಿ</string>
+  <!-- Photo view screen, button name. Print photo. [CHAR LIMIT=20] -->
   <string name="menu_photo_print">ಮುದ್ರಿಸಿ</string>
+  <!-- Menu item to view an image  [CHAR LIMIT=50]-->
   <string name="contextmenu_view_image">ಚಿತ್ರ ವೀಕ್ಷಿಸಿ</string>
+  <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> &amp; %d ಇತರೆ</item>
     <item quantity="other">&amp; %d ಇತರೆ</item>
   </plurals>
   <plurals name="conversation_todo">
+    <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ಮಾಡಬೇಕಾದವೆಂದು ಗುರುತಿಸಲಾಗಿದೆ.</item>
+    <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; ಮಾಡಬೇಕಾದವೆಂದು ಗುರುತಿಸಲಾಗಿದೆ.</item>
   </plurals>
+  <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <string name="reported_as_spam">ಸ್ಪಾಮ್ ಎಂದು ವರದಿಮಾಡಲಾಗಿದೆ</string>
+  <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one"><xliff:g id="sender">%s</xliff:g>ನಿಂದ ಹೊಸ ಸಂದೇಶಗಳನ್ನು ತೋರಿಸು.</string>
+  <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶವನ್ನು ತೋರಿಸು.</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶಗಳನ್ನು ತೋರಿಸು.</item>
   </plurals>
+  <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="edit">ಸಂಪಾದಿಸಿ</string>
+  <!-- Hint for searching/filtering folders in the folder selection dialog [CHAR LIMIT=30] -->
   <string name="folder_search_hint">ಹುಡುಕಿ</string>
+  <!-- The section headers for the move to folder dialog [CHAR LIMIT=15] -->
   <string-array name="moveto_folder_sections">
     <item>ಸ್ಮಾರ್ಟ್ ಫೋಲ್ಡರ್ಸ್</item>
     <item>ಎಲ್ಲಾ ಫೋಲ್ಡರ್ಸ್</item>
   </string-array>
+  <!-- The section headers for the change folders dialog [CHAR LIMIT=15] -->
   <string-array name="change_folders_sections">
     <item>ಸ್ಮಾರ್ಟ್ ಲೇಬಲ್ಸ್</item>
     <item>ಎಲ್ಲಾ ಲೇಬಲ್ಸ್</item>
   </string-array>
+  <!-- String used in the FolderListFragment to mark the start of "boxes" -->
   <string name="boxes_heading">ಬಾಕ್ಸಸ್</string>
+  <!-- String used in the FolderListFragment to mark the start of user-defined folders -->
   <string name="all_folders_heading">ಫೋಲ್ಡರ್ಸ್</string>
+  <!-- String used in the FolderListFragment to mark the start of accounts -->
   <string name="accounts_heading">ಖಾತೆಗಳು</string>
+  <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">ನನ್ನ Cyanogen ಫೋನ್‍ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
   <string name="vendor_signature_fmt"><xliff:g id="brand" example="samsung">%s</xliff:g>ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
+  <string name="blu_signature">ನನ್ನ BLU ಫೋನ್‍ನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ - ಬಾಕ್ಸರ್‍ನ ವತಿಯಿಂದ BLU ಮೇಲ್</string>
+  <string name="vendor_signature_o2">O2ನಲ್ಲಿ Cyanogenನಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">ಓದಲಾಗಿದೆ</string>
+  <!-- Notification action for replying to a message. [CHAR LIMIT=20] -->
   <string name="notification_action_reply">ಪ್ರತ್ಯುತ್ತರ</string>
+  <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_delete">ಅಳಿಸು</string>
+  <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶ</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಹೊಸ ಸಂದೇಶಗಳು</item>
   </plurals>
+  <!--  Settings screen, Swipe actions preference title -->
   <string name="preferences_swipe_actions_title">ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳು</string>
+  <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">ಎಡ ಮತ್ತು ಬಲ ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ</string>
+  <!--  Settings screen, Swipe actions, Left short preference title -->
   <string name="preferences_swipe_left_short_title">ಎಡ ಕಿರು ಸ್ವೈಪ್</string>
+  <!--  Settings screen, Swipe actions, Left long preference title -->
   <string name="preferences_swipe_left_long_title">ಎಡ ದೀರ್ಘ ಸ್ವೈಪ್</string>
+  <!--  Settings screen, Swipe actions, Right short preference title -->
   <string name="preferences_swipe_right_short_title">ಬಲ ಕಿರು ಸ್ವೈಪ್</string>
+  <!--  Settings screen, Swipe actions, Right long preference title -->
   <string name="preferences_swipe_right_long_title">ಬಲ ದೀರ್ಘ ಸ್ವೈಪ್</string>
+  <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">ಮುದ್ರಿಸು</string>
+  <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶ</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಸಂದೇಶಗಳು</item>
   </plurals>
+  <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
   <string name="date_message_received_print"><xliff:g id="day_and_date">%1$s</xliff:g> <xliff:g id="time">%2$s</xliff:g> ಗೆ</string>
+  <!-- Shown to display the to recipient(s) of the message if the message is a draft [CHAR LIMIT=20] -->
   <string name="draft_to_heading">ಇಲ್ಲಿಗೆ ಡ್ರಾಫ್ಟ್ ಮಾಡು:\u0020</string>
+  <!-- Shown to display in the message header if the message is a draft and there are no "to" addresses in the draft [CHAR LIMIT=10] -->
   <string name="draft_heading">ಡ್ರಾಫ್ಟ್</string>
+  <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">ಉಲ್ಲೇಖಿತ ಪಠ್ಯ ಮರೆಮಾಡಲಾಗಿದೆ</string>
+  <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ಲಗತ್ತು</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ಲಗತ್ತುಗಳು</item>
   </plurals>
+  <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(ಯಾವುದೇ ವಿಷಯವಿಲ್ಲ)</string>
   <string name="action_grid_select_quick_response">ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಆರಿಸಿ</string>
   <string name="action_grid_todo_dialog_title">ವಿವರಗಳು</string>
@@ -111,7 +155,9 @@
   <string name="action_grid_assignee_select_from_contacts">ಸಂಪರ್ಕಗಳಿಂದ ಆಯ್ಕೆಮಾಡಿ</string>
   <string name="action_grid_assignee_search_for_contact">ಸಂಪರ್ಕಕ್ಕಾಗಿ ಹುಡುಕಿ</string>
   <string name="action_grid_assignee_button_bar_clear">ತೆರವುಗೊಳಿಸಿ</string>
+  <!-- Prompt used if you are trying to delete a message -->
   <string name="action_message_header_delete">ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸು?</string>
+  <!-- These strings below represent the default Actions that are available for the ActionGrid -->
   <string name="action_like">ಇಷ್ಟ</string>
   <string name="action_todo">ಮಾಡಬೇಕಾದುದು</string>
   <string name="action_quick">ತ್ವರಿತ</string>
@@ -130,6 +176,7 @@
   <string name="action_mark_read">ಓದಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿ</string>
   <string name="action_read_or_unread">ಓದಲಾಗಿದೆ/ಓದಲಾಗಿಲ್ಲ</string>
   <string name="action_actions">ಕ್ರಿಯೆಗಳು</string>
+  <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">ಎವರ್‍ನೋಟ್‍ಗೆ ಕಳುಹಿಸಲಾಗಿದೆ</string>
   <string name="marked_liked">ಇಷ್ಟ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ</string>
   <string name="marked_archived">ಆರ್ಕೈವ್‍ಗಾಗಿ ಗುರುತಿಸಲಾಗಿದೆ</string>
@@ -138,11 +185,15 @@
   <string name="marked_todo">ಮಾಡಬೇಕಾದುದು ಎಂದಿ ಗುರುತಿಸಲಾಗಿದೆ</string>
   <string name="marked_done">ಆಗಿದೆ ಎಂದು ಗುರುತಿಸಲಾಗಿದೆ</string>
   <plurals name="quick_response_sent">
+    <!-- Quick respond to 1 conversation -->
     <item quantity="one">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಲಾಗಿದೆ</item>
+    <!-- Quick respond to several conversations -->
     <item quantity="other">ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ</item>
   </plurals>
   <plurals name="liked_message">
+    <!-- Like 1 conversation -->
     <item quantity="one">ಸಂದೇಶ ಇಷ್ಟಪಡಲಾಗಿದೆ</item>
+    <!-- Like several conversations -->
     <item quantity="other">ಸಂದೇಶಗಳನ್ನು ಇಷ್ಟಪಡಲಾಗಿದೆ</item>
   </plurals>
   <string name="invalid_selection">ಅಮಾನ್ಯವಾದ ಆಯ್ಕೆ</string>
@@ -158,9 +209,11 @@
   <string name="custom_mailbox_background_sync_switch_off">ಆಫ್</string>
   <string name="custom_mailbox_delete_box">ಬಾಕ್ಸ್ ಅಳಿಸಿ</string>
   <string name="custom_mailbox_error_no_selected_folders">ದಯವಿಟ್ಟು ಕೆಳಗಿರುವ ಪಟ್ಟಿಯಿಂದ ಕನಿಷ್ಟ ಒಂದು ಫೋಲ್ಡರ್‍ ಆಯ್ಕೆಮಾಡಿ</string>
+  <!-- Title for confirm delete box dialog -->
   <string name="custom_mailbox_delete_box_dialog_title">ಎಚ್ಚರಿಕೆ</string>
   <string name="custom_mailbox_delete_box_dialog_message">ನೀವು ಖಚಿತವಾಗಿ ಈ ಕಸ್ಟಮ್ ಬಾಕ್ಸನ್ನು ಅಳಿಸಲು ಬಯಸುವಿರಾ?</string>
   <string name="custom_mailbox_error_deleting_box">ನಿಮ್ಮ ಕಸ್ಟಂ ಮೇಲ್‍ಬಾಕ್ಸ್ ಅಳಿಸುವಲ್ಲಿ ಒಂದು ದೋಷವಿದೆ</string>
+  <!-- Ratings Viral Prompt -->
   <string name="viral_prompt_rate_app_title">ಈ ಆಪ್‍ಗೆ ರೇಟ್ ನೀಡಿ</string>
   <string name="viral_prompt_rate_app_body">ನಿಮಗೆ ಈ ಆಪ್ ಇಷ್ಟವಾದಲ್ಲಿ, ನೀವು ಸ್ವಲ್ಪ ಸಮಯವನ್ನು ತೆಗೆದುಕೊಂಡು ಇದಕ್ಕೆ ರೇಟ್ ನೀಡುವಿರಾ? ಇದು ಒಂದು ನಿಮಿಷಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ಸಮಯವನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದಿಲ್ಲ. ನಿಮ್ಮ ಬೆಂಬಲಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು!</string>
   <string name="viral_ratings_prompt_remind_me_later">ನಂತರ ನನಗೆ ನೆನಪಿಸು</string>
@@ -181,19 +234,32 @@
   <string name="actions_dialog_message">ನೀವು ಫೋಲ್ಡರ್ಸನ್ನು ನಿಯಮಿತವಾಗಿ ಉಪಯೋಗಿಸುತ್ತೀರಾ? ಹೆಚ್ಚಾಗಿ ಸ್ಪಾಮ್ ಎಂದು ಗುರುತಿಸುತ್ತೀರಾ? ಎವರ್‍ನೋಟ್‍ಗೆ ಕ್ಲಿಪ್ ಮಾಡಲು ಇಷ್ಟಪಡುತ್ತೀರಾ?\n\nಕಸ್ಟಮೈಸ್ಡ್ ಸ್ವೈಪ್ ಕ್ರಿಯೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಕಾರ್ಯಪ್ರಗತಿಯನ್ನು ಹೊಂದಿಕೊಳ್ಳಲು ನೀವು ಇವುಗಳಲ್ಲಿ ಯಾವುದೇ ಸನ್ನೆಗಳನ್ನು ಹೊಂದಿಸಬಹುದು.\n</string>
   <string name="actions_dialog_positive_button_text">ಕಸ್ಟಮೈಸ್ ಸ್ವೈಪ್ಸ್</string>
   <string name="actions_dialog_negative_button_text">ಮುಚ್ಚಿ</string>
+  <!-- Account Setup -->
   <string name="account_setup_start_company_slogan_text">ಒಂದು ಉತ್ತಮ ಇನ್‍ಬಾಕ್ಸ್ ಗೆ ಸ್ವಾಗತ</string>
   <string name="account_setup_vendor_heading">ಇಮೇಲ್‍ಗೆ ಸುಸ್ವಾಗತ</string>
+  <!-- Like Feature -->
   <string name="like_action_dialog_tittle">ಇಷ್ಟ ಎಂದರೇನು?</string>
   <string name="like_action_dialog_message">ನೀವು ನಮ್ಮ ಫೇವರಿಟ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಪತ್ತೆಹಚ್ಚಿದ್ದೀರಿ. ನೀವು ಒಂದು ಸಂದೇಶವನ್ನು \'ಇಷ್ಟ\'ಪಟ್ಟಾಗ, ಒಂದು ಇಮೇಲನ್ನು ಕಳುಹಿಸಿದವರಿಗೆ ಮತ್ತು ಇತರೆ ಸ್ವೀಕರಿಸುವವರಿಗೆ ನೀವು ಇಷ್ಟಪಟ್ಟಿದ್ದೀರಿ ಎಂದು ತಿಳಿಸಲು ಕಳುಹಿಸಲಾಗುತ್ತದೆ.</string>
+  <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">ಹೊಸ</string>
+  <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">ಫೋಲ್ಡರ್ ಹೆಸರು</string>
+  <!-- Progress text when creating a new folder from the move/label dialog. -->
   <string name="create_folder_progess">ಫೋಲ್ಡರ್ ರಚಿಸಲಾಗುತ್ತಿದೆ\u2026</string>
+  <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">ಒಂದೇಸಮನಾದ ಹೆಸರು</string>
+  <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_message">ನೀವು ಬರೆದ ಫೋಲ್ಡರ್ ಹೆಸರು ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.</string>
+  <!-- Title used for generic error alerts. -->
   <string name="error">ದೋಷ</string>
+  <!-- Error message displayed when a folder fails to be created on the server. -->
   <string name="error_creating_folder_message">ಫೋಲ್ಡರ್ ರಚಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+  <!-- Menu item: report an email was not readable or poorly rendered -->
   <string name="report_rendering_problem">ವರದಿಮಾಡಿ</string>
+  <!-- Toast message for above action -->
   <string name="message_reported">ಸಂದೇಶ ವರದಿಮಾಡಲಾಗಿದೆ</string>
+  <!-- Conversation list shared between the Activity and Widget -->
+  <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="no_conversation_needs_sync">ಇಲ್ಲಿ ಯಾವುದೇ ಮೇಲ್ ಇಲ್ಲ.\n ರೀಫ್ರೆಶ್ ಮಾಡಲು ಮೇಲಿನಿಂದ ಕೆಳಗೆ ಎಳೆಯಿರಿ</string>
   <string name="getting_messages">ನಿಮ್ಮ ಸಂದೇಶಗಳನ್ನು ಪಡೆಯುತ್ತಿದೆ</string>
   <string name="empty_folder">ಇಲ್ಲಿ ಯಾವುದೇ ಮೇಲ್ ಇಲ್ಲ.</string>
@@ -201,19 +267,27 @@
   <string name="empty_search">ಓಹ್! ಇದಕ್ಕೆ \"<xliff:g id="search_query">%1$s</xliff:g>\" ನಮಗೆ ಏನೂ ಸಿಗಲಿಲ್ಲ.</string>
   <string name="empty_spam_folder">ಹುರ್ರೇ, ಇಲ್ಲಿ ಯಾವುದೇ ಸ್ಪಾಮ್ ಇಲ್ಲ!</string>
   <string name="empty_trash_folder">ಇಲ್ಲಿ ಯಾವುದೇ ಅನುಪಯುಕ್ತಗಳಿಲ್ಲ. ಮರುಬಳಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು!</string>
+  <!-- Calendar invite hero card -->
+  <!-- Link for opening an invite's event in the calendar app. -->
   <string name="view_on_calendar">ಕ್ಯಾಲೆಂಡರ್‍ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ</string>
+  <!-- Response action buttons. -->
   <string name="accept">ಅಂಗೀಕರಿಸಿ</string>
   <string name="maybe">ಬಹುಶಃ</string>
   <string name="decline">ನಿರಾಕರಿಸಿ</string>
   <string name="remove_from_cal">ಕ್ಯಾಲೆಂಡರ್‍ನಿಂದ ತೆಗೆ</string>
   <string name="remove_series_from_cal">ಸರಣಿಯನ್ನು ಕ್ಯಾಲೆಂಡರ್‍ನಿಂದ ತೆಗೆ</string>
+  <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">ನಾನು</string>
+  <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">ನಾನು &amp; %d ಇನ್ನೊಬ್ಬ</item>
     <item quantity="other">ನಾನು &amp; %d ಇನ್ನಿತರರು</item>
   </plurals>
+  <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">ದಿನಪೂರ್ತಿ</string>
+  <!-- Status for canceled events. -->
   <string name="canceled">ರದ್ದುಗೊಂಡಿದೆ</string>
+  <!-- Send availability strings -->
   <string name="times_that_work_for_me">ನನಗೆ ಅನುಕೂಲವಾಗುವ ಸಮಯ:</string>
   <string name="availability_by">ಇದರಿಂದ ಲಭ್ಯತೆ</string>
   <string name="remove_availability">ಲಭ್ಯತೆ ತೆಗೆ</string>
@@ -227,10 +301,12 @@
   <string name="meeting_invitation">ಆಮಂತ್ರಣ ಸಾರಾಂಶ:</string>
   <string name="invitation_by">ಆಹ್ವಾನಿಸಿದವರು</string>
   <string name="remove_invite">ಆಮಂತ್ರಣ ತೆಗೆ</string>
+  <string name="action_liked_message_cm">&lt;a href=\"%s\"&gt;Cyanogen OSನ ಬಾಕ್ಸರ್&lt;/a&gt;ನಲ್ಲಿರುವ ನಿಮ್ಮ ಸಂದೇಶವನ್ನು <xliff:g id="display_name" example="John Doe">%s</xliff:g> ಇಷ್ಟಪಟ್ಟಿದ್ದಾರೆ.</string>
   <string name="error_no_app_store">ಯಾವುದೇ ಸೂಕ್ತ ಆಪ್ ಸ್ಟೋರ್ ಪತ್ತೆಯಾಗಲಿಲ್ಲ</string>
   <string name="calendar_feature_dialog_title">ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ</string>
   <string name="calendar_feature_dialog_msg">ಬಾಕ್ಸರ್ ಹಲವು ಕ್ಯಾಲೆಂಡರ್ ವೈಶಿಶಷ್ಟ್ಯಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ ಅದು ಪ್ರತ್ಯೇಕವಾಗಿ ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್ ಜೊತೆ ಮಾತ್ರ ಕೆಲಸಮಾಡುತ್ತದೆ. ಈ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು, ಬಾಕ್ಸರ್ ಕ್ಯಾಲೆಂಡರ್‍ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ಇಂದೇ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿ (ಉಚಿತ)</string>
   <string name="calendar_feature_dialog_positive_btn">ಸ್ಥಾಪಿಸಿ</string>
   <string name="calendar_feature_dialog_negative_btn">ಈಗ ಬೇಡ</string>
+  <!-- String shown in the TO field when it is blank -->
   <string name="undisclosed_recipients">ತಿಳಿಯಪಡಿಸದ ಕಳಿಹಿಸುವವರು</string>
 </resources>
