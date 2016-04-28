@@ -449,7 +449,7 @@
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="ok">OK</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
-  <string name="done">Fine</string>
+  <string name="done">Fatto</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
   <string name="cancel">Annulla</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->

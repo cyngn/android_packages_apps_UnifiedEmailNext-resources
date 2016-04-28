@@ -598,7 +598,7 @@
   <string name="clear_display_images_whitelist_dialog_title">Limpar aprovações de fotografias?</string>
   <!-- Settings screen, message of dialog shown to confirm action when tapping
     "Clear picture approvals" [CHAR LIMIT=1000]-->
-  <string name="clear_display_images_whitelist_dialog_message">Parar apresentação de imagens inline de remetentes anteriormente permitidos.</string>
+  <string name="clear_display_images_whitelist_dialog_message">Deixar de apresentar imagens de remetentes anteriormente permitidos.</string>
   <!-- Message shown in toast when the user taps "Restore default for "Show pictures"" in Gmail general preferences. [CHAR LIMIT=50] -->
   <string name="sender_whitelist_cleared">As imagens não serão mostradas automaticamente.</string>
   <!-- Settings screen, name of the setting that lets the user choose their signature [CHAR LIMIT=50] -->
