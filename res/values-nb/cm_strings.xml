@@ -83,6 +83,7 @@
   <!-- Default email signature on vendor builds -->
   <string name="vendor_signature">Sendt fra min Cyanogen telefon</string>
   <string name="vendor_signature_fmt">Sendt fra <xliff:g id="brand" example="samsung">%s</xliff:g></string>
+  <string name="blu_signature">Sendt fra min BLU telefon - BLU Mail er drevet av Boxer</string>
   <string name="vendor_signature_o2">Sendt fra Cyanogen på O2</string>
   <!-- Notification action for deleting a message. [CHAR LIMIT=20] -->
   <string name="notification_action_mark_read">LES</string>
@@ -299,9 +300,13 @@
   </plurals>
   <string name="meeting_invitation">Invitasjon Sammendrag:</string>
   <string name="invitation_by">Invitasjon av</string>
+  <string name="remove_invite">Fjern invitasjon</string>
+  <string name="action_liked_message_cm"><xliff:g id="display_name" example="John Doe">%s</xliff:g> likte meldingen din med &lt;a href=\"%s\"&gt;Boxer på Cyanogen OS&lt;/a&gt;.</string>
   <string name="error_no_app_store">Ingen passende app-butikk funnet</string>
   <string name="calendar_feature_dialog_title">Last ned Boxer kalender</string>
+  <string name="calendar_feature_dialog_msg">Boxer gir kalender funksjoner som funker eksklusivt med Boxer kalender. For å aktivere denne funksjonen, last ned den nyeste versjon av Boxer kalender i dag (GRATIS)</string>
   <string name="calendar_feature_dialog_positive_btn">INSTALLERE</string>
   <string name="calendar_feature_dialog_negative_btn">IKKE NÅ</string>
   <!-- String shown in the TO field when it is blank -->
+  <string name="undisclosed_recipients">Skjulte Mottakere</string>
 </resources>

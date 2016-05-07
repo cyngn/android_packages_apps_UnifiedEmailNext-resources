@@ -247,7 +247,7 @@
   <string name="account_setup_vendor_heading">Добро пожаловать в Email</string>
   <!-- Like Feature -->
   <string name="like_action_dialog_tittle">Отметка «Нравится»</string>
-  <string name="like_action_dialog_message">Это наша любимая функция. Когда вы ставите отметку «Мне нравится», уведомление об этом получает отправитель и другие получатели сообщения. Пока это самый быстрый способ отвечать на письма.</string>
+  <string name="like_action_dialog_message">Это наша любимая функция. Когда вы ставите отметку «Нравится», уведомление об этом получает отправитель и другие получатели сообщения. Пока что это самый быстрый способ отвечать на письма.</string>
   <!-- Displayed on a button whose action is to create something new. -->
   <string name="new_button">Создать</string>
   <!-- Text hint when creating a new folder from the move/label dialog. -->
