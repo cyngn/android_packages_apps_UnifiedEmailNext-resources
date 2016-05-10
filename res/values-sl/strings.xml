@@ -92,7 +92,7 @@
   <!-- Menu item: mark this conversation as read -->
   <string name="mark_read">Označi kot prebran</string>
   <!-- Menu item: mark this conversation as unread -->
-  <string name="mark_unread">Označi kot neprebran</string>
+  <string name="mark_unread">Označi kot neprebrano</string>
   <!--  Menu item: mute this conversation -->
   <string name="mute">Prezri</string>
   <!-- Menu item: add a star to this conversation -->

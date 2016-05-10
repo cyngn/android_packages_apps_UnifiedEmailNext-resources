@@ -161,7 +161,7 @@
   <!-- Format string for email addresses -->
   <!-- Attachments -->
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5]-->
-  <string name="bytes"><xliff:g id="count">%s</xliff:g> B</string>
+  <string name="bytes">xliff:g id=\"count\">%s</xliff:g> B></string>
   <!-- Size unit, displayed in a button next to an attachment [CHAR LIMIT=5] -->
   <string name="kilobytes"><xliff:g id="count">%s</xliff:g> KB</string>
   <!-- Size unit, displayed in a button next to an attachment  [CHAR LIMIT=5]-->
@@ -378,7 +378,7 @@
   <!-- Shown as a button label in message view to decline a calendar invite [CHAR LIMIT=20]-->
   <string name="message_invite_decline">نا</string>
   <!-- An enumeration comma for separating items in lists. [CHAR LIMIT=2] -->
-  <string name="enumeration_comma">,\u0020</string>
+  <string name="enumeration_comma">,u0020\</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
   <string name="yes">بەڵێ</string>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10]-->
@@ -481,7 +481,7 @@
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">کۆگا</string>
   <!-- Token used as a divider between senders -->
-  <string name="senders_split_token">,\u00A0</string>
+  <string name="senders_split_token">,u00A0\</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
   <!-- Token used to space out message count, draft text, and senders -->

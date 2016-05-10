@@ -286,9 +286,9 @@
   <string name="inbox_folders_heading">Входяща поща</string>
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
-    <item quantity="one">Да се изтрие ли тази кореспонденция?</item>
+    <item quantity="one">Да бъде ли изтита тази кореспонденция?</item>
     <!-- Dialog message to confirm deletion of several conversations -->
-    <item quantity="other">Да се изтрият ли тези <xliff:g id="COUNT">%1$d</xliff:g> кореспонденции?</item>
+    <item quantity="other">Да бъдат ли изтрити тези <xliff:g id="Count">%1$d</xliff:g> кореспонденции?</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
     <!-- Dialog message to confirm archival of one conversation -->

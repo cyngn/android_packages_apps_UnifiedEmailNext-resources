@@ -431,7 +431,7 @@
   <!-- Shown as a heading in message view when a message contains a calendar invite [CHAR LIMIT=30]-->
   <string name="message_invite_title">Invitació del calendari</string>
   <!-- Shown as a button label in message view to launch calendar to see this invite [CHAR LIMIT=40]-->
-  <string name="message_invite_calendar_view">Mostra-ho al calendari</string>
+  <string name="message_invite_calendar_view">Veure dins el calendari</string>
   <!-- Shown as a text label in message view describing the choices of whether to attend an invite [CHAR LIMIT=20]-->
   <string name="message_invite_label_attending">Hi aniràs?</string>
   <!-- Shown as a button label in message view to accept a calendar invite [CHAR LIMIT=20]-->

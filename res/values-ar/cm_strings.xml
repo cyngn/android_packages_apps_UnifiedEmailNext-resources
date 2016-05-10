@@ -29,8 +29,8 @@
   <!-- Delete account -->
   <string name="delete_account_title">حذف الحساب</string>
   <string name="delete_account_summary">حذف هذا الحساب وكل الإعدادات والبيانات</string>
-  <string name="delete_account_confirmation_msg">سيؤدي هذا إلى حذف كافة الإعدادات ورسائل البريد الإلكتروني
-        من الحساب<xliff:g id="account">%s</xliff:g>.هذه العملية لا يمكن أن التراجع عنها.\n\nإستمرار؟</string>
+  <string name="delete_account_confirmation_msg">سيؤدي هذا إلى حذف كافة الإعدادات ورسائل البريد الإلكتروني من الحساب <xliff:g id="account">%s</xliff:g>.
+هذه العملية لا يمكن أن التراجع عنها.\n\nاستمرار؟</string>
   <string name="deleting_account_msg">حذف الحساب\u2026</string>
   <string name="delete_account_failed">تعذر حذف الحساب</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->

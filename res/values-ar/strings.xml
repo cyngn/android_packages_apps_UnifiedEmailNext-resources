@@ -457,7 +457,7 @@
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">التخزين</string>
   <!-- Token used as a divider between senders -->
-  <string name="senders_split_token">,\u00A0</string>
+  <string name="senders_split_token">,u00A0\</string>
   <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
