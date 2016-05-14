@@ -31,7 +31,7 @@
   <string name="delete_account_summary">حذف هذا الحساب وكل الإعدادات والبيانات</string>
   <string name="delete_account_confirmation_msg">سيؤدي هذا إلى حذف كافة الإعدادات ورسائل البريد الإلكتروني من الحساب <xliff:g id="account">%s</xliff:g>.
 هذه العملية لا يمكن أن التراجع عنها.\n\nاستمرار؟</string>
-  <string name="deleting_account_msg">حذف الحساب\u2026</string>
+  <string name="deleting_account_msg">حذف الحسابu2026\</string>
   <string name="delete_account_failed">تعذر حذف الحساب</string>
   <!-- Read email screen, button name. Open an attachment. [CHAR LIMIT=10] -->
   <string name="open_attachment">فتح</string>
@@ -126,9 +126,9 @@
   <string name="action_grid_set_due_date">تعيين تاريخ الاستحقاق</string>
   <string name="action_grid_due">حلول: <xliff:g id="datestring">%s</xliff:g></string>
   <string name="action_grid_add_priority">إضافة الأولوية</string>
-  <string name="action_grid_priority">الأولوية:\u0020</string>
+  <string name="action_grid_priority">الأولوية:u0020\</string>
   <string name="action_grid_add_assignee">إضافة المحال إليه</string>
-  <string name="action_grid_assignee">المحال إليه:\u0020</string>
+  <string name="action_grid_assignee">المحال إليه:u0020\</string>
   <string name="action_grid_due_date_dialog_title">تعيين تاريخ الاستحقاق</string>
   <string name="action_grid_due_date_today">اليوم</string>
   <string name="action_grid_due_date_tomorrow">الغد</string>
@@ -224,7 +224,7 @@
   <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">اسم المجلد</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
-  <string name="create_folder_progess">جاري إنشاء المجلد</string>
+  <string name="create_folder_progess">جاري إنشاء المجلدu2026\</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">اسم مكرر</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
@@ -239,7 +239,7 @@
   <string name="message_reported">تم الإبلاغ عن الرسالة</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
-  <string name="no_conversation_needs_sync">لا يوجد بريد هنا. \n اسحب إلى أسفل للتحديث</string>
+  <string name="no_conversation_needs_sync">لا يوجد بريد هنا. n\ اسحب إلى أسفل للتحديث</string>
   <string name="getting_messages">جاري جلب رسائلك</string>
   <string name="empty_folder">لا يوجد أي بريد هنا.</string>
   <string name="empty_inbox">لقد انتهيت! نتمنى لك الاستمتاع بيومك. </string>

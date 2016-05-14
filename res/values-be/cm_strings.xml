@@ -42,9 +42,9 @@
   <string name="contextmenu_view_image">Прагляд выявы</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
-    <item quantity="one"> &amp;%d іншы</item>
-    <item quantity="few">&amp;%d іншых</item>
-    <item quantity="other">&amp;%d іншых</item>
+    <item quantity="one"> &amp; %d іншы</item>
+    <item quantity="few">&amp; %d іншых</item>
+    <item quantity="other">&amp; %d іншых</item>
   </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
@@ -288,7 +288,7 @@
   <string name="calendar_attendees_me_only">Я</string>
   <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
-    <item quantity="one">Я і яшчэ &amp;%d чалавек</item>
+    <item quantity="one">Я і яшчэ &amp; %d чалавек</item>
     <item quantity="few">Я і яшчэ &amp;%d чалавека</item>
     <item quantity="other">Я і яшчэ &amp;%d чалавекаў</item>
   </plurals>
