@@ -45,12 +45,6 @@
     <item quantity="one"> &amp; %d otru</item>
     <item quantity="other">y %d más</item>
   </plurals>
-  <plurals name="conversation_todo">
-    <!-- Displayed while setting one conversation to-do -->
-    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcóse como pendiente.</item>
-    <!-- Displayed while archiving multiple conversations -->
-    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; marcáronse como pendientes.</item>
-  </plurals>
   <!-- Displayed in undo LeaveBehindItem after reporting a message as spam -->
   <!-- New Message notification text that appears over conversation view on incoming message. [CHAR LIMIT=40] -->
   <string name="new_incoming_messages_one">Amosar mensaxe nuevu de <xliff:g id="sender">%s</xliff:g>.</string>
@@ -111,10 +105,6 @@
   <!-- Shown to inform the user that the quoted text for this message has been hidden. [CHAR LIMIT=50] -->
   <string name="quoted_text_hidden_print">Testu citáu anubríu</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
-  <plurals name="num_attachments">
-    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> axuntu</item>
-    <item quantity="other"><xliff:g id="count">%1$d</xliff:g> axuntos</item>
-  </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
   <string name="no_subject">(Ensin asuntu)</string>
   <string name="action_grid_todo_dialog_title">Detalles</string>
@@ -138,18 +128,6 @@
   <string name="action_actions">Aiciones</string>
   <!-- These strings are shown in Toast messages when an Action above is selected -->
   <string name="marked_evernote">Unvióse a Evernote</string>
-  <plurals name="quick_response_sent">
-    <!-- Quick respond to 1 conversation -->
-    <item quantity="one">Rempuesta unviada</item>
-    <!-- Quick respond to several conversations -->
-    <item quantity="other">Rempuestes unviaes</item>
-  </plurals>
-  <plurals name="liked_message">
-    <!-- Like 1 conversation -->
-    <item quantity="one">Mensaxe marcáu como préstame</item>
-    <!-- Like several conversations -->
-    <item quantity="other">Mensaxes marcaos como préstame</item>
-  </plurals>
   <string name="invalid_selection">Esbilla non válida</string>
   <string name="file_action_more_than_one_account">Esbillesti conversaciones dende más d\'una cuenta. Intenta namái esbillar les conversaciones dende una cuenta.</string>
   <string name="evernote_action_more_than_one_conversation">La funcionalidá d\'Evernote namái sofita una conversación al mesmu tiempu. Intenta esbillar namái una conversación.</string>
@@ -206,18 +184,10 @@
   <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Yo</string>
   <!-- Attendee text when there are additional attendees. -->
-  <plurals name="calendar_attendees">
-    <item quantity="one">Yo y %d más</item>
-    <item quantity="other">Yo y %d más</item>
-  </plurals>
   <!-- Accompanies the date/time for all day events. -->
   <string name="all_day">Tol día</string>
   <!-- Status for canceled events. -->
   <!-- Send availability strings -->
-  <plurals name="other_conflicts">
-    <item quantity="one">%d otru conflictu</item>
-    <item quantity="other">%d otros conflictos</item>
-  </plurals>
   <string name="calendar_feature_dialog_positive_btn">INSTALAR</string>
   <string name="calendar_feature_dialog_negative_btn">AGORA NON</string>
   <!-- String shown in the TO field when it is blank -->

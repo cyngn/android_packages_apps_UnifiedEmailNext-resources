@@ -47,7 +47,7 @@
   </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
-    <item quantity="one">;lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&amp;gt&amp; מסומנת לביצוע.</item>
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנת לביצוע.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
   </plurals>
