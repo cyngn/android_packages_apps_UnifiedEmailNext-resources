@@ -224,7 +224,7 @@
   <!-- Text hint when creating a new folder from the move/label dialog. -->
   <string name="folder_name_hint">اسم المجلد</string>
   <!-- Progress text when creating a new folder from the move/label dialog. -->
-  <string name="create_folder_progess">جاري إنشاء المجلد</string>
+  <string name="create_folder_progess">جاري إنشاء المجلد\u2026</string>
   <!-- Error title used when the user tries to add a folder that matches an existing folder. -->
   <string name="duplicate_folder_title">اسم مكرر</string>
   <!-- Error message used when the user tries to add a folder that matches an existing folder. -->
