@@ -175,10 +175,12 @@
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
   <string name="empty_folder">Equí nun hai corréu.</string>
   <string name="empty_inbox">¡Too fecho! Qu\'esfrutes el to día.</string>
+  <string name="empty_trash_folder">Nun hai basoria. ¡Gracies por reciclar!</string>
   <!-- Calendar invite hero card -->
   <!-- Link for opening an invite's event in the calendar app. -->
   <!-- Response action buttons. -->
   <string name="accept">Aceutar</string>
+  <string name="maybe">Seique</string>
   <!-- Attendee text when user is the only attendee. -->
   <string name="calendar_attendees_me_only">Yo</string>
   <!-- Attendee text when there are additional attendees. -->
@@ -186,5 +188,7 @@
   <string name="all_day">Tol día</string>
   <!-- Status for canceled events. -->
   <!-- Send availability strings -->
+  <string name="calendar_feature_dialog_positive_btn">INSTALAR</string>
+  <string name="calendar_feature_dialog_negative_btn">AGORA NON</string>
   <!-- String shown in the TO field when it is blank -->
 </resources>

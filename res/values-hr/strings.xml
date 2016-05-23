@@ -245,6 +245,13 @@
   <!-- Text indicating how many messages are selected in the top action bar
     [CHAR LIMIT=40] -->
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
+  <plurals name="move_conversation">
+    <!-- Move 1 conversation -->
+    <item quantity="one">Premjesti razgovor</item>
+    <item quantity="few">Premjesti sljedeći broj razgovora: <xliff:g id="ID_1">%1$d</xliff:g></item>
+    <!-- Move several conversations -->
+    <item quantity="other">Premjesti sljedeći broj razgovora: <xliff:g id="Id_1">%1$d</xliff:g></item>
+  </plurals>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode. [CHAR LIMIT=250] -->
   <string name="content_description"><xliff:g id="SENDER">%1$s</xliff:g> o temi <xliff:g id="SUBJECT">%2$s</xliff:g>, <xliff:g id="SNIPPET">%3$s</xliff:g> dana <xliff:g id="DATE">%4$s</xliff:g>, <xliff:g id="READSTATE">%5$s</xliff:g></string>
   <!-- Formatting string for the content description field of a conversation list item when device is in accessibility mode and the message was received today. [CHAR LIMI=250] -->
@@ -260,6 +267,13 @@
          [CHAR LIMIT=5] -->
   <string name="subject_and_snippet"><xliff:g id="ID_1">%s</xliff:g> — <xliff:g id="ID_2">%s</xliff:g></string>
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
+  <plurals name="draft">
+    <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">Skica</item>
+    <item quantity="few">Skice</item>
+    <!-- Title of the screen when there are more than one draft -->
+    <item quantity="other">Skice</item>
+  </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
   <string name="sending">Slanje…</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
@@ -278,6 +292,13 @@
     <item quantity="few">Izbrisati ove razgovore (ukupno <xliff:g id="COUNT">%1$d</xliff:g>)?</item>
     <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">Obriši ovih <xliff:g id="count">%1$d</xliff:g> razgovora?</item>
+  </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Arhivirati ovaj razgovor?</item>
+    <item quantity="few">Arhivirati ove razgovore (ukupno <xliff:g id="COUNT">%1$d</xliff:g>)?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Arhivirati ove razgovore (ukupno <xliff:g id="COUNT">%1$d</xliff:g>)?</item>
   </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Odbaciti ovu poruku?</string>

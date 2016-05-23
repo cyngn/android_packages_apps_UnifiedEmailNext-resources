@@ -56,7 +56,7 @@
   <!-- Compose screen, prefixed to the subject of a message when replying to it (if not already present). Do not translate. -->
   <!-- Compose screen, Prefix to forwarded message subject. Do not translate. -->
   <!-- Compose screen, displayed at the top of a message being replied to. Please preserve the HTML entities (surrounded by & and ;).  The two %s strings will be replaced by 1) the date 2) the person who wrote the email being responded to. [CHAR LIMIT=1000]-->
-  <string name="reply_attribution">عند <xliff:g id="date">%s</xliff:g>, <xliff:g id="person">%s</xliff:g> كتب:</string>
+  <string name="reply_attribution">בתאריך<xliff:g id="date">%s</xliff:g>, התקבלה ההודעה הבאה מ-<xliff:g id="person">%s</xliff:g>:</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. Please preserve the HTML entities (surrounded by & and ;). [CHAR LIMIT=1000] -->
   <string name="forward_attribution">---------- رسالة معاد توجيهها ----------&lt;br&gt;من: <xliff:g id="from">%1$s</xliff:g>&lt;br&gt;Date: <xliff:g id="date">%2$s</xliff:g>&lt;br&gt;الموضوع: <xliff:g id="subject">%3$s</xliff:g>&lt;br&gt;إلى: <xliff:g id="to">%4$s</xliff:g>&lt;br&gt;</string>
   <!-- Compose screen, displayed at the top of a message being forwarded. [CHAR LIMIT=100]-->
@@ -200,7 +200,7 @@
   <!-- Dialog box title. [CHAR LIMIT=30] -->
   <string name="fetching_attachment">إحضار المرفق</string>
   <!-- Dialog box message. [CHAR LIMIT=80] -->
-  <string name="please_wait">الرجاء الانتظار/u2026</string>
+  <string name="please_wait">الرجاء الانتظار\u2026</string>
   <!-- Displayed in the conversation view, next to a file's size and type. Status of a saved attachment. [CHAR LIMIT=20]-->
   <string name="saved">محفوظ،<xliff:g id="size">%s</xliff:g></string>
   <!-- Displayed in the conversation view. Status of a failed attachment. [CHAR LIMIT=50]-->
@@ -226,9 +226,9 @@
   <!-- Menu item to copy a link  [CHAR LIMIT=50]-->
   <string name="contextmenu_copylink">‏نسخ عنوان URL لرابط</string>
   <!-- Menu item to dial a number  [CHAR LIMIT=50]-->
-  <string name="contextmenu_dial_dot">طلب/u2026</string>
+  <string name="contextmenu_dial_dot">طلب\u2026</string>
   <!-- Menu item to send an SMS  [CHAR LIMIT=50]-->
-  <string name="contextmenu_sms_dot">رسالة نصية قصيرة/u2026</string>
+  <string name="contextmenu_sms_dot">رسالة نصية قصيرة\u2026</string>
   <!-- Menu item to add a contact  [CHAR LIMIT=50]-->
   <string name="contextmenu_add_contact">إضافة جهة اتصال</string>
   <!-- Menu item to send an email [CHAR LIMIT=50] -->
@@ -281,7 +281,7 @@
     <item quantity="other">مسودات</item>
   </plurals>
   <!-- Message displayed in a browse list item for one second when message is being sent [CHAR LIMIT=20]-->
-  <string name="sending">جارٍ الإرسال/u2026</string>
+  <string name="sending">جارٍ الإرسال\u2026</string>
   <!-- Message displayed in a browse list item for one second after a send failed [CHAR LIMIT=26]-->
   <string name="send_failed">لم يتم إرسال الرسالة.</string>
   <!-- String used to represent "me" when used as an object pronoun. This string is used when
@@ -326,7 +326,7 @@
   <string name="confirm_discard_text">تجاهل هذه الرسالة؟</string>
   <!-- Conversation list shared between the Activity and Widget -->
   <!-- Displayed in the middle of the screen when conversations are being loaded [CHAR LIMIT 100]-->
-  <string name="loading_conversations">جارٍ التحميل/u2026</string>
+  <string name="loading_conversations">جارٍ التحميل\u2026</string>
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">تراجع</string>
@@ -457,15 +457,15 @@
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> الرسائل القديمة</item>
   </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
-  <string name="from_heading">من:/u0020</string>
+  <string name="from_heading">من:\u0020</string>
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
   <string name="replyto_heading">الرد إلى:\u0020</string>
   <!-- Shown to display the to recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="to_heading">إلى:/u0020</string>
+  <string name="to_heading">إلى:\u0020</string>
   <!-- Shown to display the cc recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="cc_heading">نسخة إلى:/u0020</string>
+  <string name="cc_heading">نسخة إلى:\u0020</string>
   <!-- Shown to display the bcc recipient(s) of the message [CHAR LIMIT=10] -->
-  <string name="bcc_heading">نسخة مخفية الوجهة:/\u0020</string>
+  <string name="bcc_heading">نسخة مخفية الوجهة:\u0020</string>
   <!-- Shown to display the recipient(s) of the message [CHAR LIMIT=10] -->
   <string name="date_heading">التاريخ: \u0020</string>
   <!-- Displayed above an HTML message to show the images in that message [CHAR LIMIT=40] -->
@@ -481,7 +481,7 @@
   <!-- Displayed for one second after user saves message as draft [CHAR LIMIT=50]-->
   <string name="message_saved">تمّ حفظ الرسالة كمسودة.</string>
   <!-- Displayed for one second while message is being sent [CHAR LIMIT=50]-->
-  <string name="sending_message">جارٍ إرسال الرسالة/u2026</string>
+  <string name="sending_message">جارٍ إرسال الرسالة\u2026</string>
   <!-- Displayed for one second after trying to send with invalid recipients [CHAR LIMIT=50]-->
   <string name="invalid_recipient">العنوان <xliff:g id="wrongemail" example="foo@@gmail..com">%s</xliff:g> غير صالح.</string>
   <!-- Shown in HTML to allow the user to see quoted text; should match Gmail web UI. 25B6 is Unicode for a right-pointing triangle. [CHAR LIMIT=50] -->
@@ -612,7 +612,7 @@
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">التخزين</string>
   <!-- Token used as a divider between senders -->
-  <string name="senders_split_token">,u00A0\</string>
+  <string name="senders_split_token">,\u00A0</string>
   <string name="draft_count_format">\u00A0(<xliff:g id="count">%1$s</xliff:g>)</string>
   <!-- Token to replace senders that are not visible -->
   <!-- Token used to space out elided senders that are not visible -->
@@ -690,7 +690,7 @@
   <!-- Notification ticker text for per-label notification [CHAR LIMIT=30]-->
   <string name="label_notification_ticker">"<xliff:g id="label">%s</xliff:g>: <xliff:g id="notification">%s</xliff:g>"</string>
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
-  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>: <xliff:g id="subject">%2$s</xliff:g></string>
+  <string name="single_new_message_notification_title"><xliff:g id="sender">%1$s</xliff:g>\u061b<xliff:g id="subject">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
   <string name="silent_ringtone">صامت</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->

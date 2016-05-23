@@ -392,6 +392,10 @@
   <string name="contact_info_string_default">Näytä yhteystiedot</string>
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
+  <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> vanhempi viesti</item>
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> vanhempaa viestiä</item>
+  </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
   <string name="from_heading">Lähettäjä: </string>
   <!-- Shown to display the reply to address of the message [CHAR LIMIT=20] -->
@@ -470,6 +474,11 @@
   <string name="tap_to_configure_folder_sync">Synkronoi kansio</string>
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%d+</string>
+  <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> lukematon</item>
+    <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
+    <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> lukematonta</item>
+  </plurals>
   <!-- Displayed in the actionbar when unread count > 999. [CHAR LIMIT=30] -->
   <string name="actionbar_large_unread_count">Yli <xliff:g id="COUNT">%1$d</xliff:g> lukematonta</string>
   <!-- Displayed at the end of the conversation list in the widget. Tapping on this will open the default Inbox. [CHAR LIMIT=35] -->

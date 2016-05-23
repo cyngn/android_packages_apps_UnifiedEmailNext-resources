@@ -293,6 +293,20 @@
     <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">Удалить <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
   </plurals>
+  <plurals name="confirm_archive_conversation">
+    <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">Архивировать эту цепочку?</item>
+    <item quantity="few">Архивировать <xliff:g id="count">%1$d</xliff:g> цепочки?</item>
+    <!-- Dialog message to confirm archival of several conversations -->
+    <item quantity="other">Архивировать <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+  </plurals>
+  <plurals name="confirm_discard_drafts_conversation">
+    <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">Удалить черновики из этой цепочки?</item>
+    <item quantity="few">Удалить черновики из <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+    <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
+    <item quantity="other">Удалить черновики из <xliff:g id="count">%1$d</xliff:g> цепочек?</item>
+  </plurals>
   <!-- Dialog text: confirm discard -->
   <string name="confirm_discard_text">Удалить это сообщение?</string>
   <!-- Conversation list shared between the Activity and Widget -->
@@ -301,7 +315,61 @@
   <!-- Undo bar strings -->
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">Отмена</string>
+  <plurals name="conversation_unstarred">
+    <item quantity="one">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочки.</item>
+    <item quantity="few">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочек.</item>
+    <item quantity="other">Пометка снята с <xliff:g id="count">%1$d</xliff:g> цепочек.</item>
+  </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
+  <plurals name="conversation_muted">
+    <!-- Displayed while muting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочку скрыто.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки скрыто.</item>
+    <!-- Displayed while muting several conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек скрыто.</item>
+  </plurals>
+  <plurals name="conversation_spammed">
+    <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как спам.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как спам.</item>
+    <!-- Displayed while reporting several conversations as spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечены как спам.</item>
+  </plurals>
+  <plurals name="conversation_not_spam">
+    <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как не спам.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как не спам.</item>
+    <!-- Displayed while reporting several conversations as not spam -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечены как не спам.</item>
+  </plurals>
+  <plurals name="conversation_not_important">
+    <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как неважная.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как неважные.</item>
+    <!-- Displayed while reporting several conversations as not important in the important folder -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечены как неважные.</item>
+  </plurals>
+  <plurals name="conversation_phished">
+    <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка помечена как фишинг.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки помечены как фишинг.</item>
+    <!-- Displayed while reporting several conversations as phishing -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек помечены как фишинг.</item>
+  </plurals>
+  <plurals name="conversation_archived">
+    <!-- Displayed while archiving one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочку архивировано.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки архивированы.</item>
+    <!-- Displayed while archiving multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек архивированы.</item>
+  </plurals>
+  <plurals name="conversation_deleted">
+    <!-- Displayed while deleting one conversation -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочка удалена.</item>
+    <item quantity="few">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочки удалены.</item>
+    <!-- Displayed while deleting multiple conversations -->
+    <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; цепочек удалены.</item>
+  </plurals>
   <!-- Displayed when swiping away a single conversation to delete it [CHAR LIMIT=80] -->
   <string name="deleted">Удалено</string>
   <!-- Displayed when swiping away a single conversation to archive it [CHAR LIMIT=80] -->
