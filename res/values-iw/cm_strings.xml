@@ -43,11 +43,15 @@
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
     <item quantity="one"> ו-%d נוסף</item>
+    <item quantity="two">ו-%d נוספים</item>
+    <item quantity="many">ו-%d נוספים</item>
     <item quantity="other">ו-%d נוספים</item>
   </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
     <item quantity="one">;lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&amp;gt&amp; מסומנת לביצוע.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; מסומנות לביצוע.</item>
   </plurals>
@@ -58,6 +62,8 @@
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
     <item quantity="one">הראה הודעה <xliff:g id="count">%1$d</xliff:g> חדשה.</item>
+    <item quantity="two">הראה <xliff:g id="count">%1$d</xliff:g> הודעות חדשות.</item>
+    <item quantity="many">הראה <xliff:g id="count">%1$d</xliff:g> הודעות חדשות.</item>
     <item quantity="other">הראה <xliff:g id="count">%1$d</xliff:g> הודעות חדשות.</item>
   </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
@@ -94,6 +100,8 @@
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
     <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g> חדשה</item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות חדשות</item>
   </plurals>
   <!--  Settings screen, Swipe actions preference title -->
@@ -113,6 +121,8 @@
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
     <item quantity="one">הודעה <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> הודעות</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> הודעות</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> הודעות</item>
   </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
@@ -126,6 +136,8 @@
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
     <item quantity="one">קובץ מצורף <xliff:g id="count">%1$d</xliff:g></item>
+    <item quantity="two"><xliff:g id="count">%1$d</xliff:g> קבצים מצורפים</item>
+    <item quantity="many"><xliff:g id="count">%1$d</xliff:g> קבצים מצורפים</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> קבצים מצורפים</item>
   </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
@@ -187,12 +199,16 @@
   <plurals name="quick_response_sent">
     <!-- Quick respond to 1 conversation -->
     <item quantity="one">התגובה נשלחה</item>
+    <item quantity="two">התגובות נשלחו</item>
+    <item quantity="many">התגובות נשלחו</item>
     <!-- Quick respond to several conversations -->
     <item quantity="other">התגובות נשלחו</item>
   </plurals>
   <plurals name="liked_message">
     <!-- Like 1 conversation -->
     <item quantity="one">אהבתי את ההודעה</item>
+    <item quantity="two">אהבתי את ההודעות</item>
+    <item quantity="many">אהבתי את ההודעות</item>
     <!-- Like several conversations -->
     <item quantity="other">אהבתי את ההודעות</item>
   </plurals>
@@ -281,6 +297,8 @@
   <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
     <item quantity="one">אני ו-%d נוסף</item>
+    <item quantity="two">אני ו-%d נוספים</item>
+    <item quantity="many">אני ו-%d נוספים</item>
     <item quantity="other">אני ו-%d נוספים</item>
   </plurals>
   <!-- Accompanies the date/time for all day events. -->
@@ -296,6 +314,8 @@
   <string name="available">זמין</string>
   <plurals name="other_conflicts">
     <item quantity="one">התנגשות אחרת %d</item>
+    <item quantity="two">%d התנגשויות אחרות</item>
+    <item quantity="many">%d התנגשויות אחרות</item>
     <item quantity="other">%d התנגשויות אחרות</item>
   </plurals>
   <string name="meeting_invitation">סיכום הזמנה:</string>

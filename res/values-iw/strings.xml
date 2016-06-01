@@ -250,6 +250,8 @@
   <plurals name="move_conversation">
     <!-- Move 1 conversation -->
     <item quantity="one">העבר שיחה</item>
+    <item quantity="two">העבר <xliff:g id="ID_1">%1$d</xliff:g> שיחות</item>
+    <item quantity="many">העבר <xliff:g id="ID_1">%1$d</xliff:g> שיחות</item>
     <!-- Move several conversations -->
     <item quantity="other">העבר <xliff:g id="ID_1">%1$d</xliff:g> שיחות</item>
   </plurals>
@@ -271,6 +273,8 @@
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
     <item quantity="one">טיוטה</item>
+    <item quantity="two">טיוטות</item>
+    <item quantity="many">טיוטות</item>
     <!-- Title of the screen when there are more than one draft -->
     <item quantity="other">טיוטות</item>
   </plurals>
@@ -289,18 +293,24 @@
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
     <item quantity="one">למחוק שיחה זו?</item>
+    <item quantity="two">למחוק <xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
+    <item quantity="many">למחוק <xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
     <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">למחוק <xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
     <!-- Dialog message to confirm archival of one conversation -->
     <item quantity="one">להעביר שיחה זו לארכיון?</item>
+    <item quantity="two">להעביר <xliff:g id="count">%1$d</xliff:g> שיחות אלה לארכיון?</item>
+    <item quantity="many">להעביר <xliff:g id="count">%1$d</xliff:g> שיחות אלה לארכיון?</item>
     <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">להעביר <xliff:g id="count">%1$d</xliff:g> שיחות אלה לארכיון?</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
     <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
     <item quantity="one">למחוק טיוטות משיחה זו?</item>
+    <item quantity="two">למחוק טיוטות מ-<xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
+    <item quantity="many">למחוק טיוטות מ-<xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
     <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
     <item quantity="other">למחוק טיוטות מ-<xliff:g id="count">%1$d</xliff:g> שיחות אלה?</item>
   </plurals>
@@ -314,48 +324,64 @@
   <string name="undo">בטל</string>
   <plurals name="conversation_unstarred">
     <item quantity="one">מסיר כוכב משיחה <xliff:g id="count">%1$d</xliff:g>.</item>
+    <item quantity="two">מסיר כוכב מ-‏<xliff:g id="count">%1$d</xliff:g> שיחות.</item>
+    <item quantity="many">מסיר כוכב מ-‏<xliff:g id="count">%1$d</xliff:g> שיחות.</item>
     <item quantity="other">מסיר כוכב מ-‏<xliff:g id="count">%1$d</xliff:g> שיחות.</item>
   </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_muted">
     <!-- Displayed while muting one conversation -->
     <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הושתקה.</item>
+    <item quantity="two">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הושתקו.</item>
+    <item quantity="many">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הושתקו.</item>
     <!-- Displayed while muting several conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הושתקו.</item>
   </plurals>
   <plurals name="conversation_spammed">
     <!-- Displayed while reporting one conversation as spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחה כזבל.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו כזבל.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו כזבל.</item>
     <!-- Displayed while reporting several conversations as spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו כזבל.</item>
   </plurals>
   <plurals name="conversation_not_spam">
     <!-- Displayed while reporting one conversation as not spam -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחה שאינה זבל.</item>
+    <item quantity="two">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
+    <item quantity="many">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
     <!-- Displayed while reporting several conversations as not spam -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; דווחו שאינן דואר זבל.</item>
   </plurals>
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
     <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנה כלא חשובה.</item>
+    <item quantity="two">‏&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנו כלא חשובות.</item>
+    <item quantity="many">‏&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנו כלא חשובות.</item>
     <!-- Displayed while reporting several conversations as not important in the important folder -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; סומנו כלא חשובות.</item>
   </plurals>
   <plurals name="conversation_phished">
     <!-- Displayed while reporting one conversation as phishing -->
     <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחה כדיוג.</item>
+    <item quantity="two">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו כדיוג.</item>
+    <item quantity="many">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו כדיוג.</item>
     <!-- Displayed while reporting several conversations as phishing -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; דווחו כדיוג.</item>
   </plurals>
   <plurals name="conversation_archived">
     <!-- Displayed while archiving one conversation -->
     <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הועברה לארכיון.</item>
+    <item quantity="two">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הועברו לארכיון.</item>
+    <item quantity="many">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הועברו לארכיון.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; הועברו לארכיון.</item>
   </plurals>
   <plurals name="conversation_deleted">
     <!-- Displayed while deleting one conversation -->
     <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; נמחקה.</item>
+    <item quantity="two">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; נמחקו.</item>
+    <item quantity="many">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; נמחקו.</item>
     <!-- Displayed while deleting multiple conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; נמחקו.</item>
   </plurals>
@@ -368,6 +394,8 @@
   <plurals name="conversation_folder_changed">
     <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
     <item quantity="one">התיקייה שונתה.</item>
+    <item quantity="two">התיקיות שונו.</item>
+    <item quantity="many">התיקיות שונו.</item>
     <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
     <item quantity="other">התיקיות שונו.</item>
   </plurals>
@@ -396,6 +424,8 @@
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <plurals name="show_messages_read">
     <item quantity="one">הודעה <xliff:g id="count" example="4">%1$d</xliff:g> ישנה יותר</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> הודעות ישנות יותר</item>
+    <item quantity="many"><xliff:g id="count" example="4">%1$d</xliff:g> הודעות ישנות יותר</item>
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> הודעות ישנות יותר</item>
   </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
@@ -478,6 +508,8 @@
   <string name="widget_large_unread_count">%d+</string>
   <plurals name="actionbar_unread_messages">
     <item quantity="one"><xliff:g id="count" example="4">%1$d</xliff:g> לא נקראה</item>
+    <item quantity="two"><xliff:g id="count" example="4">%1$d</xliff:g> לא נקראו</item>
+    <item quantity="many"><xliff:g id="count" example="4">%1$d</xliff:g> לא נקראו</item>
     <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
     <item quantity="other"><xliff:g id="count" example="4">%1$d</xliff:g> לא נקראו</item>
   </plurals>
@@ -677,6 +709,8 @@
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
     <item quantity="one">הודעה <xliff:g id="COUNT">%1$d</xliff:g> תימחק לצמיתות.</item>
+    <item quantity="two"><xliff:g id="COUNT">%1$d</xliff:g> הודעות יימחקו לצמיתות.</item>
+    <item quantity="many"><xliff:g id="COUNT">%1$d</xliff:g> הודעות יימחקו לצמיתות.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> הודעות יימחקו לצמיתות.</item>
   </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->

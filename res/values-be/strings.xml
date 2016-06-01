@@ -150,7 +150,7 @@
   <!-- Compose screen, menu item: add Bcc field [CHAR_LIMIT=20]-->
   <string name="add_bcc_label">Дадаць схав. копію</string>
   <!-- Solicit feedback string in about screen [CHAR LIMIT=50]-->
-  <string name="feedback">Адправiць водгук</string>
+  <string name="feedback">Даслаць водгук</string>
   <!-- Menu item that displays the help page for Gmail. [CHAR LIMIT=50]-->
   <string name="help_and_info">Даведка</string>
   <!-- Compose screen, Prefix to quoted text in forwarded/replied message [CHAR LIMIT=50]-->
