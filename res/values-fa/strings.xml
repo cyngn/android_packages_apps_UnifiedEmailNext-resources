@@ -247,6 +247,7 @@
   <!--  Displayed when drag and drop conversations "Move ? conversations" [CHAR LIMIT=50] -->
   <plurals name="move_conversation">
     <!-- Move 1 conversation -->
+    <item quantity="one">انتقال <xliff:g id="ID_1">%1$d</xliff:g> مکالمه</item>
     <!-- Move several conversations -->
     <item quantity="other">انتقال <xliff:g id="ID_1">%1$d</xliff:g> مکالمه</item>
   </plurals>
@@ -267,6 +268,7 @@
   <!-- Displayed in browse list item when the list item is a draft message instead of showing the subject [CHAR LIMIT=100] -->
   <plurals name="draft">
     <!-- Title of the screen when there is exactly one draft -->
+    <item quantity="one">پیش‌نویس‌ها</item>
     <!-- Title of the screen when there are more than one draft -->
     <item quantity="other">پیش‌نویس‌ها</item>
   </plurals>
@@ -284,16 +286,19 @@
   <string name="inbox_folders_heading">صندوق ورودی</string>
   <plurals name="confirm_delete_conversation">
     <!-- Dialog message to confirm deletion of one conversation -->
+    <item quantity="one">این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه حذف شوند؟</item>
     <!-- Dialog message to confirm deletion of several conversations -->
     <item quantity="other">این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه حذف شوند؟</item>
   </plurals>
   <plurals name="confirm_archive_conversation">
     <!-- Dialog message to confirm archival of one conversation -->
+    <item quantity="one">این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه بایگانی شود؟</item>
     <!-- Dialog message to confirm archival of several conversations -->
     <item quantity="other">این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه بایگانی شود؟</item>
   </plurals>
   <plurals name="confirm_discard_drafts_conversation">
     <!-- Dialog message to confirm discarding drafts from one conversation [CHAR LIMIT=50] -->
+    <item quantity="one">از پیش‌نویس‌های این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه صرفنظر شود؟</item>
     <!-- Dialog message to confirm discarding drafts from several conversations [CHAR LIMIT=50] -->
     <item quantity="other">از پیش‌نویس‌های این <xliff:g id="COUNT">%1$d</xliff:g> مکالمه صرفنظر شود؟</item>
   </plurals>
@@ -306,41 +311,49 @@
   <!-- Menu item: undo latest action [CHAR LIMIT=12]-->
   <string name="undo">لغو</string>
   <plurals name="conversation_unstarred">
+    <item quantity="one">در حال حذف ستاره <xliff:g id="COUNT">%1$d</xliff:g> مکالمه.</item>
     <item quantity="other">در حال حذف ستاره <xliff:g id="COUNT">%1$d</xliff:g> مکالمه.</item>
   </plurals>
   <!-- The following are shown as a toast after the operation has completed -->
   <plurals name="conversation_muted">
     <!-- Displayed while muting one conversation -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد نادیده گرفته شد.</item>
     <!-- Displayed while muting several conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد نادیده گرفته شد.</item>
   </plurals>
   <plurals name="conversation_spammed">
     <!-- Displayed while reporting one conversation as spam -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد به‌عنوان هرزنامه گزارش شد.</item>
     <!-- Displayed while reporting several conversations as spam -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد به‌عنوان هرزنامه گزارش شد.</item>
   </plurals>
   <plurals name="conversation_not_spam">
     <!-- Displayed while reporting one conversation as not spam -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; به‌عنوان غیرهرزنامه گزارش شد.</item>
     <!-- Displayed while reporting several conversations as not spam -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; به‌عنوان غیرهرزنامه گزارش شد.</item>
   </plurals>
   <plurals name="conversation_not_important">
     <!-- Displayed while reporting one conversation as not important in the important folder -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد به‌عنوان غیرمهم علامت‌گذاری شد.</item>
     <!-- Displayed while reporting several conversations as not important in the important folder -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد به‌عنوان غیرمهم علامت‌گذاری شد.</item>
   </plurals>
   <plurals name="conversation_phished">
     <!-- Displayed while reporting one conversation as phishing -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; به‌عنوان فیشینگ گزارش شد.</item>
     <!-- Displayed while reporting several conversations as phishing -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; به‌عنوان فیشینگ گزارش شد.</item>
   </plurals>
   <plurals name="conversation_archived">
     <!-- Displayed while archiving one conversation -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد بایگانی شد.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد بایگانی شد.</item>
   </plurals>
   <plurals name="conversation_deleted">
     <!-- Displayed while deleting one conversation -->
+    <item quantity="one">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد حذف شد.</item>
     <!-- Displayed while deleting multiple conversations -->
     <item quantity="other">‏&lt;b&gt;<xliff:g id="COUNT">%1$d</xliff:g>&lt;/b&gt; مورد حذف شد.</item>
   </plurals>
@@ -352,6 +365,7 @@
   <string name="folder_removed">از <xliff:g id="FOLDERNAME">%1$s</xliff:g> حذف شد</string>
   <plurals name="conversation_folder_changed">
     <!-- Displayed while adding and removing folders to a single conversation. [CHAR LIMIT=100] -->
+    <item quantity="one">پوشه‌ها تغییر کردند.</item>
     <!-- Displayed while adding and removing folders to multiple conversations. [CHAR LIMIT=100] -->
     <item quantity="other">پوشه‌ها تغییر کردند.</item>
   </plurals>
@@ -379,6 +393,7 @@
   <!-- Shown in collapsed mode when a conversation has more than one read message.
          The message count is shown to the right of this text. [CHAR LIMIT=70] -->
   <plurals name="show_messages_read">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> پیام قدیمی‌تر</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> پیام قدیمی‌تر</item>
   </plurals>
   <!-- Shown to display the from address of the message [CHAR LIMIT=10] -->
@@ -460,6 +475,7 @@
   <!-- Displayed in widget when unread count > 100. [CHAR LIMIT=4] -->
   <string name="widget_large_unread_count">%d+</string>
   <plurals name="actionbar_unread_messages">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> مورد خوانده نشده</item>
     <!-- String for the actionbar subtitle when messages are unread [CHAR LIMIT=30] -->
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> مورد خوانده نشده</item>
   </plurals>
@@ -658,6 +674,7 @@
   <string name="empty_spam_dialog_title">خالی کردن پوشه هرزنامه؟</string>
   <!-- Dialog message for empty folder confirmation dialog [CHAR LIMIT=300] -->
   <plurals name="empty_folder_dialog_message">
+    <item quantity="one"><xliff:g id="COUNT">%1$d</xliff:g> پیام به طور دائم حذف خواهد شد.</item>
     <item quantity="other"><xliff:g id="COUNT">%1$d</xliff:g> پیام به طور دائم حذف خواهد شد.</item>
   </plurals>
   <!-- Strings used for accessibility for the items that toggles the drawer action  -->

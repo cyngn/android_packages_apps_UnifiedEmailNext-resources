@@ -718,7 +718,7 @@
   <!-- Text of dialog to turn auto-sync on [CHAR LIMIT=500] -->
   <string name="turn_auto_sync_on_dialog_body">As alterações efetuadas a todas as aplicações e contas, e não apenas ao Gmail, serão sincronizadas entre a web, os seus outros dispositivos e o seu <xliff:g id="phone_or_tablet">%1$s</xliff:g>.</string>
   <!-- Phone (vs. tablet) for describing this device [CHAR LIMIT=30] -->
-  <string name="phone">telemóvel</string>
+  <string name="phone">telefone</string>
   <!-- Tablet (vs. phone) for describing this device [CHAR LIMIT=30] -->
   <string name="tablet">tablet</string>
   <!-- Confirm button text for dialog to turn auto-sync on [CHAR

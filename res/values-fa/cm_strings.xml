@@ -42,10 +42,12 @@
   <string name="contextmenu_view_image">مشاهده تصویر</string>
   <!-- Formatting for the collapsed To header in the MessageHeaderView -->
   <plurals name="to_header">
+    <item quantity="one">و %d مورد دیگر</item>
     <item quantity="other">و %d مورد دیگر</item>
   </plurals>
   <plurals name="conversation_todo">
     <!-- Displayed while setting one conversation to-do -->
+    <item quantity="one">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; به عنوان برای انجام علامت‌گذاری شد.</item>
     <!-- Displayed while archiving multiple conversations -->
     <item quantity="other">&lt;b&gt;<xliff:g id="count">%1$d</xliff:g>&lt;/b&gt; به عنوان برای انجام علامت‌گذاری شد.</item>
   </plurals>
@@ -55,6 +57,7 @@
   <string name="new_incoming_messages_one">نمایش پیام جدید از طرف <xliff:g id="sender">%s</xliff:g>.</string>
   <!-- New Message notification text that appears over conversation view on incoming messages. Will only be used if there is more than one new message. [CHAR LIMIT=40] -->
   <plurals name="new_incoming_messages_many">
+    <item quantity="one">نمایش <xliff:g id="count">%1$d</xliff:g> پیام جدید.</item>
     <item quantity="other">نمایش <xliff:g id="count">%1$d</xliff:g> پیام جدید.</item>
   </plurals>
   <!-- Button name, displayed in dialogs [CHAR LIMIT=10] -->
@@ -90,6 +93,7 @@
   <string name="notification_action_delete">حذف</string>
   <!-- Notification message to the user upon new messages for a conversation. [CHAR LIMIT=120] -->
   <plurals name="new_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> پیام جدید</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پیام جدید</item>
   </plurals>
   <!--  Settings screen, Swipe actions preference title -->
@@ -108,6 +112,7 @@
   <string name="print">چاپ</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->
   <plurals name="num_messages">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> پیام</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> پیام</item>
   </plurals>
   <!-- Shown to display the date of the message [CHAR LIMIT=50] -->
@@ -120,6 +125,7 @@
   <string name="quoted_text_hidden_print">پنهان‌کردن متن نقل‌وقل</string>
   <!-- Number of attachments in a message [CHAR LIMIT=30]-->
   <plurals name="num_attachments">
+    <item quantity="one"><xliff:g id="count">%1$d</xliff:g> ضمیمه</item>
     <item quantity="other"><xliff:g id="count">%1$d</xliff:g> ضمیمه</item>
   </plurals>
   <!-- Title to display when an email has no subject. [CHAR LIMIT=50]-->
@@ -180,11 +186,13 @@
   <string name="marked_done">علامت‌گذاری‌شده به‌عنوان انجام‌شده</string>
   <plurals name="quick_response_sent">
     <!-- Quick respond to 1 conversation -->
+    <item quantity="one">پاسخ ارسال شد</item>
     <!-- Quick respond to several conversations -->
     <item quantity="other">پاسخ ارسال شد</item>
   </plurals>
   <plurals name="liked_message">
     <!-- Like 1 conversation -->
+    <item quantity="one">پیام‌های پسندیده‌شده</item>
     <!-- Like several conversations -->
     <item quantity="other">پیام‌های پسندیده‌شده</item>
   </plurals>
@@ -272,6 +280,7 @@
   <string name="calendar_attendees_me_only">من</string>
   <!-- Attendee text when there are additional attendees. -->
   <plurals name="calendar_attendees">
+    <item quantity="one">من و %d مورد دیگر</item>
     <item quantity="other">من و %d مورد دیگر</item>
   </plurals>
   <!-- Accompanies the date/time for all day events. -->
@@ -286,6 +295,7 @@
   <string name="busy">مشغول</string>
   <string name="available">در دسترس</string>
   <plurals name="other_conflicts">
+    <item quantity="one">%d مورد بحث دیگر</item>
     <item quantity="other">%d مورد بحث دیگر</item>
   </plurals>
   <string name="meeting_invitation">خلاصه دعوت:</string>
