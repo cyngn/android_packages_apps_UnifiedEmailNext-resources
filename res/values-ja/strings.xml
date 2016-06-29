@@ -612,7 +612,7 @@
   <!-- Format string used when displaying the title of a notification that was triggered by a single new conversation. [CHAR LIMIT=120] -->
   <string name="single_new_message_notification_title"><xliff:g id="SENDER">%1$s</xliff:g>: <xliff:g id="SUBJECT">%2$s</xliff:g></string>
   <!-- Settings screen, what to display for Ringtone when the user chooses "silent" [CHAR LIMIT=100]-->
-  <string name="silent_ringtone">マナーモード</string>
+  <string name="silent_ringtone">サイレント</string>
   <!-- Settings screen, preference name for archive vs. delete [CHAR LIMIT=50] -->
   <string name="preference_removal_action_title">アーカイブ/削除操作</string>
   <!-- Options to select from for whether to have archive or delete as the remove action [CHAR LIMIT=50] -->
