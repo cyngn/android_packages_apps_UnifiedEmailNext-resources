@@ -101,13 +101,13 @@
   <!--  Settings screen, Swipe actions preference summary -->
   <string name="preferences_swipe_actions_summary">Tilpasse venstre og høyre dra handlinger</string>
   <!--  Settings screen, Swipe actions, Left short preference title -->
-  <string name="preferences_swipe_left_short_title">Venstre kort swipe</string>
+  <string name="preferences_swipe_left_short_title">Venstre kort sveip</string>
   <!--  Settings screen, Swipe actions, Left long preference title -->
-  <string name="preferences_swipe_left_long_title">Venstre lange sveip</string>
+  <string name="preferences_swipe_left_long_title">Venstre langt sveip</string>
   <!--  Settings screen, Swipe actions, Right short preference title -->
-  <string name="preferences_swipe_right_short_title">Rett kort sveip</string>
+  <string name="preferences_swipe_right_short_title">Høyre kort sveip</string>
   <!--  Settings screen, Swipe actions, Right long preference title -->
-  <string name="preferences_swipe_right_long_title">Høyre lang sveip</string>
+  <string name="preferences_swipe_right_long_title">Høyre langt sveip</string>
   <!-- Menu item text to that when clicked will allow a user to print an email conversation. [CHAR LIMIT=25] -->
   <string name="print">Skriv ut</string>
   <!-- Number of messages in a conversation [CHAR LIMIT=30]-->

@@ -528,7 +528,7 @@
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=50]-->
   <string name="sync_error">同期できませんでした。</string>
   <!-- Dialog title when a sync error occurs. [CHAR LIMIT=100]-->
-  <string name="sync_error_message">お使いの端末には十分な空き容量がないため同期できません。</string>
+  <string name="sync_error_message">お使いの端末に十分な空き容量がないため同期できません。</string>
   <!-- Button text for the button to click to go to the manage storage settings screen. [CHAR LIMIT=20]-->
   <string name="storage">容量</string>
   <!-- Token used as a divider between senders -->
